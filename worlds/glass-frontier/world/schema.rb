@@ -366,6 +366,56 @@ naming_lexicon do
   extension "Read the relevant canon and neighboring names, define the new word's meaning or the new family's morphology, and add its first canonical examples and boundary in the same change. Put claims about in-world language or naming history in the Encyclopedia entry that owns them."
   extension "Do not stretch an existing word beyond its meaning to avoid extending the lexicon. A lone subject may need a distinctive proper name without creating a productive root; declare a new root or pattern when it can organize a coherent family."
 
+  word :istrava,
+       meaning: "The coastal region on Korvath's warm middle sea whose independent cities formed the Istravan League.",
+       use: "Istrava names the region; Istravan identifies its people, works and institutions.",
+       examples: ["Istrava", "Istravan League", "Istravan coast"],
+       boundary: "Do not use it for all Korvath or for every ally fighting in the coastal conflict."
+  word :ithara,
+       meaning: "The modern survey name of a Lithren ruin group; Itharan identifies the local pattern-keeping tradition evidenced there.",
+       use: "Use the adjective for people and works connected by evidence to that local tradition.",
+       examples: ["Ithara", "Itharan Pattern Keeping", "Itharan recoveries"],
+       boundary: "It does not name a species, every ancient Lithren society, or a settled origin of resonance."
+  word :varal,
+       meaning: "The Lithren recovery trade's name for a forming bed whose independently positioned ceramic rods make a reusable contour die.",
+       use: "Use for the evidenced construction, its rod beds and work made with them.",
+       examples: ["Varal", "a varal bed", "Eveli's varal rods"],
+       boundary: "Not a name for every press, ancient workshop or machine that recreates a shape; the device reshapes supplied stock mechanically."
+  word :ulen,
+       meaning: "A recovered Lithren balancing frame with nested rockers that distributes a moving load among separately adjustable counterweights.",
+       use: "Use for this mechanism and its gate, lifting and workshop assemblies.",
+       examples: ["Ulen", "ulen rockers", "the Ninth Leaf's ulen frame"],
+       boundary: "Not gravity control, powered lifting or a name for every counterweight; the nested frame exchanges finite mechanical work."
+  word :istril,
+       meaning: "A salvaged Lithren metal laminate whose fine bonded layers spread heat along the sheet while resisting transfer across its faces.",
+       use: "Use for the material, its grades and the recovered sheets worked into heat spreaders or reflective linings.",
+       examples: ["Istril", "istril folds", "the Oravel Hanging's istril"],
+       boundary: "Not ringglass, a source of heat or a generic name for ancient metal; its behavior depends on intact oriented layers."
+  word :vair,
+       meaning: "A recovered Lithren optical work array whose linked surfaces direct supplied light onto selected workpiece paths.",
+       use: "Use for these arrays, their setting bars and optical branches.",
+       examples: ["Vair", "vair settings", "Lethai's vair branches"],
+       boundary: "Requires the linked optical construction; not a generic light, projector, archive or source of energy."
+  word :nel,
+       meaning: "A Lithren service carriage with paired gripping feet and a cam that repeats a tool movement along fitted track.",
+       use: "Use for recovered and adapted carriages sharing this construction.",
+       examples: ["Nel", "nel track", "Sovan's nel cam"],
+       boundary: "Not a name for every automaton or creature; track, gait and mechanically encoded sequence define the type."
+  word :sevril,
+       meaning: "The Lithren rigging trade's name for translucent ceramic-fiber cord with a protective matrix and a broad load-sharing weave.",
+       use: "Use for the cords, bands, recovered lengths and supporting fittings built for them.",
+       examples: ["Sevril", "sevril bands", "Eneth's sevril saddles"],
+       boundary: "Not any strong fiber or invisible force; its tensile behavior depends on sound strands, broad bends and preserved protection."
+  word :ovri,
+       meaning: "Lithren's living seep mats, whose microbial association builds flexible mineral skins around retained brine.",
+       use: "Use for the organism and its skins, brine and dead crust, distinguished in specimen work.",
+       examples: ["Ovri", "Kavren's ovri skins", "ovri brine"],
+       boundary: "Requires the living association or material produced by it; not any purple mineral, cold fungus or ancient manufactured lining."
+  word :hesh,
+       meaning: "The lifting and resealing of Lithren's frozen covers over confined gas, temporarily exposing the ground beneath them.",
+       use: "Use for this recurring condition and its moving roofs and vent mouths.",
+       examples: ["Hesh", "Kavren's hesh pocket", "a hesh mouth in the Vannor Account"],
+       boundary: "Requires gas pressure beneath a retaining frozen cover; not every collapse, cavern, fault or ancient machine."
   word :resonance,
        meaning: "The ambient force carried and shaped through the Kaleidos system.",
        use: "The central productive term for effects, instruments, practices, and failures that directly concern that force.",

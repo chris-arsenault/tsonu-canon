@@ -1,5 +1,6 @@
 installation :hab_meridian do
   name "Hab Meridian"
+  log "2026-09-15 — Bounded the torus description to Meridian; habs do not share one required shape."
   summary "Hab Meridian is a ring habitat in the Glass Frontier that preserves one inhabited arc as a working museum of the early Rekindling."
   playable_as :chronicle_location
   context_tags :sealed_hab, :archive
@@ -45,7 +46,7 @@ installation :hab_meridian do
     The hab's continuing relationship with Glasswake is one of the closest cross-orbit partnerships in the system. Trade flows freely between them. Delegations cross at the major civic anniversaries. The two communities' children study each other's histories as a matter of course. Their formal relationship consists of trade, education, and civic exchange; Meridian reserves most of its commemoration for the Period Arc.
   PROSE
   prose <<~PROSE, section: :atmosphere, heading: "The Period Arc"
-    A ring hab is a torus, and Hab Meridian's habitable interior is divided into two roughly equal arcs by old structural seams. The Period Arc is one of them.
+    Hab Meridian is a torus. Its habitable interior is divided into two roughly equal arcs by old structural seams. The Period Arc is one of them.
 
     The Period Arc is the museum.
 

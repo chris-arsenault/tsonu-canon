@@ -105,7 +105,7 @@ faction :echo_ledger_conclave do
 
     The Bloom containment work has raised their profile. Before the Silent Bloom, the Conclave was a niche academic institution. Now they're a faction with practical relevance to the system's biggest ongoing crisis. Some senior archivists are uncomfortable with this. Others are enjoying it more than they'd admit.
 
-    #{ref :lira_vashtenri, "Lira Vashtenri"} left the Conclave to join the #{ref :displacement_council, "Displacement Council"}, taking her resonance expertise with her. The Conclave considers this a personal betrayal dressed up as public service. Lira considers it the most useful thing she's ever done. They are both correct.
+    #{ref :lira_vashtenri, "Lira Vashtenri"} developed containment from her Coremark refinery work and later founded the #{ref :displacement_council, "Displacement Council"}'s containment operations. She was never a Conclave member. Their relationship rests on the stillwater supply her damping buoys require; prices and access remain recurring disputes.
   PROSE
 
   gm_note :appears, "Outside #{ref :sable_crescent, "Sable Crescent"} the Conclave arrives as a retrieval cell: four to six archivists with a contracted #{encyclopedia_ref :resonant_tuner, "Tuner"}, a chartered transport, and the funds to buy the thing the party came for before the party reaches it."

@@ -9,6 +9,7 @@ installation :gray_line do
   tags :orbital, :danger, :resonance, :"ring-hab"
   prominence :marginal
   status :complete
+  log "2026-09-15 — The elven read-in remains a hidden fact, now in a DM block rather than the public registry description."
 
   descriptive_identity(
     setting:
@@ -40,8 +41,12 @@ installation :gray_line do
     Dern Talish served most of her field career at Gray Line. #{ref :iro_senn, "Iro Senn"}, who worked the same watches, now leads the station.
   PROSE
 
+  prose <<~PROSE, section: :truth, heading: "The Handover Room", dm: true
+    Oram Sells used the registry room to brief Dern Talish on the hidden elven contact before his death. The families who inspect the public records do not know that history.
+  PROSE
+
   prose <<~PROSE, section: :present_day, heading: "The Registry Room"
-    One sealed room holds the surviving Latch registry, recovery requests, and objects brought back from the outer service arc. Families may inspect the records but cannot authorize a crossing. The room also carries a private significance known only to the First Threshold: Oram Sells used it to brief Dern on the hidden elven contact before his death.
+    One sealed room holds the surviving Latch registry, recovery requests, and objects brought back from the outer service arc. Families may inspect the records but cannot authorize a crossing.
   PROSE
 
   gm_note :appears, "Families come to Gray Line to read the surviving Latch registry and leave recovery requests, " \

@@ -6,9 +6,10 @@ era :signal_famine do
   tags :isolation, :catastrophe, :divergence, :archives
   prominence :mythic
   structural true
+  log "2026-09-15 — Removed the hundreds-of-communities limit from the account of isolation to match the hab scale; retained the era boundaries and local consequences."
 
   prose <<~PROSE
-    The Signal Famine began with the Glassfall in 2140 and ended with the first sustained reconnection in 2305. The broken ring could no longer carry reliable communication or distribute the services that had tied the system together. Hundreds of communities lived for #{elapsed :the_glassfall, :the_rekindling} without knowing which neighbors had survived.
+    The Signal Famine began with the Glassfall in 2140 and ended with the first sustained reconnection in 2305. The broken ring could no longer carry reliable communication or distribute the services that had tied the system together. Communities across the ring and the planetary settlements lived for #{elapsed :the_glassfall, :the_rekindling} without knowing which neighbors had survived.
 
     Isolation reached beyond messages. A settlement that lost a pump specialist, seed archive, legal register, or tuning instrument could not request another. Communities rebuilt the missing work from surviving people and local material. Some preserved ring institutions under new names. Others prohibited practices whose failures had killed their first post-Glassfall generation.
   PROSE

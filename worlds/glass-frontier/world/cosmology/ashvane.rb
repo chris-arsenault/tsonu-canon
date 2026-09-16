@@ -67,6 +67,9 @@ geographic_location :ashvane do
 
     Clothing favors pale outer layers over bright inner cloth revealed in shade. Ceramic and glazed stone are common household materials. Communal ovens use heat already collected from workshops, and evening food markets gather along the return channels. A visitor who praises the free fuel is quickly told what the pumps and radiator crews cost.
   PROSE
+  prose <<~PROSE, section: :present_day, heading: "Sereva's Expedition"
+    #{ref :sereva, "Sereva"}, an association of highland towns, received households from the #{ref :velisar_evacuation, "Velisar evacuation"} in 2418. Its expedition now travels to Istrava to recover captives and secure a relief route. #{ref :hareth, "Hareth"} commands the arriving soldiers and mechanics; the towns retain their governments and need those crews to return.
+  PROSE
   prose <<~PROSE, section: :trade, heading: "The Far End of the Keel"
     The Keel brings ringglass, precision parts, medicine, and passengers. Ashvane sends out ceramic, salts, basalt products, heat-rated machinery, and food preserved in its dry air. The route concentrates wealth and bureaucracy around Shadewell, but smaller towns trade across the moon through #{encyclopedia_ref :ashvane_dray, "Ashvane drays"} and short-range kites.
 

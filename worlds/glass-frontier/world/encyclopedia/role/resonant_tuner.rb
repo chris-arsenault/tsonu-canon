@@ -5,6 +5,7 @@ encyclopedia :resonant_tuner do
   kind :role
   subkind :profession
   status :complete
+  log "2026-09-15 — Removed the unsupported hundreds-of-communities limit from the account of independent Famine-era discovery."
   reviewed "2026-03-19"
   topics :resonance, :training, :"social-structure"
   prevalence :uncommon
@@ -45,7 +46,7 @@ encyclopedia :resonant_tuner do
     - **Wildfelt** — the folk term for practitioners who trusted direct sensation under unstable conditions.
     - **Reckless** — the name used in communities where early experiments killed practitioners or bystanders.
 
-    The first generation spans the entire Famine — #{elapsed :the_glassfall, :the_rekindling} of independent discovery across hundreds of isolated communities. Some techniques became foundations of modern practice. Others ended with the practitioners who tested them. Regional traditions preserve that independent development, and the #{ref :clarisant, "Clarisant"} compares them through common examinations and safety standards.
+    The first generation spans the entire Famine — #{elapsed :the_glassfall, :the_rekindling} of independent discovery across isolated communities. Some techniques became foundations of modern practice. Others ended with the practitioners who tested them. Regional traditions preserve that independent development, and the #{ref :clarisant, "Clarisant"} compares them through common examinations and safety standards.
   PROSE
   prose <<~PROSE, section: :structure, heading: "The Clarisant"
     The guild. Headquartered on #{ref :pelhari, "Pelhari"}, a moon of the seventh planet — far enough from the distorted space of #{ref :the_shear, "the Shear"} and the ring debris field that resonance practice is cleaner, more predictable, more suited to structured training. Satellite offices operate across the system, in Sithari, in major ring habs, on outer-system stations.

@@ -46,7 +46,7 @@ npc :lira_vashtenri do
 end
 
 relate :rel_lira_designed_liras_wall, :designed, :lira_vashtenri, :liras_wall do
-  prose "Lira Vashtenri designed #{ref :liras_wall, "Lira's Wall"} — the containment architecture that made the Bloom Zones survivable, built from scratch by someone who left the archives to do it."
+  prose "Lira Vashtenri designed #{ref :liras_wall, "Lira's Wall"} — the containment architecture that made the Bloom Zones survivable, developed from her work maintaining Coremark's refinery arrays."
 end
 relate :rel_lira_member_of_displacement_council, :member_of, :lira_vashtenri, :displacement_council, since: 2384 do
   prose "She built her containment operation into what became the #{ref :displacement_council, "Displacement Council"}, and has run inside it ever since."

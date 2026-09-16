@@ -16,12 +16,15 @@ ability :great_restorer do
     limits: "A surviving pattern determines the return, including old flaws and harmful contents. Contradictory complete states require one to be chosen and the other to remain lost."
   )
 
-  question "Who is the present or most recently attested Great Restorer, and which disclosed preserved loss established the last succession?", raised: "2026-08-31"
+  log "2026-09-15 — Eris Talven received the mantle after Mera Senn returned Ruvian in 2429, permanently lost depth perception and disclosed the preserved omission. Eris assembled the witnesses; Mera performed the return."
 
   prose <<~PROSE
     The Great Restorer gathers scattered patterns into one composite return. With enough witnesses, the bearer can call a shattered vessel from its debris, recover an archive from readers and burned substrate, or return a district from its foundations, records, tools, and surviving inhabitants. The mantle makes that assembled state authoritative over the later damage.
 
     Every return has a source. Fragments carry shape and material; living bodies carry scars, nerve paths, and remembered motion; archives survive through copies, checks, impressions, and people who learned their contents. Restorers lay out those witnesses before large work because their agreement determines the state that comes back. A confident account with no surviving pattern contributes nothing to the working.
+  PROSE
+  prose <<~PROSE, section: :present_day, heading: "Eris Talven"
+    #{ref :eris_talven, "Eris Talven"} is the present bearer. His predecessor completed the #{ref :ruvian_return, "return of Ruvian"} in 2429 and disclosed its missing bow gallery and her lost depth perception before the mantle passed. Eris now prepares a return at #{ref :ithara, "Ithara"}.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Competing Returns"
     Large subjects often preserve more than one complete state. Two archives may hold incompatible final copies. A population may remember two borders, each carried by roads, records, and homes. A vessel's emergency reconstruction can be newer and less complete than its original body. The mantle can make one state physical. People contest a proposed restoration by producing another surviving witness and showing what the chosen return would remove.

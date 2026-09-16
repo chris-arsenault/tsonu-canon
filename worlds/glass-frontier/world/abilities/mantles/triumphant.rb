@@ -16,12 +16,15 @@ ability :triumphant do
     limits: "The purpose must be understood and physically expressible. The mantle amplifies existing ability, divides along incompatible meanings, and releases anyone who knowingly abandons the words."
   )
 
-  question "Who is the present or most recently attested Triumphant, and what public declaration carried the mantle to them?", raised: "2026-08-31"
+  log "2026-09-15 — Veska Ral is the most recently attested bearer in the Istravan record, qualified in 2414 and killed by the cost of the completed 2418 evacuation. No present successor is assigned."
 
   prose <<~PROSE
     The Triumphant draws a willing company, vessel, army, fleet, or city into one declared purpose. A routed defense can stand, a crippled fleet can complete a maneuver, or a city can lift fallen structures and carry its wounded while a disaster advances. Every participant receives only the strength, precision, or endurance that serves the shared words.
 
     The bearer speaks at ordinary volume and the declaration answers from every participating voice, engine, and weapon. Heat brightens along veins and seams; movement loses waste; warning gauges hold at their stops. The mantle sharpens judgment and capacity already present. An untrained hand remains unable to fly, and an empty weapon remains empty.
+  PROSE
+  prose <<~PROSE, section: :history, heading: "Veska Ral"
+    #{ref :veska_ral, "Veska Ral"} qualified in 2414 through a finite public convoy rescue and survived its cost. She died after completing the #{ref :velisar_evacuation, "Velisar evacuation"} in 2418, when its accumulated injuries entered her. The Istravan record names no later bearer.
   PROSE
   prose <<~PROSE, section: :language, heading: "Words With an End"
     A declaration must name an act that can finish. *Survive* supplies no end. *Keep the eastern docks open until the last evacuation kite clears* can hold thousands of people and machines. Living subjects must understand the words; machines must be able to embody them as physical work. Witnesses repeat the declaration before large workings so its boundaries are public.

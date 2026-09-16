@@ -1,0 +1,55 @@
+thread :paths_taken_away do
+  name "The Paths Taken Away"
+  summary "Removed ancient patterns lead crews from Ithara toward scattered ruins, while journeys for profit, independence and discovery establish new camps and loyalties."
+  subkind :story_thread
+  status :complete
+  log "2026-09-15 — Extended present-day journeys across a dispersed frontier. Ancient departure trails are one reason to travel; independent work and threats do not require Selven or the gate return."
+
+  prose <<~PROSE
+    The people who crossed #{ref :sahels_breach, "Sahel's Breach"} carried some fitted pieces away and destroyed others. Elsewhere on #{ref :lithren, "Lithren"}, collections were dismantled while useful works remained. These finds can describe different departures. They do not establish a single evacuation or an off-world destination.
+
+    #{ref :osen, "Osen"} wants a vessel and an independent crew to follow the removed witnesses. #{ref :nereth_valis, "Nereth Valis"} wants comparisons that can connect one departure to another place. #{ref :selven_iral, "Selven Iral"} seeks parts capable of completing defensible works. Each has a reason to leave Ithara and to return with something more than an account of the journey.
+
+    A destination requires evidence: matching parts, a witnessed transfer, or a route with surviving termini. In 2435 #{ref :ivara, "Ivara"}'s cargo identified one removed load at Damarat. Its carriage can serve new travelers after repair. That arrival does not establish the departing people's final destination or explain the civilization's end.
+
+    The present expeditions also create departures. Crew members can leave Selven for Osen, remain to use a recovered workshop or carry a useful tool home. Those decisions change who knows a route and who will welcome its next travelers.
+  PROSE
+
+  prose <<~PROSE, section: :present_day, heading: "Journeys From Ithara"
+    Departures shaped the settlement before its present name. #{ref :vedra, "Vedra"} gave up a ship's mobility to keep people on the planet; families later sold rooms to leave when collector traffic contracted. Ressa's grandmother made money supplying those who stayed. An inherited room, a passage paid with tools and a childhood spent here can carry different reasons to return.
+
+    The collections, traffic and comparative work at #{ref :ithara, "Ithara"} have drawn people who can earn a living carrying, buying and repairing for expeditions. The settlement now supports departures its original investigators neither commission nor direct. A profitable find pays for another voyage; a camp gains customers; a crew keeps its route private until it has recovered what it came for.
+
+    Some journeys follow ancient transfers. Others begin with an exposed wall, a promising sample, a buyer's offer or friends who want to settle beyond a company's reach. Known satellites have traffic of their own. A crew may return to Ithara with nothing to sell and still bring an observation for which a scientist will fund the next visit.
+
+    Traffic also gives thieves people to follow. A robber may want only a cargo or a ship. An expedition may seize a cut to monopolize its recoveries. Crews defend themselves, hire escorts or seek neighbors willing to help, and the resulting loyalties can outlast the disputed find. People who share a meal in Ithara can depart together for different reasons.
+
+    Passage can decide which of those ambitions gets a chance. A wealthy expedition reserves a ship while an independent crew waits for spare capacity, accepts an unwelcome employer or sells part of a discovery to fund the journey. Someone who leaves a company may still depend on its carriers to reach the next camp. Acquiring a vessel changes whom a crew can refuse and whom it can bring along.
+
+    Shared danger also changes the company people keep. An outlaw and a survey crew can each possess something the other needs to escape a broken excavation. A rescue may reveal a route, begin a friendship or leave a debt between people still unwilling to share their finds. A robber who brings someone home can later ask for passage, and the person asked may remember both the rescue and the theft.
+
+    The #{ref :oravel_crossing, "Oravel Crossing"} brought #{ref :daret_valis, "Daret Valis"} and #{ref :tovin, "Tovin"} back with people each had reason to avoid. At #{ref :damarat, "Damarat"}, a functioning workshop now gives residents reasons to remain while #{ref :ilven_sarith, "Ilven Sarith"}'s removal offer could pay for their departure. Materials investigators follow manufacturing marks between sites; #{ref :tamet, "Tamet"} brings that knowledge into present work. Their journeys can intersect the removed ancient patterns without depending on that search.
+
+    At #{ref :anaret, "Anaret"}, #{ref :ysil, "Ysil"} seeks a route past the crew she left. The physician tending the captives needs that route to carry people who cannot climb it themselves. The #{ref :araket_seizure, "occupiers"} want a profitable departure; Selven offers help that could leave his own people holding the approach. Clearing one route changes who can leave and what the next expedition can bring in.
+  PROSE
+end
+
+relate :rel_paths_taken_away_fills_beat_sahels_breach, :fills_beat, :paths_taken_away, :sahels_breach
+
+relate :rel_paths_taken_away_fills_beat_osen, :fills_beat, :paths_taken_away, :osen
+
+relate :rel_paths_taken_away_fills_beat_nereth_valis, :fills_beat, :paths_taken_away, :nereth_valis
+
+relate :rel_paths_taken_away_fills_beat_selven_iral, :fills_beat, :paths_taken_away, :selven_iral
+
+relate :rel_paths_taken_away_fills_beat_ithara_return, :fills_beat, :paths_taken_away, :ithara_return
+
+relate :rel_paths_taken_away_fills_beat_ithara, :fills_beat, :paths_taken_away, :ithara
+
+relate :rel_paths_taken_away_oravel_crossing, :fills_beat, :paths_taken_away, :oravel_crossing
+relate :rel_paths_taken_away_damarat_removal, :fills_beat, :paths_taken_away, :damarat_removal
+
+relate :rel_paths_taken_away_araket_seizure, :fills_beat, :paths_taken_away, :araket_seizure
+relate :rel_paths_taken_away_ysil, :fills_beat, :paths_taken_away, :ysil
+relate :rel_paths_taken_away_sevrin_stand, :fills_beat, :paths_taken_away, :sevrin_stand
+relate :rel_paths_taken_away_ivara, :fills_beat, :paths_taken_away, :ivara

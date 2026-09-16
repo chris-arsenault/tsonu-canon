@@ -40,9 +40,14 @@ conflict :the_bitter_reach do
   prose <<~PROSE, section: :course, heading: "Routes and Embargoes"
     Most fighting followed #{ref :keel, "the Keel"} and the approaches joining surface ports to ring habitats. Third Arc Defense escorted pressure cargo and civilian signals through embargo zones. Vantara protected its stations and contracted convoys, then charged for access to routes its opponents considered common infrastructure. Continuity ministries supplied favored factions while Sithari remained formally open under city law.
 
-    Occupations were usually brief because a route station could be held more easily than supplied. Hinge Six became the best-known case: Third Arc Defense seized the relay to filter embargo traffic, and the station's own keepers shut it down. Similar refusals by dispatchers, repair crews, and receiving ports kept local victories from becoming durable control.
+    Occupations were usually brief because a route station could be held more easily than supplied. The earlier #{ref :hinge_six_occupation, "Hinge Six occupation"} in 2362 remained the best-known warning: Third Arc Defense had seized the relay to filter embargo traffic, and the station's keepers shut it down. Similar refusals by dispatchers, repair crews, and receiving ports kept local victories from becoming durable control.
   PROSE
 
+  prose <<~PROSE, section: :course, heading: "The Istravan Coast"
+    The #{ref :istravan_league, "Istravan League"} defended approaches on Korvath's warm middle sea. The #{ref :velisar_evacuation, "evacuation of Velisar"} in 2418 carried threatened households to refuges including Sereva on Ashvane. Veska Ral held the embarkation ground while Aren Talivar organized departures.
+
+    The league demobilized under Sava Neraleth in 2423. Those returned forces and surviving refuge commitments became part of the coast's peace; Aren's later seizure of Velisar belongs to a new conflict in 2435.
+  PROSE
   prose <<~PROSE, section: :limits, heading: "The Neutral Cordons"
     The #{ref :displacement_council, "Displacement Council"} kept Bloom cordons outside the war. It denied staging access to every faction, including forces carrying medicine or claiming pursuit. Gray Line closed its gates on Continuity, Vantara, and Third Arc convoys in turn.
 

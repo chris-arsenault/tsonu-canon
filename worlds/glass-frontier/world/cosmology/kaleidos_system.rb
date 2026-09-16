@@ -2,6 +2,7 @@ geographic_location :kaleidos_system do
   name "The Kaleidos System"
   summary "The Kaleidos system is a compact inhabited star system containing seven intact planets, the Fracture's planetary remains, and the broken ring around Kaleidos."
   log "2026-08-22 — Excluded as a chronicle location because the full star system cannot supply one local starting neighborhood."
+  log "2026-09-15 — Aligned the planetary overview with Korvath and Ashvane's existing local economies and institutions; distinguished transit time from access and removed inevitable pursuit from travel guidance."
   subkind :star_system
   path "player/cosmology/kaleidos-system.md"
   status :complete
@@ -29,10 +30,10 @@ geographic_location :kaleidos_system do
       "Station at the Kaleidos-sun point, so traffic is a network " \
       "rather than a set of separate worlds.",
     hazards:
-      "No destination is remote enough to disappear toward — anyone " \
-      "with a faster hull arrives first, and Lithren itself is only a " \
-      "week out. A multi-day crossing passes listening posts, caches, " \
-      "and other quiet operations whose owners notice traffic."
+      "Fast transit does not supply a berth, a safe approach or " \
+      "permission to land. A multi-day crossing can pass listening " \
+      "posts, caches and other quiet operations whose owners " \
+      "notice nearby traffic."
   )
 
   prose <<~PROSE
@@ -53,7 +54,7 @@ geographic_location :kaleidos_system do
 
     ### 3. #{ref :korvath, "Korvath"}
 
-    A comfortable rocky world, larger than Kaleidos. #{ref :coremark, "Coremark"}'s headquarters — close enough to Kaleidos nearspace that deep #{ref :the_shear, "Shear"} operations are logistically viable, far enough to be out from under Sithari's political shadow. The planet itself supports a moderate population with its own settlements and economy. Coremark's presence — first as a legitimate corporation, now as a criminal syndicate — casts a long shadow over local politics, though Korvath's own settlements and institutions hold their own.
+    A temperate world of river plains, old forests and cities connected by coastal shipping. Farms, fisheries, shipyards and ceramic works trade across the system under local port leagues, river boards and provincial courts. #{ref :coremark, "Coremark"} keeps its headquarters in the northern freight economy, where its influence meets uneven municipal resistance.
 
     ### 4. #{ref :vitrael, "Vitrael"}
 
@@ -61,7 +62,7 @@ geographic_location :kaleidos_system do
 
     ### 5. #{ref :ashenmaw, "Ashenmaw"}
 
-    A banded gas giant whose gravity heats several moons through tidal flexing. Its inhabited moon #{ref :ashvane, "Ashvane"} holds the outer terminus of #{ref :keel, "the Keel"}.
+    A banded gas giant whose gravity heats several moons through tidal flexing. On #{ref :ashvane, "Ashvane"}, settlements occupy shaded ridges and crater walls, growing food and making heat-rated machinery. The moon holds the outer terminus of #{ref :keel, "the Keel"} while maintaining local production and trade between its towns.
 
     ### 6. #{ref :the_fracture, "The Fracture"}
 
@@ -89,10 +90,10 @@ geographic_location :kaleidos_system do
     - Kaleidos to Lithren (planet 8): ~7 days (fast ship), longer for heavy transport
     - Fast scout ships can cut these significantly
 
-    The system is compressed enough that no destination is truly remote — just inconvenient. Lithren is the farthest, and even that is a week's journey, not a season's.
+    These times describe crossings between worlds. Reaching a particular community also depends on routes, supplies and permission to land. Lithren is about a week's journey by fast ship, but an expedition still needs a place to put down and equipment for work beyond its station.
   PROSE
 
-  gm_note :appears, "Distance here is counted in days: an adjacent world is one day by fast ship and #{ref :lithren, "Lithren"} is a week from Kaleidos. Nobody outruns a problem by leaving the planet, and anyone with a faster hull arrives before the party has finished explaining itself."
+  gm_note :appears, "An invitation from another world can fit into an ordinary journey: an adjacent planet is about a day away by fast ship and #{ref :lithren, "Lithren"} about a week from Kaleidos. Finding passage and arranging a welcome matter as much as the crossing time."
   gm_note :triggered_by, "Asked where someone in the system lives, the answer is often not a planet: ring habs, orbital stations, and #{ref :span_nine, "Threshold Station"} at the Kaleidos-sun point all hold real populations. A search that works down the list of eight worlds misses where people actually are."
   gm_note :complicates, "A multi-day crossing passes within reach of things that are not on a planet: listening posts, a #{ref :clarisant, "Clarisant"} retreat sited away from any planetary field, caches whose owners notice traffic. A crew running a straight line is still passing someone's doorstep."
 end

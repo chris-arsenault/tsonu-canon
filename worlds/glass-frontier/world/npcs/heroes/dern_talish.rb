@@ -15,7 +15,7 @@ npc :dern_talish do
   descriptive_identity disposition:
     "Talish listens more than she speaks and never raises her voice. She " \
     "asks a party what it needs and what it can give, works the gap " \
-    "between the two, and accepts water but never a meal."
+    "between the two, and accepts water rather than meals from parties whose disputes she may judge."
 
   prose <<~PROSE
     *First Threshold of the Displacement Council.*
@@ -25,7 +25,7 @@ npc :dern_talish do
     She does not enjoy the job. She is very good at it.
   PROSE
   prose <<~PROSE, section: :public_profile, heading: "Public Profile"
-    Talish is the face the Displacement Council shows the system. She appears at Accord mediations, addresses inter-settlement disputes that touch on Bloom Zone policy, and periodically tours the cordon stations to inspect operations and — more importantly — to be seen inspecting them. The Council's authority depends on the perception that it takes its work seriously and plays no favorites. Talish embodies this with a directness that some find reassuring and others find abrasive. She is in her late fifties, human, and carries the registration tattoo that all Bloom evacuees received, faded to near-invisibility on her left wrist. She has never had it removed.
+    Talish is the face the Displacement Council shows the system. She appears at Accord mediations, addresses inter-settlement disputes that touch on Bloom Zone policy, and periodically tours the cordon stations to inspect operations and — more importantly — to be seen inspecting them. The Council's authority depends on the perception that it takes its work seriously and plays no favorites. Talish embodies this with a directness that some find reassuring and others find abrasive. She is human, #{elapsed 2374} old, and carries the registration tattoo that all Bloom evacuees received, faded to near-invisibility on her left wrist. She has never had it removed.
   PROSE
   prose <<~PROSE, section: :public_profile, heading: "What People See"
     A quiet, compact woman who listens more than she speaks and whose silences are more informative than most people's sentences. She does not raise her voice. She does not negotiate from a position of ideology. When factions bring their grievances to the Council, Talish asks what they need, asks what they can give, and finds the gap between the two. Her authority comes from reliability rather than charisma — and from a neutrality, tested in the Bitter Reach, that nobody has been able to buy or break since.
@@ -39,9 +39,9 @@ npc :dern_talish do
 
   gm_note :appears, "A containment question anywhere in the mid-drift reaches Talish within a day. " \
                     "She sends a deputy first and comes herself when the deputy's numbers look wrong."
-  gm_note :triggered_by, "Offer her a meal and she takes water instead. " \
+  gm_note :triggered_by, "Offer her a meal while seeking an official decision and she takes water instead. " \
                          "Sharing a table is a closeness she does not extend to people " \
-                         "she may later have to rule against."
+                         "she may later have to rule against. She shares private meals with her old colleague Iro Senn."
   gm_note :complicates, "She answers with figures and gives them freely. Asked how a cordon " \
                         "held, she credits Council procedure and moves on to the next zone."
 

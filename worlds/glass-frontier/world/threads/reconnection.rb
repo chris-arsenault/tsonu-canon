@@ -4,6 +4,7 @@ thread :reconnection do
   path "dm/threads/reconnection.md"
   reviewed "2026-03-19"
   contains_dm true
+  log "2026-09-15 — Bounded Famine memory and communication taboos to participating communities, preserved refusal and local variation, and corrected the Accord framework's start to 2423."
 
   prose <<~PROSE
     *A fractured civilization remembers it was once whole — and discovers that "whole" no longer means what it used to.*
@@ -11,9 +12,9 @@ thread :reconnection do
     ---
   PROSE
   prose <<~PROSE, section: :description, heading: "The Emotional Core"
-    The Signal Famine was #{elapsed :the_glassfall, :the_rekindling} of not knowing who else survived. For small communities, this was existential — they weren't built to sustain themselves. For large communities like Sithari, it forged an identity of self-sufficiency that persists to this day. Both experiences left a deep, shared legacy: **communication is sacred.** Not as a political stance, but as a cultural given — the way free speech is a given, not a debate topic.
+    The Signal Famine was #{elapsed :the_glassfall, :the_rekindling} of broken long-distance contact. Communities that depended on lost supplies faced immediate danger. Others maintained local networks or self-sustaining environments. Sithari made self-sufficiency part of its civic identity. Among the communities whose survival improved with reconnection, communication acquired a lasting moral importance.
 
-    This fear of disconnection constrains everything that follows. The Contested Reach was tame because nobody wanted to risk the network. The Accord holds because the alternative is silence. The comm hub incident is the defining "line you don't cross" because crossing it threatens the one thing everyone agrees matters.
+    Fear of renewed disconnection constrained fighting along the restored routes. The Hinge Six occupation demonstrated the cost of interfering with civilian messages. Participants carried that experience into the Accord, but communities outside those routes did not all acquire the same obligations or fears.
 
     ---
   PROSE
@@ -21,10 +22,10 @@ thread :reconnection do
     ### Beat 1: The Severance
     **Era:** 2140 CE | **Filled by:** #{ref :the_glassfall, "The Glassfall"}
 
-    The ring shatters. Communications collapse instantly. Every community is suddenly alone.
+    The ring shatters. Long-distance ring communications collapse. Communities dependent on those links lose contact; coastal and other surviving local networks continue on worlds such as Korvath.
 
     **Effect:** Immediate infrastructure crisis.
-    **Consequence:** Communities must survive independently or die.
+    **Consequence:** Communities deprived of essential supplies must develop replacements or obtain help through surviving local routes.
     **Downstream:** Two divergent survival strategies emerge (Beat 2).
 
     ---
@@ -32,15 +33,15 @@ thread :reconnection do
     ### Beat 2: The Divergence
     **Era:** 2140–2305 CE | **Filled by:** Signal Famine (era)
 
-    #{elapsed :the_glassfall, :the_rekindling} of isolation produces two kinds of communities:
+    Two responses to #{elapsed :the_glassfall, :the_rekindling} of isolation shaped the later reconnection:
 
-    **Small communities** face genuine resource crisis. They weren't built to be self-sufficient. Many fail. The ones that survive develop deep traditions of mutual aid, resourcefulness, and — eventually — rituals and festivals celebrating connection.
+    **Communities deprived of essential supplies** face genuine resource crisis. Many fail. Survivors develop local means of provision and traditions of mutual aid; some later establish rituals and festivals celebrating restored contact.
 
     **Large communities** (Sithari, others) stabilize through institutional strength. #{ref :sithari, "Sithari"} and #{ref :the_continuity, "The Continuity"} flourish precisely because they don't need anyone else. Self-sufficiency becomes identity, not just survival strategy.
 
-    **Effect:** Every community develops independently — different governance, different culture, different relationship with resonance.
+    **Effect:** Separated communities develop different governments, cultures and relationships with resonance; surviving local networks retain exchanges of their own.
     **Consequence:** When they reconnect, they discover they've become strangers (Beat 5).
-    **Downstream:** The fear of disconnection becomes a cultural inheritance that constrains all future conflict (Beats 7, 8). Small-community reconnection traditions persist as cultural texture. Sithari's self-sufficient pride becomes both strength and source of resentment.
+    **Downstream:** Fear of disconnection becomes a cultural inheritance among many participants in the restored networks (Beats 7, 8). Reconnection traditions persist locally. Sithari's self-sufficient pride becomes both strength and source of resentment.
 
     ---
 
@@ -51,7 +52,7 @@ thread :reconnection do
 
     **Emotional beat:** Disbelief → data starts flowing → confirmation it's real → joy. Not universal — some people react with suspicion — but the dominant response is joy.
     **Effect:** Proves reconnection is possible.
-    **Consequence:** Accelerates efforts everywhere. Every community with salvaged equipment starts trying.
+    **Consequence:** Communities that hear of the exchange begin further attempts with salvaged equipment; others remain beyond the returning signals or choose not to answer.
     **Downstream:** Glasswake becomes historically famous and practically unremarkable (Beat 9). The transmitter technology is crude — this is improvised, not restored infrastructure. Sets the baseline that the Span (Beat 4) will dramatically exceed.
 
     ---
@@ -87,8 +88,8 @@ thread :reconnection do
 
     Meridian's crop failure made the first restored signal materially useful. Glasswake sent living soil and varied root stock; Meridian returned tuned components. Their improvised environmental manifests became the basis for later living-cargo runs.
 
-    **Effect:** Economic interdependence. Communities that were self-sufficient during the Famine become dependent on trade.
-    **Consequence:** Disconnection would now hurt MORE than during the Famine — communities have forgotten how to do without.
+    **Effect:** Some participating communities become dependent on restored trade. Others retain local provision while adding exchanges.
+    **Consequence:** Renewed disruption threatens communities that replaced local provision with imports. Self-sustaining communities can respond differently.
     **Downstream:** Vantara's infrastructure (beacons, waystations, rescue) becomes invisible essential service — threatening it during the Reach feels like threatening the water supply (Beat 7). Trade dependency provokes a backlash movement advocating Famine-era self-sufficiency as a virtue. The Keel's economic importance makes it worth fighting over AND worth protecting.
 
     ---
@@ -96,9 +97,9 @@ thread :reconnection do
     ### Beat 7: The Constrained Conflict
     **Era:** 2340–2378 | **Filled by:** The Contested Reach (era), #{ref :shardfall, "Shardfall"}, #{ref :coriolis_breach, "Coriolis breach"}, #{ref :hinge_six_occupation, "Hinge Six Occupation"}
 
-    Disputes over routes, resources, hab sovereignty. But the violence is always limited by the **fear of disconnection:**
+    Disputes over routes, resources and hab sovereignty run against a strong taboo on disrupting civilian communication along the reconnected routes:
 
-    - Nobody fights near civilian communication infrastructure
+    - Fighting near civilian communication infrastructure brings opposition from those who rely on it
     - Remote mining rigs are fair game — they're already disconnected
     - Vantara's trade infrastructure is treated as off-limits by unspoken agreement
 
@@ -125,18 +126,18 @@ thread :reconnection do
     ---
 
     ### Beat 9: The Framework
-    **Era:** 2365–present | **Filled by:** #{ref :tempered_accord, "Tempered Accord"}
+    **Era:** 2423–present | **Filled by:** #{ref :tempered_accord, "Tempered Accord"}
 
-    Born from exhaustion, pragmatism, and the Bloom cooperation's proof of concept. Not a government — a mediation structure. Free communication is a cultural given baked into it, not a provision that needs defending.
+    Born from exhaustion, pragmatism, and the Bloom cooperation's proof of concept. Not a government — a mediation structure. Free communication is a commitment of its participating settlements, maintained through their conduct and enforcement.
 
-    **Downstream:** The Accord holds because the alternative is the Famine's silence, and everyone knows it. Sithari's structural advantages (Span access, institutional strength) are resented but accepted because the alternative is worse.
+    **Downstream:** Participants value mediation partly because they remember the costs of disrupted contact. Sithari's Span access and institutional strength remain sources of disagreement; membership does not settle every dispute or erase local authority.
 
     ---
 
     ### Beat 10: The Unfinished Edge
     **Era:** Present–future | **Unfilled**
 
-    Far-drift habs are being discovered. New communities that didn't participate in any of this — no Famine trauma, no Reconnection joy, no Contested Reach constraints, no Bloom cooperation. They don't share the cultural inheritance that holds the system together.
+    Far-drift habs are being discovered. Some communities did not participate in the restored networks, the Contested Reach or the Bloom Coalition. Their experience of isolation differs, and their residents may welcome visitors, limit exchange or decline contact. Arriving crews cannot assume shared memories or a wish to join their institutions.
 
     **The open question:** What happens when the system contacts a community that doesn't value communication the way the reconnected world does? What happens when "the Famine was terrible" doesn't resonate because they never experienced it?
 

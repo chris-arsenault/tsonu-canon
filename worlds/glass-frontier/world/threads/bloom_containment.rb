@@ -1,5 +1,6 @@
 thread :bloom_containment do
   name "Thread: The Bloom Containment"
+  log "2026-09-15 — Preserved containment history and current pressures while removing guaranteed future collapse."
   subkind :story_thread
   path "dm/threads/bloom-containment.md"
   reviewed "2026-03-18"
@@ -123,7 +124,7 @@ thread :bloom_containment do
     ---
 
     ### Beat 9: The Fracture
-    **Era:** 2396–2423 | **Filled by:** #{ref :the_bitter_reach, "The Bitter Reach"}
+    **Era:** 2396–2407 dissolution and renewed disputes; 2407–2423 war | **Filled by:** #{ref :the_bitter_reach, "The Bitter Reach"}
 
     The Bloom stabilizes. The existential pressure eases. Old disputes resurface, sharpened by debts from the cooperation. The Lumenshard gets it worst: "You didn't show up until it was at your door." Coremark goes underground — their infrastructure and personnel become a criminal network. The same "move fast" culture that caused the Bloom now drives a black market in Bloom Zone artifacts and duskgrain.
 
@@ -142,7 +143,7 @@ thread :bloom_containment do
 
     **Callback ← Beat 1 / Knowledge Decay Loop:** Someone is making Coremark's old arguments. Ringglass demand is growing. The Compact's regulations slow supply. The same logic, different speakers. "That's what they said about Pyre" is losing its weight with people who weren't alive when Pyre burned.
 
-    **Forward pressure:** The Bloom Zones expand. The Council can't hold forever. Duskgrain enters the economy. The Adversary seeps through. [DM] Something will break — either containment, or the political will to maintain it.
+    **Forward pressure:** Expanding zones place further demands on the Council's people and equipment. Duskgrain enters the economy. The Adversary seeps through. [DM] Recruitment, new containment work and decisions about supply can change how the Council meets those pressures; neither the loss of containment nor the withdrawal of support is settled.
 
     ---
   PROSE

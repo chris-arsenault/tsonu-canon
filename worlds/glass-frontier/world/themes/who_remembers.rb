@@ -3,9 +3,10 @@ theme :who_remembers do
   subkind :narrative_theme
   path "dm/themes/who-remembers.md"
   reviewed "2026-03-18"
+  log "2026-09-15 — Broadened memory's stakes to recognition, privacy and interpretation; retained the dangerous-disclosure examples without making catastrophe the universal test."
 
   prose <<~PROSE
-    *The razor-thin difference between sharing knowledge that saves and sharing knowledge that destroys.*
+    *Decisions about preserving, sharing and interpreting memory.*
 
     ---
   PROSE
@@ -14,12 +15,12 @@ theme :who_remembers do
 
     Stillwater is the opposite — purified Echo River water that functions as infinite data storage, writable and readable by signal-band Tuners. Controlled, owned, tradeable. The gap between the rivers (uncontrollable) and stillwater (controlled) is where the politics of memory happens.
 
-    The Echo Ledger Conclave sits in that gap. They catalogue what the rivers surface, decide who gets access, and have successfully resisted three Accord attempts to mandate broader access. The elves decided to erase their own detailed history while leaving the broad strokes — the most deliberate act of memory control in the system's history. The Continuity shapes what Sithari's institutions teach. Every archive is a political act.
+    The Echo Ledger Conclave sits in that gap. They catalogue what the rivers surface, decide who gets access, and have successfully resisted three Accord attempts to mandate broader access. The elves decided to erase their own detailed history while leaving the broad strokes — the most deliberate act of memory control in the system's history. The Continuity shapes what Sithari's institutions teach. These institutions exercise power through what they preserve and teach.
 
     ---
   PROSE
   prose <<~PROSE, section: :how_it_works, heading: "The Opposition"
-    This is not a debate between remembering and forgetting. Both sides of the tension involve sharing knowledge — the question is whether sharing is constructive or catastrophic, and the answer depends on context so specific that getting it wrong is easy.
+    Sharing can change who receives credit, whose privacy survives, or how descendants understand a life. At the scale of the Conclave's dangerous records, a mistaken interpretation can also cause physical harm. The consequences depend on the material and the people involved.
 
     The Conclave's argument for gatekeeping: shared knowledge without context is dangerous. Echo River fragments taken out of their historical framework become ammunition for whatever argument someone wants to make. Authentication matters. Provenance matters. A fragment that proves one thing in context proves something entirely different without it.
 
@@ -35,7 +36,7 @@ theme :who_remembers do
     ---
   PROSE
   prose <<~PROSE, section: :significance, heading: "The Test"
-    The theme is present when an entry shows someone making a decision about what to share, preserve, or withhold — and both the sharing and the withholding carry real consequences. The test is not whether memory matters (a platitude) but whether the entry shows the razor's edge between constructive and destructive disclosure.
+    Preserving a record can honor its maker while exposing someone named in it. Publishing an interpretation can bring recognition to one person and obscure another's contribution. The people deciding what to share need not face catastrophe for their choice to matter, and a record may be preserved and shared to everyone's satisfaction.
   PROSE
 end
 

@@ -12,7 +12,7 @@ timeline do
   era :signal_famine, length: 165, title: "The Glassfall & Signal Famine (2140–2305 CE)",
       description: <<~MD
         The catastrophe and its long silence. The ring shatters, communications
-        collapse, and the system fractures into hundreds of isolated communities.
+        collapse, and communities across the ring and planets lose long-distance contact.
         During this period, the elves vanish. This is where procedural history begins.
       MD
 
@@ -25,7 +25,7 @@ timeline do
 
   era :the_contested_reach, length: 38, title: "The Contested Reach (2340–2378 CE)",
       description: <<~MD
-        The cost of reconnection. After generations apart, hundreds of communities
+        The cost of reconnection. After generations apart, reconnected communities
         try to share resources, routes, and authority. Some negotiations fail, and
         overlapping disputes erupt as the system knits itself back together.
       MD
@@ -53,8 +53,12 @@ timeline do
         The current era. Born from exhaustion, pragmatism, and the grudging admission
         that the Bloom coalitions worked better than anyone expected. The Tempered
         Accord is not a government but a framework for mediation. The system is
-        reconnected but not unified; the Glass Frontier is accessible, inhabited, and
-        slowly falling apart.
+        partly reconnected, with many communities beyond the regular routes. The Glass
+        Frontier holds millions of habs, from surviving ring sections to new construction.
+        In 2435 Aren Talivar occupies Velisar while Istravan resistance and Serevan
+        forces prepare their response. On Lithren, expeditions prepare a physical
+        return at Ithara from recovered patterns; the ancient civilization's wider
+        fate remains unestablished.
       MD
 
   now year: 2435

@@ -52,9 +52,14 @@ encyclopedia :resonance do
 
     Clarisant registries usually give a reproducible spell one short work-word whose technical meaning comes from the casting: #{encyclopedia_ref :step, "Step"}, #{encyclopedia_ref :echoing, "Echoing"}, #{encyclopedia_ref :mending, "Mending"}, #{encyclopedia_ref :seaming, "Seaming"}, #{encyclopedia_ref :stay, "Stay"}, and #{encyclopedia_ref :unclosing, "Unclosing"}. Workings kept by a particular trade retain service names such as #{encyclopedia_ref :signal_folding, "Signal Folding"} and #{encyclopedia_ref :crucible_veiling, "Crucible Veiling"}; Tessellan-derived spells retain the language of Form and Will. A registry name belongs to one reproducible casting, not to every stronger act that resembles it.
 
-    Manufactured devices enclose their tuning, so an operator can use a mid-band array without tuning it. Tuners set and maintain those frequencies deliberately. Narrow-band work remains confined to relic study, controlled surveys, and accidental exposures.
+    Manufactured devices enclose their tuning, so an operator can use a mid-band array without tuning it. Tuners set and maintain those frequencies deliberately. Narrow-band work remains rare. Relic studies and controlled surveys have established repeatable workings, and attested mantle bearers now employ them in expeditions, rescues and armed conflict.
 
     **Single-wavelength resonance** is the proposed limit beyond narrow bandwidth: one exact frequency with no measured spread or interference. Pre-Glassfall artifacts attributed to this practice transfer energy with near-zero measured waste, cross established band boundaries, or carry signals across gaps in the conductive medium. Contemporary laboratories have documented those behaviors but have not produced an equivalent field. The surviving measurements define the theory; reports that the elves were developing it before the Glassfall remain unverified.
+  PROSE
+  prose <<~PROSE, section: :origin, heading: "An Unestablished Origin"
+    The construction of resonance systems does not establish the origin of the ambient phenomenon. Elven ring engineering is attested. #{encyclopedia_ref :itharan, "Itharan pattern keeping"} establishes a different ancient practice on Lithren. Neither record decides whether resonance was already present, was altered by a civilization, or was brought into the solar system.
+
+    The surviving evidence supports the use and measurement of resonance without identifying its first cause. No recovered chronology connects all the known traditions to a single inventor.
   PROSE
   prose <<~PROSE, section: :significance, heading: "The Geometry of Coherence"
     The band-and-bandwidth model guides workshop practice. #{encyclopedia_ref :the_three_forms, "The Three Forms"} describes the same observations through geometry: a coherent vibration closes into a stable figure, structural and kinetic resonance close toward different figures, and signal follows the path between them. It calls perfect coherence the One Truth.

@@ -29,13 +29,13 @@ faction :tempered_accord do
     attitude:
       "Patient, procedural, and open to any party willing to file — with " \
       "the standing Sitharian assumption of being the adults in the room. " \
-      "Nobody fights it openly; plenty shirk its reign in the shadows."
+      "The occupation of Velisar now forces members to decide what they will defend."
   )
 
   prose <<~PROSE
     The system's governance framework is a mediation structure and a set of shared norms that most settlements have agreed to honor most of the time. The memory of the Bitter Reach gives its members a common reason to preserve it.
 
-    The Accord is barely a decade old, and it has never been tested by a crisis as bad as the ones that made it.
+    The #{ref :velisar_occupation, "occupation of Velisar"} in 2435 is its first armed crisis on this scale since ratification. Member governments face a commander who intends to keep what mediation asks him to surrender.
   PROSE
   prose <<~PROSE, section: :structure, heading: "Structure"
     #{embed :accord_shore, :governance}
@@ -52,17 +52,17 @@ faction :tempered_accord do
     **Humanitarian.** The Accord's humanitarian provisions, drafted by the Displacement Council, cover refugee rights, containment support, and sovereignty protections — including the hard-won provision that habs can legally refuse contact.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Tensions"
-    The Accord is young, fragile, and untested. Its first decade contains no faction that defied a ruling without consequence, no crisis that required action faster than its mediation process allowed, and no dispute whose stakes made reputational sanctions irrelevant. Its records therefore offer no evidence for how the framework would handle those cases.
+    Velisar's occupation has made the framework's limits immediate. A hearing cannot open a battery gate or release a crew under an accepted command. Members can recognize representatives, keep contact between opposing cities and decide what assistance they will provide. The secretariat has no army to send.
 
     #{ref :sithari, "Sithari"}'s influence is structural and resented. The Accord sits in Sithari, uses Sitharian legal language, and was partly designed by Sitharian political thinkers. #{ref :the_continuity, "The Continuity"} supported combatants during the Contested Reach and Bitter Reach while the city retained its formal neutrality. Other governments remember the credit restrictions, freight delays, and institutional pressure that distinction allowed.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Present Day"
-    The Accord's offices remain active, its member provisions remain in force, and no crisis has yet tested the limits identified by its critics. The district staff still maintain the lake and its ducks.
+    The Accord's offices receive appeals from Istravan cities while #{ref :sereva, "Sereva"} prepares its own expedition. The member provisions remain in force. Ships, protection and military action come from governments and people willing to undertake them; accepting a hearing does not place those forces under the secretariat's command.
   PROSE
 
   gm_note :triggered_by, "Players who ask the Accord to make someone act learn the secretariat cannot order a member government. What it can " \
                          "put on the table is a hearing and expulsion, which costs the target Compact mediation, #{ref :vantara, "Vantara"}'s routes, and enforceable contracts."
-  gm_note :appears, "Any dispute the party cannot settle bilaterally gets referred here, and the referral itself buys months. Both sides keep trading and arguing while the case sits on the hearing schedule."
+  gm_note :appears, "An appeal from an occupied city reaches the same hearing rooms as a trade dispute, but its representatives need ships before the hearing can finish. Member delegations can offer their own help."
   gm_note :complicates, "A hearing needs a presiding mediator both parties accept from the roster, so an opponent can spend the first sessions striking names. The party's evidence waits behind the argument over who reads it."
 end
 

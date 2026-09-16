@@ -55,6 +55,14 @@ installation :pelhari do
 
     The observatory itself still functions. The Academy uses it for examinations and for the deepest stages of mastery training. What it was originally observing remains an open question.
   PROSE
+  prose <<~PROSE, section: :history, heading: "The Outer Voyages"
+    #{ref :elian_soreth, "Elian Soreth"}'s 2272 argument for an outer planet grew from positional observations made here. His telescope stood outside the ancient observatory; his work does not establish what its original instruments had been built to observe. Local apprentices repeated the measurements during the Signal Famine. When travel recovered, wrights and shipowners backed the expeditions that produced the #{ref :lithren_landfall, "Lithren Landfall"}.
+
+    The first displayed specimens drew audiences who had contributed money, made instruments or sent relatives aboard. Later performances on #{ref :sereyat, "Sereyat"} made the ruins desirable to patrons who had little interest in astronomy. Some commissions paid for careful excavation. Others paid only for an object impressive enough to display on an upper terrace.
+
+    Present ties to Lithren include research, private collecting and families with relatives in #{ref :ithara, "Ithara"}. Old specimen cases can hold parts separated before the comparative survey. Their owners may welcome a visiting researcher, want payment, or prefer the arrangements in which the pieces have become household possessions. Pelhari's connection to the planet belongs to those different histories as well as to the Academy.
+  PROSE
+
   prose <<~PROSE, section: :economy, heading: "Economy"
     The Academy is the largest single employer and the city's defining institution among several independent industries:
 

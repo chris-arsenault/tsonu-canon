@@ -16,12 +16,15 @@ ability :waybearer do
     limits: "A destination requires lived memory, a trustworthy live signal, or a traveler who belongs there. The road joins both environments and remains open while anyone is upon it."
   )
 
-  question "Who is the present or most recently attested Waybearer, and what occupied road did the former bearer yield to them?", raised: "2026-08-31"
+  log "2026-09-15 — Nalis Venn received the mantle from Soma Irel during the occupied rescue road of 2430; Soma remained at the far end through the resolved pursuit and returned by ordinary ship."
 
   prose <<~PROSE
     The Waybearer makes distant places adjacent on a scale ordinary #{encyclopedia_ref :waybearing, "waybearing"} cannot sustain. A hangar can open onto a remote vessel, a freight court onto another world, or an embarkation ground onto a settlement held in one passenger's memory. Fleets and populations cross the same road anywhere in Kaleidos, carrying momentum and cargo intact.
 
     The intervening distance remains untouched because travelers never enter it. Both ends occupy one threshold for as long as the road holds: light and sound cross before the first traveler, air and loose matter follow, and the bearer stands visible from each side. The road stays open behind the intended traffic while anyone remains upon it.
+  PROSE
+  prose <<~PROSE, section: :present_day, heading: "Nalis Venn"
+    #{ref :nalis_venn, "Nalis Venn"} is the present bearer. #{ref :soma_irel, "Soma Irel"} yielded his occupied road to her during #{ref :somas_last_road, "the rescue of 2430"} and remained at the far end until pursuit was resolved. She now prepares a road for people trapped in Velisar.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Making an Address"
     Coordinates locate a point for instruments; they do not give the mantle an address. A lived memory carries the worn step at a door, the light from its window, and the surrounding rooms. A trustworthy live signal carries present weather, motion, and enough local response to distinguish one deck from another. A traveler who belongs somewhere can supply the anchor through habits and relationships even when the Waybearer has never seen the place.

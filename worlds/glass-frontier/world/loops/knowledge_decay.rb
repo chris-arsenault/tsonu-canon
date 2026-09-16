@@ -3,9 +3,10 @@ loop :knowledge_decay do
   subkind :narrative_loop
   path "dm/loops/knowledge-decay.md"
   reviewed "2026-03-18"
+  log "2026-09-15 — Kept the documented loss-and-reinvention pattern without making it a definition of hope or a required history for all knowledge."
 
   prose <<~PROSE
-    *Knowledge is built, pushed too far, lost, and reinvented as something different.*
+    *A recurring pattern in the loss and reinvention of ring-era technical knowledge.*
 
     ---
   PROSE
@@ -67,7 +68,7 @@ loop :knowledge_decay do
   prose <<~PROSE, section: :significance, heading: "What the Loop Produces"
     Each cycle produces knowledge that is different from what was lost. The Tuners don't have elven science — they have something new. The Synod doesn't communicate with AIs the way the elves did — they do something no one else can explain. The Displacement Council doesn't understand Bloom Zone ecology the way the ring builders did — they understand containment.
 
-    The reinvention is not recovery. It is adaptation. The world doesn't go back; it goes forward differently. This is the hopecore expression: the loss is real, the cost is real, and what grows from it is genuinely new.
+    These practitioners have adapted surviving systems to conditions the old accounts do not explain. They also teach apprentices, preserve successful methods and compare results. That continuing work can pass knowledge onward without another loss.
   PROSE
 end
 

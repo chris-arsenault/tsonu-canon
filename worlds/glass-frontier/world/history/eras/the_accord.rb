@@ -24,7 +24,9 @@ era :the_accord do
   prose <<~PROSE, section: :tensions, heading: "An Uneven Peace"
     Sithari supplies much of the Accord's legal language and permanent staff. Ring habitats, outer-system ports, and settlements harmed by Continuity policy during the wars watch that influence closely. They continue to participate because the hearings remain preferable to reopening claims by force.
 
-    No crisis on the scale of the Silent Bloom has begun during the era. The mediation framework has resolved hard disputes; it has not yet had to allocate system-wide losses faster than its members can deliberate.
+    The #{ref :velisar_occupation, "occupation of Velisar"} in 2435 has brought an armed challenge to the settlement. Istravan resistance and Serevan forces act while the Accord receives appeals. Its secretariat can mediate and its members can offer help; it has no army of its own.
+
+    On Lithren, the #{ref :ithara_return, "Ithara Return"} draws rival expeditions around a recoverable ancient gate complex. The histories its investigators have established leave the ancient enemy, ecological causes and civilization's ultimate fate open.
   PROSE
 end
 

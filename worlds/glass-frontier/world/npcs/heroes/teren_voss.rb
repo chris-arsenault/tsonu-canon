@@ -13,6 +13,8 @@ npc :teren_voss do
   tags :resonance, :ringglass, :"signal-freq"
   prominence :marginal
   status :complete
+  question "What birth year and late-life history connect Teren's engineering leadership in 2356 with his present work in 2435?", raised: "2026-09-15"
+  log "2026-09-15 — Retained the attested human identity and career. A birth year and late-life account remain to establish before expanding his biography; no lifespan limit or replacement identity has been invented."
 
   prose <<~PROSE
     The engineer who led #{ref :coremark, "Coremark"}'s #{ref :second_span_trial, "Second Span trial"}. Voss aligned the trial's relay chain, signed the order that abandoned it, and kept copies of the anomalous readings after Coremark closed the project.

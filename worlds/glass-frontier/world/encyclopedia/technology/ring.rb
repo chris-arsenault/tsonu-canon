@@ -3,6 +3,7 @@ encyclopedia :ring do
   kind :technology
   subkind :orbital_habitat_ring
   status :complete
+  log "2026-09-15 — Distinguished a hab from an original structural section and bounded social claims to ring communities; retained recovered standards, varied scales and modern construction."
   topics :"ring-era", :"ring-hab", :orbital, :rebuilding
   prevalence :common
   available_globally
@@ -22,8 +23,8 @@ encyclopedia :ring do
     working: "A section works as a slice of the whole: spin for weight, " \
              "garden decks for food and air, freight and signal galleries " \
              "for circulation, the fabric's own accounting for position and " \
-             "balance — and a fragment's institutions are largely the crews " \
-             "that keep each layer of the slice alive.",
+             "balance. Crews keep each layer working under the " \
+             "arrangements of their own communities.",
     risks: "Individual sections were designed to draw balance, redundancy, and " \
            "supplies from the continuous band; isolated fragments must reduce " \
            "loads, replace missing subsystems, and trade for what adjacent " \
@@ -34,9 +35,11 @@ encyclopedia :ring do
     The elven Ring combined a continuous inhabited band with the systems that supported it. Rotation supplied graded working weight; garden strata supplied food and air; freight and signal galleries circulated goods and information; position-keeping systems held the band in orbit. It carried a planetary population throughout the ring age. Its section plans remain the reference standards used to identify, repair, and extend surviving fragments.
 
     The band was assembled in sections, each carrying a subset of the whole's systems. After the Glassfall, many sections continued independently at reduced load in orbit, on the surface, and between. Their crews maintain spin, air, gardens, structure, and circulation while replacing functions formerly supplied by neighboring sections. A working #{encyclopedia_ref :graft, "garden deck"}, for example, now depends on graft exchange and outside water agreements. New ring-pattern habitats use recovered section dimensions and service layouts so parts, tools, and trained crews can move between old and new construction.
+
+    A hab is an inhabited environment rather than a unit of the original structure. A large section can contain several separately enclosed communities; a small habitat may occupy only part of a recovered section or use newly built framing. Shared service dimensions do not require matching interiors, ecosystems or forms of government.
   PROSE
 
-  cue "The night sky carries the bright broken arc end to end, and the child's first cosmology lesson is the local version of the same sentence everywhere: we live in a piece of that."
+  cue "A child on a hab's observation deck traces the bright broken arc until a parent points out the section they live in."
   cue "The new hab's framing goes up to the recovered section standards — spin grade, garden stratum, freight gallery in the old proportions — and the raising crew's toast at the topping is the builders', borrowed: to the band."
   affordance "Recovered section standards give builders shared dimensions, service layouts, and repair practices that scale from city fragments to new corridor habitats."
   pressure "Each fragment operates only a subset of the integrated design and must obtain missing redundancy, stock, and living material through local replacements and exchange."

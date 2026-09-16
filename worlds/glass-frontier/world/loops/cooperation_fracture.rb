@@ -3,9 +3,10 @@ loop :cooperation_fracture do
   subkind :narrative_loop
   path "dm/loops/cooperation-fracture.md"
   reviewed "2026-03-19"
+  log "2026-09-15 — Bounded the cooperation-fracture pattern to its examples; removed inevitable future catastrophe and temporary cooperation as requirements of the setting's tone."
 
   prose <<~PROSE
-    *Groups cooperate under pressure. Pressure eases. Cooperation fractures. Each cycle leaves infrastructure the next cycle builds on.*
+    *Some emergency coalitions leave useful institutions after their participants resume old disputes.*
 
     ---
   PROSE
@@ -40,7 +41,7 @@ loop :cooperation_fracture do
     ---
   PROSE
   prose <<~PROSE, section: :how_it_works, heading: "Instances"
-    ### The Bloom Cycle (macro, 2378–2407)
+    ### The Bloom and Bitter Reach Sequence (2378–2423)
 
     | Stage | Entity | Notes |
     |-------|--------|-------|
@@ -64,7 +65,7 @@ loop :cooperation_fracture do
 
     **Status:** 2 of 4 stages have entities. Residue and fracture are internal to Fermata — they're sections within the station entry, not standalone entities. This is correct at this scale.
 
-    ### The Rekindling Cycle (macro, 2305–2365, slow)
+    ### Reconnection and the Contested Reach (2305–2378)
 
     | Stage | Entity | Notes |
     |-------|--------|-------|
@@ -73,17 +74,16 @@ loop :cooperation_fracture do
     | Residue | #{ref :vantara, "Vantara"}, #{ref :keel, "The Keel"} | Trade infrastructure, communication networks, economic interdependence |
     | Fracture | #{ref :the_contested_reach, "The Contested Reach"} | Resource disputes, corridor conflicts, ring hab standoffs |
 
-    **Status:** Complete cycle. This is the same loop at a slower timescale — the Rekindling's cooperation produces the trade infrastructure whose disruption during the Contested Reach triggers the faster Bloom cycle.
+    The Rekindling era ends in 2340. This sequence continues through the Contested Reach to 2378: restored trade infrastructure becomes the subject of disputes before the Bloom response begins.
 
     ---
   PROSE
   prose <<~PROSE, section: :significance, heading: "What the Loop Produces"
-    Each cycle leaves more shared infrastructure than the last:
+    The historical cases left shared infrastructure:
     - **Rekindling cycle** → trade networks, communication, economic interdependence
     - **Bloom cycle** → regulatory bodies (Shear Compact), containment order (Displacement Council), governance framework (Tempered Accord)
-    - **Next cycle** → (unfilled — the Accord's residue will shape whatever cooperation emerges from the next crisis)
 
-    The system ratchets. Cooperation is always temporary. The infrastructure it leaves behind is not. This is the hopecore mechanism: not "things get better" but "each catastrophe produces tools that make the next response slightly more effective."
+    The institutions and relationships that survived those disputes remain available for present work. Cooperation can also persist because its participants enjoy what they make together or value a continuing exchange. Neither the next fracture nor another emergency is assured.
   PROSE
 end
 

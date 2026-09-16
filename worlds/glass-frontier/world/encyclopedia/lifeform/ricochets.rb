@@ -5,9 +5,11 @@ encyclopedia :ricochets do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Runners to Ricochets; the new title names their charged leap."
+  log "2026-09-16 — Extended modern carrier distribution to Lithren's enclosed camps for Twelve. Reused the established hunter and kinetic leap rather than adding a parallel small service-space species; open-surface survival is not implied."
   topics :ecology, :"kinetic-freq", :"ring-hab"
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
+  appears_when all: { place: [:outer_system] }, any: { place: [:dock, :yard] }
   origin "Ring-hab native stock — gallery climbers documented in the earliest fragment records, spread with hab traffic to most sealed settlements"
   biology "A cat-sized climber with gripping feet and a heavy coiled tail whose lattice banks kinetic-band charge as the animal runs; the stored charge discharges through the spine in one leap that runs flat and straight until spent"
   lifespan "#{duration 15} in a gallery territory; the big old toms with the scarred tails are hab fixtures known by name"
@@ -39,6 +41,8 @@ encyclopedia :ricochets do
     Ricochets hold territories across several gallery levels. They hunt vermin along ducts and warm service runs, leave scent at the ends of habitual leap lines, and defend den recesses with teeth before spending a charged leap to escape. Hab traffic learns those routes: a humming ceiling clears the likely line, and maintenance crews leave exits open around a cornered animal. Old ricochets become known by scars and by the spans they use.
 
     The leap is straight enough for riggers to sight along a habitual route when checking a rail, but this is a borrowed use of hunting and travel behavior. The animals also go quiet before kinetic dead spells: tails slacken, hunting stops, and ricochets stay near their dens. Crews compare that gallery-wide change with their instruments and re-check suspended loads.
+
+    Modern carriers have brought kept ricochets to enclosed outer-system camps, including Lithren's excavation shelters. There they live on vermin and supplied meat within heated breathable air. A connected service sleeve can extend their territory between shelters. An open cold gap ends it: the animal needs a pressure carrier for travel beyond the enclosures. A charged leap near thin canopy material makes frightening one out of a hiding place particularly dangerous.
   PROSE
 
   cue "The ceiling over the gallery junction hums its low note, foot traffic clears the habitual line, and the ricochet takes the span in one flat stroke, landing already silent and running."

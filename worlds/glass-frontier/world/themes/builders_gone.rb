@@ -3,6 +3,7 @@ theme :builders_gone do
   subkind :narrative_theme
   path "dm/themes/builders-gone.md"
   reviewed "2026-03-18"
+  log "2026-09-15 — Limited the inheritance-and-reinvention test to subjects that carry that tension; innovation and ordinary continuity do not require a preceding loss."
 
   prose <<~PROSE
     *The tension between inheritance and reinvention.*
@@ -10,7 +11,7 @@ theme :builders_gone do
     ---
   PROSE
   prose <<~PROSE, section: :description, heading: "The System"
-    Resonance was engineered by the elves. Ringglass was shaped by elven science. The ring was elven architecture. The elves are gone. What remains is an inheritance nobody fully understands — and a civilization that keeps building anyway, from fragments, approximations, and improvisation that sometimes produces things the original builders never imagined.
+    The ring's resonance systems were engineered by the elves. The origin of the ambient phenomenon remains unestablished. Ringglass was shaped by elven science. The ring was elven architecture. The elves are gone. What remains is an inheritance nobody fully understands — and a civilization that keeps building anyway, from fragments, approximations, and improvisation that sometimes produces things the original builders never imagined.
 
     The band/bandwidth model is the mechanical expression. Broad bandwidth is accessible to everyone. Mid bandwidth requires training. Narrow bandwidth is where the elves operated and where nobody else goes safely. The entire technological civilization runs on the broad and mid range of a system designed for narrow. The Bloom happened in the gap between what was built and what is understood.
 
@@ -35,13 +36,13 @@ theme :builders_gone do
     | System | The entire resonance technology stack is post-elven improvisation | #{encyclopedia_ref :resonance, "Resonance"} |
     | Faction | The Synod inhabits a station they don't fully control, using rituals they can't explain | #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} |
     | Settlement | *(seed)* A hab whose charismatic leader left — what does the community become after? | unfilled |
-    | Personal | Lira Vashtenri left the Conclave to build containment ops from scratch | #{ref :lira_vashtenri, "Lira Vashtenri"} |
+    | Personal | Lira Vashtenri brought Coremark refinery experience into Bloom containment | #{ref :lira_vashtenri, "Lira Vashtenri"} |
     | Opposition | The Tuners reinvented resonance practice — folk approach sometimes better than original theory | #{encyclopedia_ref :resonant_tuner, "Tuners"} |
 
     ---
   PROSE
   prose <<~PROSE, section: :significance, heading: "The Test"
-    The theme is present when an entry shows someone building from inheritance they didn't choose — and the tension between recovering what was lost and inventing what comes next is visible. Entries that only show loss are incomplete. Entries that only show innovation ignore the cost. The theme lives in the friction between both.
+    The tension appears when people must choose between restoring an inherited design and making something suited to their present lives. A craftworker may value an old method while wanting to make a different object; a community may keep its buildings and change the purposes they serve. Loss and reinvention shape the cases above. Other work continues through teaching, practice and new ambitions without a break in its inheritance.
   PROSE
 end
 
@@ -56,5 +57,5 @@ relate :rel_builders_gone_embodies_synod, :embodies, :builders_gone, :lattice_pr
   prose "The #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} inhabits a station it does not fully control, working through rituals it cannot explain."
 end
 relate :rel_builders_gone_embodies_lira, :embodies, :builders_gone, :lira_vashtenri do
-  prose "#{ref :lira_vashtenri, "Lira Vashtenri"} left the Conclave to build containment ops from scratch, from inheritance she did not choose."
+  prose "#{ref :lira_vashtenri, "Lira Vashtenri"} developed containment from her work maintaining Coremark refinery arrays."
 end

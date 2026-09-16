@@ -20,6 +20,7 @@ geographic_location :the_shear do
 
   log "2026-08-20 — Added the Pell Freight Assembly as a member-owned industrial operator and removed repeated Coremark name checks from general hazards and hidden stations."
   log "2026-08-21 — Renamed the Shear creatures Farborn, stated that the Glassfall created the Shear, and reduced the Bloom comparison to the local distinction needed by crews."
+  log "2026-09-15 — Removed automatic Bloom diagnosis from spatial distortion; Deep Shear itself has altered distances, so unfamiliar behavior requires comparison with local conditions."
 
   descriptive_identity(
     setting:
@@ -95,11 +96,11 @@ geographic_location :the_shear do
 
     The Glassfall created the Shear from the ring's wreckage. Its debris and resonance patterns are now broadly understood and mostly stabilized: dangerous, but navigable by crews equipped for them.
 
-    #{ref :bloom_zones, "Bloom Zones"} are reality tears caused by the #{ref :the_silent_bloom, "Silent Bloom"}. Where the Shear distorts resonance, a Bloom Zone breaks spatial relationships and requires active containment. Shear crews use the distinction to decide whether a bad reading calls for a route change or a Council alert.
+    #{ref :bloom_zones, "Bloom Zones"} are reality tears caused by the #{ref :the_silent_bloom, "Silent Bloom"} and require active containment. Spatial distortion alone does not distinguish them from every other orbital condition: distances also behave strangely in Deep Shear. Crews compare a bad reading with the known conditions of the route when deciding whether to change course or alert the Council.
   PROSE
 
   gm_note :appears, "Any crossing between habs threads gaps in the debris, and what tells a pilot whether this season's gap is still open is the #{ref :shear_compact} forecasting service, which everyone knows to be frequently wrong and carries anyway."
-  gm_note :triggered_by, "A bad reading makes a crew choose between a route change and a Council alert: spiking, canceling ambient frequencies are ordinary Shear, while spatial relationships that stop behaving mean a #{ref :bloom_zones, "Bloom Zone"}."
+  gm_note :triggered_by, "Investigating a bad reading means comparing it with the route's known behavior. Deep Shear already alters distances; a change beyond the crew's experience leaves them choosing between a detour, further observation and a Council alert."
   gm_note :complicates, "A spike that overwhelms a ship's filters destabilizes its ringglass-integrated components and can carry sympathetic failure into the vessel's own crystal systems, and gnome crew are the most vulnerable aboard."
 end
 

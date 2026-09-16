@@ -8,13 +8,18 @@ npc :oram_sells do
   tags :governance, :resonance, :danger
   prominence :recognized
   status :complete
+  log "2026-09-15 — Moved the elven briefing into DM prose, consistent with Dern's hidden 2432 read-in; the public handover remains visible."
 
   prose <<~PROSE
     The third First Threshold of the #{ref :displacement_council, "Displacement Council"}, in office from 2421 until his death in 2432. Oram Sells inherited a mature cordon service with exhausted crews, uneven records, and more boundaries than its founders had planned to hold. He standardized handoffs between stations and required each cordon to maintain a recovery ledger for the families outside it.
   PROSE
 
+  prose <<~PROSE, section: :truth, heading: "The Last Briefing", dm: true
+    Sells disclosed the hidden elven cooperation to #{ref :dern_talish, "Dern Talish"} at #{ref :gray_line, "Gray Line"} and gave her the contact protocol. She confirmed his account through the communication shard. His public transfer of command did not disclose that arrangement to the Council.
+  PROSE
+
   prose <<~PROSE, section: :history, heading: "Succession"
-    Bloom exposure accumulated across #{elapsed 2421, 2432} of inspections. When the damage became terminal, Sells chose #{ref :dern_talish, "Dern Talish"} as his successor and spent his final season transferring the Council's ordinary command. The last briefing took place at #{ref :gray_line, "Gray Line"}, where he disclosed the hidden elven cooperation and gave her the contact protocol.
+    Bloom exposure accumulated across #{elapsed 2421, 2432} of inspections. When the damage became terminal, Sells chose #{ref :dern_talish, "Dern Talish"} as his successor and spent his final season transferring the Council's ordinary command. The final transfer of command took place at #{ref :gray_line, "Gray Line"}.
   PROSE
 
   gm_note :appears, "Sells died in 2432 and the cordons still run on his requirements: each keeps the recovery " \
@@ -31,7 +36,7 @@ relate :rel_oram_sells_leads_displacement_council, :leads, :oram_sells, :displac
 end
 
 relate :rel_oram_sells_located_in_gray_line, :located_in, :oram_sells, :gray_line, till: 2432 do
-  prose "Gray Line was his last operational station and the site of Dern Talish's read-in."
+  prose "Gray Line was his last operational station and the site of his handover to Dern Talish."
 end
 
 moment :oram_sells_dies, year: 2432, of: :oram_sells do

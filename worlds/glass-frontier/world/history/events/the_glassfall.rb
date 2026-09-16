@@ -4,6 +4,7 @@ incident :the_glassfall do
   subkind :disaster
   path "player/history/events/the-glassfall.md"
   status :complete
+  log "2026-09-15 — Removed the incompatible hundreds-of-habs count and claims that all present habitation derives from the Glassfall. Preserved the disaster and its causal relationships."
   reviewed "2026-03-19"
   tags :catastrophe, :origin
   prominence :mythic
@@ -14,8 +15,8 @@ incident :the_glassfall do
 
   descriptive_identity(
     marks:
-      "Everything the system lives in dates from one day in 2140: " \
-      "hundreds of surviving habs drifting where their ring sections " \
+      "The broken ring records one day in 2140: " \
+      "surviving habs drifting where their ring sections " \
       "cracked free, wreckage settled into the Shear between atmosphere " \
       "and orbit, and ringglass sunk through Kaleidos's crust and " \
       "waterways still carrying the imprint of old transmissions.",
@@ -32,7 +33,7 @@ incident :the_glassfall do
 
     It wasn't gradual. It wasn't a slow decline that people saw coming and argued about until it was too late. One day the rings were there — the same crystalline halo that had encircled Kaleidos since before anyone alive could remember — and then they weren't. The cascading failure took hours, not days. By nightfall, the sky was full of falling glass.
 
-    The ring didn't vanish. It broke apart — enormous sections cracking free and drifting into new orbits, trailing debris. Many of these fragments were self-sustaining habitats, and they survived intact enough to keep their populations alive. But the connections between them severed. The integrated system that had made the ring a single civilization became hundreds of isolated fragments, each suddenly on its own.
+    The ring didn't vanish. It broke apart — enormous sections cracking free and drifting into new orbits, trailing debris. Many contained self-sustaining inhabited environments and survived intact enough to keep their populations alive. But the connections between them severed. The integrated system became isolated sections whose habs had to rely on the services still working within reach.
 
     On the surface of Kaleidos, the damage was different. Debris rained down as showers of crystal fragments and dust — dangerous, but not extinction-level. The real destruction was systemic. The rings had been the backbone of the colony's infrastructure: power distribution, climate regulation, communication, orbital logistics. All of it, gone.
   PROSE
@@ -59,7 +60,7 @@ end
 # --- what the Glassfall caused (the consequences that define modern Kaleidos) ---
 relate :rel_the_glassfall_destroyed_the_glass_frontier, :destroyed, :the_glassfall, :the_glass_frontier do
   prose <<~PROSE
-    The ring did not vanish — it shattered. Enormous sections cracked free and drifted into new orbits, and what had been one continuous structure became the #{ref :the_glass_frontier, "Glass Frontier"}: hundreds of surviving habs, a growing debris field, and the raw material for most resonance technology. The integrated machine was destroyed; the archipelago it left behind is where everyone now lives.
+    The ring did not vanish — it shattered. Enormous sections cracked free and drifted into new orbits, and what had been one continuous structure became the #{ref :the_glass_frontier, "Glass Frontier"}: surviving habs, a growing debris field, and the raw material for most resonance technology. The integrated machine was destroyed; its inhabited sections continued beside planetary and lunar communities.
   PROSE
 end
 

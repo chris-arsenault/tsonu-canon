@@ -16,12 +16,16 @@ ability :red_sovereign do
     limits: "A subject must receive, understand, and be capable of the order. The command supplies obedience rather than skill and follows the subject's literal meaning."
   )
 
-  question "Who is the present or most recently attested Red Sovereign, and which act of absolute disobedience opened their succession?", raised: "2026-08-31"
+  log "2026-09-15 — Aren Talivar is the current bearer, qualified by Detha's freely given obedience in 2435. Detha later disobeyed but did not reach him; no succession occurred."
+  question "How do recorded playback and a bearer's death or succession affect an accepted standing command?", raised: "2026-09-15"
 
   prose <<~PROSE
     The Red Sovereign places collective subjects under standing command. The same voice can order a city to open, a fleet to turn its weapons, an army to kneel, or a machine intelligence to betray the purpose around which it was built. Each person or machine receives the order in terms they understand and repeats the decisive words before obeying.
 
     Living subjects experience the command as their own decision arriving with impossible certainty. Machines preserve it as an unauthorized root instruction, sometimes beyond an ordinary reset. Resistance exposes the command's cost: a recent detail may vanish during one immediate struggle, while prolonged control can remove the event that made a friendship, loyalty, or grievance matter to the bearer.
+  PROSE
+  prose <<~PROSE, section: :present_day, heading: "Aren Talivar"
+    #{ref :aren_talivar, "Aren Talivar"} has borne the mantle since 2435. #{ref :detha, "Detha"}'s freely given obedience qualified him; her later resistance and escape did not transfer it. He now holds #{ref :velisar, "Velisar"} and seeks permanent command of the Istravan coast.
   PROSE
   prose <<~PROSE, section: :language, heading: "The Subject's Words"
     Dominion follows the subject's understanding. An order to fly a vessel gives no piloting skill. A machine told to identify a liar can act only if it already has a method for that judgment. Undefined terms resolve according to the listener's knowledge, not the speaker's private intent. People contest a command by exposing an impossible action, separating connected machinery, or forcing two subject groups to state the same word differently.

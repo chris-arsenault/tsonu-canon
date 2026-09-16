@@ -8,15 +8,15 @@ Check these categories before attributing a new fact. The `world/` DSL is the
 current roster; this file states only where one familiar name must not become
 the default answer.
 
-## Thin — reach for a `future` marker instead
+## Familiar names require a specific reason
 
-- **Criminal syndicate** — Coremark is the only named one, and it is over-represented: actively reduce its involvement. Smuggling, black-market channels and protection rackets should attach to unnamed networks or a `future` marker, not to Coremark by default, and new text should not add Coremark hooks.
-- **Trade corporation** — Vantara is the only named one. Routine freight, contracts and logistics belong to unnamed commercial carriers unless the entry is about Vantara specifically.
+- **Criminal syndicate** — use Coremark when its history, people or operations matter. Search for other relevant groups before attribution. A new local crime does not imply Coremark involvement.
+- **Trade corporation** — Vantara has particular routes, holdings and interests. Routine freight may belong to a local carrier, a cooperative, an independent crew or another corporation. Read the current roster; name a distinct unwritten carrier with a `future` marker when it needs an identity.
 - **Mercenary company** — sparse. Hired force is usually a crew, not a company anyone has heard of.
 
-## Full — attribute freely where accurate
+## Authority has a scope
 
-- **Governance body** — the Tempered Accord, the Displacement Council and the Shear Compact cover the system. Naming one of them is fine where it is the right answer.
+- **Governance body** — the Tempered Accord mediates among participants; the Displacement Council and Shear Compact have specific containment and salvage responsibilities. They are not a universal government. Read local institutions, such as Korvath's port leagues and river boards, before attributing authority. A household custom, public performance or municipal choice need not involve a system-wide institution.
 
 ## Attribution rule
 
