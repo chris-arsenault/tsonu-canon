@@ -164,29 +164,37 @@ Sulion expansion: `cec77636-9db1-4096-b3bd-2230ba9b8504`.
 
 ### M2 — Establish planetary political competition
 
-Foundation owners now exist for Istrava, Velisar, the league, Sereva, the resistance and the major cast. Expand a defended landing and its coastal battery, one independent Istravan port, and the crews and households whose choices govern access. Develop concrete weapons, vessels and communications under existing resonance limits. Give those subjects full identities before creating additional playable locations.
+The first spine pass now defines Istrava as the Korvath theater: a substantial regional war across the warm middle sea, ports, uplands, orbital approaches and high-technology resource works. Velisar is the strongest city and first military objective, but it is not the whole campaign. The [Korvath Theater War](../world/conflict/korvath_theater_war.rb), revised [Istrava](../world/geographic_location/istrava.rb), [Korvath](../world/cosmology/korvath.rb), [Istravan War thread](../world/thread/istravan_war.rb) and [Protection and Possession theme](../world/theme/protection_and_possession.rb) own this scale. Later entries should supply the places, installations, factions, transports and resources; they are deliberately not authored in this spine pass.
 
 Depends on: M1a.
 
-Scope: Establish the powers, active territories, capabilities, and accessible participants needed for the accepted conquest and liberation history. Develop one complete current adventure and enough surrounding activity to show where different campaigns can lead.
+Scope: Develop enduring places, groups, creatures, customs and objects that support many independent adventures within the regional war. Give each subject a concrete identity, people who care about it and pressures already acting upon it. A mine needs terrain, inhabitants, valuables and ways to enter; a performance tradition needs a recognizable form, participants, pleasures and rivalries. These subjects deserve substantial articles. Encounters emerge from what exists and what people attempt there.
 
-Give the opposing power concrete means of conquest and recognizable effects on occupied societies. Establish how allied parties differ in military capacity, local support, intelligence, geography, and objectives. Preserve individual allegiances and regional differences within worlds. Develop the actual costs, reception boundaries, and succession rules of any mantle used; characters and ordinary forces retain aims beyond its bearer.
+Give the opposing power concrete means of conquest and recognizable effects on occupied societies. Establish how allied parties differ in military capacity, local support, intelligence, geography, and objectives. Preserve individual allegiances and regional differences within worlds. Keep mantle eligibility, actual acquisition, cost and succession consistent across the bearer, ability and historical event. Describe prophecy through witnessed signs, earlier consequences and present actions taken because of it; leave future fulfillment open.
 
-Select the first adventure from a consequential present project: for example, a defection, a raid to free captives, or relief of an occupied territory. Write the people, places, vessels, and prior choices that make its outcome matter. Players can enter through local relationships and immediate work without receiving commands from the most prominent leaders.
+Use questions such as these when they help develop a subject:
 
-Acceptance: The first adventure permits substantial success and changes what participants can do afterward. Opposition has effective means to act. The conflict remains intelligible independently of Coremark, the Accord, and Bloom containment.
+- What makes a smuggling run here dangerous enough to become a story crews tell afterward? What can a pursuer do that a pilot must answer in the moment?
+- What draws people to a performance before anyone uses it for resistance? What can a participant win, risk or publicly reveal?
+- Why do enemies keep attending the same parties? What can guests attempt there that is difficult anywhere else?
+- What has occupied an abandoned place? What can visitors learn about its inhabitants that changes how they fight, hide or explore?
+- What future frightens a group enough to act before its allies believe the warning? What evidence could change their reading?
 
-Evidence: Source and neighborhood review, rendered situation and alternative developments, world check and local focus report.
+Follow useful questions and discard the rest. They are prompts for invention, not required features of every entry or a fixed list of adventures. Keep motives and opportunities open: a party can pass without an assassination, a mine can outlast its rescue, and a performance can matter for pleasure, fame or money. Describe ordinary access and current pressures so participants can choose what to attempt.
+
+Acceptance: The written places and groups sustain several distinct undertakings without requiring a prescribed protagonist, betrayal, assassination or sequence of scenes. Specific creatures and customs change what people can do. Success can last, and opposition has effective means to act. The conflict remains intelligible independently of Coremark, the Accord and Bloom containment. Its consequences are severe across the Korvath theater and meaningful to connected factions, while most people on Kaleidos remain distant observers rather than threatened civilians.
+
+Evidence: Read the participating canon together, inspect rendered entries and dated history, run the world check, and inspect the focus report when adding standalone locations. Derive additional entries from distinct subjects that need owners. Keep a minor place within its region until its substance and relationships support an independent article.
 
 ### M3 — Deepen planetary political stories
 
-Continue from the landing, independent port and existing cast into a coastal campaign and a separate outer-world pursuit or rescue. Develop willing officers, possible defectors and allied households with their own commitments. Leave the final military and political outcomes open.
+Extend the established places and relationships across independent ports, uplands and orbital approaches. Develop willing officers, possible defectors, performers, rival crews and allied households with their own commitments. Leave the final military and political outcomes open.
 
 Depends on: M2.
 
-Scope: Develop enough independent theaters, projects, relationships, and capabilities for many groups to pursue different campaigns. Derive additions from the foundation rather than expanding a fixed list of three civic situations.
+Scope: Develop enough independent environments, relationships and capabilities for many groups to pursue different campaigns. Ground each addition in a particular society, terrain, creature, object or group and its present circumstances.
 
-Possible campaigns include resistance in occupied territory, a naval pursuit, rescuing a captive generation, securing a new ally, an enemy succession struggle, or establishing a free population's home beyond the front. Choose the ones the accepted history actually supports. Give recurring opponents and allies projects that can advance independently, with outcomes that change their resources and relationships.
+Develop connections that permit different uses of the same material. A singer can seek fame, carry an accusation or attract a dangerous patron. A crew can pursue profit, rescue or revenge across the same waters. A claimant can be an ally to protect, an enemy to stop or a person who wants to avoid the mantle entirely. Give opponents projects they can advance and communities lives that continue after a successful intervention. No example fixes the participants' decisions or the ending.
 
 Let liberation endure. Newly free societies have lives, ambitions, and choices beyond the war. Give players reasons to return to people and places they helped. Ordinary material and cultural life should make those societies particular without displacing the major actions that brought them into the story.
 
@@ -625,6 +633,33 @@ The whole Lithren effort now contains 66 additions, including fourteen NPCs.
 Pause here for review; Istrava and the remaining milestones are outside this
 completed revision.
 
+### Istrava theater spine
+
+The approved refinement expands Istrava from a coastal locality into a Korvath
+theater: the warm middle sea, independent ports, upland supply country, orbital
+approaches and high-technology resource works. Velisar remains the strongest
+city and first military objective. The [Korvath Theater War](../world/conflict/korvath_theater_war.rb)
+owns the regional conflict; Istrava, Korvath, the Istravan War thread and
+Protection and Possession carry the wider geography and theme.
+
+The conflict is severe for Korvath and meaningful to Sereva, the Accord and
+other connected interests. Most of Korvath remains outside the fighting. Most
+people on Kaleidos encounter it through news, delayed cargo, public arguments
+or volunteer campaigns, not direct danger. Blockades and bombardment threats
+are possible campaign conditions; a second system-wide war is outside scope.
+
+Current supporting material includes Esvar, Talessar, Velith and Oshrets,
+with the mine at Deral, smuggling practices and garden gatherings owned by
+Istrava and Velisar. The mantle history distinguishes eligibility, taking and
+succession; the Red Sovereign owns the settled command-persistence rules.
+The Waybearer's cumulative bodily cost appears in the ability and both living
+bearers. Talessar and the existing historical owners carry dated evidence.
+
+Further expansion should give independently significant subjects their own
+entries when their substance and relationships support them. Deral has a future
+marker for that purpose. The next batch should follow M2's optional questions
+and maintain the existing mix of non-NPC subjects.
+
 ### Final Lithren history batch
 
 M5 is complete locally under the September 16 revised scope. Modern history now spans 2272–2435, including landfall in 2311 and continuous settlement from 2322. Eight new entries connect three historical people, an inhabited carrier, two events and two ancient works to fourteen expanded existing entries. Ancient local histories deepen the named sites without resolving their ultimate mysteries.
@@ -711,7 +746,7 @@ State: complete locally. Ithara and Lithren now describe the inhabited hub, scat
 
 Evidence: Read the revised Ithara, Lithren, return, expedition and character pages and the relevant structural threads. `make check WORLD=glass-frontier` passes with zero errors, warnings, futures or spans to convert. Focus coverage remains 89/89 locations; the web has 543 game-world entities and 1,513 edges, retaining the existing mythic-removed kite-tuning isolate. The player export renders 618 pages and `make site-data` builds both active worlds locally. No gameplay trial or hosted deployment was performed.
 
-M0, M1 and M1a are complete locally. M2–M8 remain pending. The next content milestone is M2's coastal places, forces and ordinary participants, derived from the encoded Istravan history.
+M0, M1, M1a, M4, M5 and M5a are complete locally. M2 has the regional spine and the mantle/history revision; its wider supporting expansion remains in progress. M3 and M6–M8 remain pending. Further Istravan work should develop enduring places and groups from the corrected foundations, using the optional M2 questions above.
 
 ### Canonical foundation result
 

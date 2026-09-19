@@ -37,6 +37,16 @@ ability :triumphant do
     Tessellan copies place the title at the red Triangulum. In their usage, *Triumphant* names a purpose raised above competing limits, not the outcome of the struggle. The same public wording governs succession. If the bearer knowingly abandons the declaration and another person continues it unchanged, the shared cadence can turn to the second voice and carry the mantle with it.
 
   PROSE
+  prose <<~PROSE, section: :history, heading: "The Work That Answers"
+    Veska's account of the 2414 taking begins with her hands closing around a rescue line and feeling grips farther down it. The crew's reply returned from a stalled winch. She felt the effort being held away from bodies and machinery, without yet knowing where it would go. When the rescue ended she collapsed with burns along her arms and an injured knee, although no fire or falling load had reached her station. She recovered enough to resume service.
+
+    She had called for a rescue rather than a mantle. Later commanders repeated her declaration over assembled crews without producing another Triumphant. An eligible act does not reliably summon the office. While a bearer holds it, succession follows the continuation of an abandoned purpose, not an unrelated candidate's declaration.
+  PROSE
+  prose <<~PROSE, section: :significance, heading: "The Three That Are Coming"
+    In #{encyclopedia_ref :esvar, "esvar"}, the Triumphant stands at the red Triangulum among figures sharing one shadow. The #{ref :talessar, "Talessar"} warning made its leaf familiar to Istravan households before the evacuation. Survivors still bring its copies to the eastern quays, where hopeful claimants offer declarations to anyone willing to answer.
+
+    Veterans sometimes join them, hoping to hear the cadence again. Others break up the gatherings when promoters promise that a new bearer can absorb every injury of the coming war. Veska's surviving account describes pain arriving after success; her death provides no assurance that a successor could endure a greater working.
+  PROSE
 
   gm_note :triggered_by, "A finite public purpose draws willing people and capable machines into one cadence; each participant receives only the strength, precision, or endurance that serves the words as they understand them."
   gm_note :complicates, "Conflicting interpretations split the exalted group into weaker purposes, while fulfilling, abandoning, or replacing the declaration releases every deferred injury and mechanical strain into the bearer at once."

@@ -74,13 +74,13 @@ No new mastermind, founding disaster, or replacement cast is proposed for Bloom.
 
 [Korvath](../world/cosmology/korvath.rb) has several continents, old port cities, provincial institutions, and regional cultures. Coremark's concealed northern network does not govern the planet. [Ashvane](../world/cosmology/ashvane.rb) has independent settlements, surface transport, and local industrial and agricultural capacity. These are societies able to act from their own territory.
 
-The [Bitter Reach](../world/history/conflicts/the_bitter_reach.rb) ends in 2423 through linked settlements. Its ship combat remains limited. The [Accord](../world/npcs/factions/tempered_accord.rb) mediates and relies on members; it cannot command a collective army. Its present prose explicitly says no crisis has yet exceeded those arrangements. The new confrontation therefore begins in 2435 and requires an explicit update of that present-tense claim. It is not an undisclosed war running throughout the Accord era.
+The [Bitter Reach](../world/history/conflicts/the_bitter_reach.rb) ends in 2423 through linked settlements. Its ship combat remains limited. The [Accord](../world/npcs/factions/tempered_accord.rb) mediates and relies on members; it cannot command a collective army. The new confrontation therefore begins in 2435. It is the first regional war of the peace, not an undisclosed war running throughout the Accord era and not a second system-wide routes conflict.
 
-The [Red Sovereign](../world/abilities/mantles/red_sovereign.rb), [Triumphant](../world/abilities/mantles/triumphant.rb), and [Waybearer](../world/abilities/mantles/waybearer.rb) already permit action at the necessary scale. None supplies skill, unlimited force, or effortless control. Their present or most recent bearers are unresolved.
+The [Red Sovereign](../world/abilities/mantles/red_sovereign.rb), [Triumphant](../world/abilities/mantles/triumphant.rb), and [Waybearer](../world/abilities/mantles/waybearer.rb) permit action at the necessary scale. Aren bears the Red Sovereign; Nalis received the Waybearer from Soma in 2430; Veska died bearing the Triumphant in 2418 and no later bearer is attested here. Eligibility, acquisition and succession are distinct. Their costs consume memory, bodily orientation or accumulated life-threatening strain. None supplies skill or unlimited force.
 
 ### The history that creates the conflict
 
-**Istrava** is a coastal region on Korvath's middle sea, outside the northern freight economy. Its principal city, **Velisar**, has shipyards, coastal defenses, upland roads, and a hinterland that can feed more than its own population. These additions occupy part of Korvath; they do not replace its regional variety.
+**Istrava** is the Korvath theater: the warm middle sea, its ports and uplands, the orbital approaches above them, and the high-technology works that connect those layers. Its principal city, **Velisar**, has shipyards, coastal defenses, upland roads, and a hinterland that can feed more than its own population. These additions occupy a substantial part of Korvath; they do not replace the planet's regional variety.
 
 Sava Neraleth brings several Istravan cities into a defense league in 2398. Its captains can escort one another's ships, train together, and keep refuge ports open. It begins with real protection of lives and trade. Her authority comes from maintaining that cooperation, including the willingness to leave a member's local government alone.
 
@@ -88,17 +88,17 @@ During the Bitter Reach, Istrava protects coastal approaches and accepts strande
 
 Aren Talivar commands part of the evacuation and later negotiates the league's demobilization. After Sava's death, member councils appoint him its commander. Some want stronger protection against foreign pressure; others want to spend less on ships. Aren comes to regard their freedom to withdraw as the weakness that will eventually destroy everything the league built.
 
-In 2435 a confrontation between league crews nearly becomes a massacre. Aren orders Detha, a captain who can refuse him without punishment, to hold fire on people who have just killed her comrades. She obeys freely. The Red Sovereign answers him. The act that qualifies him is an act of restraint; it does not certify what he does with the mantle afterward.
+After the 2432 crown image appeared in [Talessar](../world/artifact/talessar.rb), Aren deliberately sought mantle authority, studying readings and attempting freely accepted commands. Those attempts failed. In 2435 he came to stop a confrontation between league crews after earlier killings; he did not arrange the violence. He released Detha from military penalty for refusing his order to hold fire. She obeyed freely and the Red Sovereign answered. He chose compulsion, learned its memory cost and then chose to retain units and seize the batteries. His ambition precedes the losses.
 
 His first coerced commands end the confrontation. He then keeps units under orders after the danger passes. Officers who intended to stand down cannot abandon their posts. When Velisar's council attempts to remove him, he makes its coastal batteries admit his ships and commands its defense to remain in place while his troops seize the city.
 
-The takeover is the first armed crisis of this scale in the Accord era. Aren now controls a major port, its batteries, part of the league's force, and an occupation he must actually supply. Other cities remain independent. His fleet cannot be everywhere, orders must reach subjects, and each new resistance costs him part of the life that made his ambitions meaningful.
+The takeover is the first armed crisis of this scale in the Accord era. Aren now controls a major port, its batteries, part of the league's force, and an occupation that keeps producing places he cannot afford to abandon. The war reaches independent ports, upland country, orbital approaches and resource sites where people can be trapped, recruited, robbed or killed. Other cities remain independent. His fleet cannot be everywhere, orders must reach subjects, and each new resistance costs him part of the life that made his ambitions meaningful.
 
 ### Powers with different aims
 
 **Aren's command and the Istravan League.** Aren wants permanent control of the league's defense and the elimination of rival military authority on its coast. Some officers willingly support him; others obey supernatural commands; some member governments still support the league while opposing his seizure. There is an organization to contest and a region to liberate, not one enchanted crowd that becomes politically identical.
 
-Reception matters in the field. A live order carried by a working channel must be treated as potentially effective; the treatment assumes no immunity from hearing it remotely. Opponents can stop relaying Aren's voice or break a channel, but that does not undo an order already accepted. Recorded playback and the persistence of commands across succession need explicit rule decisions before a campaign outcome depends on them.
+Reception matters in the field. A live order carried by a working channel can compel; a recording cannot originate a new command. Accepted orders persist through death and succession until fulfilled, made impossible or revoked by a living bearer addressing their subjects. A successor inherits the ability to revoke without automatic knowledge of every order or contact with every captive. Opponents can break a channel to prevent fresh commands, but that does not undo accepted ones.
 
 **Velisar's resistance.** Its people want their city back and their captured relatives returned. They know the quays, the hill roads, the batteries, and the army's households. Some will accept help from any enemy of Aren. Others will not let an outside force exchange his occupation for its own. Their ability to hide people and deny local cooperation matters alongside weapons.
 
@@ -106,7 +106,7 @@ Reception matters in the field. A live order carried by a working channel must b
 
 **Independent Istravan cities.** These can deny Aren a regional victory or bargain separately with him. A city that shelters resistance may still refuse a united army under Serevan command. Rivalries predate the takeover. They also offer other fronts and local campaigns without introducing another identical sovereign.
 
-The Accord can provide recognition, mediation, and channels between members. Actual protection, transport, and fighting depend on people who choose to undertake them. The new conflict does not turn its secretariat into an army.
+The Accord can provide recognition, mediation, and channels between members. Actual protection, transport, and fighting depend on people who choose to undertake them. The new conflict does not turn its secretariat into an army. Most people on Kaleidos encounter it as distant news, delayed cargo, public arguments or volunteer campaigns rather than a direct threat. Its importance is concentrated in Korvath and in the communities tied to the theater by family, trade or refuge.
 
 ### Themes and causal threads
 
@@ -116,7 +116,11 @@ The Accord can provide recognition, mediation, and channels between members. Act
 
 **An alliance has somewhere else to go.** Sereva's obligations do not end at Velisar. Its crews have homes, current dangers, and ambitions beyond the expedition. A breakthrough on the coast may expose an allied force elsewhere. Cooperation creates effective choices whose costs the allies distribute differently.
 
+**A regional war has a high frontier.** The surface and orbital approaches are one theater without being one battlefield. A blockade can isolate a city without closing every road; a bombardment threat can move civilians and valuable equipment without becoming routine; a secured resource node can alter the war while leaving its workers' political claims unresolved. These fronts give campaigns room to grow without reopening the Bitter Reach across the system.
+
 **Power changes hands.** A subject who knowingly disobeys an absolute command and reaches Aren can open succession. That creates a concrete avenue for a campaign, but it is not the sole solution or a guaranteed reward for a player. Defeating forces, separating orders from their recipients, holding independent territory, and securing defections can achieve lasting results without obtaining the mantle.
+
+**A warning changes what people attempt.** [Esvar](../world/encyclopedia/culture/esvar.rb) supplies the divinatory practice; Talessar owns the particular prophecy. Its 2417 warning let workers avert deaths beneath a fallen spar in 2418. The image of the crowned liberator remains unfulfilled. The resistance escorts, hides and recruits possible successors in response to it. No concealed answer fixes that figure's identity. Evidence of a threat gives people reasons to act without prescribing the future.
 
 ### Chronology
 
@@ -125,13 +129,18 @@ The Accord can provide recognition, mediation, and channels between members. Act
 | 2398 | Sava establishes the Istravan League through coastal defense agreements. | Shared training and refuges exist before the Bloom Coalition's dissolution becomes open war. |
 | 2407 | The league protects its coastal approaches as the Bitter Reach begins. | Its households experience the larger war through particular deployments and losses. |
 | 2414 | Veska's finite public defense of a stranded convoy qualifies her as the Triumphant. | Later forces know both her capability and the bodily cost of using it. |
+| 2417 | Talessar's spar image is publicly exhibited. | Drawings exist before the event and can be compared with later claims. |
 | 2418 | Veska holds Velisar's evacuation ground; Sereva receives the departing households. Veska dies after the last kite leaves. | A successful rescue leaves enduring ties and a disputed military example. |
+| 2418, during evacuation | Workers recognize the pictured gantry and move households before it falls. | A credible warning has a preventable outcome; its failure to save Veska leaves the reading's limits visible. |
 | 2423 | Sava and Aren carry Istrava's demobilization into the wider settlement. | The league remains, with forces controlled by its members. The Bitter Reach's end stays intact. |
 | 2428 | Sava dies. | Her successors inherit relationships and a fleet, but not her personal authority. |
 | 2429 | Member councils appoint Aren commander. | He gains office through ordinary political support. |
 | 2430 | Nalis Venn accepts the Waybearer's occupied road from Soma Irel during an unrelated rescue. Soma remains until the last pursuers are captured, then returns by ordinary ship and retires from road work. | A completed succession leaves two living people with different responsibilities and relationships at both ends. |
+| 2430, after the crossing | Keepers compare distant recordings of a divided road figure made during succession. | The office has observable significance beyond the bearer's immediate work; both bearers retain their own bodily losses. |
+| 2432 | Talessar shows the crown and broken shackle; Aren begins seeking the sovereign's office. | His pursuit is deliberate, and copies predate his taking. |
 | 2435, before the takeover | Detha freely obeys Aren's order to hold fire; the Red Sovereign answers him. | He gains a power whose first subsequent uses appear to prevent further killing. |
 | 2435, the takeover | Aren seizes Velisar and turns its defenses outward. | The Accord's untested present ends; resistance and an allied response are already underway. |
+| 2435, after the takeover | Aren recalls Deral's hunters; oshrets occupy the workings. | Survivors, escaped miners, ashamed soldiers and treasure seekers have reasons to act independently of the succession struggle. |
 | 2435, now | Detha is outside the occupied city; Serevan crews are arriving; independent cities are choosing their response. | Several undertakings are possible, with no scheduled liberation, succession, or general war. |
 
 ### Major characters
@@ -152,9 +161,11 @@ The Accord can provide recognition, mediation, and channels between members. Act
 
 ### Campaigns and open outcomes
 
-An occupied-city campaign can free neighborhoods and batteries. An expedition can recover captives and establish a defensible route. A pursuit can follow a defecting captain across several worlds. A political and military campaign can unite independent cities without handing their forces to one commander. An infiltration can attempt to reach Aren; a separate campaign can prevent him establishing an outer-world base.
+[Istrava](../world/geographic_location/istrava.rb) owns cliffside smuggling and the occupied workings at Deral. The mine's platforms, trapped workers, crystal and egg buyers sustain rescue, hunting and theft. [Oshrets](../world/encyclopedia/lifeform/oshret.rb) have behavior and vulnerabilities usable beyond that particular mine. [Velisar](../world/geographic_location/velisar.rb) owns its garden dances and dock audiences; [velith](../world/encyclopedia/culture/velith.rb) owns the verse contest that joins them. These places and customs support fame, pleasure, patronage, infiltration and violence without requiring every gathering to become an assassination.
 
-These are distinct undertakings within one conflict. A successful evacuation remains successful even if Aren holds the city. A liberated city need not produce his immediate defeat everywhere. Loss of the mantle does not automatically explain what happens to all standing commands: the current source leaves that interaction to resolve before any ending depends on it. No antagonist secretly serves the Bloom's hidden war as a condition of this treatment.
+The resistance's custody of Talessar links theft, readings, prospective successors and the proposed public appearance of Aren. It does not require a group to accept a particular reading or intervene in succession. Crews, performers, hunters and rescuers can make lasting changes without gaining a mantle or receiving orders from the existing major cast.
+
+These are distinct undertakings within one conflict. A successful evacuation remains successful even if Aren holds the city. A liberated city need not produce his immediate defeat everywhere. Standing orders follow the Red Sovereign's canonical persistence rules; a successor's intentions remain that person's choices. No antagonist secretly serves the Bloom's hidden war as a condition of this treatment.
 
 ## 3. Lithren: exploring the precursor remains
 
@@ -321,7 +332,7 @@ Particular intersections remain available. A Serevan household may include someo
 | Frontier rules and an independent lead | [Sevrin Pledge](../world/edict/sevrin_pledge.rb), [Iral's First Claim](../world/edict/irals_first_claim.rb), [Vannor Account](../world/rumor/vannor_account.rb) |
 | Starting places | [Istrava](../world/geographic_location/istrava.rb), [Velisar](../world/geographic_location/velisar.rb), [Ithara](../world/geographic_location/ithara.rb) |
 
-The Red Sovereign's recorded-playback and post-death or succession interactions remain an explicit rule question on the mantle. No current outcome depends on an invented answer. Teren Voss's birth year and late-life history remain an authoring question on his existing biography; his species and attested career remain intact.
+The Red Sovereign owns the settled live-voice and command-persistence rules. Its addressed question has been removed and the decision recorded in its log. Esvar owns the divinatory practice; Talessar owns its particular warning and dated evidence. Velith and Oshrets own reusable performance and creature behavior. Istrava owns the current Deral material, with a future marker for a possible independent mine entry. Teren Voss's birth year and late-life history remain an authoring question on his existing biography; his species and attested career remain intact.
 
 Lithren's deepest mysteries are a different category. The military opponent, ecological forces, ultimate fate and origin of resonance are intentionally unsettled facts of the setting. They are not queued for an author to supply a hidden solution. A particular route, mechanism or historical action may acquire a conclusive answer through new evidence.
 

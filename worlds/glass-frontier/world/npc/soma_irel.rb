@@ -19,6 +19,8 @@ npc :soma_irel do
     People preparing to follow Nalis sometimes ask Soma whether she is ready. He describes what she did on the captive ship and directs them to her for the decision. He will challenge a preparation he thinks inadequate, but will not turn his former office into authority over its bearer.
 
     Soma makes ordinary journeys to see survivors who settled elsewhere. Passage schedules can keep him away longer than he expects. One household has kept his room as he last saw it; another rebuilt its old receiving court into a garden. He visits both.
+
+    The roads permanently damaged his balance. He walks with a broad-footed stick and keeps a hand on a rail when a vessel turns. Yielding the mantle stopped further consumption without repairing the old injuries. He asks hosts to leave lamps burning beside steps; in darkness he cannot reliably tell whether he is upright.
   PROSE
 
   gm_note :appears, "Soma is waiting for an ordinary passage alongside the travelers and recognizes someone whose family crossed his last road; he needs help reaching them without reopening an old obligation."

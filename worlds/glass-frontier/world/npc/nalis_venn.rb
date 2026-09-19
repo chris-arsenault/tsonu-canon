@@ -14,6 +14,8 @@ npc :nalis_venn do
     Nalis Venn bears the #{ref :waybearer, "Waybearer"}. She first qualified by trusting a passenger's remembered home strongly enough to open a way to a place she had never seen. In 2430, during #{ref :somas_last_road, "Soma's Last Road"}, #{ref :soma_irel, "Soma Irel"} yielded an occupied crossing to her and stayed at the other end until its pursuit was resolved.
 
     She asks a traveler to describe how they enter a place, what they pass and who expects them there. Coordinates alone cannot give her an address. Old service with Soma does not make every destination he knew available to her.
+
+    Since completing that first occupied road, she has needed to look down to judge the position of her left heel. She feels pressure and pain normally, but cannot reliably place the foot from bodily sensation alone. She practices on uneven ground with a companion beside her. Larger crossings threaten the remaining sense that lets her stand and move without watching each limb.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "A Road Out of Velisar"

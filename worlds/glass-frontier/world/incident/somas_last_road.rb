@@ -17,9 +17,16 @@ incident :somas_last_road do
     Nalis brought the crossing to its end. Soma came back on an ordinary ship and retired from road work. The rescued passengers settled in several places, and both guides have continued to visit them.
 
     The rescue gave Nalis the mantle and experience of an occupied road. It did not give her every destination Soma had known. Preparing a new crossing still requires a living connection to its destination and provision for whatever follows the intended travelers.
+
+    Recordings later compared by esvar keepers on Ashvane and Kaleidos showed their road figures dividing during the occupied crossing. Neither house had received news of the succession. The #{encyclopedia_ref :esvar, "readings"} drew pilgrims to the survivors after ordinary reports identified them.
   PROSE
 
   gm_note :appears, "A survivor of the captive freighter asks for passage to someone who once pursued them across Soma's road and now wants to return a possession."
+end
+
+moment :somas_road_seen_elsewhere, year: 2430, of: :somas_last_road do
+  summary "Keepers compared distant esvar recordings whose divided-road figures coincided with the succession, before news of it reached their houses."
+  effects { set :somas_last_road, distant_witness: :compared }
 end
 
 moment :somas_last_road_yielded, year: 2430, of: :somas_last_road do

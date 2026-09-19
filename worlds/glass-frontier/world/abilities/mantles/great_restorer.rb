@@ -36,6 +36,14 @@ ability :great_restorer do
 
     Succession follows disclosure rather than death or defeat. After completing a restoration, the bearer must give the restored people a full account of what returned, what old flaws came with it, and what loss they chose to preserve. The mantle can pass only through a working whose unavoidable omission the bearer refused to hide.
   PROSE
+  prose <<~PROSE, section: :history, heading: "The State That Must Be Chosen"
+    Assembling a complete state and identifying its flaws qualifies a restorer. Eris did that work for Ruvian; its bearer performed the return and paid the loss. Only after her disclosure did the mantle pass to him. He remembers feeling the surviving witnesses as parts of a vessel enclosing his body, although he was standing on the quay. The missing gallery had no corresponding sensation. His predecessor's damaged sight remained hers, and his own first great return will exact its own permanent loss.
+
+    Dispossessed households seek a bearer who can return a shattered home. Others fear the buried weapons or harmful instructions that a return would make serviceable again. A patron can collect witnesses and finance years of preparation without becoming eligible, and a qualified restorer cannot take the office from a living bearer simply by presenting a better collection.
+  PROSE
+  prose <<~PROSE, section: :significance, heading: "The Missing Place"
+    #{encyclopedia_ref :esvar, "Esvar"} places the Great Restorer with the gold figure of Form, holding a circle whose gap remains visible after it is raised. Petitioners sometimes arrive with a reading that promises a missing child or household. Eris asks for surviving evidence of the person or place; the card supplies none. At Ithara, readers have begun disputing whether the figure should stand over the vanished settlement or the people living beside it now.
+  PROSE
 
   gm_note :triggered_by, "When fragments, records, bodies, or witnesses preserve a complete state, the Great Restorer can make that state physical; adding a credible witness can change which version is strongest enough to return."
   gm_note :complicates, "A restoration returns old flaws, hidden rooms, infections, obligations, and hostile instructions that belonged to the chosen state, while every contradictory complete state becomes part of the named loss."

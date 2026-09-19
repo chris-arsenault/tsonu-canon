@@ -1,6 +1,6 @@
 thread :istravan_war do
   name "The Istravan War"
-  summary "The Istravan League's refuge commitments, demobilization and captured command lead into a struggle over the freedom of its member cities."
+  summary "Istrava's history of chosen protection leads into Aren's pursuit of the Red Sovereign, a regional war and resistance to the tyranny foretold after liberation."
   subkind :story_thread
   status :complete
 
@@ -8,10 +8,17 @@ thread :istravan_war do
     In 2398 #{ref :sava_neraleth, "Sava Neraleth"} joined coastal defenses and refuges into the #{ref :istravan_league, "Istravan League"}. The Bitter Reach tested those commitments. The #{ref :velisar_evacuation, "2418 evacuation"} saved households and made lasting connections with #{ref :sereva, "Sereva"}. #{ref :veska_ral, "Veska Ral"} died when its completed purpose released the cost into her.
 
     In 2423 Sava and #{ref :aren_talivar, "Aren Talivar"} demobilized the league. The cities recovered their forces and property; smaller towns lost protection. Sava died in 2428. The councils appointed Aren commander in 2429, entrusting him with an office he had previously agreed to limit.
+
+  PROSE
+
+  prose <<~PROSE, section: :history, heading: "The Figures Before the War"
+    Veska received the #{ref :triumphant, "Triumphant"} in 2414 while rescuing a stranded convoy. #{ref :talessar, "Talessar"}'s fallen-spar image appeared in 2417. Workers acted on that warning during the evacuation, saving people pictured beneath the spar without preventing the later cost that killed Veska. Survivors inherited a rescue, a death and a warning they had successfully answered.
+
+    The #{ref :somas_last_road, "Waybearer's succession in 2430"} changed sacred figures in houses on different worlds before news reached them. Istravan readers cited those distant witnesses when the crown appeared in Talessar in 2432. Aren began seeking the sovereign's power; opponents of his ambition circulated the same image as a warning. The deck's future crowd had no names by which either side could identify it.
   PROSE
 
   prose <<~PROSE, section: :course, heading: "Command Turns Inward"
-    In 2435 #{ref :detha, "Detha"} freely obeyed Aren's order to hold fire, qualifying him for the Red Sovereign. He first used compelled command to halt violence, then retained units beyond their agreed withdrawal. Velisar's attempt to remove him led to the #{ref :velisar_occupation, "occupation"}.
+    In 2435 #{ref :detha, "Detha"} freely obeyed Aren's order to hold fire during a confrontation he had come to stop. The mantle answered after earlier attempts to obtain it had failed. He chose compulsion to end the violence and learned its memory cost before choosing to retain the units. Velisar's attempt to remove him led to the #{ref :velisar_occupation, "occupation"}.
 
     Detha resisted a later absolute order and escaped without reaching him. Her knowledge now helps people he holds. It also brings former prisoners into contact with the captain who arrested them before his takeover.
   PROSE
@@ -19,7 +26,15 @@ thread :istravan_war do
   prose <<~PROSE, section: :present_day, heading: "The Coast and Its Allies"
     Serevan forces are arriving to recover captives and protect a relief route. #{ref :ivena_sar, "Ivena Sar"} and other residents maintain passages through the city. Independent cities can deny Aren a regional victory, but their cooperation does not follow automatically from a shared enemy.
 
-    Aren has not obtained permanent coastal command. No liberation, succession or final alliance has occurred. The forces already moving can win particular ground, save particular people and change which cities will support them.
+    The #{ref :velisar_resistance, "resistance"}'s work now divides over possible successors. Groups escorting claimants toward Aren can lose them to allies intent on preventing the future shown in Talessar. A rescuer seeking release from standing orders may welcome the very coronation another rescuer fears. Detha refuses the face painted onto street copies of the prophecy while preparing to reach people still inside the city.
+
+    Aren's recall of hunters from the upland mine at Deral has meanwhile left workers trapped by creatures. Smuggling crews cross the guns for people who need escape, treasure seekers head inland and velith performers carry accusations into the houses entertaining league officers. These undertakings bring allies together without requiring agreement over who should inherit the mantle.
+  PROSE
+
+  prose <<~PROSE, section: :implications, heading: "A Regional War After Peace"
+    The Istravan War is large enough to involve a substantial part of Korvath and its orbital approaches, but it is not a second Bitter Reach. Most of the planet continues ordinary work. Most people on Kaleidos hear about the fighting through freight delays, arguments over intervention and occasional reports of a blockade or bombardment threat; they do not expect their own homes to be attacked.
+
+    The omen has drawn readers and would-be claimants from beyond Korvath. Their arrival has not brought their home worlds' armies with them. Most households elsewhere can follow the disputed pictures without feeling threatened by the guns that enforce Aren's rule.
   PROSE
 
 
@@ -40,3 +55,7 @@ relate :rel_istravan_war_fills_beat_velisar_occupation, :fills_beat, :istravan_w
 relate :rel_istravan_war_fills_beat_sereva, :fills_beat, :istravan_war, :sereva
 
 relate :rel_istravan_war_fills_beat_ivena_sar, :fills_beat, :istravan_war, :ivena_sar
+
+relate :rel_istravan_war_fills_beat_talessar, :fills_beat, :istravan_war, :talessar
+
+relate :rel_istravan_war_fills_beat_resistance, :fills_beat, :istravan_war, :velisar_resistance

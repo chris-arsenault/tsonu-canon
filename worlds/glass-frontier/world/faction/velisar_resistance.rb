@@ -5,7 +5,7 @@ faction :velisar_resistance do
   founded 2435
   status :complete
   prominence :recognized
-  tags :military, :activism
+  tags :military, :activism, :religion
 
   prose <<~PROSE
     The Velisar resistance joins people who can open a yard, hide a patient, disable a gun or bring a soldier out of an occupied barracks. It formed during #{ref :aren_talivar, "Aren Talivar"}'s seizure of #{ref :velisar, "Velisar"}. Its members agree that he must lose the city. They disagree about which of his soldiers deserve help and which outside forces should be invited in.
@@ -19,7 +19,16 @@ faction :velisar_resistance do
     Cooperation with #{ref :sereva, "Sereva"} gives the resistance armed help beyond the quays. It also raises the question of who will hold a liberated battery. Residents who welcome a landing may still bar the expedition from their assembly hall. Victories are negotiated in the streets where they occur, by people who will remain there after the ships leave.
   PROSE
 
+  prose <<~PROSE, section: :tensions, heading: "The Person After Aren"
+    The resistance hides #{ref :talessar, "Talessar"}, but possession has not produced an agreed reading. Crews preparing to reach Aren want a successor who can revoke his standing orders. They collect testimony from prisoners who have resisted him and offer escorts to those willing to attempt the journey. Others shelter those same people from recruiters, fearing that the deck's crowned liberator will be welcomed into a second tyranny.
+
+    Disagreement has become action. One group removed a possible claimant from a planned assault and sent them out by sea without telling the force waiting to escort them. Another kept an original leaf in circulation after its protectors demanded that it be locked away. Both groups still open doors for captives. Detha refuses to let either announce her as the person in the picture.
+
+    The fallen-spar warning gives people a reason to try to prevent the pictured future. They watch celebrations for attempts to acclaim a single liberator, seek the unaltered drawings and challenge readings that put a convenient enemy's face under the crown. Some fight for release from today's orders and have no faith in the cards at all. An ally can share the immediate rescue and oppose the succession it is meant to enable.
+  PROSE
+
   gm_note :triggered_by, "Offering to free prisoners brings a request to include a soldier's household on the escape route; one local guide refuses until the soldier's earlier prisoners are accounted for."
+  gm_note :complicates, "An ally will help reach Aren only if a possible successor travels under their protection; another ally offers to hide that person from the escort."
 end
 
 relate :rel_velisar_resistance_operates_in_velisar, :operates_in, :velisar_resistance, :velisar, since: 2435

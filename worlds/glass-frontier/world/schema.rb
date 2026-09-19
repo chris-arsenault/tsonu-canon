@@ -367,10 +367,25 @@ naming_lexicon do
   extension "Do not stretch an existing word beyond its meaning to avoid extending the lexicon. A lone subject may need a distinctive proper name without creating a productive root; declare a new root or pattern when it can organize a coherent family."
 
   word :istrava,
-       meaning: "The coastal region on Korvath's warm middle sea whose independent cities formed the Istravan League.",
+       meaning: "The region around Korvath's warm middle sea whose ports and uplands formed the Istravan League, now the theater of a regional war extending into its orbital approaches.",
        use: "Istrava names the region; Istravan identifies its people, works and institutions.",
        examples: ["Istrava", "Istravan League", "Istravan coast"],
        boundary: "Do not use it for all Korvath or for every ally fighting in the coastal conflict."
+  word :esvar,
+       meaning: "The Tessellan practice of reading pictured mantle offices among other figures, using painted or responsive ringglass cards.",
+       use: "Use for the practice, its decks and particular readings; its owning culture entry distinguishes interpretation from an observed change in a leaf.",
+       examples: ["Esvar", "an esvar deck", "Talessar's esvar reading"],
+       boundary: "Not every prophecy, card game or Tessellan observance; painted cards do not acquire the powers of responsive glass."
+  word :velith,
+       meaning: "Istravan improvised verse contests in which opponents preserve and turn one another's last line while an audience chooses refrains.",
+       use: "Use for the contest, its answering style and refrains carried beyond the original performance.",
+       examples: ["Velith", "a velith circle", "a velith refrain"],
+       boundary: "Not all Istravan music or political speech; the repeated line and audience answer define the form."
+  word :oshret,
+       meaning: "Korvath's cavern predator whose hooked limbs brace its bony shield through structural resonance while gripping continuous rock.",
+       use: "Use for the animal, its nests and life stages; oshrets is the plural.",
+       examples: ["Oshret", "oshret nests", "young oshrets"],
+       boundary: "Not any cave monster or armored animal; the documented anatomy and rock-contact defense define the species."
   word :ithara,
        meaning: "The modern survey name of a Lithren ruin group; Itharan identifies the local pattern-keeping tradition evidenced there.",
        use: "Use the adjective for people and works connected by evidence to that local tradition.",

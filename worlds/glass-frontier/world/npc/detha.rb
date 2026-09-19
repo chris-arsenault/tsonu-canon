@@ -23,6 +23,8 @@ npc :detha do
     #{ref :ivena_sar, "Ivena Sar"}'s patients include people Detha detained before the occupation. Some will work with her only after hearing an account of those arrests. She gives it even when doing so costs her a guide or a berth. Escaping Aren did not erase what she did while her decisions were her own.
 
     Reaching him could open succession. She considers the route whenever she studies the batteries and fears what she might justify if the second voice became hers. Recovering one crew, disabling a gun and keeping a neighborhood free remain undertakings she can complete without taking the mantle.
+
+    Copies of #{ref :talessar, "Talessar"} now circulate with her face painted beneath the crown. She asks their sellers to show the original figure and rejects invitations to promise that she will become sovereign. She has agreed to neither a coronation nor permanent exile from the city to prevent one. Her crew remain inside while people argue over what she might become.
   PROSE
 
   gm_note :appears, "Detha offers a route through a battery passage, then recognizes someone she once arrested among the people being rescued."

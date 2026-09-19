@@ -9,6 +9,7 @@ npc :aren_talivar do
   status :complete
   prominence :recognized
   tags :military, :governance, :resonance
+  log "2026-09-19 — Aren deliberately sought mantle authority after the 2432 Talessar reading. He attempted voluntary commands but did not engineer the armed confrontation. Memory loss raises the cost of later choices without causing or excusing his political ambition."
   descriptive_identity appearance: "A broad, weather-marked face above a stiff left shoulder from coastal service.", attire: "A league officer's coat with the member cities' old fastenings still attached.", tools: "Bound accounts of meetings and family visits whose words he can recover more readily than their meaning.", manner: "Asks a person to repeat the operative words of an instruction before he leaves.", disposition: "Treats the coast's survival as a responsibility he has earned the right to enforce."
 
   prose <<~PROSE
@@ -18,7 +19,11 @@ npc :aren_talivar do
   PROSE
 
   prose <<~PROSE, section: :history, heading: "The First Obedience"
-    In 2435 Aren ordered #{ref :detha, "Detha"} to hold fire during a confrontation with people her crew blamed for earlier deaths. He released her from military penalty if she refused and had the authority to make that release real. She understood, could refuse, and chose to obey his exact words. The mantle answered him.
+    In 2432 Aren bought copies of #{ref :talessar, "Talessar"}'s new crown image and began inviting esvar readers into his headquarters. Several officers recall him asking whether freely chosen obedience could make the league strong enough to survive its next war. He wanted the power and believed he would use it better than a successor chosen after another disaster. At exercises and prisoner exchanges he released subordinates from penalties before asking them to obey. None of those attempts brought the second voice.
+
+    The confrontation of 2435 arose from a feud between league crews after earlier killings. Aren came to stop retaliatory fire; surviving participants describe no arrangement by him to start it. He ordered #{ref :detha, "Detha"} to hold fire, released her from military penalty for refusing and had the authority to make that release real. She chose to obey. He recognized the answering voice from the accounts he had studied. The first words he spoke with it ordered the opposing gun crews to lower their weapons.
+
+    His account made that evening names the first loss: he could no longer remember standing with the dead crew members' families when their bodies came ashore. He still knew who had died and could read his own earlier condolences. Detha heard him describe the gap while insisting that compulsion had been worth the lives saved. He understood that further commands could take more memories before he chose to retain the units and seize the batteries.
 
     His first compelled orders stopped further violence. He then kept armed units at their posts beyond the agreed withdrawal. When Velisar's council removed him, he ordered the batteries held and the approaches closed. The city's defenses became the instruments of its occupation.
   PROSE
@@ -48,6 +53,11 @@ relate :rel_aren_talivar_participated_in_velisar_occupation, :participated_in, :
 moment :aren_appointed, year: 2429, of: :aren_talivar do
   summary "The Istravan member councils appointed Aren Talivar commander."
   effects { set :aren_talivar, standing: :commander }
+end
+
+moment :aren_seeks_crown, year: 2432, of: :aren_talivar do
+  summary "Aren studied Talessar's crown image and began seeking mantle authority through freely accepted commands."
+  effects { set :aren_talivar, mantle_pursuit: :deliberate }
 end
 
 moment :aren_red_sovereign, year: 2435, of: :aren_talivar do
