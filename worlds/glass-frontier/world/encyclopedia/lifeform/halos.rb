@@ -1,6 +1,6 @@
 encyclopedia :halos do
   name "Halos"
-  summary "Halos are dormant organisms sleeping in the ice of the cold routes that wake to the resonance of a working navigation lamp and flower into pale fans around it. Route crews read the fans as a ledger of every lamp that ever burned there."
+  summary "Halos are dormant organisms in the ice of the cold routes that wake to a working navigation lamp's resonance and flower into pale fans around it. Old fans preserve growth from earlier periods of service."
   kind :lifeform
   subkind :spore
   status :complete
@@ -32,7 +32,9 @@ encyclopedia :halos do
   prose <<~PROSE
     The cold routes — the ice roads of Lithren's approaches, the shadowed legs of the outer runs — carry a sleeping cargo. Halos lie in the ice as a gray dust, mineral-shelled and patient on a scale surveys measure in generations, and they wake to one thing: the sustained working tone of a navigation lamp. Around a burning route lamp the ice flowers. Pale fans, ribbed and translucent as scraped horn, rise in a tight ring at the exact radius the lamp's tone carries, grow while the lamp speaks, and rest when it goes dark.
 
-    The fans keep books. Each season of service lays a visible ring in the fan, and a route crew reading an old lamp post reads the route's history in the growth — how many seasons the lamp burned, the gap years when the route went unserved, the tight starved rings of the Famine, when the lamps ran weak. Surveyors on new routes core old fan beds the way growers core trees, and the great fan colonies at the Lithren waystations, generations deep around lamps the ring itself planted, are route monuments the crews maintain paths around. Where the fans flower, a lamp burned; the cold roads are mapped in flowers for anyone who can read them.
+    Each period of growth leaves a ring. On continuously occupied routes, crews can compare those rings with recorded seasons of lamp service, including weak growth during the Famine. A dormant interval leaves no ring of its own, so counting growth cannot measure how long an abandoned lamp stood dark.
+
+    The #{ref :lithren, "ring-era lamps identified on Lithren in 2331"} carry old mineralized fans separated from younger growth by a weathered surface. Relighting began the younger layers. Some modern waystations preserve the old fans around working replacements; others use wholly new posts. The ancient colonies establish earlier lamp use without providing an unbroken account of travel through the Famine.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Fouling and the Stranded Camp"
@@ -43,7 +45,7 @@ encyclopedia :halos do
 
   cue "Around the route lamp the ice has flowered — a tight ring of pale ribbed fans at exactly the radius the tone carries — and the newest growth is still translucent enough to show the light through."
   cue "The waystation's lamp post rises from a colony generations deep, and the maintenance path spirals through the old growth like a walk through an orchard."
-  affordance "The fans are the cold roads' own service record — rings per season, gaps for the dark years — and a surveyor who cores an old bed can date a route's whole working life from one lamp post."
+  affordance "Compare growth with dated lamp service to identify periods of strong or weak use; an old dead colony can reveal a landing whose beacon no longer shines. Unmeasured dormancy prevents a ring count from dating the whole route."
   pressure "A working lamp needs a clearing rota as the fans crowd its light. Equipment used through a cold night may also leave a fan ring that marks the camp for later patrols."
   variation "Lithren's monument colonies are curated with walkways and left to bury their dead lamps whole; the working routes scrape yearly and sell fan horn by the sack."
   variation "Some outer crews plant a lamp over halo-rich ice and farm the fans; route records distinguish those regular harvest rings from colonies around navigation lamps."

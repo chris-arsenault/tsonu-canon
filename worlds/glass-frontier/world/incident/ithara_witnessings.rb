@@ -19,7 +19,9 @@ incident :ithara_witnessings do
 
     Witnessing is reciprocal: the act of looking leaves a consequence that the observed event can register. Investigators record that exposure rather than assuming they are invisible. No recovered scene supplies a living ancient interlocutor who can explain the whole history.
 
-    The cut bands remain untranslated. No intact body or written archive has been recovered. The Witnessings are evidence of particular acts, not a replacement for those missing sources.
+    In one repetition through a polished domestic support, a person in the recovered room turned toward the observer's reflected face. Nereth ended the working when the person approached the reflection. Other investigators can choose a different object or remain longer in that event, but must accept the same exposure. The #{encyclopedia_ref :itharan, "observed bodies and household conduct"} come from these sensory scenes, not from an inferred anatomy assigned to every ruin's builders.
+
+    No intact builder's body has been recovered. The #{ref :lithren, "written finds"} can be copied but supply no securely translated narrative against which to check the scenes. Witnessed voices and gestures therefore remain important evidence even when the objects around their speakers carry inscriptions.
   PROSE
 
   prose <<~PROSE, section: :aftermath, heading: "What Remains Unanswered"

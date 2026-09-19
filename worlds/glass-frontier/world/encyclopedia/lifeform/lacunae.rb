@@ -41,6 +41,8 @@ encyclopedia :lacunae do
     Lacunae locate inscription under snow, ice, and rubble more accurately than surface surveys. Teams follow their digging to find buried faces, then measure the animal's route and pace. Each station's corpus ledger records extant text, known grazing paths, and estimated arrival at threatened faces. The animals' age and their ability to locate writing sustain two origin models: a native grazer exploiting the ruins, or a lifeform made to erase them. Neither model changes the observed feeding cycle.
 
     Each research station maintains copying benches, trained hands, and checking pairs who compare a fresh transcript with its stone. The available intervention is frost. Lacunae avoid a face carrying #{encyclopedia_ref :print, "Print"} until the mark clears, so crews frost selected inscriptions to extend the copying interval. Copyists sign each completed face with the date and the condition of the source, leaving later readers a record of what survived long enough to be checked.
+
+    The transcripts preserve strokes whose meanings are mostly unsettled. A grazer can erase a setting group already recognized on a machine or a passage nobody has interpreted. Its own surviving metabolism works on Lithren's exposed stone; ordinary animals brought by the expeditions still require sealed shelters. Teams keep instruments on a feeding animal because neither its energy supply nor the fate of the removed material has been established.
   PROSE
 
   cue "The survey team follows the eater's dig line to a face the snow had hidden — new text, unrecorded — and the station's schedule reorganizes around it by lamp-light: frost crew tonight, copy benches at dawn."

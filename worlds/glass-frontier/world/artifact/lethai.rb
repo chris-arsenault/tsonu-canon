@@ -1,11 +1,12 @@
 artifact :lethai do
   name "Lethai"
-  summary "Lethai is a partly working ancient vair in Anaret, joining curved assemblies with supplied light and carrying optical branches into neighboring workshops."
+  summary "Lethai is an ancient optical array in Anaret that joins machinery and makes surfaces capable of concealing objects from a chosen direction; its powered branches also threaten occupied rooms."
   subkind :machine
   type_of :vair
-  function "Directs supplied light around curved workpieces for joining and cutting"
+  function "Joins curved assemblies and writes fine light-guiding structures through prepared optical layers"
   status :complete
   prominence :recognized
+  log "2026-09-19 — Extended the established joining array with a demonstrated fine writing setting. Optical concealment remains directional and physical. SG-1 The Fifth Race supplied the research prompt of a partial discovery granting a consequential capability: https://rdanderson.com/stargate/episodes/episodes/02-15fifth.htm."
   tags :materials, :rebuilding, :danger, :mystery
   descriptive_identity appearance: "Stepped mirror rings surround an empty cradle; thin colored paths cross its pale lining under a test lamp.", handling: "A bar moves linked mounts while separate shutters close branches leading behind the walls.", risks: "A cracked return mirror directs part of one path above the work cradle, and an untraced branch reaches an adjoining room."
   prose <<~PROSE
@@ -20,9 +21,21 @@ artifact :lethai do
 
     #{ref :tamet, "Tamet"} wants access to the side bench to make fittings too awkward for his hand tools. #{ref :selven_iral, "Selven Iral"} wants the array's output committed to his expedition. Araket's crew intends to remove the most portable optical mounts for sale. Taking those mounts would also disperse witnesses needed to compare the larger work.
   PROSE
-  gm_note :triggered_by, "Setting a new workpiece in Lethai under test light reveals a second thin line passing above it. The crack is visible only after its mount is loosened; the powered source would turn that line into a burn path."
+  prose <<~PROSE, section: :present_day, heading: "The Empty Hand"
+    After the joining trial, the bench crew used a second setting on a layered blank recovered beside the array. Viewed from one marked place, the finished curve showed the paving behind a hand held under it. From the adjoining step the hand remained visible. Scratching the curve left a dark scar across the borrowed image. The piece is now in the upper shelter; its makers show the effect to visitors through the window without requiring them to surrender it to an expedition.
+
+    The setting belongs to the #{encyclopedia_ref :vair, "fine optical work"} of the array. Loose examples in the side racks have different curvatures. Some place a false edge close to the viewer; others carry a narrow view around an obstruction. No surviving setting yet covers a person from every direction. Patrol captains want shields that conceal the hands behind them. Escaped cutters want a way to cross one watched window. Performers have offered passage inward to anyone who can bring a sound pair of the curves.
+
+    The raiders have taken a steering mirror into the lower court. Connected to the trial source, it can direct a cutting branch through an exposed doorway. It cannot reach around masonry, and a bright aiming spot precedes the dangerous beam. Holding the branch on a target heats its mount until it drifts. Workers trapped beside the source can see its cooling fins; people above can reach the shutter linkage. The captain has used the spot to threaten a worker without firing. Nobody outside his crew knows whether he intends to leave the apparatus intact when he departs.
+  PROSE
+  gm_note :appears, "An apparently empty niche contains a hand behind a curved optical face; a step sideways exposes both the hand and the concealed object it is holding."
+  gm_note :triggered_by, "Entering the watched doorway draws a bright aiming spot before the occupiers open Lethai's cutting branch. Stone blocks the shot; reaching the shutter or turning the steering mirror changes where it can strike."
 end
 relate :rel_lethai_at_anaret, :located_in, :lethai, :anaret
 relate :rel_comparative_studies_lethai, :studies, :ithara_comparative_expedition, :lethai, since: 2434
 relate :rel_eris_studies_lethai, :studies, :eris_talven, :lethai, since: 2435
 relate :rel_tamet_maintains_lethai, :maintains, :tamet, :lethai, since: 2435
+
+moment :lethai_optical_shell_tested, year: 2435, of: :lethai do
+  summary "The bench crew made a directional optical shell after the joining trial; raiders later connected a cutting branch to a steering mirror in the lower court."
+end

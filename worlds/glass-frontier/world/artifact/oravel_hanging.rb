@@ -15,13 +15,15 @@ artifact :oravel_hanging do
     Its layers appear to have been joined while they were being laid. Learning how could help present workshops make material without the weak patch left by their repairs. Ilven funded the first examination and wants a sheet released for sale. The investigators can specify another measurement but cannot promise a profitable result. The working cradle made at Anaret establishes a use for a different setting; it supplies no answer about this join.
 
     Old clamp impressions continue across a fold that was later cut away from the broad pipe circuit. A patched edge then received a smaller fitting aligned with Oravel's partitioned rooms. The array was altered while those rooms remained in use. Its best surviving join belongs to an earlier arrangement; removing only the soundest metal would separate the evidence for both arrangements from their connections to the walls.
+
+    In the #{ref :oravel, "specimen chamber opened in 2435"}, overlapping folds wrap independently sealed wells. Broad faces can be turned toward a warm pipe or toward the cold outer wall. Their setting determines which wells take up heat first. Detached material loses that relationship, but a complete fitting lets a visitor warm one specimen while its neighbors remain cold. A collector cutting the best sheet from a cylinder can change the conditions of the wells inside it.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "A Surface in Pieces"
     #{ref :ilven_sarith, "Ilven Sarith"} wants a broad sound sheet for his rooms and offers smaller buyers the offcuts. Mechanics seek usable heat-spreading stock. Some workers prefer to leave the continuous array intact until the pipe routes have been traced. These uses compete for different parts of the same surface.
 
     #{ref :tovin, "Tovin"} knows how to carry a rolled sheet through the upper approach without exposing its sharp edge. The #{ref :oravel_crossing, "crossing failure"} left one section newly reachable from the repaired span and another folded beneath it. Recovering either means judging the supporting brackets as well as the visible metal. A sheet valuable enough to pay for a voyage can still be too awkward for the ship that came to fetch it.
   PROSE
-  gm_note :triggered_by, "Turning a lamp across the Hanging reveals a repaired seam by its uneven response. The comparative expedition will pay to examine the joined edge before a buyer cuts that section free."
+  gm_note :triggered_by, "Turning a fold exposes a specimen well that had been facing the cold wall. Moisture begins moving inside as the neighboring pipe warms it; the fitting can be turned back without cutting the sheet."
 end
 
 relate :rel_comparative_studies_hanging, :studies, :ithara_comparative_expedition, :oravel_hanging, since: 2434

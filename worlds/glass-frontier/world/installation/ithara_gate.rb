@@ -22,7 +22,7 @@ installation :ithara_gate do
     Behind the court lies #{ref :anaret, "Anaret"}, where the #{ref :anaret_descent, "upper descent"} has already opened workshop rooms. The gate service way reaches an inspection cover above that district's lower approach. #{ref :araket_seizure, "Armed occupiers"} now hold the broad route below it, making the cover useful to rescue parties and to Selven's guards.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "What a Return Would Give"
-    #{ref :eris_talven, "Eris Talven"} is preparing the #{ref :ithara_return, "composite return"}. The supported subject includes the gate and parts of the adjoining court. It could give the inhabitants usable streets, workshop structures and a defensible entrance. It would recover their old flaws along with their sound portions. The enclosure would still need modern air and heat.
+    #{ref :eris_talven, "Eris Talven"} is preparing the #{ref :ithara_return, "composite return"}. The supported subject includes the gate and parts of the adjoining court. Intact layered barriers would let a small defending force withstand fire that present pressure shelters cannot survive. The adjoining workshops could make the #{encyclopedia_ref :vair, "optical surfaces"} now drawing buyers and raiders to Anaret. The return would recover old flaws along with sound portions, and the enclosure would still need modern air, heat and power for its defenses.
 
     #{ref :selven_iral, "Selven Iral"} wants the release chambers held by his personnel. Daret wants controls reachable from both occupied sides. Tamet wants the inner workshops open to independent makers. None of those uses changes the evidence for the old state, and no great working has yet settled what will stand here.
 

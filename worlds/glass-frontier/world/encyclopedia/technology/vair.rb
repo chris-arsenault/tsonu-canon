@@ -1,13 +1,13 @@
 encyclopedia :vair do
   name "Vair"
-  summary "A vair is a recovered Lithren optical work array that brings supplied light onto shaped paths for heating, joining and cutting material."
+  summary "A vair is a recovered Lithren optical work array that directs supplied light for joining, cutting and writing fine structures into layered material."
   kind :technology
   subkind :optical_machine
   status :complete
   topics :materials, :rebuilding, :danger
   prevalence :rare
   appears_when all: { place: [:outer_system] }, any: { place: [:archive, :yard] }
-  function "Arranges movable mirrors and lenses to heat selected surfaces from a supplied light source"
+  function "Shapes supplied light to join and cut material or write fine optical paths through prepared layers"
   operating_limit "Useful heating requires sufficient input power; alignment, absorption and clear beam paths govern the result"
   cue "A weak test lamp produces several narrow lines that meet along one edge of a workpiece."
   cue "Stepped mirror mounts tilt in linked groups when a shaped setting bar slides into its slot."
@@ -26,4 +26,15 @@ encyclopedia :vair do
 
     Sound optical pieces travel well when their mounts remain supported. Taking a lens away from its cradle loses the measured relationship that made the whole useful. Makers who buy loose pieces often build a smaller array for a particular job. Wide ancient work courts can contain routes and linked machinery beyond the surfaces already cleared.
   PROSE
+
+  prose <<~PROSE, section: :applications, heading: "The Paths Inside a Surface"
+    Fine settings work below the scale visible to an unaided eye. A succession of exposures alters prepared transparent layers, leaving narrow paths along which light travels inside the finished piece. Loose lenses can guide a beam; a complete writing setting can make thousands of guides within the same curved surface. Present workshops can replace a large mirror more readily than reproduce that setting.
+
+    Some recovered shells take light from one edge and release it elsewhere. A person looking into a tested shell sees what stands behind its neighboring inlet instead of the object directly behind its face. Joined shells can conceal a hand or a weapon from a narrow direction. Moving sideways reveals the hidden object at the edge, and dust or a crack breaks the image. The surface does not conceal sound, stop a projectile or remove heat. Larger recovered layouts offer different viewing angles, but each needs a clear path for the light it borrows.
+
+    Other settings make illuminated marks appear at a chosen distance, providing sights that remain visible while the weapon and observer move separately. A ruined wall can therefore carry a convincing open doorway or put a bright aiming figure across a person. The supplied light and surviving optical paths determine what appears. A dark inlet gives a dark image.
+  PROSE
+
+  affordance "A recovered optical shell can hide an object from a watched direction or put a sight across a distant surface; shifting the observer exposes its limited field."
+  variation "Joining settings work on broad seams; fine writing settings make optical surfaces whose apparent depth differs from the object behind them."
 end

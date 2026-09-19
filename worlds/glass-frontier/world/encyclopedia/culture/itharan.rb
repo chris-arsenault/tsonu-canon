@@ -37,9 +37,17 @@ encyclopedia :itharan do
     The observed actions do not make all preservation coercive or every missing part an act of resistance. Neighboring works show other choices, and many absences have no established explanation. A modern restorer needs to distinguish the state a piece preserves from the history attributed to its loss.
   PROSE
 
-  prose <<~PROSE, section: :limits, heading: "The Extent of the Name"
-    Itharan does not name a biological species, a single government of Lithren or the creators of resonance. No recovered account establishes whether these builders found the phenomenon already present, changed its distribution or brought it into the system.
+  prose <<~PROSE, section: :culture, heading: "People Seen at Home"
+    Recurring people in the #{ref :ithara_witnessings, "Witnessings"} have narrow torsos and paired folds extending from the sides of the neck. The folds spread in warm rooms and lie close beneath outdoor wrappings. Each forearm ends in two opposed gripping branches, able to hold a tool while turning a small fitting with the same limb. These features belong to the people actually observed; excavators have not established who occupied every other Lithren site.
 
-    The opponents in their military defeats, the ecological forces accompanying settlement changes and the ultimate fate of their civilization remain unestablished. The local practice can be described and used without assigning answers to those questions.
+    At rest, people lean forward against broad chest supports. Speech reaches listeners through the air and through those shared supports as a lower vibration. In one domestic scene a smaller person climbs onto the support between two adults and interrupts both voices by drumming on it. One adult holds the child's hands still; the other continues the rhythm with their feet. Fragments of these supports were once catalogued as machine rests.
+
+    Meals appear on perforated warm slabs. Diners lift translucent layers with the fine branches of their hands and pass the slab while keeping the thicker food near its central heat. A damaged vessel shows an adult breaking a portion into smaller pieces for somebody whose gripping branches cannot close. The food's composition is unrecovered, but the hand movements have helped modern cooks adapt replica serving pieces for their own diners.
+
+    Sound and contact also cross the boundary into public authority. A speaker facing a crowd can rest both arms against a sounding rail; the people holding it feel the low part of the address. Turning away or releasing the rail visibly withdraws that participation. The same fittings appear at meals, performances and guarded collections, with different people controlling who may approach them.
+  PROSE
+
+  prose <<~PROSE, section: :limits, heading: "The Extent of the Name"
+    Itharan names this observed local practice. Assemblies from other sites can preserve different proportions, fittings and ways of retaining a pattern. The #{ref :lithren, "planet's recovered record"} has not joined them into one civilization-wide account.
   PROSE
 end

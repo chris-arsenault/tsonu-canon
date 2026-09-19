@@ -10,6 +10,8 @@ conflict :araket_seizure do
     After the #{ref :lethai_trial, "Lethai Trial"} in 2435, #{ref :araket, "Araket"} arrived at #{ref :anaret, "Anaret"}'s lower landing under an offer to carry recovered equipment. Its crew disarmed workers on the approach, wounded two who resisted and moved their stores into the ship's detached cabin. They now control the broad route used by loaded sledges.
 
     The captain holds cutters to extract the machinery and structural material he wants. An orc field physician who accompanied the trial tends the injured in the cabin and upper shelter. The #{ref :araket_crew, "occupiers"} can fire across the lower court, but the walls and broken upper floors conceal other routes. They lack enough people to search every room and watch the ship at the same time.
+
+    Their new #{ref :lethai, "cutting beam"} reaches one upper doorway the guns cannot cover. Its aiming spot has driven workers away from a window. The mirror operator stands in an exposed recess, and prisoners near the source have begun marking the intervals when its cooling fan slows. The raiders have gained a weapon that their captives know more about than they do.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Getting People Out"
     #{ref :ysil, "Ysil"} wants to bring a loaded rescue cradle through the upper crossing at #{ref :eneth, "Eneth"}. #{ref :osen, "Osen"} and #{ref :daret_valis, "Daret Valis"} are examining the service cover for a wider route. Either could let workers leave without crossing the occupiers' firing position. Both need equipment brought through cuts whose present carrying limits are already tight.

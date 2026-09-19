@@ -5,6 +5,7 @@ thread :itharan_recoveries do
   status :complete
   log "2026-09-15 — Public recovered sequence with intentionally open causes; no concealed ancient answer or required future revelation."
   log "2026-09-16 — Extended modern foundations to Pelhari's 2272 hypothesis and the 2311 landfall; permanent habitation starts in 2322. Added independent ancient local sequences and one established intermediate destination without making all evidence part of the military history."
+  log "2026-09-19 — Reconciled ring-era contact and untranslated tablet collections with the modern foothold. Added optical and biological discoveries to the present without assigning them a universal ancient explanation."
 
   prose <<~PROSE, section: :history, heading: "Ancient Acts"
     At #{ref :ithara, "Ithara"}, builders preserved patterns across works, spare pieces and models. Witnessed scenes show recoveries performed in separate operations. Collections later came under armed control associated with #{ref :othes, "Othes"}. Defenses were broken and returned; the force opposing them has not been identified.
@@ -17,6 +18,8 @@ thread :itharan_recoveries do
   prose <<~PROSE, section: :history, heading: "The Modern Foothold"
     #{ref :elian_soreth, "Elian Soreth"}'s 2272 prediction led to repeated observation, then to Vedra's expeditions after sustained travel resumed. The #{ref :lithren_landfall, "2311 landfall"} established accessible ruins. The grounding of #{ref :sevrin, "Sevrin"} in 2322 supported households between voyages.
 
+    In 2331 investigators identified abandoned ring-era beacon fittings set into older paving. Tablets exported in 2337 brought ancient inscriptions into Pelhari's collections. The fittings established earlier elven contact; the tablets preserved writing whose shapes could be copied long before much of its meaning could be recovered.
+
     Collector traffic brought money and expansion, then contracted as costly finds disappointed buyers. The #{ref :sevrin_stand, "2372 defense"} preserved occupied rooms without ending inequality. Independent provisioning and later repeat specimen commissions supported livelihoods before the comparative expedition. Its discoveries entered a settlement with residents, property, friendships and old harms of its own.
   PROSE
 
@@ -25,7 +28,9 @@ thread :itharan_recoveries do
 
     The #{ref :ruvian_return, "return of Ruvian"} in 2429 gave #{ref :eris_talven, "Eris Talven"} the Great Restorer through his predecessor's disclosed loss. #{ref :selven_iral, "Selven Iral"} financed longer Lithren residencies in 2431. #{ref :osen, "Osen"} found further deliberate cuts in 2433. These independent developments brought power, competing collections and new evidence to the same place.
 
-    The #{ref :anaret_descent, "Anaret Descent"} of 2434 opened workshops behind the gate. In 2435 the #{ref :lethai_trial, "Lethai Trial"} connected a Damarat setting to a working carriage there. A previously unidentified shape acquired a use through comparison, new manufacture and a successful loaded test. The surrounding machinery and the larger ancient history remain further subjects of investigation.
+    The #{ref :anaret_descent, "Anaret Descent"} of 2434 opened workshops behind the gate. In 2435 the #{ref :lethai_trial, "Lethai Trial"} connected a Damarat setting to a working carriage there. Further settings in #{ref :lethai, "Lethai"} produced a surface that conceals an object from one direction. Its makers kept the specimen; the occupiers subsequently adapted another branch into a weapon.
+
+    Independent explorers at #{ref :oravel, "Oravel"} reached sealed specimen wells in 2435. Two opened wells yielded living organisms under modern pressure shelters. Their keepers now exchange cuttings and try to recapture swimmers loose beneath an occupied floor. Other wells remain unopened, including some whose wrappers are worth more to cutters than any buyer has offered for their contents.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "A Place to Enter"
@@ -62,3 +67,5 @@ relate :rel_itharan_recoveries_lethai_trial, :fills_beat, :itharan_recoveries, :
 relate :rel_itharan_recoveries_landfall, :fills_beat, :itharan_recoveries, :lithren_landfall
 relate :rel_itharan_recoveries_sereyat, :fills_beat, :itharan_recoveries, :sereyat
 relate :rel_itharan_recoveries_ivara, :fills_beat, :itharan_recoveries, :ivara
+relate :rel_itharan_recoveries_lethai, :fills_beat, :itharan_recoveries, :lethai
+relate :rel_itharan_recoveries_oravel, :fills_beat, :itharan_recoveries, :oravel

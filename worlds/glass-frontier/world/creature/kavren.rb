@@ -17,7 +17,7 @@ creature :kavren do
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Behind the Partition"
-    A wet growth edge passes through a gap beneath a repaired ancient threshold. A camera lowered beside it has shown an oval recess, two descending steps and a second wall beyond the present excavation. Pulses in the brine raise the folds enough to expose the lower step briefly. Reaching that recess would require holding pressure around the opening while moving the casing or approaching through the partition above.
+    A wet growth edge passes through a gap beneath a repaired ancient threshold. A camera lowered beside it has shown an oval recess, two descending steps and a second wall beyond the present excavation. Pulses in the brine raise the folds enough to expose the lower step briefly. A dry crack above the partition led explorers into #{ref :oravel, "Oravel's specimen chamber"} in 2435. The lower steps still disappear behind living folds. They can be examined under retained pressure without stripping the whole colony from the threshold.
 
     A narrow fracture beside the footing also carries #{encyclopedia_ref :hesh, "hesh"}. Gas lifting its frozen cover can expose the outer casing from below. It is a different pocket from the brine inside Kavren. Opening one into the other could empty the colony onto the approach. Their separate probe readings give a crew a way to distinguish the two before widening either crack.
 

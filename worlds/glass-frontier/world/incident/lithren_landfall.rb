@@ -18,7 +18,7 @@ incident :lithren_landfall do
   prose <<~PROSE, section: :aftermath, heading: "The Return Was Part of the Discovery"
     Vedra left the heavier specimens on marked ground to preserve the ship's return margin. Later expeditions recovered some; others could not relocate her markers after surface frost shifted. Elian's public showing on Pelhari brought new backers, and Sevrin carried further parties from 2314. These were intermittent visits. Permanent habitation began with the ship's grounding in 2322.
 
-    The expedition is the earliest post-Glassfall surface visit supported by surviving approach records and specimens. Damaged older charts may refer to #{ref :lithren, "Lithren"}, but their marks do not establish who reached it before the shattering. The modern name was attached to the observed planet during Elian's search; its use does not translate an ancient planetary name.
+    The expedition is the earliest post-Glassfall surface visit supported by surviving approach records and specimens. The #{ref :lithren, "abandoned ring-era lamps identified in 2331"} later established older contact. None was operating along Vedra's approach. The modern name was attached to the observed planet during Elian's search; its use does not translate an ancient planetary name.
 
     Early images remain useful beside the #{ref :ithara_survey, "comparative survey"}: they show what later roofs, ramps and spoil heaps conceal. The 2311 party photographed a wide basin. It did not map the planet or identify every concentration now known.
   PROSE

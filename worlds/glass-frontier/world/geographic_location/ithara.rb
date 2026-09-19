@@ -100,7 +100,7 @@ geographic_location :ithara do
   prose <<~PROSE, section: :history, heading: "What Has Been Recovered"
     The #{ref :ithara_tool_return, "tool return of 2416"} demonstrated that the retained pieces could preserve a complete working pattern. The #{ref :ithara_witnessings, "Ithara Witnessings"} established further acts: rebuilding damaged homes, moving pattern collections under armed guard, restoring a defense after it had been broken, and deliberately destroying parts before an evacuation.
 
-    The conventional names #{ref :othes, "Othes"} and #{ref :sahel, "Sahel"} distinguish recurring people in those witnessed events. No intact body or written archive has been recovered. The cut bands on Ithara's posts remain untranslated. The witnesses recover moments of lived activity, with intervals between them that no surviving object bridges.
+    The conventional names #{ref :othes, "Othes"} and #{ref :sahel, "Sahel"} distinguish recurring people in those witnessed events. The #{ref :lithren, "tablet collections"} preserve writing without a securely translated history. Witnessings recover lived activity, with intervals between them that no surviving object bridges.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Gate Undertaking"

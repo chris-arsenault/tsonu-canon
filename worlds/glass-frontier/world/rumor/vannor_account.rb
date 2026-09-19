@@ -17,13 +17,17 @@ rumor :vannor_account do
   prose <<~PROSE, section: :present_day, heading: "Enough to Go Looking"
     #{ref :ilven_sarith, "Ilven Sarith"} offers passage and an advance for a second sample obtained while the camera remains on the work. He wants first purchase of any movable assembly found there. #{ref :osen, "Osen"} offers to check the two claimed approaches with a crew that can pay its own return. He has examined the accessible ridge and can rule out one shallow cut as the filmed chamber; the country beyond remains largely unsurveyed.
 
+    Several independent crews have pooled copies and marked that rejected cut for anyone passing. One group has already gone beyond the ridge without Ilven's money. Another broadcasts its bearings openly, hoping that rivals will leave searchers a trail if it fails to return. The clearest copy can be examined at a public table in Ithara in exchange for leaving a duplicate of any new observation.
+
     The low entrance may have been a #{encyclopedia_ref :hesh, "hesh mouth"}. Fresh frost borders it in the clearest frame, but the footage lacks a pressure reading. If the opening has resealed, a party could reach the right ground and still fail to find the room. A probe, a camera on a fixed mount and time to observe changing ground would answer questions that another purchase of the same copy cannot.
 
     Crews can compare the chips with known workshop trials, trace the earlier sellers or visit the contested bearings. None of those acts requires believing every claim. People who sell passage now have an interest in a promising account; people who hope to visit first have an interest in making its route look worse. The available evidence permits an operating ancient work, modern equipment or an incorrectly joined account. It establishes no connection to the builders' disappearance.
+
+    Someone has cut the ridge party's trail marker free and offered it for sale with a claim that the party abandoned its search. The marker carries fresh blood under one fastening. Its seller refuses to name the place it was found. The public bearings still give searchers a direction, whether they hope to find missing people or reach the chamber first.
   PROSE
 
   gm_note :appears, "Two crews unfold copies of the Vannor route over the same table. They agree on the filmed chamber and disagree over which side of Oravel's ridge it lies; one has passage booked and needs another pair of hands."
-  gm_note :triggered_by, "Comparing the sample with a known workshop trial matches its heated face but leaves the fracture unexplained. The buyer will fund a return visit if the crew records the extraction continuously."
+  gm_note :triggered_by, "Asking after the party beyond the ridge turns up its severed trail marker for sale. A stain under the fastening suggests the party left in trouble; the seller insists the camp was empty."
 end
 
 relate :rel_vannor_at_ithara, :manifests_at, :vannor_account, :ithara

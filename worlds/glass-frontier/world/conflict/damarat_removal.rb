@@ -28,7 +28,16 @@ conflict :damarat_removal do
     Some residents are preparing to leave even if the sale fails. Others are seeking enough orders to keep the machine working under their own direction. They continue sharing the terrace while the offers remain open, borrowing tools from people who may soon take their part of the workshop elsewhere.
   PROSE
 
-  gm_note :complicates, "Arriving for ordinary workshop business finds a family packing for Ilven's reserved departure. They want the sale to succeed; their neighbor needs help reaching the lower frame to learn whether removing the bed will undermine the rooms they intend to keep."
+  prose <<~PROSE, section: :present_day, heading: "The Missing Settings"
+    The disappearance of a case of fine setting bars has turned the argument violent. The injured operator says two people carried it past the sleeping rooms. A resident has since found one bar offered by a visiting carrier as an ordinary salvage piece. Its new polish stops short of the old rack number. The carrier claims to have bought it from a worker entitled to a share of the machine.
+
+    That worker admits selling the one bar to pay for a child's passage. She says the buyer's companions took the rest after learning where it was kept. Her neighbors must decide whether to believe her while the same carrier continues loading. Some want the parts returned and the thieves expelled. Others would accept enough money to leave. Ilven wants the machine complete and denies commissioning the theft; he has offered a reward that draws people willing to seize any convincing substitute.
+
+    Workers watch the departing ships and ask crews at other camps to look for their numbered bars. A few would rather break into the carrier's hold than bring its guards into their sleeping rooms. The camp continues making simpler pieces without the case, but the people who hid the first sale now fear both their neighbors and the crew they traded with.
+  PROSE
+
+  gm_note :appears, "A carrier offers a polished setting bar as salvage while a bloodied operator searches the neighboring tables for witnesses. The rack number remains visible beneath its new finish."
+  gm_note :complicates, "The person who admits selling the first bar asks for help recovering the others. Exposing her can turn her own neighbors against her before the departing carrier is searched."
 end
 
 moment :damarat_removal_contested, year: 2435, of: :damarat_removal do

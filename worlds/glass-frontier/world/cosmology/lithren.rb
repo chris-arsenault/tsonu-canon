@@ -31,6 +31,7 @@ geographic_location :lithren do
   log "2026-09-15 — Made surface hostility and dangerous runs explicit. Structural collapse, deliberate traps and malfunctioning systems have distinct causes; mutual survival with an outlaw is a substantial present-day possibility, not a required betrayal or redemption."
   log "2026-09-16 — Survey descriptions establish known examples rather than a total count, largest possible scale or complete range of precursor works. Further discoveries remain open under established physical rules; Itharan pattern keeping is one local practice."
   log "2026-09-16 — Added modern observing and settlement history from 2272 onward. The 2311 landfall is the earliest documented post-Glassfall surface visit, not proof that the planet was unknown before the shattering. Ancient local sequences remain independently dated and the larger causes remain open."
+  log "2026-09-19 — Reconciled older route and archive entries: abandoned ring-era beacons were identified in 2331 and inscribed tablets exported in 2337. Recoverable writing is fragmentary and largely untranslated; no connected ancient history or intact builder's body has been recovered."
 
   prose <<~PROSE
     Lithren is the eighth and outermost planet of the Kaleidos system. Nitrogen frost, dark stone, and shallow frozen basins cover its surface. #{ref :ithara, "Ithara"} is its principal expedition hub, where researchers, carriers, traders and independent crews live beside ruins built in the open before the oldest surviving system records.
@@ -39,17 +40,19 @@ geographic_location :lithren do
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Finding the Outer Planet"
-    After the #{ref :the_glassfall, "Glassfall"}, the outer charts preserved on Pelhari no longer supported a reliable course to Lithren. Some marks may represent the planet, but none supplies an unbroken account of visits before the shattering. #{ref :elian_soreth, "Elian Soreth"}'s 2272 argument for a planet beyond Vastine began with new positional observations. Repeated images in 2286 established a moving body along his predicted arc.
+    After the #{ref :the_glassfall, "Glassfall"}, the outer charts preserved on Pelhari no longer supported a reliable course to Lithren. Marks without surviving bearings could not be matched securely to a destination. #{ref :elian_soreth, "Elian Soreth"}'s 2272 argument for a planet beyond Vastine began with new positional observations. Repeated images in 2286 established a moving body along his predicted arc.
 
     The observing program belonged to Pelhari's surviving local institutions. It did not restore a system-wide travel network during the Signal Famine. Once renewed voyages made an attempt possible, Elian backed #{ref :vedra, "Vedra"}'s expeditions. Her first approach in 2307 turned back. The #{ref :lithren_landfall, "landfall of 2311"} returned surface specimens and images of open-air ruins.
 
     Subsequent crews came to measure, collect and look for profitable recoveries. They could reach the planet before they could afford to live there. Temporary shelters were repeatedly emptied between voyages. The permanent grounding of #{ref :sevrin, "Sevrin"} in 2322 gave the basin an occupied repair and supply base, from which a settlement grew into present-day Ithara.
 
+    In 2331, crews beyond the basin identified abandoned lamps with fittings matching dated ring-era equipment. Their foundations cut across much older paving. Dry #{encyclopedia_ref :halos, "halo fans"} enclosed the dead cores; younger growth appeared after relighting. These finds establish earlier elven visits, separated from modern landfall by an interval without attested service. They have supplied no account of an encounter with the ancient builders. Present lamp rounds follow selected approaches between occupied camps, leaving most of the surface unmarked.
+
     Migration remained uneven. A profitable find brought more vessels; a disappointing run could carry a household away with its equipment. Some people born here left to study or work inward and later returned with families. Others never returned. Known landings multiplied without producing a close survey of the whole planet, and a shelter marked on an old chart might be inhabited, abandoned or stripped by its own departing crew.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Open-Air Ruins"
-    The largest mapped sites follow an equatorial basin and stand partly buried by frost-driven soil. Low walls enclose courts, ramps descend into storage chambers, and stone posts carry repeated cut bands whose ordering has not been translated. No intact body or written archive has been recovered.
+    The largest mapped sites follow an equatorial basin and stand partly buried by frost-driven soil. Low walls enclose courts, ramps descend into storage chambers, and stone posts carry repeated cut bands. No intact body of a builder has been recovered.
 
     Surveys distinguish three major concentrations. Those are the largest catalogued groups, among many scattered remains: outlying settlements, isolated structures, quarries, buried roads and works whose purpose is unestablished. Much of Lithren has never received a close surface survey. Small sites may be known only to a visiting crew, omitted from a chart deliberately, or still hidden under undisturbed ground.
 
@@ -60,10 +63,18 @@ geographic_location :lithren do
     Some enclosed fissures retain warm liquid brine beneath rock and frozen crust. Living #{encyclopedia_ref :ovri, "ovri"} grows where fresh seep fluid supplies it. Those pockets do not make the open ruins habitable. Modern camps also carry introduced animals, including #{encyclopedia_ref :ricochets, "ricochets"} hunting inside their pressure shelters. Evidence of present life has different sources and does not by itself identify what lived alongside the ancient builders.
   PROSE
 
+  prose <<~PROSE, section: :sources, heading: "Writing Without a History"
+    Inscribed tablets first reached Pelhari in 2337. The cold around some of them reproduces their strokes as #{encyclopedia_ref :print, "Print"}; others survive only as broken stone or impressions in archive ice. Scholars can copy and compare those marks. Repeated groups beside sockets and measures have acquired useful working interpretations, but no sustained passage has a secure translation. The tablets have no established sequence that turns them into a narrative of the civilization.
+
+    Modern transcript archives hold these copies, excavation records and competing readings. An archive slab can preserve an impression cast from a tablet that has since crumbled. Melting it for water may destroy the only remaining shape of a line. #{encyclopedia_ref :lacunae, "Lacunae"} graze exposed inscriptions; their tracks have led collectors to buried tablets as well as to surfaces already erased.
+
+    Separate research stations trade and exhibit particular finds. A cargo's arrival can cover a cold hull in strokes nobody aboard can interpret. Its buyers may obtain a working setting, a recognizable name-group or only another beautifully ordered fragment.
+  PROSE
+
   prose <<~PROSE, section: :history, heading: "The Ithara Discoveries"
     #{ref :ithara, "Ithara"} is one of the three established site groups. The #{ref :ithara_survey, "comparative survey"} began comparing retained pieces in 2408; the #{ref :ithara_tool_return, "tool return of 2416"} established that they could preserve a useful complete pattern. #{encyclopedia_ref :itharan, "Itharan pattern keeping"} now names that evidenced local practice.
 
-    The #{ref :ithara_witnessings, "Ithara Witnessings"} recovered particular ancient actions through surviving objects. They established repeated restoration, armed custody of collections and deliberate destruction during an evacuation. The conventional names #{ref :othes, "Othes"} and #{ref :sahel, "Sahel"} distinguish recurring people. These witnessed events do not translate the cut bands or constitute a recovered written archive.
+    The #{ref :ithara_witnessings, "Ithara Witnessings"} recovered particular ancient actions through surviving objects. They established repeated restoration, armed custody of collections and deliberate destruction during an evacuation. The conventional names #{ref :othes, "Othes"} and #{ref :sahel, "Sahel"} distinguish recurring people. Their spoken addresses can be recognized across scenes without translating the tablets.
 
     The identity of the opposing force in the military defeats remains unknown. The basin's changing conditions do not establish which ecological forces were at work or how they related to the fighting. No recovered evidence decides whether Lithren's builders found resonance, altered it or originated the phenomenon in the solar system. The civilization's ultimate fate is also unestablished; some of these questions may have no surviving answer.
   PROSE
@@ -74,7 +85,7 @@ geographic_location :lithren do
 
     A functioning object, an unusual material, a well-observed specimen or a route to a useful site can all pay for a journey. Others bring no buyer but still warrant a return visit. Restoring a major complex is one undertaking among these. Paid surveys and ordinary salvage keep independent crews working between larger recoveries.
 
-    The satellite excavation at #{ref :damarat, "Damarat"} has become a working camp around a repaired forming bed. #{ref :oravel, "Oravel"}'s exposed hall offers valuable metal sheets and routes into unexcavated rooms. Both receive traffic from Ithara. They are particular works among the scattered remains, and neither establishes the extent of the buried structures around it.
+    The satellite excavation at #{ref :damarat, "Damarat"} has become a working camp around a repaired forming bed. #{ref :oravel, "Oravel"}'s exposed hall offers valuable thermal sheets and living specimens from newly opened wells. Both receive traffic from Ithara. Their excavated rooms lead toward further structures still buried beyond the survey marks.
   PROSE
 
   prose <<~PROSE, section: :dangers, heading: "Beyond the Landings"
@@ -117,4 +128,12 @@ relate :rel_lithren_orbits_the_sun, :orbits, :lithren, :the_sun do
 end
 relate :rel_lithren_part_of_system, :part_of, :lithren, :kaleidos_system do
   prose "Lithren is the eighth planet of the Kaleidos system."
+end
+
+moment :lithren_old_beacons_identified, year: 2331, of: :lithren do
+  summary "Excavators identified abandoned ring-era navigation lamps above older paving; some were relit for modern approaches."
+end
+
+moment :lithren_tablets_exported, year: 2337, of: :lithren do
+  summary "Inscribed Lithren tablets reached Pelhari, beginning the documented trade in stones and frost impressions without a secure translation of their passages."
 end

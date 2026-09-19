@@ -9,7 +9,7 @@ encyclopedia :marrow do
   summary "Marrow is a dense, bitter route medicine brewed from storage roots grown on the outer runs. A warm dose suppresses resonance fever and keeps a patient conscious through one Lithren, Vastine, Pelhari, or Vitrael route leg."
   function "Damps the body's coupling to the resonance bands, slowing resonance fever long enough for travel to an infirmary"
   grades "First-cut root brews route grade for a full leg; second growth brews settlement grade for early fevers and children's doses; exhausted root brews the weak comfort grade"
-  availability "Cut from hereditary bog-terrace strips, dried in wall stacks, and brewed along the cold routes; outer-run medical kits carry sealed doses, and waystations keep a warm crock"
+  availability "Grown chiefly on inhabited Vastine moons, with smaller Lithren crops in heated pressure houses; outer-run kits carry sealed doses and waystations keep a warm crock"
 
   descriptive_identity(
     appearance: "A dense, near-black draught with a bitter mineral finish, " \
@@ -29,13 +29,15 @@ encyclopedia :marrow do
 
     Marrow damps that coupling within an hour. A patient who drinks it warm at the first fever grade remains conscious and able to travel for one route leg. The fever resumes as the dose wears off, so kit cards set the next dose by the route schedule and captains count the sealed doses against the remaining distance. Damping also mutes the patient's perception of band weather. Route law assigns a dosed traveler passenger status until the effect clears, removing them from piloting, reading, and watch duties.
 
-    Marrow-root is the dense storage root of cold bog plants grown along the #{ref :vastine, "Vastine"} and #{ref :lithren, "Lithren"} runs. Families cut hereditary terrace strips on a seasonal rotation with narrow marrow-spades, then dry the root in open wall stacks during the short bright weeks. Strip law reserves each family's first cutting for household kits; surplus enters trade. First-cut root produces route grade, second growth produces settlement grade, and exhausted root is sold as comfort grade.
+    Marrow-root is the dense storage root of cold bog plants grown in settlements serving the #{ref :vastine, "Vastine"} and #{ref :lithren, "Lithren"} runs. The main crops grow on inhabited moons of Vastine. Lithren gardens keep a smaller crop in heated pressure houses; exposed ground cannot support it. Families carry their cutting rights and growing stock between settlements, dividing cultivated beds into inherited strips.
+
+    Narrow marrow-spades lift the roots without taking the whole plant. Cut roots dry on open racks inside the growing houses, under ventilation and timed lamps. Strip custom reserves each family's first cutting for household kits; surplus enters trade. First-cut root produces route grade, second growth produces settlement grade, and exhausted root is sold as comfort grade. Most Lithren crews still buy imported doses.
 
     Dose seals carry the cutting family's mark, strip, and season. Waystations keep a warm crock for immediate use, while outer-run crews carry sealed doses in their medical kits. Empty seals return through the route houses and are saved by the cutting families as a record of where their crop was used.
   PROSE
 
   cue "At the first fever grade, the waystation pours a warm near-black dose and the route captain reassigns the patient from reading and watch duty to passenger status."
-  cue "A cutting family works its marked bog strip with narrow marrow-spades while root dries in wall stacks and returned dose seals hang beside the door."
+  cue "A cutting family works its marked growing strip with narrow marrow-spades while root dries on ventilated racks and returned dose seals hang beside the door."
   affordance "One sealed route-grade dose preserves consciousness and controlled movement for a route leg, giving a crew time to carry the patient to an infirmary."
   pressure "The fever resumes when a dose wears off, so a long crossing requires enough seals for every remaining leg while passenger status removes the patient from route work."
   variation "Route grade comes from first-cut root; settlement grade serves early fevers and children; waystations also stock the weak comfort grade."

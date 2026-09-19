@@ -16,7 +16,7 @@ incident :oravel_crossing do
   PROSE
 
   prose <<~PROSE, section: :aftermath, heading: "The Span That Remains"
-    Daret returned to brace the gallery and laid a narrow crossing over the gap. She maintains that work when she comes to Oravel. The old weight and broken stop remain visible from the service route. Their failure can be inspected; it supplies no account of the hall's abandonment or of an ancient attacker.
+    Daret returned to brace the gallery and laid a narrow crossing over the gap. She maintains that work when she comes to Oravel. The old weight and broken stop remain visible from the service route, below the marks where rescuers braced their feet.
 
     Moving the gallery exposed a fold in the #{ref :oravel_hanging, "Oravel Hanging"} that had lain against stone. Its joined edge became accessible to examination. The sledge's heavier cargo still lies beyond the repaired crossing, which cannot safely carry it. Reaching the load from below would require opening another route.
 

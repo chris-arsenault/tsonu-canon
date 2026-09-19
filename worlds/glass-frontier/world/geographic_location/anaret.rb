@@ -7,7 +7,7 @@ geographic_location :anaret do
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :cold, :archive, :yard, :unstable_route
   tags :materials, :rebuilding, :mystery, :danger, :transport
-  descriptive_identity setting: "Terraced workshops descend behind the gate around a deep court, with pale suspended bands, broken deck sections and light falling through narrow roof cuts.", activity: "Crews examine a partly working optical array, send a carriage beneath the floor and prepare an upper extraction route around armed occupiers.", hazards: "Open depth, loaded structural cords, shuttered light paths and hostile guards divide the known routes; pressure shelters occupy separate pockets of the cold ruins."
+  descriptive_identity setting: "Terraced workshops descend behind the gate around a deep court, with pale suspended bands, broken deck sections and light falling through narrow roof cuts.", activity: "Visitors test surfaces that conceal objects, explore the buried workshops and try to reach captives past armed occupiers.", hazards: "Optical panels disguise recesses and walls; a stolen cutting branch threatens an upper doorway, and open depth separates the pressure shelters."
   prose <<~PROSE
     Anaret is the excavation name for the workshop district behind #{ref :ithara_gate, "Ithara Gate"}. The gate court opens toward terraced workrooms built around a deep machinery court. Fallen roofs bury some thresholds; others can be reached along their service passages or through modern cuts from above. The inhabited rooms of #{ref :ithara, "Ithara"} remain outside the ancient district.
 
@@ -22,6 +22,8 @@ geographic_location :anaret do
   PROSE
   prose <<~PROSE, section: :geography, heading: "The Rooms Already Reached"
     A sunken workroom holds #{ref :lethai, "Lethai"}. Low-powered test light makes colored paths converge around its central cradle. Its stepped mounts rise above the operators' heads, and shuttered branches pass through adjoining walls. The #{ref :lethai_trial, "trial"} established a useful joining process. The paths into uncleared rooms are still being traced.
+
+    Its bench crew has since produced #{ref :lethai, "a curved surface that conceals a hand from one direction"}. Other pieces in the racks carry different views and apparent depths. Visitors have put small mirrors on poles to inspect doorways before trusting what they see from the approach. A clear view into a room can end against an opaque panel, while a dark wall seen obliquely can hide an open recess.
 
     Beside it, a service recess holds #{ref :sovan, "Sovan"}. The carriage's track descends beneath the floor, follows a wall and enters a store of fitted parts. Its camera has shown racks, a buried stair and tracks continuing past the completed circuit. The camera's reachable view ends where those tracks turn behind masonry. Excavators can seek the stair from above or use the carriage to inspect another angle.
 
@@ -42,8 +44,10 @@ geographic_location :anaret do
     Araket's captain wants a load valuable enough to leave Lithren. #{ref :selven_iral, "Selven Iral"} wants to clear the occupiers and keep the recovered district. The physician wants the injured and captive workers brought out. Ysil wants a route people can use after both armed groups have gone.
 
     #{ref :tamet, "Tamet"} and the comparative expedition's materials investigators have practical reasons to keep exploring: the working machines connect to discoveries at #{ref :damarat, "Damarat"}. #{ref :ressa_dorr, "Ressa Dorr"}'s supplies reach the upper shelter with climbers and retrieval parties. The #{ref :araket_seizure, "seizure"} interrupts those journeys without exhausting the reasons to make them. People still need to finish a repair, collect a result, carry a companion home or find what lies beyond a particular door.
+
+    The bench crew keeps the successful optical piece in its own shelter. Some want to sell it to finance another excavation; others have offered it to people attempting to reach the captives. Independent arrivals can bargain directly with its makers. Below them, the occupiers have connected a cutting branch to a steering mirror. A bright spot now travels across the doorway where their guns cannot be raised far enough to aim.
   PROSE
-  gm_note :appears, "A load bound for Anaret includes instruments, food for the medical shelter and a cradle runner. Ysil can carry people through the upper cut, but a broad replacement plate needs another way in."
+  gm_note :appears, "A door appears open from the approach but a thrown pebble strikes its face. Viewed from the next step, the apparent room slides aside and exposes the panel's edge."
   gm_note :complicates, "The service cover offers a route behind the occupiers and sight of the lower court. Opening it widely enough for a patient also gives Selven's armed party an entrance they intend to hold."
 end
 relate :rel_anaret_part_ithara, :part_of, :anaret, :ithara

@@ -15,7 +15,7 @@ conflict :ithara_return do
   prose <<~PROSE, section: :tensions, heading: "States and Uses"
     A returned defense retains the purposes and faults present in the chosen state. Selven is willing to reconstruct military works deliberately. Eris needs sufficient surviving pattern and must identify the old flaws before a working. Nereth wants evidence that can distinguish competing states; Osen knows some gaps resulted from deliberate destruction.
 
-    The gate could open workshops and useful machinery. Its return would not restore Lithren's atmosphere or make every adjoining ruin safe. Modern crews would still need pressure enclosures and equipment, and a returned work might be used by people who did not pay for its recovery.
+    The gate could open workshops capable of making #{ref :lethai, "directional concealment surfaces"} behind barriers that withstand armed assault. A force holding both could equip raids while keeping its own people beyond the reach of ordinary camp weapons. Independent residents want the same protection for homes and workshops. Modern pressure enclosures and a supplied working field would still be necessary.
 
     The rival expeditions already have armed personnel, transport and loyalties. Control of a fragment can decide whether a proposed return is possible. It cannot by itself prove that the state its owner prefers ever existed.
 
@@ -29,7 +29,7 @@ conflict :ithara_return do
 
     Life in Ithara continues around the preparation. Carriers, independent prospectors and researchers undertake work elsewhere, and its inhabitants already have homes and workshops. The gate's return would expand what they can use. Its delay would not close the settlement or prevent expeditions from leaving it.
 
-    Neither expedition has established the ancient enemy, the cause of the basin's changes or whether its builders originated resonance. Useful recoveries do not depend on solving those questions, and controlling a returned gate would give no one authority to answer them.
+    Workers from the occupied district have begun visiting the comparison tables themselves. They bring proposed rooms for families, marks where the old barrier would cut across a current passage, and requests to keep the optical bench in independent hands. Their plans do not agree, but none accepts that the person paying for a fragment must own everything it helps return.
   PROSE
 
   gm_note :complicates, "A rival arrives with a fragment that would make the return possible but demands the recovered defenses; another witness may support a smaller return without that bargain."

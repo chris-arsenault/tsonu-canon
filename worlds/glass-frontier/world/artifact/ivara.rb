@@ -17,7 +17,7 @@ artifact :ivara do
   prose <<~PROSE, section: :history, heading: "Where One Load Went"
     A Witnessing through the carriage's damaged cradle follows its final unloading. People lower one fitted piece onto Damarat's shelf and carry it toward an open storage recess. The brake cheek splits when the next load shifts. They brace the tilted cradle and remove pieces by hand. The event ends with the carriage still there; no surviving trace in that working follows the people out of the building.
 
-    The unloading is later than the cuts at the fortification whose separated pieces it carries. It establishes Damarat as one destination along that departure. The workroom's other alterations cannot yet be placed before or after it. Neither the carriage nor the recovered scene establishes an off-world journey, a single final evacuation or the identity of the ancient attackers.
+    The unloading is later than the cuts at the fortification whose separated pieces it carries. It establishes Damarat as one destination along that departure. The workroom's other alterations cannot yet be placed before or after it. One traveler leaves a smaller worn grip among the padding before carrying the next piece inside. That grip remains caught beneath the tilted cradle.
 
     #{ref :selven_iral, "Selven Iral"} wants to compare the cargo with his defensive collections. Some pieces could help recover a work; others may be packing or parts of something the fortification's occupants never used as a weapon. Osen will show him the measurements but has refused to transfer the whole load in return for passage.
   PROSE

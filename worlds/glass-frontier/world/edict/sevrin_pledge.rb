@@ -26,7 +26,7 @@ edict :sevrin_pledge do
     The #{ref :araket_seizure, "captives at Anaret"} give the rule immediate consequence. A wounded raider reaching a pledged shelter with rescued workers may receive treatment beside them, under guard and without a weapon. A captive can demand their possessions back. An armed rescuer who demands the raider's immediate return across the firing ground will find the shelter's occupants arguing about the route before opening the hatch.
   PROSE
 
-  gm_note :complicates, "A wounded robber reaches the crew's pledged shelter and gives up a weapon. Their pursuer offers to take them away, but the waiting carrier cannot fit the injured person's cradle."
+  gm_note :complicates, "A disarmed robber reaches a pledged shelter whose occupants include someone they injured. The pursuer demands immediate surrender; the guest offers the location of surviving captives if allowed to remain alive and under guard."
 end
 
 relate :rel_sevrin_pledge_at_ithara, :manifests_at, :sevrin_pledge, :ithara

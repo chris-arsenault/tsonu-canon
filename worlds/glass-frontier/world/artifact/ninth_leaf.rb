@@ -6,7 +6,7 @@ artifact :ninth_leaf do
   function "Closes and balances an armored barrier across an approach"
   status :complete
   prominence :recognized
-  tags :military, :materials, :rebuilding, :danger
+  tags :military, :materials, :rebuilding, :danger, :resonance
   descriptive_identity appearance: "A curved stone-and-metal shield lies in a modern cradle beside nested rockers and a weight with one broken corner.", handling: "A catch releases the loaded frame; a second lever interrupts the travel if its linkage has been fitted.", risks: "The closure sweeps an occupied approach, and the surviving release can be reached from a service recess behind the nominal guard position."
   prose <<~PROSE
     The Ninth Leaf is the recovery crews' numbered assembly from #{ref :ithara_gate, "Ithara Gate"}. The count belongs to their laid-out finds. Its shield, nested rockers and release catch preserve enough of their former working relationship for #{ref :daret_valis, "Daret Valis"} to demonstrate a controlled closure in a modern cradle.
@@ -18,7 +18,7 @@ artifact :ninth_leaf do
 
     Daret has added a temporary independent stop to the test cradle. That new stop is not part of the ancient state #{ref :eris_talven, "Eris Talven"} is comparing for the #{ref :ithara_return, "return"}. After a restoration, fitting such protection would be new work. Selven is willing to pay for it where his people stand and less willing to leave equivalent control to those outside.
 
-    The assembly's old scoring records repeated closures and repairs. It does not identify who attacked the gate or establish that every closure was an act of war. The same shield could protect workers from debris or stop people escaping through the approach.
+    Chips embedded in the outer face have flattened against its layered backing. With a modern ringglass array supplying structural reinforcement, Daret's test piece resisted a shot that broke an ordinary plate of the same thickness under the same field. The reinforcement faded when the array was disconnected. Selven wants the intact leaf returned with enough backing to withstand sustained fire; the cracked surviving corners still spall toward anyone standing beside them.
   PROSE
   gm_note :triggered_by, "Testing the Leaf shows that a small hand movement can close the heavy shield. Daret points out the second release path and asks someone to occupy it before she permits another test."
 end

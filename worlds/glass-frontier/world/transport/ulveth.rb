@@ -24,9 +24,11 @@ transport :ulveth do
     #{ref :ilven_sarith, "Ilven Sarith"} pays promptly for large finds. His commissions can keep Ulveth busy while smaller crews wait for passage. Tovin will combine jobs when their loads and destinations permit it. If a commission requires exclusive use, the buyer must pay for the work he turns away.
 
     Ulveth's crew eats and repairs beside its passengers. People can learn who snores, who checks a stranger's suit seal and who has hidden a weapon under a bunk before they agree about the destination. Shared work has made lasting companions aboard it. It has also given passengers ample reason to choose another carrier.
+
+    Tovin keeps another set of landing sketches beneath the pilot's seat. They show cuts where the hull can settle below a ridge and watch an approaching pursuer through a mast camera. He has used them to hide stolen loads and to shelter people being hunted. Once the ship lifts, its warm hull is visible again. A pursuer waiting above the ridge can force a choice between a running fight and a landing beside people Tovin has previously robbed.
   PROSE
 
-  gm_note :complicates, "Booking passage puts the crew beside a paid load that occupies the space needed for their return cargo. Tovin offers to leave some of it at a pressure camp if they will help retrieve it afterward."
+  gm_note :complicates, "A following ship hails one of Ulveth's passengers by name and demands a landing. Tovin knows a concealed cut nearby, but someone aboard recognizes it as the camp from which he stole their last cargo."
 end
 
 relate :rel_ulveth_at_ithara, :operates_in, :ulveth, :ithara

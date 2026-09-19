@@ -1,6 +1,6 @@
 encyclopedia :lamplighter do
   name "Lamplighter"
-  summary "A lamplighter keeps a cold route's navigation lamps: walking or riding the line on the lighting round, feeding and tuning each lamp, and tending the spore-fan colonies that flower around them. The elves lit these routes first; the lighters have kept the light moving since."
+  summary "A lamplighter tends the navigation lamps along a cold route, maintaining their tones and clearing the fan colonies that grow around them. Some rounds preserve old service; others reopen abandoned lines or connect new camps."
   kind :role
   subkind :profession
   status :complete
@@ -24,11 +24,13 @@ encyclopedia :lamplighter do
   cue "The round book lies open on the sledge bench, one line per lamp in generations of different hands, and the current lighter's entries are the neat ones."
   affordance "The lighter's round keeps a route's lamps fed, tuned, and clear — which keeps the line navigable, the spore colonies recording, and every crew on the route inside a chain of working light with a name responsible for each link."
   pressure "The lighter calls in each lamp's state and enters any deferred work under their own name. Crews hear the calls, route offices track the gap, and the spore rings show how long a lamp went without its scheduled tending."
-  variation "The Lithren approach rounds ride sledges between lamps and take a season each way; short valley rounds are walked in a week, and their lighters double as the route's postal service by immemorial custom."
+  variation "Lithren's longest contracted rounds take a season by sledge, revisiting a few known approaches through mostly unmarked country. Lighters carry letters for people along that round when they have agreed to; there is no general post line to Ithara or beyond it."
   variation "Lighters call every lamp in by radio, and the accumulated dry commentary of the great rounds — weather, fans, philosophy — is transcribed by route offices and quoted like an almanac."
 
   prose <<~PROSE
-    The cold routes run on chains of navigation lamps — tuned lights whose tone carries as far as their shine — and the lamps run on lamplighters. The #{encyclopedia_ref :elves, "elves"} planted the original lines, and the ring's registers list the lighting rounds among the route services; the modern round is the same work under harder weather. A lighter serves a route, and the route's lamps are in the round book: each with its feeding schedule, its tone setting, its clearing calendar, and its line of entries running back through every hand that kept it. The round is walked or ridden end to end on the season's rhythm, lamp by lamp — keys, feed, tone check, clearing — and called in by radio at each stop, so the route offices track the light's health one lamp at a time.
+    Chains of tuned navigation lamps mark some cold routes. Lamplighters feed their power supplies, tune their cores and clear growth from the lenses. The #{encyclopedia_ref :elves, "elves"} planted early lines, and surviving ring registers describe their service. Many were abandoned. On Lithren, modern rounds began after the #{ref :lithren, "rediscovery and settlement"}, combining recovered lamps with new ones wherever camps would support their upkeep.
+
+    A lighter's book records the lamps they actually visit, their settings and the faults left for another journey. Calls from each stop tell waiting crews how far the lighter has reached. On long-established routes, the calls and messages connect households; on Lithren a whole round may serve one expedition and end at its last working cut. Beyond that lamp the traveler needs other bearings.
 
     Tending the lamp means tending its garden. #{encyclopedia_ref :halos, "Halos"} flower wherever a lamp speaks, the fans crowd the light on their own schedule, and the lighter's fan-knife does the season's scraping — always sparing the oldest ring, by the custom that keeps the route's history legible. The scrapings ride home as trade stock. The remaining rings record each season of growth, and a lighter reading an old post can identify winters when a predecessor deferred the clearing.
   PROSE

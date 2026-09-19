@@ -19,7 +19,7 @@ artifact :sereyat do
 
     In 2430 #{ref :nereth_valis, "Nereth Valis"} compared narrow Witnessings through an old brace and a worn beater. One recovered event showed a seated person reaching the lowered bank while another person supported their forearm between passages. Other people took turns at the standing side. A later surviving repair replaced one rib but retained the lowered frame.
 
-    Those traces establish an adaptation that remained useful. They do not diagnose the performer's body, identify the gathering's purpose or date it against Othes's guarded collections. The sound heard in the witnessed event supports fragments of an ancient performance. Modern arrangements fill the intervals differently; none is a recovered complete composition.
+    The supporting player keeps a forearm against the lower crossbar between passages, carrying its vibration into the seated player's rest. The lowered bank brings both sound and contact within reach. The event preserves fragments of the music; modern arrangements fill the intervals differently. No surviving scene establishes why that player needed the adaptation.
   PROSE
 
   prose <<~PROSE, section: :legacy, heading: "The Instrument That Paid for Rooms"
@@ -27,7 +27,7 @@ artifact :sereyat do
 
     Ressa's grandmother bought the instrument back in 2401. She wanted it played among the people who had paid for those voyages. Performers earned meals and money; the hall earned its share from their audiences. She favored arrangements with pauses long enough for a second player to answer from the far bank. Ressa inherited it in 2426 and pays performers who can bring people into the hall. She could sell it for much of the cost of her proposed garden. Regular listeners offer smaller payments to keep it here, and a visiting performer wants to take it on another paid voyage with its present owner sharing the receipts.
 
-    Its lowered side suits some modern players better than its standing bank. Restoring the earliest recoverable frame would remove that accommodation. Ressa permits repairs to keep it playable and asks a would-be restorer whose hands they expect to use afterward. Neither its great age nor its sale price settles which arrangement the musicians should prefer.
+    Its lowered side suits some modern players better than its standing bank. Restoring the earliest recoverable frame would remove that accommodation. Ressa permits repairs to keep it playable and asks a would-be restorer whose hands they expect to use afterward.
   PROSE
 
   gm_note :appears, "A visiting musician offers passage and a share of performance receipts for help carrying Sereyat inward. Ressa wants enough to advance her garden, while regular listeners begin gathering money to keep the instrument in Ithara."
