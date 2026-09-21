@@ -10,7 +10,7 @@ npc :sen_ket do
     "arrive at the cart's pace and out of order. A question about a past " \
     "failure opens the numbered drawers beneath the array."
   status :complete
-  tags :navigation, :archives, :"signal-freq", :training
+  tags :navigation, :archives, :"signal-freq", :training, :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

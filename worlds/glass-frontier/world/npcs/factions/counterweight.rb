@@ -8,7 +8,7 @@ faction :counterweight do
   belongs_to :culture, :mutuals
   status :complete
   founded 2429
-  tags :surface, :"structural-freq", :"kinetic-freq", :transport, :training
+  tags :surface, :"structural-freq", :"kinetic-freq", :transport, :training, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

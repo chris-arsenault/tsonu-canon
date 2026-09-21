@@ -5,7 +5,7 @@ encyclopedia :harbor do
   subkind :infrastructure
   status :complete
   log "2026-08-31 — Renamed Bellhouse Air Frame to Harbor; dock-country hostels use the port word for the frame that turns any sealed room into temporary refuge."
-  topics :"ring-hab", :danger, :household, :rebuilding
+  topics :"ring-hab", :danger, :household, :rebuilding, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:sealed_hab, :dock] }
   summary "Harbor is folding emergency life support for a sealed room: an accordion frame of scrubber panels and stored air that unfolds wall to wall and sustains its rated twelve people through a dock closure. The public hostels developed the pattern around one plain promise — the guests survive whatever the port does."

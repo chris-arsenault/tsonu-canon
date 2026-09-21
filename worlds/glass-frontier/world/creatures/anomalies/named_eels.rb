@@ -5,7 +5,7 @@ creature :named_eels do
   type_of :sheareel
   belongs_to :lifeform, :farborn
   status :complete
-  tags :danger, :orbital, :resonance, :ecology, :salvage
+  tags :danger, :orbital, :resonance, :ecology, :salvage, :subject_shear
   prominence :recognized
 
   prose <<~PROSE

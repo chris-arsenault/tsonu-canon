@@ -5,7 +5,7 @@ encyclopedia :render do
   subkind :material
   status :complete
   log "2026-08-31 — Renamed Graft Wax to Render; the production word becomes the garden habs' stable name for the cap-bloom sealant across its graft, storehouse, and registry uses."
-  topics :ecology, :materials, :trade, :"ring-era"
+  topics :ecology, :materials, :trade, :"ring-era", :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   summary "Render is the sealing wax of the garden habs, made from the cap-bloom of elven provisioning cultivars. It seals grafts, jars, and joins breathable-tight, and its second trade — closing documents and doors with a witness seal — grew from the gardens outward."

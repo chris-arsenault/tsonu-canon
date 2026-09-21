@@ -4,7 +4,7 @@ transport :held_breath do
   subkind :vessel
   status :complete
   capacity "Fourteen cordon crew, twenty evacuees, two remote cutters, and one relic cradle"
-  tags :transport, :orbital, :danger, :resonance, :navigation
+  tags :transport, :orbital, :danger, :resonance, :navigation, :subject_bloom
   prominence :recognized
 
   descriptive_identity(

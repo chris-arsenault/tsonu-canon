@@ -1,4 +1,5 @@
 creature :the_far_bell_pale_fan do
+  tags :subject_journeys_trade
   name "The Far Bell Pale Fan"
   summary "The Far Bell Pale Fan is a named cold-route spore colony recovered from Lithren archive ice and now growing at Far Bell."
   subkind :creature

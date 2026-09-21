@@ -1,4 +1,5 @@
 npc :maren_soll do
+  tags :subject_journeys_trade
   name "Maren Soll"
   summary "Maren Soll is a Whitefoot cargo official who inspects signal loads and verifies their senders' pulses."
   subkind :official

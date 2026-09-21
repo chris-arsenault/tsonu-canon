@@ -9,7 +9,7 @@ installation :underlayers do
   role "Sithari's inhabited lower city and the working boundary of its buried ring-era complex"
   setting "Below the present street grade of central Sithari"
   access "Public stair towers and freight lifts above the marked limit; registered descent gates below it"
-  tags :surface, :resonance, :"ring-era", :danger, :"social-structure"
+  tags :surface, :resonance, :"ring-era", :danger, :"social-structure", :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

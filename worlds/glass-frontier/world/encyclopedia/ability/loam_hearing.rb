@@ -5,7 +5,7 @@ encyclopedia :loam_hearing do
   subkind :innate_sensitivity
   status :complete
   log "2026-08-31 — Removed the broad tier. Loam Hearing is an innate sensitivity, not a resonant spell."
-  topics :ecology, :"ring-era", :training
+  topics :ecology, :"ring-era", :training, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
 

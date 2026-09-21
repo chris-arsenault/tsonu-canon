@@ -4,7 +4,7 @@ encyclopedia :esvar do
   kind :culture
   subkind :belief
   status :complete
-  topics :religion, :cosmology, :resonance
+  topics :religion, :cosmology, :resonance, :subject_resonance
   prevalence :uncommon
   available_globally
 

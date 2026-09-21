@@ -5,7 +5,7 @@ encyclopedia :velin do
   status :complete
   summary "Velin is a living fiber cultivated at Olven and prepared as grafts that bridge damaged nerves while a patient's own tissue grows through them."
   function "Forms living bridges across damaged nerves and sensory tissue"
-  topics :ecology, :materials, :trade, :resonance
+  topics :ecology, :materials, :trade, :resonance, :subject_hab_life
   prevalence :uncommon
   available_globally
 

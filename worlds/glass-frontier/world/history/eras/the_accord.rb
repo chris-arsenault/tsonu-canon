@@ -3,7 +3,7 @@ era :the_accord do
   summary "The Accord is the present era, beginning in 2423 when the settlements that ended the Bitter Reach ratified a shared mediation framework."
   subkind :historical_period
   status :complete
-  tags :governance, :diplomacy, :trade, :rebuilding
+  tags :governance, :diplomacy, :trade, :rebuilding, :subject_politics_history
   prominence :renowned
   structural true
   custom_fact :defining_change, "Shared disputes moved from armed enforcement into the Tempered Accord's mediation framework",

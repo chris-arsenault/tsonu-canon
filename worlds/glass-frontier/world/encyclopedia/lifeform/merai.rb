@@ -5,7 +5,7 @@ encyclopedia :merai do
   subkind :plant
   status :complete
   log "2026-08-31 — Renamed Reeds to Merai; the former generic plant label did not identify the crop."
-  topics :ecology, :music, :"ring-hab", :"ring-era"
+  topics :ecology, :music, :"ring-hab", :"ring-era", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   origin "Elven garden stock, bred as sentinel planting for the ring's grow galleries; the Mera terraces hold the oldest postfall beds and gave the plant its name"

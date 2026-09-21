@@ -1,4 +1,5 @@
 transport :thornvault_cage_mule do
+  tags :subject_politics_history
   name "The Thornvault Cage-Mule"
   summary "The Thornvault Cage-Mule is an archive-transport vehicle serving Thornvault, the Folded Annex, and the Underlayers. Its suspended cages isolate unstable records so one bad page cannot activate the rest."
   subkind :transport

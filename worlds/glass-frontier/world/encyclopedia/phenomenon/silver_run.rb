@@ -5,7 +5,7 @@ encyclopedia :silver_run do
   subkind :ecological_phenomenon
   status :complete
   log "2026-08-31 — Renamed Drain Migration to Silver Run; the town's visible seasonal streams give the event a local calendar name instead of an ecological category label."
-  topics :ecology, :resonance, :salvage, :"ringglass"
+  topics :ecology, :resonance, :salvage, :"ringglass", :subject_planetary_life
   prevalence :rare
   appears_when all: { place: [:urban] }
   medium "Glasswake's drain network and the open ground between town and the surface cutting yards — the Silver Run follows the channels while it can and crosses overland where it must"

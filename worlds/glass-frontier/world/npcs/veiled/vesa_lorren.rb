@@ -1,4 +1,5 @@
 npc :vesa_lorren do
+  tags :subject_politics_history
   name "Vesa Lorren"
   summary "Vesa Lorren is an Accord Shore official who determines which Verathi judgments receive recognition."
   subkind :official

@@ -7,7 +7,7 @@ encyclopedia :manyflesh do
   log "2026-08-31 — Renamed Alteration to Molt; the shifted word names deliberate whole-body transformation without a generic taxonomy label."
   log "2026-08-31 — Renamed Molt to Manyflesh. Molt was already a named Perch vessel; Manyflesh joins the general effect to the Many-Fleshed mantle that carries it at population scale."
   log "2026-08-31 — Kept Manyflesh as the narrow whole-body rewrite. The former focused row was the same operation with fewer changed systems; the broad self-adaptation became Wearing because it has a different recipient, scope, and consequence."
-  topics :resonance, :species, :danger
+  topics :resonance, :species, :danger, :subject_resonance
   prevalence :rare
   available_globally
 

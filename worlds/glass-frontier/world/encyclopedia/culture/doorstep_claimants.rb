@@ -4,7 +4,7 @@ encyclopedia :doorstep_claimants do
   kind :culture
   subkind :social_order
   status :complete
-  topics :"fluid-reality", :household, :"social-structure", :governance
+  topics :"fluid-reality", :household, :"social-structure", :governance, :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:displacement_zone] }
 

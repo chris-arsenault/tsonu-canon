@@ -1,4 +1,5 @@
 transport :warm_route do
+  tags :subject_journeys_trade
   name "The Warm Route"
   summary "The Warm Route is a heat-controlled freight chain carrying ore above its brittle point from Crucible's lifts to shaded Ashvane workshops."
   subkind :route

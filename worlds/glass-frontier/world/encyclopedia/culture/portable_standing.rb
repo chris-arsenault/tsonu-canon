@@ -3,7 +3,7 @@ encyclopedia :portable_standing do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :"social-structure", :trade, :household
+  topics :"social-structure", :trade, :household, :subject_journeys_trade
   prevalence :uncommon
   available_globally
   summary "Portable standing is an itinerant worker's witnessed record, carried in an oilcloth road book signed by each host at departure. Recognized signatures turn an unknown traveler into a documented history of work and conduct."

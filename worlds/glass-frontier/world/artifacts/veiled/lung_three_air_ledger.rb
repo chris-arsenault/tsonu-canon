@@ -1,4 +1,5 @@
 artifact :lung_three_air_ledger do
+  tags :subject_hab_life
   name "The Lung Three Air Ledger"
   summary "The Lung Three Air Ledger records how much stored air one household used while another district's lung was under repair."
   type_of :breath_debt

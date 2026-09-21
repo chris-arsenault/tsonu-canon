@@ -4,7 +4,7 @@ encyclopedia :mane do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Cinder Sledge to Mane; crews already use the vehicle's smoke-stack mane as its defining visible and operational feature."
-  topics :transport, :danger, :"outer-system", :trade
+  topics :transport, :danger, :"outer-system", :trade, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:hot, :road] }
   summary "A mane is the heavy freight carrier of the hot roads: a broad ceramic-skinned runner sled that rides the crusted cinder fields on skids, breathing its own drive heat out through smoke-stack spines. Mane convoys cross ground that eats wheels and cooks crews."

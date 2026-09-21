@@ -1,4 +1,5 @@
 creature :seamkeeper do
+  tags :subject_hab_life
   name "Seamkeeper"
   summary "Seamkeeper is a named Ravel clampweed growth traced through hull seams at Ravel and Tanel."
   subkind :creature

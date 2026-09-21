@@ -1,4 +1,5 @@
 artifact :mareth_red_table do
+  tags :subject_hab_life
   name "The Mareth Red Table"
   summary "The Mareth Red Table measures freight-route risk by how long exposed cargo can survive a route's changing kinetic field."
   type_of :shared_road

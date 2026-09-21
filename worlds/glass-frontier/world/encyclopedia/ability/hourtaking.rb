@@ -6,7 +6,7 @@ encyclopedia :hourtaking do
   status :complete
   log "2026-08-31 — Renamed Timeworking to Hourtaking; the practice now shares its defining act with the Thief of Hours mantle instead of using a generic fantasy working compound."
   log "2026-08-31 — Kept Hourtaking as the focused transfer of an interval between two present processes. Stay became the broad hold on one small process because it supplies no second recipient or action; city-scale suspension remains mantle work."
-  topics :resonance, :danger, :"kinetic-freq", :cosmology
+  topics :resonance, :danger, :"kinetic-freq", :cosmology, :subject_resonance
   prevalence :rare
   available_globally
 

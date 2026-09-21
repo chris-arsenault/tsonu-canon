@@ -5,7 +5,7 @@ encyclopedia :halos do
   subkind :spore
   status :complete
   log "2026-08-31 — Renamed Cold-Route Spores to Halos; the former descriptive compound did not supply a setting name."
-  topics :ecology, :archives, :navigation, :orbital, :"outer-system"
+  topics :ecology, :archives, :navigation, :orbital, :"outer-system", :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:cold, :road] }
   biology "Mineral-shelled spores that sleep in ice for spans the surveys measure in generations, germinating on sustained structural-band tone rather than warmth"

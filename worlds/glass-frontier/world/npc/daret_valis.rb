@@ -8,7 +8,7 @@ npc :daret_valis do
   specialty "Counterweighted structures and retrieval across broken ground"
   status :complete
   prominence :recognized
-  tags :transport, :materials, :danger
+  tags :transport, :materials, :danger, :subject_lithren
   descriptive_identity appearance: "Short dark hair and a permanent pale band where a helmet seal rubs her neck.", attire: "An Iral pressure suit with bright hand-stitched repairs rather than replacement panels.", tools: "A line reel, locking wedges and a small mirror for looking behind a loaded joint.", manner: "Places someone's hand on the part she wants them to understand.", disposition: "Trusts people who return for their crews; will argue with her employer in front of those crews when an order risks them."
   prose <<~PROSE
     Daret Valis joined #{ref :iral_expedition, "Iral's expedition"} for regular pay and a place on the retrieval list. #{ref :selven_iral, "Selven"} supplied both. She remembers a stranded crew being brought home after its cargo had become worthless, and objects when her sister #{ref :nereth_valis, "Nereth"} speaks as though everyone who stays with him has been bought.

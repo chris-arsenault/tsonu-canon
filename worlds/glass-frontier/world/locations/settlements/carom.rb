@@ -6,7 +6,7 @@ installation :carom do
   origin_blurb "Three rotating segments trade parcels, meals, and messages through transfer drums that never align for long."
   subkind :settlement
   status :complete
-  tags :"ring-hab", :transport, :trade, :household, :resonance
+  tags :"ring-hab", :transport, :trade, :household, :resonance, :subject_hab_life
   prominence :recognized
   population 14000
   population_band "About fourteen thousand residents"

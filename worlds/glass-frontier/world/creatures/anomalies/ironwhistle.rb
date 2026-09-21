@@ -4,7 +4,7 @@ creature :ironwhistle do
   subkind :anomaly
   type_of :farborn
   status :complete
-  tags :orbital, :danger, :resonance, :transport, :legend
+  tags :orbital, :danger, :resonance, :transport, :legend, :subject_shear
   prominence :renowned
   custom_fact :first_confirmed, "2338"
   custom_fact :range, "Mid-drift Shear and the inner Keel branch routes"

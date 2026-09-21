@@ -5,7 +5,7 @@ transport :nine_holds do
   subkind :vessel
   status :complete
   capacity "Twelve working crew, thirty passengers, and nine pressure-independent cargo holds"
-  tags :transport, :trade, :"outer-system", :resonance, :governance
+  tags :transport, :trade, :"outer-system", :resonance, :governance, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

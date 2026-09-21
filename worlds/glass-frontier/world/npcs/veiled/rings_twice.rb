@@ -1,4 +1,5 @@
 npc :rings_twice do
+  tags :subject_hab_life
   name "Rings-Twice"
   summary "Rings-Twice is an itinerant storyteller and parts trader working between Wash Four and Carom."
   subkind :npc

@@ -5,7 +5,7 @@ incident :shardfall do
   path "player/history/events/shardfall.md"
   status :complete
   reviewed "2026-03-19"
-  tags :salvage, :military, :danger
+  tags :salvage, :military, :danger, :subject_shear
   prominence :recognized
   date 2348
   cause_status "Drossmark continued linked extraction after Brake's arrestors began answering the rigs"

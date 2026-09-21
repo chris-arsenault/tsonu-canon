@@ -4,7 +4,7 @@ encyclopedia :scriber do
   kind :role
   subkind :profession
   status :complete
-  topics :"social-structure", :trade, :training
+  topics :"social-structure", :trade, :training, :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:urban, :market, :sealed_hab] }
 

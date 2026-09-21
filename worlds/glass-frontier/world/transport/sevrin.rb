@@ -4,7 +4,7 @@ transport :sevrin do
   subkind :vessel
   status :complete
   prominence :recognized
-  tags :transport, :household, :archives
+  tags :transport, :household, :archives, :subject_lithren
   descriptive_identity appearance: "A broad worn hull rests in a stone cradle, with covered passages leaving its former cargo hatches and blank plates over the flight fittings.", aboard: "Low sleeping compartments open around a former hold; an old exterior window faces a passage now enclosed by a later pressure hall.", behavior: "The ship remains occupied and connected to modern heat and air. It cannot fly in its present condition."
 
   prose <<~PROSE

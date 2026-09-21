@@ -5,7 +5,7 @@ geographic_location :korvath do
   context_tags :outer_system, :surface, :waterway
   subkind :celestial_body
   status :complete
-  tags :"outer-system", :resonance, :trade, :governance, :ecology
+  tags :"outer-system", :resonance, :trade, :governance, :ecology, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_system_chart, radius: 3, angle_deg: 126
 

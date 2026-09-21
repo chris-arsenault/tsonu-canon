@@ -26,6 +26,7 @@ make queue WORLD=glass-frontier      # what needs doing: open questions + findin
 make wiki  WORLD=glass-frontier      # render to build/glass-frontier/wiki
 make topology WORLD=glass-frontier   # graph health
 make web WORLD=glass-frontier        # connections that survive without mythic hubs
+make subjects WORLD=glass-frontier   # primary subjects, loci and counts by kind
 ```
 
 Read the repo-root `CLAUDE.md` first — it carries the DSL conventions, the entry format, and the workflow that apply to every world. Then `craft/` for the writing rules. This directory carries only what is true of the Kaleidos system specifically.
@@ -41,6 +42,7 @@ Read the repo-root `CLAUDE.md` first — it carries the DSL conventions, the ent
 | `guidance/naming-conventions.md` | culture naming patterns, place and era naming |
 | `guidance/canon-checklist.md` | fixed dates and systems vocabulary a review checks against |
 | `guidance/archetype-slots.md` | which archetypes are thin — read before attributing anything |
+| `guidance/story-subjects.md` | primary subjects, locus boundaries and reproducible counts |
 | `guidance/world-seeds.md` | ideas not yet formalized into entries |
 | `work-tracking/` | local pre-DSL graph snapshots, untracked. Questions, review state and the queue live on the entities (`make queue`, `make provenance`) |
 | `research/` | audits and long-form analysis of this world |

@@ -5,7 +5,7 @@ installation :far_bell do
   context_tags :orbital, :road, :cordon
   subkind :station
   status :complete
-  tags :orbital, :transport, :navigation, :danger, :resonance
+  tags :orbital, :transport, :navigation, :danger, :resonance, :subject_bloom
   prominence :marginal
 
   descriptive_identity(

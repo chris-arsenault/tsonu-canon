@@ -6,7 +6,7 @@ encyclopedia :waybearing do
   status :complete
   log "2026-08-31 — Renamed Known Road to Waybearing; the practice now shares a lexical family with the Waybearer mantle that extends it to fleets and populations."
   log "2026-08-31 — Kept Waybearing as the focused two-way threshold. The former broad self-crossing became Step because moving one practitioner without opening a route has a different target, use, and consequence; the narrow row only enlarged Waybearing's traffic."
-  topics :resonance, :navigation, :transport, :"signal-freq"
+  topics :resonance, :navigation, :transport, :"signal-freq", :subject_resonance
   prevalence :rare
   available_globally
 

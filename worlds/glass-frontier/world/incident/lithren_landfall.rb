@@ -5,7 +5,7 @@ incident :lithren_landfall do
   date 2311
   status :complete
   prominence :recognized
-  tags :navigation, :archives, :"outer-system"
+  tags :navigation, :archives, :"outer-system", :subject_lithren
 
   prose <<~PROSE
     In 2311 #{ref :vedra, "Vedra"} brought #{ref :sevrin, "Sevrin"} down on firm ground above the basin now reached through #{ref :ithara, "Ithara"}. The expedition followed #{ref :elian_soreth, "Elian Soreth"}'s observations and the measured approach from Vedra's unsuccessful 2307 attempt. Its charts distinguished a predicted track from the corrections a loaded vessel had actually required.

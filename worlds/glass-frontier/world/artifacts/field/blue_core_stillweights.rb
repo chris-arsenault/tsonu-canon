@@ -5,7 +5,7 @@ artifact :blue_core_stillweights do
   type_of :stillweight
   function "Holds a contacted object against local movement through a recalled blue-backed structural core"
   status :complete
-  tags :resonance, :"structural-freq", :salvage, :danger, :rebuilding
+  tags :resonance, :"structural-freq", :salvage, :danger, :rebuilding, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

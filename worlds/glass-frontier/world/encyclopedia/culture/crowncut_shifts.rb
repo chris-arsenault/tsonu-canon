@@ -4,7 +4,7 @@ encyclopedia :crowncut_shifts do
   kind :culture
   subkind :work_tradition
   status :complete
-  topics :salvage, :household, :"social-structure", :danger
+  topics :salvage, :household, :"social-structure", :danger, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:yard] }
 

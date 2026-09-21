@@ -5,7 +5,7 @@ encyclopedia :signal_fed do
   subkind :ecological_group
   status :complete
   log "2026-08-31 — Renamed The Bandfed to The Signal-Fed; the established signal root names the specific resonance band that defines the group's metabolism."
-  topics :ecology, :"signal-freq", :orbital
+  topics :ecology, :"signal-freq", :orbital, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:damaged_signal] }
   origin "Documented as ring-era vermin in the network's maintenance records; the broken net's standing faults turned a scoured pest into an established family"

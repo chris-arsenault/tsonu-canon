@@ -6,7 +6,7 @@ artifact :liras_wall do
   path "player/artifacts/relics/liras-wall.md"
   status :complete
   reviewed "2026-03-19"
-  tags :resonance, :danger
+  tags :resonance, :danger, :subject_bloom
   prominence :recognized
 
   descriptive_identity(

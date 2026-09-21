@@ -4,7 +4,7 @@ encyclopedia :span_names do
   kind :culture
   subkind :expressive_tradition
   status :complete
-  topics :"signal-freq", :"social-structure", :training
+  topics :"signal-freq", :"social-structure", :training, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:damaged_signal] }
 

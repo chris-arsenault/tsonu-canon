@@ -5,7 +5,7 @@ artifact :shared_reference do
   type_of :tuning_compass
   function "Provides the fixed three-band reference used to calibrate field tuning compasses"
   status :complete
-  tags :resonance, :navigation, :ringglass, :household
+  tags :resonance, :navigation, :ringglass, :household, :subject_resonance
   prominence :recognized
 
   descriptive_identity(

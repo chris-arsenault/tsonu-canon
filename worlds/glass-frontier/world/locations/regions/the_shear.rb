@@ -7,7 +7,7 @@ geographic_location :the_shear do
   path "player/locations/regions/the-shear.md"
   status :complete
   reviewed "2026-03-19"
-  tags :orbital, :salvage, :danger, :resonance
+  tags :orbital, :salvage, :danger, :resonance, :subject_shear
   prominence :renowned
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.12, angle_offset_deg: 210

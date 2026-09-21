@@ -5,7 +5,7 @@ artifact :third_window do
   type_of :hood
   function "Masks the active resonance perception of its fitted Tuner"
   status :complete
-  tags :resonance, :salvage, :danger, :orbital, :training
+  tags :resonance, :salvage, :danger, :orbital, :training, :subject_shear
   prominence :recognized
 
   descriptive_identity(

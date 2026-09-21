@@ -5,7 +5,7 @@ encyclopedia :knots do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Claspworm to Knots. Ravel households use the ordinary word for the animals that knot themselves around faults, and the named animal Nine-Knot carries the same usage beyond this entry."
-  topics :ecology, :household, :"ring-hab"
+  topics :ecology, :household, :"ring-hab", :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   origin "Ring-era pipe fauna — listed in the maintenance records beside the seam flora as seeded tenders, and established through the Ravel habs' water systems since"

@@ -1,4 +1,5 @@
 artifact :rattle_sorter do
+  tags :subject_hab_life
   name "The Rattle Sorter"
   summary "The Rattle Sorter is a cargo machine used at Exchange C, Carom, and Wash Four. It separates goods by resonance and rejects unregistered sealed boxes onto the public floor."
   subkind :machine

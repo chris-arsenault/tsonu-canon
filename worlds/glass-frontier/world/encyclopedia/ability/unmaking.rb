@@ -5,7 +5,7 @@ encyclopedia :unmaking do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Kept one focused-tier spell ending one person-sized physical subject. Unclosing became the broad interruption of an active broad-band working because it leaves the working's material coherence intact; city, army, and phenomenon-scale work remains the Unmaker mantle's reach."
-  topics :resonance, :danger, :catastrophe, :"structural-freq"
+  topics :resonance, :danger, :catastrophe, :"structural-freq", :subject_resonance
   prevalence :rare
   available_globally
 

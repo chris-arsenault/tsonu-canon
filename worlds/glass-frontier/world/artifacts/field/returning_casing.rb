@@ -4,7 +4,7 @@ artifact :returning_casing do
   subkind :artifact
   resource :stillwater
   status :complete
-  tags :resonance, :danger, :archives
+  tags :resonance, :danger, :archives, :subject_bloom
   prominence :marginal
 
   descriptive_identity(

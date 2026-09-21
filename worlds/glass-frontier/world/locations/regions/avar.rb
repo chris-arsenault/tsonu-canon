@@ -5,7 +5,7 @@ geographic_location :avar do
   context_tags :surface, :unstable_route, :ringglass_rich, :road
   subkind :region
   status :complete
-  tags :surface, :resonance, :navigation, :trade, :ecology
+  tags :surface, :resonance, :navigation, :trade, :ecology, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_surface, latitude_deg: 12, longitude_deg: -68,
            size_class: :region

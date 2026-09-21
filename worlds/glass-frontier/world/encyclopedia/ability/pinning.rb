@@ -4,7 +4,7 @@ encyclopedia :pinning do
   kind :ability
   subkind :technique
   status :complete
-  topics :household, :training, :"ring-hab"
+  topics :household, :training, :"ring-hab", :subject_common_life
   prevalence :common
   available_globally
   function "Secures cargo, furniture, and people against recoil, tides, spin change, and rough transit using standard pins, lashings, and quick-release holds"

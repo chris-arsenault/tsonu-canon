@@ -4,7 +4,7 @@ encyclopedia :spiders do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Eight to Spiders. Avar Road People already use spider for the walking freight class in spider slings and spider convoys, and the named Blue Spider carries the same usage."
-  topics :transport, :surface, :resonance, :trade
+  topics :transport, :surface, :resonance, :trade, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :unstable_route] }
   summary "A spider is a walking freight carrier for ground that shifts: independently sprung legs read the footing through resonance-sensing feet, and the machine refuses bad ground by planting where the ground answers well. Crews follow good footing the way fleets follow a shoal."

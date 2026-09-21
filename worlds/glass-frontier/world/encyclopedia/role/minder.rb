@@ -4,7 +4,7 @@ encyclopedia :minder do
   kind :role
   subkind :community_duty
   status :complete
-  topics :"ring-era", :"social-structure", :household
+  topics :"ring-era", :"social-structure", :household, :subject_common_life
   prevalence :common
   appears_when any: { place: [:sealed_hab, :urban, :yard] }
 

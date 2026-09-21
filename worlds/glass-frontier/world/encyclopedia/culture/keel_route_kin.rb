@@ -4,7 +4,7 @@ encyclopedia :keel_route_kin do
   kind :culture
   subkind :cultural_identity
   status :complete
-  topics :transport, :"social-structure", :household, :danger
+  topics :transport, :"social-structure", :household, :danger, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:dock, :road] }
 

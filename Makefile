@@ -1,4 +1,4 @@
-.PHONY: validate lint check check-all wiki site-data graph stats topology focus worlds test provenance facts identity gm-notes queue web reader-dev reader-build review-check backend-check app-check clean
+.PHONY: validate lint check check-all subjects wiki site-data graph stats topology focus worlds test provenance facts identity gm-notes queue web reader-dev reader-build review-check backend-check app-check clean
 
 # Content targets run against one world unless their name says otherwise.
 # Override with WORLD=<id>; `make worlds` lists what is available. The default
@@ -19,10 +19,15 @@ validate:
 lint:
 	@$(LC) lint
 
-# Run both gates for one world.
+# Run the shared gates and any world-owned subject coverage check.
 check: validate lint
+	@if [ -f worlds/$(WORLD)/tools/subjects.rb ]; then ruby worlds/$(WORLD)/tools/subjects.rb --check; fi
 
-# Run both gates for every world that has canon (scaffolds are skipped).
+# Primary subjects and main story loci, where the world defines them.
+subjects:
+	@ruby worlds/$(WORLD)/tools/subjects.rb $(SUBJECT_ARGS)
+
+# Run the checks for every world that has canon (scaffolds are skipped).
 check-all:
 	@ruby lorecraft/tools/each_world.rb check
 
@@ -84,6 +89,7 @@ web:
 # Engine unit tests.
 test:
 	@ruby lorecraft/test/test_lorecraft.rb
+	@ruby worlds/glass-frontier/tools/test_subjects.rb
 
 clean:
 	@rm -rf build

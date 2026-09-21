@@ -10,7 +10,7 @@ installation :keelward do
   role "Sithari's orbital-transfer, freight and arrival district"
   setting "The eastern sprawl between the old city and its surface-access terminals"
   access "Orbital shuttles, kite fields, freight rail and city transit"
-  tags :surface, :orbital, :transport, :trade, :resonance
+  tags :surface, :orbital, :transport, :trade, :resonance, :subject_journeys_trade
   prominence :recognized
   position frame: :kaleidos_surface, latitude_deg: 0, longitude_deg: 1,
            size_class: :district

@@ -4,7 +4,7 @@ encyclopedia :ratters do
   kind :culture
   subkind :work_tradition
   status :complete
-  topics :salvage, :"social-structure", :orbital, :trade
+  topics :salvage, :"social-structure", :orbital, :trade, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
 

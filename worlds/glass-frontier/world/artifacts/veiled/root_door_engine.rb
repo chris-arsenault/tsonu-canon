@@ -1,4 +1,5 @@
 artifact :root_door_engine do
+  tags :subject_hab_life
   name "Root Door Engine"
   summary "The Root Door Engine is a passage-opening machine used in the Underlayers, Folded Annex, and Old Campus. It borrows structural tension from an adjoining wall to open sealed ring doors."
   subkind :machine

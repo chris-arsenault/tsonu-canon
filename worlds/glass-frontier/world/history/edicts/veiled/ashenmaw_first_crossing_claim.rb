@@ -1,4 +1,5 @@
 edict :ashenmaw_first_crossing_claim do
+  tags :subject_journeys_trade
   name "The Ashenmaw First-Crossing Claim"
   summary "The Ashenmaw First-Crossing Claim grants the first safe claim on newly charted debris to the crew that charted its motion for a full crossing."
   type_of :ratter_order

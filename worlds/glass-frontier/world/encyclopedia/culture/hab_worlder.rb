@@ -7,7 +7,7 @@ encyclopedia :hab_worlder do
   subkind :cultural_identity
   status :complete
   reviewed "2026-03-18"
-  topics :"social-structure", :"ring-hab"
+  topics :"social-structure", :"ring-hab", :subject_hab_life
   prevalence :common
   available_globally
   integration "Raised in sealed habitats where atmosphere and structure are communal work"

@@ -3,7 +3,7 @@ encyclopedia :hulls_law do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :governance, :"social-structure", :"ring-hab", :diplomacy
+  topics :governance, :"social-structure", :"ring-hab", :diplomacy, :subject_politics_history
   prevalence :common
   available_globally
   summary "The hull's law is the principle that the institutions maintaining a habitat's air, water, and civil order govern that hull. Wider bodies enter its law through treaty, compact, adoption, or the visitor's oath at the lock."

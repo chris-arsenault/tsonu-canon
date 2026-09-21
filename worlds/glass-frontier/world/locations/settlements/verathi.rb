@@ -4,7 +4,7 @@ installation :verathi do
   playable_as :chronicle_location
   context_tags :sealed_hab, :archive
   subkind :settlement
-  tags :"ring-hab", :governance, :divergence, :diplomacy
+  tags :"ring-hab", :governance, :divergence, :diplomacy, :subject_hab_life
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.1, angle_offset_deg: 104

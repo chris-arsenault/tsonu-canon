@@ -6,7 +6,7 @@ encyclopedia :last_water do
   status :complete
   log "2026-08-31 — Renamed Pan Salt to Scores; the harvesters' scored crust supplies the commodity's shifted working name instead of a source-plus-material label."
   log "2026-08-31 — Renamed Scores to Last Water. Scoring is one harvest procedure. Salters call the set crust from the final basin last water, a commodity name that carries the terraces' uphill brine cycle beyond the coast."
-  topics :trade, :household, :"ring-era", :materials
+  topics :trade, :household, :"ring-era", :materials, :subject_planetary_life
   prevalence :common
   available_globally
   summary "Last water is the working salt of the system, drawn from the elven evaporation pans that still terrace the Kaleidos coasts. The pans walk brine uphill through a cycle of basins, leaving a set crust in the last basin for salters to score, break, and grade from packing coarse to table fines."

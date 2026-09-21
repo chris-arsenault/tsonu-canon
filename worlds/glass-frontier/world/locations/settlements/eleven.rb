@@ -6,7 +6,7 @@ installation :eleven do
   aka "Service Habitat Eleven"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :household, :"social-structure", :transport, :resonance
+  tags :"ring-hab", :household, :"social-structure", :transport, :resonance, :subject_hab_life
   prominence :marginal
   population 9000
   population_band "About nine thousand residents"

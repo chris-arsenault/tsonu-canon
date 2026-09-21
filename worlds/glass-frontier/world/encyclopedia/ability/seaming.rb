@@ -5,7 +5,7 @@ encyclopedia :seaming do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Seaming from the former Shaping ladder because it works only through an existing join and leaves the surrounding mass unchanged."
-  topics :resonance, :"structural-freq", :materials, :rebuilding
+  topics :resonance, :"structural-freq", :materials, :rebuilding, :subject_resonance
   prevalence :uncommon
   available_globally
 

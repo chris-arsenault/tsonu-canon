@@ -4,7 +4,7 @@ encyclopedia :istril do
   kind :resource
   subkind :material
   status :complete
-  topics :materials, :trade, :household
+  topics :materials, :trade, :household, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:outer_system] }, any: { place: [:yard, :archive, :market] }
   function "Conducts heat along intact bonded layers for spreaders, reflective linings and radiator faces"
@@ -26,5 +26,10 @@ encyclopedia :istril do
     A piece too small for a vessel may still make a useful cooking surface or case lining. Ithara's rooms display discarded strips as hanging decoration: a person passing sets one face shining while its neighbor goes dark. Buyers pay for pleasing color as well as thermal performance, and a sheet sold for a wall may be much more valuable than the offcuts available to a field mechanic.
 
     Modern workshops can separate and patch recovered layers more readily than they can make the original stock. Repairs introduce joints whose contact must be measured. A beautiful continuous face can conceal a patchwork that moves heat badly.
+  PROSE
+  prose <<~PROSE, section: :present_day, heading: "A Hanging and a Garment"
+    The #{ref :oravel_hanging, "Oravel Hanging"} preserves a broad installed surface at #{ref :oravel}. #{ref :ilven_sarith} buys portable stock from the surrounding recoveries; #{ref :tamet} tests smaller pieces for repairs at #{ref :ithara}. The installed work lets investigators compare material in place with the folded and patched pieces passing through those hands.
+
+    Small sound strips also go into the #{encyclopedia_ref :istril_fold}. Examples carried to #{ref :istrava} interest hunters and performers as well as thermal workers. A garment's price includes its modern backing and heat-storage cells. An ancient-looking face alone says little about how long the finished fold will moderate a temperature change.
   PROSE
 end

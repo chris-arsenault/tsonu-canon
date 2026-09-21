@@ -10,7 +10,7 @@ installation :lumenshard do
   role "Largest Rooted Grove settlement and market for basin agriculture and graftwood"
   setting "Terraces under a crystal-veined forest canopy in central Miraeth"
   access "Mountain road, basin canals, and shower-rated kite field"
-  tags :surface, :ecology, :resonance, :ringglass, :trade
+  tags :surface, :ecology, :resonance, :ringglass, :trade, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

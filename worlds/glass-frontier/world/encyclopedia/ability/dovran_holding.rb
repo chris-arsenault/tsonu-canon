@@ -5,7 +5,7 @@ encyclopedia :dovran_holding do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Holding to Dovran Holding. The Dovra's inherited helm rails, named reaches, and Dovran crews define the tradition; holding alone named no setting."
-  topics :"structural-freq", :transport, :training, :resonance
+  topics :"structural-freq", :transport, :training, :resonance, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:waterway] }
   function "Keeps loaded barges aligned through channel bends, crossing currents, and traffic wakes — vibration matched and corrected through the helm rail, holding the hull's line by hands and rail alone"

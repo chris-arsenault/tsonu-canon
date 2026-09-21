@@ -9,7 +9,7 @@ installation :xyloathax do
   role "Inhabited ring habitat beside a Bloom Zone cordon"
   setting "A stable ring fragment in clean Kaleidos orbit, with one service truss inside a Bloom boundary"
   access "Two controlled dock corridors on the hab's far arc"
-  tags :"ring-hab", :orbital, :resonance, :danger, :governance
+  tags :"ring-hab", :orbital, :resonance, :danger, :governance, :subject_bloom
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.1, angle_offset_deg: -118

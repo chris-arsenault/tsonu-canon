@@ -11,7 +11,7 @@ npc :ira_voss do
     "Voss hears a claim out, writes it under the claims column of her " \
     "board, and moves nothing while a mark still stands under people."
   status :complete
-  tags :salvage, :transport, :archives
+  tags :salvage, :transport, :archives, :subject_shear
   prominence :marginal
 
   prose <<~PROSE

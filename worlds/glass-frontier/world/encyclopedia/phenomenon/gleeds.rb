@@ -4,7 +4,7 @@ encyclopedia :gleeds do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :resonance, :ringglass, :navigation, :danger, :mystery
+  topics :resonance, :ringglass, :navigation, :danger, :mystery, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:ringglass_rich] }
   medium "Open air above ringglass concentrations"

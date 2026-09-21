@@ -4,7 +4,7 @@ incident :repeated_voice do
   subkind :discovery
   date 2435
   status :complete
-  tags :archives, :household, :mystery, :resonance, :"signal-freq"
+  tags :archives, :household, :mystery, :resonance, :"signal-freq", :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

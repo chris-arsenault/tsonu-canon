@@ -4,7 +4,7 @@ encyclopedia :khar_mimic do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Cinder Mimic to Khar Mimic; the title now states its relation to the khar."
-  topics :ecology, :danger, :mystery, :"outer-system"
+  topics :ecology, :danger, :mystery, :"outer-system", :subject_planetary_life
   prevalence :rare
   appears_when all: { place: [:hot] }
   summary "Khar mimics are hot-country anomalies that take a khar's plates, gait, and place within a shade cluster while reading as loose ash and excess heat to instruments. Herders identify them by a second count and leave the extra animal undisturbed."

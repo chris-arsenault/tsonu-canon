@@ -3,7 +3,7 @@ npc :venn_talis do
   summary "Venn Talis is a retired contact surveyor and the sole surviving member of the team that forced entry into Hab Coriolis."
   subkind :npc
   status :complete
-  tags :isolation, :diplomacy, :archives
+  tags :isolation, :diplomacy, :archives, :subject_politics_history
   prominence :recognized
   occupation "Retired contact surveyor and witness to the Coriolis Breach"
   type_of :humans

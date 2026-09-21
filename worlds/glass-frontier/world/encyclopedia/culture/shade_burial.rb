@@ -3,7 +3,7 @@ encyclopedia :shade_burial do
   kind :culture
   subkind :belief
   status :complete
-  topics :religion, :surface, :household
+  topics :religion, :surface, :household, :subject_planetary_life
   prevalence :rare
   appears_when all: { place: [:surface] }
   summary "Shade burial is the Kyther rite of lowering the dead as a fragment's shadow arrives — the grave open, the mourners waiting, and the lowering timed to the passing so the earth closes in shade. The rite descends from burials under the intact ring's steady ribbon of shadow."

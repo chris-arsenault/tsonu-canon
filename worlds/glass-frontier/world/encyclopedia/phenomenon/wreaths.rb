@@ -4,7 +4,7 @@ encyclopedia :wreaths do
   subkind :debris_belt
   status :complete
   log "2026-08-31 — Renamed Planetary Debris Belt to Wreaths; the orbital bands gain a Kaleidos term that covers both inhabited wreckage and the former planet's remains without a generic astronomy label."
-  topics :orbital, :cosmology, :salvage, :navigation
+  topics :orbital, :cosmology, :salvage, :navigation, :subject_common_life
   prevalence :common
   available_globally
   summary "Wreaths are planet-scale bands of fragments, dust, and drift following related orbits. The Glass Frontier is the inhabited wreck of Kaleidos's ring; the Fracture follows the former sixth planet's orbit as the remains of the world itself. Both produce changing traffic bands, dust seasons, collision wakes, and routes that depend on continuous survey."

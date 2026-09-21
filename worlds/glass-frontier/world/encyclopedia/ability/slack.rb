@@ -5,7 +5,7 @@ encyclopedia :slack do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Hinge Step to Slack; dockers use the familiar word for the joint's unloaded crossing interval."
-  topics :training, :transport, :danger
+  topics :training, :transport, :danger, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:dock] }
   function "Crosses working dock joints safely by stepping in the joint's unloaded beat"

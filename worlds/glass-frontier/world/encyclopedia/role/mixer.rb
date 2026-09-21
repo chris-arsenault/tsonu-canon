@@ -4,7 +4,7 @@ encyclopedia :mixer do
   kind :role
   subkind :profession
   status :complete
-  topics :trade, :household, :resonance
+  topics :trade, :household, :resonance, :subject_common_life
   prevalence :common
   appears_when any: { place: [:urban, :market] }
 

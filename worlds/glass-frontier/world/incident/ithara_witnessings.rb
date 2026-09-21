@@ -5,7 +5,7 @@ incident :ithara_witnessings do
   date 2427
   status :complete
   prominence :recognized
-  tags :archives, :resonance, :mystery
+  tags :archives, :resonance, :mystery, :subject_lithren
   log "2026-09-15 — These public discoveries establish major ancient actions. Unobserved adversaries, ecological causes and resonance's origin remain intentionally open rather than reserved for DM revelation."
 
   prose <<~PROSE

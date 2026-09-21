@@ -1,4 +1,5 @@
 incident :far_bell_ravel_tides do
+  tags :subject_journeys_trade
   name "Far Bell Ravel Tides"
   summary "Far Bell Ravel Tides are periodic force shifts that draw loose objects toward the next active signal relay before releasing them together."
   type_of :ravel_tides

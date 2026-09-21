@@ -4,7 +4,7 @@ npc :dern_talish do
   subkind :official
   path "player/npcs/heroes/dern-talish.md"
   reviewed "2026-03-18"
-  tags :governance, :resonance, :diplomacy
+  tags :governance, :resonance, :diplomacy, :subject_bloom
   prominence :recognized
   born 2374
   occupation "Fourth First Threshold of the Displacement Council"

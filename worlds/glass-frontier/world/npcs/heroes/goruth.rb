@@ -9,7 +9,7 @@ npc :goruth do
     "A case made to Goruth in words gets a polite hearing and no promise; " \
     "his support is won by picking up an instrument and playing with him. " \
     "When he refuses, the refusal is a chord left out, not anything said."
-  tags :music, :governance, :resonance, :"ring-hab"
+  tags :music, :governance, :resonance, :"ring-hab", :subject_hab_life
   prominence :forgotten
 
   prose <<~PROSE

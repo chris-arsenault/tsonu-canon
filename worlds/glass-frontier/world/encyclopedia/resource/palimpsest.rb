@@ -6,7 +6,7 @@ encyclopedia :palimpsest do
   subkind :material
   status :complete
   log "2026-08-31 — Renamed Gray Sheet to Palimpsest; the familiar word names the reusable film by the buried writing each wiping leaves behind."
-  topics :household, :"ring-era", :trade, :archives
+  topics :household, :"ring-era", :trade, :archives, :subject_common_life
   prevalence :common
   available_globally
   function "Reusable writing surface for working notes, postings, tallies, and lists"

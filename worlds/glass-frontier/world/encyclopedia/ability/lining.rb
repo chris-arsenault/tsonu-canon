@@ -4,7 +4,7 @@ encyclopedia :lining do
   kind :ability
   subkind :technique
   status :complete
-  topics :"ring-era", :household, :training
+  topics :"ring-era", :household, :training, :subject_common_life
   prevalence :common
   appears_when all: { place: [:sealed_hab] }
   function "Lays and maintains boundary lines that ring-era organisms and mechanisms treat as walls"

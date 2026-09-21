@@ -4,7 +4,7 @@ encyclopedia :sable_backecho do
   kind :phenomenon
   subkind :phenomenon
   status :complete
-  topics :archives, :mystery, :"signal-freq", :resonance
+  topics :archives, :mystery, :"signal-freq", :resonance, :subject_planetary_life
   prevalence :rare
   appears_when any: { place: [:archive, :waterway] }
   medium "Echo-water recordings and crystal stock stored in the Sable Crescent"

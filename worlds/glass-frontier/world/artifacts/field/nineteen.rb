@@ -4,7 +4,7 @@ artifact :nineteen do
   subkind :instrument
   function "Shares load, balance, and body position through a linked work formation"
   status :complete
-  tags :training, :transport, :resonance, :"kinetic-freq"
+  tags :training, :transport, :resonance, :"kinetic-freq", :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

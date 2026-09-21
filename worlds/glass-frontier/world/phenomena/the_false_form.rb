@@ -5,7 +5,7 @@ phenomenon :the_false_form do
   subkind :physical_phenomenon
   path "player/cosmology/the-false-form.md"
   reviewed "2026-06-18"
-  tags :resonance, :cosmology, :religion, :legend
+  tags :resonance, :cosmology, :religion, :legend, :subject_resonance
   prominence :renowned
   registry true
   aka "the Rhomboid", "the Outside Figure", "the Open Thing"

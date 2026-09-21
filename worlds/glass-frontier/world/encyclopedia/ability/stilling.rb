@@ -6,7 +6,7 @@ encyclopedia :stilling do
   status :complete
   log "2026-08-31 — Restored Stilling after review; the established still root names active resonance damping, while night is only the vault instruments' reading during a hold."
   log "2026-08-31 — Recast Stilling as one focused-tier spell holding one room quiet for one case move; relay practice coordinates several separate castings."
-  topics :archives, :resonance, :danger, :training
+  topics :archives, :resonance, :danger, :training, :subject_resonance
   prevalence :uncommon
   appears_when all: { place: [:archive] }
 

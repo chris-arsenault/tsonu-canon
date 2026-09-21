@@ -3,7 +3,7 @@ encyclopedia :compacts do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :governance, :"social-structure", :trade
+  topics :governance, :"social-structure", :trade, :subject_politics_history
   prevalence :uncommon
   available_globally
   summary "Compacts are signed working agreements among parties that share a lane, standard, resource, or hazard. Their rules and protections bind the signatories and the named work until a signature is withdrawn or read out."

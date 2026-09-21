@@ -12,7 +12,7 @@ npc :vesh_marrow do
     "who can end it, which records stay public, and what happens to " \
     "whoever refuses an order. His weight arrives as annotations in the " \
     "margins of a draft, not from a chair or a seat."
-  tags :governance, :diplomacy, :resonance, :rebuilding
+  tags :governance, :diplomacy, :resonance, :rebuilding, :subject_bloom
   prominence :recognized
   status :complete
 

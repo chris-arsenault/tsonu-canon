@@ -5,7 +5,7 @@ encyclopedia :kinetic_horn do
   subkind :instrument
   function "Applies a directed kinetic-band force while a player holds a matched tone"
   status :complete
-  topics :resonance, :music, :"kinetic-freq", :training, :transport
+  topics :resonance, :music, :"kinetic-freq", :training, :transport, :subject_common_life
   prevalence :common
   available_globally
 

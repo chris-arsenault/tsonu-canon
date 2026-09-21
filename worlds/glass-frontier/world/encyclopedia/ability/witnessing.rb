@@ -7,7 +7,7 @@ encyclopedia :witnessing do
   log "2026-08-31 — Renamed Revelation to Witnessing; the name joins the ability to Kaleidos's practice of making an event answerable through surviving physical evidence."
   log "2026-08-31 — Kept Witnessing as the narrow reconstruction of one event through its surviving consequences. Present observation through a distant person, object, or signal became Elsewhere because it uses a live anchor and answers the observer immediately."
   log "2026-08-31 — Separated Echoing as the broad replay of one recent sensory fragment retained in a touched surface; Witnessing joins multiple consequences into an account of the event that produced them."
-  topics :resonance, :"signal-freq", :archives, :mystery
+  topics :resonance, :"signal-freq", :archives, :mystery, :subject_resonance
   prevalence :rare
   available_globally
 

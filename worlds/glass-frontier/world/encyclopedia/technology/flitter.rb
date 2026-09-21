@@ -5,7 +5,7 @@ encyclopedia :flitter do
   subkind :vessel
   status :complete
   capacity "One to six passengers, or an equivalent light cargo load"
-  topics :transport, :resonance, :"kinetic-freq", :surface, :orbital, :household
+  topics :transport, :resonance, :"kinetic-freq", :surface, :orbital, :household, :subject_journeys_trade
   prevalence :common
   available_globally
 

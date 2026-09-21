@@ -5,7 +5,7 @@ encyclopedia :dead_reckoning do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Reckoning to Dead Reckoning. The familiar navigation phrase gains a literal Kaleidos meaning: the fixes come from the scheduled silences of dead beacons."
-  topics :navigation, :"signal-freq", :"ring-era", :training
+  topics :navigation, :"signal-freq", :"ring-era", :training, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:damaged_signal] }
   function "Fixes position and holds course through damaged-signal country by matching scheduled quiet intervals to current pulse tables"

@@ -1,4 +1,5 @@
 npc :nera_vasken do
+  tags :subject_planetary_life
   name "Nera Vasken"
   summary "Nera Vasken is a plant grafter who joins Lumenshard cuttings to Mera rootstock."
   subkind :specialist

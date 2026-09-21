@@ -1,4 +1,5 @@
 thread :reconnection do
+  tags :subject_politics_history
   name "Thread: The Reconnection"
   subkind :story_thread
   path "dm/threads/reconnection.md"

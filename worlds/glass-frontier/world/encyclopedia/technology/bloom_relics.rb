@@ -5,7 +5,7 @@ encyclopedia :bloom_relics do
   subkind :anomalous_artifact
   reviewed "2026-03-19"
   status :complete
-  topics :resonance, :danger
+  topics :resonance, :danger, :subject_bloom
   prevalence :rare
   available_globally
   log "2026-08-21 — Defined Bloom relic formation as a boundary pinning one existing physical relationship into an exposed object. The effect follows the object's prior function and local conditions; repeated activation is not required."

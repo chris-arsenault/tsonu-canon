@@ -1,4 +1,5 @@
 npc :vesh_talar do
+  tags :subject_journeys_trade
   name "Vesh Talar"
   summary "Vesh Talar is a Nacre route surveyor who carries bearings among Korvath, Crucible, Vastine, and Lithren."
   subkind :npc

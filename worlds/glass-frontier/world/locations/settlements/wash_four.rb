@@ -7,7 +7,7 @@ installation :wash_four do
   aka "Decontamination Habitat Four"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :trade, :household, :resonance, :"signal-freq"
+  tags :"ring-hab", :trade, :household, :resonance, :"signal-freq", :subject_hab_life
   prominence :recognized
   population 3100
   population_band "About thirty-one hundred residents, plus crews waiting through wash cycles"

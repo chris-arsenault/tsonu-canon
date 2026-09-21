@@ -5,7 +5,7 @@ geographic_location :deep_shear do
   context_tags :orbital, :debris_field, :displacement_zone
   subkind :hazardous_zone
   path "player/locations/landmarks/deep-shear.md"
-  tags :orbital, :danger, :resonance, :salvage
+  tags :orbital, :danger, :resonance, :salvage, :subject_shear
   prominence :recognized
   log "2026-08-21 — Dated the first petition for Deep-specific regulation to 2420 and recorded the grounds on which the Shear Compact refused it."
 

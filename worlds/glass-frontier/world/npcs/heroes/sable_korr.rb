@@ -9,7 +9,7 @@ npc :sable_korr do
     "Sable answers in full sentences, sets the conflicting accounts side " \
     "by side, and does not recommend a choice. A buyer who wants a " \
     "recording without its dispute does not get the sale."
-  tags :music, :archives, :governance, :"signal-freq"
+  tags :music, :archives, :governance, :"signal-freq", :subject_hab_life
   prominence :forgotten
 
   prose <<~PROSE

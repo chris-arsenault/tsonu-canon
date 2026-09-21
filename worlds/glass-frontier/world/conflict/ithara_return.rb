@@ -4,7 +4,7 @@ conflict :ithara_return do
   subkind :dispute
   status :complete
   prominence :recognized
-  tags :archives, :rebuilding, :military, :mystery
+  tags :archives, :rebuilding, :military, :mystery, :subject_lithren
 
   prose <<~PROSE
     #{ref :eris_talven, "Eris Talven"} and #{ref :nereth_valis, "Nereth Valis"} established in 2434 that Ithara's foundations and dispersed witnesses could support a composite return of #{ref :ithara_gate, "its gate complex"}. In 2435 they are preparing that subject and comparing adjoining workshops. No great return has yet been attempted there.

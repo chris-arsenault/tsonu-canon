@@ -5,7 +5,7 @@ installation :the_choir_fragment do
   context_tags :orbital, :debris_field, :damaged_signal, :ringglass_rich
   subkind :landmark
   culture :rolls
-  tags :orbital, :"ring-era", :resonance, :archives, :mystery, :salvage
+  tags :orbital, :"ring-era", :resonance, :archives, :mystery, :salvage, :subject_shear
   prominence :recognized
 
   descriptive_identity(

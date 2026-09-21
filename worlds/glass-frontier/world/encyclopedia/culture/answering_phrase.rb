@@ -5,7 +5,7 @@ encyclopedia :answering_phrase do
   subkind :expressive_tradition
   status :complete
   log "2026-08-31 — Renamed Music in Kaleidos to The Answering Phrase; the name comes from the response that proves a shared working form."
-  topics :music, :resonance, :governance, :archives, :training
+  topics :music, :resonance, :governance, :archives, :training, :subject_common_life
   prevalence :common
   available_globally
 

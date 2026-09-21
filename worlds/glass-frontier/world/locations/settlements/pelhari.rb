@@ -5,7 +5,7 @@ installation :pelhari do
   context_tags :outer_system, :urban, :archive
   subkind :settlement
   path "player/locations/settlements/pelhari.md"
-  tags :"outer-system", :training, :resonance, :trade, :"ring-era"
+  tags :"outer-system", :training, :resonance, :trade, :"ring-era", :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

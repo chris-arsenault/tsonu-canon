@@ -4,7 +4,7 @@ creature :avar_marn_herds do
   subkind :animal
   type_of :marn
   status :complete
-  tags :surface, :ecology, :trade, :resonance
+  tags :surface, :ecology, :trade, :resonance, :subject_planetary_life
   prominence :recognized
 
   prose <<~PROSE

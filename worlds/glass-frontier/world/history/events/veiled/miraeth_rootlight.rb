@@ -1,4 +1,5 @@
 incident :miraeth_rootlight do
+  tags :subject_planetary_life
   name "Miraeth Rootlight"
   summary "Miraeth Rootlight is a blue pulse that travels through Miraeth soil and gathers beneath plants carrying damaged ringglass."
   type_of :miraeth_blue

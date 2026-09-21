@@ -6,7 +6,7 @@ encyclopedia :dovran do
   status :complete
   log "2026-08-31 — Renamed Channel Barge to Dovran; the Dovra-derived vessel name grounds the type in Korvath's waterways instead of a generic hull description."
   capacity "A family or village crew, a shallow cargo deck, and removable passenger or living shelters"
-  topics :transport, :trade, :"outer-system", :resonance, :ecology
+  topics :transport, :trade, :"outer-system", :resonance, :ecology, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:waterway] }
 

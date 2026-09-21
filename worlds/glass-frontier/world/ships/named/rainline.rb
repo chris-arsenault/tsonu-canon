@@ -6,7 +6,7 @@ transport :rainline do
   subkind :vessel
   status :complete
   capacity "Seven crew, two observers, a marker rack, and one folded shower-catch frame"
-  tags :transport, :navigation, :ringglass, :orbital, :danger, :resonance
+  tags :transport, :navigation, :ringglass, :orbital, :danger, :resonance, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

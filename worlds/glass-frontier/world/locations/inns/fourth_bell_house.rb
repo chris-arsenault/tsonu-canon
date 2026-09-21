@@ -5,7 +5,7 @@ installation :fourth_bell_house do
   context_tags :surface, :urban, :dock, :road
   subkind :installation
   status :complete
-  tags :transport, :trade, :household, :surface, :governance
+  tags :transport, :trade, :household, :surface, :governance, :subject_journeys_trade
   prominence :marginal
 
   descriptive_identity(

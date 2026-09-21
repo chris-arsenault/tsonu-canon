@@ -3,7 +3,7 @@ encyclopedia :commercial_standing do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :trade, :governance, :"social-structure"
+  topics :trade, :governance, :"social-structure", :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:market, :dock] }
   summary "Commercial standing is the witnessed trading record that lets a house, crew, or factor obtain credit and contracts in ports where its principals are unknown. Open ledgers, posted settlements, and letters of standing carry that record between markets."

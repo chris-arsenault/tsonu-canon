@@ -5,7 +5,7 @@ encyclopedia :want do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Want from Hunger because learned and remembered patterns travel through signal resonance, produce identity loss rather than physical depletion, and leave a lasting appetite in the practitioner."
-  topics :resonance, :danger, :"signal-freq"
+  topics :resonance, :danger, :"signal-freq", :subject_resonance
   prevalence :rare
   available_globally
 

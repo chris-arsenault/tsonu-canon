@@ -4,7 +4,7 @@ encyclopedia :passings do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :surface, :"ring-era", :navigation, :ecology
+  topics :surface, :"ring-era", :navigation, :ecology, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:surface] }
   medium "Light and orbital shadow across the surface of Kaleidos"

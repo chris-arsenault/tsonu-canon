@@ -4,7 +4,7 @@ artifact :the_bound_roots do
   subkind :artifact
   type_of :velin
   status :complete
-  tags :ecology, :materials, :trade, :resonance
+  tags :ecology, :materials, :trade, :resonance, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

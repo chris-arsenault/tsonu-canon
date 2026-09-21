@@ -5,7 +5,7 @@ encyclopedia :hood do
   subkind :machine
   function "Masks the small resonance changes produced by a Tuner's active perception"
   status :complete
-  topics :resonance, :salvage, :danger, :orbital, :training
+  topics :resonance, :salvage, :danger, :orbital, :training, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:orbital] }
 

@@ -4,7 +4,7 @@ phenomenon :heir_bloom do
   type_of :signal_growth
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :"signal-freq", :navigation, :governance
+  tags :resonance, :"signal-freq", :navigation, :governance, :subject_journeys_trade
   prominence :recognized
   trigger "A signal network must reconcile simultaneous route, command, or custody demands that its existing paths cannot carry together"
   effect "Each unresolved instruction opens a luminous branch through another authorized channel; an accepted succession recreates every branch, access state, and queued instruction on the heir"

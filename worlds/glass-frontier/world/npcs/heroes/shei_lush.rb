@@ -3,7 +3,7 @@ npc :shei_lush do
   summary "Shei Lush is the pianist and Chair who has presided over Fermata Station's governing Sessions since 2424."
   subkind :official
   status :complete
-  tags :music, :governance, :diplomacy
+  tags :music, :governance, :diplomacy, :subject_hab_life
   prominence :forgotten
   occupation "Chair of Fermata's governing Sessions"
   jurisdiction "Procedure and recognition during Fermata Sessions"

@@ -9,7 +9,7 @@ npc :ivena_sar do
   narrative_role :viewpoint
   status :complete
   prominence :recognized
-  tags :activism, :military
+  tags :activism, :military, :subject_istrava
   descriptive_identity attire: "A washable blue apron over patched shore clothes, with spare sleeves rolled in her bag.", tools: "Splints sized to fit beneath a shipyard stretcher cover.", manner: "Asks what a patient can still move before asking whose side they served.", disposition: "Protects soldiers' families even when that costs her resistance supporters."
 
   prose <<~PROSE
@@ -26,12 +26,21 @@ npc :ivena_sar do
     She wants the city free and her brother home. She will not promise that she would hand him back to the resistance if he returned as a willing officer. Her closest companions know that limit before they entrust her with their own captives.
   PROSE
 
+  prose <<~PROSE, section: :operations, heading: "What the Case Holds"
+    Ivena borrows a #{encyclopedia_ref :varen} for difficult repairs at #{ref :oskara}. Its fine frame travels separately from the cold #{encyclopedia_ref :ineth} she uses on exposed tissue. She can accept either from a collector or a political enemy, then refuse it after examining its condition. A promised rescue is no reason to put cloudy gel into a wound.
+
+    The #{ref :ilvaren, "Ilvaren"} exchange prepared stock and help obtain clean #{encyclopedia_ref :teshil} after resin injuries in Iridess. Ivena teaches their keepers to distinguish removal of the sticky coating from treatment of the tissue beneath it. She has lent the varen's owner her own room while using the machine elsewhere. The owner wants it returned before a planned departure, and Ivena is looking for a replacement frame that can travel with her patients.
+  PROSE
+
   gm_note :triggered_by, "Bringing a wounded enemy to Ivena wins treatment and a request to escort that person's children to safety, even if the escort opposes their parent."
 end
 
 relate :rel_ivena_sar_located_in_velisar, :located_in, :ivena_sar, :velisar
 
 relate :rel_ivena_sar_operates_in_istrava, :operates_in, :ivena_sar, :istrava, since: 2435
+
+relate :rel_ivena_oskara, :operates_in, :ivena_sar, :oskara, since: 2435
+relate :rel_ivena_ilvaren, :cooperates_with, :ivena_sar, :ilvaren, since: 2435
 
 relate :rel_ivena_sar_cooperates_with_velisar_resistance, :cooperates_with, :ivena_sar, :velisar_resistance, since: 2435
 

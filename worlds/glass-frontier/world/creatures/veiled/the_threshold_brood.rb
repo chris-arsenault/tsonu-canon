@@ -1,4 +1,5 @@
 creature :the_threshold_brood do
+  tags :subject_hab_life
   name "The Threshold Brood"
   summary "The Threshold Brood is a named displaced-fauna population tracked through Xyloathax, Eleven, Lung Three, and Third Latch."
   subkind :creature

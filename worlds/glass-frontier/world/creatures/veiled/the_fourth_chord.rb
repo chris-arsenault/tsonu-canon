@@ -1,4 +1,5 @@
 creature :the_fourth_chord do
+  tags :subject_hab_life
   name "The Fourth Chord"
   summary "The Fourth Chord is a named Mera flute-reed graft cultivated at Mera and Olven."
   subkind :creature

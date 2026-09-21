@@ -1,4 +1,5 @@
 transport :five_rooms do
+  tags :subject_journeys_trade
   name "Five Rooms"
   summary "Five Rooms is a passenger kite serving Mareth, Holl, Vey, and Carom. Its cabins rotate to match the gravity at each destination."
   subkind :vessel

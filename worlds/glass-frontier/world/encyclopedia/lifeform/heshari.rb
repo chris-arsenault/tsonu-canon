@@ -5,7 +5,7 @@ encyclopedia :heshari do
   origin_blurb "Vitreous teeth are shed and regrown throughout life, and lined lungs clear the glass fines common across the glass country."
   subkind :sapient_species
   status :complete
-  topics :species, :materials, :trade
+  topics :species, :materials, :trade, :subject_common_life
   prevalence :uncommon
   available_globally
   registry true

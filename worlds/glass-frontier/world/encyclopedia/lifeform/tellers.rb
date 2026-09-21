@@ -3,7 +3,7 @@ encyclopedia :tellers do
   kind :lifeform
   subkind :anomaly
   status :complete
-  topics :"signal-freq", :mystery, :legend, :ecology
+  topics :"signal-freq", :mystery, :legend, :ecology, :subject_journeys_trade
   prevalence :rare
   appears_when all: { place: [:damaged_signal] }
   summary "Tellers are cat-sized relay-post anomalies that speak short fragments of signal traffic hours before it arrives through a dead band. Each animal holds a mast territory, accepts food from its post, and announces from the mast top in the future sender's voice."

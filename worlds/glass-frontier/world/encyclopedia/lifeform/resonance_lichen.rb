@@ -5,7 +5,7 @@ encyclopedia :resonance_lichen do
   subkind :lichen
   status :complete
   log "2026-08-31 — Renamed Breach Lichen to Resonance Lichen; the established resonance root governs both the strike-scar habitat and the organism's warning cycle."
-  topics :ecology, :resonance, :surface
+  topics :ecology, :resonance, :surface, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :ringglass_rich] }
   biology "Feeds on the mineral changes a resonance strike leaves in stone; its tissues load with charge as the local field rebuilds"

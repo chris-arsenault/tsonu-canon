@@ -4,7 +4,7 @@ encyclopedia :hosteler do
   kind :role
   subkind :profession
   status :complete
-  topics :trade, :navigation, :household, :"social-structure"
+  topics :trade, :navigation, :household, :"social-structure", :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:dock, :surface] }
 

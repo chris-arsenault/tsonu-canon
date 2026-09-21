@@ -5,7 +5,7 @@ encyclopedia :ringglass do
   status :complete
   summary "Ringglass is the crystalline material of the broken orbital ring and the principal medium used to concentrate and channel ambient resonance."
   reviewed "2026-03-19"
-  topics :resonance, :materials, :trade
+  topics :resonance, :materials, :trade, :subject_common_life
   prevalence :common
   available_globally
   function "Concentrates and channels ambient resonance"

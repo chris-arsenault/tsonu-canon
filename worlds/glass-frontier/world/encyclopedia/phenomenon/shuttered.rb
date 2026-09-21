@@ -6,7 +6,7 @@ encyclopedia :shuttered do
   log "2026-08-31 — Renamed Shuttered Habs to The Shuttered; the established collective form names the communities by their continuing relationship to contact rather than by a generic habitat label."
   summary "The Shuttered are sealed ring habitats that refused reconnection during the Rekindling and remain isolated from the wider system."
   reviewed "2026-03-19"
-  topics :"ring-hab", :governance, :"social-structure"
+  topics :"ring-hab", :governance, :"social-structure", :subject_hab_life
   prevalence :rare
   appears_when all: { place: [:sealed_hab] }
 

@@ -5,7 +5,7 @@ encyclopedia :bolsters do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Shellback to Bolsters; Shear crews use the familiar structural noun for animals that take the load of the debris beneath them, a usage continued by the Mapped Bolsters."
-  topics :orbital, :resonance, :ecology, :salvage, :danger, :ringglass
+  topics :orbital, :resonance, :ecology, :salvage, :danger, :ringglass, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
 

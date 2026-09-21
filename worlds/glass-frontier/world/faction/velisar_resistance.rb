@@ -5,7 +5,7 @@ faction :velisar_resistance do
   founded 2435
   status :complete
   prominence :recognized
-  tags :military, :activism, :religion
+  tags :military, :activism, :religion, :subject_istrava
 
   prose <<~PROSE
     The Velisar resistance joins people who can open a yard, hide a patient, disable a gun or bring a soldier out of an occupied barracks. It formed during #{ref :aren_talivar, "Aren Talivar"}'s seizure of #{ref :velisar, "Velisar"}. Its members agree that he must lose the city. They disagree about which of his soldiers deserve help and which outside forces should be invited in.
@@ -23,6 +23,8 @@ faction :velisar_resistance do
     The resistance hides #{ref :talessar, "Talessar"}, but possession has not produced an agreed reading. Crews preparing to reach Aren want a successor who can revoke his standing orders. They collect testimony from prisoners who have resisted him and offer escorts to those willing to attempt the journey. Others shelter those same people from recruiters, fearing that the deck's crowned liberator will be welcomed into a second tyranny.
 
     Disagreement has become action. One group removed a possible claimant from a planned assault and sent them out by sea without telling the force waiting to escort them. Another kept an original leaf in circulation after its protectors demanded that it be locked away. Both groups still open doors for captives. Detha refuses to let either announce her as the person in the picture.
+
+    The #{ref :severance, "Severance"} now organizes journeys away from the mantle's succession. Members of the #{ref :veyr_company, "Veyr Company"} have supported a willing claimant's approach and lost an escort to that intervention. Their wider cooperation continues through the dock's treatment room and the boats departing for #{ref :oskara, "Oskara"}.
 
     The fallen-spar warning gives people a reason to try to prevent the pictured future. They watch celebrations for attempts to acclaim a single liberator, seek the unaltered drawings and challenge readings that put a convenient enemy's face under the crown. Some fight for release from today's orders and have no faith in the cards at all. An ally can share the immediate rescue and oppose the succession it is meant to enable.
   PROSE

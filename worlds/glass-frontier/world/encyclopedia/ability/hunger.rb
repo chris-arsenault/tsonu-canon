@@ -6,7 +6,7 @@ encyclopedia :hunger do
   status :complete
   log "2026-08-31 — Renamed Consumption to Hunger; the shifted word joins the transfer itself to the appetite that repeated use creates."
   log "2026-08-31 — Kept Hunger as the broad physical transfer in the former ladder. Theft of a recalled memory or practiced skill became Want; the old narrow row mixed unrelated power theft with collective scale and was not retained as one spell."
-  topics :resonance, :danger, :"kinetic-freq"
+  topics :resonance, :danger, :"kinetic-freq", :subject_resonance
   prevalence :rare
   available_globally
 

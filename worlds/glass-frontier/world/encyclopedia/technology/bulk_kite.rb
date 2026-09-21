@@ -5,7 +5,7 @@ encyclopedia :bulk_kite do
   subkind :vessel
   status :complete
   log "2026-08-31 — Renamed Heavy Hauler to Bulk Kite; the name extends the established kite propulsion term to the cargo class and drops a generic vessel label."
-  topics :trade, :transport, :ringglass, :"kinetic-freq", :orbital, :navigation
+  topics :trade, :transport, :ringglass, :"kinetic-freq", :orbital, :navigation, :subject_journeys_trade
   prevalence :common
   appears_when all: { place: [:orbital] }
   appears_when all: { place: :outer_system }

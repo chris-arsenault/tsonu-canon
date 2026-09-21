@@ -6,7 +6,7 @@ installation :blue_step_works do
   subkind :workshop
   function "Builds and tests portable structural clamps, pump frames, and road-moving gear"
   status :complete
-  tags :surface, :rebuilding, :resonance, :"structural-freq", :trade
+  tags :surface, :rebuilding, :resonance, :"structural-freq", :trade, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

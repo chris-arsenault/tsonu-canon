@@ -4,7 +4,7 @@ incident :returning_pods do
   subkind :discovery
   date 2435
   status :complete
-  tags :salvage, :governance, :transport, :mystery
+  tags :salvage, :governance, :transport, :mystery, :subject_journeys_trade
   prominence :marginal
 
   descriptive_identity(

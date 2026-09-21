@@ -1,4 +1,5 @@
 transport :narrow_wake do
+  tags :subject_journeys_trade
   name "Narrow Wake"
   summary "Narrow Wake is a courier kite serving Accord Shore, Verathi, and Keelward. Its hull records every course correction as a bright scar."
   subkind :vessel

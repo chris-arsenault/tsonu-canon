@@ -6,7 +6,7 @@ artifact :damarat_bed do
   function "Forms sheet stock across an adjustable nine-meter bed of ceramic rods"
   status :complete
   prominence :recognized
-  tags :materials, :trade, :rebuilding
+  tags :materials, :trade, :rebuilding, :subject_lithren
   descriptive_identity appearance: "A wide field of pale ceramic rod ends beneath a dark platen; modern drive cables run across the old floor.", handling: "Shaped bars set rows of rods, and a test sheet reveals their combined contour before a full load is pressed.", risks: "A proud or fractured rod can split stock; unseen linked motion continues beneath the bed, and lifting the machine requires access through occupied flooring."
   prose <<~PROSE
     The Damarat Bed occupies the working terrace of #{ref :damarat, "Damarat"}. Its nine-meter forming surface contains rods finer and more closely set than those in contemporary copies. A modern drive powers the press. Its old adjustment bars still set repeated contours across the surface, while replacement controls let operators stop the platen from the occupied floor.

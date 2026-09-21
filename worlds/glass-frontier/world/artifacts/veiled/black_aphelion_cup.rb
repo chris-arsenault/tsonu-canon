@@ -1,4 +1,5 @@
 artifact :black_aphelion_cup do
+  tags :subject_journeys_trade
   name "The Black Aphelion Cup"
   summary "The Black Aphelion Cup is a relic vessel used around Ashenmaw and the Fracture. It gathers Fracture dust into a moving map of the next debris crossing."
   subkind :relic

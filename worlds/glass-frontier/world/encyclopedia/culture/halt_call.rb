@@ -5,7 +5,7 @@ encyclopedia :halt_call do
   subkind :work_tradition
   status :complete
   log "2026-08-31 — Renamed Workshop Authority to Halt-Call; the name centers the spoken stop that carries across ownership and trade boundaries."
-  topics :governance, :danger, :trade, :training
+  topics :governance, :danger, :trade, :training, :subject_politics_history
   prevalence :common
   available_globally
 

@@ -5,7 +5,7 @@ encyclopedia :elsewhere do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Elsewhere from the former Witnessing ladder because it observes a present place through a live anchor rather than reconstructing an event from surviving consequences."
-  topics :resonance, :"signal-freq", :mystery
+  topics :resonance, :"signal-freq", :mystery, :subject_resonance
   prevalence :rare
   available_globally
 

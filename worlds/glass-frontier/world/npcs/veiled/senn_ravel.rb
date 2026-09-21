@@ -1,4 +1,5 @@
 npc :senn_ravel do
+  tags :subject_journeys_trade
   name "Senn Ravel"
   summary "Senn Ravel is a freight-record dissident who posts erased claims on public walls at Ravel and Third Latch."
   subkind :dissident

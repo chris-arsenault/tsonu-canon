@@ -1,4 +1,5 @@
 transport :whitefoot_hub_cart do
+  tags :subject_planetary_life
   name "The Whitefoot Hub-Cart"
   summary "The Whitefoot Hub-Cart is a message vehicle used between Whitefoot, Old Campus, and Sithari. It carries pulses through dead relay ground in its wheel hubs."
   subkind :transport

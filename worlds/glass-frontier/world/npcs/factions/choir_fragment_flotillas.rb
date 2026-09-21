@@ -4,7 +4,7 @@ faction :choir_fragment_flotillas do
   type_of :ratters
   subkind :trade_network
   status :complete
-  tags :salvage, :orbital, :trade
+  tags :salvage, :orbital, :trade, :subject_shear
   prominence :marginal
 
   gm_note :appears, "Ratters read each other off the patchwork coat, the cant, and the shard pendant from a first claim, and all three are checked at once. Wearing the gear without the argot marks a player as suspect, and faking fluency in Shear-cant is caught inside a sentence."

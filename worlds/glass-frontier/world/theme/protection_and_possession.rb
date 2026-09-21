@@ -1,4 +1,5 @@
 theme :protection_and_possession do
+  tags :subject_istrava
   name "Protection and Possession"
   summary "The Istravan theater tests what people owe a protector and what a successful defense entitles its commander to demand after a system war has supposedly ended."
   subkind :narrative_theme

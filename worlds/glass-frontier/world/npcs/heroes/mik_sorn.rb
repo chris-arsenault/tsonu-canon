@@ -17,7 +17,7 @@ npc :mik_sorn do
     "personal custody because its mark lists the people he brings " \
     "medicine to."
   status :complete
-  tags :transport, :household, :trade
+  tags :transport, :household, :trade, :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

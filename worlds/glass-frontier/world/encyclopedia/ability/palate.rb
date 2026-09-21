@@ -6,7 +6,7 @@ encyclopedia :palate do
   status :complete
   log "2026-08-31 — Renamed Glass Taste to Palate; Kyther stock traders use the familiar word for the inherited sense that grades ringglass rather than for ordinary flavor."
   log "2026-08-31 — Removed the broad tier. Palate is an innate sensitivity, not a resonant spell."
-  topics :ringglass, :trade, :household, :training
+  topics :ringglass, :trade, :household, :training, :subject_planetary_life
   prevalence :rare
   appears_when all: { place: [:ringglass_rich] }
   function "Grades ringglass by the metallic trace it leaves on the breath, to a fineness instruments match slowly and expensively"

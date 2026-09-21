@@ -4,7 +4,7 @@ encyclopedia :lending do
   kind :ability
   subkind :technique
   status :complete
-  topics :training, :household, :resonance
+  topics :training, :household, :resonance, :subject_common_life
   prevalence :common
   available_globally
   function "Holds a casualty's body tone stable through sustained contact, at the cost of the lender's own steadiness"

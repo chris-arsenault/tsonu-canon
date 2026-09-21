@@ -4,7 +4,7 @@ encyclopedia :echo_strip do
   kind :technology
   subkind :record
   status :complete
-  topics :archives, :"signal-freq", :resonance, :trade, :household
+  topics :archives, :"signal-freq", :resonance, :trade, :household, :subject_common_life
   prevalence :common
   available_globally
 

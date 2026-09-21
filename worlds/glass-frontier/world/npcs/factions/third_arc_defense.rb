@@ -7,7 +7,7 @@ faction :third_arc_defense do
   dissolved 2423
   mandate "Protect outer ring-hab supply routes and civilian communications"
   omit_facts :leaders, :predecessors
-  tags :military, :transport, :"signal-freq", :governance
+  tags :military, :transport, :"signal-freq", :governance, :subject_politics_history
   prominence :recognized
   status :complete
 

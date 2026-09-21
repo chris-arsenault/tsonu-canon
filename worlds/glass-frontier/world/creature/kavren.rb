@@ -5,7 +5,7 @@ creature :kavren do
   type_of :ovri
   status :complete
   prominence :recognized
-  tags :ecology, :materials, :mystery, :danger
+  tags :ecology, :materials, :mystery, :danger, :subject_lithren
   descriptive_identity appearance: "Pale overlapping bowls enclose purple folds under the western gallery; one exposed root of crust divides around an ancient stone footing.", behavior: "Its lowest wet folds rise together when fresh brine enters, while brittle outer rims shed onto the cold gallery.", threat: "Removing the enclosing crust can vent the seep across the narrow approach and freeze the exposed growth."
 
   prose <<~PROSE

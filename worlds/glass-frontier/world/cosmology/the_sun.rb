@@ -4,7 +4,7 @@ geographic_location :the_sun do
   log "2026-08-22 — Excluded as a chronicle location because it has no habitable local site at which a chronicle can begin."
   subkind :celestial_body
   status :complete
-  tags :cosmology, :resonance, :navigation, :danger
+  tags :cosmology, :resonance, :navigation, :danger, :subject_common_life
   prominence :mythic
   custom_fact :classification, "Single star at the center of the Kaleidos system",
               label: "Classification"

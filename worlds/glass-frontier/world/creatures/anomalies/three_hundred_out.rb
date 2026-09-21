@@ -3,7 +3,7 @@ creature :three_hundred_out do
   summary "Three Hundred Out is the first rind recorded beside an active Bloom cordon, holding near Outside at the distance that gave the animal its name."
   subkind :animal
   type_of :rind
-  tags :ecology, :resonance, :orbital, :danger, :mystery
+  tags :ecology, :resonance, :orbital, :danger, :mystery, :subject_bloom
   prominence :marginal
 
   descriptive_identity(

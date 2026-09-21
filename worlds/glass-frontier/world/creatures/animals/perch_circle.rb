@@ -4,7 +4,7 @@ creature :perch_circle do
   subkind :animal
   type_of :sarn
   status :complete
-  tags :ecology, :resonance, :"kinetic-freq", :orbital
+  tags :ecology, :resonance, :"kinetic-freq", :orbital, :subject_hab_life
   prominence :recognized
 
   prose <<~PROSE

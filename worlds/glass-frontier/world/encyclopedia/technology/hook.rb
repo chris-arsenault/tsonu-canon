@@ -4,7 +4,7 @@ encyclopedia :hook do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Keel Hook-Car to Hook. Keel crews already use hook for the cars, freight, traffic, and crews, and the Third Latch Hook continues the class word in a named vehicle."
-  topics :transport, :"ring-era", :trade, :orbital
+  topics :transport, :"ring-era", :trade, :orbital, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:road, :dock] }
   summary "A hook is a freight car that rides the Keel's own structure — fixed to the elven trunk rails by articulated arms and drawn along by the route's standing drift. Hook crews ride the system's spine on hardware the spine was built to carry."

@@ -8,7 +8,7 @@ npc :tovin do
   specialty "Landing at small excavations and bringing awkward loads out of them"
   status :complete
   prominence :recognized
-  tags :transport, :trade, :danger
+  tags :transport, :trade, :danger, :subject_lithren
   descriptive_identity appearance: "A narrow face with a badly healed cut through the lower lip.", attire: "A pressure suit with expensive new gloves and a faded borrowed shoulder plate.", tools: "A compact pistol secured inside his coat and landing sketches drawn on washable fabric.", manner: "Talks easily while watching who stands between him and the hatch.", disposition: "Protects the people aboard his ship, takes profitable risks with other people's goods and dislikes being thanked as if it settled an account."
   prose <<~PROSE
     Tovin commands #{ref :ulveth, "Ulveth"} between #{ref :ithara, "Ithara"} and its scattered excavations. He carries paying loads, takes people to places their employers would rather they did not go, and steals cargo when a weak escort and a willing buyer make it worthwhile. He has left crews alive with enough equipment to reach shelter. He has also fired on people who tried to prevent him leaving with their goods.

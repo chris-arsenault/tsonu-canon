@@ -6,7 +6,7 @@ encyclopedia :poise do
   status :complete
   log "2026-08-31 — Renamed Hollow Balance to Poise; between-decks crews use the familiar word for continuous orientation through changing spin, not merely graceful balance."
   log "2026-08-31 — Removed the broad tier. Poise is an innate sensitivity, not a resonant spell."
-  topics :"ring-hab", :training, :danger
+  topics :"ring-hab", :training, :danger, :subject_hab_life
   prevalence :rare
   appears_when all: { place: [:sealed_hab] }
 

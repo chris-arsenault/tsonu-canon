@@ -4,7 +4,7 @@ encyclopedia :pickets do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Rill Heron to Pickets; the new title names their watchful waterline posture."
-  topics :ecology, :household
+  topics :ecology, :household, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:garden, :sealed_hab] }
   summary "Pickets are tall pale wading birds kept by the pipe-linked garden settlements, stalking the channels for vermin and standing sentinel over the water their households share. The flocks descend from the ring's ornamental park birds, and the gardens put the ornament to work."

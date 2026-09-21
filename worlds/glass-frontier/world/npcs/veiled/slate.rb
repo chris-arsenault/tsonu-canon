@@ -1,4 +1,5 @@
 npc :slate do
+  tags :subject_shear
   name "Slate"
   summary "Slate is a Crowncut labor dissident who alters shift tokens so injured salvagers can claim meals during disputes."
   subkind :dissident

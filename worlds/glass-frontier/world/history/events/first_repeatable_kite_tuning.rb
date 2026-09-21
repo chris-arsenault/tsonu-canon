@@ -5,7 +5,7 @@ incident :first_repeatable_kite_tuning do
   type_of :kite
   date 2235
   status :complete
-  tags :transport, :resonance, :"kinetic-freq", :trade
+  tags :transport, :resonance, :"kinetic-freq", :trade, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

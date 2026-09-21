@@ -6,7 +6,7 @@ faction :the_continuity do
   founded 2160
   mandate "Govern Sithari through its elected assembly and municipal administration"
   authority "Repeated electoral majorities, city law and control of the executive administration"
-  tags :surface, :governance, :"social-structure", :isolation
+  tags :surface, :governance, :"social-structure", :isolation, :subject_politics_history
   prominence :recognized
 
   descriptive_identity(

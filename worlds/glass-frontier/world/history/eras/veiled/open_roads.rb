@@ -1,4 +1,5 @@
 era :open_roads do
+  tags :subject_journeys_trade
   name "The Open Roads"
   summary "The Open Roads were the period when independent crews restored regular passage between the outer ports and surface archives."
   subkind :historical_period

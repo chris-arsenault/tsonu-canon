@@ -5,7 +5,7 @@ encyclopedia :ve_speaker do
   subkind :profession
   status :complete
   log "2026-08-31 — Renamed Chain Speaker to Ve-Speaker; the title names the ve-links the profession reads."
-  topics :"ring-era", :archives, :governance, :music
+  topics :"ring-era", :archives, :governance, :music, :subject_politics_history
   prevalence :rare
   appears_when any: { place: [:archive, :urban] }
 

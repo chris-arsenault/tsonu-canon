@@ -4,7 +4,7 @@ encyclopedia :ravel_tides do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :"ring-hab", :"signal-freq", :mystery, :danger
+  topics :"ring-hab", :"signal-freq", :mystery, :danger, :subject_hab_life
   prevalence :rare
   appears_when all: { place: [:damaged_signal, :sealed_hab] }
   medium "The inhabited galleries and near space of Ravel's fragment, threaded by the district's surviving relay chain"

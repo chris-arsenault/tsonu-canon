@@ -1,4 +1,5 @@
 artifact :whitefoot_pulse_sled do
+  tags :subject_journeys_trade
   name "Whitefoot Pulse Sled"
   summary "Whitefoot Pulse Sled is a relay-transport machine used along Whitefoot's broken track. It carries a live core while keeping the signal aligned between Span Nine and Threshold Station."
   subkind :machine

@@ -4,7 +4,7 @@ transport :ulveth do
   subkind :vessel
   status :complete
   prominence :recognized
-  tags :transport, :trade, :danger
+  tags :transport, :trade, :danger, :subject_lithren
 
   prose <<~PROSE
     #{ref :tovin, "Tovin"} owns Ulveth, a working carrier fitted for the landings around #{ref :ithara, "Ithara"}. Its broad cargo frame takes pressure shelters, slung machinery and bundles too awkward to bring through a passenger hatch. Inside, folding bunks share a compartment with the meal table. Lowering the table exposes a repair bench; someone sleeping above it must endure the work or get up and help.

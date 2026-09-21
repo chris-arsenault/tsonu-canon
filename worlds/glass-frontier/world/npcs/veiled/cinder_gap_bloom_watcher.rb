@@ -1,4 +1,5 @@
 npc :cinder_gap_bloom_watcher do
+  tags :subject_bloom
   name "The Cinder Gap Bloom Watcher"
   summary "The Cinder Gap Bloom Watcher feels pain in their teeth before a dormant zone begins emitting light."
   type_of :ache

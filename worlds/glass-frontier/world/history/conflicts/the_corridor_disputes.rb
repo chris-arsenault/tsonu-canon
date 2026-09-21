@@ -3,7 +3,7 @@ conflict :the_corridor_disputes do
   summary "The Corridor Disputes are continuing claims over who may open, close, mark, and charge for branch routes of the Keel, dating in their current form from 2433."
   subkind :dispute
   status :complete
-  tags :transport, :trade, :governance, :diplomacy, :danger
+  tags :transport, :trade, :governance, :diplomacy, :danger, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

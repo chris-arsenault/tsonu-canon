@@ -1,4 +1,5 @@
 artifact :cold_lantern_hand do
+  tags :subject_shear
   name "The Cold Lantern Hand"
   summary "The Cold Lantern Hand is a salvage tool used at Cold Lantern and Crowncut Refinery. Its grip closes around material whose internal motion has not truly stopped."
   subkind :artifact

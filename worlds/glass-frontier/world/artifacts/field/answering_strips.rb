@@ -4,7 +4,7 @@ artifact :answering_strips do
   subkind :record
   type_of :echo_strip
   status :complete
-  tags :archives, :"signal-freq", :resonance, :trade, :household
+  tags :archives, :"signal-freq", :resonance, :trade, :household, :subject_shear
   prominence :recognized
 
   descriptive_identity(

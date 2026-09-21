@@ -5,7 +5,7 @@ incident :lethai_trial do
   date 2435
   status :complete
   prominence :recognized
-  tags :materials, :archives, :rebuilding
+  tags :materials, :archives, :rebuilding, :subject_lithren
   prose <<~PROSE
     In 2435 investigators from the #{ref :ithara_comparative_expedition, "comparative expedition"} matched the curved halves of #{ref :sovan, "Sovan"}'s broken jaw cradle to a trial shape from #{ref :damarat, "Damarat"}. #{ref :tamet, "Tamet"} pressed replacement halves on the #{ref :damarat_bed, "Damarat Bed"}. The pieces fitted a surviving setting in #{ref :lethai, "Lethai"}, aligning its light around their meeting edges.
 

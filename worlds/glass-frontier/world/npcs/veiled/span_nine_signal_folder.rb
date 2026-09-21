@@ -1,4 +1,5 @@
 npc :span_nine_signal_folder do
+  tags :subject_journeys_trade
   name "The Span Nine Signal Folder"
   summary "The Span Nine Signal Folder compresses a spoken warning into a resonance burst that survives damaged relay lines."
   type_of :signal_folding

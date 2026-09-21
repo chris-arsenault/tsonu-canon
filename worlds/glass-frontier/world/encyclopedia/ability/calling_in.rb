@@ -4,7 +4,7 @@ encyclopedia :calling_in do
   kind :ability
   subkind :technique
   status :complete
-  topics :household, :training, :"ring-hab"
+  topics :household, :training, :"ring-hab", :subject_common_life
   prevalence :common
   available_globally
   function "Sends a name through a structure's carrying bands to reach one person through distance and noise; the paired answer confirms them safe"

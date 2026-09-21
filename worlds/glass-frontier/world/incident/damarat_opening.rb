@@ -5,7 +5,7 @@ incident :damarat_opening do
   date 2433
   status :complete
   prominence :recognized
-  tags :materials, :rebuilding, :archives
+  tags :materials, :rebuilding, :archives, :subject_lithren
 
   prose <<~PROSE
     In 2433 a party working with the #{ref :ithara_comparative_expedition, "Ithara Comparative Expedition"} reached the upper workshop at #{ref :damarat, "Damarat"}. #{ref :osen, "Osen"} opened a passage through fallen facing stones without cutting the racks behind them. The racks held curved bars. Their undersides matched rows of independently moving rods in the machine now called the #{ref :damarat_bed, "Damarat Bed"}.

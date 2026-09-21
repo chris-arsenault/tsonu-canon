@@ -12,7 +12,7 @@ npc :tavi_soreth do
     "cart, a litter, a hose that cannot turn a tight corner — and the " \
     "answer decides which approach they will open. They ask for the " \
     "residents' plans before unpacking an instrument."
-  tags :surface, :resonance, :navigation, :danger
+  tags :surface, :resonance, :navigation, :danger, :subject_planetary_life
   prominence :recognized
 
   prose <<~PROSE

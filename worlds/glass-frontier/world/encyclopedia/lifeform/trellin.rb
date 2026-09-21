@@ -5,7 +5,7 @@ encyclopedia :trellin do
   origin_blurb "Cartilaginous throat fans receive and produce signal-band emission; trained tonal memory can reproduce a received voice in layered chords."
   subkind :sapient_species
   status :complete
-  topics :species, :archives, :"signal-freq"
+  topics :species, :archives, :"signal-freq", :subject_common_life
   prevalence :uncommon
   available_globally
   registry true

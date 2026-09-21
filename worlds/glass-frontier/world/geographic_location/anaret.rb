@@ -6,7 +6,7 @@ geographic_location :anaret do
   prominence :recognized
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :cold, :archive, :yard, :unstable_route
-  tags :materials, :rebuilding, :mystery, :danger, :transport
+  tags :materials, :rebuilding, :mystery, :danger, :transport, :subject_lithren
   descriptive_identity setting: "Terraced workshops descend behind the gate around a deep court, with pale suspended bands, broken deck sections and light falling through narrow roof cuts.", activity: "Visitors test surfaces that conceal objects, explore the buried workshops and try to reach captives past armed occupiers.", hazards: "Optical panels disguise recesses and walls; a stolen cutting branch threatens an upper doorway, and open depth separates the pressure shelters."
   prose <<~PROSE
     Anaret is the excavation name for the workshop district behind #{ref :ithara_gate, "Ithara Gate"}. The gate court opens toward terraced workrooms built around a deep machinery court. Fallen roofs bury some thresholds; others can be reached along their service passages or through modern cuts from above. The inhabited rooms of #{ref :ithara, "Ithara"} remain outside the ancient district.

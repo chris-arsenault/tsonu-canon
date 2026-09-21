@@ -6,7 +6,7 @@ encyclopedia :names_in_kaleidos do
   status :complete
   reviewed "2026-03-18"
   log "2026-08-31 — Kept Names in Kaleidos as a descriptive cross-cultural title; no single culture or shared institution owns a system-wide term for all of these traditions."
-  topics :"social-structure"
+  topics :"social-structure", :subject_common_life
   prevalence :common
   available_globally
 

@@ -4,7 +4,7 @@ installation :latch do
   playable_as :chronicle_location
   context_tags :sealed_hab, :bloom_adjacent, :cordon
   subkind :settlement
-  tags :"ring-hab", :catastrophe, :resonance
+  tags :"ring-hab", :catastrophe, :resonance, :subject_bloom
   prominence :forgotten
   status :complete
   omit_facts :maintained_by

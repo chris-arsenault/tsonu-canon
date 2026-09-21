@@ -5,7 +5,7 @@ phenomenon :sideways_storm do
   type_of :loadfront
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :"outer-system", :danger, :"kinetic-freq"
+  tags :resonance, :"outer-system", :danger, :"kinetic-freq", :subject_planetary_life
   prominence :recognized
   trigger "The charged front reaches a continuous rigid member longer than the pressure wavelength measured at that point on Ashvane"
   effect "Every qualifying length bows toward the storm's fixed lateral bearing and stores the bend until the rear of the front passes"

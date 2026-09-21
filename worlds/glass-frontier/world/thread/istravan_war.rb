@@ -1,4 +1,5 @@
 thread :istravan_war do
+  tags :subject_istrava
   name "The Istravan War"
   summary "Istrava's history of chosen protection leads into Aren's pursuit of the Red Sovereign, a regional war and resistance to the tyranny foretold after liberation."
   subkind :story_thread
@@ -29,6 +30,12 @@ thread :istravan_war do
     The #{ref :velisar_resistance, "resistance"}'s work now divides over possible successors. Groups escorting claimants toward Aren can lose them to allies intent on preventing the future shown in Talessar. A rescuer seeking release from standing orders may welcome the very coronation another rescuer fears. Detha refuses the face painted onto street copies of the prophecy while preparing to reach people still inside the city.
 
     Aren's recall of hunters from the upland mine at Deral has meanwhile left workers trapped by creatures. Smuggling crews cross the guns for people who need escape, treasure seekers head inland and velith performers carry accusations into the houses entertaining league officers. These undertakings bring allies together without requiring agreement over who should inherit the mantle.
+
+    #{ref :oskara, "Oskara"}'s defended Welcome and the #{ref :theskar_interception, "interception above the coast"} have made escape a contest across water and orbit. The warship #{ref :vardesh, "Vardesh"} seeks #{ref :vath, "Vath"} for its damaged battery, linking a crystal face at Deral to the threat against an independent harbor. The miners, its prospective buyers and the returning hunters can each change that threat.
+
+    In Velisar, the #{ref :veyr_company, "Veyr Company"} and #{ref :severance, "Severance"} act differently on the same prophecy. Their members recruit among performers, displaced households and visitors. A stolen mechanical mimic at #{ref :house_tereval, "House Tereval"} has brought the whereabouts of prisoners into a private sale already drawing collectors and officers.
+
+    The #{ref :struggle_for_edrath, "fighting at Naloven"} reaches into the league's demobilization: a retired battery became a home, and its former crew made promises to the households aboard. Aren wants that weapon back. Some opponents want to march it against him, while residents insist on choosing whether their rooms go to war. Public duels at #{ref :tovanesh, "Tovanesh"} bring local champions to the attention of people seeking a successor as well as a victory.
   PROSE
 
   prose <<~PROSE, section: :implications, heading: "A Regional War After Peace"
@@ -59,3 +66,8 @@ relate :rel_istravan_war_fills_beat_ivena_sar, :fills_beat, :istravan_war, :iven
 relate :rel_istravan_war_fills_beat_talessar, :fills_beat, :istravan_war, :talessar
 
 relate :rel_istravan_war_fills_beat_resistance, :fills_beat, :istravan_war, :velisar_resistance
+relate :rel_istravan_war_interception, :fills_beat, :istravan_war, :theskar_interception
+relate :rel_istravan_war_vath, :fills_beat, :istravan_war, :vath
+relate :rel_istravan_war_severance, :fills_beat, :istravan_war, :severance
+relate :rel_istravan_war_edrath, :fills_beat, :istravan_war, :struggle_for_edrath
+relate :rel_istravan_war_lowering, :fills_beat, :istravan_war, :the_lowering_of_edrath

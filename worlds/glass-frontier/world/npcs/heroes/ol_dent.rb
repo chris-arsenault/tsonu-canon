@@ -3,7 +3,7 @@ npc :ol_dent do
   summary "Ol'dent is the baritone saxophonist and maintenance lead responsible for Fermata Station's continuous Drone."
   subkind :specialist
   status :complete
-  tags :music, :resonance, :"structural-freq", :governance
+  tags :music, :resonance, :"structural-freq", :governance, :subject_hab_life
   prominence :forgotten
   occupation "Drone lead at Fermata Station"
   specialty "Reading and correcting the station's structural drone"

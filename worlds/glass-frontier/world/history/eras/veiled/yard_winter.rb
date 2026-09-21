@@ -1,4 +1,5 @@
 era :yard_winter do
+  tags :subject_planetary_life
   name "Yard Winter"
   summary "Yard Winter was a cold cutting season when three surface crews finished one hull beneath a canvas roof."
   subkind :historical_period

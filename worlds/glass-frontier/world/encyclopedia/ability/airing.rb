@@ -4,7 +4,7 @@ encyclopedia :airing do
   kind :ability
   subkind :technique
   status :complete
-  topics :household, :danger, :training
+  topics :household, :danger, :training, :subject_common_life
   prevalence :common
   available_globally
   function "Reads air quality from flame behavior — color, stance, and flutter — before entering closed or doubtful spaces"

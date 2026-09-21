@@ -8,7 +8,7 @@ npc :detha do
   narrative_role :viewpoint
   status :complete
   prominence :recognized
-  tags :military, :activism, :resonance
+  tags :military, :activism, :resonance, :subject_istrava
   descriptive_identity appearance: "A heavy brow, closely cropped hair and a pale burn across one forearm.", attire: "A stripped league coat over civilian work clothes.", tools: "A battery wrench and a folded crew list annotated with last known posts.", manner: "Checks whether someone can refuse before asking them to repeat an instruction.", disposition: "Will expose her own earlier arrests when that is what a prospective ally needs to know."
 
   prose <<~PROSE

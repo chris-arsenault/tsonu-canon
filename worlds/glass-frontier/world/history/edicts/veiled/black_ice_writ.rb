@@ -1,4 +1,5 @@
 edict :black_ice_writ do
+  tags :subject_lithren
   name "The Black-Ice Writ"
   summary "The Black-Ice Writ bars the melting of Lithren archive slabs until a second reader has copied their visible text."
   subkind :edict

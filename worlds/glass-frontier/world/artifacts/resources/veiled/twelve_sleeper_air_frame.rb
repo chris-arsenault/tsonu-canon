@@ -1,4 +1,5 @@
 artifact :twelve_sleeper_air_frame do
+  tags :subject_hab_life
   name "The Twelve-Sleeper Air Frame"
   summary "The Twelve-Sleeper Air Frame is a Bellhouse air frame sourced through Fourth Bell House, Five Landing, Holl, and Eleven. It sustains twelve sleepers in a sealed room through a dock closure."
   subkind :artifact

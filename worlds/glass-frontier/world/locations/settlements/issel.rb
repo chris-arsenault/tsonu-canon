@@ -6,7 +6,7 @@ installation :issel do
   aka "Issen-Lareth"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :"ring-era", :navigation, :archives, :"signal-freq", :resonance
+  tags :"ring-hab", :"ring-era", :navigation, :archives, :"signal-freq", :resonance, :subject_journeys_trade
   prominence :recognized
   population 620
   population_band "About six hundred residents"

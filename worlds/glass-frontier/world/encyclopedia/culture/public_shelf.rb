@@ -5,7 +5,7 @@ encyclopedia :public_shelf do
   subkind :governance
   status :complete
   log "2026-08-31 — Renamed Archives and Public Memory to The Public Shelf; the name makes public access and visible custody the tradition's concrete claim."
-  topics :archives, :governance, :"signal-freq", :"ring-era"
+  topics :archives, :governance, :"signal-freq", :"ring-era", :subject_politics_history
   prevalence :common
   available_globally
 

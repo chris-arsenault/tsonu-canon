@@ -4,7 +4,7 @@ rumor :vannor_account do
   subkind :rumor
   status :complete
   prominence :recognized
-  tags :mystery, :navigation, :trade, :danger
+  tags :mystery, :navigation, :trade, :danger, :subject_lithren
 
   prose <<~PROSE
     Copies of the Vannor Account circulate among crews waiting at #{ref :ithara, "Ithara"}. The name belongs to the account as traded, not to a surveyed destination. It describes a long chamber in which suspended pieces crossed a pale opening, vanished below a sill and emerged warm on the other side. The returning crew claimed that the work was running when they arrived and that they supplied no power to it.

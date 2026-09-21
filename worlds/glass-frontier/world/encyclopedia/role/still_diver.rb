@@ -4,7 +4,7 @@ encyclopedia :still_diver do
   kind :role
   subkind :profession
   status :complete
-  topics :"fluid-reality", :danger, :salvage
+  topics :"fluid-reality", :danger, :salvage, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:bloom_adjacent] }
 

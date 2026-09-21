@@ -4,7 +4,7 @@ geographic_location :karet_three do
   playable_as :chronicle_location
   context_tags :orbital, :bloom_adjacent, :displacement_zone, :debris_field
   subkind :hazardous_zone
-  tags :orbital, :danger, :resonance, :isolation
+  tags :orbital, :danger, :resonance, :isolation, :subject_bloom
   prominence :recognized
   nature "Bloom distortion occupying the remains of a freight habitat"
   first_recorded 2426

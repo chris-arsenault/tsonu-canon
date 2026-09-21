@@ -1,4 +1,5 @@
 npc :keel_threader do
+  tags :subject_journeys_trade
   name "The Keel Threader"
   summary "The Keel Threader passes loaded hulls through changing force by balancing four moving weights by hand."
   type_of :keel_threading

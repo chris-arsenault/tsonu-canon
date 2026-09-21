@@ -5,7 +5,7 @@ incident :ruvian_return do
   date 2429
   status :complete
   prominence :recognized
-  tags :rebuilding, :resonance, :transport
+  tags :rebuilding, :resonance, :transport, :subject_resonance
   log "2026-09-16 — Consolidated Mera Senn's biography into this event, Ruvian and Eris. His predecessor still performs the 2429 working, bears its permanent cost and opens succession by disclosure; her living circumstances remain on the vessel."
 
   prose <<~PROSE

@@ -1,4 +1,5 @@
 incident :thornvault_backecho do
+  tags :subject_resonance
   name "Thornvault Backecho"
   summary "The Thornvault Backecho is a connected series of four recordings found at Thornvault, Sable Crescent, Ledgerfall, and Hab Meridian, each carrying the voice of someone not yet born when it was made."
   type_of :sable_backecho

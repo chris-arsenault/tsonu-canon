@@ -4,7 +4,7 @@ encyclopedia :echo_silk do
   kind :resource
   subkind :material
   status :complete
-  topics :materials, :"signal-freq", :archives, :trade
+  topics :materials, :"signal-freq", :archives, :trade, :subject_planetary_life
   prevalence :uncommon
   appears_when any: { place: [:waterway, :archive, :market] }
   summary "Echo silk is the singing thread of the Sable Crescent — larval silk that holds the blurred sound its spinners fed on, woven into hushing veils, murmuring dress bolts, and the archival cloth the registries bind their recordings in. It is graded by ear and priced by what it says."

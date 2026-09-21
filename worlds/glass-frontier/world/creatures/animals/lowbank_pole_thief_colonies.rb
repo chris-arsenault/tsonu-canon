@@ -4,7 +4,7 @@ creature :lowbank_pole_thief_colonies do
   subkind :animal
   type_of :tolven
   status :complete
-  tags :"outer-system", :ecology, :resonance, :transport
+  tags :"outer-system", :ecology, :resonance, :transport, :subject_planetary_life
   prominence :marginal
 
   prose <<~PROSE

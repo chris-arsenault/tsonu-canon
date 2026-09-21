@@ -3,7 +3,7 @@ encyclopedia :spanbone do
   kind :resource
   subkind :material
   status :complete
-  topics :materials, :"ring-era", :salvage, :trade
+  topics :materials, :"ring-era", :salvage, :trade, :subject_common_life
   prevalence :rare
   appears_when all: { place: [:debris_field] }
   summary "Spanbone is the truss alloy of the ring's primary structure — the pale metal that held the ring up, recoverable only from the great dead spans and workable only where it already has the required shape. A spanbone member outlasts everything attached to it, and the system builds its most critical joints around salvaged lengths."

@@ -5,7 +5,7 @@ creature :empty_bearing do
   type_of :hushmaw
   belongs_to :lifeform, :farborn
   status :complete
-  tags :orbital, :danger, :resonance, :salvage, :mystery
+  tags :orbital, :danger, :resonance, :salvage, :mystery, :subject_shear
   prominence :recognized
 
   prose <<~PROSE

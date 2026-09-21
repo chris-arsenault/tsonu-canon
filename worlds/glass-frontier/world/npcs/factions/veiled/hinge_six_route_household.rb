@@ -1,4 +1,5 @@
 faction :hinge_six_route_household do
+  tags :subject_journeys_trade
   name "The Hinge Six Route Household"
   summary "The Hinge Six Route Household is one family that measures kinship through maintained routes and the shared repair of Keel stations."
   type_of :keel_route_kin

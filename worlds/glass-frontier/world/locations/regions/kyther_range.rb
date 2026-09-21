@@ -5,7 +5,7 @@ geographic_location :kyther_range do
   context_tags :surface, :cold, :ringglass_rich
   subkind :region
   status :complete
-  tags :surface, :resonance, :navigation, :materials, :danger
+  tags :surface, :resonance, :navigation, :materials, :danger, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_surface, latitude_deg: 10, longitude_deg: -58,
            size_class: :region

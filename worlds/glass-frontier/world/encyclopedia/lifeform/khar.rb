@@ -5,7 +5,7 @@ encyclopedia :khar do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Cinderback to Khar; the former descriptive compound did not supply a setting name."
-  topics :"outer-system", :ecology, :danger, :trade, :resonance
+  topics :"outer-system", :ecology, :danger, :trade, :resonance, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:hot] }
 

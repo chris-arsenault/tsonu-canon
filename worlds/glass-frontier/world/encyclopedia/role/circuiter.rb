@@ -6,7 +6,7 @@ encyclopedia :circuiter do
   status :complete
   log "2026-08-31 — Renamed Mender to Chimer; the title comes from the cart's recognized arrival sound."
   log "2026-08-31 — Renamed Chimer to Circuiter. The chime bar is one tool on the cart; the road circuit is the institution that defines the trade and recurs in its books, medals, schedules, guilds, and host records."
-  topics :trade, :rebuilding, :household, :transport
+  topics :trade, :rebuilding, :household, :transport, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:road, :surface] }
 

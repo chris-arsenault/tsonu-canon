@@ -4,7 +4,7 @@ encyclopedia :ring do
   subkind :orbital_habitat_ring
   status :complete
   log "2026-09-15 — Distinguished a hab from an original structural section and bounded social claims to ring communities; retained recovered standards, varied scales and modern construction."
-  topics :"ring-era", :"ring-hab", :orbital, :rebuilding
+  topics :"ring-era", :"ring-hab", :orbital, :rebuilding, :subject_hab_life
   prevalence :common
   available_globally
   summary "The Ring was a continuous inhabited band around Kaleidos, with spin-graded districts, garden decks, freight galleries, signal lines, and environmental systems built as one machine. It broke in the Glassfall; its surviving sections still operate at reduced load, and postfall builders reuse their section standards."

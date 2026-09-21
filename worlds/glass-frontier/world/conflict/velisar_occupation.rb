@@ -4,7 +4,7 @@ conflict :velisar_occupation do
   subkind :campaign
   status :complete
   prominence :recognized
-  tags :military, :governance, :diplomacy
+  tags :military, :governance, :diplomacy, :subject_istrava
   descriptive_identity cause: "Aren retained league units after their agreed withdrawal and seized the defenses when the city council removed him.", intensity: "Armed occupation, coastal interdiction, local escapes and an arriving allied expedition.", conduct: "Standing commands bind some crews; willing officers direct others, while resistance works through households and yards."
 
   prose <<~PROSE

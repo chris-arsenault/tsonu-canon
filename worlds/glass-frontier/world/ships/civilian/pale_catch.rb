@@ -6,7 +6,7 @@ transport :pale_catch do
   technology :kite
   capacity "One pilot, three passengers, and four courier frames"
   status :complete
-  tags :transport, :resonance, :"kinetic-freq", :surface, :orbital, :household
+  tags :transport, :resonance, :"kinetic-freq", :surface, :orbital, :household, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

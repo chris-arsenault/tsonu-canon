@@ -1,4 +1,5 @@
 npc :brace_two do
+  tags :subject_hab_life
   name "Brace Two"
   summary "Brace Two is a rail worker who replaces traffic rails at Clearance Eight and Clearance Ten."
   subkind :worker

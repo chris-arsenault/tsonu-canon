@@ -5,7 +5,7 @@ encyclopedia :old_proof do
   kind :resource
   subkind :food
   status :complete
-  topics :household, :trade, :"ring-era"
+  topics :household, :trade, :"ring-era", :subject_common_life
   prevalence :common
   available_globally
   function "Raises long-keeping bread; a live culture maintained by scheduled feeding"
@@ -36,10 +36,17 @@ encyclopedia :old_proof do
     The lines move as gifts, and the gifts are a currency. A reseeding creates an acknowledged debt of the unhurried kind, and the map of who seeded whose crock is a real map of standing in any settlement — bakers' guild politics in Sithari have turned on it. Markets sell the bread freely, grade it by keeping time, and mark road loaves with the baking date; the crock stays home.
   PROSE
 
+  prose <<~PROSE, section: :culture, heading: "Bread at a Second Table"
+    Related crocks need not make identical bread. A household that moves changes its flour, water and oven; the line's keeping quality survives while the crust and crumb become familiar to different children. Visitors bring a loaf for comparison, break both breads onto the same plate and argue over which tastes closer to the kitchen they remember. Some insist the old recipe was better. Others ask for the new one before leaving.
+
+    A loaf can travel where a live crock would need constant care. Families separated by an uncertain passage therefore exchange bread more often than culture. A gift may arrive after the occasion it was baked for and still be eaten together at the next available meal. People save the marked crust with a wedding invitation or send back a picture of the empty plate. Reseeding remains a larger gift: it starts a living line that somebody must feed after the visitor has gone.
+  PROSE
+
   cue "A glazed crock sits recessed in the warm wall by the stove, and the first thing anyone does on entering the kitchen — before greeting the visitor — is glance at the bloom on its surface."
   cue "The bread in the road chest is dense, faintly gray-crumbed, and dated in pencil on the crust, and it is plainly weeks old and plainly fine."
   affordance "Proof bread is the traveling food of the system — a season's keeping in a loaf — and a household's willingness to reseed a stranger's dead crock is a fast, honest signal of local standing."
   pressure "A proof line dies in a day of cold or neglect, and young replacement culture bakes harsh for the following year. Evacuation lists place the crock ahead of bedding."
   variation "Garden habs run communal crocks the size of barrels with posted feeding rosters; surface households keep small lines and guard their falls-count jealously."
   variation "A few archive-traced lines with low falls-counts from famous registry numbers are treated as civic property — Ledgerfall's oldest line has a keeper, a deputy, and a succession dispute."
+  variation "Separated households bake different loaves from related lines and serve them together when someone visits; agreement about the best version is rarely part of the welcome."
 end

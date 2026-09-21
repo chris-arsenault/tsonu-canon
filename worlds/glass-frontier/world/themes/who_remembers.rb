@@ -1,4 +1,5 @@
 theme :who_remembers do
+  tags :subject_politics_history
   name "Theme: Who decides what gets remembered?"
   subkind :narrative_theme
   path "dm/themes/who-remembers.md"

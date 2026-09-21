@@ -5,7 +5,7 @@ encyclopedia :shared_road do
   subkind :governance
   status :complete
   log "2026-08-31 — Renamed Road and Freight Law to The Shared Road; the name makes the carrier network a common obligation rather than a legal category."
-  topics :trade, :transport, :governance, :danger
+  topics :trade, :transport, :governance, :danger, :subject_journeys_trade
   prevalence :common
   available_globally
 

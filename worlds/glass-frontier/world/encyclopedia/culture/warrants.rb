@@ -3,7 +3,7 @@ encyclopedia :warrants do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :governance, :rebuilding, :"ring-era", :"social-structure"
+  topics :governance, :rebuilding, :"ring-era", :"social-structure", :subject_politics_history
   prevalence :uncommon
   appears_when any: { place: [:sealed_hab, :urban] }
   summary "Warrants give works crews and boards the right to inspect, repair, or cut air, water, spin, power, and inherited elven systems wherever those works pass. Each warrant follows one named line through every property and jurisdiction it crosses."

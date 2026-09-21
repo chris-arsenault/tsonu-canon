@@ -4,7 +4,7 @@ encyclopedia :hesh do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :danger, :navigation, :"outer-system"
+  topics :danger, :navigation, :"outer-system", :subject_lithren
   prevalence :uncommon
   appears_when all: { place: [:outer_system, :surface, :cold, :unstable_route] }
   medium "Frozen rubble, volatile frost and enclosed cavities in Lithren's ruin country"
@@ -26,6 +26,12 @@ encyclopedia :hesh do
     A broad roof tends to rise little over a large area, admitting probes through long narrow cracks. A small pocket under stacked plates can throw one plate aside and leave a steep shaft. Neither supplies breathable air. Connecting an excavator's pressure shelter to the cavity can bring cold gas into occupied rooms even when the chamber beyond looks still.
 
     A mouth that freezes shut conceals the route again. Marking its edges on stable surrounding stone lets another crew find it; the marks do not predict its next opening. Instruments can measure an active pocket's pressure and temperature, but unknown connections beneath the ground limit forecasts of how long it will remain raised.
+  PROSE
+
+  prose <<~PROSE, section: :present_day, heading: "Below Oravel"
+    At #{ref :oravel}, hesh mouths expose some of the approaches below the hanging galleries. #{ref :osen} compares marks on fixed stone with the raised cover; #{ref :daret_valis} follows the adjoining brine cavities. The gas space and the living wet pockets can lie close together without sharing the same pressure or contents.
+
+    Crews carrying an #{encyclopedia_ref :othel} place one head on fixed ground to watch a moving roof. The reading can show a change too slow to notice while working underneath. It gives no strength to the roof. A buyer in #{ref :ithara} may pay well for a face exposed during one opening, leaving the next crew to find a frozen seam where the drawing shows an entrance.
   PROSE
 
   cue "Fine grains stream sideways from a white-edged crack while the stone above it stands clear of an older dust line."

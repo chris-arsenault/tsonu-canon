@@ -5,7 +5,7 @@ encyclopedia :afterheat do
   subkind :catastrophe
   status :complete
   log "2026-08-31 — Renamed Pyre Afterheat to Afterheat; the existing regional work term already names the delayed surge, while the place qualifier falsely narrowed a recurring effect."
-  topics :resonance, :"kinetic-freq", :danger, :rebuilding
+  topics :resonance, :"kinetic-freq", :danger, :rebuilding, :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:cordon, :hot] }
   medium "Ground and structure along kinetic-band fault country — the Cinder Gap line above all; the surge travels the rock and the built fabric bolted to it"

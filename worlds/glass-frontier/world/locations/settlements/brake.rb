@@ -6,7 +6,7 @@ installation :brake do
   origin_blurb "A free-cutting hab built around derelict recovery, shared claims, and hard rescue rules."
   subkind :settlement
   status :complete
-  tags :"ring-hab", :salvage, :transport, :trade, :materials
+  tags :"ring-hab", :salvage, :transport, :trade, :materials, :subject_shear
   prominence :recognized
   population 9000
   population_band "About nine thousand permanent residents, plus rotating cutter crews"

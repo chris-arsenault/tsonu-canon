@@ -1,4 +1,5 @@
 creature :carom_bone_kite do
+  tags :subject_hab_life
   name "The Carom Bone-Kite"
   summary "The Carom Bone-Kite is a drifting creature ranging between the ring habitats around Carom, Wash Four, Clearance Eight, and Mareth. It cracks stored bones and feeds on the resonance held inside."
   subkind :creature

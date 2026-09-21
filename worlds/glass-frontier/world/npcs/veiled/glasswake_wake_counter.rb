@@ -1,4 +1,5 @@
 npc :glasswake_wake_counter do
+  tags :subject_journeys_trade
   name "The Glasswake Wake Counter"
   summary "The Glasswake Wake Counter identifies an approaching vessel from the rhythm it leaves in household water tanks."
   type_of :wake_counting

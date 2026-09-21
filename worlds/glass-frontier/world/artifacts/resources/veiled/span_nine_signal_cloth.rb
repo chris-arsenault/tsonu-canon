@@ -1,4 +1,5 @@
 artifact :span_nine_signal_cloth do
+  tags :subject_journeys_trade
   name "The Span Nine Signal Cloth"
   summary "The Span Nine Signal Cloth is a message medium sourced from Span Nine and Whitefoot. It carries one relay pulse as a visible crease that vanishes after reading."
   subkind :record

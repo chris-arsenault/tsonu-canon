@@ -4,7 +4,7 @@ encyclopedia :heatwalking do
   kind :ability
   subkind :technique
   status :complete
-  topics :danger, :training, :"outer-system"
+  topics :danger, :training, :"outer-system", :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:hot, :yard] }
   function "Reads ground heat and pressure shimmer through boot soles to route safely across hot working ground"

@@ -1,4 +1,5 @@
 artifact :meridian_rain_dial do
+  tags :subject_hab_life
   name "Meridian Rain Dial"
   summary "Meridian Rain Dial is a weather instrument used at Hab Meridian and Glasswake. Its dry glass face turns green before a resonance shower capable of fouling crops."
   subkind :instrument

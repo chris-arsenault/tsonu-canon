@@ -3,7 +3,7 @@ conflict :the_bitter_reach do
   summary "The Bitter Reach was the system-wide conflict of 2407–2423, fought through embargoes, route occupations, credit restrictions, convoy seizures, and limited ship combat."
   subkind :war
   status :complete
-  tags :military, :trade, :governance, :diplomacy, :transport
+  tags :military, :trade, :governance, :diplomacy, :transport, :subject_politics_history
   prominence :renowned
   fact :methods, "Embargoes, convoy seizures, route occupations, credit restrictions, and limited ship combat"
   custom_fact :outcome, "Linked settlements ended organized fighting through the Tempered Accord",

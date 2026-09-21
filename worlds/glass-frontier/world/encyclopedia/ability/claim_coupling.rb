@@ -5,7 +5,7 @@ encyclopedia :claim_coupling do
   subkind :operational_method
   status :complete
   log "2026-08-31 — Renamed Remote Cutting to Claim Coupling; the name centers the contested material connection that lets a crew work at stand-off range."
-  topics :salvage, :resonance, :orbital, :trade, :danger
+  topics :salvage, :resonance, :orbital, :trade, :danger, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
   function "Couples material from an unstable claim to a crewed processing vessel at stand-off range"

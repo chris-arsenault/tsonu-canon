@@ -5,7 +5,7 @@ encyclopedia :echoing do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Echoing from the former Witnessing ladder because it reads one local retained impression without following evidence or reconstructing the event around it."
-  topics :resonance, :"signal-freq", :archives, :mystery
+  topics :resonance, :"signal-freq", :archives, :mystery, :subject_resonance
   prevalence :uncommon
   available_globally
 

@@ -5,7 +5,7 @@ encyclopedia :keepers_breath do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Quiet Breath to Keeper's Breath; the name preserves the colonies' learned recognition of the cadence as a keeper's presence."
-  topics :salvage, :training, :"ring-era", :ecology
+  topics :salvage, :training, :"ring-era", :ecology, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
   function "Lets salvage crews work inside glasswurm hearing by matching the elven breathing cadence the colonies accept as a keeper's — the wurms stay settled, and the cutting can proceed"

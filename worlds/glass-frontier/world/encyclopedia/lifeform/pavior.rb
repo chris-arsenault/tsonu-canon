@@ -4,7 +4,7 @@ encyclopedia :pavior do
   subkind :creature
   status :complete
   log "2026-08-31 — Renamed Walkers to Pavior; the new title names the animal through its path-making work."
-  topics :ecology, :surface, :materials
+  topics :ecology, :surface, :materials, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   summary "Paviors are slow heavy grazers whose pads lay resin into the living blue loam. Repeated grazing circuits cure into the blue-black paths that carry terrace traffic across otherwise soft ground."

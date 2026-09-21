@@ -5,7 +5,7 @@ incident :sevrin_stand do
   date 2372
   status :complete
   prominence :recognized
-  tags :military, :household, :trade
+  tags :military, :household, :trade, :subject_lithren
 
   prose <<~PROSE
     In 2372 the buyers of several compartments aboard #{ref :sevrin, "Sevrin"} tried to take the whole occupied carrier for a freight store. Collector traffic had contracted, departures had left cheap rooms behind, and a small group of store owners held much of the remaining provision stock. Their guards entered through the broad cargo hatch, carried sleepers' belongings into the passage and offered outbound berths to households who would leave immediately.

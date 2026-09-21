@@ -5,7 +5,7 @@ encyclopedia :duskgrain do
   status :complete
   summary "Duskgrain is solidified resonance found in Bloom Zones and deep Shear pockets; each dark, humming grain stores great power across an unstable range of frequencies."
   reviewed "2026-03-19"
-  topics :resonance, :danger, :materials
+  topics :resonance, :danger, :materials, :subject_bloom
   prevalence :rare
   appears_when any: { place: [:bloom_adjacent, :debris_field] }
 

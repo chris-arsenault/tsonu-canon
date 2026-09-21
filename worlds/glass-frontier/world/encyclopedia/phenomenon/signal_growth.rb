@@ -4,7 +4,7 @@ encyclopedia :signal_growth do
   subkind :physical_phenomenon
   status :complete
   log "2026-08-31 — Renamed Signal Overgrowth to Signal Growth; signal is the established band vocabulary governing the accretion, while growth matches the relay trade's named forms."
-  topics :"signal-freq", :resonance, :danger, :mystery
+  topics :"signal-freq", :resonance, :danger, :mystery, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:damaged_signal, :"ringglass_rich"] }
   summary "Signal growth is residue deposited in relay glass and fittings by repeated traffic through resonant country. Mature crust re-emits pieces of earlier signals into live messages, adding phrases absent from the sender's copy. Relay crews detect it by reconciliation, scour the line on schedule, and transcribe the removed crust before disposal."

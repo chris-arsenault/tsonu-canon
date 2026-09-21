@@ -10,7 +10,7 @@ installation :ledgerfall do
   role "Largest market town in the Sable Crescent and transfer point between canyon and delta traffic"
   setting "Terraces around a many-branched waterfall where an Echo River crosses the basin rim"
   access "River barges, canyon road, and kite platforms above the falls"
-  tags :surface, :resonance, :archives, :trade, :"signal-freq"
+  tags :surface, :resonance, :archives, :trade, :"signal-freq", :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

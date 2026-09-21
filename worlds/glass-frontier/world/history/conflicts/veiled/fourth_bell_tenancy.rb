@@ -1,4 +1,5 @@
 conflict :fourth_bell_tenancy do
+  tags :subject_journeys_trade
   name "The Fourth Bell Tenancy"
   summary "The Fourth Bell Tenancy is a conflict between Keelward families and route crews over occupancy of Fourth Bell House during dock closures."
   subkind :conflict

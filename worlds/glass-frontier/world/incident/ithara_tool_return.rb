@@ -5,7 +5,7 @@ incident :ithara_tool_return do
   date 2416
   status :complete
   prominence :recognized
-  tags :archives, :resonance, :rebuilding
+  tags :archives, :resonance, :rebuilding, :subject_lithren
 
   prose <<~PROSE
     In 2416 the founder of the #{ref :ithara_comparative_expedition, "comparative expedition"} used ordinary #{encyclopedia_ref :return, "Return"} on a tool assembly reconstructed from Ithara's retained pieces. Matching wear and repeated flaws had connected components kept in separate chambers. The surviving pattern governed the working. Its opposing jaws moved again, including an old off-center motion that the comparison pieces had preserved.

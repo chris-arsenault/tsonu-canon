@@ -5,7 +5,7 @@ encyclopedia :shearwurm do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Glasswurm to Shearwurm; the title ties the borer to its debris-region habitat."
-  topics :orbital, :salvage, :danger, :ringglass, :resonance
+  topics :orbital, :salvage, :danger, :ringglass, :resonance, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
 

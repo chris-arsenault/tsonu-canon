@@ -6,7 +6,7 @@ encyclopedia :sleep do
   status :complete
   log "2026-08-31 — Renamed Root Sleep to Sleep; garden wardens' ordinary waking vocabulary supplies the condition's stable meaning without a technical category noun."
   prevalence :rare
-  topics :ecology, :"ring-era", :"ring-hab", :mystery
+  topics :ecology, :"ring-era", :"ring-hab", :mystery, :subject_hab_life
   appears_when all: { place: [:garden] }
   medium "A garden habitat's whole root deck — beds, grafts, and symbiote web stilling together, regardless of season, water, or light"
   nature "A deck-wide sleep of elven garden stock under conditions still being mapped; prolonged isolation is the best documented precursor, and living water from another deck is the only recorded successful waking treatment"

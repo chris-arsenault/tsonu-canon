@@ -5,7 +5,7 @@ encyclopedia :tolven do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Pole-thief to Tolven; the former descriptive compound did not supply a setting name."
-  topics :"outer-system", :ecology, :resonance, :transport
+  topics :"outer-system", :ecology, :resonance, :transport, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:waterway] }
 

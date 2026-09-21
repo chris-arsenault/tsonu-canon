@@ -4,7 +4,7 @@ installation :crowncut_refinery do
   playable_as :chronicle_location
   context_tags :orbital, :debris_field, :yard, :ringglass_rich
   subkind :installation
-  tags :salvage, :resonance, :ringglass, :orbital
+  tags :salvage, :resonance, :ringglass, :orbital, :subject_shear
   prominence :marginal
   status :complete
   omit_facts :maintained_by

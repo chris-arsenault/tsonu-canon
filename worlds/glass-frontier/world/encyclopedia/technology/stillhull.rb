@@ -3,7 +3,7 @@ encyclopedia :stillhull do
   kind :technology
   subkind :vessel
   status :complete
-  topics :"fluid-reality", :danger, :transport, :navigation
+  topics :"fluid-reality", :danger, :transport, :navigation, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:bloom_adjacent] }
   summary "A stillhull is a cordon-service vessel built to work the edge of a Bloom Zone: a hull of layered stillwater cells and damped glass that holds one shape and one set of physical assumptions slightly longer than the space around it. The Displacement Council rates them by the breath."

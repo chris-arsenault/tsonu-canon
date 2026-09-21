@@ -10,7 +10,7 @@ installation :lowbank do
   role "Principal river-to-sea port of Dovra"
   setting "Raised islands and levees around three navigable river mouths"
   access "Coastal shipping, channel barges, road causeways, and scheduled kites"
-  tags :"outer-system", :trade, :transport, :resonance, :governance
+  tags :"outer-system", :trade, :transport, :resonance, :governance, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

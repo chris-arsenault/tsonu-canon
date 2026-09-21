@@ -1,4 +1,5 @@
 npc :dovran_holder do
+  tags :subject_planetary_life
   name "The Dovran Holder"
   summary "The Dovran Holder keeps a channel barge aligned by matching its vibration through a handrail."
   type_of :dovran_holding

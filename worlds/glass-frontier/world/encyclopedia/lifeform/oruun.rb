@@ -5,7 +5,7 @@ encyclopedia :oruun do
   origin_blurb "Skin, muscle, and bone adjust their density over several days to match local spin."
   subkind :sapient_species
   status :complete
-  topics :species, :trade, :"ring-hab"
+  topics :species, :trade, :"ring-hab", :subject_common_life
   prevalence :uncommon
   available_globally
   registry true

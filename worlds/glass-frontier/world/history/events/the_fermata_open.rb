@@ -3,7 +3,7 @@ incident :the_fermata_open do
   summary "The Fermata Open is the annual week when visiting musicians may play in Fermata Station's governing Sessions without gaining a vote or taking the Chair."
   type_of :open
   subkind :incident
-  tags :music, :governance, :trade, :resonance, :"ring-hab"
+  tags :music, :governance, :trade, :resonance, :"ring-hab", :subject_hab_life
   prominence :recognized
 
   prose <<~PROSE

@@ -11,7 +11,7 @@ npc :pera_soll do
     "missed; the paper never leaves the room. When someone attuned " \
     "reports a drifting array, he asks for a description, writes it down, " \
     "and clears the maintenance time to act on it."
-  tags :resonance, :ringglass, :salvage
+  tags :resonance, :ringglass, :salvage, :subject_bloom
   prominence :marginal
   status :complete
 

@@ -10,7 +10,7 @@ installation :shadewell do
   role "Largest city on Ashvane and surface terminus of the Keel"
   setting "Terraced crater wall above a deep ice lens, beside a high freight ridge"
   access "Keel port, regional kites, heat-road haulers, and crater lifts"
-  tags :"outer-system", :resonance, :trade, :transport, :"kinetic-freq"
+  tags :"outer-system", :resonance, :trade, :transport, :"kinetic-freq", :subject_planetary_life
   prominence :recognized
   position frame: :ashvane_surface, latitude_deg: 0, longitude_deg: 0,
            size_class: :site

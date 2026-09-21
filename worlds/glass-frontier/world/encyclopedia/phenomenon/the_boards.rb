@@ -4,7 +4,7 @@ encyclopedia :the_boards do
   kind :phenomenon
   subkind :persistent_condition
   status :complete
-  topics :"ring-era", :mystery, :navigation, :trade
+  topics :"ring-era", :mystery, :navigation, :trade, :subject_journeys_trade
   prevalence :common
   appears_when any: { place: [:urban, :market, :dock] }
   medium "Ring-era civic display boards in public halls, markets, and dock concourses"

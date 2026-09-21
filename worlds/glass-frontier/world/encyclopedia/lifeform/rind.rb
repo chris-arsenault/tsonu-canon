@@ -4,7 +4,7 @@ encyclopedia :rind do
   kind :lifeform
   subkind :animal
   status :complete
-  topics :ecology, :resonance, :orbital, :danger, :mystery
+  topics :ecology, :resonance, :orbital, :danger, :mystery, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
 

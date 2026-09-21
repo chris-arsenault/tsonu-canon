@@ -7,7 +7,7 @@ encyclopedia :fae do
   subkind :sapient_species
   status :complete
   reviewed "2026-03-18"
-  topics :species, :resonance
+  topics :species, :resonance, :subject_common_life
   prevalence :uncommon
   available_globally
   registry true

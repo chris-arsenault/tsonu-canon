@@ -4,7 +4,7 @@ encyclopedia :hushmaw do
   kind :lifeform
   subkind :anomaly
   status :complete
-  topics :orbital, :danger, :resonance, :salvage, :mystery
+  topics :orbital, :danger, :resonance, :salvage, :mystery, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
 

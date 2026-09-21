@@ -4,7 +4,7 @@ ability :unmaker do
   type_of :unmaking
   subkind :the_adversary
   status :complete
-  tags :resonance, :religion, :danger, :catastrophe
+  tags :resonance, :religion, :danger, :catastrophe, :subject_resonance
   prominence :recognized
   qualification "Answers someone who can name a coherent whole, unmake it, and account for every person, pressure, material, and active force the whole released"
   succession "Passes to a person who can still perceive and name a coherent whole after the bearer has lost the faculty needed to recognize it"

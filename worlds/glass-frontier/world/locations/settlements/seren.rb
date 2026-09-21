@@ -6,7 +6,7 @@ installation :seren do
   aka "Seren-ith"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :"ring-era", :archives, :ecology, :materials
+  tags :"ring-hab", :"ring-era", :archives, :ecology, :materials, :subject_hab_life
   prominence :recognized
   population 1800
   population_band "About eighteen hundred residents, with several hundred seasonal depositors"

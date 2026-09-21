@@ -4,7 +4,7 @@ encyclopedia :latchling do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Foxes to Latchling; the former generic animal label did not identify the species."
-  topics :ecology, :"ring-era", :transport
+  topics :ecology, :"ring-era", :transport, :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:sealed_hab, :yard, :dock ] }
   summary "Latchlings are lithe line-running animals descended from elven inspection stock. They den in rigging lofts, hunt and travel across a settlement's cableways, and turn back from worn line before committing their weight to it."

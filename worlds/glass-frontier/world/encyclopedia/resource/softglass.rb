@@ -3,7 +3,7 @@ encyclopedia :softglass do
   kind :resource
   subkind :material
   status :complete
-  topics :materials, :"ring-era", :rebuilding, :trade
+  topics :materials, :"ring-era", :rebuilding, :trade, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:hot, :yard] }
   summary "Softglass is conforming repair stock recovered and re-fired around Pyre and Latch. A heated blank works like stiff dough around a damaged seal or fitting, then cools to hull hardness in the fitted shape. Yard stamps distinguish fine ring stock, structural remelt, and brittle filler grade."

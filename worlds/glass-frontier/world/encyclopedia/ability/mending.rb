@@ -5,7 +5,7 @@ encyclopedia :mending do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Mending from the former Return ladder because it rejoins a fresh local disruption without searching for or choosing an earlier stable state."
-  topics :resonance, :rebuilding, :archives, :materials
+  topics :resonance, :rebuilding, :archives, :materials, :subject_resonance
   prevalence :uncommon
   available_globally
 

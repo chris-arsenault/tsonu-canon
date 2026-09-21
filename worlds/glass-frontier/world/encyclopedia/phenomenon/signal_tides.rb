@@ -4,7 +4,7 @@ encyclopedia :signal_tides do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :resonance, :"signal-freq", :navigation, :trade
+  topics :resonance, :"signal-freq", :navigation, :trade, :subject_resonance
   prevalence :common
   available_globally
   medium "The signal band throughout the Kaleidos system"

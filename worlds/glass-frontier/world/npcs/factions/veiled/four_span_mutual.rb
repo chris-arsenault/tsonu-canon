@@ -1,4 +1,5 @@
 faction :four_span_mutual do
+  tags :subject_journeys_trade
   name "Four-Span Mutual"
   summary "Four-Span Mutual is a route-aid society that caches food, cable, and relay glass at four surviving stations."
   subkind :mutual_aid

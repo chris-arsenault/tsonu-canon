@@ -4,7 +4,7 @@ transport :araket do
   subkind :vessel
   status :complete
   prominence :recognized
-  tags :transport, :danger, :trade
+  tags :transport, :danger, :trade, :subject_lithren
   prose <<~PROSE
     Araket stands on broad landing feet around a central lifting well. Its #{ref :araket_crew, "crew"} can bring a heavy object beneath the hull and secure it without opening the passenger compartment. A detachable pressure cabin travels in the same well. Deploying that cabin provides shelter ashore and makes room aboard for a larger load.
 

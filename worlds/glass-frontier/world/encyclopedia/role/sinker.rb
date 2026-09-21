@@ -4,7 +4,7 @@ encyclopedia :sinker do
   kind :role
   subkind :profession
   status :complete
-  topics :household, :governance, :danger, :"ring-era"
+  topics :household, :governance, :danger, :"ring-era", :subject_planetary_life
   prevalence :uncommon
   appears_when any: { place: [:surface, :urban] }
 

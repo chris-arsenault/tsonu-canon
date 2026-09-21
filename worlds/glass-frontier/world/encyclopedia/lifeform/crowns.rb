@@ -4,7 +4,7 @@ encyclopedia :crowns do
   kind :lifeform
   subkind :creature
   status :complete
-  topics :ecology, :salvage, :"ring-era", :household
+  topics :ecology, :salvage, :"ring-era", :household, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:urban] }
   origin "Engineered for the ring's water-reclamation galleries; feral populations followed the plumbing into every postfall settlement with standing drains"

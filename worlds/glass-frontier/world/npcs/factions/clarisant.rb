@@ -6,7 +6,7 @@ faction :clarisant do
   subkind :religious_order
   type_of :portable_standing
   path "player/npcs/factions/clarisant.md"
-  tags :resonance, :training, :governance, :"social-structure"
+  tags :resonance, :training, :governance, :"social-structure", :subject_resonance
   prominence :recognized
 
   descriptive_identity(

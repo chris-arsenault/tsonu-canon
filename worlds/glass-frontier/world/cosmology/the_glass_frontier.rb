@@ -8,7 +8,7 @@ geographic_location :the_glass_frontier do
   path "player/cosmology/the-glass-frontier.md"
   status :complete
   reviewed "2026-03-19"
-  tags :orbital, :"ring-hab", :salvage
+  tags :orbital, :"ring-hab", :salvage, :subject_hab_life
   prominence :mythic
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.1, angle_offset_deg: 0

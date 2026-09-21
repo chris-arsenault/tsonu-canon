@@ -5,7 +5,7 @@ installation :thornvault do
   context_tags :surface, :urban, :archive, :waterway
   subkind :settlement
   path "player/locations/settlements/thornvault.md"
-  tags :surface, :archives, :resonance, :"signal-freq", :governance
+  tags :surface, :archives, :resonance, :"signal-freq", :governance, :subject_politics_history
   prominence :recognized
 
   descriptive_identity(

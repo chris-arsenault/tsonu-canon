@@ -3,7 +3,7 @@ npc :duthrek do
   summary "Duthrek is the head of Coremark, directing its extraction cells and convoy crews from Korvath since 2409."
   subkind :leader
   status :complete
-  tags :salvage, :trade, :danger, :governance
+  tags :salvage, :trade, :danger, :governance, :subject_shear
   prominence :recognized
   occupation "Head of Coremark"
   type_of :orcs

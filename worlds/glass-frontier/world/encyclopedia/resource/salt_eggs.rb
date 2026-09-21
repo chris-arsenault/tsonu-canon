@@ -1,4 +1,5 @@
 encyclopedia :salt_eggs do
+  topics :subject_hab_life
   name "Salt-Eggs"
   kind :resource
   subkind :food
@@ -6,7 +7,7 @@ encyclopedia :salt_eggs do
   log "2026-08-31 — Renamed Perch Salt-Egg to Seven-Shake; the seven-grade packing-bench test gives the food its spoken trade name instead of a place-plus-product compound."
   log "2026-08-31 — Renamed Seven-Shake to Salt-Eggs. The grade test belongs on the packing bench, while salt-egg is the ordinary staple name used in the food's own article and by the Kesh jar that instantiates it."
   prevalence :uncommon
-  appears_when any: { place: [:sealed_hab, :market] }
+  appears_when any: { place: [:sealed_hab, :market, :orbital] }
   summary "Salt-eggs are cured in mineral salt at Perch and Kesh, graded by shake, and keep for a season. A finished egg cracks itself open when held beside a working kinetic line, and crews prize them for exactly that trick."
   function "Season-keeping preserved protein for route chests and hab larders"
   grades "Seven grades sorted by shake and heft at the packing bench, first-shake through seventh, with first-shake commanding cordon-post prices"
@@ -30,10 +31,17 @@ encyclopedia :salt_eggs do
     The cure hardens the shell and settles the inside into a firm, sliceable paste, salt-sweet and lasting a full season in a road chest. A finished salt-egg held beside a working kinetic line cracks itself open cleanly along the shell's long axis. Kesh crews carry their lunch sealed and open it against the nearest live line. Route chests elsewhere use damped boxes to keep the same response from opening the eggs in storage.
   PROSE
 
+  prose <<~PROSE, section: :culture, heading: "A Lunch Given as a Present"
+    Returning travelers carry a few eggs in a damped box to hosts who remember the food or want to see it open. The grades measure how the egg survived curing and storage; they do not settle whether a diner prefers it thinly sliced, mashed into hot bread or eaten in one salty mouthful. Several cheap eggs can make a more welcome gift than one expensive specimen nobody wants to divide.
+
+    Away from the curing settlements, scarcity changes the serving. Itharan eating halls shave an egg over a shared pot, letting its salt replace seasoning that would otherwise arrive in another package. In Istravan bath towns, visitors pair slices with chilled orchard fruit and debate the mixture with their hosts. The shell opens beside a working kinetic line in either place. A quiet dining table still needs a knife.
+  PROSE
+
   cue "A worker holds a gray salt-crusted egg to the humming line for a moment; it cracks neatly along its length, and lunch begins."
   cue "In the market barrel the eggs sit in a tight salt spiral, narrow ends to the middle, and the seller shakes one beside a buyer's ear before naming the price."
   affordance "A first-shake salt-egg is a season of keeping in a pocket and opens itself wherever machinery runs, which makes it the standard working lunch of kinetic crews and the standing gift for a departing traveler."
   pressure "The crack that makes them convenient makes them fragile in transit — one undamped chest crossing a live junction opens the whole cargo, and a hauler who has smelled the result checks the boxes twice."
   variation "Perch cures in bulk through the herd season with songs that pace the bench; Kesh cures small batches year-round and grades harder, and each settlement is certain the other's third-shake is its own fifth."
   variation "Cordon posts age first-shake eggs past a second season for the deep watches, and a properly aged one opens with a soft sigh that watch crews claim to bet on."
+  variation "Itharan tables stretch one egg across a pot; Istravan bathers set small slices beside fresh fruit, sometimes to the dismay of the traveler who brought them."
 end

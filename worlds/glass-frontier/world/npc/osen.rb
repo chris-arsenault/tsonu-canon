@@ -9,7 +9,7 @@ npc :osen do
   narrative_role :viewpoint
   status :complete
   prominence :recognized
-  tags :archives, :navigation, :mystery
+  tags :archives, :navigation, :mystery, :subject_lithren
   descriptive_identity attire: "A reinforced pressure suit with replaceable forearm plates, each polished by contact with stone.", tools: "Wedges fitted with soft faces and a cutter carried separately from its power pack.", manner: "Tests a route with his own weight before sending the next person across.", disposition: "Wants a crew able to leave with its discoveries instead of bargaining for a berth home."
 
   prose <<~PROSE

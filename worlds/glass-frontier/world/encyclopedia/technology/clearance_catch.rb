@@ -3,7 +3,7 @@ encyclopedia :clearance_catch do
   kind :technology
   subkind :device
   status :complete
-  topics :transport, :danger, :"ring-era", :trade
+  topics :transport, :danger, :"ring-era", :trade, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:dock] }
   summary "A Clearance catch is a fist-sized cargo arrester derived from elven capture frames. A sudden spin change throws its folded arm to the nearest bay rail and locks the freight frame in place. Spin-changing docks install rail grids within reach of every lawful cargo position and inspect each catch to a stamped mass and rate."

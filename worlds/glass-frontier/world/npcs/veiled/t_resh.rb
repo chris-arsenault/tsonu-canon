@@ -1,4 +1,5 @@
 npc :t_resh do
+  tags :subject_planetary_life
   name "T'resh"
   summary "T'resh is a shutter repair specialist working between the Fracture and Ashenmaw."
   subkind :specialist

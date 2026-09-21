@@ -1,4 +1,5 @@
 transport :choir_tender do
+  tags :subject_shear
   name "Choir Tender"
   summary "Choir Tender is a salvage-support vessel operating at the Choir Fragment and Span Nine. It anchors beside the Fragment and holds a countertone while crews cross its surface."
   subkind :vessel

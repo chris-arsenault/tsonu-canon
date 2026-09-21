@@ -5,7 +5,7 @@ encyclopedia :service do
   subkind :governance
   status :complete
   log "2026-08-31 — Shortened The Service Continues to The Service. Sitharians use service for the continuing civil institution; the longer form remains its doctrine rather than the article title."
-  topics :governance, :archives, :diplomacy, :"social-structure", :surface
+  topics :governance, :archives, :diplomacy, :"social-structure", :surface, :subject_politics_history
   prevalence :common
   available_globally
 

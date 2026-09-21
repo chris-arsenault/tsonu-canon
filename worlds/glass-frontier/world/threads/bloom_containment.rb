@@ -1,4 +1,5 @@
 thread :bloom_containment do
+  tags :subject_bloom
   name "Thread: The Bloom Containment"
   log "2026-09-15 — Preserved containment history and current pressures while removing guaranteed future collapse."
   subkind :story_thread

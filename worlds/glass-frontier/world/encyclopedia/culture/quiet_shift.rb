@@ -4,7 +4,7 @@ encyclopedia :quiet_shift do
   kind :culture
   subkind :work_tradition
   status :complete
-  topics :training, :"social-structure", :household
+  topics :training, :"social-structure", :household, :subject_common_life
   prevalence :common
   appears_when any: { place: [:yard, :garden, :archive] }
 

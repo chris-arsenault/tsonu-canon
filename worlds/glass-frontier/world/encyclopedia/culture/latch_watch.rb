@@ -4,7 +4,7 @@ encyclopedia :latch_watch do
   kind :culture
   subkind :social_order
   status :complete
-  topics :household, :"social-structure", :resonance
+  topics :household, :"social-structure", :resonance, :subject_common_life
   prevalence :rare
   available_globally
   integration "The watch runs on neighborhood reciprocity rather than hire — a street's households sit each other's latches in turn, the midwives and sickroom trades post the need, and the debt is repaid in kind, sometimes decades later"

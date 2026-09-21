@@ -4,7 +4,7 @@ encyclopedia :vair do
   kind :technology
   subkind :optical_machine
   status :complete
-  topics :materials, :rebuilding, :danger
+  topics :materials, :rebuilding, :danger, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:outer_system] }, any: { place: [:archive, :yard] }
   function "Shapes supplied light to join and cut material or write fine optical paths through prepared layers"

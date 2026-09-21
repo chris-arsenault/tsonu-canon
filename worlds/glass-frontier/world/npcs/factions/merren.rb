@@ -6,7 +6,7 @@ faction :merren do
   type_of :commercial_standing
   founded 2429
   status :complete
-  tags :household, :trade, :resonance, :"structural-freq"
+  tags :household, :trade, :resonance, :"structural-freq", :subject_hab_life
   prominence :marginal
   omit_facts :leaders, :predecessors
 

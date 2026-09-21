@@ -4,7 +4,7 @@ encyclopedia :farborn do
   kind :lifeform
   subkind :anomaly
   status :complete
-  topics :danger, :orbital, :resonance, :ecology, :mystery
+  topics :danger, :orbital, :resonance, :ecology, :mystery, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
 

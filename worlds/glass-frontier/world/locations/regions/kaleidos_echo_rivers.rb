@@ -4,7 +4,7 @@ geographic_location :kaleidos_echo_rivers do
   subkind :region
   type_of :echo_rivers
   status :complete
-  tags :resonance, :"signal-freq", :archives
+  tags :resonance, :"signal-freq", :archives, :subject_planetary_life
   prominence :renowned
   custom_fact :medium, "Crystal-bearing underground water"
   custom_fact :content, "Fragments of pre-Glassfall signal and speech"

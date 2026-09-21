@@ -4,7 +4,7 @@ encyclopedia :midwife do
   kind :role
   subkind :profession
   status :complete
-  topics :household, :training, :resonance, :"social-structure"
+  topics :household, :training, :resonance, :"social-structure", :subject_common_life
   prevalence :common
   available_globally
 

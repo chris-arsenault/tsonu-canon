@@ -8,7 +8,7 @@ encyclopedia :kite do
   reviewed "2026-03-19"
   log "2026-08-09 — the null space's \"two centuries of use\" is anchored to a future, Kite-sail development, with 200 years standing in. Nothing in canon dates the invention; a kite runs on ambient resonance, which this entry says came from ringglass the shattering scattered, so it cannot predate the Glassfall (295 years). Write that event with a year and the span computes itself."
   log "2026-08-21 — Dated the first repeatable kite record to 2235, within the Signal Famine and two centuries before the present."
-  topics :transport, :resonance, :"kinetic-freq", :trade
+  topics :transport, :resonance, :"kinetic-freq", :trade, :subject_journeys_trade
   prevalence :common
   available_globally
   aka "Kinetic Inverse Transport Engine"

@@ -4,7 +4,7 @@ encyclopedia :reedwater_people do
   kind :culture
   subkind :cultural_identity
   status :complete
-  topics :"outer-system", :household, :"social-structure", :ecology
+  topics :"outer-system", :household, :"social-structure", :ecology, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:waterway] }
 

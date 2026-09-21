@@ -4,7 +4,7 @@ encyclopedia :bloomwatch do
   subkind :border_post
   status :complete
   log "2026-08-31 — Renamed Stations to Bloomwatch; the name joins the established Bloom boundary with the post's continuous watch instead of promoting a generic building noun."
-  topics :"fluid-reality", :danger, :governance, :rebuilding
+  topics :"fluid-reality", :danger, :governance, :rebuilding, :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:cordon] }
   summary "A bloomwatch is the standard watch post at a Bloom boundary. Its watch floor records instruments and sensitive reports, its gear room stores stakes, bells, closures, and stretchers, and its quarters keep the crew that walks and restakes the line. Records leave on every supply run because the building is meant to be abandoned if the boundary advances."

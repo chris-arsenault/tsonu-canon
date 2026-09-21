@@ -5,7 +5,7 @@ encyclopedia :old_traffic do
   status :complete
   log "2026-08-31 — Renamed Pre-Glassfall Transmissions to Old Traffic; the archival trade's compact phrase names the ordinary signal flow the surviving fragments preserve."
   summary "Old Traffic is signal traffic accidentally preserved in ringglass and crystal-bearing water since the intact ring age."
-  topics :archives, :resonance, :"signal-freq", :"ring-era", :mystery
+  topics :archives, :resonance, :"signal-freq", :"ring-era", :mystery, :subject_politics_history
   prevalence :uncommon
   available_globally
 

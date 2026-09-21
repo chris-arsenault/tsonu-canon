@@ -1,4 +1,5 @@
 incident :dovra_groundsong do
+  tags :subject_planetary_life
   name "Dovra Groundsong"
   summary "Dovra Groundsong is a vibration that travels through river mud and turns suspended kiln loads toward its source."
   type_of :korvath_groundsong

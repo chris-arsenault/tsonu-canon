@@ -4,7 +4,7 @@ encyclopedia :marrower do
   kind :lifeform
   subkind :animal
   status :complete
-  topics :ecology, :resonance, :"ring-hab"
+  topics :ecology, :resonance, :"ring-hab", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
 

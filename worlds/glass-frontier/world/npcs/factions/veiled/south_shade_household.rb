@@ -1,4 +1,5 @@
 faction :south_shade_household do
+  tags :subject_planetary_life
   name "The South Shade Household"
   summary "The South Shade Household is one Ashvane family that exchanges pressure-safe rooms by season and carries its door seals between homes."
   type_of :circuits

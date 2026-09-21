@@ -7,7 +7,7 @@ faction :tessellan_communion do
   type_of :the_three_forms
   belongs_to :culture, :custodial_standing
   founded 2216
-  tags :religion, :resonance, :cosmology, :training
+  tags :religion, :resonance, :cosmology, :training, :subject_resonance
   prominence :recognized
   status :complete
   omit_facts :leaders, :predecessors

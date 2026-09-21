@@ -5,7 +5,7 @@ encyclopedia :miraeth_blue do
   subkind :phenomenon
   status :complete
   log "2026-08-31 — Renamed Rootlight to Miraeth Blue; the regional color name anchors the pulse in the forest and its night-survey practice instead of a generic luminous compound."
-  topics :ecology, :ringglass, :mystery, :surface
+  topics :ecology, :ringglass, :mystery, :surface, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :ringglass_rich] }
   medium "The glass-veined forest soils of Miraeth"

@@ -7,7 +7,7 @@ npc :sahel do
   narrative_role :titan
   status :complete
   prominence :recognized
-  tags :archives, :rebuilding, :mystery
+  tags :archives, :rebuilding, :mystery, :subject_lithren
   log "2026-09-15 — Sahel's witnessed recoveries and destruction are public history. Their sequence does not establish the ancient enemy, the full motive for evacuation, or the civilization's ultimate fate."
 
   prose <<~PROSE

@@ -7,7 +7,7 @@ faction :coremark do
   type_of :commercial_standing
   path "player/npcs/factions/coremark.md"
   reviewed "2026-03-19"
-  tags :salvage, :ringglass, :trade, :danger
+  tags :salvage, :ringglass, :trade, :danger, :subject_shear
   prominence :recognized
 
   descriptive_identity(

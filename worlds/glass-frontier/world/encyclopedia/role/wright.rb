@@ -4,7 +4,7 @@ encyclopedia :wright do
   kind :role
   subkind :profession
   status :complete
-  topics :trade, :transport, :"ring-hab", :training
+  topics :trade, :transport, :"ring-hab", :training, :subject_common_life
   prevalence :common
   appears_when any: { place: [:dock, :yard] }
 

@@ -5,7 +5,7 @@ geographic_location :miraeth do
   context_tags :surface, :ringglass_rich
   subkind :region
   status :complete
-  tags :surface, :ecology, :resonance, :ringglass, :trade
+  tags :surface, :ecology, :resonance, :ringglass, :trade, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_surface, latitude_deg: 6, longitude_deg: -61,
            size_class: :region

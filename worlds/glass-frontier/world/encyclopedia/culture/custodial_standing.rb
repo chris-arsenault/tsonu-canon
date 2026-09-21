@@ -3,7 +3,7 @@ encyclopedia :custodial_standing do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :archives, :governance, :"social-structure"
+  topics :archives, :governance, :"social-structure", :subject_politics_history
   prevalence :uncommon
   appears_when any: { place: [:archive, :urban] }
   summary "Custodial standing is the chartered authority to keep shared archives, plate libraries, sealed sites, reference instruments, and public registers in trust. Open access rules and audited separation from private trade make a custodian's certifications usable in disputes."

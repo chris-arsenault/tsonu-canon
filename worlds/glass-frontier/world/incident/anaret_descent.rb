@@ -5,7 +5,7 @@ incident :anaret_descent do
   date 2434
   status :complete
   prominence :recognized
-  tags :archives, :navigation, :rebuilding
+  tags :archives, :navigation, :rebuilding, :subject_lithren
   prose <<~PROSE
     In 2434 #{ref :ysil, "Ysil"} followed a narrow service rib beneath a broken roof behind #{ref :ithara_gate, "Ithara Gate"}. #{ref :osen, "Osen"} cleared the final facing stones while #{ref :daret_valis, "Daret Valis"} supported their frame. The cut reached an upper room looking across #{ref :anaret, "Anaret"}'s machinery court.
 

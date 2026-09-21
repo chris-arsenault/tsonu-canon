@@ -1,4 +1,5 @@
 thread :paths_taken_away do
+  tags :subject_lithren
   name "The Paths Taken Away"
   summary "Removed ancient patterns lead crews from Ithara toward scattered ruins, while journeys for profit, independence and discovery establish new camps and loyalties."
   subkind :story_thread
@@ -32,9 +33,14 @@ thread :paths_taken_away do
 
     The #{ref :oravel_crossing, "Oravel Crossing"} brought #{ref :daret_valis, "Daret Valis"} and #{ref :tovin, "Tovin"} back with people each had reason to avoid. At #{ref :damarat, "Damarat"}, a functioning workshop now gives residents reasons to remain while #{ref :ilven_sarith, "Ilven Sarith"}'s removal offer could pay for their departure. Materials investigators follow manufacturing marks between sites; #{ref :tamet, "Tamet"} brings that knowledge into present work. Their journeys can intersect the removed ancient patterns without depending on that search.
 
-    Damarat's missing setting bars have begun another search. A worker admits selling one to pay for a child's departure; that admission does not account for the stolen case or the injured operator. Some neighbors want the bars recovered before a carrier leaves. Others want to hide a friend from the visiting guards. The workshop continues running while its occupants act on those different loyalties.
+    Damarat's missing setting bars have begun another search. A worker admits selling one to pay for a child's departure; that admission does not account for the stolen case or the injured operator. Some neighbors want the bars recovered before a carrier leaves. Others want to hide a friend from the visiting guards. The workshop continues running while its occupants act on those different loyalties. A separate purchase aboard #{ref :steady_return, "Steady Return"} gives the search an inward destination and a household with its own account to hear.
 
     At #{ref :anaret, "Anaret"}, #{ref :ysil, "Ysil"} seeks a route past the crew she left. The physician tending the captives needs that route to carry people who cannot climb it themselves. The #{ref :araket_seizure, "occupiers"} want a profitable departure; Selven offers help that could leave his own people holding the approach. Clearing one route changes who can leave and what the next expedition can bring in.
+  PROSE
+  prose <<~PROSE, section: :culture, heading: "People Known Inward"
+    Some departures leave a second home to visit. Ressa's former lodgers send pictures from Steady Return; players at her hall answer arrangements carried back by the #{ref :veyr_company, "Veyr Company"}. Friends can recommend a table, a teacher or a bed without asking anyone to join an expedition. Distance and the price of passage keep many of those friendships in correspondence.
+
+    The invitation to #{ref :lethai, "Lethai's makers"} follows the musicians' exchanges. A maker may seek an audience, a buyer or another workshop, and can return after performing without selling the pieces. People who want the optics for an escape or a patrol have to approach those same makers. An inward journey can end in a successful performance even while Anaret's occupied courts remain dangerous.
   PROSE
 end
 
@@ -59,3 +65,5 @@ relate :rel_paths_taken_away_sevrin_stand, :fills_beat, :paths_taken_away, :sevr
 relate :rel_paths_taken_away_ivara, :fills_beat, :paths_taken_away, :ivara
 relate :rel_paths_taken_away_vannor, :fills_beat, :paths_taken_away, :vannor_account
 relate :rel_paths_taken_away_oravel, :fills_beat, :paths_taken_away, :oravel
+relate :rel_paths_taken_away_steady_return, :fills_beat, :paths_taken_away, :steady_return
+relate :rel_paths_taken_away_veyr_company, :fills_beat, :paths_taken_away, :veyr_company

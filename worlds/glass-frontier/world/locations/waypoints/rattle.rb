@@ -6,7 +6,7 @@ installation :rattle do
   aka "Exchange C"
   subkind :station
   status :complete
-  tags :"ring-hab", :transport, :trade, :household
+  tags :"ring-hab", :transport, :trade, :household, :subject_hab_life
   prominence :marginal
   omit_facts :maintained_by
 

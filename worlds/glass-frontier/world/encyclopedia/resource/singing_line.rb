@@ -6,7 +6,7 @@ encyclopedia :singing_line do
   subkind :material
   status :complete
   log "2026-08-31 — Renamed Rigging Line to Singing Line; the name promotes the rope's audible load reading, the property that distinguishes it in every trade."
-  topics :materials, :trade, :resonance, :salvage
+  topics :materials, :trade, :resonance, :salvage, :subject_common_life
   prevalence :common
   appears_when any: { place: [:yard, :dock, :debris_field] }
   function "Load-bearing rope that reports strain, chafe, and hidden shock through a woven listening thread"

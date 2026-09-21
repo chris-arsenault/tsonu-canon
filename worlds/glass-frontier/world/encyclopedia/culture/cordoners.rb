@@ -4,7 +4,7 @@ encyclopedia :cordoners do
   kind :culture
   subkind :cultural_identity
   status :complete
-  topics :"fluid-reality", :household, :"social-structure", :training
+  topics :"fluid-reality", :household, :"social-structure", :training, :subject_bloom
   prevalence :uncommon
   appears_when any: { place: [:cordon, :bloom_adjacent] }
   integration "Cordon towns raise all their children in the discipline regardless of trade or family; grown cordon children scatter into every profession and are recruited hard by the boundary services, who consider the childhood half the training"

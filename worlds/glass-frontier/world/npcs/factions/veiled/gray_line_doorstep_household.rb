@@ -1,4 +1,5 @@
 faction :gray_line_doorstep_household do
+  tags :subject_bloom
   name "The Gray Line Doorstep Household"
   summary "The Gray Line Doorstep Household is one displaced family that carries floor tiles from a lost home and places them beneath each temporary bed."
   type_of :doorstep_claimants

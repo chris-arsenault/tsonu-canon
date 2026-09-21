@@ -4,7 +4,7 @@ encyclopedia :shearweaver do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Fold Spider to Shearweaver; the established shear root places the animal in the debris culture that charts its webs, while weaver names the behavior that makes it useful there."
-  topics :ecology, :"fluid-reality", :danger, :mystery
+  topics :ecology, :"fluid-reality", :danger, :mystery, :subject_shear
   prevalence :rare
   appears_when all: { place: [:debris_field] }
   summary "Shearweavers are pale Deep Shear animals that anchor their silk through distortion pockets where distance disagrees with itself. They repair storm-torn webs, haul their catch along shortcuts through the folds, and answer disturbance from anchors a crew's instruments place somewhere else."

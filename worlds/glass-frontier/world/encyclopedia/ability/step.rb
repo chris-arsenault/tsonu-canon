@@ -5,7 +5,7 @@ encyclopedia :step do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Step from the former Waybearing ladder because self-translocation through direct sight opens no threshold and carries none of Waybearing's two-way traffic."
-  topics :resonance, :navigation, :transport, :"kinetic-freq"
+  topics :resonance, :navigation, :transport, :"kinetic-freq", :subject_resonance
   prevalence :rare
   available_globally
 

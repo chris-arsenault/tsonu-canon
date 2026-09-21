@@ -5,7 +5,7 @@ encyclopedia :load_listening do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Span Listening to Load Listening; the established load root joins the passive hab skill to Load Singing and the Load Note without reducing the name to the structure being inspected."
-  topics :training, :"ring-hab", :"structural-freq", :danger
+  topics :training, :"ring-hab", :"structural-freq", :danger, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   function "Reads load changes in ring-era structure by ear and palm before the metal begins to walk"

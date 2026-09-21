@@ -1,4 +1,5 @@
 creature :the_four_root_exchange do
+  tags :subject_hab_life
   name "The Four-Root Exchange"
   summary "The Four-Root Exchange is a named symbiotic graft network shared by Ravel, Rib, Olven, and Orra."
   subkind :creature

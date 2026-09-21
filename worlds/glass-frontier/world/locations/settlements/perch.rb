@@ -6,7 +6,7 @@ installation :perch do
   origin_blurb "A seasonal hab that expands around the sarn passage, comb harvest, and returning vessel wards."
   subkind :settlement
   status :complete
-  tags :"ring-hab", :ecology, :trade, :transport, :"kinetic-freq"
+  tags :"ring-hab", :ecology, :trade, :transport, :"kinetic-freq", :subject_hab_life
   prominence :recognized
   population 320
   population_band "About three hundred and twenty permanent residents; several thousand workers during the sarn passage"

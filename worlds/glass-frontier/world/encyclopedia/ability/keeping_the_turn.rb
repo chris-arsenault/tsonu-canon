@@ -5,7 +5,7 @@ encyclopedia :keeping_the_turn do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Dark Counting to Keeping the Turn; the name carries the turning liturgy into its present blackout use."
-  topics :training, :household, :"ring-hab", :"ring-era"
+  topics :training, :household, :"ring-hab", :"ring-era", :subject_hab_life
   prevalence :common
   available_globally
   function "Keeps accurate elapsed time through power and instrument failure — a counted cadence, held steady by training, that paces valve turns, breath rationing, and rescue windows in the dark"

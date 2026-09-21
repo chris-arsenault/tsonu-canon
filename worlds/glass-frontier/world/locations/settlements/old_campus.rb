@@ -9,7 +9,7 @@ installation :old_campus do
   role "Sithari's civic, academic and administrative center"
   setting "The surviving ring-era research complex at the center of modern Sithari"
   access "City rail, pedestrian streets and controlled service descents into the Underlayers"
-  tags :surface, :governance, :archives, :resonance, :"ring-era"
+  tags :surface, :governance, :archives, :resonance, :"ring-era", :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

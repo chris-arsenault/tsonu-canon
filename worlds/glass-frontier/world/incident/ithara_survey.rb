@@ -5,7 +5,7 @@ incident :ithara_survey do
   date 2408
   status :complete
   prominence :recognized
-  tags :archives, :mystery
+  tags :archives, :mystery, :subject_lithren
 
   prose <<~PROSE
     In 2408 the founder of the #{ref :ithara_comparative_expedition, "Ithara Comparative Expedition"} organized the survey that gave #{ref :ithara, "Ithara"} its modern name. Crews recorded fitted pieces where they lay instead of gathering every similar shape into a single tray. Components in separate chambers reproduced the same wear, joints and old flaws.

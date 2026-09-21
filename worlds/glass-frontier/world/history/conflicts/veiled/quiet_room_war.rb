@@ -1,4 +1,5 @@
 conflict :quiet_room_war do
+  tags :subject_planetary_life
   name "The Quiet Room War"
   summary "The Quiet Room War was fought by Old Campus and Underlayers households through soundless passages."
   subkind :war

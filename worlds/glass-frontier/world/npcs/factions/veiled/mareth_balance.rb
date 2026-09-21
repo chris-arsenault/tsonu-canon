@@ -1,4 +1,5 @@
 faction :mareth_balance do
+  tags :subject_hab_life
   name "Mareth Balance"
   summary "Mareth Balance is Mareth's governing intelligence, responsible for assigning docking mass and safe routes."
   subkind :governing_intelligence

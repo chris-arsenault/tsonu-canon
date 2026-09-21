@@ -4,7 +4,7 @@ encyclopedia :mareth_recoil do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :"ring-hab", :danger, :transport, :resonance
+  topics :"ring-hab", :danger, :transport, :resonance, :subject_hab_life
   prevalence :rare
   appears_when all: { place: [:dock] }
   medium "Loaded traffic corridors at ring-era freight gates"

@@ -4,7 +4,7 @@ encyclopedia :nel do
   kind :technology
   subkind :service_machine
   status :complete
-  topics :materials, :transport, :danger
+  topics :materials, :transport, :danger, :subject_lithren
   prevalence :uncommon
   appears_when all: { place: [:outer_system] }, any: { place: [:archive, :yard] }
   function "Carries tools or small loads along fitted service tracks, repeating motions encoded by a cam"

@@ -7,7 +7,7 @@ npc :veska_ral do
   occupation "Coastal rescue commander"
   status :complete
   prominence :recognized
-  tags :military, :resonance
+  tags :military, :resonance, :subject_istrava
 
   prose <<~PROSE
     Veska Ral bore the #{ref :triumphant, "Triumphant"} from 2414 until her death in 2418. She qualified during a stranded convoy's rescue by publicly declaring a finite task: bring every willing passenger aboard the waiting vessels. Crews repeated the words and completed that task. She survived its cost and resumed service.

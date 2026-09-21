@@ -6,7 +6,7 @@ faction :shear_compact do
   belongs_to :culture, :compacts
   path "player/npcs/factions/shear-compact.md"
   reviewed "2026-03-18"
-  tags :salvage, :ringglass, :trade, :governance
+  tags :salvage, :ringglass, :trade, :governance, :subject_shear
   prominence :recognized
 
   descriptive_identity(

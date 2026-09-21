@@ -1,4 +1,5 @@
 artifact :eighth_brass_kite do
+  tags :subject_journeys_trade
   name "The Eighth Brass Kite"
   summary "The Eighth Brass Kite is a locator object used between Clearance Eight and Brake. It pulls against the local traffic current to point toward stranded hulls."
   subkind :artifact

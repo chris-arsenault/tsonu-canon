@@ -5,7 +5,7 @@ installation :vigil_breach do
   context_tags :surface, :cold, :displacement_zone
   subkind :landmark
   culture :rolls
-  tags :surface, :"ring-era", :resonance, :danger, :archives
+  tags :surface, :"ring-era", :resonance, :danger, :archives, :subject_resonance
   prominence :recognized
   status :complete
 

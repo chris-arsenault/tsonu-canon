@@ -5,7 +5,7 @@ installation :hinge_six do
   context_tags :orbital, :road, :dock
   subkind :station
   status :complete
-  tags :orbital, :transport, :trade, :navigation, :resonance
+  tags :orbital, :transport, :trade, :navigation, :resonance, :subject_journeys_trade
   prominence :marginal
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.55, angle_offset_deg: 18

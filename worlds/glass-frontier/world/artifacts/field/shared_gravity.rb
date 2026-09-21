@@ -1,4 +1,5 @@
 artifact :shared_gravity do
+  tags :subject_hab_life
   name "Shared Gravity"
   summary "Shared Gravity is a four-hab counterweight system that coordinates local force schedules so freight arrives under the gravity for which it was packed."
   subkind :machine

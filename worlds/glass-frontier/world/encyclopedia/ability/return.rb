@@ -6,7 +6,7 @@ encyclopedia :return do
   status :complete
   log "2026-08-31 — Renamed Restoration to Return; the familiar verb carries the Great Restorer's specific meaning of making a surviving earlier pattern physically authoritative."
   log "2026-08-31 — Kept Return as the focused recovery of an earlier stable state. Fresh damage whose complete pattern remains at the break became Mending because it rejoins what is still present without choosing or reconstructing a prior state; remote composite restoration remains mantle work."
-  topics :resonance, :rebuilding, :archives, :materials
+  topics :resonance, :rebuilding, :archives, :materials, :subject_resonance
   prevalence :rare
   available_globally
 

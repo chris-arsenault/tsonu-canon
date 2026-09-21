@@ -5,7 +5,7 @@ faction :lumenshard_conservatory do
   type_of :custodial_standing
   belongs_to :culture, :second_habitat
   founded 2286
-  tags :ecology, :resonance, :ringglass, :surface
+  tags :ecology, :resonance, :ringglass, :surface, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

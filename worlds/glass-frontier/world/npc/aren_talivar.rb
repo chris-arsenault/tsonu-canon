@@ -8,7 +8,7 @@ npc :aren_talivar do
   narrative_role :titan
   status :complete
   prominence :recognized
-  tags :military, :governance, :resonance
+  tags :military, :governance, :resonance, :subject_istrava
   log "2026-09-19 — Aren deliberately sought mantle authority after the 2432 Talessar reading. He attempted voluntary commands but did not engineer the armed confrontation. Memory loss raises the cost of later choices without causing or excusing his political ambition."
   descriptive_identity appearance: "A broad, weather-marked face above a stiff left shoulder from coastal service.", attire: "A league officer's coat with the member cities' old fastenings still attached.", tools: "Bound accounts of meetings and family visits whose words he can recover more readily than their meaning.", manner: "Asks a person to repeat the operative words of an instruction before he leaves.", disposition: "Treats the coast's survival as a responsibility he has earned the right to enforce."
 

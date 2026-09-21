@@ -7,7 +7,7 @@ faction :lower_routes_cooperative do
   type_of :warrants
   belongs_to :culture, :mutuals
   founded 2227
-  tags :surface, :resonance, :navigation, :"social-structure", :danger
+  tags :surface, :resonance, :navigation, :"social-structure", :danger, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

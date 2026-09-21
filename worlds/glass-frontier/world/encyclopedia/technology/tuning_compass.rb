@@ -8,7 +8,7 @@ encyclopedia :tuning_compass do
   classes "Pocket, survey, and hull-mounted"
   operating_environments "Settlements, ring habitats, vessels, and field sites with ambient ringglass"
   operating_limit "Loses discrimination in saturated fields and gives no reading after complete local drawdown"
-  topics :resonance, :navigation, :ringglass, :household
+  topics :resonance, :navigation, :ringglass, :household, :subject_common_life
   prevalence :common
   available_globally
 

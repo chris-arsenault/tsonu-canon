@@ -4,7 +4,7 @@ ability :triumphant do
   type_of :shared_will
   subkind :the_three
   status :complete
-  tags :resonance, :religion, :"kinetic-freq", :military
+  tags :resonance, :religion, :"kinetic-freq", :military, :subject_resonance
   prominence :recognized
   qualification "Answers a person who states a finite purpose in public words understood and repeated by everyone expected to serve it, then remains to answer for the cost"
   succession "Leaves a bearer who knowingly abandons their declared purpose and may pass to the person who continues it without changing the words"

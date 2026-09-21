@@ -5,7 +5,7 @@ encyclopedia :shedding do
   subkind :catastrophe
   status :complete
   log "2026-08-31 — Renamed Room Rain to Shedding; Xyloathax's existing verb names the chamber's release directly and avoids weather metaphor as the category label."
-  topics :"fluid-reality", :danger, :"ring-hab"
+  topics :"fluid-reality", :danger, :"ring-hab", :subject_bloom
   prevalence :rare
   appears_when all: { place: [:displacement_zone] }
   medium "Displacement-zone settlements built in elven fabric — chambers whose held positions slip, opening over streets a district away from where they were built"

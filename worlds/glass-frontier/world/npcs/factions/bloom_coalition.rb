@@ -4,7 +4,7 @@ faction :bloom_coalition do
   subkind :civic_body
   type_of :compacts
   path "player/npcs/factions/bloom-coalition.md"
-  tags :governance, :diplomacy, :resonance, :danger, :rebuilding
+  tags :governance, :diplomacy, :resonance, :danger, :rebuilding, :subject_bloom
   prominence :renowned
   era "2378–2396"
   founded 2380

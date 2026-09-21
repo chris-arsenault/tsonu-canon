@@ -5,7 +5,7 @@ transport :low_lamp do
   type_of :dovran
   capacity "One household crew, twelve passengers, and a reconfigurable shallow cargo deck"
   status :complete
-  tags :transport, :trade, :"outer-system", :resonance, :ecology
+  tags :transport, :trade, :"outer-system", :resonance, :ecology, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

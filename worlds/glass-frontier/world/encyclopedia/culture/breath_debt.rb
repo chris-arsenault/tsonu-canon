@@ -4,7 +4,7 @@ encyclopedia :breath_debt do
   kind :culture
   subkind :material_life
   status :complete
-  topics :"ring-hab", :household, :governance, :danger
+  topics :"ring-hab", :household, :governance, :danger, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
 

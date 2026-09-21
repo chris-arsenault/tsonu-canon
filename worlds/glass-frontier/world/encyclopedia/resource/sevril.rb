@@ -4,7 +4,7 @@ encyclopedia :sevril do
   kind :resource
   subkind :material
   status :complete
-  topics :materials, :transport, :trade
+  topics :materials, :transport, :trade, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:outer_system] }, any: { place: [:archive, :yard, :market] }
   function "Carries tensile loads through braided ceramic fibers held in a flexible protective matrix"

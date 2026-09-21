@@ -1,4 +1,5 @@
 creature :the_vey_colossus do
+  tags :subject_hab_life
   name "The Vey Colossus"
   summary "The Vey Colossus is a clock sleeping around an air shaft between Vey and Lung Three. It exhales whenever the habitat frame bends."
   subkind :creature

@@ -5,7 +5,7 @@ installation :mera do
   context_tags :sealed_hab, :cold, :garden
   subkind :settlement
   status :complete
-  tags :"ring-hab", :ecology, :household, :materials, :resonance
+  tags :"ring-hab", :ecology, :household, :materials, :resonance, :subject_hab_life
   prominence :marginal
   population 6000
   population_band "About six thousand residents"

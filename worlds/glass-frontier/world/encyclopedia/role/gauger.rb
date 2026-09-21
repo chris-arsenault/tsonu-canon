@@ -4,7 +4,7 @@ encyclopedia :gauger do
   kind :role
   subkind :profession
   status :complete
-  topics :trade, :governance, :training
+  topics :trade, :governance, :training, :subject_common_life
   prevalence :common
   appears_when any: { place: [:urban, :yard, :dock] }
 

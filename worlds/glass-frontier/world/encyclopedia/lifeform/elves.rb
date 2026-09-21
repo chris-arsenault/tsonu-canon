@@ -5,7 +5,7 @@ encyclopedia :elves do
   subkind :sapient_species
   status :complete
   reviewed "2026-03-19"
-  topics :species, :legend, :mystery, :"ring-era", :archives
+  topics :species, :legend, :mystery, :"ring-era", :archives, :subject_resonance
   prevalence :rare
   available_globally
   origin "Native to Kaleidos and present before the colony era"

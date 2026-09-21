@@ -5,7 +5,7 @@ geographic_location :lithren do
   context_tags :outer_system, :surface, :cold, :archive
   subkind :celestial_body
   status :complete
-  tags :cosmology, :"outer-system", :archives, :mystery, :danger, :trade
+  tags :cosmology, :"outer-system", :archives, :mystery, :danger, :trade, :subject_lithren
   prominence :recognized
   position frame: :kaleidos_system_chart, radius: 8, angle_deg: 158
 

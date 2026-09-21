@@ -4,7 +4,7 @@ encyclopedia :load_singing do
   kind :ability
   subkind :technique
   status :complete
-  topics :salvage, :resonance, :training, :danger
+  topics :salvage, :resonance, :training, :danger, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:yard, :debris_field] }
   function "Sounds a rigged load through its lifting frame, finding hidden fractures before the lift commits"

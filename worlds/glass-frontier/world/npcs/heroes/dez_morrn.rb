@@ -10,7 +10,7 @@ npc :dez_morrn do
     "until every player in the room can name where it came back through " \
     "the deck. Performers who break something to prove they are serious " \
     "are expelled on the spot."
-  tags :music, :activism, :governance, :resonance
+  tags :music, :activism, :governance, :resonance, :subject_hab_life
   prominence :forgotten
 
   prose <<~PROSE

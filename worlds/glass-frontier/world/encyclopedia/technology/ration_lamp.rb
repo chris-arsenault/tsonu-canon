@@ -5,7 +5,7 @@ encyclopedia :ration_lamp do
   kind :technology
   subkind :device
   status :complete
-  topics :household, :"ring-era", :rebuilding, :materials
+  topics :household, :"ring-era", :rebuilding, :materials, :subject_common_life
   prevalence :common
   available_globally
   function "Portable flame light burning local oil, fat, or wax, with a shutter for directing and dousing"

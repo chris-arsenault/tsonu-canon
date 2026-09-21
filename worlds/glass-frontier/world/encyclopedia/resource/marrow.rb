@@ -3,7 +3,7 @@ encyclopedia :marrow do
   kind :resource
   subkind :medicine
   status :complete
-  topics :"outer-system", :danger, :trade, :household
+  topics :"outer-system", :danger, :trade, :household, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:cold, :road] }
   summary "Marrow is a dense, bitter route medicine brewed from storage roots grown on the outer runs. A warm dose suppresses resonance fever and keeps a patient conscious through one Lithren, Vastine, Pelhari, or Vitrael route leg."

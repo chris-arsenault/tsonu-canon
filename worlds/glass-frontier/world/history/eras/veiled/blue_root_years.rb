@@ -1,4 +1,5 @@
 era :blue_root_years do
+  tags :subject_hab_life
   name "Blue-Root Years"
   summary "The Blue-Root Years were the local period that began when Lumenshard cuttings restored gardens on Rib's cold decks."
   subkind :era

@@ -7,7 +7,7 @@ installation :span_nine do
   path "player/locations/landmarks/span-nine.md"
   status :complete
   reviewed "2026-03-19"
-  tags :"ring-era", :resonance, :"signal-freq", :orbital
+  tags :"ring-era", :resonance, :"signal-freq", :orbital, :subject_journeys_trade
   prominence :recognized
 
   log "2026-08-21 — Moved the surface terminus from Sithari to Whitefoot. The Span's original purpose remains unknown; Whitefoot, Pelhari, and Threshold grew around surviving termini rather than being selected by a modern network."

@@ -1,4 +1,5 @@
 npc :ashvane_pressure_tracer do
+  tags :subject_planetary_life
   name "The Ashvane Pressure Tracer"
   summary "The Ashvane Pressure Tracer retraces a pressure front hours after it crosses a sealed room."
   type_of :varr

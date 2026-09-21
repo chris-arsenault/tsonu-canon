@@ -1,4 +1,5 @@
 theme :what_survives do
+  tags :subject_lithren
   name "What Survives"
   summary "Itharan recoveries bring back useful achievements, inherited coercion and old flaws, while deliberate losses preserve evidence of choices against restoration."
   subkind :narrative_theme

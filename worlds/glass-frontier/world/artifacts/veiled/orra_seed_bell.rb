@@ -1,4 +1,5 @@
 artifact :orra_seed_bell do
+  tags :subject_hab_life
   name "The Orra Seed Bell"
   summary "The Orra Seed Bell is an orchard instrument used at Orra and Seren. Striking its cracked rim under running water splits dormant orchard kernels."
   subkind :instrument

@@ -1,4 +1,5 @@
 npc :senra_veth do
+  tags :subject_planetary_life
   name "Senra Veth"
   summary "Senra Veth is a Kyrri ground-reader who works between Vigil Breach, the Kyther Range, Avar, and Ladderwell."
   subkind :npc

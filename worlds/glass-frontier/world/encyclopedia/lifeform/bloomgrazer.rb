@@ -5,7 +5,7 @@ encyclopedia :bloomgrazer do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Grazers to Bloomgrazer; the title distinguishes this Bloom-cordon animal."
-  topics :ecology, :danger, :"ring-era"
+  topics :ecology, :danger, :"ring-era", :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:bloom_adjacent] }
   origin "Descended from the elves' seal-maintenance grazers — bred to crop failed sealant off the ring's works and to quit hazardous light on a hard threshold; the boundary populations kept both instincts"

@@ -10,7 +10,7 @@ npc :daro_venn do
     "master will take a hard return load, which crew has spent its " \
     "tolerance for risk — and defends a past decision sooner than he " \
     "apologizes for it."
-  tags :trade, :salvage, :transport, :resonance
+  tags :trade, :salvage, :transport, :resonance, :subject_shear
   prominence :recognized
 
   prose <<~PROSE

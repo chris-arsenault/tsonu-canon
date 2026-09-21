@@ -1,4 +1,5 @@
 transport :third_latch_hook do
+  tags :subject_journeys_trade
   name "The Third Latch Hook"
   summary "The Third Latch Hook is a cargo vehicle used on damaged track around the Keel, Hinge Six, and Third Latch. It bites into old route ribs to swing loads past broken sections."
   subkind :transport

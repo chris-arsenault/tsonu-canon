@@ -5,7 +5,7 @@ geographic_location :dovra do
   context_tags :outer_system, :surface, :waterway, :unstable_route, :garden
   subkind :region
   status :complete
-  tags :"outer-system", :ecology, :trade, :resonance, :transport
+  tags :"outer-system", :ecology, :trade, :resonance, :transport, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

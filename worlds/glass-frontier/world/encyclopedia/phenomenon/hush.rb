@@ -4,7 +4,7 @@ encyclopedia :hush do
   subkind :social_condition
   status :complete
   log "2026-08-31 — Renamed Latch Quiet to Hush; the towns' abrupt public stilling gives the practiced response an idiomatic shared name instead of an abstract social label."
-  topics :"social-structure", :danger, :"ring-era", :resonance
+  topics :"social-structure", :danger, :"ring-era", :resonance, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:cordon] }
   summary "A hush is a cordon town's collective response when its boundary bells enter a remembered danger sequence. Public rooms empty, households close their shutters, and posted shelters take in travelers until the bells step down."

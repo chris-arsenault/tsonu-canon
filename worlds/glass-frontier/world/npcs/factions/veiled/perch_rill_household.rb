@@ -1,4 +1,5 @@
 faction :perch_rill_household do
+  tags :subject_hab_life
   name "The Perch Rill Household"
   summary "The Perch Rill Household is one Perch family that times meals and animal work to the settlement's irrigation tones."
   type_of :rill_households

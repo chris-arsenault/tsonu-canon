@@ -5,7 +5,7 @@ transport :third_radiator do
   type_of :ashvane_dray
   technology :kite
   status :complete
-  tags :transport, :trade, :resonance, :"kinetic-freq", :"outer-system"
+  tags :transport, :trade, :resonance, :"kinetic-freq", :"outer-system", :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

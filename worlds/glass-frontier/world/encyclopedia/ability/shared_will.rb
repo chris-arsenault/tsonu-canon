@@ -6,7 +6,7 @@ encyclopedia :shared_will do
   status :complete
   log "2026-08-31 — Renamed Exaltation to Shared Will; the Three Forms term distinguishes willing purpose held in common from the Red Sovereign's Outside Will."
   log "2026-08-31 — Kept one broad-tier spell affecting one willing subject. The former focused and narrow rows enlarged the same declared-purpose effect without defining another operation; collective exaltation remains the Triumphant mantle's work."
-  topics :resonance, :"kinetic-freq", :military, :religion
+  topics :resonance, :"kinetic-freq", :military, :religion, :subject_resonance
   prevalence :rare
   available_globally
 

@@ -5,7 +5,7 @@ encyclopedia :farglass_attendant do
   subkind :office
   status :complete
   log "2026-08-31 — Renamed Far Attendant to Farglass Attendant; the title identifies the pane the office serves."
-  topics :governance, :"ring-era", :diplomacy, :archives
+  topics :governance, :"ring-era", :diplomacy, :archives, :subject_journeys_trade
   prevalence :rare
   appears_when any: { place: [:archive, :sealed_hab] }
 

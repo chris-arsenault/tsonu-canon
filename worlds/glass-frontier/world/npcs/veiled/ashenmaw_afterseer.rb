@@ -1,4 +1,5 @@
 npc :ashenmaw_afterseer do
+  tags :subject_planetary_life
   name "The Ashenmaw Afterseer"
   summary "The Ashenmaw Afterseer retains the safe outline of moving debris for several breaths after it vanishes."
   type_of :afterseeing

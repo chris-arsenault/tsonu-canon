@@ -6,7 +6,7 @@ encyclopedia :print do
   status :complete
   log "2026-08-31 — Renamed Cold Archive Weather to Print; the observable reproduction of a tablet's text gives the effect its direct archival working name."
   log "2026-09-19 — Readable means reproducible strokes, not translated language. Linked the tablet trade to Lithren's 2337 exports; partial recovery of damaged strokes follows retained subsurface inscription rather than supplying missing meaning."
-  topics :"outer-system", :archives, :mystery, :resonance
+  topics :"outer-system", :archives, :mystery, :resonance, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:cold, :archive] }
   medium "Sealed cold-country hulls and station shells within a few spans of a Lithren text in transit — bare cold metal takes the print; warmed or coated surfaces stay clear"

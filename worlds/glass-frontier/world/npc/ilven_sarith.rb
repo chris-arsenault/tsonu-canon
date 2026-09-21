@@ -8,7 +8,7 @@ npc :ilven_sarith do
   specialty "Valuing usable ancient works and arranging their transport"
   status :complete
   prominence :recognized
-  tags :trade, :materials, :"social-structure"
+  tags :trade, :materials, :"social-structure", :subject_lithren
   descriptive_identity attire: "Soft indoor boots and clothes whose seams have never been repaired; a fitted suit waits in a private pressure cabinet.", tools: "A lamp that can rake light across a surface and small cloth-covered sample boxes.", manner: "Asks to see a work used before discussing its price.", disposition: "Pays well for skill and wants to own the best results; regards an idle ancient masterpiece as something someone should bring back into use."
   prose <<~PROSE
     Ilven Sarith rents rooms above #{ref :ressa_dorr, "Ressa Dorr"}'s hall and keeps a berth reserved on the next inward-bound freight vessel. His walls carry trial panels, woven pressure liners and strips of #{encyclopedia_ref :istril, "istril"}. A meal in his rooms arrives on different bowls each time because he buys the ones he likes and sends the rest downstairs.

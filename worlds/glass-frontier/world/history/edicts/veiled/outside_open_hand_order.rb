@@ -1,4 +1,5 @@
 edict :outside_open_hand_order do
+  tags :subject_bloom
   name "The Outside Open-Hand Order"
   summary "The Outside Open-Hand Order requires anyone entering a displaced room to show an empty glove first."
   type_of :thresholds

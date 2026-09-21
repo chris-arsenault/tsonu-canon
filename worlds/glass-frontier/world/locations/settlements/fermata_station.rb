@@ -8,7 +8,7 @@ installation :fermata_station do
   path "player/locations/settlements/fermata-station.md"
   status :complete
   reviewed "2026-03-19"
-  tags :governance, :resonance, :"ring-hab", :"fluid-reality", :music, :"social-structure"
+  tags :governance, :resonance, :"ring-hab", :"fluid-reality", :music, :"social-structure", :subject_hab_life
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.1, angle_offset_deg: 26

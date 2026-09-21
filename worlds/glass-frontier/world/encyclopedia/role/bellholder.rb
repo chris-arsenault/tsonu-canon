@@ -4,7 +4,7 @@ encyclopedia :bellholder do
   kind :role
   subkind :office
   status :complete
-  topics :danger, :governance, :"fluid-reality"
+  topics :danger, :governance, :"fluid-reality", :subject_bloom
   prevalence :rare
   appears_when any: { place: [:cordon, :bloom_adjacent] }
 

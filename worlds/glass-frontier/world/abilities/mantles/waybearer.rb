@@ -4,7 +4,7 @@ ability :waybearer do
   type_of :waybearing
   subkind :the_three
   status :complete
-  tags :resonance, :religion, :navigation, :transport
+  tags :resonance, :religion, :navigation, :transport, :subject_resonance
   prominence :recognized
   qualification "Answers a traveler who has opened a way to a place they did not know by trusting another person's lived memory or belonging"
   succession "Passes when the bearer yields an open road and its destination to a qualified successor, then remains at the other end until every pursuit on the road resolves"

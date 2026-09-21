@@ -4,7 +4,7 @@ transport :quiet_measure do
   subkind :vessel
   status :complete
   capacity "Eighteen crew, twenty-four rescued passengers, and two disabled-craft tow points"
-  tags :transport, :salvage, :orbital, :danger, :resonance
+  tags :transport, :salvage, :orbital, :danger, :resonance, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(
@@ -46,6 +46,11 @@ transport :quiet_measure do
     The stern forks can hold a disabled craft for a slow tow. Each fork has its own kite field, breaker, and physical release. A vessel whose drive begins answering the tender can be dropped without sacrificing the other connection. Crews practice the release with weighted hulks near Pell Cut.
   PROSE
 
+  prose <<~PROSE, section: :operations, heading: "Equipment Within Reach"
+    The boarding crew carries a field #{encyclopedia_ref :othel} to compare a gap before extending the passage. One head stays aboard while the other travels with the first rescuer. #{encyclopedia_ref :telisar} straps keep instruments against the worker's suit, with their release tongues covered so a caught edge cannot peel a loaded pouch away. After a dusty crossing, the straps are cleaned before tools are returned to them.
+
+    One treatment room holds a #{encyclopedia_ref :varen}. A physician can work while an attendant watches the clear chamber for interrupted flow. Its travel fittings cover the peoples ordinarily carried by the tender; unusual casualties may need stock from another vessel. A rescued crew has offered the contents of its private medical case while its captain argues over the cargo left behind.
+  PROSE
   prose <<~PROSE, section: :dangers, heading: "What Comes Aboard"
     A rescue tender accepts hazards that another crew has already failed to contain. Damaged ringglass may answer the tender's drive. Remote-cut cargo may carry a cutter wake. A frightened Tuner can keep sounding a compartment after being told to stop. The ship's treatment rooms therefore have separate air, clocks, and power, while the receiving lock can vent into a sacrificial capture bladder.
 

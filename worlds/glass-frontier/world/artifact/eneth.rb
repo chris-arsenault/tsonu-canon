@@ -7,7 +7,7 @@ artifact :eneth do
   function "Carries people and workpieces between upper workshops on a suspended, adjustable deck"
   status :complete
   prominence :recognized
-  tags :transport, :materials, :danger
+  tags :transport, :materials, :danger, :subject_lithren
   descriptive_identity appearance: "Deck sections float across a dark court on pale bands that catch a sideways lamp; the middle deck lies broken below.", handling: "End frames adjust the supported deck while broad saddles keep its cords from bending sharply.", risks: "A damaged saddle abrades its loaded band, and moving one end changes the reach and clearance of the surviving crossing."
   prose <<~PROSE
     Eneth crosses the machinery court at #{ref :anaret, "Anaret"}. Its surviving deck sections hang from #{encyclopedia_ref :sevril, "sevril"} bands carried over broad saddles. #{encyclopedia_ref :ulen, "Ulen"} frames at the ends let operators adjust its height against adjoining workshop thresholds. The middle deck has fallen, leaving the bands and a narrow modern crossing above open depth.

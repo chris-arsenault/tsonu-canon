@@ -4,7 +4,7 @@ edict :sevrin_pledge do
   subkind :edict
   status :complete
   prominence :recognized
-  tags :governance, :danger, :household
+  tags :governance, :danger, :household, :subject_lithren
 
   prose <<~PROSE
     The Sevrin Pledge requires a participating shelter to take in a person facing immediate exposure, loss of air or disabling cold. The entrant gives up weapons and accepts restraint if the people inside require it. Pursuers must stop at the hatch. The shelter can protect its occupants from an armed entrant, but it cannot turn an otherwise manageable person back into lethal conditions to settle a theft or debt.

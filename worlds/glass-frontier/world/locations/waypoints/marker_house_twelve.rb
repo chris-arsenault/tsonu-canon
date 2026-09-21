@@ -5,7 +5,7 @@ installation :marker_house_twelve do
   context_tags :surface, :road, :unstable_route
   subkind :station
   status :complete
-  tags :surface, :transport, :trade, :resonance, :household
+  tags :surface, :transport, :trade, :resonance, :household, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

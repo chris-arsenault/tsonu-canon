@@ -3,7 +3,7 @@ encyclopedia :rattle_tug do
   kind :technology
   subkind :transport
   status :complete
-  topics :transport, :resonance, :trade, :"ring-hab"
+  topics :transport, :resonance, :trade, :"ring-hab", :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:dock] }
   summary "A rattle tug is a short-haul dock mover that walks heavy cargo in pulses — gripping the load, striking a tuned kinetic knock through it, and letting the whole mass hop a hand's width at a time. The name is the sound, and the sound is the sorting deck at Rattle all day long."

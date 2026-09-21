@@ -5,7 +5,7 @@ encyclopedia :unclosing do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Unclosing from the former Unmaking ladder because it opens one active broad-band resonance figure and leaves the array, object, or structure physically coherent."
-  topics :resonance, :danger, :"structural-freq", :"kinetic-freq", :"signal-freq"
+  topics :resonance, :danger, :"structural-freq", :"kinetic-freq", :"signal-freq", :subject_resonance
   prevalence :uncommon
   available_globally
 

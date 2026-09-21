@@ -5,7 +5,7 @@ installation :threshold_station do
   context_tags :orbital, :sealed_hab
   subkind :settlement
   path "player/locations/settlements/threshold-station.md"
-  tags :orbital, :"ring-era", :AI, :governance, :resonance
+  tags :orbital, :"ring-era", :AI, :governance, :resonance, :subject_resonance
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: -0.12, angle_offset_deg: 0

@@ -1,4 +1,5 @@
 artifact :noll_black_spindle do
+  tags :subject_hab_life
   name "Noll Black Spindle"
   summary "Noll Black Spindle is a fibre-working tool used among Noll, Rib, and Vey. It twists shed root fibre into cable that tightens when a habitat loses spin."
   subkind :artifact

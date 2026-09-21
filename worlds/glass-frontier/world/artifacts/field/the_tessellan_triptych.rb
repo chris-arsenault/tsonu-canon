@@ -4,7 +4,7 @@ artifact :the_tessellan_triptych do
   type_of :the_three_forms
   subkind :record
   status :complete
-  tags :resonance, :cosmology, :religion
+  tags :resonance, :cosmology, :religion, :subject_resonance
   prominence :recognized
 
   gm_note :appears, "Gold marks the structural band and red the kinetic, so the panels tell a visitor what the machine before them does before its owner explains."

@@ -4,7 +4,7 @@ encyclopedia :sweeps do
   kind :lifeform
   subkind :animal
   status :complete
-  topics :"ring-hab", :"ring-era", :ecology, :household
+  topics :"ring-hab", :"ring-era", :ecology, :household, :subject_hab_life
   prevalence :common
   appears_when all: { place: [:sealed_hab] }
   origin "Ring-era cultivated sanitation stock"

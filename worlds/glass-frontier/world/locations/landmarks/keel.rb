@@ -8,7 +8,7 @@ installation :keel do
   path "player/locations/landmarks/keel.md"
   status :complete
   reviewed "2026-03-18"
-  tags :trade, :orbital, :salvage, :danger, :navigation
+  tags :trade, :orbital, :salvage, :danger, :navigation, :subject_journeys_trade
   prominence :recognized
 
   route_geometry frame: :kaleidos_system_chart do

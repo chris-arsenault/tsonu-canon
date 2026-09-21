@@ -1,4 +1,5 @@
 incident :lot_forty_spark_bloom do
+  tags :subject_shear
   name "Lot Forty Spark Bloom"
   summary "Lot Forty Spark Bloom is a scrap-bed life cycle in which warm-rooted growths release metallic spores as Lot Forty cutters approach."
   type_of :tithe

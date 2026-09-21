@@ -1,4 +1,5 @@
 artifact :the_boundary_relay do
+  tags :subject_bloom
   name "The Boundary Relay"
   subkind :relic
   type_of :bloom_relics

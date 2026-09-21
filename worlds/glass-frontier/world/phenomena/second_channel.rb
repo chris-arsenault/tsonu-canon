@@ -5,7 +5,7 @@ phenomenon :second_channel do
   type_of :avulsion
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :navigation, :transport, :trade
+  tags :resonance, :navigation, :transport, :trade, :subject_journeys_trade
   prominence :recognized
   trigger "Repeated transit makes a corridor's combined kinetic and signal wake more coherent than its maintained approach to the published terminus"
   effect "After the second warning tone, every vessel remaining on the corridor reaches the strongest destination encoded in its accumulated journeys"

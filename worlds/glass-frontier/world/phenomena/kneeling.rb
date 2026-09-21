@@ -3,7 +3,7 @@ phenomenon :kneeling do
   summary "The Kneeling is a migrating field in the Fracture that turns sustained force into a permanent local down, bending connected rock, structures, and approach paths toward the direction that remained dominant."
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :"outer-system", :danger, :"structural-freq"
+  tags :resonance, :"outer-system", :danger, :"structural-freq", :subject_planetary_life
   prominence :recognized
   trigger "One coherent load repeats through a connected mass until the slow three-pulse tone recurs without a change in the load direction"
   effect "Rock, attached structures, debris fall, and approach paths progressively bend toward the dominant thrust, recoil, gravity, or impact"

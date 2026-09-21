@@ -1,4 +1,5 @@
 creature :lowbank_reedjaw do
+  tags :subject_planetary_life
   name "The Lowbank Reedjaw"
   summary "The Lowbank Reedjaw is a Dovra animal ranging around Lowbank and the Reed Door. It strips waterweed from barges and bites through poles used to drive it off."
   subkind :animal

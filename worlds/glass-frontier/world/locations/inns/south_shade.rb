@@ -5,7 +5,7 @@ installation :south_shade do
   context_tags :outer_system, :surface, :hot, :road
   subkind :installation
   status :complete
-  tags :"outer-system", :trade, :transport, :household, :resonance
+  tags :"outer-system", :trade, :transport, :household, :resonance, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

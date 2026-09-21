@@ -5,7 +5,7 @@ encyclopedia :kyrri do
   origin_blurb "Four braced lower limbs and hollow joints that sound the ground — a mountain people who stand on stone the way listeners lean on a door."
   subkind :sapient_species
   status :complete
-  topics :species, :resonance, :surface
+  topics :species, :resonance, :surface, :subject_planetary_life
   prevalence :uncommon
   available_globally
   registry true

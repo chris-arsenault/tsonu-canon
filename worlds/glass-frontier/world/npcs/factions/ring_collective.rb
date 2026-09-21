@@ -5,7 +5,7 @@ faction :ring_collective do
   type_of :hulls_law
   belongs_to :culture, :compacts
   status :complete
-  tags :"ring-hab", :governance, :diplomacy, :trade
+  tags :"ring-hab", :governance, :diplomacy, :trade, :subject_politics_history
   prominence :recognized
   founded 2318
   mandate "Represent connected ring habitats in shared route, salvage, and sovereignty matters"

@@ -4,7 +4,7 @@ encyclopedia :sarev do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Kyther Scree Runner to Sarev; the inter-valley working word names the craft without reducing it to region plus vehicle class."
-  topics :transport, :surface, :"kinetic-freq", :trade
+  topics :transport, :surface, :"kinetic-freq", :trade, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :road] }
   summary "Sarevs are low freight vehicles built to descend the Kyther Range's moving scree. Broad tuned skids ride with the stone while a standing crew steers by weight shift and bars from a surveyed entry line to the runout. Crews measure flow and grain at the slope head and wait when the day's speed exceeds the chart."

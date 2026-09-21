@@ -1,4 +1,5 @@
 conflict :thirty_one_tool_feud do
+  tags :subject_hab_life
   name "The Thirty-One Tool Feud"
   summary "The Thirty-One Tool Feud is a continuing conflict between Bay Thirty-One and Wash Four crews over one calibrated wrench."
   subkind :conflict

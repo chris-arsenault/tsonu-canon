@@ -13,7 +13,7 @@ npc :orr_senn do
     "pumping, and ordinary household draw, with the hour the change " \
     "reached each cistern."
   status :complete
-  tags :household, :resonance, :training
+  tags :household, :resonance, :training, :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

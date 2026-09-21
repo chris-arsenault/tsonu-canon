@@ -1,4 +1,5 @@
 phenomenon :quiet do
+  tags :subject_bloom
   name "The Quiet"
   summary "The Quiet is Latch's full withdrawal from public rooms when its cordon bells sound the town's remembered danger sequence."
   type_of :hush

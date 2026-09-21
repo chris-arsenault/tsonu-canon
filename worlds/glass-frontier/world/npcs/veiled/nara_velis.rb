@@ -1,4 +1,5 @@
 npc :nara_velis do
+  tags :subject_politics_history
   name "Nara Velis"
   summary "Nara Velis is a legal courier carrying sealed witness accounts between Accord Shore and Verathi."
   subkind :courier

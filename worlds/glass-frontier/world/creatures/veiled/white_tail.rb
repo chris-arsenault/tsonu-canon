@@ -1,4 +1,5 @@
 creature :white_tail do
+  tags :subject_hab_life
   name "White-Tail"
   summary "White-Tail is a scarred Kesh wallrunner tracked along the inhabited walls of Kesh and Perch."
   subkind :creature

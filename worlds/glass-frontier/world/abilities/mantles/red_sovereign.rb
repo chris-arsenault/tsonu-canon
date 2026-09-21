@@ -4,7 +4,7 @@ ability :red_sovereign do
   type_of :outside_will
   subkind :the_adversary
   status :complete
-  tags :resonance, :religion, :governance, :military
+  tags :resonance, :religion, :governance, :military, :subject_resonance
   prominence :recognized
   qualification "Answers someone whose exact words are freely obeyed by a person who understands the order and can refuse it without punishment"
   succession "Passes to a subject who knowingly disobeys an absolute command and reaches the bearer before punishment can fall"

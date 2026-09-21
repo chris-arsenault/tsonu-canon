@@ -9,7 +9,7 @@ installation :accord_shore do
   role "Diplomatic quarter and standing seat of the Tempered Accord"
   setting "Western central Sithari, around a ring-era cooling basin remade as an artificial lake"
   access "City rail, public causeways and controlled entrances to the inner hearing rooms"
-  tags :surface, :governance, :diplomacy, :resonance
+  tags :surface, :governance, :diplomacy, :resonance, :subject_politics_history
   prominence :recognized
 
   descriptive_identity(

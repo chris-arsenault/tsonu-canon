@@ -1,4 +1,5 @@
 npc :three_arms_load_singer do
+  tags :subject_shear
   name "The Three Arms Load Singer"
   summary "The Three Arms Load Singer pitches salvage frames until hidden fractures answer through the lifting cables."
   type_of :load_singing

@@ -1,4 +1,5 @@
 npc :k_vara do
+  tags :subject_hab_life
   name "K'vara"
   summary "K'vara is a courier who carries replacement forks among Issel, Tanel, and Talven."
   subkind :courier

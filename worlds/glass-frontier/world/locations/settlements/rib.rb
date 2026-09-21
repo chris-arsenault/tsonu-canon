@@ -5,7 +5,7 @@ installation :rib do
   context_tags :sealed_hab, :garden
   subkind :settlement
   status :complete
-  tags :"ring-hab", :ecology, :resonance, :"structural-freq", :materials
+  tags :"ring-hab", :ecology, :resonance, :"structural-freq", :materials, :subject_hab_life
   prominence :marginal
   population 460
   population_band "About four hundred and sixty residents"

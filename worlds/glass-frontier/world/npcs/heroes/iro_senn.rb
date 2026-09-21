@@ -10,7 +10,7 @@ npc :iro_senn do
     "answers them from the watch log. An errand across the cordon becomes " \
     "an argument about exposure hours before it becomes a yes."
   jurisdiction "Latch cordon and its recovery ledger"
-  tags :resonance, :governance, :danger
+  tags :resonance, :governance, :danger, :subject_bloom
   prominence :marginal
   status :complete
 

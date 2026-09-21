@@ -6,7 +6,7 @@ encyclopedia :seed do
   log "2026-08-31 — Renamed Microcavities to Seed; the ordinary word gains a stable commodity meaning for sealed ringglass cells that carry a releasable charge."
   summary "Seed cells are sealed ringglass chambers cut to hold dense standing resonance and release it as portable high-energy fuel."
   reviewed "2026-03-19"
-  topics :resonance, :trade, :materials
+  topics :resonance, :trade, :materials, :subject_common_life
   prevalence :common
   available_globally
 

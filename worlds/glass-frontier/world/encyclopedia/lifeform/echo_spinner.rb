@@ -4,7 +4,7 @@ encyclopedia :echo_spinner do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Echo Larva to Echo Spinner; the title names its lasting silk-making form."
-  topics :ecology, :"signal-freq", :archives, :trade
+  topics :ecology, :"signal-freq", :archives, :trade, :subject_planetary_life
   prevalence :uncommon
   appears_when any: { place: [:waterway, :ringglass_rich] }
   summary "Echo spinners are finger-length spinners of the Echo River country that feed on remembered signal in the water and spin it into their silk — thread that holds sound. Rearing houses raise them in hushed rooms on measured echo-water, and the harvest is the Crescent's singing thread."

@@ -4,7 +4,7 @@ encyclopedia :ulen do
   kind :technology
   subkind :balancing_mechanism
   status :complete
-  topics :materials, :transport, :danger
+  topics :materials, :transport, :danger, :subject_lithren
   prevalence :uncommon
   appears_when all: { place: [:outer_system] }, any: { place: [:yard, :archive] }
   function "Transfers a load through nested lever arms so it can be balanced across a curved or changing path"

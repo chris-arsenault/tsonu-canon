@@ -1,4 +1,5 @@
 artifact :mareth_clearance_catch do
+  tags :subject_hab_life
   name "The Mareth Clearance Catch"
   summary "The Mareth Clearance Catch is a cargo-securing device sourced from Clearance Eight and Mareth. After a sharp change in spin, it locks a drifting frame to the nearest rail."
   subkind :artifact

@@ -5,7 +5,7 @@ npc :oram_sells do
   occupation "Third First Threshold of the Displacement Council"
   type_of :humans
   belongs_to :culture, :hab_worlder
-  tags :governance, :resonance, :danger
+  tags :governance, :resonance, :danger, :subject_bloom
   prominence :recognized
   status :complete
   log "2026-09-15 — Moved the elven briefing into DM prose, consistent with Dern's hidden 2432 read-in; the public handover remains visible."

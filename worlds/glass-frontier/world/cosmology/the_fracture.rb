@@ -6,7 +6,7 @@ geographic_location :the_fracture do
   context_tags :outer_system, :debris_field
   subkind :celestial_body
   status :complete
-  tags :cosmology, :"outer-system", :danger, :salvage, :mystery, :"fluid-reality"
+  tags :cosmology, :"outer-system", :danger, :salvage, :mystery, :"fluid-reality", :subject_planetary_life
   prominence :renowned
   position frame: :kaleidos_system_chart, radius: 6, angle_deg: 332
   custom_fact :form, "A broad belt formed from the remains of a shattered planet",

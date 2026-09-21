@@ -1,4 +1,5 @@
 transport :south_shade_pressure_crawler do
+  tags :subject_planetary_life
   name "The South Shade Pressure Crawler"
   summary "The South Shade Pressure Crawler is a rock-clinging passenger vehicle used around Shadewell, South Shade, and Coldside Bench. Pressure hammocks secure its occupants during wind shifts."
   subkind :transport

@@ -1,4 +1,5 @@
 edict :blue_step_weight do
+  tags :subject_planetary_life
   name "The Blue-Step Weight"
   summary "The Blue-Step Weight limits loads on the Avar roads to the mass that two stranded crews can move by hand."
   subkind :edict

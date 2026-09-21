@@ -1,4 +1,5 @@
 creature :mera_root_crabs do
+  tags :subject_hab_life
   name "The Mera Root Crabs"
   summary "The Mera Root Crabs are an agricultural colony ranging among Mera, Noll, and Rib. They prune sick root mats and carry the severed fibres into warm wall cavities."
   subkind :animal

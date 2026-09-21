@@ -5,7 +5,7 @@ encyclopedia :kyther_scour do
   subkind :catastrophe
   status :complete
   log "2026-08-31 — Renamed Kyther Glass Rain to Kyther Scour; the regional name centers the storm's defining abrasion and avoids treating driven splinters as ordinary rain."
-  topics :surface, :danger, :ringglass, :ecology
+  topics :surface, :danger, :ringglass, :ecology, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :ringglass_rich] }
   medium "The crystal-strewn slopes and settled valleys of the Kyther Range"

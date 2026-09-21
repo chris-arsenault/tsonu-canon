@@ -4,7 +4,7 @@ encyclopedia :going_loose do
   kind :ability
   subkind :technique
   status :complete
-  topics :training, :"ring-hab", :danger
+  topics :training, :"ring-hab", :danger, :subject_hab_life
   prevalence :common
   appears_when any: { place: [:sealed_hab, :orbital] }
   function "Carries a falling body safely through drifting or rotating gravity to a soft landing"

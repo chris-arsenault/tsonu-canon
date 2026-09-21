@@ -8,7 +8,7 @@ npc :sava_neraleth do
   narrative_role :titan
   status :complete
   prominence :recognized
-  tags :diplomacy, :governance, :military
+  tags :diplomacy, :governance, :military, :subject_istrava
 
   prose <<~PROSE
     Sava Neraleth founded the #{ref :istravan_league, "Istravan League"} in 2398. She knew its coast through refuge journeys and disputed landings, and could often obtain a berth from a city that refused to receive another city's soldiers. Her agreements distinguished a household's right to shelter from a commander's claim to quarter troops.

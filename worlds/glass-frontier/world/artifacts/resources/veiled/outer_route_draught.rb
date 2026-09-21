@@ -1,4 +1,5 @@
 artifact :outer_route_draught do
+  tags :subject_journeys_trade
   name "The Outer-Route Draught"
   summary "The Outer-Route Draught is a batch of cold-marrow draught made along the Lithren, Vastine, Pelhari, and Vitrael routes. It slows resonance fever long enough for a patient to cross the outer routes awake."
   subkind :artifact

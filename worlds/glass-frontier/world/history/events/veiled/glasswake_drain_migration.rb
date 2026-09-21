@@ -1,4 +1,5 @@
 incident :glasswake_drain_migration do
+  tags :subject_planetary_life
   name "Glasswake Drain Migration"
   summary "Glasswake Drain Migration is the seasonal departure of metal-feeding life from Glasswake's drains when surface yards begin cutting ringglass."
   type_of :silver_run

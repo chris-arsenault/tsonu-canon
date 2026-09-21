@@ -4,7 +4,7 @@ encyclopedia :avar_road_people do
   kind :culture
   subkind :cultural_identity
   status :complete
-  topics :surface, :"social-structure", :navigation, :household
+  topics :surface, :"social-structure", :navigation, :household, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :unstable_route] }
 

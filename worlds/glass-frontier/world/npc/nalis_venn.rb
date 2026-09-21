@@ -8,7 +8,7 @@ npc :nalis_venn do
   specialty "Roads anchored in travelers' lived knowledge"
   status :complete
   prominence :recognized
-  tags :navigation, :transport, :resonance
+  tags :navigation, :transport, :resonance, :subject_istrava
 
   prose <<~PROSE
     Nalis Venn bears the #{ref :waybearer, "Waybearer"}. She first qualified by trusting a passenger's remembered home strongly enough to open a way to a place she had never seen. In 2430, during #{ref :somas_last_road, "Soma's Last Road"}, #{ref :soma_irel, "Soma Irel"} yielded an occupied crossing to her and stayed at the other end until its pursuit was resolved.

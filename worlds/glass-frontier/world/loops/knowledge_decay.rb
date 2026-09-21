@@ -1,4 +1,5 @@
 loop :knowledge_decay do
+  tags :subject_resonance
   name "Loop: Knowledge Decay"
   subkind :narrative_loop
   path "dm/loops/knowledge-decay.md"

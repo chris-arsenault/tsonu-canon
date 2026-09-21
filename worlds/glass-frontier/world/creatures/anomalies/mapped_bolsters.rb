@@ -5,7 +5,7 @@ creature :mapped_bolsters do
   type_of :bolsters
   belongs_to :lifeform, :farborn
   status :complete
-  tags :orbital, :resonance, :ecology, :salvage, :danger, :ringglass
+  tags :orbital, :resonance, :ecology, :salvage, :danger, :ringglass, :subject_shear
   prominence :recognized
 
   prose <<~PROSE

@@ -4,7 +4,7 @@ encyclopedia :balance do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Hollow Lift to Balance; the ordinary word acquires the device's defining Kaleidos meaning through its paired cars and neighborhood loading practice."
-  topics :"ring-hab", :transport, :rebuilding
+  topics :"ring-hab", :transport, :rebuilding, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   summary "A balance is a counterweighted passenger and freight lift rigged through the dead vertical shafts of ring fragments — two cars on one line over a salvaged wheel, balanced so a hand crew can move real loads. Rekindling engineering at its plainest, and the spine of vertical life in the habs."

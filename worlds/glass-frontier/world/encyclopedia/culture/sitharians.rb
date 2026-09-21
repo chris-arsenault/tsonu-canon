@@ -8,7 +8,7 @@ encyclopedia :sitharians do
   status :complete
   reviewed "2026-03-19"
   log "2026-08-31 — Renamed Sitharian Culture to Sitharians; the people carry the civic culture rather than an abstract category."
-  topics :"social-structure", :governance, :trade
+  topics :"social-structure", :governance, :trade, :subject_planetary_life
   prevalence :common
   available_globally
   formal_register "The default language of diplomacy, law and system-wide trade"

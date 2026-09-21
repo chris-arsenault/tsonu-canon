@@ -1,4 +1,5 @@
 creature :redband_nine do
+  tags :subject_bloom
   name "Redband Nine"
   summary "Redband Nine is a marked cordon-scavenger colony that crosses the Bloom boundary between Pyre and Latch."
   subkind :creature

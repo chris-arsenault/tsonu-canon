@@ -4,7 +4,7 @@ creature :rib_sorel_herds do
   subkind :animal
   type_of :sorel
   status :complete
-  tags :ecology, :resonance, :"structural-freq", :"ring-hab"
+  tags :ecology, :resonance, :"structural-freq", :"ring-hab", :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

@@ -1,4 +1,5 @@
 faction :hatchward_choir do
+  tags :subject_journeys_trade
   name "Hatchward Choir"
   summary "Hatchward Choir is a religious order whose singers guide damaged vessels through Keel docking joints."
   subkind :religious_order

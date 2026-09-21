@@ -5,7 +5,7 @@ encyclopedia :shaping do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Classified Shaping as narrow because it changes person-sized material behavior beyond ordinary workshop practice. Seaming became the broad operation on one existing join; district-scale reforming remains the Worldsmith mantle's reach."
-  topics :resonance, :"structural-freq", :materials, :rebuilding
+  topics :resonance, :"structural-freq", :materials, :rebuilding, :subject_resonance
   prevalence :rare
   available_globally
 

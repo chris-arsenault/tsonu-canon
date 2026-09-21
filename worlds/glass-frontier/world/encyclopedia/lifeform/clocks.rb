@@ -5,7 +5,7 @@ encyclopedia :clocks do
   subkind :creature
   status :complete
   log "2026-08-31 — Renamed Bell-Lung Colossus to Clocks; hab districts name the creatures for the breath rhythm that governs their work and sleep."
-  topics :"ring-hab", :"ring-era", :ecology, :danger
+  topics :"ring-hab", :"ring-era", :ecology, :danger, :subject_hab_life
   prevalence :rare
   appears_when all: { place: [:sealed_hab] }
   origin "Elven-engineered ventilation organism of the intact ring"

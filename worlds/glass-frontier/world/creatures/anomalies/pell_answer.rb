@@ -3,7 +3,7 @@ creature :pell_answer do
   summary "The Pell Answer is a voice-like anomaly that formed among four distant receivers during Pell Four. It spoke through alarms, shutters, and borrowed crew transmissions, then lost coherence when closure crews broke every repeated rhythm."
   subkind :anomaly
   type_of :farborn
-  tags :resonance, :danger, :mystery, :orbital
+  tags :resonance, :danger, :mystery, :orbital, :subject_bloom
   prominence :recognized
 
   descriptive_identity(

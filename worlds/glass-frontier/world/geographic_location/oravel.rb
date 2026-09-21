@@ -6,7 +6,7 @@ geographic_location :oravel do
   prominence :recognized
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :cold, :archive, :unstable_route
-  tags :materials, :mystery, :danger, :trade, :ecology
+  tags :materials, :mystery, :danger, :trade, :ecology, :subject_lithren
   descriptive_identity setting: "Silver and violet sheets hang between stone galleries; translucent specimen cylinders fill a side chamber above the buried floor.", activity: "Visitors trade responsive cuttings, open sealed wells, hunt escaped swimmers under a shelter and descend behind the thermal sheets.", hazards: "Opened wells can release unfamiliar organisms; a bright sheet hides depth, counterweights can move a gallery, and open rooms provide no breathable air."
   prose <<~PROSE
     Oravel lies beyond the western rim of #{ref :ithara, "Ithara"}'s basin. The modern name covers the exposed hall and the excavations around its upper approaches. From the landing, its stonework looks low and broken. Inside, galleries cross above one another while broad metal surfaces descend between them, turning silver or violet as a lamp moves.
@@ -34,14 +34,16 @@ geographic_location :oravel do
     Below the western galleries, #{ref :kavren, "Kavren"}'s pale crust encloses living folds around a warm brine fissure. Wet skins sell to instrument makers; the colony also conceals a threshold into rooms beyond the present excavation. A sealed sampling hood lets visitors see movement inside a surface that earlier collectors treated as manufactured packing.
 
     Nearby frozen covers lift under #{encyclopedia_ref :hesh, "hesh"}, briefly exposing the colony's casing from below. Brine and gas occupy separate pockets. The same low opening can offer a camera a view of buried steps and close on its cable when the cover settles.
+
+    Loose #{encyclopedia_ref :ovri_scales} gather along the dry approaches and leave with ordinary packing loads. In the enclosed brine fissures below, Daret's drawings record #{encyclopedia_ref :ometh} hanging beside the living folds. One recovered adult occupies a deep case at the landing. A buyer wants another caught without damage; its first collectors have offered their sampling hood to anyone who can bring back the tool still caught in the animal's former recess.
   PROSE
 
   prose <<~PROSE, section: :geography, heading: "The Sleeping Collection"
     In 2435 a party followed a dry crack above Kavren into a side chamber lined with translucent cylinders. Smaller capped wells sit inside each cylinder, surrounded by overlapping folds of the Hanging. Some wells have burst. Others still hold dark beads, folded membranes or roots fine enough to move when a visitor walks past. Inscribed tabs fit slots beside the heat pipes. The chambers below this gallery remain buried.
 
-    Under a portable pressure roof, the party warmed one sealed well and admitted filtered light. A bead split into a pale rooted fan. When fed water and dissolved salts it raised a thin web between its ribs; dark specks gathered along the web wherever a warm hand approached. Cuttings repeat the response. Placed against a glove, one spread fine hooks into its weave. The specimen remains enclosed at the landing, where its keepers offer cuttings in exchange for observations rather than ownership of the whole find.
+    Under a portable pressure roof, the party warmed one sealed well and admitted filtered light. A bead split into the rooted fan now called #{encyclopedia_ref :nethri}. The specimen remains enclosed at the landing, where its keepers offer cuttings in exchange for observations rather than ownership of the whole find. Rooted descendants have reached Ithara's cultivation rooms, while the original crown continues growing beside the well that contained it.
 
-    A second well held small swimmers that began moving when its brine thawed. They gather around a warm probe, strike it together and retreat from a strong current. A cracked cover spilled several into the warm drainage under the party's shelter. Something now taps beneath the shallow floor when the occupants lie down. The keepers have barred that shelter while they try to recover the animals; a collector has offered to buy whatever can be brought out alive.
+    A second well held #{encyclopedia_ref :uluri}, small swimmers that began moving when its brine thawed. A cracked cover spilled several into the warm drainage under the party's shelter. Something now taps beneath the shallow floor when the occupants lie down. The keepers have barred that shelter while they try to recover the animals; a collector has offered to buy whatever can be brought out alive. Broad-windowed #{encyclopedia_ref :neral, "nerals"} wait beside the locked door, each borrowed from a different crew.
 
     The wells are independently sealed. Warming a room does not awaken every specimen, and an opened well cannot be made safe merely by switching off a lamp. Cutters who want the valuable wrapping can expose living contents before noticing them. Other visitors seek intact wells for gardens, medicines or private collections. The old tabs distinguish groups, but nobody can yet read enough of them to choose a harmless specimen by its label.
   PROSE

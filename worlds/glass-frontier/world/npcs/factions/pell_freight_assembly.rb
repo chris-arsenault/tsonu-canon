@@ -7,7 +7,7 @@ faction :pell_freight_assembly do
   type_of :mutuals
   belongs_to :culture, :warrants
   founded 2416
-  tags :trade, :transport, :salvage, :resonance, :"social-structure"
+  tags :trade, :transport, :salvage, :resonance, :"social-structure", :subject_shear
   prominence :recognized
 
   descriptive_identity(
@@ -60,6 +60,11 @@ faction :pell_freight_assembly do
 
     Its weakness is coordination. Shared clocks keep berths and haulers moving, and pooled losses reward uniform procedure. At #{ref :pell_cut, "Pell Cut"}, the Assembly extended that discipline to four extraction arrays. The synchronized test triggered #{ref :pell_four, "Pell Four"}.
   PROSE
+  prose <<~PROSE, section: :culture, heading: "People Between Voyages"
+    Some member households arrange their leave together. Those returning from #{ref :naloven, "Naloven"}'s baths bring fruit sheets, bad imitations of quarry songs and a taste for #{encyclopedia_ref :tovan, "tovan"}. Bouts now draw crews to one another's cleared floors while ships lie at berth. Passengers lend their own techniques, and the next departure carries a different favorite move.
+
+    Aboard #{ref :steady_return, "Steady Return"}, the schoolroom benches move aside for visiting players. Other members prefer a meal and a chance to hear the latest recording from home. Families bring #{encyclopedia_ref :old_proof, "bread"} and small presents when their voyages overlap. An invitation to one ship's table gives a newcomer friends among that household; members with no taste for crowded evenings keep their doors shut without surrendering their place in the Assembly.
+  PROSE
   prose <<~PROSE, section: :present_day, heading: "After the Emergence"
     The Assembly closed the affected routes, surrendered its array records, and put its repair crews under #{ref :displacement_council, "Displacement Council"} direction until the boundary was gone. Members voted to keep Daro in office after a long open meeting at Glasswake. They also separated every remote array clock in the network and gave on-site #{encyclopedia_ref :resonant_tuner, "Tuners"} independent stop authority.
 
@@ -67,7 +72,7 @@ faction :pell_freight_assembly do
   PROSE
 
   gm_note :triggered_by, "Someone eventually asks the Assembly to send a ship or order a crew somewhere. The five route factors cannot direct a member vessel; they can withhold docks, insurance, and freight access, so the pressure reaches a member through the ledger rather than through an order."
-  gm_note :appears, "A crew that cannot meet a cash call at a Pell yard is offered work credit instead: maintenance watches, rescue standby, or an empty return leg. Rescue standby is a real obligation and it gets called in at the yard's convenience."
+  gm_note :appears, "At berth, a neighboring crew arrives with bread and a rolled fighting sash. They remember a passenger's last bout and want a return match before the benches go back for lessons."
   gm_note :complicates, "#{ref :daro_venn, "Daro Venn"} runs Assembly meetings like a claim board, naming the hazard first, the price second, and letting the person who will carry the risk speak before anyone votes. Players who want the decision made for them have to stand up and say what they are accepting."
 end
 

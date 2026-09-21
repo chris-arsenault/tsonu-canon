@@ -1,4 +1,5 @@
 npc :karet_three_reckoner do
+  tags :subject_bloom
   name "The Karet Three Reckoner"
   summary "The Karet Three Reckoner holds a route by counting the silences between damaged navigation beacons."
   type_of :dead_reckoning

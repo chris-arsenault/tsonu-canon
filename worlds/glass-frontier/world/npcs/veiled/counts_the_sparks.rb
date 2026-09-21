@@ -1,4 +1,5 @@
 npc :counts_the_sparks do
+  tags :subject_bloom
   name "Counts-the-Sparks"
   summary "Counts-the-Sparks is a Pyre field specialist who maps live charge inside the refinery rubble."
   subkind :specialist

@@ -4,7 +4,7 @@ resource :wrong_side_lot do
   subkind :material
   type_of :duskgrain
   status :complete
-  tags :resonance, :danger, :materials, :trade
+  tags :resonance, :danger, :materials, :trade, :subject_bloom
   prominence :marginal
 
   descriptive_identity(

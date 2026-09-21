@@ -10,7 +10,7 @@ installation :ladderwell do
   role "Market town, water works, and machinery center for eastern Avar"
   setting "Stone benches above a deep sloping aquifer at the foot of the Kyther Range"
   access "Steppe road, regional kite field, and highland pack routes"
-  tags :surface, :resonance, :trade, :"structural-freq", :"kinetic-freq"
+  tags :surface, :resonance, :trade, :"structural-freq", :"kinetic-freq", :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

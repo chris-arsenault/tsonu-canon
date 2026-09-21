@@ -7,7 +7,7 @@ geographic_location :sable_crescent do
   path "player/locations/regions/sable-crescent.md"
   status :complete
   reviewed "2026-03-20"
-  tags :surface, :resonance, :archives, :"signal-freq"
+  tags :surface, :resonance, :archives, :"signal-freq", :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_surface, latitude_deg: -4, longitude_deg: -55,
            size_class: :region

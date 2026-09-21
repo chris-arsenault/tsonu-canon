@@ -5,7 +5,7 @@ encyclopedia :tally_dust do
   status :complete
   log "2026-08-31 — Renamed Rattle Tally Dust to Tally; the freight medium's original bookkeeping office supplies a concise shifted meaning instead of a three-part material description."
   log "2026-08-31 — Renamed Tally to Tally Dust. The bare title collided with the named ship Tally; freight culture already uses tally for attestations, bowls, route records, and that ship, while dust identifies this medium within the family."
-  topics :trade, :"ring-era", :archives, :mystery
+  topics :trade, :"ring-era", :archives, :mystery, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:dock, :market] }
   summary "Tally dust is a fine metallic medium, harvested from the holds of two ring-era freight installations, that settles into legible figures: the last registered weight of any container opened above it. On the standing ring it was the cargo system's own bookkeeping medium; scattered, it is a scarce instrument that dockside trade prizes and dockside fraud studies."

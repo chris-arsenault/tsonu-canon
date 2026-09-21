@@ -5,7 +5,7 @@ encyclopedia :descender do
   subkind :profession
   status :complete
   log "2026-08-31 — Renamed Keener to Descender; the title names the profession's mourning form."
-  topics :music, :"ring-era", :religion, :household
+  topics :music, :"ring-era", :religion, :household, :subject_common_life
   prevalence :rare
   appears_when any: { place: [:urban, :sealed_hab] }
 

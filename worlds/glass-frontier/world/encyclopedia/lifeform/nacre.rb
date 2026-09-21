@@ -5,7 +5,7 @@ encyclopedia :nacre do
   origin_blurb "Overlapping mineral plates record travel as fine kinetic grooves and are shed in slow cycles."
   subkind :sapient_species
   status :complete
-  topics :species, :navigation, :"outer-system"
+  topics :species, :navigation, :"outer-system", :subject_common_life
   prevalence :uncommon
   available_globally
   registry true

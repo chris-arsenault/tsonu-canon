@@ -4,7 +4,7 @@ transport :nera_doss do
   subkind :vessel
   capacity "Four crew, two line workers, and six folded recovery panels"
   status :complete
-  tags :transport, :orbital, :materials, :resonance
+  tags :transport, :orbital, :materials, :resonance, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

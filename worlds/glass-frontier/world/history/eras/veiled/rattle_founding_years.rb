@@ -1,4 +1,5 @@
 era :rattle_founding_years do
+  tags :subject_hab_life
   name "Rattle Founding Years"
   summary "The Rattle Founding Years began when Wash workshops moved their weighing benches into Carom's open market."
   subkind :era

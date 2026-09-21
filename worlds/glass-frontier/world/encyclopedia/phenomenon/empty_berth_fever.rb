@@ -4,7 +4,7 @@ encyclopedia :empty_berth_fever do
   kind :phenomenon
   subkind :social_condition
   status :complete
-  topics :"social-structure", :"ring-hab", :governance
+  topics :"social-structure", :"ring-hab", :governance, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:dock, :sealed_hab] }
   medium "Stranded transient populations in dock settlements' vacant berths and rooms"

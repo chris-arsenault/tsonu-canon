@@ -4,7 +4,7 @@ transport :ruvian do
   subkind :vessel
   status :complete
   prominence :recognized
-  tags :transport, :rebuilding, :resonance
+  tags :transport, :rebuilding, :resonance, :subject_resonance
 
   prose <<~PROSE
     Ruvian is a working vessel returned from scattered wreckage in the #{ref :ruvian_return, "restoration of 2429"}. #{ref :eris_talven, "Eris Talven"} assembled its witnesses and identified the flaws in the chosen state. The woman who performed the working still travels aboard. The safe closure around its absent bow gallery marks her chosen omission.

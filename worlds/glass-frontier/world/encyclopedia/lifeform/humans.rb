@@ -7,7 +7,7 @@ encyclopedia :humans do
   subkind :sapient_species
   status :complete
   reviewed "2026-03-18"
-  topics :species
+  topics :species, :subject_common_life
   prevalence :common
   available_globally
   registry true

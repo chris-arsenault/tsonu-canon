@@ -6,7 +6,7 @@ installation :clearance_eight do
   origin_blurb "A debris-capture settlement where eight public desks decide what may pass, be claimed, or be cut."
   subkind :settlement
   status :complete
-  tags :"ring-hab", :transport, :navigation, :salvage, :governance, :"kinetic-freq"
+  tags :"ring-hab", :transport, :navigation, :salvage, :governance, :"kinetic-freq", :subject_journeys_trade
   prominence :recognized
   population 2700
   population_band "About twenty-seven hundred residents"

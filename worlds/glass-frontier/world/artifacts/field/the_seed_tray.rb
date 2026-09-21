@@ -5,7 +5,7 @@ artifact :the_seed_tray do
   type_of :seed
   resource :ringglass
   status :complete
-  tags :resonance, :trade, :materials, :transport
+  tags :resonance, :trade, :materials, :transport, :subject_journeys_trade
   prominence :marginal
 
   descriptive_identity(

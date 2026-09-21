@@ -4,7 +4,7 @@ encyclopedia :knocking do
   kind :ability
   subkind :technique
   status :complete
-  topics :training, :"ring-era", :household
+  topics :training, :"ring-era", :household, :subject_hab_life
   prevalence :common
   appears_when any: { place: [:sealed_hab, :debris_field] }
   function "Opens ring-era service fittings through learned pressure-and-tap sequences"

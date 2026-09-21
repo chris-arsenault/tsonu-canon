@@ -18,7 +18,7 @@ npc :tess_orr do
     "beacon into a later patch, however fast the owner wants the cloth " \
     "clean."
   status :complete
-  tags :household, :archives, :"signal-freq"
+  tags :household, :archives, :"signal-freq", :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

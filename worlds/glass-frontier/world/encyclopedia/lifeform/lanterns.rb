@@ -4,7 +4,7 @@ encyclopedia :lanterns do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Lantern Fisher to Lanterns; the shorter working name identifies the lure-bearing animal."
-  topics :"fluid-reality", :salvage, :ecology, :mystery
+  topics :"fluid-reality", :salvage, :ecology, :mystery, :subject_shear
   prevalence :rare
   appears_when all: { place: [:debris_field] }
   summary "Lanterns are long-limbed debris-field anomalies that soften solid surfaces with a cold luminous lure, then draw small dense objects through them. Wild animals hold fishing grounds in deep wrecks; salvage handlers work with collared lanterns from skiffs."

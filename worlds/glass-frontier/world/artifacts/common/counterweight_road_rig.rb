@@ -4,7 +4,7 @@ artifact :counterweight_road_rig do
   subkind :machine
   function "Moves an occupied or operating structure across a temporary load path"
   status :complete
-  tags :surface, :transport, :"structural-freq", :"kinetic-freq", :training
+  tags :surface, :transport, :"structural-freq", :"kinetic-freq", :training, :subject_planetary_life
   prominence :recognized
 
   descriptive_identity(

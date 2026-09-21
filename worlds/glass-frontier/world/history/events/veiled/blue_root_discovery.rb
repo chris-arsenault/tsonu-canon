@@ -1,4 +1,5 @@
 incident :blue_root_discovery do
+  tags :subject_planetary_life
   name "The Blue-Root Discovery"
   summary "The Blue-Root Discovery was the recovery of living roots beneath a dry Sable recording vault and their transfer to Ledgerfall."
   subkind :discovery

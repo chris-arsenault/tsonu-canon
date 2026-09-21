@@ -4,7 +4,7 @@ phenomenon :upward_burial do
   summary "Upward Burial is the recurring custody-bound ascent recorded at Thornvault: a sealed, specifically identified holding climbs toward open sky whenever a living custodian authenticates it."
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :archives, :governance, :danger
+  tags :resonance, :archives, :governance, :danger, :subject_politics_history
   prominence :recognized
   trigger "A sealed object or chamber has a specific recorded identity and a living custodian willing to authenticate it"
   effect "Three descending tones sound and the complete holding climbs through surrounding matter toward the nearest open sky without breaking its seal"

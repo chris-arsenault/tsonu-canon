@@ -5,7 +5,7 @@ encyclopedia :binding do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Ledger Recall to Binding; the name describes the wrist-pattern that holds an account together."
-  topics :archives, :training, :trade
+  topics :archives, :training, :trade, :subject_resonance
   prevalence :uncommon
   available_globally
   function "Carries long spoken accounts verbatim, bound passage by passage to trained wrist pulses, for witnessed replay"

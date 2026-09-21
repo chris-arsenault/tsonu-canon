@@ -4,7 +4,7 @@ encyclopedia :drover do
   kind :role
   subkind :profession
   status :complete
-  topics :surface, :trade, :ecology, :"social-structure"
+  topics :surface, :trade, :ecology, :"social-structure", :subject_planetary_life
   prevalence :common
   appears_when any: { place: [:surface, :road, :garden] }
 

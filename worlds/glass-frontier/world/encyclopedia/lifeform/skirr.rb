@@ -4,7 +4,7 @@ encyclopedia :skirr do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Ash Skater to Skirr; the prior descriptive compound did not supply a setting name."
-  topics :ecology, :"outer-system", :navigation
+  topics :ecology, :"outer-system", :navigation, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:hot] }
   summary "Skirr are long-legged hot-country grazers whose splayed ceramic feet and narrow mineral fins carry them across Ashvane's ash pans and Crucible's hot ground. Flocks skim mineral blooms in the cool hours, bend away from weak crust, and scatter ahead of a pressure front; a cornered skirr sheds cutting flakes from its fins."

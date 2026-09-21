@@ -3,7 +3,7 @@ encyclopedia :mutuals do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :"social-structure", :household, :trade
+  topics :"social-structure", :household, :trade, :subject_common_life
   prevalence :common
   available_globally
   summary "Mutuals are member-run societies that pool dues against injury, loss, tool ruin, burial costs, and failed seasons. Elected officers keep open claim tables, shared tool libraries, and benefit books read alongside licenses at hiring halls."

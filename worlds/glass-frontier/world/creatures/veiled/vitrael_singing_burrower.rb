@@ -1,4 +1,5 @@
 creature :vitrael_singing_burrower do
+  tags :subject_planetary_life
   name "The Vitrael Singing Burrower"
   summary "The Vitrael Singing Burrower is a crystal-dwelling creature ranging between Vitrael and Ashenmaw. It tunnels through Vitrael crystal and surfaces where a cutting crew begins to sing."
   subkind :creature

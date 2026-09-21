@@ -4,7 +4,7 @@ artifact :red_sleeve do
   subkind :instrument
   function "Provides a stable textile trace for field comparison and wash calibration"
   status :complete
-  tags :household, :archives, :mystery, :"signal-freq"
+  tags :household, :archives, :mystery, :"signal-freq", :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

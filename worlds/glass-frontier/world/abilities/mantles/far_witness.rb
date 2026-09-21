@@ -5,7 +5,7 @@ ability :far_witness do
   subkind :the_three
   status :complete
   log "2026-08-31 — Distinguished historical Witnessing from present-tense Elsewhere; the mantle carries either form of observation across the system and answers the bearer to everyone along it."
-  tags :resonance, :religion, :"signal-freq", :archives
+  tags :resonance, :religion, :"signal-freq", :archives, :subject_resonance
   prominence :recognized
   qualification "Answers someone who placed dangerous evidence in a public record together with the fact that implicated them"
   succession "Passes when the bearer deliberately closes their perception and entrusts an unfinished line of evidence to another witness"

@@ -9,7 +9,7 @@ npc :nereth_valis do
   narrative_role :viewpoint
   status :complete
   prominence :recognized
-  tags :archives, :mystery, :resonance
+  tags :archives, :mystery, :resonance, :subject_lithren
   descriptive_identity attire: "A pressure suit patched at both knees, with soft covers over the instrument clasps.", tools: "Separated trays of pieces that must not touch or warm before comparison.", manner: "Repeats exactly which object carried an observation when someone broadens its meaning.", disposition: "Wants the recovered city opened and will enter a disputed site to obtain the evidence that could change the proposed return."
 
   prose <<~PROSE
@@ -28,6 +28,12 @@ npc :nereth_valis do
     She wants to learn where the departing inhabitants went. She does not claim that every departure had one cause, or that finding a destination would explain resonance's origin. A recovered event can answer a smaller question completely while leaving those larger questions untouched.
 
     Nereth hires passage with independent crews to examine small sites overlooked by the larger expeditions. She will spend scarce funds on an unprofitable observation if it can distinguish two explanations. She pays for careful work and shares comparisons with the people who bring her samples; a prospector can value the payment without sharing her fascination with the result.
+  PROSE
+
+  prose <<~PROSE, section: :operations, heading: "The Margin Beside a Drawing"
+    Nereth edits the expedition's illustrated field comparisons with the people who made each observation. She asks a returning collector to point out the side of a specimen that never left the brine, or the fold hidden by the carrying frame. The answers can make two supposed species into one animal seen under different conditions. She leaves a contributor's uncertain sketch beside the clearer later drawing when it records a state nobody has seen again.
+
+    Her own interest remains the recovered collections and the people who arranged them. The tabs beside #{ref :oravel}'s wells can be compared with one another even while their writing remains unread. She keeps that work separate from the keepers' account of what the living contents do now.
   PROSE
 
   gm_note :triggered_by, "Showing Nereth a piece that contradicts the proposed return gets her onto the next surface journey, even when entering the site risks her relationship with a rival crew."

@@ -5,7 +5,7 @@ installation :vey do
   context_tags :sealed_hab
   subkind :settlement
   status :complete
-  tags :"ring-hab", :"structural-freq", :household, :resonance, :governance
+  tags :"ring-hab", :"structural-freq", :household, :resonance, :governance, :subject_hab_life
   prominence :recognized
   population 12500
   population_band "About twelve and a half thousand residents"

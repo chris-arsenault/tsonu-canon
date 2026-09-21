@@ -4,7 +4,7 @@ encyclopedia :kesh_challenge_names do
   kind :culture
   subkind :expressive_tradition
   status :complete
-  topics :"ring-hab", :"social-structure", :"kinetic-freq", :training
+  topics :"ring-hab", :"social-structure", :"kinetic-freq", :training, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
 

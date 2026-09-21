@@ -4,7 +4,7 @@ transport :five_bolts do
   subkind :vessel
   capacity "Three crew and one short-haul tow frame"
   status :complete
-  tags :transport, :salvage, :"kinetic-freq", :"ring-hab"
+  tags :transport, :salvage, :"kinetic-freq", :"ring-hab", :subject_shear
   prominence :marginal
 
   descriptive_identity(

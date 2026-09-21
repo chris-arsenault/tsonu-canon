@@ -5,7 +5,7 @@ encyclopedia :stillwater do
   status :complete
   summary "Stillwater is purified Echo River water whose suspended crystal lattice stores dense signal-band information after its accidental historical imprints are removed."
   reviewed "2026-03-19"
-  topics :resonance, :"signal-freq", :materials
+  topics :resonance, :"signal-freq", :materials, :subject_common_life
   prevalence :rare
   available_globally
 

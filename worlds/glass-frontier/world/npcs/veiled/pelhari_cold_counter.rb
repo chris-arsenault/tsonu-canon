@@ -1,4 +1,5 @@
 npc :pelhari_cold_counter do
+  tags :subject_journeys_trade
   name "The Pelhari Cold Counter"
   summary "The Pelhari Cold Counter wakes when a hull loses heat faster than its gauges can register."
   type_of :creditor

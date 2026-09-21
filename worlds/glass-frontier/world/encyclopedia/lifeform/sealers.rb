@@ -4,7 +4,7 @@ encyclopedia :sealers do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Reef Grazer to Sealers; the working name distinguishes the animals by the leak-sealing service that separates them from sorel and other reef browsers."
-  topics :"ring-hab", :"ring-era", :ecology
+  topics :"ring-hab", :"ring-era", :ecology, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   summary "Sealers are placid, slab-bodied animals that browse the living pressure reefs of the ring habitats, cropping overgrowth and sealing small leaks with their mineral-rich spit. The ring bred them as reef stewards, and Rib's herds still work the oldest reef alive."

@@ -4,7 +4,7 @@ encyclopedia :thresholds do
   kind :culture
   subkind :governance
   status :complete
-  topics :governance, :"fluid-reality", :household, :danger
+  topics :governance, :"fluid-reality", :household, :danger, :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:displacement_zone] }
 

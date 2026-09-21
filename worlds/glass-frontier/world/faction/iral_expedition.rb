@@ -5,7 +5,7 @@ faction :iral_expedition do
   founded 2431
   status :complete
   prominence :recognized
-  tags :archives, :military, :rebuilding
+  tags :archives, :military, :rebuilding, :subject_lithren
 
   prose <<~PROSE
     The Iral Expedition finances long surface residencies and collects fragments from scattered Lithren works. #{ref :selven_iral, "Selven Iral"} founded it in 2431 after concluding that crews who departed after each survey would lose the most valuable recoveries to people prepared to stay.

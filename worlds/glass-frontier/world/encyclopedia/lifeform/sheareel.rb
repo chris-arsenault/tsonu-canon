@@ -5,7 +5,7 @@ encyclopedia :sheareel do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Drift-eel to Sheareel; the title ties the animal to the Shear it inhabits."
-  topics :danger, :orbital, :resonance, :ecology, :salvage
+  topics :danger, :orbital, :resonance, :ecology, :salvage, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
 

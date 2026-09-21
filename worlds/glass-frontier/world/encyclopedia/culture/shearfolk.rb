@@ -6,7 +6,7 @@ encyclopedia :shearfolk do
   origin_blurb "Route crews trade current charts, shared rescue debts, and work names across the Shear."
   subkind :cultural_identity
   status :complete
-  topics :"social-structure", :salvage, :trade, :transport
+  topics :"social-structure", :salvage, :trade, :transport, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
   integration "Raised among routes where charts expire and a crew's rescue record determines trust"

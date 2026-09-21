@@ -1,4 +1,5 @@
 npc :miraeth_loam_hearer do
+  tags :subject_planetary_life
   name "The Miraeth Loam Hearer"
   summary "The Miraeth Loam Hearer feels root damage as a faint pulse through bare fingertips."
   type_of :loam_hearing

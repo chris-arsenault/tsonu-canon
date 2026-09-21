@@ -1,4 +1,5 @@
 creature :folded_annex_corner_spider do
+  tags :subject_planetary_life
   name "The Folded Annex Corner-Spider"
   summary "The Folded Annex Corner-Spider is a spatial anomaly ranging between the Folded Annex and Underlayers. It stitches nearby corners together and retreats through the resulting seam when disturbed."
   subkind :anomaly

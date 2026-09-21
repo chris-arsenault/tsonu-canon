@@ -1,4 +1,5 @@
 faction :fermata_working_ensemble do
+  tags :subject_hab_life
   name "The Fermata Working Ensemble"
   summary "The Fermata Working Ensemble claims a repeated machine tone as public music once three crews can keep time with it."
   type_of :answering_phrase

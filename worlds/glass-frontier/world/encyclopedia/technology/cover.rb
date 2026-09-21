@@ -4,7 +4,7 @@ encyclopedia :cover do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Shade Crawler to Cover; hot-country crews' governing route resource now names the vehicles whose schedules and construction depend on it."
-  topics :transport, :"outer-system", :danger, :"ring-era"
+  topics :transport, :"outer-system", :danger, :"ring-era", :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:hot, :road] }
   summary "Covers are long, low freight vehicles used on hot-country shade routes. Pilots follow seasonal tables from crater rims through canyon and spire shadows, sprint across short lit gaps, and park beneath rated shelter until the next connection opens. Each hull survives only a measured number of minutes in direct sun."

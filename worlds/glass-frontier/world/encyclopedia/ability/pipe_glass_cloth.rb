@@ -5,7 +5,7 @@ encyclopedia :pipe_glass_cloth do
   subkind :verification_method
   status :complete
   log "2026-08-31 — Renamed Verification to Pipe, Glass, Cloth; the three bench materials name the practice in the order every operator works them."
-  topics :"signal-freq", :archives, :training
+  topics :"signal-freq", :archives, :training, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:damaged_signal] }
   function "Verifies damaged message content — each doubtful word repeated through three carrying materials in sequence, accepted as stable only when all three deliver it identically"

@@ -6,7 +6,7 @@ installation :room_before_the_ice do
   culture :rolls
   resource :thawglass
   status :complete
-  tags :"ring-hab", :"ring-era", :household, :materials, :mystery
+  tags :"ring-hab", :"ring-era", :household, :materials, :mystery, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

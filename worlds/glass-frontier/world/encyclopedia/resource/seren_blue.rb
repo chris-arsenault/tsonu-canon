@@ -6,7 +6,7 @@ encyclopedia :seren_blue do
   log "2026-08-31 — Renamed Blue Loam to Seren Blue; the source settlement and the growers' visible color create a local commodity name instead of a generic soil compound."
   summary "Seren blue is a live medicinal soil whose fungal nodules guide sensation back through damaged nerves."
   function "Carries a medicinal mold that guides nerve regrowth"
-  topics :ecology, :materials, :trade, :resonance
+  topics :ecology, :materials, :trade, :resonance, :subject_hab_life
   prevalence :rare
   appears_when all: { place: [:garden] }
 

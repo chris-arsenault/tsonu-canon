@@ -1,4 +1,5 @@
 npc :ashvane_heatwalker do
+  tags :subject_planetary_life
   name "The Ashvane Heatwalker"
   summary "The Ashvane Heatwalker crosses work yards by reading pressure shimmer through the soles of insulated boots."
   type_of :heatwalking

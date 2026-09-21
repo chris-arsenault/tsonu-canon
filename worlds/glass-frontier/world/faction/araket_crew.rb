@@ -4,7 +4,7 @@ faction :araket_crew do
   subkind :company
   status :complete
   prominence :recognized
-  tags :trade, :danger, :transport
+  tags :trade, :danger, :transport, :subject_lithren
   log "2026-09-16 — Consolidated Orvek's biography here. The unnamed captain retains coercion, attachment to companions, demands on Ysil and the ability to bargain; dissenting members remain distinct from him."
   prose <<~PROSE
     The people aboard #{ref :araket, "Araket"} travel between small Lithren excavations. They can rig a load, repair a shelter and share the proceeds of an honest recovery. They also surround weakly defended camps and make captive cutters extract goods they cannot reach themselves. Their ship carries tools worn by both kinds of work.

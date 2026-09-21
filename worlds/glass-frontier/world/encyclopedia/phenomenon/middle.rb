@@ -4,7 +4,7 @@ encyclopedia :middle do
   subkind :physical_phenomenon
   status :complete
   log "2026-08-31 — Renamed Distance Insertion to The Middle; the displacement-country phrase names the added traversable interior as people encounter and rent it, without technical abstraction."
-  topics :"fluid-reality", :navigation, :danger, :mystery
+  topics :"fluid-reality", :navigation, :danger, :mystery, :subject_bloom
   prevalence :rare
   appears_when any: { place: [:displacement_zone, :debris_field] }
   summary "The Middle adds traversable length to a path while its endpoints retain their apparent and surveyed separation. Zone registries measure each middle's depth and drift; stable stretches serve as storage, and deep ones are crossed on counted lines."

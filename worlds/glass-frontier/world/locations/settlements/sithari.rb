@@ -8,7 +8,7 @@ installation :sithari do
   path "player/locations/settlements/sithari.md"
   status :complete
   reviewed "2026-03-19"
-  tags :surface, :governance, :trade, :"ring-era"
+  tags :surface, :governance, :trade, :"ring-era", :subject_planetary_life
   prominence :mythic
   position frame: :kaleidos_surface, latitude_deg: 0, longitude_deg: 0,
            size_class: :site

@@ -4,7 +4,7 @@ encyclopedia :lacunae do
   subkind :creature
   status :complete
   log "2026-08-31 — Renamed Eaters to Lacunae; the new title names the gaps the animals leave in inscriptions."
-  topics :"outer-system", :archives, :ecology, :mystery
+  topics :"outer-system", :archives, :ecology, :mystery, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:cold, :archive] }
   summary "Lacunae are slow plate-backed grazers that consume inscriptions from Lithren's frozen ruins and leave the stone smooth. Their mapped home fields and avoidance of archive frost set the copying schedule at the research stations."

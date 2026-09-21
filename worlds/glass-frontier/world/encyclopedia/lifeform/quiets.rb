@@ -4,7 +4,7 @@ encyclopedia :quiets do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Reedjaw to Quiets; the new title names the silence they make in a reed bed."
-  topics :ecology, :danger, :resonance
+  topics :ecology, :danger, :resonance, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:waterway] }
   summary "Quiets are arm-length ambush predators whose hunting stillness damps the standing chord around a reed bed. They defend long-held territories, take birds and small grazers, and appear to trained cutters as a body-length hole in the bed's song."

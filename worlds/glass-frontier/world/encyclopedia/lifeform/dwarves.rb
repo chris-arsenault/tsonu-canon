@@ -6,7 +6,7 @@ encyclopedia :dwarves do
   origin_blurb "Compact and heat-steady, dwarves read fine vibration and layered material through touch."
   subkind :sapient_species
   status :complete
-  topics :species, :materials, :resonance
+  topics :species, :materials, :resonance, :subject_common_life
   prevalence :uncommon
   available_globally
   origin "Alien arrivals during the ring era"

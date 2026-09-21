@@ -4,7 +4,7 @@ encyclopedia :crossers do
   kind :lifeform
   subkind :ecological_group
   status :complete
-  topics :ecology, :"fluid-reality", :"ring-hab"
+  topics :ecology, :"fluid-reality", :"ring-hab", :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:displacement_zone] }
   origin "Descended from animals resident when a zone opened and from later arrivals carried through shifted rooms; each zone begins with different stock"

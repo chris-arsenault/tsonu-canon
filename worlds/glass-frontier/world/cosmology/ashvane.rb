@@ -5,7 +5,7 @@ geographic_location :ashvane do
   context_tags :outer_system, :surface, :hot
   subkind :celestial_body
   status :complete
-  tags :"outer-system", :resonance, :trade, :danger, :ecology
+  tags :"outer-system", :resonance, :trade, :danger, :ecology, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :ashenmaw,
            radial_offset: 0.08, angle_offset_deg: 5

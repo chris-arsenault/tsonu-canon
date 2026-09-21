@@ -3,7 +3,7 @@ incident :pell_four do
   summary "Pell Four was a short-lived reality boundary created by four synchronized extraction arrays at Pell Cut in 2434."
   subkind :operational_failure
   date 2434
-  tags :catastrophe, :danger, :resonance, :salvage, :orbital
+  tags :catastrophe, :danger, :resonance, :salvage, :orbital, :subject_bloom
   prominence :recognized
 
   descriptive_identity(

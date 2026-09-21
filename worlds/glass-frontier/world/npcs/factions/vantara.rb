@@ -8,7 +8,7 @@ faction :vantara do
   belongs_to :culture, :commercial_standing
   path "player/npcs/factions/vantara.md"
   reviewed "2026-03-18"
-  tags :trade, :transport, :governance
+  tags :trade, :transport, :governance, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

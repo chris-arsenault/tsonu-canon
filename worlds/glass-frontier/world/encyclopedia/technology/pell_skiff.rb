@@ -6,7 +6,7 @@ encyclopedia :pell_skiff do
   status :complete
   log "2026-08-31 — Renamed Claim Rig to Pell Skiff; Pell names the route and yard tradition that standardized the isolated-receiver design, and skiff is the crews' own vessel word."
   capacity "Three to twelve crew, one to four remote cutters, and isolated receiving rooms"
-  topics :transport, :salvage, :resonance, :orbital, :danger, :trade
+  topics :transport, :salvage, :resonance, :orbital, :danger, :trade, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
 

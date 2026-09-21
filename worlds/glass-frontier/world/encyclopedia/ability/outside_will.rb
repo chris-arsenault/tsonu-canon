@@ -6,7 +6,7 @@ encyclopedia :outside_will do
   status :complete
   log "2026-08-31 — Renamed Dominion to Outside Will; the Three Forms term names the power as Will imposed from beyond a subject's own Form rather than by its audible symptom."
   log "2026-08-31 — Kept one broad-tier spell for one immediate command. The former focused and narrow rows added subjects, duration, and standing authority without changing the operation; collective command remains the Red Sovereign mantle's work."
-  topics :resonance, :governance, :military, :danger
+  topics :resonance, :governance, :military, :danger, :subject_resonance
   prevalence :rare
   available_globally
 

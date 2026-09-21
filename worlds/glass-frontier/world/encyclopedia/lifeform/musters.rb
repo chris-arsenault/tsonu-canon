@@ -4,7 +4,7 @@ encyclopedia :musters do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Vault Moth to Musters; the new title names the archive colonies' gathering behavior."
-  topics :archives, :"ring-era", :ecology
+  topics :archives, :"ring-era", :ecology, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:archive] }
   summary "Musters are pale, silent moths bred by the elves to graze mold from stored records. Great archives keep working colonies and read clustering, feeding, and the dawn return count as signs of stack conditions."

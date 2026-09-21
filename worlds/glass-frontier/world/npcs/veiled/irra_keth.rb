@@ -1,4 +1,5 @@
 npc :irra_keth do
+  tags :subject_shear
   name "Irra Keth"
   summary "Irra Keth is a Heshari cutter-yard claims runner working between the Dry Net, Three Arms Yard, Lot Forty, and Clearance Eight."
   subkind :npc

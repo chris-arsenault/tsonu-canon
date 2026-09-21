@@ -4,7 +4,7 @@ encyclopedia :custody do
   kind :culture
   subkind :work_tradition
   status :complete
-  topics :trade, :training, :governance, :transport, :"social-structure"
+  topics :trade, :training, :governance, :transport, :"social-structure", :subject_politics_history
   prevalence :uncommon
   available_globally
 

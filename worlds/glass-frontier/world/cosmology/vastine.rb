@@ -5,7 +5,7 @@ geographic_location :vastine do
   context_tags :outer_system
   subkind :celestial_body
   status :complete
-  tags :cosmology, :"outer-system", :ecology, :trade, :religion
+  tags :cosmology, :"outer-system", :ecology, :trade, :religion, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_system_chart, radius: 7, angle_deg: 46
 

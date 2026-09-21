@@ -5,7 +5,7 @@ ability :all_hunger do
   subkind :the_adversary
   status :complete
   log "2026-08-31 — Distinguished the mantle's physical taking through Hunger from its theft of learned and remembered patterns through Want; the mantle can perform either across a collective subject."
-  tags :resonance, :religion, :danger, :"kinetic-freq", :"signal-freq"
+  tags :resonance, :religion, :danger, :"kinetic-freq", :"signal-freq", :subject_resonance
   prominence :recognized
   qualification "Answers someone who took a needed quality from another person and remained with them long enough to account for the loss"
   succession "Passes when another person willingly gives the starving bearer something irreplaceable and survives the mantle's attempt to consume the giver as well"

@@ -1,4 +1,5 @@
 npc :mudhand do
+  tags :subject_planetary_life
   name "Mudhand"
   summary "Mudhand is a river worker who clears intake reeds between Dovra and Lowbank."
   subkind :worker

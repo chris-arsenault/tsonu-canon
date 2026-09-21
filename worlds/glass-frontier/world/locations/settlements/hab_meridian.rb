@@ -6,7 +6,7 @@ installation :hab_meridian do
   context_tags :sealed_hab, :archive
   subkind :settlement
   path "player/locations/settlements/hab-meridian.md"
-  tags :"ring-hab", :archives, :trade, :rebuilding, :"social-structure"
+  tags :"ring-hab", :archives, :trade, :rebuilding, :"social-structure", :subject_hab_life
   prominence :recognized
 
   descriptive_identity(

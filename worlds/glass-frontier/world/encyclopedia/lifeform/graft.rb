@@ -5,7 +5,7 @@ encyclopedia :graft do
   subkind :ecological_group
   status :complete
   log "2026-08-31 — Renamed The Consortium to The Graft; the title names the shared graft-web chemistry."
-  topics :ecology, :trade, :"ring-hab", :"ring-era"
+  topics :ecology, :trade, :"ring-hab", :"ring-era", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   origin "Bred for the ring's continuous root deck — the shared growing stratum that ran the habitats' whole length; every postfall line descends from stock isolated in the fragments"

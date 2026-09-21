@@ -1,4 +1,5 @@
 transport :pyre_mane do
+  tags :subject_bloom
   name "The Pyre Mane"
   summary "The Pyre Mane is a surface cargo vehicle used between Pyre, Cinder Gap, and Crowncut Refinery. Its runners soften without melting while it drags hot salvage."
   subkind :transport

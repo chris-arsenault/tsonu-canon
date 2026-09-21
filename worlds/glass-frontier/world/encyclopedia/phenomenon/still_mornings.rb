@@ -4,7 +4,7 @@ encyclopedia :still_mornings do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :resonance, :navigation, :ecology, :music
+  topics :resonance, :navigation, :ecology, :music, :subject_common_life
   prevalence :common
   available_globally
   medium "The local resonance bands and the air itself, region-wide, for a span of hours"

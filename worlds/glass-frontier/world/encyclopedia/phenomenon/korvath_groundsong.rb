@@ -4,7 +4,7 @@ encyclopedia :korvath_groundsong do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :resonance, :"structural-freq", :navigation, :ecology
+  topics :resonance, :"structural-freq", :navigation, :ecology, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:waterway] }
   medium "River mud — the settled ringglass silt of the Korvath beds carries the vibration; open water and dry bank both drop it"

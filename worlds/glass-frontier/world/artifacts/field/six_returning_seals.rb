@@ -4,7 +4,7 @@ artifact :six_returning_seals do
   subkind :record
   type_of :eighth_seal
   status :complete
-  tags :governance, :archives, :salvage, :resonance
+  tags :governance, :archives, :salvage, :resonance, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

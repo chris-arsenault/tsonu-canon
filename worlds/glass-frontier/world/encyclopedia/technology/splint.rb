@@ -5,7 +5,7 @@ encyclopedia :splint do
   subkind :infrastructure
   status :complete
   log "2026-08-31 — Renamed Displaced-Door Brace to Splint; the working metaphor already describes how the frame holds mismatched geometry and supplies an ordinary term with a stable shifted meaning."
-  topics :"fluid-reality", :danger, :rebuilding, :transport
+  topics :"fluid-reality", :danger, :rebuilding, :transport, :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:displacement_zone] }
   summary "A splint is the displacement country's essential furniture: a sprung ringglass frame wedged into a doorway that has opened somewhere wrong, holding the two mismatched edges apart and honest while people and furniture move through. Cordon services stage them like fire equipment."

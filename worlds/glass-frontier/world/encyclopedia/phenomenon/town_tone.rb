@@ -5,7 +5,7 @@ encyclopedia :town_tone do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :resonance, :"social-structure", :navigation
+  topics :resonance, :"social-structure", :navigation, :subject_common_life
   prevalence :common
   appears_when any: { place: [:urban, :sealed_hab] }
   medium "The structural band of any continuously inhabited place"

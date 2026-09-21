@@ -1,4 +1,5 @@
 npc :holl_hollow_climber do
+  tags :subject_hab_life
   name "The Holl Hollow Climber"
   summary "The Holl Hollow Climber remains upright when a ring habitat changes spin between adjoining decks."
   type_of :poise

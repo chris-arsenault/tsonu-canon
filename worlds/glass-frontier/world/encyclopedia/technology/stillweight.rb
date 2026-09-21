@@ -6,7 +6,7 @@ encyclopedia :stillweight do
   subkind :machine
   function "Holds one contacted object against local movement by returning its load through a structural-frequency anchor"
   status :complete
-  topics :resonance, :"structural-freq", :salvage, :danger, :rebuilding
+  topics :resonance, :"structural-freq", :salvage, :danger, :rebuilding, :subject_common_life
   prevalence :common
   available_globally
 

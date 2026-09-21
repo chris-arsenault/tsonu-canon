@@ -1,4 +1,5 @@
 npc :thornvault_echo_guide do
+  tags :subject_planetary_life
   name "The Thornvault Echo Guide"
   summary "The Thornvault Echo Guide keeps their footing when Sable recordings make a corridor sound wider than it is."
   type_of :plumb

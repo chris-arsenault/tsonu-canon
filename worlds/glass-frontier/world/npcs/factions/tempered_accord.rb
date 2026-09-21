@@ -5,7 +5,7 @@ faction :tempered_accord do
   type_of :compacts
   path "player/npcs/factions/tempered-accord.md"
   reviewed "2026-03-18"
-  tags :governance, :diplomacy
+  tags :governance, :diplomacy, :subject_politics_history
   prominence :renowned
   prominence_xrefs ["lattice-proxy-synod", "vantara", "displacement-council", "shear-compact"]
   founded 2423

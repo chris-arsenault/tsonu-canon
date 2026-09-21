@@ -4,7 +4,7 @@ encyclopedia :lamplighter do
   kind :role
   subkind :profession
   status :complete
-  topics :navigation, :"outer-system", :"ring-era", :danger
+  topics :navigation, :"outer-system", :"ring-era", :danger, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:cold, :road] }
 

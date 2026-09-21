@@ -6,7 +6,7 @@ artifact :eveli do
   function "Forms small covers, bowls and suit plates from supplied stock"
   status :complete
   prominence :recognized
-  tags :materials, :trade, :household
+  tags :materials, :trade, :household, :subject_lithren
   descriptive_identity appearance: "A low bench of pale rods, bright handwheels and a padded platen, with bent trial sheets hanging from its frame.", handling: "Two people can set its exposed screws while another checks the contour with a paddle or sample part.", risks: "Rods set by eye can repeat a hidden flaw in the sample; the platen can trap a hand left between the bed and stock."
   prose <<~PROSE
     #{ref :tamet, "Tamet"} built Eveli in 2434 after working on the #{ref :damarat_bed, "Damarat Bed"}. It stands in his bay beside #{ref :ressa_dorr, "Ressa Dorr"}'s hall at #{ref :ithara, "Ithara"}. The name is the one he gave the finished machine. The screws, rods and padded platen are contemporary work, assembled from parts he can replace without another ancient recovery.

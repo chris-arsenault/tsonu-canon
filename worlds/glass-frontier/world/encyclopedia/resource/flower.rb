@@ -4,7 +4,7 @@ encyclopedia :flower do
   subkind :material
   status :complete
   log "2026-08-31 — Renamed Resonant Condensate to Flower; yard skimmers already use flower for the fine daily crust, giving the material a concrete trade term instead of a technical abstraction."
-  topics :resonance, :materials, :trade, :"ringglass"
+  topics :resonance, :materials, :trade, :"ringglass", :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:ringglass_rich, :yard] }
   summary "Flower is the pale crystalline residue deposited by heavy band work. Yards collect it in dark damper-clay beds, skim the fine surface grade by hand during a still hour, and stamp each vial with its source band. Instrument makers use a grain of pure material to seat a device's frequency."

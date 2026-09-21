@@ -6,7 +6,7 @@ installation :olven do
   aka "Olven-Terath"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :"ring-era", :ecology, :trade, :materials
+  tags :"ring-hab", :"ring-era", :ecology, :trade, :materials, :subject_hab_life
   prominence :recognized
   population 5400
   population_band "About fifty-four hundred residents"

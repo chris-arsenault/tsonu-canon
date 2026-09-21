@@ -3,7 +3,7 @@ encyclopedia :open do
   kind :culture
   subkind :expressive_tradition
   status :complete
-  topics :music, :"social-structure", :household
+  topics :music, :"social-structure", :household, :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:urban, :sealed_hab] }
   summary "The Open is an annual night when every session room, gallery, and market floor opens to any player. Appointed answering benches lead each audience's sung, silent, stamped, or spoken response under the rule: the room answers."

@@ -5,7 +5,7 @@ creature :pell_stockpile_colony do
   type_of :shearwurm
   belongs_to :lifeform, :farborn
   status :complete
-  tags :orbital, :salvage, :danger, :ringglass, :resonance
+  tags :orbital, :salvage, :danger, :ringglass, :resonance, :subject_shear
   prominence :recognized
 
   prose <<~PROSE

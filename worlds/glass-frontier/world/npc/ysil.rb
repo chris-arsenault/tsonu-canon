@@ -8,7 +8,7 @@ npc :ysil do
   specialty "Crossing suspended works and following their service routes"
   status :complete
   prominence :recognized
-  tags :navigation, :danger, :transport
+  tags :navigation, :danger, :transport, :subject_lithren
   descriptive_identity attire: "A close-fitting suit with pale climbing loops sewn over both shoulders.", tools: "Short hooked poles, padded line grips and a lamp she can fasten below her chin.", manner: "Talks someone through the next handhold while her own feet are already moving.", disposition: "Wants to choose her companions and finish a route others will use; resents being treated as a convenient way into her former crew."
   prose <<~PROSE
     Ysil takes parties from #{ref :ithara, "Ithara"} through cuts too narrow for a loaded vehicle. She travels light, then complains about the food she left behind. At #{ref :anaret, "Anaret"}, she opened the upper approach during the #{ref :anaret_descent, "descent of 2434"}. She wants to cross its full suspended workway, #{ref :eneth, "Eneth"}, and reach the doorways visible beyond the fallen middle deck.

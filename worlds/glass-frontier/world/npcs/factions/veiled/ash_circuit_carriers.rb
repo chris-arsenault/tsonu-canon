@@ -1,4 +1,5 @@
 faction :ash_circuit_carriers do
+  tags :subject_journeys_trade
   name "Ash Circuit Carriers"
   summary "Ash Circuit Carriers is a freight company that moves hot ore between Crucible and Ashvane in linked pods."
   subkind :company

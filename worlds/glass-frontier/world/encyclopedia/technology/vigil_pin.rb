@@ -4,7 +4,7 @@ encyclopedia :vigil_pin do
   subkind :device
   status :complete
   log "2026-08-31 — Renamed Vigil Shock Pin to Vigil Pin; Vigil supplies the established field-use context, and pin retains the spike's concrete form without narrating its effect in the title."
-  topics :resonance, :danger, :"ringglass", :trade
+  topics :resonance, :danger, :"ringglass", :trade, :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:cordon, :ringglass_rich] }
   summary "Vigil pins are single-use grounding spikes cast from a sacrificial lattice. Driven flush around a camp, instrument site, or rig, each pin carries one resonance strike into the ground and shatters into inert black grains. Crews set their spacing from strike tables, replace pins by date, and refill every spent gap."

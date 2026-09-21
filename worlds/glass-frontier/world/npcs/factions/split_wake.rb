@@ -4,7 +4,7 @@ faction :split_wake do
   subkind :community
   type_of :shipboard_standing
   founded 2343
-  tags :military, :salvage, :transport
+  tags :military, :salvage, :transport, :subject_shear
   prominence :marginal
   status :complete
   omit_facts :leaders, :headquarters, :predecessors

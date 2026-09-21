@@ -5,7 +5,7 @@ artifact :sereyat do
   function "Sounds ceramic ribs whose pitch changes with the position of their support shoes"
   status :complete
   prominence :recognized
-  tags :music, :trade, :archives
+  tags :music, :trade, :archives, :subject_lithren
   descriptive_identity appearance: "Hollow curved ceramic ribs rise from a low metal frame; sliding shoes beneath them change the length left free to vibrate.", handling: "Players strike or rub the ribs from opposite sides. A lowered crossbar puts one bank within a seated player's reach.", risks: "Cold ribs crack under hard blows; gripping a sounding surface damps its note. Moving the frame without its braces strains old repairs."
 
   prose <<~PROSE
@@ -30,7 +30,14 @@ artifact :sereyat do
     Its lowered side suits some modern players better than its standing bank. Restoring the earliest recoverable frame would remove that accommodation. Ressa permits repairs to keep it playable and asks a would-be restorer whose hands they expect to use afterward.
   PROSE
 
+  prose <<~PROSE, section: :culture, heading: "Music That Travels"
+    Two percussionists from the #{ref :veyr_company, "Veyr Company"} paid their way to Ithara with a visiting expedition in 2432. They learned the hall players' arrangements, recorded performances with their permission and left copies of their own. Back in Istrava in 2433, they fitted modern ceramic ribs to a portable frame and played the answering parts beneath #{encyclopedia_ref :velith, "velith"} verses. They advertise the Lithren instrument and name the living arrangers at each performance.
+
+    Recordings have since returned to Ressa's hall. The Veyr players close pauses that Itharan listeners enjoy holding open; hall musicians have answered with slower versions of the new endings. Neither version requires the ancient instrument to leave its place. A visitor can recognize a passage here from a crowded dock performance and then hear an unfamiliar answer from the seated bank. Ressa lets learners try that answer after the paid players finish.
+  PROSE
+
   gm_note :appears, "A visiting musician offers passage and a share of performance receipts for help carrying Sereyat inward. Ressa wants enough to advance her garden, while regular listeners begin gathering money to keep the instrument in Ithara."
+  gm_note :triggered_by, "Humming along draws an answering phrase from the other bank. After the paid performance, a player offers to show the visitor where their remembered version parts from the hall's."
 end
 
 relate :rel_sereyat_at_ithara, :located_in, :sereyat, :ithara, since: 2401
@@ -54,3 +61,13 @@ end
 moment :sereyat_adaptation_witnessed, year: 2430, of: :sereyat do
   summary "Nereth's comparisons established the ancient use and retention of Sereyat's lowered playing bank."
 end
+
+moment :veyr_players_learn_sereyat, year: 2432, of: :sereyat do
+  summary "Two Veyr Company percussionists learned modern arrangements in Ressa's hall and exchanged recordings with its players."
+end
+
+moment :sereyat_arrangements_reach_veyr, year: 2433, of: :veyr_company do
+  summary "The returning percussionists brought Sereyat arrangements to Istrava and played them on a modern portable rib frame."
+end
+
+relate :rel_company_studies_sereyat, :studies, :veyr_company, :sereyat, since: 2432

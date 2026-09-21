@@ -11,7 +11,7 @@ npc :renn_duvasi do
     "damaged sheet, the copies taken from it, and the overlays where " \
     "visiting mechanics disagreed, with an invitation to mark a new " \
     "reading on the transparency."
-  tags :archives, :resonance, :"ring-era", :training
+  tags :archives, :resonance, :"ring-era", :training, :subject_resonance
   prominence :recognized
 
   prose <<~PROSE

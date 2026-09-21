@@ -1,4 +1,5 @@
 faction :root_exchange do
+  tags :subject_hab_life
   name "Root Exchange"
   summary "Root Exchange is a graft-trading network among households in Mera, Noll, Orra, and Olven that transfers living plants without pricing them as coin."
   type_of :second_habitat

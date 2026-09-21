@@ -5,7 +5,7 @@ encyclopedia :the_three_forms do
   subkind :belief
   status :complete
   aka "the Trine", "the Triptych"
-  topics :resonance, :cosmology, :religion
+  topics :resonance, :cosmology, :religion, :subject_resonance
   prevalence :common
   available_globally
 

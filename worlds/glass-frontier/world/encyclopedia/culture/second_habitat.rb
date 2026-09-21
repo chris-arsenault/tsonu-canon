@@ -5,7 +5,7 @@ encyclopedia :second_habitat do
   subkind :material_life
   status :complete
   log "2026-08-31 — Renamed Living-Cargo Stewardship to The Second Habitat; the name treats every carried living load as a habitat extended beyond its source."
-  topics :ecology, :trade, :rebuilding, :danger
+  topics :ecology, :trade, :rebuilding, :danger, :subject_common_life
   prevalence :common
   appears_when all: { place: [:garden] }
 

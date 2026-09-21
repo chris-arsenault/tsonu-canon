@@ -3,7 +3,7 @@ artifact :communication_shard do
   summary "The Communication Shard is a thumb-length ringglass device that opens a private signal channel between Dern Talish and a hidden elven relay. It recognizes Talish and works only near a Bloom cordon or pre-Glassfall signal lattice."
   subkind :machine
   status :complete
-  tags :resonance, :"signal-freq", :"ring-era", :mystery
+  tags :resonance, :"signal-freq", :"ring-era", :mystery, :subject_bloom
   prominence :forgotten
   function "Open a private signal channel to a hidden elven relay"
   dm!(public_entry: :dern_talish)

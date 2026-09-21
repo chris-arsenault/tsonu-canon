@@ -4,7 +4,7 @@ encyclopedia :attunement do
   kind :ability
   subkind :sensory_training
   status :complete
-  topics :resonance, :training
+  topics :resonance, :training, :subject_resonance
   prevalence :uncommon
   available_globally
 

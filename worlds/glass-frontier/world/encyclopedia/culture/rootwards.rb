@@ -4,7 +4,7 @@ encyclopedia :rootwards do
   kind :culture
   subkind :social_order
   status :complete
-  topics :household, :ecology, :"social-structure", :"ring-hab"
+  topics :household, :ecology, :"social-structure", :"ring-hab", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   integration "Rootward families participate in ordinary hab life while their domestic calendar follows the growing rotation; garden cooperatives draw many apprentices from households already trained in bed work"

@@ -1,4 +1,5 @@
 npc :avar_dustliner do
+  tags :subject_planetary_life
   name "The Avar Dustliner"
   summary "The Avar Dustliner reads buried roads from the angle of grit caught against low stones."
   type_of :dustlining

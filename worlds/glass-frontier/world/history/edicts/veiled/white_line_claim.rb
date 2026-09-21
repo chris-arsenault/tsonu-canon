@@ -1,4 +1,5 @@
 edict :white_line_claim do
+  tags :subject_politics_history
   name "The White-Line Claim"
   summary "The White-Line Claim reserves a newly exposed ring conduit for the first four settlements that restore its signal."
   subkind :edict

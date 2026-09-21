@@ -1,4 +1,5 @@
 incident :kesh_mareth_recoil do
+  tags :subject_hab_life
   name "Kesh Mareth Recoil"
   summary "Kesh Mareth Recoil is a brief reversal of corridor pull after a heavy vessel leaves Mareth under load."
   type_of :mareth_recoil

@@ -5,7 +5,7 @@ artifact :ivara do
   function "Carries a braced load on paired rocking wheel bogies with a manually wound lowering brake"
   status :complete
   prominence :recognized
-  tags :transport, :archives, :mystery
+  tags :transport, :archives, :mystery, :subject_lithren
   descriptive_identity appearance: "A low carriage rests on paired wheels beneath a tilted cargo cradle; fitted stone pieces remain in separate padded recesses.", handling: "A removable handle winds the lowering drum. The cradle can be lowered to the side while the wheels remain braced against a ramp.", risks: "A split brake cheek cannot hold a loaded cradle, and the remaining packing crumbles when handled."
 
   prose <<~PROSE

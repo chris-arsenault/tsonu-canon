@@ -6,7 +6,7 @@ encyclopedia :drawdown do
   summary "Drawdown is the weakening of a local resonance field when use drains it faster than it recovers, reducing power across connected ringglass."
   medium "Local ambient fields carried through ringglass and ringglass-bearing material"
   hazard "Loss or distortion of resonance-powered heat, thrust, signal, and structural support"
-  topics :resonance, :ringglass, :danger, :household
+  topics :resonance, :ringglass, :danger, :household, :subject_resonance
   prevalence :common
   available_globally
 

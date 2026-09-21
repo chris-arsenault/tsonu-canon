@@ -7,7 +7,7 @@ encyclopedia :tonework do
   summary "Tonework devices shape ambient resonance through breath, pressure, and other physical vibration instead of fixed ringglass arrays. Skilled players use specialized instruments for kinetic, signal, and structural work."
   function "Produce adjustable resonance effects through physical vibration"
   reviewed "2026-03-19"
-  topics :resonance, :music
+  topics :resonance, :music, :subject_resonance
   prevalence :rare
   available_globally
 

@@ -4,7 +4,7 @@ encyclopedia :cast do
   subkind :medicine
   status :complete
   log "2026-08-31 — Renamed Shade-Burn Salve to Cast; the rigid, grit-bearing dressing that certifies complete extraction gives the medicine its concrete working name."
-  topics :danger, :household, :trade, :materials
+  topics :danger, :household, :trade, :materials, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:hot] }
   summary "Cast is a dense gray dressing for charged glass grit embedded in flesh. The paste draws grains into itself over several hours and sets rigid when the extraction is complete, then cracks free with the grit visible inside it. Hot-country route and yard kits carry sealed pots beside their water."

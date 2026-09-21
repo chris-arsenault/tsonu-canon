@@ -4,7 +4,7 @@ encyclopedia :quiet_way do
   kind :culture
   subkind :belief
   status :complete
-  topics :religion, :resonance, :household, :"social-structure"
+  topics :religion, :resonance, :household, :"social-structure", :subject_resonance
   prevalence :rare
   appears_when any: { place: [:sealed_hab, :urban] }
   integration "Way households live inside ordinary settlements, and their trades cluster where damped hands are worth wages — archives, instrument floors, weaving chambers, and sickrooms; a district with a Way street schedules loud work around its quiet rooms"

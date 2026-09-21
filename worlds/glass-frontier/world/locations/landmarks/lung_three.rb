@@ -6,7 +6,7 @@ installation :lung_three do
   subkind :infrastructure
   function "Divides Vey's main thermal airflow among four residential wards"
   status :complete
-  tags :"structural-freq", :household, :training, :"ring-hab"
+  tags :"structural-freq", :household, :training, :"ring-hab", :subject_hab_life
   prominence :marginal
   omit_facts :maintained_by
 

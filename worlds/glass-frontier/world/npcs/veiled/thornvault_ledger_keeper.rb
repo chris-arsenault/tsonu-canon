@@ -1,4 +1,5 @@
 npc :thornvault_ledger_keeper do
+  tags :subject_politics_history
   name "The Thornvault Ledger Keeper"
   summary "The Thornvault Ledger Keeper preserves a long spoken account by tying each passage to a different pulse in the wrist."
   type_of :binding

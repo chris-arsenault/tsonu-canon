@@ -1,4 +1,5 @@
 edict :eighth_clearance_rule do
+  tags :subject_journeys_trade
   name "The Eighth Clearance Rule"
   summary "The Eighth Clearance Rule gives disabled vessels the center line at Clearance Eight and Mareth and requires powered craft to yield outward."
   subkind :edict

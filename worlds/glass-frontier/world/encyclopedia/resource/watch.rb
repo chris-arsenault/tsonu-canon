@@ -6,7 +6,7 @@ encyclopedia :watch do
   subkind :medicine
   status :complete
   log "2026-08-31 — Renamed Watch Salts to Watch; the ordinary duty period gains a stable material meaning for the tablet that buys one clear hour."
-  topics :household, :danger, :"ring-era", :trade
+  topics :household, :danger, :"ring-era", :trade, :subject_common_life
   prevalence :common
   available_globally
   function "Restores alertness and steadiness for about an hour; the standard against cold-watch drowse, post-lend shakes, and the last leg of long work"

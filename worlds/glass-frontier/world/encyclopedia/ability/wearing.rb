@@ -5,7 +5,7 @@ encyclopedia :wearing do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Wearing from the former Manyflesh ladder because changing one trait in the practitioner's own body has a different recipient, limit, and consequence from rewriting another body as a viable whole."
-  topics :resonance, :species, :danger
+  topics :resonance, :species, :danger, :subject_resonance
   prevalence :rare
   available_globally
 

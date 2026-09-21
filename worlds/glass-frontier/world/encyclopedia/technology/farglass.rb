@@ -3,7 +3,7 @@ encyclopedia :farglass do
   kind :technology
   subkind :device
   status :complete
-  topics :"ring-era", :"signal-freq", :mystery, :governance
+  topics :"ring-era", :"signal-freq", :mystery, :governance, :subject_journeys_trade
   prevalence :rare
   appears_when any: { place: [:archive, :sealed_hab] }
   summary "Farglass is the paired viewing panes of the ring era: sheets of worked crystal made in twos, each showing what stands before its twin regardless of distance. A few dozen live pairs survive, every one registered, and the system's most delicate conversations happen through them."

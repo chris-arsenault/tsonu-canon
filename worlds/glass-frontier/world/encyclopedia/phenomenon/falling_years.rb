@@ -4,7 +4,7 @@ encyclopedia :falling_years do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :"ring-era", :danger, :navigation, :rebuilding
+  topics :"ring-era", :danger, :navigation, :rebuilding, :subject_common_life
   prevalence :common
   appears_when any: { place: [:surface, :orbital] }
   medium "The debris streams of the broken ring, crossing Kaleidos's atmosphere and inhabited orbits"

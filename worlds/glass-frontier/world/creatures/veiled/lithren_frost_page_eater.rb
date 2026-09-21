@@ -1,4 +1,5 @@
 creature :lithren_frost_page_eater do
+  tags :subject_lithren
   name "The Lithren Frost Page-Eater"
   summary "The Lithren Frost Page-Eater is an archive-dwelling creature ranging between Lithren and Pelhari. It digests written ink and leaves the same text behind as a line of frost."
   subkind :creature

@@ -4,7 +4,7 @@ encyclopedia :doorward do
   kind :role
   subkind :office
   status :complete
-  topics :"ring-era", :"social-structure", :salvage, :danger
+  topics :"ring-era", :"social-structure", :salvage, :danger, :subject_hab_life
   prevalence :uncommon
   appears_when any: { place: [:sealed_hab, :archive] }
 

@@ -6,7 +6,7 @@ artifact :load_note do
   technology :tonework
   function "Applies directed kinetic force while its player holds a matched tone"
   status :complete
-  tags :resonance, :music, :"kinetic-freq", :training, :transport
+  tags :resonance, :music, :"kinetic-freq", :training, :transport, :subject_resonance
   prominence :recognized
 
   descriptive_identity(

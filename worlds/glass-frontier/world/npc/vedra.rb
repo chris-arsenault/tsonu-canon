@@ -8,7 +8,7 @@ npc :vedra do
   specialty "Outer approaches and cold surface landings"
   status :complete
   prominence :recognized
-  tags :navigation, :transport, :household
+  tags :navigation, :transport, :household, :subject_lithren
 
   prose <<~PROSE
     Vedra commanded #{ref :sevrin, "Sevrin"} on the #{ref :lithren_landfall, "2311 landfall"}. The expedition was her second attempt. In 2307 she had turned back after approach corrections consumed the margin she had kept for the return. The crew brought useful measurements home and no surface specimens. Several backers refused to pay again; #{ref :elian_soreth, "Elian Soreth"} helped assemble the next voyage.

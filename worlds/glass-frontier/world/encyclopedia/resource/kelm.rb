@@ -5,7 +5,7 @@ encyclopedia :kelm do
   subkind :biological_material
   status :complete
   log "2026-08-31 — Renamed Lung Moss to Kelm; the sealed habs' short working word names the filter crop without promoting its assay or ordinary material class into the title."
-  topics :"ring-hab", :ecology, :materials, :danger
+  topics :"ring-hab", :ecology, :materials, :danger, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   summary "Kelm is the living filter material of the sealed habs: a dense gray-green mat grown in shaft frames that traps structural dust from the air and turns bitter before the shaft that houses it begins to buckle. Moss wards tend it as both crop and structural instrument."

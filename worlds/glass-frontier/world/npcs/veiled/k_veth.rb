@@ -1,4 +1,5 @@
 npc :k_veth do
+  tags :subject_hab_life
   name "K'veth"
   summary "K'veth is a vault worker who harvests signal frost at Talven and sells the clean melt at Tanel."
   subkind :worker

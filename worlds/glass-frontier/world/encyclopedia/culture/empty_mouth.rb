@@ -5,7 +5,7 @@ encyclopedia :empty_mouth do
   subkind :governance
   status :complete
   log "2026-08-31 — Renamed Space Traffic Law to The Empty Mouth; the name comes from the clear docking approach reserved for craft that cannot maneuver."
-  topics :transport, :navigation, :governance, :orbital
+  topics :transport, :navigation, :governance, :orbital, :subject_journeys_trade
   prevalence :common
   appears_when all: { place: [:orbital, :road] }
   appears_when all: { place: [:orbital, :dock] }

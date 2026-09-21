@@ -11,7 +11,7 @@ npc :nemi_valerin do
     "settlement, or court, and leaves it untranslated when nobody can " \
     "say. She will hand over measurements and sit at the console beside " \
     "the asker, and still refuse the sequence that produced the result."
-  tags :AI, :resonance, :"ring-era", :governance
+  tags :AI, :resonance, :"ring-era", :governance, :subject_resonance
   prominence :recognized
   status :complete
 

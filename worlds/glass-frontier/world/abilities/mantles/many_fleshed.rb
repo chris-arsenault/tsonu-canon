@@ -4,7 +4,7 @@ ability :many_fleshed do
   type_of :manyflesh
   subkind :the_adversary
   status :complete
-  tags :resonance, :religion, :species, :danger
+  tags :resonance, :religion, :species, :danger, :subject_resonance
   prominence :recognized
   qualification "Answers someone who has made a viable life in an imposed body and can name the functions that body gained and lost"
   succession "Passes through a living graft freely accepted from the bearer; the recipient must keep it until it becomes native tissue"

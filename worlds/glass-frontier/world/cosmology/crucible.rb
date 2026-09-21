@@ -5,7 +5,7 @@ geographic_location :crucible do
   context_tags :outer_system, :surface, :hot, :yard
   subkind :celestial_body
   status :complete
-  tags :cosmology, :materials, :trade, :danger
+  tags :cosmology, :materials, :trade, :danger, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_system_chart, radius: 1, angle_deg: 18
 

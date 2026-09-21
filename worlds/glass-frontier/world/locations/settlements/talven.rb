@@ -7,7 +7,7 @@ installation :talven do
   aka "Tal-Venari"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :ringglass, :materials, :archives, :"signal-freq"
+  tags :"ring-hab", :ringglass, :materials, :archives, :"signal-freq", :subject_hab_life
   prominence :recognized
   population 11500
   population_band "About eleven and a half thousand residents"

@@ -1,4 +1,5 @@
 era :ravel_lean do
+  tags :subject_hab_life
   name "Ravel Lean"
   summary "Ravel Lean was the season when Noll root cable held Ravel together through repeated spin loss."
   subkind :era

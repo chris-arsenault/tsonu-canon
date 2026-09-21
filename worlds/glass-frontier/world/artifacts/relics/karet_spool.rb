@@ -5,7 +5,7 @@ artifact :karet_spool do
   type_of :bloom_relics
   origin_date 2426
   status :complete
-  tags :resonance, :danger, :orbital, :transport, :mystery
+  tags :resonance, :danger, :orbital, :transport, :mystery, :subject_bloom
   prominence :recognized
 
   descriptive_identity(

@@ -11,7 +11,7 @@ npc :renn_var do
     "point instead; she seats the wedge herself until an apprentice's " \
     "readings have matched hers across three separate cuts."
   status :complete
-  tags :ringglass, :archives, :materials, :training
+  tags :ringglass, :archives, :materials, :training, :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

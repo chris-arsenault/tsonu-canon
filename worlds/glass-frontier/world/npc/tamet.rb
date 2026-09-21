@@ -8,7 +8,7 @@ npc :tamet do
   specialty "Contour forming and repairable copies of recovered mechanisms"
   status :complete
   prominence :recognized
-  tags :materials, :rebuilding, :trade
+  tags :materials, :rebuilding, :trade, :subject_lithren
   descriptive_identity appearance: "One tusk has a smooth missing tip; forearms are freckled with old hot-metal marks.", attire: "Sleeveless work clothing indoors, with a fine woven scarf tucked well clear of the press.", tools: "A flat wooden testing paddle, numbered screw handles and sheets cut for trial pieces.", manner: "Sets a failed piece beside a successful one and invites people to handle both.", disposition: "Wants people to own machines they can repair, and wants recognition as their maker rather than an interpreter of dead craftsmen."
   prose <<~PROSE
     Tamet builds in an open bay off #{ref :ressa_dorr, "Ressa Dorr"}'s eating hall at #{ref :ithara, "Ithara"}. Curved trial pieces hang above the workbench in widening rows. He keeps the ugly ones. They show where the rods stood proud, where a sheet tore and where a correction finally held through a second pressing.

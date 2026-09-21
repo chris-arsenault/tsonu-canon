@@ -5,7 +5,7 @@ encyclopedia :eighth_seal do
   kind :technology
   subkind :record
   status :complete
-  topics :governance, :archives, :salvage, :resonance
+  topics :governance, :archives, :salvage, :resonance, :subject_journeys_trade
   prevalence :common
   appears_when all: { place: [:dock] }
 

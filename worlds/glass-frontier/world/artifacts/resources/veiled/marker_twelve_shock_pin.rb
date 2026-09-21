@@ -1,4 +1,5 @@
 artifact :marker_twelve_shock_pin do
+  tags :subject_planetary_life
   name "The Marker Twelve Shock Pin"
   summary "The Marker Twelve Shock Pin is a single-use grounding device sourced from Vigil Breach, the Kyther Range, Marker House Twelve, and Ladderwell. It absorbs one resonance strike and shatters into harmless black grains."
   subkind :artifact

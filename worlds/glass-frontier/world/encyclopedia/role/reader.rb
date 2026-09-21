@@ -6,7 +6,7 @@ encyclopedia :reader do
   subkind :profession
   status :complete
   log "2026-08-31 — Changed the canonical title from Perceptionist to Reader. Reader is the established job word across textile, intake, water, and migration trades; Perceptionist remains the cross-trade formalism."
-  topics :materials, :archives
+  topics :materials, :archives, :subject_common_life
   prevalence :uncommon
   available_globally
 

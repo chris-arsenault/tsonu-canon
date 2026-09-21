@@ -7,7 +7,7 @@ encyclopedia :peoples_register do
   status :complete
   log "2026-08-31 — Renamed The Registry to The Peoples Register; the title states its sapient subject plainly."
   reviewed "2026-03-18"
-  topics :species
+  topics :species, :subject_common_life
   prevalence :common
   available_globally
   registry true

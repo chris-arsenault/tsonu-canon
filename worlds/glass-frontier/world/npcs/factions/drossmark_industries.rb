@@ -4,7 +4,7 @@ faction :drossmark_industries do
   subkind :company
   type_of :commercial_standing
   founded 2329
-  tags :salvage, :trade, :materials, :military
+  tags :salvage, :trade, :materials, :military, :subject_shear
   prominence :marginal
   status :complete
   omit_facts :leaders, :headquarters, :predecessors

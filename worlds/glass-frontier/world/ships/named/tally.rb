@@ -5,7 +5,7 @@ transport :tally do
   subkind :vessel
   capacity "Two crew and eight courier frames"
   status :complete
-  tags :transport, :trade, :household, :"ring-hab"
+  tags :transport, :trade, :household, :"ring-hab", :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

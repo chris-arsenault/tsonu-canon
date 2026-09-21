@@ -7,7 +7,7 @@ geographic_location :kaleidos_system do
   path "player/cosmology/kaleidos-system.md"
   status :complete
   reviewed "2026-03-19"
-  tags :orbital
+  tags :orbital, :subject_common_life
   prominence :mythic
   registry true
   planet_count 8

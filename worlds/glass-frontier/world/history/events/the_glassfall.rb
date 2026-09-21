@@ -6,7 +6,7 @@ incident :the_glassfall do
   status :complete
   log "2026-09-15 — Removed the incompatible hundreds-of-habs count and claims that all present habitation derives from the Glassfall. Preserved the disaster and its causal relationships."
   reviewed "2026-03-19"
-  tags :catastrophe, :origin
+  tags :catastrophe, :origin, :subject_politics_history
   prominence :mythic
   date 2140
   fact :duration, "Hours"

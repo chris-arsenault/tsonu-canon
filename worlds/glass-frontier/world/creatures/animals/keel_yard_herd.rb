@@ -4,7 +4,7 @@ creature :keel_yard_herd do
   subkind :animal
   type_of :khar
   status :complete
-  tags :"outer-system", :ecology, :danger, :trade, :resonance
+  tags :"outer-system", :ecology, :danger, :trade, :resonance, :subject_planetary_life
   prominence :recognized
 
   prose <<~PROSE

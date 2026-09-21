@@ -1,4 +1,5 @@
 conflict :crowncut_recovery do
+  tags :subject_shear
   name "Crowncut Recovery"
   summary "Crowncut Recovery is a campaign by rival crews to stabilize drifting refinery sections before their salvage claims expire."
   subkind :campaign

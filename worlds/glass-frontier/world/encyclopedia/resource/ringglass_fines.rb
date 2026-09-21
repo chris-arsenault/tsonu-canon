@@ -5,7 +5,7 @@ encyclopedia :ringglass_fines do
   subkind :material
   status :complete
   log "2026-08-31 — Renamed Glass Fines to Ringglass Fines; the established material root distinguishes this graded working byproduct from ordinary powdered glass."
-  topics :materials, :trade, :ringglass, :household
+  topics :materials, :trade, :ringglass, :household, :subject_common_life
   prevalence :common
   available_globally
   summary "Ringglass fines are the powder and grit of every ringglass working — swept from cutting floors, graded by mesh, and sold into a hundred humble trades. The fines economy is the glass trades' shadow: scrub grit, casting sand, pitch filler, and the fine flours the delicate work pays real money for."

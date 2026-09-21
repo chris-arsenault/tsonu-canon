@@ -4,7 +4,7 @@ ability :worldsmith do
   type_of :shaping
   subkind :the_three
   status :complete
-  tags :resonance, :religion, :"structural-freq", :materials
+  tags :resonance, :religion, :"structural-freq", :materials, :subject_resonance
   prominence :recognized
   qualification "Answers a shaper who has repaired a structural failure they first understood incorrectly and can identify the mistaken load path"
   succession "Passes at the bearer's death or by a free yielding to a qualified successor"

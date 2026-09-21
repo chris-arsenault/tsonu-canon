@@ -5,7 +5,7 @@ encyclopedia :braid do
   subkind :data
   status :complete
   log "2026-08-31 — Renamed Sable Witness Spool to Braid; the four interleaved voices supply the record form's precise working name instead of a regional equipment compound."
-  topics :archives, :governance, :"signal-freq"
+  topics :archives, :governance, :"signal-freq", :subject_politics_history
   prevalence :uncommon
   appears_when any: { place: [:archive, :waterway] }
   summary "Braids are spoken-record media that preserve one account in four voices at once — the witness and three sworn readers recorded together — so any later tampering must alter four interleaved voices and shows itself. Courts across the system take a braid as testimony that cannot quietly change."

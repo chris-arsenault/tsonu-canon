@@ -5,7 +5,7 @@ encyclopedia :navren do
   status :complete
   summary "Navren is a copper-barked tree cultivated at Noll for curved structural timber whose tuned grain flexes under changing loads."
   function "Provides curved structural timber that carries a tuned load through its grain"
-  topics :ecology, :materials, :trade, :"structural-freq"
+  topics :ecology, :materials, :trade, :"structural-freq", :subject_hab_life
   prevalence :common
   appears_when all: { place: [:garden] }
 

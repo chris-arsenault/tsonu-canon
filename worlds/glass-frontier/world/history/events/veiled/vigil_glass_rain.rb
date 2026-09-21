@@ -1,4 +1,5 @@
 incident :vigil_glass_rain do
+  tags :subject_planetary_life
   name "Vigil Glass Rain"
   summary "Vigil Glass Rain is a mountain storm that lifts old crystal splinters from the slopes and drives them sideways through marked shelters."
   type_of :kyther_scour

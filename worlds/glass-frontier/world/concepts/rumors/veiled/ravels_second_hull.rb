@@ -1,4 +1,5 @@
 rumor :ravels_second_hull do
+  tags :subject_hab_life
   name "Ravel's Second Hull"
   summary "Ravel's Second Hull is a maintenance rumor about a second pressure shell that answers knocks from inside the inhabited hull."
   subkind :rumor

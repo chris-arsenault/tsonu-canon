@@ -3,7 +3,7 @@ encyclopedia :reed_flour do
   kind :resource
   subkind :material
   status :complete
-  topics :household, :trade, :ecology
+  topics :household, :trade, :ecology, :subject_common_life
   prevalence :common
   appears_when any: { place: [:waterway, :garden] }
   summary "Reed flour is the pale, faintly sweet staple milled from the starchy rootstock of filter reeds — the water-cleaning planting the elves ran through every channel and gallery, whose beds now feed the settlements that tend them. It is the flour of river country and hab galleries alike: dense, forgiving, and the base of the flatbreads most of Kaleidos calls simply bread."

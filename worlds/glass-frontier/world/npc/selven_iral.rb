@@ -7,7 +7,7 @@ npc :selven_iral do
   occupation "Expedition proprietor and commander"
   status :complete
   prominence :recognized
-  tags :archives, :military, :rebuilding
+  tags :archives, :military, :rebuilding, :subject_lithren
 
   prose <<~PROSE
     Selven Iral founded the #{ref :iral_expedition, "Iral Expedition"} in 2431. He paid for crews to remain on #{ref :lithren, "Lithren"} long enough to compare distant finds and retrieve works that short visits had left behind. Some of the fragments now needed for #{ref :ithara, "Ithara"}'s proposed return exist in accessible collections because he financed their recovery.

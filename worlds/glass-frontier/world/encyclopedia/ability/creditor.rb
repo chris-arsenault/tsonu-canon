@@ -6,7 +6,7 @@ encyclopedia :creditor do
   status :complete
   log "2026-08-31 — Renamed Cold Count to Creditor; the route trade's stove-creditor honorific supplies a distinctive name for the sensitivity."
   log "2026-08-31 — Removed the broad tier. Creditor is an innate sensitivity, not a resonant spell."
-  topics :danger, :"outer-system", :household, :training
+  topics :danger, :"outer-system", :household, :training, :subject_journeys_trade
   prevalence :rare
   appears_when all: { place: [:cold] }
 

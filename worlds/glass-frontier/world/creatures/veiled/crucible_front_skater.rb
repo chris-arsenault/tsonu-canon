@@ -1,4 +1,5 @@
 creature :crucible_front_skater do
+  tags :subject_planetary_life
   name "The Crucible-Front Skater"
   summary "The Crucible-Front Skater is a mineral-finned animal ranging across Crucible and Ashvane. It rides pressure fronts and sheds cutting flakes when cornered."
   subkind :animal

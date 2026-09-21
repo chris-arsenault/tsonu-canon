@@ -5,7 +5,7 @@ installation :holl do
   context_tags :sealed_hab, :market
   subkind :settlement
   status :complete
-  tags :"ring-hab", :transport, :governance, :"structural-freq", :household
+  tags :"ring-hab", :transport, :governance, :"structural-freq", :household, :subject_hab_life
   prominence :marginal
   population 6200
   population_band "About sixty-two hundred residents"

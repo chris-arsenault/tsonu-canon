@@ -4,7 +4,7 @@ installation :pell_cut do
   playable_as :chronicle_location
   context_tags :orbital, :debris_field, :yard, :dock
   subkind :infrastructure
-  tags :salvage, :trade, :transport, :resonance, :orbital, :danger
+  tags :salvage, :trade, :transport, :resonance, :orbital, :danger, :subject_shear
   prominence :recognized
   function "Receives and separates material extracted from remote Deep Shear claims"
 

@@ -6,7 +6,7 @@ encyclopedia :varr do
   status :complete
   log "2026-08-31 — Renamed Pressure Memory to Varr; the Ashvane pressure-school term gives the local sense its own name instead of describing its evidence."
   log "2026-08-31 — Removed the broad tier. Varr is an innate sensitivity, not a resonant spell."
-  topics :"outer-system", :danger, :training, :household
+  topics :"outer-system", :danger, :training, :household, :subject_planetary_life
   prevalence :rare
   appears_when all: { place: [:sealed_hab] }
 

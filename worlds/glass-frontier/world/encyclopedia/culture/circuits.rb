@@ -4,7 +4,7 @@ encyclopedia :circuits do
   kind :culture
   subkind :social_order
   status :complete
-  topics :household, :"social-structure", :"outer-system", :"ring-era"
+  topics :household, :"social-structure", :"outer-system", :"ring-era", :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:hot] }
   integration "Shade circuits pass through settled Ashvane towns; families maintain trades, school places, and standing at each stop, while room partners exchange scheduled use-rights under the circuit calendar"

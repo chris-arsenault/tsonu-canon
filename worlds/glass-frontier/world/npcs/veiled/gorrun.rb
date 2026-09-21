@@ -1,4 +1,5 @@
 npc :gorrun do
+  tags :subject_hab_life
   name "Gorrun"
   summary "Gorrun is a Vey housing dissident who opens unused rooms to families removed from Eleven's allotment rolls."
   subkind :dissident

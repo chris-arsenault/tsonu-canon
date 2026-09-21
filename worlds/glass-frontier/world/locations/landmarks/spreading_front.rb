@@ -4,7 +4,7 @@ geographic_location :spreading_front do
   subkind :hazardous_zone
   type_of :glassfall_showers
   status :complete
-  tags :orbital, :ringglass, :resonance, :danger
+  tags :orbital, :ringglass, :resonance, :danger, :subject_journeys_trade
   prominence :recognized
   nature "A moving stream of fine ring debris whose safe lane changes with upper-atmosphere temperature"
   containment_status "Surveyed by Rainline and published as a shortened conditional lane"

@@ -4,7 +4,7 @@ encyclopedia :loadfront do
   subkind :physical_phenomenon
   status :complete
   log "2026-08-31 — Renamed Resonant Pressure Front to Loadfront; glass-country work already treats the traveling structural load as forecast weather, giving the joined term a precise boundary."
-  topics :resonance, :danger, :navigation, :"structural-freq"
+  topics :resonance, :danger, :navigation, :"structural-freq", :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:ringglass_rich, :debris_field] }
   summary "A loadfront is a traveling wall of structural-band load that moves through connected ringglass like weather through a valley — announced by instruments, animals, and aching teeth, and arriving as a minutes-long surge that every glass-country trade schedules around."

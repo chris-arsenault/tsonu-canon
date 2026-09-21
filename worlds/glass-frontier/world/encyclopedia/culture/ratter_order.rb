@@ -5,7 +5,7 @@ encyclopedia :ratter_order do
   subkind :social_order
   status :complete
   log "2026-08-31 — Renamed The Order to Ratter Order; the name identifies the salvage crews whose law the order carries."
-  topics :salvage, :navigation, :trade, :"social-structure", :orbital
+  topics :salvage, :navigation, :trade, :"social-structure", :orbital, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
 

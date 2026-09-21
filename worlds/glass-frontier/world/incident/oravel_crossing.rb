@@ -5,7 +5,7 @@ incident :oravel_crossing do
   date 2434
   status :complete
   prominence :recognized
-  tags :danger, :transport
+  tags :danger, :transport, :subject_lithren
 
   prose <<~PROSE
     In 2434 a loaded sledge entered a suspended gallery at #{ref :oravel, "Oravel"}. The gallery moved far enough to bring its counterweight against a fractured stop. The stop broke, the weight dropped farther into its well, and one end of the gallery rose away from the adjoining passage. Workers caught beyond the gap had suits and limited air. Their pressure shelter stood near the landing.

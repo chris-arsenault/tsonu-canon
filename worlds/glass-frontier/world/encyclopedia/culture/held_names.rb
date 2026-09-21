@@ -4,7 +4,7 @@ encyclopedia :held_names do
   kind :culture
   subkind :cultural_identity
   status :complete
-  topics :household, :"social-structure", :archives, :isolation
+  topics :household, :"social-structure", :archives, :isolation, :subject_common_life
   prevalence :rare
   available_globally
   integration "Held names enter ordinary household and registry practice: midwives ask the holding question at each walking-out, clerks enter the trust mark, and families keep the first wearer's account with the name"

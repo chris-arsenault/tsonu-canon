@@ -3,7 +3,7 @@ encyclopedia :avulsion do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :navigation, :transport, :danger, :trade
+  topics :navigation, :transport, :danger, :trade, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:unstable_route, :debris_field] }
   summary "Avulsion is the relocation of a debris-field passage after shifting masses close its old channel and open a viable line elsewhere. Drift surveys can forecast a slow change; collisions produce sharp ones. Registries close the narrowing passage, then survey crews move the beacons and traffic rights to the new route."

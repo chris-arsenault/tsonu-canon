@@ -5,7 +5,7 @@ installation :cinder_gap do
   context_tags :orbital, :bloom_adjacent, :cordon, :hot
   subkind :border_post
   type_of :bloomwatch
-  tags :orbital, :danger, :resonance
+  tags :orbital, :danger, :resonance, :subject_bloom
   prominence :marginal
   status :complete
 

@@ -5,7 +5,7 @@ phenomenon :spanning_fall do
   type_of :pairing
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :orbital, :danger, :salvage
+  tags :resonance, :orbital, :danger, :salvage, :subject_shear
   prominence :recognized
   trigger "Directional-slip patches form one continuous route between two free edges of the same connected load-bearing mass"
   effect "The complete mass accelerates along the vector shared by the patches, carrying foundations, braces, anchors, cargo, and occupants with it"

@@ -7,7 +7,7 @@ npc :soma_irel do
   specialty "Preparing travelers and defending an occupied crossing"
   status :complete
   prominence :recognized
-  tags :navigation, :transport
+  tags :navigation, :transport, :subject_journeys_trade
 
   prose <<~PROSE
     Soma Irel yielded the #{ref :waybearer, "Waybearer"} to #{ref :nalis_venn, "Nalis Venn"} in 2430. During #{ref :somas_last_road, "his last road"}, he remained on the captive vessel until the last pursuers were captured. He returned by ordinary ship and retired from opening roads.

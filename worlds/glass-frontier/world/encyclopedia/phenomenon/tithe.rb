@@ -5,7 +5,7 @@ encyclopedia :tithe do
   subkind :ecological_phenomenon
   status :complete
   log "2026-08-31 — Renamed Crowncut Spark Bloom to The Tithe; yard law's recurring harvest obligation gives the cycle an idiomatic name instead of a stacked descriptive compound."
-  topics :ecology, :salvage, :materials, :"ring-era"
+  topics :ecology, :salvage, :materials, :"ring-era", :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:yard, :debris_field] }
   medium "Warm scrap beds of elven alloy — the blooms root in the self-repair seed layers of ring-era metal and rise where cut faces stay warm"

@@ -4,7 +4,7 @@ encyclopedia :closer do
   kind :role
   subkind :community_duty
   status :complete
-  topics :"social-structure", :household, :trade
+  topics :"social-structure", :household, :trade, :subject_common_life
   prevalence :uncommon
   available_globally
 

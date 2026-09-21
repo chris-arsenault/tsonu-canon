@@ -5,7 +5,7 @@ artifact :talessar do
   belongs_to :culture, :esvar
   status :complete
   prominence :recognized
-  tags :religion, :resonance, :archives
+  tags :religion, :resonance, :archives, :subject_istrava
   descriptive_identity appearance: "Thin smoke-colored leaves with figures cut on both faces; uncropped drawings preserve luminous additions beneath the cuts.", handling: "The leaves stand in slotted velvet so both faces can be seen without a hand warming the glass.", risks: "The engraved and luminous strokes occupy different depths; a photograph from one side can conceal a figure or make two people appear to be one."
   log "2026-09-19 — Prophecy has dated public evidence and a prevented casualty. The crowned liberator remains an open future, without a concealed identity or guaranteed fulfillment."
   log "2026-09-19 — Research: SG-1's Prophecy, https://www.rdanderson.com/stargate/episodes/episodes/06-21prophecy.htm. Used the distinction between a credible warning and an inevitable outcome; Talessar's object, imagery and historical incidents are original to this setting."

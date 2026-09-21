@@ -5,7 +5,7 @@ encyclopedia :whitefoot_canter do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Whitefoot Signal Cart to Whitefoot Canter; the terminus name and the line-speed reading give the vehicle a local working name rather than an equipment label."
-  topics :"signal-freq", :"ring-era", :transport, :navigation
+  topics :"signal-freq", :"ring-era", :transport, :navigation, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:damaged_signal, :road] }
   summary "A Whitefoot canter is a line-riding maintenance carrier of elven make that travels the old signal conduits themselves, drawing power and guidance from the line it serves. The canters still run the Span Nine country, carrying crews and message freight along infrastructure that predates every road they cross."

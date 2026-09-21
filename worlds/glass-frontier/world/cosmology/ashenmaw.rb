@@ -5,7 +5,7 @@ geographic_location :ashenmaw do
   context_tags :outer_system
   subkind :celestial_body
   status :complete
-  tags :cosmology, :"outer-system", :navigation, :danger
+  tags :cosmology, :"outer-system", :navigation, :danger, :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_system_chart, radius: 5, angle_deg: 278
 

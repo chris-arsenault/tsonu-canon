@@ -9,7 +9,7 @@ npc :eris_talven do
   narrative_role :viewpoint
   status :complete
   prominence :recognized
-  tags :resonance, :rebuilding, :archives
+  tags :resonance, :rebuilding, :archives, :subject_lithren
   descriptive_identity appearance: "Narrow hands with older workshop scars and a habit of testing the weight of a recovered piece.", tools: "Full-sized joint casts carried beside the original fragments.", manner: "Names an old defect before describing what a return could recover.", disposition: "Wants people to inhabit recovered works again and accepts that deciding which state to return is his responsibility."
 
   prose <<~PROSE

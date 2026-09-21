@@ -4,7 +4,7 @@ encyclopedia :sorel do
   kind :lifeform
   subkind :animal
   status :complete
-  topics :ecology, :resonance, :"structural-freq", :"ring-hab"
+  topics :ecology, :resonance, :"structural-freq", :"ring-hab", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab, :garden] }
 

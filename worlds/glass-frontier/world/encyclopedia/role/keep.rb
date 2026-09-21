@@ -5,7 +5,7 @@ encyclopedia :keep do
   kind :role
   subkind :profession
   status :complete
-  topics :"social-structure", :trade, :resonance
+  topics :"social-structure", :trade, :resonance, :subject_common_life
   prevalence :common
   appears_when any: { place: [:urban, :market, :dock] }
 

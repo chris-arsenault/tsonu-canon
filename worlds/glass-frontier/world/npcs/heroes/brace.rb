@@ -10,7 +10,7 @@ npc :brace do
     "whatever they say they are good at, and lays the plan out on the floor " \
     "in footprints and breath counts before discussion resumes."
   status :complete
-  tags :training, :transport, :"kinetic-freq", :danger
+  tags :training, :transport, :"kinetic-freq", :danger, :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

@@ -5,7 +5,7 @@ encyclopedia :rill_calling do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Calling to Rill Calling; the name fixes the practice to the water lines that carry its route phrases."
-  topics :ecology, :household, :training, :resonance
+  topics :ecology, :household, :training, :resonance, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   function "Moves trained herd animals through streets, terraces, and gardens with calling tones carried by the irrigation network"

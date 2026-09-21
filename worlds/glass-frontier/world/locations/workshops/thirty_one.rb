@@ -7,7 +7,7 @@ installation :thirty_one do
   subkind :workshop
   function "Maps, washes, and preserves resonant traces carried by textiles"
   status :complete
-  tags :household, :archives, :"signal-freq", :trade
+  tags :household, :archives, :"signal-freq", :trade, :subject_hab_life
   prominence :marginal
   omit_facts :maintained_by
 

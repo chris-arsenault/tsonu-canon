@@ -5,7 +5,7 @@ artifact :first_clean_plate do
   type_of :wurm_bit
   function "Follows curved mineral and ringglass seams with a mounted glasswurm mouth plate"
   status :complete
-  tags :salvage, :ringglass, :resonance, :trade, :danger
+  tags :salvage, :ringglass, :resonance, :trade, :danger, :subject_shear
   prominence :recognized
 
   descriptive_identity(

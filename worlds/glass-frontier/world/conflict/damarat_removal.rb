@@ -4,7 +4,7 @@ conflict :damarat_removal do
   subkind :dispute
   status :complete
   prominence :recognized
-  tags :trade, :materials, :danger, :rebuilding
+  tags :trade, :materials, :danger, :rebuilding, :subject_lithren
 
   prose <<~PROSE
     #{ref :ilven_sarith, "Ilven Sarith"} has offered enough money for the #{ref :damarat_bed, "Damarat Bed"} to let several of its present workers clear their debts and leave Lithren. He would take it to a better supplied workshop, where it could work larger orders and be examined without an expedition journey. He has begun paying carriers and guards to assess its removal from #{ref :damarat, "Damarat"}.
@@ -36,13 +36,26 @@ conflict :damarat_removal do
     Workers watch the departing ships and ask crews at other camps to look for their numbered bars. A few would rather break into the carrier's hold than bring its guards into their sleeping rooms. The camp continues making simpler pieces without the case, but the people who hid the first sale now fear both their neighbors and the crew they traded with.
   PROSE
 
+  prose <<~PROSE, section: :present_day, heading: "A Bar on the Keel"
+    A second bar has traveled beyond the camp. In 2435, after the case disappeared, a reseller left Lithren with a load that reached #{ref :glasswake, "Glasswake"}. There the household crew of #{ref :steady_return, "Steady Return"} bought a twin-notched bar with matching ceramic pieces. A picture sent to Ressa with their family correspondence showed its rack number, fourteen. The Damarat operators recognized that number and the notch broken during their own trials. The bar offered by the carrier still at Damarat bears a different number.
+
+    Steady Return's crew says the reseller described the load as a worker's share sold to fund departure. They have sent the purchase price, a description of the seller and close pictures back through Ressa. None establishes who struck the operator or took the case. The crew wants to finish copying the accompanying pieces for a folding lamp before surrendering its gauge; several aboard favor returning it immediately after hearing about the assault.
+
+    Workers can send a representative inward, seek a paid return passage or ask someone already near the ship to negotiate. Ilven's reward also attracts people willing to take the bar from its present holders. The #{ref :pell_freight_assembly, "Assembly"} can put visitors in touch with its member crew, but the purchase was that household's decision. Recovering fourteen would restore one fine setting while the other missing bars and the proposed removal of the bed remain contested.
+  PROSE
+
   gm_note :appears, "A carrier offers a polished setting bar as salvage while a bloodied operator searches the neighboring tables for witnesses. The rack number remains visible beneath its new finish."
   gm_note :complicates, "The person who admits selling the first bar asks for help recovering the others. Exposing her can turn her own neighbors against her before the departing carrier is searched."
+  gm_note :triggered_by, "Offering to look beyond the camp brings out a picture of bar fourteen aboard a Pell hauler. Workers disagree over sending a negotiator or someone who will simply take it back."
 end
 
 moment :damarat_removal_contested, year: 2435, of: :damarat_removal do
   summary "Ilven's removal offer reached a divided working camp, and survey guards began visiting its freight approach."
   effects { set :damarat_removal, standing: :contested }
+end
+
+moment :damarat_bar_identified_inward, year: 2435, of: :damarat_removal do
+  summary "A picture from Steady Return identified missing bar fourteen at Glasswake after an earlier reseller load left Lithren; another bar remained with the visiting carrier at Damarat."
 end
 
 relate :rel_removal_at_damarat, :manifests_at, :damarat_removal, :damarat

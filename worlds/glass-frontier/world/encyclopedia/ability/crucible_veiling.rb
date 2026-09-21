@@ -7,7 +7,7 @@ encyclopedia :crucible_veiling do
   log "2026-08-31 — Renamed Ash Veiling to Coppicing; the furnace-yard verb already names the cloak's continuous growth, trimming, and renewal."
   log "2026-08-31 — Renamed Coppicing to Crucible Veiling. Coppicing names one repair motion within the practice; the Crucible yards and their veilers own the complete technique."
   log "2026-08-31 — Recast Crucible Veiling as one focused-tier spell; its effect, operating limit, and consequence now belong to the spell rather than a tier expression."
-  topics :resonance, :danger, :salvage, :training
+  topics :resonance, :danger, :salvage, :training, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:hot] }
 

@@ -1,4 +1,5 @@
 creature :thornvault_cocoon_moths do
+  tags :subject_planetary_life
   name "The Thornvault Cocoon Moths"
   summary "The Thornvault Cocoon Moths are an archive colony ranging between Thornvault, the Folded Annex, and Old Campus. They eat binding glue and leave each freed page enclosed in a transparent cocoon."
   subkind :animal

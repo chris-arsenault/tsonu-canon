@@ -5,7 +5,7 @@ encyclopedia :rejoiners do
   subkind :work_tradition
   status :complete
   log "2026-08-31 — Renamed Fracture-Wake Crews to Rejoiners; the crews name themselves for the crossings that bring separated households together."
-  topics :"social-structure", :salvage, :household, :"ring-era"
+  topics :"social-structure", :salvage, :household, :"ring-era", :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
   integration "Crews trade worked material into the yard economy and take on registry contracts, but marry, adjudicate, and celebrate on the crossing calendar — a crew's presence anywhere is scheduled by orbital mechanics first and commerce second"

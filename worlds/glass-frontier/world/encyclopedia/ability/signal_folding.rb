@@ -5,7 +5,7 @@ encyclopedia :signal_folding do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Recast Signal Folding as one focused-tier spell carrying one measured message; the former narrow variant was a stronger version of the same entry rather than a separate spell."
-  topics :"signal-freq", :resonance, :danger, :training
+  topics :"signal-freq", :resonance, :danger, :training, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:damaged_signal] }
   tier :focused

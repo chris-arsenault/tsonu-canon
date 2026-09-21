@@ -11,7 +11,7 @@ npc :kir_orm do
     "and stands whoever hired her in the flow beside her before she lets " \
     "them read an instrument."
   status :complete
-  tags :"structural-freq", :household, :training
+  tags :"structural-freq", :household, :training, :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

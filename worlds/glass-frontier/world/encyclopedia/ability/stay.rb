@@ -5,7 +5,7 @@ encyclopedia :stay do
   subkind :resonant_effect
   status :complete
   log "2026-08-31 — Separated Stay from the former Hourtaking ladder because it holds one small process and sends the denied duration only through the practitioner rather than assigning it to another action."
-  topics :resonance, :danger, :"kinetic-freq", :cosmology
+  topics :resonance, :danger, :"kinetic-freq", :cosmology, :subject_resonance
   prevalence :rare
   available_globally
 

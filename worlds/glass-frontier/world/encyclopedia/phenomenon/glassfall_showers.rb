@@ -7,7 +7,7 @@ encyclopedia :glassfall_showers do
   medium "Streams of fine ring debris crossing inhabited orbits and Kaleidos's atmosphere"
   content "Vitrified dust, ringglass grains, slag, and occasional larger fragments"
   hazard "High-speed impacts, false resonance gradients, and abrasion of exposed arrays"
-  topics :orbital, :ringglass, :resonance, :danger
+  topics :orbital, :ringglass, :resonance, :danger, :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:surface, :orbital] }
 

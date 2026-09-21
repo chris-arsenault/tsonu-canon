@@ -1,4 +1,5 @@
 npc :wick do
+  tags :subject_bloom
   name "Wick"
   summary "Wick is a medical courier who runs medicine through Bloom cordons around Gray Line and Xyloathax."
   subkind :courier

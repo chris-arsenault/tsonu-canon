@@ -3,7 +3,7 @@ era :the_contested_reach do
   summary "The Contested Reach was the period of competing route, salvage, and jurisdictional claims that began in 2340 after provisional reconnection agreements hardened."
   subkind :historical_period
   status :complete
-  tags :governance, :trade, :military, :diplomacy
+  tags :governance, :trade, :military, :diplomacy, :subject_politics_history
   prominence :renowned
   structural true
 

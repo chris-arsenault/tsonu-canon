@@ -4,7 +4,7 @@ encyclopedia :rill_households do
   kind :culture
   subkind :social_order
   status :complete
-  topics :"ring-hab", :household, :"social-structure", :music
+  topics :"ring-hab", :household, :"social-structure", :music, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:garden, :sealed_hab] }
 

@@ -4,7 +4,7 @@ phenomenon :white_interval do
   type_of :middle
   subkind :physical_phenomenon
   status :complete
-  tags :resonance, :"fluid-reality", :danger, :navigation
+  tags :resonance, :"fluid-reality", :danger, :navigation, :subject_shear
   prominence :recognized
   trigger "The drifting plane crosses a doorway, berth, convoy line, or other path whose endpoints are held adjacent by structure, sight, or a maintained route"
   effect "The endpoints remain visibly beside each other while every physical and signal path through the plane acquires the same added travel time"

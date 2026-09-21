@@ -3,7 +3,7 @@ npc :the_dissident do
   summary "The Dissident was an elf who remained after the collective disappearance and taught practical Tuning under a human name from 2160 onward."
   subkind :dissident
   status :complete
-  tags :resonance, :training, :isolation, :mystery
+  tags :resonance, :training, :isolation, :mystery, :subject_resonance
   prominence :forgotten
   occupation "Famine-era resonance teacher"
   omit_facts :based_in

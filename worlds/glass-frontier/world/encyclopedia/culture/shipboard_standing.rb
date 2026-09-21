@@ -3,7 +3,7 @@ encyclopedia :shipboard_standing do
   kind :culture
   subkind :collective_standing
   status :complete
-  topics :"social-structure", :transport, :orbital, :trade
+  topics :"social-structure", :transport, :orbital, :trade, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:dock, :orbital] }
   summary "Shipboard standing is a spacer's witnessed record of passages served, watches held, and hard hours answered for. Crew-book entries and former shipmates carry that record between vessels and determine which berth and watch a hiring master will entrust to the spacer."

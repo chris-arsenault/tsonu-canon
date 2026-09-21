@@ -1,4 +1,5 @@
 npc :keeps_the_measure do
+  tags :subject_journeys_trade
   name "Keeps-the-Measure"
   summary "Keeps-the-Measure is a courier carrying pressure samples between Ashvane and Crucible."
   subkind :courier

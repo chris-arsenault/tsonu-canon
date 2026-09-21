@@ -5,7 +5,7 @@ encyclopedia :signal_mat do
   subkind :plant
   status :complete
   log "2026-08-31 — Renamed Claspweed to Signal Mat; the established signal root governs the plant's tide response, while mat names its continuous growth along a seam."
-  topics :ecology, :"signal-freq", :"ring-hab"
+  topics :ecology, :"signal-freq", :"ring-hab", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   origin "Ring-era seam planting — the maintenance flora records list it among the seeded tenders, and the Ravel habs' populations descend from the original plantings"

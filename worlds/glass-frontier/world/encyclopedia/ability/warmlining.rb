@@ -5,7 +5,7 @@ encyclopedia :warmlining do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Tracing to Warmlining. The recovery trade names the buried conduit trace a warmline and the practitioner a warmliner; tracing alone did not distinguish the craft."
-  topics :"ring-era", :salvage, :rebuilding, :training
+  topics :"ring-era", :salvage, :rebuilding, :training, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:surface, :ringglass_rich] }
   function "Maps buried, live ring conduits from the surface by following their warmth through adjoining soil and stone"

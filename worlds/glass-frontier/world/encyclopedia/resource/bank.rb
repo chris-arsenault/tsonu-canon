@@ -4,7 +4,7 @@ encyclopedia :bank do
   subkind :food
   status :complete
   log "2026-08-31 — Renamed Root Broth to Bank; the name promotes bankroot's stored warmth into the cold settlements' stable term for the finished food."
-  topics :household, :ecology, :trade
+  topics :household, :ecology, :trade, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   summary "Bank is a dense bankroot food brewed in the cold settlements around Olven. One measured draught releases stored warmth into the drinker through a cold night while the surrounding room remains cold. Regrowing stools supply light first-year bank and full-night three-year sleeper's grade."

@@ -5,7 +5,7 @@ geographic_location :vitrael do
   context_tags :outer_system, :orbital, :hot
   subkind :celestial_body
   status :complete
-  tags :cosmology, :materials, :trade, :danger, :"outer-system"
+  tags :cosmology, :materials, :trade, :danger, :"outer-system", :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_system_chart, radius: 4, angle_deg: 202
 

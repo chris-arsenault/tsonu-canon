@@ -4,7 +4,7 @@ transport :molt do
   subkind :vessel
   capacity "Six crew, twelve line workers, and four comb racks"
   status :complete
-  tags :transport, :ecology, :trade, :"kinetic-freq"
+  tags :transport, :ecology, :trade, :"kinetic-freq", :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

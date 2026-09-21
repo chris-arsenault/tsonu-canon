@@ -1,4 +1,5 @@
 edict :lot_forty_open_warrant do
+  tags :subject_shear
   name "The Lot Forty Open Warrant"
   summary "The Lot Forty Open Warrant is an emergency authorization allowing any equipped crew to cut a dangerous hull in return for its first stable component."
   type_of :claims

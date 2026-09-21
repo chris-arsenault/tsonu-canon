@@ -5,7 +5,7 @@ encyclopedia :ache do
   subkind :innate_sensitivity
   status :complete
   log "2026-08-31 — Removed the broad tier. The Ache is an innate sensitivity, not a resonant spell."
-  topics :"fluid-reality", :danger, :training
+  topics :"fluid-reality", :danger, :training, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:bloom_adjacent] }
 

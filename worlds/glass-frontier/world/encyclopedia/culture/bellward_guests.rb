@@ -4,7 +4,7 @@ encyclopedia :bellward_guests do
   kind :culture
   subkind :social_order
   status :complete
-  topics :household, :"social-structure", :trade, :navigation
+  topics :household, :"social-structure", :trade, :navigation, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:road] }
 

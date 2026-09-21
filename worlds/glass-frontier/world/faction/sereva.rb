@@ -5,7 +5,7 @@ faction :sereva do
   founded 2402
   status :complete
   prominence :recognized
-  tags :diplomacy, :military, :transport
+  tags :diplomacy, :military, :transport, :subject_istrava
 
   prose <<~PROSE
     Sereva joins highland towns on #{ref :ashvane, "Ashvane"} for mutual defense, vehicle repair and refuge. Each town maintains its own heat works and government. Their association began in 2402 with the shared maintenance of surface transports that no single town could keep in service throughout the working season.

@@ -4,7 +4,7 @@ installation :hab_coriolis do
   subkind :settlement
   type_of :shuttered
   status :complete
-  tags :governance, :"ring-hab", :isolation
+  tags :governance, :"ring-hab", :isolation, :subject_politics_history
   prominence :recognized
   veiled "Hab Coriolis remains sealed after the forced entry that ended the system's forced-contact era."
 end

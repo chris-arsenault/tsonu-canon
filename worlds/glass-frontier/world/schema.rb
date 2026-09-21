@@ -18,6 +18,9 @@ schema do
                              except: %i[
                                kaleidos kaleidos_echo_rivers kaleidos_system room_before_the_ice
                                spreading_front the_glass_frontier the_sun
+                               thesali drail ildara eshrel evran_court heskar_dome lake_othrel
+                               vell house_delven iraleth_coast vannic_cast selk
+                               caldris tavresh aldevra charethis avren_landing
                              ],
                              exclusive: true
   require_context_tags! for_playable: :chronicle_location
@@ -305,6 +308,19 @@ schema do
     identity_key :conduct
   end
 
+  # One primary subject per Atlas entry (tags) or Encyclopedia entry (topics).
+  # Bloom and Shear are reported separately and together as the original locus.
+  tag :subject_bloom, "Bloom containment and displacement: zones, cordons, recoveries and their history"
+  tag :subject_shear, "Shear salvage and wilderness: claims, crews, extraction, wrecks and native hazards"
+  tag :subject_lithren, "Lithren exploration: Ithara, satellite ruins, expeditions and recovered ancient history"
+  tag :subject_istrava, "Istravan war and coastal life: occupation, resistance, refuges and regional history"
+  tag :subject_hab_life, "Hab life: independent ring communities, local customs, work and ecology"
+  tag :subject_planetary_life, "Planetary life: surface and outer-world settlements, landscapes and local ecology"
+  tag :subject_journeys_trade, "Journeys and trade: travel, shipping, communications, carriers and shared rescue"
+  tag :subject_politics_history, "Public life and history: wider institutions, law, archives, war and peace"
+  tag :subject_resonance, "Resonance and cosmology: field physics, spellwork, mantles, religion and elven mysteries"
+  tag :subject_common_life, "Shared everyday knowledge: peoples, tools, materials, household customs and general craft"
+
   tag :AI, "Artificial intelligence, custodian systems"
   tag :activism, "Political resistance, reform movements"
   tag :archives, "Record-keeping, history preservation, memory"
@@ -358,6 +374,21 @@ schema do
 end
 
 naming_lexicon do
+  word :urom,
+       meaning: "The Kaleidos marine animal that grows over submerged structures and sheds their hollow impressions.",
+       use: "Use for the animal and its cast tissue; urom is also the plural.",
+       examples: ["Urom", "urom cast tissue"],
+       boundary: "A living enveloper with a physical shedding cycle, not an apparition or a general name for wreck growth."
+  word :enuli,
+       meaning: "Blind hab-water animals whose contact can admit a person to the sensory experience of another member of the species.",
+       use: "Use for the animal and its sensory behavior; enuli is also the plural.",
+       examples: ["Enuli", "an enuli pool"],
+       boundary: "The animal perceives living electrical activity, stone stress and moving water; it does not transmit human sight."
+  word :nereth,
+       meaning: "Kaleidos's lake-bottom grazer whose branching back growth incorporates loose objects and is shed in pieces.",
+       use: "Use for the animal and its growths; nereth is also the plural.",
+       examples: ["Nereth", "a nereth crossing"],
+       boundary: "An amphibious lake grazer, not every animal that carries objects or crosses ice."
   note "A Glass Frontier name should sound like it belongs to Kaleidos even when it appears outside its article."
   note "Build a learnable vocabulary across entries. Reuse a word when the subjects genuinely share its Glass Frontier meaning; otherwise invent or repurpose a term with its own sound and use."
   note "A compound succeeds when it extends this vocabulary. Resonance Cascade works because resonance already names the setting's central physical system; two ordinary descriptive words do not gain identity merely by being joined."
@@ -365,6 +396,97 @@ naming_lexicon do
   extension "This declaration records the vocabulary established so far; it is not an allowlist. Add a word or pattern when a recurring culture, place family, practice, material, or institution needs language the current entries cannot supply."
   extension "Read the relevant canon and neighboring names, define the new word's meaning or the new family's morphology, and add its first canonical examples and boundary in the same change. Put claims about in-world language or naming history in the Encyclopedia entry that owns them."
   extension "Do not stretch an existing word beyond its meaning to avoid extending the lexicon. A lone subject may need a distinctive proper name without creating a productive root; declare a new root or pattern when it can organize a coherent family."
+
+  word :nethri,
+       meaning: "Lithren's rooted fan carrying mobile dark colonies inside its web.",
+       use: "Use for the organism, its fans and cultivated cuttings; nethri is also the plural.",
+       examples: ["Nethri", "nethri cuttings"],
+       boundary: "Requires a warm pressurized growing enclosure; not a name for every recovered plant."
+  word :uluri,
+       meaning: "The small brine swimmer whose feeding groups converge on warm surfaces.",
+       use: "Use for the animal and its schools; uluri is also the plural.",
+       examples: ["Uluri", "an uluri school"],
+       boundary: "A particular animal type, not all life in Lithren's enclosed waters."
+  word :ometh,
+       meaning: "Lithren's anchored ribbon predator with an adhesive feeding face.",
+       use: "Use for the animal, its anchor and feeding ribbon; ometh is also the plural.",
+       examples: ["Ometh", "an ometh anchor"],
+       boundary: "Confined to suitable enclosed liquid habitats; not a living ovri skin."
+  word :neral,
+       meaning: "A paired-bellows specimen capsule that exchanges fluid while retaining pressure.",
+       use: "Use for the instrument and its replaceable capsule or sampling mouth; nerals is the plural.",
+       examples: ["Neral", "neral capsule"],
+       boundary: "Names the pressure-exchange instrument, not every specimen container."
+  word :ishen,
+       meaning: "Recovered layered optical stock that compatible Lithren arrays can work into directional views.",
+       use: "Use as a material name for blanks, curves and fragments.",
+       examples: ["Ishen", "ishen blank"],
+       boundary: "Unworked stock has no concealing power; ordinary crystal is not ishen."
+  word :ulessa,
+       meaning: "Korvath's resinous red-barked tree with hollow boughs and water-storing chambers.",
+       use: "Use for the tree and its derived products; ulessa is also the plural.",
+       examples: ["Ulessa", "Ulessa Amber", "ulessa seed oil"],
+       boundary: "Names this tree and its products, not every Istravan resin or forest."
+  word :taluri,
+       meaning: "Istrava's small pollen-carrying canopy glider with a fringed throat and nesting hollows.",
+       use: "Use for the animal, its nests and family groups; taluri is also the plural.",
+       examples: ["Taluri", "a taluri nest"],
+       boundary: "Distinct from irides and from other small domesticated animals."
+  word :akhul,
+       meaning: "The suspended canopy plant whose hydraulic gripping roots can move its crown between trees.",
+       use: "Use for the plant, its crown and gripping roots; akhul is also the plural.",
+       examples: ["Akhul", "an akhul crown"],
+       boundary: "Movement is slow and water-driven; the name does not imply forest-wide consciousness."
+  word :ineth,
+       meaning: "The medicinal gel prepared from nodules among some akhul roots.",
+       use: "Use for the harvested nodules and the prepared medical stock, distinguishing them in prose.",
+       examples: ["Ineth", "ineth ampoules"],
+       boundary: "Supports exposed tissue during skilled treatment; not a general healing substance."
+  word :sureni,
+       meaning: "Korvathi coastal plants whose buoyant fronds lift shallow root baskets with the tide.",
+       use: "Use for the plant and its floating or rooted beds; sureni is also the plural.",
+       examples: ["Sureni", "a sureni bed"],
+       boundary: "Movement follows water and wind; not every floating coastal plant."
+  word :velkur,
+       meaning: "An amphibious tidal-cave predator that traps air along its ridged back beneath an overhang.",
+       use: "Use for the animal and its life stages; velkur is also the plural.",
+       examples: ["Velkur", "a juvenile velkur"],
+       boundary: "Distinct from the rock-bracing oshret; needs access to air."
+  word :auneth,
+       meaning: "A large Korvathi seabed grazer with overlapping porous armor and rows of muscular feet.",
+       use: "Use for the animal and materials directly obtained from its armor; auneth is also the plural.",
+       examples: ["Auneth", "Auneth Lamina"],
+       boundary: "A bottom-grazer rather than a swimming hauloth; its armor has mechanical properties."
+  word :adrel,
+       meaning: "A portable dry work chamber sealed against an underwater surface by a segmented soft rim.",
+       use: "Use for the chamber and its rims or fittings; adrels is the plural.",
+       examples: ["Adrel", "an adrel rim"],
+       boundary: "Encloses a working patch; not a complete diving suit or vacuum shelter."
+  word :teshil,
+       meaning: "Prepared oil-and-powder paste that gathers softened plant resin for removal.",
+       use: "Use for the preparation and its tissue or workshop grades.",
+       examples: ["Teshil", "fine teshil"],
+       boundary: "Removes adhering material; does not heal the injury beneath it."
+  word :peltri,
+       meaning: "A small domesticated furred animal with grasping paws and scent-retaining cheek folds.",
+       use: "Use for the animal and domestic lines; peltri is also the plural.",
+       examples: ["Peltri", "long-coated peltri"],
+       boundary: "An ordinary companion animal that needs warm shelter, including on Lithren."
+  word :othel,
+       meaning: "An optical measuring instrument whose separable heads compare a visible gap from both ends.",
+       use: "Use for the instrument, paired heads and bench or field sets; othels is the plural.",
+       examples: ["Othel", "an othel head"],
+       boundary: "Measures the optical path; does not certify a distorted space safe to cross."
+  word :telisar,
+       meaning: "Manufactured ribbon with interlocking microscopic hooks, released by progressively peeling an edge.",
+       use: "Use as a material name for ribbons, patches and compatible fastening faces.",
+       examples: ["Telisar", "telisar lining"],
+       boundary: "A removable physical fastening, not a pressure seal or a self-repairing material."
+  word :varen,
+       meaning: "A portable medical frame supporting fine vessels and temporary external circulation during surgery.",
+       use: "Use for the instrument, its frames and fittings; varens is the plural.",
+       examples: ["Varen", "varen fittings"],
+       boundary: "Requires skilled placement and compatible supplies; does not reconstruct tissue autonomously."
 
   word :istrava,
        meaning: "The region around Korvath's warm middle sea whose ports and uplands formed the Istravan League, now the theater of a regional war extending into its orbital approaches.",
@@ -386,6 +508,26 @@ naming_lexicon do
        use: "Use for the animal, its nests and life stages; oshrets is the plural.",
        examples: ["Oshret", "oshret nests", "young oshrets"],
        boundary: "Not any cave monster or armored animal; the documented anatomy and rock-contact defense define the species."
+  word :sural,
+       meaning: "Korvathi refractory crystal used for heat-resistant windows and optical wedges whose refraction changes under controlled heating.",
+       use: "Use for the mineral, its clear and clouded grades and lenses cut from it.",
+       examples: ["Sural", "sural windows", "Vath's sural face"],
+       boundary: "The material transmits supplied light; it is not ringglass, an energy source or a name for every optical crystal."
+  word :hauloth,
+       meaning: "A large filter-feeding animal of Korvath's warm seas whose mineral-bearing fins produce a short kinetic pulse in surrounding water.",
+       use: "Use for the species and its life stages; hauloths is the plural.",
+       examples: ["Hauloth", "a hauloth calf", "Ilmu the hauloth"],
+       boundary: "Use for this aquatic animal and its documented anatomy, not for any large creature or a flying vessel."
+  word :eshkul,
+       meaning: "A Korvathi canopy browser that gathers caustic resin onto detachable back spines and scatters it when cornered.",
+       use: "Use for the species, its life stages and its gathered defensive coating; eshkuls is the plural.",
+       examples: ["Eshkul", "eshkul spines", "Reth the eshkul"],
+       boundary: "Use for this animal's documented anatomy and behavior, not for any resin-bearing plant or armored creature."
+  word :tovan,
+       meaning: "Istravan close dueling in which opponents hold opposite ends of a sash while fighting with hooked blades.",
+       use: "Use for the practice, a bout and its equipment; wagers and public grievance bouts are applications of the same form.",
+       examples: ["Tovan", "a tovan sash", "tovan at Tovanesh"],
+       boundary: "Not all dueling or public argument; the held sash and hooked blade define the practice, and victory does not itself impose an obligation by resonance."
   word :ithara,
        meaning: "The modern survey name of a Lithren ruin group; Itharan identifies the local pattern-keeping tradition evidenced there.",
        use: "Use the adjective for people and works connected by evidence to that local tradition.",

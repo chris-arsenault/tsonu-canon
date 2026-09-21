@@ -4,7 +4,7 @@ encyclopedia :sarn do
   kind :lifeform
   subkind :animal
   status :complete
-  topics :ecology, :resonance, :"kinetic-freq", :orbital
+  topics :ecology, :resonance, :"kinetic-freq", :orbital, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:debris_field] }
 

@@ -5,7 +5,7 @@ artifact :oravel_hanging do
   resource :istril
   status :complete
   prominence :recognized
-  tags :materials, :trade, :mystery
+  tags :materials, :trade, :mystery, :subject_lithren
   descriptive_identity appearance: "Long silver and violet-brown faces hang in uneven folds, joined by fine seams and marked by modern test clamps.", handling: "A fold must be supported along its crease before it is warmed and opened; a broad sheet needs several carriers or a prepared roller.", risks: "Sharp split layers cut suits, a hanging sheet conceals the drop behind it, and removing a supported section changes the loads on its brackets."
   prose <<~PROSE
     The Oravel Hanging descends between galleries at #{ref :oravel, "Oravel"}. It is an array of joined #{encyclopedia_ref :istril, "istril"} sheets with surviving clamps and pipe contacts. The upper sections can be examined from the galleries. Lower folds continue into rubble beyond the present working depth.

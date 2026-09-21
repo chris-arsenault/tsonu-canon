@@ -6,8 +6,8 @@ geographic_location :istrava do
   prominence :recognized
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :waterway
-  tags :governance, :military, :trade, :music, :danger
-  log "2026-09-19 — Regional prose owns the Deral mine until its surrounding subjects warrant a separate location entry; the future marker retains discovery without inventing ten connections to satisfy location coverage."
+  tags :governance, :military, :trade, :music, :danger, :subject_istrava
+  log "2026-09-19 — Regional prose initially owned Deral until its surrounding subjects warranted a separate location entry. The detailed batch now gives the mine its own article alongside its hunters, animal, valuable crystal and competing recovery parties."
   descriptive_identity setting: "Long quays face a warm inland sea; orchard roads climb behind independent ports into cultivated uplands.", activity: "Coastal ships carry harvests, soldiers and departing households between cities deciding whether to receive Aren Talivar's officers.", hazards: "Velisar's captured batteries command the coastal approach; an apparently friendly harbor may relay the Red Sovereign's voice."
 
   prose <<~PROSE
@@ -39,6 +39,10 @@ geographic_location :istrava do
     The war's material stakes are correspondingly broad. Food, ship plate, ceramic insulation, precision components and high-output arrays move through different hands and along different routes. Some sites matter because they sustain a population; others matter because they allow a vessel, battery or orbital station to function. Their value does not grant the party holding them the right to rule the people who work there.
 
     Coastal warships can threaten a harbor while its upland settlements remain beyond their reach. A city that loses access to orbit can still receive small vessels across the sea. Families move between those dangers, sometimes leaving a fortified port for a country house whose owners supported Aren before his occupation.
+
+    Across the eastern reach, #{ref :oskara, "Oskara"} receives fugitives beneath its harbor guns. The cave landings at #{ref :kethra, "Kethra"} provide a smaller passage out of Velisar's coast. Ships climbing to orbit encounter the #{ref :theskar_interception, "Theskar Interception"}, where a detained passenger vessel has brought relatives, resident mechanics and armed escorts into the same confrontation.
+
+    Inland, #{ref :naloven, "Naloven"}'s baths and orchard terraces climb around an inhabited walking battery. Aren's recovery troops hold its upper guns while residents occupy the rooms below. The neighboring spring woods of #{ref :iridess, "Iridess"} shelter fighters and ordinary bathing parties along the same streams. Naloven's dueling court draws officers, champions and people seeking a public promise they can hold someone to.
   PROSE
 
   prose <<~PROSE, section: :people, heading: "Across the Guns"
@@ -48,13 +52,9 @@ geographic_location :istrava do
   PROSE
 
   prose <<~PROSE, section: :dangers, heading: "Deral's Hanging Platforms"
-    #{future "Deral"} is a crystal mine cut into an upland ridge above the orchard country. Its refractory crystal becomes windows and housings for high-output arrays. Other mines supply the trade, but Deral's unusually large clear pieces draw armed recovery crews. Terraced cuts open into a cavern crossed by suspended ore platforms above a deep seep. Narrow upper cuts reach daylight; vehicles must use the broad lower entrance.
+    #{ref :deral, "Deral"}'s trapped miners remain above the occupied rock after Aren's recall of their hunters. Rescue parties approach through upper cuts and a waste incline while buyers seek crystal and living eggs. The #{ref :deral_hunters, "returning hunters"} teach volunteers to draw an oshret away from the stone that braces its shield.
 
-    After taking Velisar in 2435, Aren recalled the league detachment that hunted #{encyclopedia_ref :oshret, "oshrets"} around the workings. Its captain warned that the laying chambers had not been cleared. Aren refused a delay; workers heard his answer over the captain's live receiver. Adults crossed the empty hunting posts and took the stairs. Families escaped through the upper cuts, but a working crew remained on platforms the animals could not reach without letting go of the stone.
-
-    The miners cut the walkways and lashed spare cable into nets beneath their refuge. They have packed food, seep water and portable cutters. Their lamps still answer observers on the ridge. Adults test the nets from the walls; young animals can climb along the suspension cables. Supplies can be lowered from an upper cut, but bringing people out requires crossing occupied rock. A relief attempt through the lower entrance left abandoned weapons and two missing rescuers.
-
-    Escaped miners offer shares of recovered crystal to anyone who brings their colleagues home. Other crews arrive to steal the largest pieces or collect living eggs for buyers who have never seen an adult hunt. The former detachment's families know who ordered the withdrawal, and some soldiers still in Velisar want to return. Surviving miners intend to reopen the workings; they refuse buyers who demand that the trapped crew be abandoned as the price of a quick recovery.
+    The broad sural face #{ref :vath, "Vath"} gives the excavation a stake in the fighting above the coast: #{ref :vardesh, "Vardesh"}'s officers want it for the ship's damaged beam battery. The miners' rescue and the fate of their find have drawn people with different reasons to enter the same cavern.
   PROSE
 
   gm_note :appears, "A cliffside boat crew offers passage, then recognizes a visitor as someone a former passenger paid them to find."

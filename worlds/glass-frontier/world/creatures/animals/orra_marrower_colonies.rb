@@ -4,7 +4,7 @@ creature :orra_marrower_colonies do
   subkind :animal
   type_of :marrower
   status :complete
-  tags :ecology, :resonance, :"ring-hab"
+  tags :ecology, :resonance, :"ring-hab", :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

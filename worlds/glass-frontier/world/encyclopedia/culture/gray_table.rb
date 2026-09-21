@@ -3,7 +3,7 @@ encyclopedia :gray_table do
   kind :culture
   subkind :belief
   status :complete
-  topics :"ring-era", :religion, :household, :"social-structure"
+  topics :"ring-era", :religion, :household, :"social-structure", :subject_common_life
   prevalence :rare
   available_globally
   summary "The Gray Table is the rare, quiet custom of setting places for the vanished: once a year, a household or hall lays its table with seats, cups, and portions for the elves its line once worked beside, and serves the meal through as though the guests were late rather than gone."

@@ -8,7 +8,7 @@ npc :elian_soreth do
   specialty "Outer-system positional observations"
   status :complete
   prominence :recognized
-  tags :archives, :navigation, :"outer-system"
+  tags :archives, :navigation, :"outer-system", :subject_lithren
 
   prose <<~PROSE
     Born on #{ref :pelhari, "Pelhari"}, Elian Soreth worked above its illuminated terraces, using an optical telescope on an exposed mounting outside the old observatory. In 2272 he proposed a planet beyond Vastine. The apparent positions of several tracked outer bodies repeatedly departed from calculations made with the known masses. A further mass could explain part of the discrepancy; errors in inherited positions could explain part as well.

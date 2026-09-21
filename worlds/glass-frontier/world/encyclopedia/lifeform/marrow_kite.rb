@@ -3,7 +3,7 @@ encyclopedia :marrow_kite do
   kind :lifeform
   subkind :creature
   status :complete
-  topics :ecology, :"signal-freq", :navigation, :orbital
+  topics :ecology, :"signal-freq", :navigation, :orbital, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:debris_field, :sealed_hab] }
   summary "Marrow kites are hollow-boned gliding hunters of the fragment gaps, raised from the nest by keepers who fly them as living survey and message birds. A manned kite rides the kinetic gradients between habs and comes back to the wrist that weighed it that morning."

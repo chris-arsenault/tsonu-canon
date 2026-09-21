@@ -4,7 +4,7 @@ encyclopedia :clearance_hunger do
   kind :phenomenon
   subkind :social_condition
   status :complete
-  topics :"social-structure", :transport, :governance, :isolation
+  topics :"social-structure", :transport, :governance, :isolation, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:dock] }
   medium "Transit settlements built in elven traffic architecture — capture frames and passage galleries sized for a flow that stops when a window slips"

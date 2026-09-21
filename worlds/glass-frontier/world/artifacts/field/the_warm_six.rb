@@ -4,7 +4,7 @@ artifact :the_warm_six do
   subkind :artifact
   type_of :seren_blue
   status :complete
-  tags :ecology, :materials, :trade
+  tags :ecology, :materials, :trade, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

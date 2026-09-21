@@ -1,4 +1,5 @@
 faction :lowbank_reedwater_household do
+  tags :subject_planetary_life
   name "The Lowbank Reedwater Household"
   summary "The Lowbank Reedwater Household is one river family that builds seasonal homes from living reed mats and moves them when channels shift."
   type_of :reedwater_people

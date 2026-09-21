@@ -4,7 +4,7 @@ encyclopedia :varal do
   kind :technology
   subkind :forming_machine
   status :complete
-  topics :materials, :trade, :rebuilding
+  topics :materials, :trade, :rebuilding, :subject_lithren
   prevalence :uncommon
   appears_when all: { place: [:outer_system] }, any: { place: [:yard, :archive] }
   function "Forms supplied sheet stock against an adjustable bed of ceramic rods"

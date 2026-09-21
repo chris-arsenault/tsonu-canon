@@ -4,7 +4,7 @@ ability :thief_of_hours do
   type_of :hourtaking
   subkind :the_adversary
   status :complete
-  tags :resonance, :religion, :danger, :cosmology
+  tags :resonance, :religion, :danger, :cosmology, :subject_resonance
   prominence :recognized
   qualification "Answers someone who voluntarily received duration from another process so another person could finish an urgent act"
   succession "Passes to a person who voluntarily lives one stolen interval beside the bearer and accepts an equal share of its age"

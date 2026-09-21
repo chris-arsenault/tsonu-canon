@@ -1,4 +1,5 @@
 creature :nine_knot do
+  tags :subject_hab_life
   name "Nine-Knot"
   summary "Nine-Knot is a marked Ravel knot found in pressure lines at Ravel and Perch."
   subkind :creature

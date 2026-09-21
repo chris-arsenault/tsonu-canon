@@ -1,4 +1,5 @@
 npc :thornvault_vault_stiller do
+  tags :subject_planetary_life
   name "The Thornvault Vault Stiller"
   summary "The Thornvault Vault Stiller damps a room's signal band long enough to move one unstable archive case."
   type_of :stilling

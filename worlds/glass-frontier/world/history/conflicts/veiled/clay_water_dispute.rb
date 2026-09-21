@@ -1,4 +1,5 @@
 conflict :clay_water_dispute do
+  tags :subject_planetary_life
   name "The Clay-Water Dispute"
   summary "The Clay-Water Dispute is a contest between Ninth Kiln and the Reed Door over first use of a low-water channel during firing weeks."
   subkind :dispute

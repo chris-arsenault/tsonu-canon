@@ -5,8 +5,8 @@ geographic_location :ithara do
   status :complete
   prominence :recognized
   playable_as :chronicle_location
-  context_tags :outer_system, :surface, :cold, :archive, :dock, :market
-  tags :archives, :mystery, :rebuilding, :danger, :trade, :transport
+  context_tags :outer_system, :surface, :cold, :archive, :dock, :market, :garden
+  tags :archives, :mystery, :rebuilding, :danger, :trade, :transport, :subject_lithren
   descriptive_identity setting: "Pressure halls and landed ships stand above a frozen basin; private expedition quarters overlook crowded bunk rooms, repair bays and cold specimen stores.", activity: "Crews bargain for spare passage on faction supply runs, recruit companions and sell finds; researchers commission journeys to scattered ruins, and prospectors risk borrowed equipment for a fortune.", hazards: "Money buys maintained suits, guards and rescue passage. Beyond defended landings, robbery, broken ground and lethal old works threaten crews; an outlaw may hold the equipment or knowledge needed to get everyone home."
   log "2026-09-15 — Established recovered actions as public history. The ancient military opponent, ecological causes, ultimate fate and possible origin of resonance remain intentionally unresolved for every audience. They are not authoring gaps or concealed GM answers."
   log "2026-09-15 — Ithara is the principal inhabited expedition hub among dispersed ruins. Its gate return is one undertaking within a frontier whose independent crews, trade, science and predation do not depend on that project."
@@ -49,6 +49,11 @@ geographic_location :ithara do
     People come for a quick fortune, for a life beyond the institutions they left, or for work no one has done before. Others stay because their friends are here and they can make a living feeding, carrying or repairing for them. Scientists can spend an entire season measuring an unremarkable channel. A successful sale can buy a crew its own vessel, and a quiet return can mean a meal, wages and another journey already being planned.
   PROSE
 
+  prose <<~PROSE, section: :people, heading: "Living Rooms and Field Cases"
+    In heated cultivation rooms, imported #{encyclopedia_ref :irides} forage over familiar crops beside newly rooted #{encyclopedia_ref :nethri}. Gardeners exchange cuttings through enclosed passages and keep arriving #{encyclopedia_ref :transplant, "transplants"} beneath their own lamps while deciding where the stock will grow. Small #{encyclopedia_ref :peltri} follow people between neighboring rooms, stopping at the closed doors beyond which a suit is needed. Some households share a warm growing room; others charge more for a shelf there than a lodger pays for a bunk.
+
+    The market sells empty #{encyclopedia_ref :neral, "nerals"}, replacement cells for an #{encyclopedia_ref :istril_fold} and padded cases filled with #{encyclopedia_ref :ovri_scales}. Sellers demonstrate used equipment in front of its prospective owners. A fold with beautiful metal can have exhausted cells, and a working sampler may still contain a specimen belonging to someone else. Independent crews trade sound parts with one another when a shop's price is beyond them.
+  PROSE
   prose <<~PROSE, section: :people, heading: "What Money Buys"
     The difference between rich and poor is greater here than in most established settlements. Expedition owners and successful buyers keep private rooms, fresh food, spare suits and berths on ships they can call away from other work. Cutters with little money share bunks by shift and rent equipment whose previous wear they must learn before taking it outside. Across a single passage, one crew debates which vessel to send while another counts what remains after paying for a suit repair.
 

@@ -1,4 +1,5 @@
 artifact :meridian_witness_spool do
+  tags :subject_politics_history
   name "The Meridian Witness Spool"
   summary "The Meridian Witness Spool is a spoken-record medium sourced along the Sable Crescent, Verathi, Hab Meridian, and the Underlayers. It preserves one account in four voices so later distortion remains visible."
   subkind :record

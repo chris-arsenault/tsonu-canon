@@ -1,4 +1,5 @@
 loop :cooperation_fracture do
+  tags :subject_politics_history
   name "Loop: Cooperation-Fracture Cycle"
   subkind :narrative_loop
   path "dm/loops/cooperation-fracture.md"

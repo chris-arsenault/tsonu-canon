@@ -5,7 +5,7 @@ installation :the_dry_net do
   context_tags :surface, :urban, :dock
   subkind :installation
   status :complete
-  tags :trade, :salvage, :transport, :household, :surface
+  tags :trade, :salvage, :transport, :household, :surface, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

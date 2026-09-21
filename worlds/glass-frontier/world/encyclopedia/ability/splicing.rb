@@ -4,7 +4,7 @@ encyclopedia :splicing do
   kind :ability
   subkind :technique
   status :complete
-  topics :training, :trade, :materials
+  topics :training, :trade, :materials, :subject_common_life
   prevalence :common
   appears_when any: { place: [:yard, :dock] }
   function "Joins rigging line with load-bearing splices proven by the listening thread's voice"

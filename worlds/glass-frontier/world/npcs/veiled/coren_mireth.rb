@@ -1,4 +1,5 @@
 npc :coren_mireth do
+  tags :subject_planetary_life
   name "Coren Mireth"
   summary "Coren Mireth leads the volunteer crews that keep Kyther Range meltwater moving when road crews withdraw."
   subkind :leader

@@ -6,7 +6,7 @@ encyclopedia :ringglass_pitch do
   status :complete
   log "2026-08-31 — Renamed Blue Yard Pitch to Peel; the trade's quality test and the material's defining release behavior supply its working name."
   log "2026-08-31 — Renamed Peel to Ringglass Pitch. Peel is the seam audit, not the material; ringglass is the established material root and directly governs the pitch's vibration-dependent cure."
-  topics :materials, :ringglass, :"structural-freq", :trade
+  topics :materials, :ringglass, :"structural-freq", :trade, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:yard] }
   summary "Ringglass pitch is the working sealant of the glass trades: a dense blue-black paste that hardens around vibrating ringglass and releases cleanly the moment the vibration stops. Yards pay seams with it, casters bed live glass in it, and the stripped rind is the trade's own quality gauge."

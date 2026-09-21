@@ -5,7 +5,7 @@ encyclopedia :kavra do
   subkind :technology
   status :complete
   log "2026-08-31 — Renamed Tripline Kiln to Kavra; the Korvath potters' working word names the suspended firing vessel without turning one component or the regional groundsong into its title."
-  topics :materials, :resonance, :"structural-freq", :trade
+  topics :materials, :resonance, :"structural-freq", :trade, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:waterway] }
   function "Fires Korvath river clay to ware and brick through the region's tremors — the suspension turns ground shock into slow swing, and the load cools crack-free"

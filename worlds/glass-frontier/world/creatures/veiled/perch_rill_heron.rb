@@ -1,4 +1,5 @@
 creature :perch_rill_heron do
+  tags :subject_hab_life
   name "The Perch Rill Heron"
   summary "The Perch Rill Heron is an animal ranging between Perch and Talven. It spears rootfish and follows irrigation failures along the route."
   subkind :animal

@@ -6,7 +6,7 @@ faction :brake_free_cutters do
   subkind :mutual_aid
   type_of :mutuals
   founded 2336
-  tags :salvage, :trade, :"ring-hab", :materials
+  tags :salvage, :trade, :"ring-hab", :materials, :subject_shear
   prominence :marginal
   status :complete
   omit_facts :leaders, :predecessors

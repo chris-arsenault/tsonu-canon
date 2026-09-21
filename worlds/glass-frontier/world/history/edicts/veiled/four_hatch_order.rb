@@ -1,4 +1,5 @@
 edict :four_hatch_order do
+  tags :subject_journeys_trade
   name "The Four-Hatch Order"
   summary "The Four-Hatch Order keeps one docking mouth clear at every Keel stop for unpowered rescue craft."
   subkind :edict

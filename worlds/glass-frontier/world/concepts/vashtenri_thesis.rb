@@ -2,7 +2,7 @@ resource :vashtenri_thesis do
   name "Vashtenri Thesis"
   summary "The Vashtenri Thesis is Renn Duvasi's published study of how resonance loads spread through connected ringglass beyond the equipment drawing the field."
   subkind :data
-  tags :archives, :resonance, :"ring-era"
+  tags :archives, :resonance, :"ring-era", :subject_resonance
   prominence :marginal
 
   descriptive_identity(

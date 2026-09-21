@@ -4,7 +4,7 @@ encyclopedia :itharan do
   kind :culture
   subkind :cultural_identity
   status :complete
-  topics :archives, :resonance, :rebuilding, :mystery
+  topics :archives, :resonance, :rebuilding, :mystery, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:outer_system, :archive] }
   cue "A retained fitting reproduces the wear and old fault of a larger work kept in another chamber."

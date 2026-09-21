@@ -8,7 +8,7 @@ installation :glasswake do
   path "player/locations/settlements/glasswake.md"
   status :complete
   reviewed "2026-03-18"
-  tags :surface, :trade, :"ring-era"
+  tags :surface, :trade, :"ring-era", :subject_planetary_life
   prominence :recognized
   position frame: :kaleidos_surface, latitude_deg: 11, longitude_deg: -75,
            size_class: :site

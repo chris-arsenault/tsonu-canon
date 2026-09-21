@@ -7,7 +7,7 @@ encyclopedia :resonant_tuner do
   status :complete
   log "2026-09-15 — Removed the unsupported hundreds-of-communities limit from the account of independent Famine-era discovery."
   reviewed "2026-03-19"
-  topics :resonance, :training, :"social-structure"
+  topics :resonance, :training, :"social-structure", :subject_resonance
   prevalence :uncommon
   available_globally
 

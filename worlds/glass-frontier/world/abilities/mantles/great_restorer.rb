@@ -4,7 +4,7 @@ ability :great_restorer do
   type_of :return
   subkind :the_three
   status :complete
-  tags :resonance, :religion, :rebuilding, :archives
+  tags :resonance, :religion, :rebuilding, :archives, :subject_resonance
   prominence :recognized
   qualification "Answers a restorer who can present the surviving witnesses for a complete state and identify the old flaws contained in that return"
   succession "Passes after the bearer completes a restoration whose unavoidable loss they refuse to hide from those restored"

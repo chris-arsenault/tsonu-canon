@@ -4,7 +4,7 @@ encyclopedia :nurseries do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Crabs to Nurseries; the title names the carried garden each animal raises."
-  topics :ecology, :household
+  topics :ecology, :household, :subject_common_life
   prevalence :uncommon
   appears_when any: { place: [:garden, :waterway] }
   summary "Nurseries are dinner-plate waterside animals that pack their rimmed shells with loam and live cuttings. They groom and feed from the shell plot, carry it between beds, and leave the rooted garden behind at each molt."

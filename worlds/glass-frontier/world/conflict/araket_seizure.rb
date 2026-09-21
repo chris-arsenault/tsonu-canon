@@ -4,7 +4,7 @@ conflict :araket_seizure do
   subkind :dispute
   status :complete
   prominence :recognized
-  tags :danger, :military, :transport, :trade
+  tags :danger, :military, :transport, :trade, :subject_lithren
   log "2026-09-16 — Consolidated Sira Dhen's supporting biography into the occupation. The physician remains an independent orc participant with patients, family, medical boundaries and an extraction problem; no retained NPC inherits her work."
   prose <<~PROSE
     After the #{ref :lethai_trial, "Lethai Trial"} in 2435, #{ref :araket, "Araket"} arrived at #{ref :anaret, "Anaret"}'s lower landing under an offer to carry recovered equipment. Its crew disarmed workers on the approach, wounded two who resisted and moved their stores into the ship's detached cabin. They now control the broad route used by loaded sledges.

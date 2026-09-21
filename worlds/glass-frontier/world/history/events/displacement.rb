@@ -5,7 +5,7 @@ incident :displacement do
   path "player/history/events/displacement.md"
   status :complete
   reviewed "2026-03-19"
-  tags :danger, :"ring-hab"
+  tags :danger, :"ring-hab", :subject_bloom
   prominence :renowned
   prominence_xrefs ["displacement-council"]
   date 2378

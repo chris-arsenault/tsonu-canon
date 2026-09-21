@@ -6,7 +6,7 @@ encyclopedia :sable_riverfolk do
   origin_blurb "River households bind names, freight, and remembered voices to the routes that carried them."
   subkind :cultural_identity
   status :complete
-  topics :"social-structure", :archives, :trade
+  topics :"social-structure", :archives, :trade, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:waterway] }
   formal_register "A witnessed account names the route, the bearer, and the person who can answer for it"

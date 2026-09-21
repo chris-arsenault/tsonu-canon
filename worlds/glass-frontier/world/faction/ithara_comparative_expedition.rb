@@ -5,7 +5,7 @@ faction :ithara_comparative_expedition do
   founded 2408
   status :complete
   prominence :recognized
-  tags :archives, :resonance, :mystery
+  tags :archives, :resonance, :mystery, :subject_lithren
   log "2026-09-16 — Consolidated Tavia Mereth's founder biography and Kel'esh's materials work into the expedition and their discoveries. Kept the 2408 survey, 2416 bodily cost, 2424 succession and independent experimental work; Nereth does not inherit the whole laboratory's labor."
 
   prose <<~PROSE
@@ -32,12 +32,21 @@ faction :ithara_comparative_expedition do
     Her #{ref :ithara_tool_return, "restoration in 2416"} gave the collection a working result. She died in 2424, before the later Witnessings recovered the acts attributed to Othes and Sahel. Her surviving notes establish the method and its early results; they end before those discoveries.
   PROSE
 
+  prose <<~PROSE, section: :operations, heading: "Drawings From Living Collections"
+    The expedition circulates illustrated comparisons of #{encyclopedia_ref :ovri}, #{encyclopedia_ref :nethri} and the animals recovered at #{ref :oravel}. Independent crews contribute drawings and observations alongside paid investigators. Each page identifies the observer and the particular specimen. A fan's appearance under a lamp can be compared with its appearance in a warmed traveling case without treating the two drawings as separate species.
+
+    Nereth edits the comparisons with their contributors and keeps the original sketches available. Daret's account of an #{encyclopedia_ref :ometh} includes the lost sampling tool and the direction from which its ribbon closed. Keepers from the #{ref :ilvaren, "Ilvaren"} exchange advice on living transfers, and #{ref :nara_pell} at #{ref :seren} sends observations from cultivation trials. Copies leave with carriers when someone agrees to take them; a distant collection may be working from an older drawing while a correction waits in Ithara.
+  PROSE
+
   gm_note :triggered_by, "Bringing an unfamiliar fragment gets an offer to compare it with the expedition's collection; the closest match belongs to a rival crew whose help must be obtained."
+  gm_note :complicates, "A familiar field drawing matches the visitors' specimen until its keeper warms the case. The original observer wants to compare both specimens alive, while a buyer is offering immediate payment for the one already here."
 end
 
 relate :rel_ithara_comparative_expedition_headquartered_in_ithara, :headquartered_in, :ithara_comparative_expedition, :ithara, since: 2408
 
 relate :rel_ithara_comparative_expedition_operates_in_lithren, :operates_in, :ithara_comparative_expedition, :lithren, since: 2408
+
+relate :rel_nara_comparative, :cooperates_with, :nara_pell, :ithara_comparative_expedition, since: 2435
 
 moment :ithara_expedition_founded, year: 2408, of: :ithara_comparative_expedition do
   summary "The comparative expedition formed to study fitted pieces across the Ithara ruins."

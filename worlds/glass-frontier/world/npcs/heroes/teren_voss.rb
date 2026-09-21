@@ -10,7 +10,7 @@ npc :teren_voss do
     "Voss will inspect any conduit design brought to him and mark the " \
     "coupled loads it overlooks. When a plan amounts to another Span, he " \
     "hands the sheets back regardless of who is paying."
-  tags :resonance, :ringglass, :"signal-freq"
+  tags :resonance, :ringglass, :"signal-freq", :subject_bloom
   prominence :marginal
   status :complete
   question "What birth year and late-life history connect Teren's engineering leadership in 2356 with his present work in 2435?", raised: "2026-09-15"

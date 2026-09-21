@@ -4,7 +4,7 @@ encyclopedia :factor do
   kind :role
   subkind :profession
   status :complete
-  topics :trade, :"social-structure"
+  topics :trade, :"social-structure", :subject_journeys_trade
   prevalence :common
   appears_when any: { place: [:market, :dock, :urban] }
 

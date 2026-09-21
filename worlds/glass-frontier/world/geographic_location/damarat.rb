@@ -6,7 +6,7 @@ geographic_location :damarat do
   prominence :recognized
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :cold, :archive, :yard
-  tags :materials, :trade, :mystery, :danger
+  tags :materials, :trade, :mystery, :danger, :subject_lithren
   descriptive_identity setting: "A pressure roof covers one terrace of an ancient works; curved offcuts line the warm passage and untouched terraces descend beneath frozen scree.", activity: "Workers make replacement panels while neighbors search for stolen setting bars and take sides over a buyer's offer to remove the bed.", hazards: "A thief has attacked an operator; armed guards seek entry to the camp, and old shafts and a surviving trap interrupt routes into the buried terraces."
   prose <<~PROSE
     Damarat is the modern name of a workshop excavation below a long broken escarpment on #{ref :lithren, "Lithren"}. Its upper terrace holds a pressure roof, sleeping compartments and the #{ref :damarat_bed, "Damarat Bed"}. Other terraces continue beneath the scree. The exposed walls hold racks of curved bars and recesses whose spacing matches equipment removed before the present excavation.

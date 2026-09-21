@@ -4,7 +4,7 @@ encyclopedia :underturns do
   subkind :physical_phenomenon
   status :complete
   log "2026-08-31 — Renamed Stratum Exchange to Underturns. Ravel's named Underturn already supplied the field word; the type now extends that word to the complete family of intact layer exchanges."
-  topics :"fluid-reality", :mystery, :danger, :archives
+  topics :"fluid-reality", :mystery, :danger, :archives, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:displacement_zone] }
   summary "Underturns are the rarest and tidiest displacement events: two layers of a structure trade places overnight — third floor for fifth, cellar for attic — each arriving intact, furnished, and exactly where the other used to be. The law is ready for them, and the residents never quite are."

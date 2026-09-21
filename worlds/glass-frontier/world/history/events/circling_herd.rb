@@ -4,7 +4,7 @@ incident :circling_herd do
   subkind :incident
   date 2435
   status :complete
-  tags :ecology, :transport, :danger, :resonance, :trade
+  tags :ecology, :transport, :danger, :resonance, :trade, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

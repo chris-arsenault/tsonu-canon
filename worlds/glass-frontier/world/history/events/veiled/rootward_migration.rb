@@ -1,4 +1,5 @@
 incident :rootward_migration do
+  tags :subject_hab_life
   name "The Rootward Migration"
   summary "The Rootward Migration moved Noll gardeners and their soil beds into Olven after a root deck cooled beyond recovery."
   subkind :migration

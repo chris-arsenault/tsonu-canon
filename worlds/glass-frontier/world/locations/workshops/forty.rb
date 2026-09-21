@@ -7,7 +7,7 @@ installation :forty do
   subkind :workshop
   function "Enclosed cutting, quarantine, and live-system access for captured vessels"
   status :complete
-  tags :salvage, :transport, :materials, :danger
+  tags :salvage, :transport, :materials, :danger, :subject_shear
   prominence :marginal
   omit_facts :maintained_by
 

@@ -5,7 +5,7 @@ encyclopedia :caller do
   subkind :office
   status :complete
   log "2026-08-31 — Renamed Session Caller to Caller; Fermata's book, count, succession, and public proceedings already use caller as the office's complete title."
-  topics :music, :governance, :"ring-hab", :"social-structure"
+  topics :music, :governance, :"ring-hab", :"social-structure", :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
 

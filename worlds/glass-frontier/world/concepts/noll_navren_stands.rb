@@ -5,7 +5,7 @@ resource :noll_navren_stands do
   type_of :navren
   function "Supplies Noll-grown structural frames shaped around declared loads"
   status :complete
-  tags :ecology, :materials, :trade, :"structural-freq"
+  tags :ecology, :materials, :trade, :"structural-freq", :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

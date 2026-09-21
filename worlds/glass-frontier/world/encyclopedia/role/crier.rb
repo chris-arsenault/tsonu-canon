@@ -4,7 +4,7 @@ encyclopedia :crier do
   kind :role
   subkind :office
   status :complete
-  topics :"social-structure", :governance, :resonance
+  topics :"social-structure", :governance, :resonance, :subject_politics_history
   prevalence :common
   appears_when any: { place: [:urban, :market] }
 

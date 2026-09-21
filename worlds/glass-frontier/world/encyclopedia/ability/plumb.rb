@@ -6,7 +6,7 @@ encyclopedia :plumb do
   status :complete
   log "2026-08-31 — Renamed Echo Orientation to Plumb; Sable stack schools use the working word for a body that keeps its true line inside false acoustic geometry."
   log "2026-08-31 — Removed the broad tier. Plumb is an innate sensitivity, not a resonant spell."
-  topics :"ringglass", :resonance, :archives, :training
+  topics :"ringglass", :resonance, :archives, :training, :subject_politics_history
   prevalence :rare
   appears_when all: { place: [:ringglass_rich] }
 

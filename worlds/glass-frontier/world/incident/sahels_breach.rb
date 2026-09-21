@@ -4,7 +4,7 @@ incident :sahels_breach do
   subkind :campaign
   status :complete
   prominence :recognized
-  tags :military, :rebuilding, :mystery
+  tags :military, :rebuilding, :mystery, :subject_lithren
   log "2026-09-15 — Ancient sequence has no assigned absolute year. Witnessed destruction and departure are established; the force that defeated the defense and the wider causes remain intentionally unknown."
 
   prose <<~PROSE

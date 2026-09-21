@@ -4,7 +4,7 @@ artifact :alda_capsule do
   subkind :record
   recorded 2305
   status :complete
-  tags :archives, :transport, :"signal-freq", :mystery
+  tags :archives, :transport, :"signal-freq", :mystery, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

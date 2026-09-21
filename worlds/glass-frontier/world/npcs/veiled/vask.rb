@@ -1,4 +1,5 @@
 npc :vask do
+  tags :subject_planetary_life
   name "Vask"
   summary "Vask is a pressure-valve specialist serving South Shade and Shadewell."
   subkind :specialist

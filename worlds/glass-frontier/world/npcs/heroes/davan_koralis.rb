@@ -10,7 +10,7 @@ npc :davan_koralis do
     "Koralis treats any fault mentioned to him — a cold meal, a dead berth " \
     "light, a missed rescue window — as part of one journey, and writes it " \
     "against a named manager before he leaves the room."
-  tags :trade, :transport, :governance, :salvage
+  tags :trade, :transport, :governance, :salvage, :subject_journeys_trade
   prominence :recognized
   status :complete
 

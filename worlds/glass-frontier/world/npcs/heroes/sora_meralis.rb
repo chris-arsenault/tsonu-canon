@@ -11,7 +11,7 @@ npc :sora_meralis do
     "it is closed, and not the recording. Her seals record the evidence " \
     "she examined, the evidence she refused, and where a finding rests on " \
     "interpretation."
-  tags :archives, :resonance, :"signal-freq", :governance
+  tags :archives, :resonance, :"signal-freq", :governance, :subject_politics_history
   prominence :recognized
   status :complete
 

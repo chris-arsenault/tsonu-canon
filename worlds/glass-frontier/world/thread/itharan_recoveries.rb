@@ -1,4 +1,5 @@
 thread :itharan_recoveries do
+  tags :subject_lithren
   name "The Itharan Recoveries"
   summary "Comparative finds and witnessed actions support a growing expedition frontier around Ithara, including a contested physical restoration, while ancient causes remain unresolved."
   subkind :story_thread

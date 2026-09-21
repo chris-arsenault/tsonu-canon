@@ -4,7 +4,7 @@ encyclopedia :ringlight do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :surface, :"ring-era", :navigation, :ecology
+  topics :surface, :"ring-era", :navigation, :ecology, :subject_common_life
   prevalence :common
   appears_when all: { place: [:surface] }
   medium "The night sky of Kaleidos, lit by starlight scattered off the orbital debris field"

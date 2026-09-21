@@ -6,7 +6,7 @@ npc :othes do
   narrative_role :titan
   status :complete
   prominence :recognized
-  tags :archives, :military, :mystery
+  tags :archives, :military, :mystery, :subject_lithren
   log "2026-09-15 — Othes names a recurring attested person, not a settled identity for the unknown antagonist of Lithren's military defeats. Species, absolute dates and wider war causality remain unassigned."
 
   prose <<~PROSE

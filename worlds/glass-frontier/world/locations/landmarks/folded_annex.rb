@@ -5,7 +5,7 @@ installation :folded_annex do
   context_tags :surface, :archive, :displacement_zone
   subkind :archive
   holdings "Ring-era spatial calibration records, test rooms and sealed instrument stores"
-  tags :surface, :resonance, :"ring-era", :archives, :danger, :"fluid-reality"
+  tags :surface, :resonance, :"ring-era", :archives, :danger, :"fluid-reality", :subject_resonance
   prominence :recognized
 
   descriptive_identity(

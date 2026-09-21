@@ -5,7 +5,7 @@ incident :velisar_evacuation do
   date 2418
   status :complete
   prominence :recognized
-  tags :military, :transport
+  tags :military, :transport, :subject_istrava
 
   prose <<~PROSE
     In 2418, fighting along #{ref :istrava, "Istrava"}'s coastal approaches threatened the households gathered at #{ref :velisar, "Velisar"}'s eastern quays. #{ref :aren_talivar, "Aren Talivar"} organized departures while #{ref :veska_ral, "Veska Ral"} held the embarkation ground through the #{ref :triumphant, "Triumphant"}. Defenders kept the approach open; crews brought the waiting people aboard.

@@ -8,7 +8,7 @@ faction :echo_ledger_conclave do
   belongs_to :culture, :custodial_standing
   path "player/npcs/factions/echo-ledger-conclave.md"
   reviewed "2026-03-18"
-  tags :archives, :resonance, :"signal-freq", :governance
+  tags :archives, :resonance, :"signal-freq", :governance, :subject_politics_history
   prominence :recognized
 
   descriptive_identity(

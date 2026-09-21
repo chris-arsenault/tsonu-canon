@@ -5,7 +5,7 @@ encyclopedia :suture do
   subkind :biological_material
   status :complete
   log "2026-08-31 — Renamed Ravel Water-Silk to Suture; the familiar repair word gains a specific hab-trade meaning through the living mat's tightening action."
-  topics :materials, :"ring-hab", :danger, :trade
+  topics :materials, :"ring-hab", :danger, :trade, :subject_hab_life
   prevalence :uncommon
   appears_when any: { place: [:sealed_hab, :orbital] }
   summary "Suture is the living leak dressing of the hab trades: a woven mat of cultured fiber that tightens around escaping fluid and changes color when the leak carries a signal charge. Every pressure kit stows a roll, and the weave's verdict on a leak arrives faster than any gauge."

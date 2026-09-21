@@ -5,7 +5,7 @@ installation :ravel do
   context_tags :sealed_hab, :orbital, :yard
   subkind :settlement
   status :complete
-  tags :"ring-hab", :orbital, :materials, :transport, :resonance
+  tags :"ring-hab", :orbital, :materials, :transport, :resonance, :subject_hab_life
   prominence :marginal
   population 3500
   population_band "About thirty-five hundred residents"

@@ -6,7 +6,7 @@ encyclopedia :ricochets do
   status :complete
   log "2026-08-31 — Renamed Runners to Ricochets; the new title names their charged leap."
   log "2026-09-16 — Extended modern carrier distribution to Lithren's enclosed camps for Twelve. Reused the established hunter and kinetic leap rather than adding a parallel small service-space species; open-surface survival is not implied."
-  topics :ecology, :"kinetic-freq", :"ring-hab"
+  topics :ecology, :"kinetic-freq", :"ring-hab", :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   appears_when all: { place: [:outer_system] }, any: { place: [:dock, :yard] }

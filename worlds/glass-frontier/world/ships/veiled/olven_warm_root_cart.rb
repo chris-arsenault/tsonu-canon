@@ -1,4 +1,5 @@
 transport :olven_warm_root_cart do
+  tags :subject_hab_life
   name "The Olven Warm-Root Cart"
   summary "The Olven Warm-Root Cart is an agricultural vehicle used among Mera, Noll, Olven, and Seren. Its shallow bed carries living root mats, and stored plant heat turns its wheels."
   subkind :transport

@@ -4,7 +4,7 @@ encyclopedia :first_water do
   kind :resource
   subkind :material
   status :complete
-  topics :"ring-era", :household, :trade, :religion
+  topics :"ring-era", :household, :trade, :religion, :subject_common_life
   prevalence :rare
   appears_when any: { place: [:debris_field, :orbital] }
   function "Ceremonial and medicinal drinking water; the sealed-reservoir provenance is the value, and a broken seal is the product's whole biography"

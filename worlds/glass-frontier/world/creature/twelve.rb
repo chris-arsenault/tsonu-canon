@@ -5,7 +5,7 @@ creature :twelve do
   type_of :ricochets
   status :complete
   prominence :recognized
-  tags :ecology, :danger, :transport, :household
+  tags :ecology, :danger, :transport, :household, :subject_lithren
   descriptive_identity appearance: "A gray gallery hunter with a bare patch under its carrier collar and a white scar across the outer coil of its tail.", behavior: "Answers two taps on a food tin, takes the offered meat, then drags the packet away if its giver lets go.", threat: "Its tail hums after a run; cornering it risks a charged leap through somebody standing beside a fragile pressure canopy."
 
   prose <<~PROSE

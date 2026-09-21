@@ -6,7 +6,7 @@ installation :gray_line do
   aka "Cordon Station Nine"
   subkind :border_post
   type_of :bloomwatch
-  tags :orbital, :danger, :resonance, :"ring-hab"
+  tags :orbital, :danger, :resonance, :"ring-hab", :subject_bloom
   prominence :marginal
   status :complete
   log "2026-09-15 — The elven read-in remains a hidden fact, now in a DM block rather than the public registry description."

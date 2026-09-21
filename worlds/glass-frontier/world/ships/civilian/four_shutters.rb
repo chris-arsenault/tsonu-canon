@@ -5,7 +5,7 @@ transport :four_shutters do
   type_of :pell_skiff
   capacity "Eight crew, four remote cutters, and four isolated receiving rooms"
   status :complete
-  tags :transport, :salvage, :resonance, :orbital, :danger, :trade
+  tags :transport, :salvage, :resonance, :orbital, :danger, :trade, :subject_shear
   prominence :recognized
 
   descriptive_identity(

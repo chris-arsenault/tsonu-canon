@@ -5,7 +5,7 @@ encyclopedia :water_standing do
   subkind :collective_standing
   status :complete
   log "2026-08-31 — Renamed Water Stewardship to Water Standing; the name joins the office's authority to the water it measures and speaks for."
-  topics :governance, :"social-structure", :resonance, :ecology
+  topics :governance, :"social-structure", :resonance, :ecology, :subject_politics_history
   prevalence :uncommon
   appears_when any: { place: [:waterway, :garden, :sealed_hab] }
   integration "The council governs the settlement while stewards determine what the water can supply; a contrary finding requires another steward's measurements and enters the same audit book"

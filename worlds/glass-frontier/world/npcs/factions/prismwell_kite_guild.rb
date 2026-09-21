@@ -7,7 +7,7 @@ faction :prismwell_kite_guild do
   type_of :mutuals
   belongs_to :culture, :warrants
   founded 2312
-  tags :transport, :trade, :ringglass, :resonance
+  tags :transport, :trade, :ringglass, :resonance, :subject_journeys_trade
   prominence :recognized
 
   descriptive_identity(

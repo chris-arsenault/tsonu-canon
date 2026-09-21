@@ -5,7 +5,7 @@ faction :istravan_league do
   founded 2398
   status :complete
   prominence :recognized
-  tags :military, :diplomacy, :governance
+  tags :military, :diplomacy, :governance, :subject_istrava
   descriptive_identity methods: "Member crews, shared exercises, sea batteries and reciprocal shelter."
 
   prose <<~PROSE

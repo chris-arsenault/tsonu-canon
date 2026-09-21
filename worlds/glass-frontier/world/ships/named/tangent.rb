@@ -4,7 +4,7 @@ transport :tangent do
   subkind :vessel
   capacity "Five crew, one claim reader, and two external capture cradles"
   status :complete
-  tags :transport, :navigation, :salvage, :"kinetic-freq"
+  tags :transport, :navigation, :salvage, :"kinetic-freq", :subject_journeys_trade
   prominence :marginal
 
   descriptive_identity(

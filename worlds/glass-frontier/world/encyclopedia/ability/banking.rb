@@ -4,7 +4,7 @@ encyclopedia :banking do
   kind :ability
   subkind :technique
   status :complete
-  topics :household, :resonance, :training
+  topics :household, :resonance, :training, :subject_common_life
   prevalence :common
   available_globally
   function "Settles a lived-in room's accumulated resonance so its occupants can rest"

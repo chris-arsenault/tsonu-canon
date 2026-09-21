@@ -4,7 +4,7 @@ encyclopedia :calven do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Vault Mule to Calven; the surviving archive word names the elven carrier without reducing it to an animal metaphor, service role, or manifest component."
-  topics :"ring-era", :archives, :transport
+  topics :"ring-era", :archives, :transport, :subject_politics_history
   prevalence :uncommon
   appears_when all: { place: [:archive] }
   summary "A calven is an elven archive carrier: a chest-high walking case-bearer that still serves the deep vaults, accepting sealed cases, carrying them at document pace, and surrendering them only to the hand that matches the manifest."

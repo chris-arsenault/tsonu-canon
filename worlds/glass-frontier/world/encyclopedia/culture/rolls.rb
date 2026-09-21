@@ -3,7 +3,7 @@ encyclopedia :rolls do
   kind :culture
   subkind :governance
   status :complete
-  topics :"ring-era", :archives, :governance, :rebuilding
+  topics :"ring-era", :archives, :governance, :rebuilding, :subject_politics_history
   prevalence :common
   available_globally
   summary "The Rolls are the registries that govern access to surviving elven installations. Each listed site receives a condition survey, an access regime, a responsible party, and one of four classes: worked, kept, sealed, or watched."

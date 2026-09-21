@@ -5,7 +5,7 @@ encyclopedia :thirty_one_echo do
   status :complete
   log "2026-08-31 — Renamed Thirty-One Echo to The Knock; the receiving deck's placeless impact sound supplies the freight-grid effect's direct working name."
   log "2026-08-31 — Restored Thirty-One Echo. The knock is the audible symptom; Bay Thirty-One identifies the surviving freight grid and echo is the established term for a physically retained repetition."
-  topics :"ring-era", :mystery, :trade, :resonance
+  topics :"ring-era", :mystery, :trade, :resonance, :subject_hab_life
   prevalence :rare
   appears_when any: { place: [:dock, :yard] }
   summary "Thirty-One Echo occurs where parts of an elven freight-registration grid survive. An impact on a linked loading floor sounds again at its receiving deck after a fixed delay, preserving the volume and timing of the original strike."

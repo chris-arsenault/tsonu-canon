@@ -4,7 +4,7 @@ encyclopedia :fold do
   subkind :data
   status :complete
   log "2026-08-31 — Renamed White Signal Cloth to Fold; the crease that stores one pulse gives the relay medium a concise working name rooted in its physical operation."
-  topics :"signal-freq", :archives, :trade, :isolation
+  topics :"signal-freq", :archives, :trade, :isolation, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:damaged_signal] }
   summary "Fold is a relay medium woven at Span Nine and Whitefoot for broken-band country. A sending frame stores one pulse in its dense white weave as a faint crease; the sealed cloth carries that message physically until a receiving frame smooths and reads it once."

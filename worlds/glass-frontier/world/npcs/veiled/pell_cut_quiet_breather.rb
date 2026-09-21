@@ -1,4 +1,5 @@
 npc :pell_cut_quiet_breather do
+  tags :subject_shear
   name "The Pell Cut Quiet Breather"
   summary "The Pell Cut Quiet Breather works beside sound-sensitive glasswurms without waking the colony."
   type_of :keepers_breath

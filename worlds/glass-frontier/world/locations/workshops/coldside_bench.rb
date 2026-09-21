@@ -6,7 +6,7 @@ installation :coldside_bench do
   subkind :workshop
   function "Rebuilds heat-rated pumps, radiator controls, and road-hauler running gear"
   status :complete
-  tags :"outer-system", :trade, :transport, :resonance, :rebuilding
+  tags :"outer-system", :trade, :transport, :resonance, :rebuilding, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

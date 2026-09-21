@@ -6,7 +6,7 @@ installation :ninth_kiln do
   subkind :workshop
   function "Fires ceramic isolation blocks, barge ribs, and flood-resistant fittings"
   status :complete
-  tags :"outer-system", :trade, :transport, :resonance, :rebuilding
+  tags :"outer-system", :trade, :transport, :resonance, :rebuilding, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

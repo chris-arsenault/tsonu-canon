@@ -4,7 +4,7 @@ artifact :vars_wedge do
   subkind :instrument
   function "Separates thin ringglass plates while preserving their signal impressions"
   status :complete
-  tags :ringglass, :archives, :"signal-freq", :materials
+  tags :ringglass, :archives, :"signal-freq", :materials, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

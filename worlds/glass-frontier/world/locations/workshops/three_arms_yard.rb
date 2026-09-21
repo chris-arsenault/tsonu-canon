@@ -6,7 +6,7 @@ installation :three_arms_yard do
   subkind :workshop
   function "Repairs flexible-frame survey kites and shower-catch equipment"
   status :complete
-  tags :transport, :ringglass, :resonance, :trade, :surface
+  tags :transport, :ringglass, :resonance, :trade, :surface, :subject_journeys_trade
   prominence :marginal
 
   descriptive_identity(

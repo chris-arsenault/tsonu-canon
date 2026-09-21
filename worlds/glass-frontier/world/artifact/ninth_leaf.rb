@@ -6,7 +6,7 @@ artifact :ninth_leaf do
   function "Closes and balances an armored barrier across an approach"
   status :complete
   prominence :recognized
-  tags :military, :materials, :rebuilding, :danger, :resonance
+  tags :military, :materials, :rebuilding, :danger, :resonance, :subject_lithren
   descriptive_identity appearance: "A curved stone-and-metal shield lies in a modern cradle beside nested rockers and a weight with one broken corner.", handling: "A catch releases the loaded frame; a second lever interrupts the travel if its linkage has been fitted.", risks: "The closure sweeps an occupied approach, and the surviving release can be reached from a service recess behind the nominal guard position."
   prose <<~PROSE
     The Ninth Leaf is the recovery crews' numbered assembly from #{ref :ithara_gate, "Ithara Gate"}. The count belongs to their laid-out finds. Its shield, nested rockers and release catch preserve enough of their former working relationship for #{ref :daret_valis, "Daret Valis"} to demonstrate a controlled closure in a modern cradle.

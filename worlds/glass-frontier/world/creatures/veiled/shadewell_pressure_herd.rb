@@ -1,4 +1,5 @@
 creature :shadewell_pressure_herd do
+  tags :subject_planetary_life
   name "The Shadewell Pressure Herd"
   summary "The Shadewell Pressure Herd feeds on hot mineral film outside Shadewell and nearby Ashvane settlements. Before storms, it runs toward sealed workshops."
   subkind :animal

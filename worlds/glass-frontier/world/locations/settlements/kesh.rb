@@ -6,7 +6,7 @@ installation :kesh do
   origin_blurb "A shifting-gravity hab where formations carry loads, cross thresholds, and train for rescue."
   subkind :settlement
   status :complete
-  tags :"ring-hab", :resonance, :"kinetic-freq", :training, :"social-structure", :transport
+  tags :"ring-hab", :resonance, :"kinetic-freq", :training, :"social-structure", :transport, :subject_hab_life
   prominence :recognized
   population 3900
   population_band "About thirty-nine hundred residents"

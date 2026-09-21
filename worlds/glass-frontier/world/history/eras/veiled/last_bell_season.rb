@@ -1,4 +1,5 @@
 era :last_bell_season do
+  tags :subject_journeys_trade
   name "Last Bell Season"
   summary "Last Bell Season was a long dock closure when five route households survived on one working air line."
   subkind :historical_period

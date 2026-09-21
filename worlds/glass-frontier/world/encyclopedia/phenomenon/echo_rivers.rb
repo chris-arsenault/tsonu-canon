@@ -5,7 +5,7 @@ encyclopedia :echo_rivers do
   status :complete
   summary "Echo Rivers are crystal-bearing underground waterways on Kaleidos that carry fragments of pre-Glassfall signals and speech."
   reviewed "2026-03-19"
-  topics :resonance, :"signal-freq", :archives
+  topics :resonance, :"signal-freq", :archives, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:waterway, :ringglass_rich] }
   medium "Crystal-bearing underground water"

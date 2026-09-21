@@ -6,7 +6,7 @@ installation :noll do
   aka "Nol-Avaren"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :"ring-era", :ecology, :materials, :trade, :"structural-freq"
+  tags :"ring-hab", :"ring-era", :ecology, :materials, :trade, :"structural-freq", :subject_hab_life
   prominence :recognized
   population 2300
   population_band "About twenty-three hundred residents"

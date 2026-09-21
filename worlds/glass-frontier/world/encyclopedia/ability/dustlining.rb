@@ -5,7 +5,7 @@ encyclopedia :dustlining do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Crossing to Dustlining. Crossing named any journey; dustline, dustliner, and dustlining identify the Avar-derived evidence, practitioner, and craft as one setting term."
-  topics :navigation, :surface, :"kinetic-freq", :training
+  topics :navigation, :surface, :"kinetic-freq", :training, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:surface, :unstable_route] }
   function "Recovers buried and shifted roads by matching the angle of dust deposits to the kinetic grain retained by the old roadbed"

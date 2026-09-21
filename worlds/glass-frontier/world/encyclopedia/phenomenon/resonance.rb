@@ -5,7 +5,7 @@ encyclopedia :resonance do
   subkind :physical_system
   status :complete
   reviewed "2026-06-18"
-  topics :resonance
+  topics :resonance, :subject_resonance
   prevalence :common
   available_globally
   registry true

@@ -5,7 +5,7 @@ installation :cold_lantern do
   context_tags :orbital, :cold, :road, :debris_field
   subkind :station
   status :complete
-  tags :orbital, :transport, :salvage, :navigation, :danger
+  tags :orbital, :transport, :salvage, :navigation, :danger, :subject_journeys_trade
   prominence :marginal
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.18, angle_offset_deg: -96

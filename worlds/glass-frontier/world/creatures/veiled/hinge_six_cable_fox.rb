@@ -1,4 +1,5 @@
 creature :hinge_six_cable_fox do
+  tags :subject_hab_life
   name "The Hinge Six Cable Fox"
   summary "The Hinge Six Cable Fox is an animal nesting in idle counterweight housings along the Keel. It steals only wire carrying a live signal."
   subkind :animal

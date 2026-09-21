@@ -5,7 +5,7 @@ incident :somas_last_road do
   date 2430
   status :complete
   prominence :recognized
-  tags :navigation, :transport, :resonance
+  tags :navigation, :transport, :resonance, :subject_journeys_trade
 
   prose <<~PROSE
     In 2430, #{ref :soma_irel, "Soma Irel"} opened a rescue road from a captured freighter near #{ref :pelhari, "Pelhari"} to a receiving court on #{ref :ashvane, "Ashvane"}. A passenger supplied lived knowledge of the court. Armed captors followed the departing prisoners onto the crossing.

@@ -6,7 +6,7 @@ artifact :sovan do
   function "Follows a fitted service track while repeating an inspection and retrieval movement"
   status :complete
   prominence :recognized
-  tags :transport, :materials, :mystery
+  tags :transport, :materials, :mystery, :subject_lithren
   descriptive_identity appearance: "A low ceramic back rides above paired gripping feet; a modern camera sits where one tool arm is missing.", handling: "A winding socket loads its replaced spring, and a fitted cam coordinates the gripping feet and surviving jaw.", risks: "Its original sequence carries it through an optical work branch, and a retrieval line can catch where the track turns onto the wall."
   prose <<~PROSE
     Sovan is the excavation crew's name for a #{encyclopedia_ref :nel, "nel"} found beside #{ref :lethai, "Lethai"}. #{ref :ysil, "Ysil"} first followed its track from the upper cut at #{ref :anaret, "Anaret"}. #{ref :tamet, "Tamet"} replaced its broken spring and fitted a camera where a tool arm had been lost. The surviving cam sends it beneath the workshop floor and back to its starting recess.

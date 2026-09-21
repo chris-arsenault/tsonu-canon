@@ -1,4 +1,5 @@
 incident :cinder_gap_afterheat do
+  tags :subject_bloom
   name "Cinder Gap Afterheat"
   summary "Cinder Gap Afterheat is a recurring flameless heat surge that softens exposed seals along the Cinder Gap cordon."
   type_of :afterheat

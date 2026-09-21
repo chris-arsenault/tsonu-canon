@@ -7,7 +7,7 @@ encyclopedia :thawglass do
   function "Guides the freezing and controlled melt of large water structures"
   grades "Frame, stair, and household mesh"
   availability "Made in Mera from low-grade ringglass fiber and porous ceramic"
-  topics :materials, :ringglass, :household, :resonance
+  topics :materials, :ringglass, :household, :resonance, :subject_hab_life
   prevalence :common
   appears_when all: { place: [:cold] }
 

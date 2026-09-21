@@ -5,7 +5,7 @@ encyclopedia :keel_threading do
   subkind :technique
   status :complete
   log "2026-08-31 — Renamed Threading to Keel Threading. The bare craft word traveled too freely; the Keel's surge approaches, weight lofts, and dock qualification own this particular threading tradition."
-  topics :"kinetic-freq", :transport, :training, :resonance
+  topics :"kinetic-freq", :transport, :training, :resonance, :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:dock] }
   function "Steadies loaded hulls through the Keel's kinetic surges during berth approaches and transfers — four mobile countermasses on worked tethers, balanced by hand against force the threader reads through the lines"

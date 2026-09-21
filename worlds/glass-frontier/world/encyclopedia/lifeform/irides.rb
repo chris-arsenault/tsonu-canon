@@ -5,7 +5,7 @@ encyclopedia :irides do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Bees to Irides; the new title names their color-bearing scales."
-  topics :ecology, :surface, :resonance
+  topics :ecology, :surface, :resonance, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   origin "Native to the blue-loam country and spread with the beds; the terraces keep loft lines bred for range and steadiness of color"
@@ -39,6 +39,12 @@ encyclopedia :irides do
     A loft centers on a long-lived queen and one season's foragers. Keepers breed lines for range, homing, and color stability, exchange queens between terraces, and place lofts where several beds overlap. At dusk the returning irides crowd the landing board by route. Keepers log the color bands and compare them with the known flower palette. A gray return means that the last strong color has faded without replacement; it directs a morning search but does not identify the cause or exact bed.
 
     Dyeworks and flare pits can cast unrelated color into the scales, so cooperatives site lofts away from them and treat unusual mixed colors cautiously. A disturbed loft swarms its entrance, while foragers in the beds usually divide around a slow worker. Gardeners therefore handle the animals as pollinators first and read the color as one feature of a colony's ordinary foraging life.
+  PROSE
+
+  prose <<~PROSE, section: :present_day, heading: "Lofts Away From the Blue Loam"
+    Gardeners at #{ref :naloven} keep imported irides beside planted blue-loam beds within the orchards. The lofts follow those familiar crops; neighboring #{encyclopedia_ref :ulessa} trees chiefly receive their own #{encyclopedia_ref :taluri}. At #{ref :seren}, #{ref :nara_pell} compares returns from trial beds before recommending a loft for an unfamiliar planting.
+
+    Small lofts have also reached heated cultivation rooms in #{ref :ithara}. There, living #{encyclopedia_ref :nethri} fans can spread beside ordinary imported flowers without giving the irides a recognizable floral signal. A grey insect beside a healthy fan establishes that mismatch, not a diagnosis of the fan. The insects remain inside the rooms; Lithren's open surface offers neither their air nor their feeding ground.
   PROSE
 
   cue "The dusk stream comes home to the landing boards in bands of color — reedwhite, loam blue, flare-orange — and one thin streak of gray that has the keeper reaching for the loft book and the morning's boots."

@@ -4,7 +4,7 @@ edict :irals_first_claim do
   subkind :edict
   status :complete
   prominence :recognized
-  tags :military, :trade, :danger, :governance
+  tags :military, :trade, :danger, :governance, :subject_lithren
 
   prose <<~PROSE
     #{ref :selven_iral, "Selven Iral"} issued his First Claim in 2435 as work around #{ref :ithara_gate, "Ithara Gate"} made its recoverable defenses more concrete. Crews employed by the #{ref :iral_expedition, "Iral Expedition"} must surrender recovered weapons, their operating pieces and components needed to restore a defense. A promised share is paid after assessment; the finder cannot take a rival offer while the piece remains under the order.

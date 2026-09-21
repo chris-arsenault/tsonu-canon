@@ -7,7 +7,7 @@ npc :hareth do
   occupation "Serevan expedition commander"
   status :complete
   prominence :recognized
-  tags :military, :diplomacy
+  tags :military, :diplomacy, :subject_istrava
 
   prose <<~PROSE
     Hareth grew up among the highland towns of #{ref :ashvane, "Ashvane"}. His household sheltered people carried from the #{ref :velisar_evacuation, "Velisar evacuation"} in 2418. Istravan instructors later taught him coastal fighting. He knows officers now serving #{ref :aren_talivar, "Aren Talivar"} by their habits in training, not merely their present insignia.

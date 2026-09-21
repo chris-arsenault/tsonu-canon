@@ -4,7 +4,7 @@ encyclopedia :marn do
   kind :lifeform
   subkind :animal
   status :complete
-  topics :surface, :ecology, :trade, :resonance
+  topics :surface, :ecology, :trade, :resonance, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:surface] }
 

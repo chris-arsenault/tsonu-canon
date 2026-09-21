@@ -5,7 +5,7 @@ encyclopedia :wurm_bit do
   subkind :machine
   function "Cuts curved mineral and ringglass seams with a mounted glasswurm mouth plate"
   status :complete
-  topics :salvage, :ringglass, :resonance, :trade, :danger
+  topics :salvage, :ringglass, :resonance, :trade, :danger, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field, :yard] }
 

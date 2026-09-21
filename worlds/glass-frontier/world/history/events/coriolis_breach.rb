@@ -6,7 +6,7 @@ incident :coriolis_breach do
   path "player/history/events/coriolis-breach.md"
   status :complete
   reviewed "2026-03-19"
-  tags :governance, :"ring-hab", :military
+  tags :governance, :"ring-hab", :military, :subject_politics_history
   prominence :recognized
 
   descriptive_identity(

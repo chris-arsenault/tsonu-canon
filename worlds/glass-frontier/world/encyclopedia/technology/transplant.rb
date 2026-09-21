@@ -4,7 +4,7 @@ encyclopedia :transplant do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Root Cart to Transplant; the familiar garden action now names transport that keeps its living cargo rooted throughout the journey."
-  topics :ecology, :trade, :transport, :"ring-hab"
+  topics :ecology, :trade, :transport, :"ring-hab", :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:garden] }
   summary "A transplant moves grafts, seedlings, and symbiote stock in a shallow working garden bed. Water, a heat store, covers, and a signed tending log keep the cargo planted through the journey. Gardeners prepare the bed before departure and lift stock at the destination already rooted in its travelling medium."
@@ -33,6 +33,12 @@ encyclopedia :transplant do
     Elven transfer beds moved planting stock around the ring while it remained rooted, watered, and warm. Postfall gardeners rebuilt the pattern as the transplant. Its shallow bed carries dark growing medium under low hoops, with a water cask and heat store built into the frame. Stock is planted several days before departure so its roots take hold. At the destination, gardeners lift grafts, seedling beds, and #{encyclopedia_ref :graft, "symbiote"} lines already growing in the travel medium.
 
     Each transplant carries a tending plan with watering intervals, heat-store changes, and cover settings for the expected weather. A signed log stays in a sleeve on the tailboard and determines the trade warranty at delivery. Hand transplants move household stock around terraces, covered road transplants carry cooperative exchanges between settlements, and larger root boxes are built into river vessels for season fairs. Drivers are hired for both road work and garden care. A receiving gardener reads the log before opening the bed and checks root condition against each recorded stop.
+  PROSE
+
+  prose <<~PROSE, section: :present_day, heading: "Beds That Cross Between Worlds"
+    #{ref :naloven}'s growers move young #{encyclopedia_ref :ulessa} in deep transplants whose braces leave the soft trunk free to swell. At #{ref :seren}, #{ref :nara_pell} keeps arriving stock rooted while she compares it with established beds. The same cargo can remain in its traveling medium through several changes of carrier.
+
+    Transplants bound for #{ref :ithara} ride inside a vessel's heated pressure space and pass between buildings in enclosed carriers. The bed itself supplies no pressure protection. Rooted #{encyclopedia_ref :nethri} cuttings can travel inward after cultivation, while an organism lifted directly from a sealed wet cavity needs a pressure-preserving sampler such as a #{encyclopedia_ref :neral}. Gardeners decide what can share a bed by its growing needs and accompanying life, not simply by the destination on the case.
   PROSE
 
   cue "The road transplant comes into the yard with green showing under the hoops, the driver hands over the tending log before the manifest, and the receiving gardener reads the signatures stop by stop before lifting the first graft."

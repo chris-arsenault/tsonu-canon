@@ -1,4 +1,5 @@
 rumor :vigil_sleeper do
+  tags :subject_planetary_life
   name "The Vigil Sleeper"
   summary "The Vigil Sleeper is a rescue rumor about a warm human outline recorded beyond the breached wall at Vigil."
   subkind :rumor

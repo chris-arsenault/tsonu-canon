@@ -7,7 +7,7 @@ installation :ithara_gate do
   prominence :recognized
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :cold, :archive, :yard
-  tags :rebuilding, :materials, :military, :mystery
+  tags :rebuilding, :materials, :military, :mystery, :subject_lithren
   descriptive_identity setting: "Curved stone approaches meet broken barrier leaves; modern shelters stand outside a court lined with buried workshop entrances.", activity: "Crews compare fragments, measure old load paths and prepare the proposed return while ordinary visitors cross the cleared outer approach.", access: "The outer court is excavated; inner streets and workshops remain partly blocked, with access through measured working cuts.", hazards: "A released barrier can crush the passage; a return would recover old flaws, and the outer defenses could be held against people inside."
   prose <<~PROSE
     Ithara Gate stands between the basin approach and a workshop court beside #{ref :ithara, "Ithara"}. Its gates are massive physical barriers carried on #{encyclopedia_ref :ulen, "ulen frames"}. Curving tracks let each leaf turn across the approach while weights travel within the neighboring walls. Narrow service passages reach those weights without opening the public way.

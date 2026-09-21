@@ -5,7 +5,7 @@ encyclopedia :olddowns do
   status :complete
   log "2026-08-31 — Renamed Hounds to Orients; the title names their inherited directional sense."
   log "2026-08-31 — Renamed Orients to Olddowns. Restoration crews call the ring's original gravity direction old down; the animals embody and reveal that setting-specific bearing rather than merely possessing orientation."
-  topics :"fluid-reality", :"ring-era", :mystery, :ecology
+  topics :"fluid-reality", :"ring-era", :mystery, :ecology, :subject_hab_life
   prevalence :rare
   appears_when any: { place: [:sealed_hab, :debris_field] }
   summary "Olddowns are lean dog-shaped anomalies whose weight follows the original ring orientation of each section they enter. They walk former floors through changed gravity, rest at old corners, and pause where vanished doorways once opened."

@@ -5,7 +5,7 @@ encyclopedia :imprints do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Mirror Leech to Imprints; the new title names the body-copying trace."
-  topics :ecology, :danger, :mystery, :"outer-system"
+  topics :ecology, :danger, :mystery, :"outer-system", :subject_planetary_life
   prevalence :rare
   appears_when any: { place: [:debris_field, :outer_system] }
   biology "A slow cold-country feeder that draws warmth and trace organics through contact; the copying skin is the anomaly, and the surveys measure it copying mass distribution as well as surface"

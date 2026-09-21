@@ -4,7 +4,7 @@ resource :seven_new_load do
   subkind :material
   type_of :ringglass
   status :complete
-  tags :transport, :trade, :resonance, :materials
+  tags :transport, :trade, :resonance, :materials, :subject_journeys_trade
   prominence :marginal
 
   descriptive_identity(

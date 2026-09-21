@@ -3,7 +3,7 @@ encyclopedia :pairing do
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
-  topics :"fluid-reality", :danger, :"ring-era", :mystery
+  topics :"fluid-reality", :danger, :"ring-era", :mystery, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:displacement_zone] }
   summary "Pairing is the simultaneous displacement of two surviving sections of elven fabric in equal and opposite directions, even across districts or fragments. Zone wardens keep partner registers because movement or interference at one room can reach the other."

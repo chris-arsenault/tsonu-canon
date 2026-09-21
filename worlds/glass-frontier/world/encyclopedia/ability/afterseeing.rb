@@ -6,7 +6,7 @@ encyclopedia :afterseeing do
   status :complete
   log "2026-08-31 — Renamed Outlining to Afterseeing. The Fracture trade term joins the lingering perception to the Ashenmaw afterseer who practices it; an outline is only the shape the sense retains."
   log "2026-08-31 — Removed the broad tier. Afterseeing is an innate sensitivity, not a resonant spell."
-  topics :danger, :salvage, :orbital, :training
+  topics :danger, :salvage, :orbital, :training, :subject_common_life
   prevalence :rare
   appears_when all: { place: [:debris_field] }
 

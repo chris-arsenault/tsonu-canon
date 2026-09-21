@@ -1,4 +1,5 @@
 npc :noll_warmliner do
+  tags :subject_planetary_life
   name "The Noll Warmliner"
   summary "The Noll Warmliner follows buried ring conduits by touching each wall where the stone stays warm."
   type_of :warmlining

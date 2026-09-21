@@ -4,7 +4,7 @@ artifact :two_word_message do
   subkind :record
   type_of :old_traffic
   status :complete
-  tags :archives, :resonance, :"signal-freq", :"ring-era", :mystery
+  tags :archives, :resonance, :"signal-freq", :"ring-era", :mystery, :subject_resonance
   prominence :recognized
 
   descriptive_identity(

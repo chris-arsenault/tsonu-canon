@@ -4,7 +4,7 @@ encyclopedia :wake_counting do
   kind :ability
   subkind :technique
   status :complete
-  topics :"ring-hab", :navigation, :household, :training
+  topics :"ring-hab", :navigation, :household, :training, :subject_hab_life
   prevalence :uncommon
   appears_when all: { place: [:sealed_hab] }
   function "Identifies approaching vessels and their condition from wake rhythms carried in a hab's water"

@@ -4,7 +4,7 @@ encyclopedia :ringglass_burrower do
   subkind :creature
   status :complete
   log "2026-08-31 — Renamed Glass Burrower to Ringglass Burrower; the title names the material that governs its life."
-  topics :ecology, :ringglass, :danger, :mystery
+  topics :ecology, :ringglass, :danger, :mystery, :subject_common_life
   prevalence :rare
   appears_when all: { place: [:ringglass_rich] }
   summary "Ringglass burrowers are deep-living creatures that tunnel through solid ringglass by softening it ahead of themselves, leaving flute-smooth bores that ring when wind crosses them. A working burrower is heard for seasons at a time and sighted once in a surveyor's career, and glass country maps its bores like caves."

@@ -6,7 +6,7 @@ resource :ravel_water do
   function "Warm resonant condensate collected from the center of Ravel's outer nets"
   availability "Held in six sealed trays from three plume passages"
   status :complete
-  tags :materials, :resonance, :orbital, :mystery
+  tags :materials, :resonance, :orbital, :mystery, :subject_hab_life
   prominence :marginal
 
   descriptive_identity(

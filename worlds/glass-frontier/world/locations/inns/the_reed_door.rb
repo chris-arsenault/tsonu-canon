@@ -5,7 +5,7 @@ installation :the_reed_door do
   context_tags :outer_system, :surface, :waterway, :road
   subkind :installation
   status :complete
-  tags :"outer-system", :trade, :transport, :household, :ecology
+  tags :"outer-system", :trade, :transport, :household, :ecology, :subject_planetary_life
   prominence :marginal
 
   descriptive_identity(

@@ -1,4 +1,5 @@
 npc :dora_melith do
+  tags :subject_politics_history
   name "Dora Melith"
   summary "Dora Melith is a maintenance worker who cleans the hearing pools at Accord Shore."
   subkind :worker

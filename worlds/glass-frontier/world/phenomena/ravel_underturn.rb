@@ -6,7 +6,7 @@ phenomenon :ravel_underturn do
   subkind :physical_phenomenon
   status :complete
   log "2026-08-31 — Renamed The Underturn to Ravel Underturn when underturn became the reusable name for the wider phenomenon class."
-  tags :resonance, :"ring-hab", :danger, :mystery
+  tags :resonance, :"ring-hab", :danger, :mystery, :subject_hab_life
   prominence :recognized
   trigger "Two separated strata carry matching resonant loads when the inversion field reaches its reversal point"
   effect "Equal volumes exchange position without crossing the intervening matter, carrying structures, atmosphere, heat, momentum, signals, and living bodies intact"

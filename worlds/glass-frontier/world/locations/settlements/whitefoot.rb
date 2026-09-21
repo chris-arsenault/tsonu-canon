@@ -4,7 +4,7 @@ installation :whitefoot do
   playable_as :chronicle_location
   context_tags :surface, :ringglass_rich, :damaged_signal
   subkind :station
-  tags :surface, :"ring-era", :"signal-freq", :resonance
+  tags :surface, :"ring-era", :"signal-freq", :resonance, :subject_journeys_trade
   prominence :recognized
   status :complete
 

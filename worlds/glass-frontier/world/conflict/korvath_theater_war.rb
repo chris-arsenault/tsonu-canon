@@ -4,7 +4,7 @@ conflict :korvath_theater_war do
   subkind :war
   status :complete
   prominence :recognized
-  tags :military, :trade, :governance, :transport, :diplomacy
+  tags :military, :trade, :governance, :transport, :diplomacy, :subject_istrava
   descriptive_identity(
     cause: "A captured defense league and the attempted permanent command of its military works after the Bitter Reach.",
     intensity: "A multi-front regional war with occupations, resistance, blockade pressure and threatened high-altitude strikes.",

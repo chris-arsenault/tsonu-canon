@@ -5,7 +5,7 @@ artifact :open_reed do
   type_of :tonework
   function "Produces an adjustable resonance tone through pressure applied to one free alloy reed"
   status :complete
-  tags :resonance, :music
+  tags :resonance, :music, :subject_resonance
   prominence :recognized
 
   descriptive_identity(

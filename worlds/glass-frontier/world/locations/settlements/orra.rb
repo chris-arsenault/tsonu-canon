@@ -5,7 +5,7 @@ installation :orra do
   context_tags :sealed_hab, :garden
   subkind :settlement
   status :complete
-  tags :"ring-hab", :ecology, :salvage, :resonance, :"ring-era"
+  tags :"ring-hab", :ecology, :salvage, :resonance, :"ring-era", :subject_hab_life
   prominence :marginal
   population 7400
   population_band "About seventy-four hundred residents"

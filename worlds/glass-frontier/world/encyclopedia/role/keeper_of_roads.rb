@@ -5,7 +5,7 @@ encyclopedia :keeper_of_roads do
   kind :role
   subkind :profession
   status :complete
-  topics :transport, :trade
+  topics :transport, :trade, :subject_journeys_trade
   prevalence :common
   available_globally
 

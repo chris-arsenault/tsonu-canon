@@ -4,7 +4,7 @@ encyclopedia :stillloom do
   subkind :industrial
   status :complete
   log "2026-08-31 — Renamed Cell Loom to Stillloom; the established still vocabulary names the damping work, while loom retains the machine's concrete operation."
-  topics :"fluid-reality", :materials, :rebuilding, :training
+  topics :"fluid-reality", :materials, :rebuilding, :training, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:sealed_hab] }
   summary "A stillloom is a room-sized frame that weaves live stillwater culture into damping sheet inside a purpose-built quiet chamber. Each run is rated and traced to its stillloom, supplying stillhull plate, still-diver suits, and instrument shielding across Kaleidos."

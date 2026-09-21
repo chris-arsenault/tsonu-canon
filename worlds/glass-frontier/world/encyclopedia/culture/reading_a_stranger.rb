@@ -6,7 +6,7 @@ encyclopedia :reading_a_stranger do
   status :complete
   reviewed "2026-03-18"
   log "2026-08-31 — Renamed Public Identity in Kaleidos to Reading a Stranger; the name centers the ordinary social work of interpreting a new arrival."
-  topics :"social-structure"
+  topics :"social-structure", :subject_common_life
   prevalence :common
   available_globally
 

@@ -4,14 +4,20 @@ encyclopedia :velith do
   kind :culture
   subkind :expressive_tradition
   status :complete
-  topics :music, :activism, :"social-structure"
+  topics :music, :activism, :"social-structure", :subject_istrava
   prevalence :uncommon
-  appears_when any: { place: [:urban, :waterway] }
+  appears_when any: { place: [:urban, :waterway, :orbital] }
 
   prose <<~PROSE
     Velith begins when one performer throws a line across a circle and another answers in its rhythm. An opponent must keep the last line's words while changing what they accuse, praise or desire. A boast about a captain's courage can return as a description of everyone the captain left behind. The crowd stamps the beat and repeats the reply it wants to hear again. Velith names both the contest and the answering style; a velith refrain is a line people have taken away with them.
 
     Lovers, rival crews and neighborhood performers compete for applause, money and invitations to better rooms. Skilled singers can make an enemy's friends laugh without surrendering the argument. Famous refrains travel farther than their authors. A singer who wins a cellar can hear a polished imitation in a garden house and find that somebody else has been paid for it.
+  PROSE
+
+  prose <<~PROSE, section: :culture, heading: "Replies Far From Home"
+    Traveling singers teach the answering form more readily than a particular song. In a ship's mess, listeners tap cups against the table where stamping would wake the next watch. A visitor may know every word of a famous exchange and still lose to someone who changes its meaning for the people eating nearby. Borrowed verses are welcome as openings; an answer remembered from a recording seldom earns the loudest repeat.
+
+    Instrumental arrangements also carry room for an answer. Musicians leave a phrase unfinished and let a second player turn it toward a different ending. At #{ref :veyr, "Veyr"}, arrangements learned from #{ref :sereyat, "Sereyat"} put such exchanges between the singers. Those passages belong to the modern players who wrote them. The recovered fragments of Lithren's music are shorter than the performances built around them.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Under Occupation"
@@ -26,4 +32,6 @@ encyclopedia :velith do
   pressure "A patron demands that a paid performer withdraw a line the crowd has already claimed and keeps repeating."
   variation "Garden-house contests reward elaborate double meanings; dock circles favor a reply that everyone can shout back at once."
   variation "Lovers trade invitations in the answering lines; rival crews wager money or a prized instrument on who can keep the crowd."
+  variation "Shipboard circles keep the beat on cups and favor jokes their fellow passengers recognize; a famous visitor can need several meals to learn what everyone is laughing about."
+  affordance "An unfinished musical phrase lets strangers join a performance before they share enough local knowledge to trade verses."
 end

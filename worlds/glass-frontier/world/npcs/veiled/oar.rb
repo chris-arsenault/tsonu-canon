@@ -1,4 +1,5 @@
 npc :oar do
+  tags :subject_planetary_life
   name "Oar"
   summary "Oar is a Reed Door host who keeps a free bunk for travelers carrying living river specimens."
   subkind :npc

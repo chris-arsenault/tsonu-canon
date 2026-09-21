@@ -6,7 +6,7 @@ installation :mareth do
   aka "Mareth-Avelin"
   subkind :settlement
   status :complete
-  tags :"ring-hab", :"ring-era", :transport, :trade, :"structural-freq", :"kinetic-freq"
+  tags :"ring-hab", :"ring-era", :transport, :trade, :"structural-freq", :"kinetic-freq", :subject_hab_life
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.1, angle_offset_deg: 150

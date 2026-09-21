@@ -5,7 +5,7 @@ installation :tanel do
   context_tags :sealed_hab
   subkind :settlement
   status :complete
-  tags :"ring-hab", :transport, :archives, :"signal-freq", :"ring-era"
+  tags :"ring-hab", :transport, :archives, :"signal-freq", :"ring-era", :subject_hab_life
   prominence :marginal
   population 8000
   population_band "About eight thousand residents"

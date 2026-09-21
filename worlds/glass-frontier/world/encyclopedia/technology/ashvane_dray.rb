@@ -5,7 +5,7 @@ encyclopedia :ashvane_dray do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Heat-road Hauler to Ashvane Dray; the regional working name locates the vehicle's road tradition and replaces a generic transport compound."
-  topics :transport, :trade, :resonance, :"kinetic-freq", :"outer-system"
+  topics :transport, :trade, :resonance, :"kinetic-freq", :"outer-system", :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:hot, :road] }
 

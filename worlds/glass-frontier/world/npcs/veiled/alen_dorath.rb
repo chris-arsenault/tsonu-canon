@@ -1,4 +1,5 @@
 npc :alen_dorath do
+  tags :subject_planetary_life
   name "Alen Dorath"
   summary "Alen Dorath is a Sithari bell tuner who repairs household bells with voice records from Old Campus."
   subkind :npc

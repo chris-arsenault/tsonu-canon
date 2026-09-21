@@ -4,7 +4,7 @@ encyclopedia :resonance_cascade do
   subkind :anomalous_event
   status :complete
   log "2026-08-31 — Renamed Cascade to Resonance Cascade; resonance is the established physical system whose coupling makes this specific chain reaction distinct."
-  topics :resonance, :danger, :materials, :"ringglass"
+  topics :resonance, :danger, :materials, :"ringglass", :subject_resonance
   prevalence :rare
   appears_when any: { place: [:ringglass_rich, :yard] }
   summary "A resonance cascade is a chain reaction in which an over-driven tuned structure passes its oscillation to every compatible object within coupling reach. The rising front breaks glass, mounts, and hull seams until crews ground it, starve it across a detuned gap, or cut its path. Grounded cascades leave fused clefts rich in flower."

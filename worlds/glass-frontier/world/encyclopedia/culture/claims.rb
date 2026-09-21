@@ -4,7 +4,7 @@ encyclopedia :claims do
   kind :culture
   subkind :governance
   status :complete
-  topics :rebuilding, :salvage, :governance, :trade, :"ring-era"
+  topics :rebuilding, :salvage, :governance, :trade, :"ring-era", :subject_politics_history
   prevalence :common
   appears_when any: { place: [:debris_field, :yard] }
 

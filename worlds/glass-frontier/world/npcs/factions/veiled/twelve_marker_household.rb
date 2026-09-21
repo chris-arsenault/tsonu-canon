@@ -1,4 +1,5 @@
 faction :twelve_marker_household do
+  tags :subject_planetary_life
   name "The Twelve-Marker Household"
   summary "The Twelve-Marker Household is one mobile household of Avar's shifting surface routes, keeping its stores in chests that can move when a road changes course."
   type_of :avar_road_people

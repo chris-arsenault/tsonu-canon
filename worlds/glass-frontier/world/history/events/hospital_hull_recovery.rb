@@ -4,7 +4,7 @@ incident :hospital_hull_recovery do
   subkind :discovery
   date 2435
   status :complete
-  tags :salvage, :ecology, :transport, :mystery
+  tags :salvage, :ecology, :transport, :mystery, :subject_shear
   prominence :marginal
 
   descriptive_identity(

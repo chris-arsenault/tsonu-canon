@@ -1,4 +1,5 @@
 artifact :three_arms_unfinished_frame do
+  tags :subject_planetary_life
   name "The Three Arms Unfinished Frame"
   summary "The Three Arms Unfinished Frame passes to the crew able to name every repair already made to it."
   type_of :custody

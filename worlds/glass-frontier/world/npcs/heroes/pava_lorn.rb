@@ -12,7 +12,7 @@ npc :pava_lorn do
     "sends anyone pointing at a single animal's turn back to count the " \
     "whole formation first."
   status :complete
-  tags :ecology, :navigation, :trade, :"kinetic-freq"
+  tags :ecology, :navigation, :trade, :"kinetic-freq", :subject_hab_life
   prominence :marginal
 
   prose <<~PROSE

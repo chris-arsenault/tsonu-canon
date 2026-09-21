@@ -5,7 +5,7 @@ npc :lira_vashtenri do
   specialty "Bloom containment"
   path "player/npcs/heroes/lira-vashtenri.md"
   reviewed "2026-03-19"
-  tags :resonance, :salvage
+  tags :resonance, :salvage, :subject_bloom
   prominence :recognized
   occupation "Displacement Council containment architect"
 
