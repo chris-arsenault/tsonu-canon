@@ -1,5 +1,14 @@
 # Glass Frontier Story Range Plan
 
+Status reconciled 2026-09-21: M0–M5 and M5a are complete. M6 remains pending,
+M7 is in progress, and M8 remains pending. The Istrava port/orbit and upland
+batches fulfill M2–M3; shared civilization, sixteen excursions and later
+Encyclopedia work are also complete. Their existence does not replace M6's
+six-group comparison or M8's fixed opening and campaign reviews.
+See [current state](#current-state-and-next-action) and
+[the repository backlog](../../../docs/backlog.md) for remaining obligations.
+Earlier measurements below are dated execution evidence, not current counts.
+
 ## Outcome and scope
 
 Give a reader or narrative agent enough concrete material to sustain substantially different games in the Glass Frontier:
@@ -13,7 +22,7 @@ The two new areas must each supply material for dozens of games through their ow
 
 Continue through narrative design before supporting article development. The three major story areas are Bloom/Shear, planetary political competition, and Lithren discovery; hab diversity spans them and supports independent stories. Scope covers Glass Frontier canon, its guidance, authored navigation, and local generated-output verification. Game importer changes, runtime prompt changes, deployments, commits, and pushes require their own authorization. Keep generated inspection material local.
 
-## Source evidence and reuse
+## Initial source evidence and reuse
 
 Paths below are relative to `worlds/glass-frontier/` unless marked otherwise.
 
@@ -34,7 +43,9 @@ Paths below are relative to `worlds/glass-frontier/` unless marked otherwise.
 
 The September 15 preliminary queries reported 504 entities and 1,344 relations in `stats`; `web` reported 503 game-world entities and 1,362 projected edges. These are different projections, not interchangeable counts. Removing mythic entities left two components, including one isolate; removing mythic and renowned left ten components, including nine isolates. These findings establish broad connectivity, not narrative independence or player-visible completeness.
 
-The complete themes, threads, local neighborhoods, population assertions, and downstream game retrieval path have not yet been audited. M0 reads them before making claims about their coverage.
+This was the preliminary source inventory before M0. The subsequent M0 and
+M1a execution records cover the canon audit and narrative foundations.
+Current downstream game retrieval remains unverified and is a separate handoff.
 
 ## Decisions
 
@@ -55,8 +66,8 @@ The complete themes, threads, local neighborhoods, population assertions, and do
 | Choice | Recommendation | Owner and decision point |
 |---|---|---|
 | Meaning of millions of habs | Establish millions across the ring's surviving and subsequently developed habitat fabric. Leave inhabited fraction and population totals unquantified unless supported. Do not preserve hundreds by inventing a fragment class solely to reconcile wording. | Author audits size, construction, orbit, and population claims in M0. Present the concrete definition before M1; user decides if it materially changes the intended scale or origin. |
-| Political geography | Establish occupied territories, independent powers, and several possible theaters across planets and moons. Begin with the selected planetary sources and expand the source review where the history needs it. | Author in M1a. Preserve regional differences and reconcile any new war with the Bitter Reach. |
-| Political powers | Istrava's league, Aren's Red Sovereign history, the occupation and its opposition are encoded. | M2–M3 deepen independent ports, forces and ordinary participants from these foundations. |
+| Political geography | The settled conflict spans Istrava's coastal, upland and orbital approaches on Korvath; most of Kaleidos remains outside the fighting. | Encoded in the regional revision and M2–M3; preserve the Bitter Reach's distinct history. |
+| Political powers | Istrava's league, Aren's Red Sovereign history, the occupation and its opposition are encoded. | M2–M3's ports, forces and ordinary participants are complete; M7–M8 assess discovery and comparative depth. |
 | Lithren's ancient society | Itharan pattern keeping and major witnessed recoveries, coercion and evacuation are public canon. | M4–M5 develop particular works and destinations from those established actions. |
 | Lithren's deepest history | Keep the ancient military opponent, ecological forces, ultimate fate and possible origin of resonance intentionally open for every audience. | No concealed GM answer or authoring question seeks to close these mysteries. Specific discoveries may establish particular actions and destinations. |
 | Hab selection | Develop six contrasting local groups, reusing suitable established places before adding new ones. | Author in M0/M6, after reading each place and its neighbors. |
@@ -600,8 +611,8 @@ Keep canon questions and decisions on their owning entities. This document track
 
 ## Other plans and boundaries
 
-- Atlas taxonomy plan `24fd07f5-aa16-497d-93df-44e6bd5cd29b` retains its pending kind-rebalancing decision, flora expansion, and final verification. This plan does not authorize deletions, numeric kind rebalancing, or closure of those phases. Share flora findings and completed contributions with that work when relevant.
-- Identity plan `ce78e4e6-22fc-4e5a-9fae-5ed2b4cd9e01` remains separate. Read its state and current diffs before editing overlapping entities.
+- Atlas taxonomy plan `24fd07f5-aa16-497d-93df-44e6bd5cd29b` retains its pending semantic kind-rebalancing review and final verification. Its separate flora phase is complete; the [placement report](encyclopedia-placement-plan.md#flora-follow-through--2026-09-21) records current evidence. This story plan does not authorize deletions or numeric kind rebalancing.
+- Identity plan `ce78e4e6-22fc-4e5a-9fae-5ed2b4cd9e01` is complete for its original 22 entries, landed in `53c2b41`. Later entries' identity coverage remains part of M7's review.
 - Existing veiled entities, historical events, and reusable types keep their meanings. Reuse requires reading their bodies. New public lore does not automatically settle their withheld particulars.
 
 ## Sulion mapping
@@ -613,16 +624,33 @@ Root: `fccb0f4a-0d4f-4de0-a192-27481c2acc4a` — Broaden Glass Frontier stories.
 | M0 | 1 | `a3bf4215-dd8b-493c-bbf0-cb66a080d3d9` | completed |
 | M1 | 2 | `b32e603c-52ea-4e3c-a6ee-238a5bbcfbf5` | completed |
 | M1a | 3 | `b312a369-347e-4e8d-831e-58a8934dc6df` | completed |
-| M2 | 4 | `5a16065a-13af-4b89-9b99-45441c71568b` | pending |
-| M3 | 5 | `70e20fbb-e8c6-4add-be05-05a572324472` | pending |
-| M4 | 6 | `bda833a3-7139-4f00-9902-c7e9b1ec6c1f` | complete locally; two batches |
-| M5 | 7 | `1a3f922c-712f-40dc-9e5f-bd237f0306ef` | complete locally; final history batch |
+| M2 | 4 | `5a16065a-13af-4b89-9b99-45441c71568b` | completed |
+| M3 | 5 | `70e20fbb-e8c6-4add-be05-05a572324472` | completed |
+| M4 | 6 | `bda833a3-7139-4f00-9902-c7e9b1ec6c1f` | completed; two batches |
+| M5 | 7 | `1a3f922c-712f-40dc-9e5f-bd237f0306ef` | completed; final history batch |
 | M6 | 8 | `9478e1ee-1d86-45d0-9dc2-65af0c7bba7d` | pending |
-| M7 | 9 | `2e465a39-1d2e-4234-b19d-3364bda64540` | pending |
+| M7 | 9 | `2e465a39-1d2e-4234-b19d-3364bda64540` | in progress; subject classification complete |
 | M8 | 10 | `306292db-6db3-434e-9540-685853f5127d` | pending |
-| M5a | 11 | `4621df51-c4cd-4358-ba05-2b38ccba1705` | complete locally; cast and subject balance |
+| M5a | 11 | `4621df51-c4cd-4358-ba05-2b38ccba1705` | completed; cast and subject balance |
 
 ## Current state and next action
+
+M2–M3 are complete. Plans `fcdd9a54` and `1a66b18e` supplied the detailed
+Istrava and upland batches. Deral's rescue, Kethra's harbor, Theskar's orbital
+interception, Iridess's forest routes, Naloven's freed households and the
+struggle for Edrath support different undertakings and leave outcomes open.
+The shared-civilization and later Encyclopedia work deepen their ordinary life.
+These batches are committed through `6dfe576`; the next Encyclopedia expansion
+is committed in `3653dc6`. The September 21 quality rewrite accompanies this
+documentation reconciliation; its review records the validation and limits.
+
+Next, compare the six M6 groups against the existing canon before authoring
+more. Keep M7's reader-path and surface-consistency review open, then execute
+M8's twelve fixed openings and comparative campaign review. Subject
+classification and completed quality rereads are useful evidence but do not
+complete those requirements. No downstream game behavior is verified here.
+
+The sections below preserve the scope and measurements of earlier batches.
 
 ### Lithren balance review
 
@@ -630,8 +658,8 @@ The approved [M5a revision](#m5a--rebalance-lithren-subjects) is complete locall
 Six added NPC biographies were consolidated and seven non-NPC entries added.
 The whole Lithren effort now contains 66 additions, including fourteen NPCs.
 [LITHREN-BALANCE-REVIEW.md](LITHREN-BALANCE-REVIEW.md) is the single review brief.
-Pause here for review; Istrava and the remaining milestones are outside this
-completed revision.
+This revision was accepted and committed; subsequent Istrava work is recorded
+above. The remaining milestones retain their separate acceptance criteria.
 
 ### Istrava theater spine
 
@@ -655,16 +683,15 @@ succession; the Red Sovereign owns the settled command-persistence rules.
 The Waybearer's cumulative bodily cost appears in the ability and both living
 bearers. Talessar and the existing historical owners carry dated evidence.
 
-Further expansion should give independently significant subjects their own
-entries when their substance and relationships support them. Deral has a future
-marker for that purpose. The next batch should follow M2's optional questions
-and maintain the existing mix of non-NPC subjects.
+The subsequent batches gave Deral and other substantial subjects their own
+entries and developed the ports, uplands and orbital approaches. This earlier
+spine description is no longer a proposal for the next authoring batch.
 
 ### Final Lithren history batch
 
 M5 is complete locally under the September 16 revised scope. Modern history now spans 2272–2435, including landfall in 2311 and continuous settlement from 2322. Eight new entries connect three historical people, an inhabited carrier, two events and two ancient works to fourteen expanded existing entries. Ancient local histories deepen the named sites without resolving their ultimate mysteries.
 
-The review is [LITHREN-HISTORY-BATCH.md](LITHREN-HISTORY-BATCH.md); verification is under [Final batch execution](#final-batch-execution). This completed the authorized historical expansion. M5a above subsequently revised its distribution while preserving the history. M2, M3 and M6–M8 remain pending.
+The review is [LITHREN-HISTORY-BATCH.md](LITHREN-HISTORY-BATCH.md); verification is under [Final batch execution](#final-batch-execution). This completed the authorized historical expansion. M5a subsequently revised its distribution while preserving the history. M2–M3 have since completed; M6–M8 remain unfinished.
 
 ### Anaret and the inner works
 
@@ -728,7 +755,7 @@ Acceptance: ordinary traffic does not imply public service or equal access; phys
 
 State: complete locally. Ithara owns the wealth, passage and post details; Lithren owns the surface and exploration dangers. Their prose, identities and Lithren's encounter note establish genuine mutual survival with outlaws. The present-day thread, setting guidance, treatment and M4–M5 scope carry the same direction.
 
-Evidence: Reviewed all three changed entity pages and the revised guidance and treatment. `make check WORLD=glass-frontier` reports zero errors, warnings, futures or spans to convert. `make web WORLD=glass-frontier` retains 543 entities and 1,513 edges with the existing mythic-removed kite-tuning isolate. `make site-data` builds both active worlds locally; `git diff --check` passes. No gameplay trial or hosted deployment was performed. M2–M8 remain pending.
+Evidence: Reviewed all three changed entity pages and the revised guidance and treatment. `make check WORLD=glass-frontier` reports zero errors, warnings, futures or spans to convert. `make web WORLD=glass-frontier` retains 543 entities and 1,513 edges with the existing mythic-removed kite-tuning isolate. `make site-data` builds both active worlds locally; `git diff --check` passes. No gameplay trial or hosted deployment was performed. At that checkpoint M2–M8 were pending; the current state is recorded above.
 
 ### Lithren frontier refinement
 
@@ -746,7 +773,8 @@ State: complete locally. Ithara and Lithren now describe the inhabited hub, scat
 
 Evidence: Read the revised Ithara, Lithren, return, expedition and character pages and the relevant structural threads. `make check WORLD=glass-frontier` passes with zero errors, warnings, futures or spans to convert. Focus coverage remains 89/89 locations; the web has 543 game-world entities and 1,513 edges, retaining the existing mythic-removed kite-tuning isolate. The player export renders 618 pages and `make site-data` builds both active worlds locally. No gameplay trial or hosted deployment was performed.
 
-M0, M1, M1a, M4, M5 and M5a are complete locally. M2 has the regional spine and the mantle/history revision; its wider supporting expansion remains in progress. M3 and M6–M8 remain pending. Further Istravan work should develop enduring places and groups from the corrected foundations, using the optional M2 questions above.
+This frontier refinement preceded the completed M2–M3 supporting expansion.
+Current remaining work is M6–M8, as recorded above.
 
 ### Canonical foundation result
 
@@ -768,7 +796,7 @@ The three new locations have substantive direct choices: Istrava 10 public, Veli
 - `make focus WORLD=glass-frontier`: 89/89 eligible locations meet the minimum.
 - `make web WORLD=glass-frontier`: 543 game-world entities and 1,512 projected edges. Removing mythic entities leaves 532 entities in two components; the sole isolate remains the pre-existing `first_repeatable_kite_tuning`.
 - `make site-data`: both worlds generated locally in `build/site` and `build/site-internal`. Public inspection export: `build/glass-frontier/story-foundations-review`.
-- The generated revision remains base commit `be517bd4335c`; its content includes the uncommitted working tree. No hosted reader, game import or actual game opening has been verified.
+- At this checkpoint, the generated revision identified base commit `be517bd4335c` and included that working tree. No hosted reader, game import or actual game opening was verified.
 - Rendered 72 changed/new entity and reference pages successfully; checked 54 local document links. Inspected the principal places, occupation, succession and discovery pages. Public page and site JSON checks exclude Oram and Gray Line's secret briefing. New ancient sources have no invented dates or concealed truth. Itharan culture matches outer-system archive contexts and is excluded from an unrelated urban-garden context. `git diff --check` passes. Structural checks do not establish the later goal of sustaining dozens of fully developed campaigns.
 
 The supporting expansion remains necessary. Its first selections are recorded under M2–M6 above. The original twelve opening prompts remain comparison evidence; their ordinary-life emphasis does not measure the new adventure scale.

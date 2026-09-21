@@ -19,12 +19,11 @@ installation :tovanesh do
     The court opened in 2371. Orchard households sponsored the first seats, and their descendants still argue over where visiting champions may sit. Children practice with padded hooks in the morning. By evening, cooks sell skewered fruit along the upper steps and patrons arrive with money, flowers and people they hope to impress. A skilled fighter can earn a living here without ever accepting a grievance bout.
   PROSE
   prose <<~PROSE, section: :culture, heading: "Visitors at Practice"
-    Pell crew members first joined the morning practices in 2429 while taking leave in Naloven. Returned visitors now recognize people they met as beginners, and teachers keep a few dry-floor exercises for pupils whose next practice will be aboard a ship. A ship fighter can pull an experienced local off balance at close reach, then lose the return bout by watching the water instead of feeling the sash.
+    Pell crew members first joined the morning practices in 2429 while taking leave in Naloven. Returning visitors recognize people they met as beginners. Those aboard #{ref :steady_return, "Steady Return"} sent back a recording of a bout fought between their schoolroom benches. Children copied its cramped turns onto a chalk rectangle beside the pool; a teacher laughed until one used the short #{encyclopedia_ref :tovan_yield} to pull him across its boundary.
 
-    Visiting groups sometimes pay for breakfast after practice and invite their opponents. Those aboard #{ref :steady_return, "Steady Return"} sent back a recording of a bout fought between their schoolroom benches. Children here copied the cramped turns onto a chalk rectangle beside the pool. Their elders laughed until somebody used one to win. The winners still have to learn the wet floor, but their teachers now ask to see the latest recording.
-  PROSE
-  prose <<~PROSE, section: :culture, heading: "Giving the Pull Away"
-    Teachers demonstrate the #{encyclopedia_ref :tovan_yield} beside the morning pool. Visiting pupils use short turns learned between shipboard benches; local fighters hide a longer crossing step beneath the water. A teacher recently lost the return bout after following the pupil into the slack instead of releasing the sash. The two now teach the exchange together.
+    At the pool, that teacher conceals a longer crossing step beneath the water. When his pupil tries the short turn again, he lets the sash fall slack and steps across the retreating foot, sending the pupil into the pool. The two now teach the exchange together: the pupil keeps the rectangle chalked, and the teacher makes dry-deck visitors repeat their turn in water until they stop looking down for the foot they can feel through the sash.
+
+    Visiting groups sometimes pay for breakfast after practice and invite their opponents. Teachers keep dry-floor exercises for those returning to ships; people staying in Naloven ask to see the next schoolroom recording. A visiting crew can arrive to find its cramped fighting floor reproduced beside the broad pool, with a local child waiting to dispute the decisive movement.
   PROSE
   prose <<~PROSE, section: :history, heading: "The Knives on the Steps"
     During #{ref :the_lowering_of_edrath, "the Lowering"} in 2423, #{ref :edrath, "Edrath"}'s crew carried their gun parts through Tovanesh and laid the paired knives #{ref :kesrith, "Kesrith"} before the bath households. #{ref :ulaven, "Ulaven"} now tends the weapon racks. Veterans sometimes demonstrate a disarm, then surrender the floor to younger people whose footing is better.
@@ -34,15 +33,16 @@ installation :tovanesh do
   prose <<~PROSE, section: :present_day, heading: "A Promise Before Witnesses"
     Officers from the #{ref :istravan_league, "league"} attend in uniform to show that they can walk openly through Naloven. Members of #{ref :the_naloven_rising, "the Rising"} challenge them over prisoners and confiscated homes. An officer can refuse a wager, accept it, or send a champion. The crowd remembers the choice. An officer who lost a bout recently returned a seized orchard kite while insisting that its owners still owed loyalty to Aren.
 
-    The #{ref :velisar_resistance, "Velisar resistance"} brings evidence of arrests to the seats. Singers from the #{ref :veyr_company, "Veyr Company"} turn a fighter's boast into a refrain between rounds. Spectators sometimes keep singing after the losing officer has left. Wealthy visitors from #{ref :house_tereval, "House Tereval"} hire champions and offer private introductions to whoever can defeat them.
+    Relatives brought here by the #{ref :velisar_resistance, "Velisar resistance"} stand on the lowest dry step to name the people an officer is being asked to release. Seconds repeat the offer before handing over the sash. Singers from the #{ref :veyr_company, "Veyr Company"} take up a fighter's boast between rounds; spectators keep the losing officer's promise in the refrain after the officer has gone. Wealthy visitors from #{ref :house_tereval, "House Tereval"} hire champions and offer private introductions to whoever can defeat them.
 
-    The #{ref :severance, "Severance"} watches the same successful fighters. Its readers carry copies of Talessar and ask what a champion intends to do after reaching Velisar. Some local supporters have begun presenting Kesrith as a gift fit for the person who will release Aren's subjects. Ulaven keeps the knives in their rack until the town can agree who may take them away.
+    The weapons rack has become a place of argument after the bouts. Some local supporters want to give Kesrith to a fighter who could release Aren's subjects. #{ref :severance, "Severance"} readers lay copies of Talessar beside the knives and ask whom that fighter might command afterward. Ulaven keeps the pair on its hooks until the town agrees who may take them away. Practice blades come and go around the disputed gift every morning.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Above the Water"
     Aren's #{ref :edrath_recall, "recall declaration"} hangs from a pillar facing the pool. Someone has driven a practice hook through the line promising to restore the battery's honor. Soldiers replace the sheet; a different hook appears. The people doing it live close enough that the patrol has stopped searching strangers first.
 
     A grievance match involving a person under command is dangerous for everyone around the floor. A fighter may surrender a blade while continuing to reach for a prisoner beside the steps. Seconds can cut the sash and stop the bout; that does not stop the accepted order. Spectators have begun leaving an aisle clear between the pool and the changing rooms.
   PROSE
+  log "2026-09-21 — Joined the duplicated shipboard-yield lessons into one exchange with distinct wet and dry footing. Kept political visitors where their actions belong: named concessions at the floor and argument over Kesrith at the rack."
 end
 
 relate :rel_tovanesh_naloven, :located_in, :tovanesh, :naloven

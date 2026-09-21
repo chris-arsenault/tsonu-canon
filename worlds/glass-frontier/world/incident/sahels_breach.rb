@@ -18,7 +18,7 @@ incident :sahels_breach do
 
     No absolute date has been established. The cuts are later than the recoveries whose witnesses they destroyed. That local order does not date the basin's wider contraction or establish one final evacuation of Lithren.
 
-    The departing people left the observed ground. In 2435 the cargo still aboard #{ref :ivara, "Ivara"} established #{ref :damarat, "Damarat"} as the destination of one removed load. Its unloading is a further recovered event, not a continuous account of the travelers. Their eventual destination remains unestablished. A military defeat, an escape and a changing environment can all be attested without making any one of them the complete cause of the others.
+    The departing people left the observed ground. In 2435 the cargo still aboard #{ref :ivara, "Ivara"} established #{ref :damarat, "Damarat"} as the destination of one removed load. A further recovered event follows its unloading until a brake cheek splits. People take the remaining pieces off by hand and carry them toward storage. The intervening journey and their departures from that building fall outside the surviving scenes. Osen's search now follows the empty places in that load and the objects carried farther inside.
   PROSE
 
   gm_note :triggered_by, "Searching for a missing defensive component reveals deliberate destruction and a departure trail; following the trail may recover an alternative witness or explain one household's escape."

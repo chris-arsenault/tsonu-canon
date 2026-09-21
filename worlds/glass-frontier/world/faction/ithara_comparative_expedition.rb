@@ -7,11 +7,12 @@ faction :ithara_comparative_expedition do
   prominence :recognized
   tags :archives, :resonance, :mystery, :subject_lithren
   log "2026-09-16 — Consolidated Tavia Mereth's founder biography and Kel'esh's materials work into the expedition and their discoveries. Kept the 2408 survey, 2416 bodily cost, 2424 succession and independent experimental work; Nereth does not inherit the whole laboratory's labor."
+  log "2026-09-21 — Restored Tavia Mereth's historical identity in the expedition that owns her biography. Recast independent commissions through working arrangements and discoveries rather than disclaimers about expedition authority."
 
   prose <<~PROSE
-    The Ithara Comparative Expedition began in 2408 to compare the ruins' fitted pieces in place. Crews had treated many of them as broken duplicates. Its founder's #{ref :ithara_survey, "survey"} showed that pieces from different chambers preserved the same earlier work, including the same faults.
+    Tavia Mereth founded the Ithara Comparative Expedition in 2408 to compare the ruins' fitted pieces in place. Crews had treated many of them as broken duplicates. Her #{ref :ithara_survey, "survey"} showed that pieces from different chambers preserved the same earlier work, including the same faults.
 
-    The expedition maintains comparison collections beside #{ref :ithara, "Ithara"} and shares observations with other Lithren stations. #{ref :nereth_valis, "Nereth Valis"} took over after its founder's death in 2424. The expedition's ordinary work includes excavation, material comparison and narrow #{encyclopedia_ref :witnessing, "Witnessing"}. It has established episodes of ancient history without recovering a continuous account.
+    The expedition maintains comparison collections beside #{ref :ithara, "Ithara"} and shares observations with other Lithren stations. #{ref :nereth_valis, "Nereth Valis"} took over after Tavia's death in 2424. Excavation, material comparison and narrow #{encyclopedia_ref :witnessing, "Witnessing"} have recovered episodes of ancient history. The collection keeps those scenes beside the objects through which they can be witnessed again; intervals between them remain unaccounted for.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Work People Can Use"
@@ -19,7 +20,7 @@ faction :ithara_comparative_expedition do
 
     Members want discoveries to remain accessible, but access already depends on who owns a vessel and can keep a crew on the surface. They exchange labor and passage with rivals. Nereth has refused to describe a speculative reconstruction as a witnessed fact, even when that refusal costs the expedition the next available transport.
 
-    The expedition also pays independent crews for repeat observations, samples kept in their original condition and passage to small outlying sites. Such work can concern a channel's deposits or the sequence in which a wall was altered, with no part in the gate return. The collections receive ordinary visitors and prospectors as well as scholarly teams. Comparing a find does not give the expedition command of the crew that brought it.
+    Independent crews bring repeat observations, samples kept in their original condition and offers of passage to small outlying sites. A channel survey may fill an otherwise unprofitable outward hold with paid specimen cases. Its crew can return to find the investigator waiting beside a prospective buyer: one needs the sediment left around a fitting, while the other wants to see its polished face. The expedition pays for the observation it requested; the finder keeps the object and decides whose next offer to accept. Ordinary visitors handle robust comparison pieces at the same tables where scholarly teams unpack their cases.
 
     Its materials investigators compare shaped pieces from #{ref :damarat, "Damarat"} and examine a joined edge in the #{ref :oravel_hanging, "Oravel Hanging"}. These projects share instruments and field help with the larger excavations. A result can improve a present workshop or distinguish two methods of making something without recovering the name of its ancient maker.
 
@@ -27,9 +28,9 @@ faction :ithara_comparative_expedition do
   PROSE
 
   prose <<~PROSE, section: :history, heading: "The Founder's Collection"
-    The founder lodged with Ressa Dorr's grandmother while starting the survey. Household specimen boxes, early landfall images and residents' memories separated ancient changes from modern cutting. She taught Nereth to compare where a piece was kept with what it could complete. Several specimens retain her instruction to leave one surface untouched because its residue might distinguish otherwise identical states.
+    Tavia lodged with Ressa Dorr's grandmother while starting the survey. Household specimen boxes, early landfall images and residents' memories separated ancient changes from modern cutting. She taught Nereth to compare where a piece was kept with what it could complete. Several specimens retain her instruction to leave one surface untouched because its residue might distinguish otherwise identical states. On one small jaw she marked the underside, leaving its impressive carved face available for handling. The overlooked underside supplied the wear that matched it to its partner.
 
-    Her #{ref :ithara_tool_return, "restoration in 2416"} gave the collection a working result. She died in 2424, before the later Witnessings recovered the acts attributed to Othes and Sahel. Her surviving notes establish the method and its early results; they end before those discoveries.
+    Her #{ref :ithara_tool_return, "restoration in 2416"} gave the collection a working result. She died in 2424, before the later Witnessings recovered the acts attributed to Othes and Sahel. Nereth keeps Tavia's original comparisons beside later corrections. The changing marks let a visitor follow which matches held when another room was opened and which ones had to be abandoned.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Drawings From Living Collections"
@@ -54,5 +55,5 @@ moment :ithara_expedition_founded, year: 2408, of: :ithara_comparative_expeditio
 end
 
 moment :comparative_founder_dies, year: 2424, of: :ithara_comparative_expedition do
-  summary "The expedition's founder died; her apprentice Nereth continued its comparison collections and field investigations."
+  summary "Tavia Mereth died; her apprentice Nereth continued the expedition's comparison collections and field investigations."
 end

@@ -1,7 +1,31 @@
 # Encyclopedia placement plan
 
-Phase 9 measurement of plan `adce063e` (2026-08-30). Two matrices over the
-authored corpus, then the per-entry predicate plan phase 10 executes.
+Completed planning record from plan `adce063e` (2026-08-30), reconciled
+2026-09-21. Its later phases completed availability, location retagging,
+authoring and matcher checks; plan `53a5155e` completed the remaining
+90-entry authoring pool. The matrices, old ids and predicate proposals below
+are historical measurements, not a current work list. Use `reference list`
+and availability queries for the current corpus.
+
+## Flora follow-through — 2026-09-21
+
+The separate flora phase of taxonomy plan `24fd07f5` is complete. A source
+read of every current plant, tree and lichen article found eleven complete
+public entries, including authored cultivation, material uses and named
+locations. Fungi, animals and mixed ecological groups are excluded from this
+count so the evidence does not depend on fauna totals.
+
+| Prevalence | Entries | Coverage read |
+|---|---|---|
+| Common | Navren, Sureni, Thesset, Ulessa, Velori | Coppiced structural timber, tidal root beds, fruit climbers, resin-bearing trees and hab crops. |
+| Uncommon | Issava, Merai, Nethri, Resonance Lichen, Signal Mat | Warmth-sensitive climbers, musical reeds, Lithren's mobile plant colonies, strike-warning lichen and hull-seam growth. |
+| Rare | Akhul | Hydraulic canopy plants cultivated around Iridess and Tereval, with usable support nodules. |
+
+The field and texture expansions supplied later flora independently of the
+original pool. This closes the separate coverage obligation; semantic Atlas
+rebalancing and the six-hab review remain open on their own terms.
+
+## Original placement measurements
 
 ## Matrix 1 — kind × prevalence, complete entries only
 

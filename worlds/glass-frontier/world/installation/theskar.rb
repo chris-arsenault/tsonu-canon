@@ -16,9 +16,11 @@ installation :theskar do
   prose <<~PROSE, section: :people, heading: "The Waiting Rooms"
     #{ref :oskara, "Oskara"}'s vessels bring instrument makers, fugitives and families joining outward ships. #{ref :ushti, "Ushti"} uses a small lower berth close to an inhabited drum. The #{ref :veyr_company, "Veyr Company"} performs in an exhibition room for people delayed by the fighting. One recent contest ended with passengers from opposing ports shouting the same reply toward the berth windows.
 
-    Members of the #{ref :velisar_resistance, "resistance"} seek relatives among arriving crews. The #{ref :severance, "Severance"} buys outward passages for people leaving the struggle over the mantle. Deral Hunters have come looking for armor and for buyers able to pay for the miners' rescue. Their tables occupy the same room, and an arrival can choose whom to approach.
+    Relatives sleep beside the windows overlooking the detained ship. Mechanics have hung shade cloth over the inner side so the waiting people can watch without putting their own faces against a lit room. When a repair arm passes across the view, people move their bedding to follow the vessel. A child has drawn its reception windows large enough for the adults to mark which one last showed a familiar person.
 
-    #{ref :hareth, "Hareth"} has brought Serevan mechanics and an armed escort to keep the berth usable. The residents welcome the protection and insist on keeping their workshops. Nalis has inspected an occupied exhibition room with former residents as a possible end of a road. She would have to account for the armed people who could cross in either direction.
+    Members of the #{ref :velisar_resistance, "resistance"} search arriving crews for news of those passengers. The #{ref :severance, "Severance"} pays outward fares for people leaving the mantle struggle; its escorts are challenged when they try to take a berth before a detained passenger's family. The #{ref :deral_hunters, "Deral Hunters"} bought armor here and approached buyers about their trapped miners. They have taken what they could obtain back to the mine. A workshop still displays the clear crystal sample they left beside their offer.
+
+    #{ref :hareth, "Hareth"}'s Serevan mechanics work alongside the resident crews on exposed arms. Their armed escort gives them time to finish a repair when Vardesh turns its guns toward the berth. Residents have bolted spare plates across the windows behind the busiest work positions, leaving the family lookout clear. Nalis has inspected an occupied exhibition room with former residents as a possible end of a road. Workshop owners walked her through the doors joining it to the inhabited drums: anyone coming through that road would stand between them and their homes.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "The Ship Outside"
     #{ref :vardesh, "Vardesh"} holds a passenger ship near the berth and demands access to inspect the others. League officers aboard Theskar remain in a guest room under watch after residents disconnected their live command channel. Some want to return to the warship; another has asked to stay beside a relative being treated in the station infirmary.
@@ -27,12 +29,12 @@ installation :theskar do
   PROSE
   gm_note :appears, "A passenger asks the visitors to carry a light to the berth window. A detained relative aboard the ship outside is answering flashes between the guards' rounds."
   gm_note :complicates, "An engineer offers an exterior path to a hostile ship through the repair arms, but her own vessel will remain exposed while the party crosses."
+  log "2026-09-21 — Centered the station on mechanics working under the guns and families watching the detained vessel. The hunters' purchasing visit is retained as a completed journey; their current base remains Deral, so their station operation edge was removed."
 end
 relate :rel_theskar_orbits_korvath, :in_orbit_of, :theskar, :korvath
 relate :rel_company_theskar, :operates_in, :veyr_company, :theskar
 relate :rel_resistance_theskar, :operates_in, :velisar_resistance, :theskar, since: 2435
 relate :rel_severance_theskar, :operates_in, :severance, :theskar, since: 2435
-relate :rel_hunters_theskar, :operates_in, :deral_hunters, :theskar, since: 2435
 relate :rel_sereva_theskar, :operates_in, :sereva, :theskar, since: 2435
 relate :rel_hareth_theskar, :operates_in, :hareth, :theskar, since: 2435
 relate :rel_nalis_theskar, :studies, :nalis_venn, :theskar, since: 2435

@@ -51,7 +51,7 @@ incident :second_span_trial do
 end
 
 relate :rel_second_span_trial_conducted_by_coremark, :conducted_by, :second_span_trial, :coremark do
-  prose "#{ref :coremark, "Coremark"} financed, staffed, and closed the Second Span Trial."
+  prose "#{ref :coremark, "Coremark"} financed, staffed, and closed #{ref :second_span_trial, "the Second Span Trial"}."
 end
 
 relate :rel_second_span_trial_located_in_shear, :located_in, :second_span_trial, :the_shear do

@@ -20,15 +20,17 @@ faction :tempered_accord do
     methods:
       "Mediation on a schedule measured in months, standards adopted by " \
       "member vote, and no power to order any government to act. Its " \
-      "sanction is expulsion, which strips a member of Compact mediation, " \
-      "Vantara's routes, and enforceable contracts.",
+      "sanction is expulsion, which withdraws shared mediation and " \
+      "member guarantees, and lets participating ports and carriers " \
+      "refuse access under the agreement.",
     presence:
       "Uniformed secretariat staff and formally seated delegations, " \
       "conducted in Sitharian legal language among hearing rooms, rosters, " \
       "and published records. Nothing about it is armed.",
     attitude:
-      "Patient, procedural, and open to any party willing to file — with " \
-      "the standing Sitharian assumption of being the adults in the room. " \
+      "Its mediators seek an agreement the parties will carry home " \
+      "and honor. Delegates trained in Sitharian law can work faster " \
+      "through its hearings than representatives learning that language. " \
       "The occupation of Velisar now forces members to decide what they will defend."
   )
 
@@ -42,12 +44,12 @@ faction :tempered_accord do
 
     Each member appoints a standing delegation and can send additional specialists for a particular dispute. Delegations choose a presiding mediator from a roster accepted by both parties. The permanent secretariat maintains records, schedules hearings, and publishes the standards adopted by member vote. It cannot order a member government to act.
 
-    The Accord relies on member organizations for enforcement. Its sanctions are reputational and economic: expulsion from the framework means losing access to the Compact's mediation, Vantara's trade infrastructure, and the legal recognition that makes inter-settlement commerce possible.
+    The Accord relies on member organizations for enforcement. Expulsion withdraws its mediation and the guarantees members extend to one another. Participating ports can close berths, carriers can suspend services covered by the agreement, and a settlement can lose recognition of its claims in member courts. Local contracts and trade with nonmembers continue under their own terms, but losing several established destinations can strand ships and deprive a town of buyers it depends on.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Operations"
-    **Mediation.** The Accord's core function. When settlements, fabs, or factions have disputes that can't be resolved bilaterally, they bring them to the Accord's mediation process. The process is derived from the Shear Compact's model and is universally considered slow, bureaucratic, and better than the alternative.
+    **Mediation.** Settlements, fabs, and factions bring disputes they have failed to resolve directly. The parties choose a mediator, present their accounts, and seek an agreement their own institutions can carry out. A settlement may reopen a dock, return detained travelers, or let two communities resume using the same waterworks. Delay has a cost to whoever remains outside the gate while the hearing continues.
 
-    **Standards.** The Accord maintains system-wide standards for resonance safety, trade documentation, salvage certification (via the Compact), and communication protocols. These standards are Sitharian in origin — drafted in Sitharian legal language, reflecting Sitharian institutional assumptions — which is resented by everyone who isn't Sitharian and exploited by everyone who is.
+    **Standards.** Members share standards for resonance safety, trade documents, salvage certification through the Compact, and communication. Much of the wording comes from Sitharian law. A delegation fluent in that law can frame its claim quickly; representatives from a hab that keeps decisions in performances or oral accounts must first establish how its evidence will be heard. Members dispute the expense and authority of making that translation.
 
     **Humanitarian.** The Accord's humanitarian provisions, drafted by the Displacement Council, cover refugee rights, containment support, and sovereignty protections — including the hard-won provision that habs can legally refuse contact.
   PROSE
@@ -60,8 +62,8 @@ faction :tempered_accord do
     The Accord's offices receive appeals from Istravan cities while #{ref :sereva, "Sereva"} prepares its own expedition. The member provisions remain in force. Ships, protection and military action come from governments and people willing to undertake them; accepting a hearing does not place those forces under the secretariat's command.
   PROSE
 
-  gm_note :triggered_by, "Players who ask the Accord to make someone act learn the secretariat cannot order a member government. What it can " \
-                         "put on the table is a hearing and expulsion, which costs the target Compact mediation, #{ref :vantara, "Vantara"}'s routes, and enforceable contracts."
+  gm_note :triggered_by, "An appeal can bring the parties to a hearing or lead to expulsion from member protections. " \
+                         "A port honoring that sanction may close the berth on which the target's next voyage depended; another port outside the agreement can still receive it."
   gm_note :appears, "An appeal from an occupied city reaches the same hearing rooms as a trade dispute, but its representatives need ships before the hearing can finish. Member delegations can offer their own help."
   gm_note :complicates, "A hearing needs a presiding mediator both parties accept from the roster, so an opponent can spend the first sessions striking names. The party's evidence waits behind the argument over who reads it."
 end
@@ -73,6 +75,6 @@ end
 # --- history (moments) ---
 moment :tempered_accord_ratified, year: 2423, of: :tempered_accord do
   summary "The settlements ending the Bitter Reach ratified the Tempered Accord in 2423."
-  prose "Born from exhaustion at the end of the #{ref :the_bitter_reach, "Bitter Reach"}. The #{ref :bloom_coalition, "Bloom Coalition"} had proved cooperation worked; the Bitter Reach proved the system couldn't survive without it; the #{ref :shear_compact, "Shear Compact"} proved emergency structures could become permanent. By the time the fighting stopped the preconditions only needed writing down. Three institutions shaped it: the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} supplied an AI-derived governance model, #{ref :vantara, "Vantara"} the trade provisions, and the #{ref :displacement_council, "Displacement Council"} the humanitarian framework and the trusted-mediator role."
+  prose "Settlements ending the #{ref :the_bitter_reach, "Bitter Reach"} ratified a framework for hearing disputes before returning to force. They drew on the #{ref :bloom_coalition, "Bloom Coalition"}'s shared command experience and the #{ref :shear_compact, "Shear Compact"}'s mediation. The #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} supplied an AI-derived governance model, #{ref :vantara, "Vantara"} contributed trade provisions, and the #{ref :displacement_council, "Displacement Council"} supplied humanitarian protections and its practice as a trusted mediator. Member governments retained the forces and institutions that would have to honor the resulting agreements."
   effects { set :tempered_accord, standing: :active }
 end

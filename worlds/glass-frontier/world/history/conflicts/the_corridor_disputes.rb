@@ -101,7 +101,7 @@ relate :rel_vantara_participated_corridor_disputes, :participated_in, :vantara, 
   prose "Vantara seeks payment for beacons and waystations used by carriers that reject its wider route contracts."
 end
 relate :rel_shear_compact_participated_corridor_disputes, :participated_in, :shear_compact, :the_corridor_disputes do
-  prose "The Compact closes and inspects the portions passing through managed Shear corridors while disclaiming authority beyond them."
+  prose "In #{ref :the_corridor_disputes, "the Corridor Disputes"}, the Compact inspects and can close the sections of #{ref :keel, "the Keel"} passing through managed Shear corridors. Other route keepers control the adjoining clear-space legs."
 end
 relate :rel_bloom_zones_caused_corridor_disputes, :caused, :bloom_zones, :the_corridor_disputes do
   prose "Moving Bloom cordons forced traffic onto underserviced branches and made temporary route arrangements persistent."

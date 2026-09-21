@@ -1,5 +1,9 @@
 # Shared civilization across the three story loci
 
+Completed and committed in `6dfe576`. Counts and checks below are this batch's
+checkpoint; later expansions and the September 21 quality rewrite changed the
+corpus. See [the quality review](QUALITY-REVIEW-2026-09-21.md) for the local follow-up.
+
 ## Completed scope
 
 Expanded 13 existing Atlas entries, four Encyclopedia articles and two threads.
@@ -119,5 +123,5 @@ effects were not imported.
 - `git diff --check`: clean.
 
 The public GM-note requirement remains unchanged. No human review declarations
-were added. Existing uncommitted work was preserved; this pass is uncommitted
-and unpublished.
+were added. Existing uncommitted work was preserved during the batch;
+the completed batch was subsequently committed in `6dfe576`.

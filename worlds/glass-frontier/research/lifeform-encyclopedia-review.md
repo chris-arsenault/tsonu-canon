@@ -1,9 +1,9 @@
 # Lifeform Atlas and Encyclopedia Review Ledger
 
-Status: lifeform extraction complete. Technology is recorded separately in
-`technology-encyclopedia-review.md`; resource is the next unresolved category.
-This file records the lifeform boundary and its measured Atlas effect; it is
-not a queue for further lifeform migration.
+Historical migration ledger. Lifeform, technology and subsequent resource
+extraction are complete and committed in `26ef4ae`. Counts and focus findings
+below are the lifeform checkpoint; the later phenomenon ledger records the
+completed extraction's verification. This is not a current migration queue.
 
 ## Boundary now in force
 

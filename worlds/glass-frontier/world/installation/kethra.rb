@@ -16,7 +16,9 @@ installation :kethra do
   prose <<~PROSE, section: :people, heading: "The Boats Inside"
     #{ref :ushti, "Ushti"} carries performers and passengers through the low mouth. The #{ref :veyr_company, "Veyr Company"} has given shows from its canopy while listeners sat on the household ledges. Some local crews carry the #{ref :velisar_resistance, "resistance"}'s fugitives; others sell luxuries to occupied garden houses. Their families share the same pools.
 
-    #{ref :severance, "The Severance"} keeps beds here for people leaving the succession struggle. Detha has met boat crews on the upper path to arrange passages for former soldiers. Serevan volunteers use a rented ledge while accompanying refugees, and the #{ref :deral_hunters, "Deral Hunters"} have brought climbing equipment down for a promised airlift. Residents make separate bargains with each party.
+    Beds paid for by #{ref :severance, "the Severance"} lie above the inner pool. People leaving the succession struggle sleep there within hearing of boats that might take them back toward Velisar. Hosts lower breakfast on the same ropes used to load bundles, and an early departure can wake the whole ledge. Detha has met boat crews on the upper path to arrange passages for former soldiers; the crews answer to the households sheltering their passengers.
+
+    Serevan volunteers once rented the fish-drying ledge while accompanying refugees. After their party sailed, its owners scrubbed it and spread their catch there again. The #{ref :deral_hunters, "Deral Hunters"} are still waiting with climbing equipment for a promised airlift. Their nets now hang above salted fish, and the youngest fishers practice crossing them until the hunters make them come down. A household needs the next boat to take that equipment away before the drying weather changes.
   PROSE
   prose <<~PROSE, section: :people, heading: "Room in the Water"
     #{encyclopedia_ref :sureni} beds drift along the sheltered shore outside the caves. Households tow loose sections to the daylight margins to shelter young fish, keeping the dark inner approaches open. Divers check the low outer roofs for #{encyclopedia_ref :velkur} before anyone enters the water; a patch of trapped air that stays still against the current can empty a bathing ledge in moments.
@@ -33,11 +35,11 @@ installation :kethra do
   PROSE
   gm_note :appears, "A household lowers a pot from its ledge and asks the visiting boat to carry it across the pool. Its owner then climbs down to hear where the crew intends to sail."
   gm_note :complicates, "Ilmu turns toward the entrance as a patrol appears outside. The boat can wait beneath the low roof or cross the animal's stiffening fin to reach open water."
+  log "2026-09-21 — Replaced the assembled-contact paragraph with household uses of the cave ledges. The Serevan escort's stay has ended and its standing operation edge is removed; refugee travel, the hunters' pending airlift and the hosts' ordinary fishing work remain."
 end
 relate :rel_kethra_istrava, :located_in, :kethra, :istrava
 relate :rel_company_kethra, :operates_in, :veyr_company, :kethra
 relate :rel_resistance_kethra, :operates_in, :velisar_resistance, :kethra, since: 2435
 relate :rel_detha_kethra, :operates_in, :detha, :kethra, since: 2435
-relate :rel_sereva_kethra, :operates_in, :sereva, :kethra, since: 2435
 relate :rel_hunters_kethra, :operates_in, :deral_hunters, :kethra, since: 2435
 relate :rel_league_kethra, :operates_in, :istravan_league, :kethra, since: 2435

@@ -88,7 +88,7 @@ relate :rel_far_bell_located_outside, :located_in, :far_bell, :outside do
   prose "Outside controls the isolated striker line and dispatches the hand-reset crews."
 end
 relate :rel_displacement_council_maintains_far_bell, :maintains, :displacement_council, :far_bell do
-  prose "The Council maintains the dock, divided shelters, and single-stroke signal plate."
+  prose "The Displacement Council maintains #{ref :far_bell, "Far Bell"}'s dock, divided shelters, and single-stroke signal plate."
 end
 relate :rel_held_breath_operates_far_bell, :operates_in, :held_breath, :far_bell do
   prose "Held Breath transfers cordon marks and waiting crews through Far Bell."

@@ -52,5 +52,5 @@ relate :rel_crowncut_located_in_deep_shear, :located_in, :crowncut_refinery, :de
 end
 
 relate :rel_coremark_maintained_crowncut, :maintains, :coremark, :crowncut_refinery, since: 2348, till: 2378 do
-  prose "Coremark operated Crowncut until the Silent Bloom ended its legitimate business."
+  prose "#{ref :coremark, "Coremark"} operated #{ref :crowncut_refinery, "Crowncut Refinery"} until the Silent Bloom ended its legitimate business."
 end

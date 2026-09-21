@@ -13,7 +13,7 @@ transport :olenvar do
 
     Thorned beds occupy deep enclosures reached by hanging steps. A visitor singled out by a plant may be invited to cross those steps while stems press toward the opening. The gardeners know how to keep a stem from tightening around a wrist. Their accounts of the #{ref :olenvar_recognition, "Olenvar Recognition"} disagree even while their hands perform the same careful release.
 
-    Several thorned beds hold #{encyclopedia_ref :issava}. Gardeners demonstrate #{encyclopedia_ref :issava_tending} on young growth before offering a cutting to a visitor. One returned sibling now flowers a different color from its parent; another grips a warm rod readily while ignoring the person toward whom the parent leans. The owners have kept both aboard for comparison during the next flowering.
+    Several thorned beds hold #{encyclopedia_ref :issava}. A returned cutting grips its keeper's warm walking stick while ignoring the keeper toward whom its parent still leans. Its owner has stayed aboard, sleeping with the stick laid across the pot so she can reach it when she rises. Other passengers leave space for her plant at meals. Gardeners using #{encyclopedia_ref :issava_tending} loosen the stems from the wood before each landing, then carry the pot down beside her chair.
   PROSE
   gm_note :appears, "A plant bends past a row of offered hands toward somebody standing behind them. Its neighbors remain still until that person moves along the bed."
 end

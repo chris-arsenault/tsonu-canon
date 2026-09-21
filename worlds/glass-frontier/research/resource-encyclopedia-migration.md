@@ -1,5 +1,9 @@
 # Resource Encyclopedia Migration
 
+Completed migration checkpoint, committed in `26ef4ae`. Counts, ids and
+focus findings below describe the extraction stage; later category repairs,
+renaming and authoring supersede them. This report is historical evidence.
+
 Eight reusable resources remain Encyclopedia articles. Their duplicate Atlas type nodes were replaced by named particulars that can hold current events, custody, and scene pressure.
 
 | Encyclopedia owner | Atlas particular | Classification | Retained Atlas connections |

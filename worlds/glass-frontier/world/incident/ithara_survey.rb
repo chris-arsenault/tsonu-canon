@@ -8,17 +8,17 @@ incident :ithara_survey do
   tags :archives, :mystery, :subject_lithren
 
   prose <<~PROSE
-    In 2408 the founder of the #{ref :ithara_comparative_expedition, "Ithara Comparative Expedition"} organized the survey that gave #{ref :ithara, "Ithara"} its modern name. Crews recorded fitted pieces where they lay instead of gathering every similar shape into a single tray. Components in separate chambers reproduced the same wear, joints and old flaws.
+    In 2408 #{ref :ithara_comparative_expedition, "Tavia Mereth"} organized the survey that gave #{ref :ithara, "Ithara"} its modern name. Crews recorded fitted pieces where they lay instead of gathering every similar shape into a single tray. Components in separate chambers reproduced the same wear, joints and old flaws. A worn edge in one room could be set against a retained piece from another, bringing a broken tool's two halves together across the table.
 
     #{ref :nereth_valis, "Nereth Valis"} joined as a field apprentice. The comparisons showed that several objects could preserve evidence of one work's complete state. They did not yet show who had arranged the pieces or establish the function of every assembly.
 
-    The settlement had been continuously occupied since #{ref :sevrin, "Sevrin"}'s grounding in 2322. Residents supplied routes, older specimens and the #{ref :lithren_landfall, "landfall photographs"}. The survey changed how finds were compared; it did not discover the planet or establish its first inhabited base.
+    The settlement had been continuously occupied since #{ref :sevrin, "Sevrin"}'s grounding in 2322. Residents supplied routes, older specimens and the #{ref :lithren_landfall, "landfall photographs"}. Tavia's crews reopened cheap specimen boxes in occupied rooms, sometimes recovering a missing match from a lodger who had been using it to prop a shelf. Finds passed between the excavations and households that had been collecting them since before the expedition arrived.
   PROSE
 
   prose <<~PROSE, section: :aftermath, heading: "From Pieces to a Working"
     The survey produced the collection used in the #{ref :ithara_tool_return, "tool return of 2416"}. Later excavations tested its comparisons against other buildings, including cases where superficially similar pieces belonged to different states.
 
-    Ithara remains one of Lithren's three established site groups. The survey toward a possible fourth group is a separate undertaking. Its buried channels cannot be claimed as Itharan merely because this survey supplied a useful method.
+    Ithara remains one of Lithren's three established site groups. The current survey toward a possible fourth group uses the same comparison method on its buried channels. Its crews are looking for fitted surfaces and repeated wear among the new stone returns; the channels' destination remains beyond the excavated country.
   PROSE
 
   gm_note :triggered_by, "Comparing a new find with the 2408 survey points to an original position that later crews buried again; reaching it requires returning to the ruin."

@@ -12,7 +12,9 @@ encyclopedia :issava_tending do
 
     On #{ref :olenvar}, gardeners teach visitors with young stems before letting them handle a mature bed. Releasing a caught sleeve can take longer than cutting it away. A person trapped by several stems needs someone to support the weight they are putting on the plant; otherwise each loosened grip makes the remaining ones tighten. The technique requires patience, tools and a plant healthy enough to move.
 
-    Growers in #{ref :seren} use the same practice to train arches and separate valuable cuttings. Some recipients learn only how to move their own familiar line. Others trade scented rods and compare which plant responds to which mixture. The work gives a gardener influence over ordinary growth while leaving the unusual recognitions reported aboard Olenvar as separate observations.
+    Growers in #{ref :seren} use scented rods to train arches and separate valuable cuttings. A familiar line may accept its keeper's warmed tool promptly, then hold a stranger's apparently identical rod until it cools. Keepers exchange the cloths used to oil their tools along with the cuttings.
+
+    A released stem aboard Olenvar sometimes turns straight back toward the visitor it had chosen. Gardeners hold it on a longer support while that person passes, keeping its thorns away from the stair. Young flexible growth can be redirected in one transfer; old tangled stems need several people holding successive supports until the last grip opens.
   PROSE
   cue "A worker turns a warm rod inside the plant's curve while a cool wedge holds the released side open."
   cue "A caught visitor stands on a box so their weight stops pulling against the tightening stems."

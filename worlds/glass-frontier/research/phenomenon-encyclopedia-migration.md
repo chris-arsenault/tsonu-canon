@@ -1,5 +1,9 @@
 # Phenomenon Encyclopedia Migration
 
+Completed migration checkpoint, committed in `26ef4ae`. Counts, ids and
+checks below describe that extraction. Later naming work changed Shuttered
+Habs to The Shuttered (`shuttered`); the canonical sources own current names.
+
 Five reusable phenomena remain Encyclopedia articles. Three named Atlas subjects retain the spatial or narrative particulars; Drawdown and Resonance have no Atlas target.
 
 | Encyclopedia owner | Atlas disposition | Classification | Atlas connections retained or established |

@@ -12,7 +12,12 @@ encyclopedia :vell_giving do
 
     Children learn the custom by assembling possible bodies and asking relatives to try their movements. Skilled #{encyclopedia_ref :vell_host, "Vell hosts"} leave room for guests to choose a different arrangement. Some households build graceful coordinated offerings. Others deliberately mix shapes, enjoying how a familiar visitor solves the awkwardness. Musicians need pauses in which objects can be exchanged without ending the evening's shared tune.
 
-    Afterwards, families return furnishings to daily use. A glove may keep reaching toward its former partner; most objects resume ordinary stillness. People disagree about keeping a useful connection or separating it. Visiting ensembles carry the custom to #{ref :fermata_station} as dances with assembled costumes, without promising that Vell's arrivals will occur there. The borrowed chair, repaired coat and song can travel even when the guest cannot.
+    Afterwards, families return furnishings to daily use. A glove may keep reaching toward its former partner; most objects resume ordinary stillness. A useful connection can become tiresome at home: a coat sleeve keeps pulling toward a neighbor's cupboard, or a chair rocks while its former feet are being carried downstairs. Owners ask the returning guest to help separate them. Some instead bring the pieces together and offer the same body again.
+  PROSE
+  prose <<~PROSE, section: :culture, heading: "Bodies on Other Stages"
+    Visiting ensembles have carried the custom to #{ref :fermata_station}. Their dancers wear assembled costumes and exchange parts during pauses borrowed from Vell's music. The borrowed limbs move on visible cords. Audiences offer objects from their seats, and a dancer can finish an evening carrying half a room's clothing.
+
+    Vell hosts teaching these performances shorten a chair's legs, fit grips inside ceramic hands and leave a singer's mouth clear beneath a flute throat. Fermata musicians sustain the accompaniment through each alteration. Afterward the performers sort the borrowed pieces across the stage while owners wait to reclaim them; a returning guest at Vell may later ask for an object its owner has left in Fermata.
   PROSE
   cue "A household places its best chair beside a child's impossible collection of sleeves and waits for someone to choose."
   cue "A familiar glove is given a place at supper because it continues moving toward another room."

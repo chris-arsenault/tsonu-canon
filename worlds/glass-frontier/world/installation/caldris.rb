@@ -12,9 +12,9 @@ installation :caldris do
 
     Sprint heats, long circuits and paired races use different wings. A ceremonial staircase cuts across the central course, but its landings leave little room to turn. Two skiffs fit abreast through the conservatory arch only with their kinetic steering vanes retracted. Grapples recover crippled racers and also pull rivals close enough to board.
 
-    Visiting teams rebuild #{encyclopedia_ref :caldris_skiff, "Caldris skiffs"} in the surrounding berths. One crew has turned a wreck's rear seat into room for a rescued passenger, then brought it back to race. Its pilot now practices with a companion moving between the marked ballast positions to learn how that wider opening changed the hull's response.
+    Visiting teams rebuild #{encyclopedia_ref :caldris_skiff, "Caldris skiffs"} in the surrounding berths. One racing crew cut away its rear seat to pull a trapped rival aboard, then kept the widened opening after repairing the hull. A second crew member now crouches there with a grapple during paired heats. Moving across the opening lets them reach another craft, but also shifts the balance while the pilot is trying to pass a doorway.
 
-    Mechanics demonstrate #{encyclopedia_ref :unclosing} on a restrained practice vane, letting newcomers feel the kinetic tremor left by interrupting its broad tuning. Crews interested in using the spell during a race must still reach the working's boundary while both vessels are moving. Losing a steering effect leaves the hull traveling toward whatever was already ahead of it.
+    A boarded racer with broadly tuned steering can lose that effect to #{encyclopedia_ref :unclosing} while its hull is still traveling toward the next wall. Pilots who expect such an attack keep the outer vane beyond the other craft's reach and turn their armored side toward the boarder. The narrowed staircase gives them little room for either precaution. Some crews surrender their place before the landing, then follow the attacker's wake through the arch.
 
     The final stretch crosses the palace exterior. A pilot can see the finish through several intervening rooms and may try a weak wall instead of the established opening. Torn edges left by such shortcuts catch the next hull through. Practice crews share recordings, though some omit the turn on which a new route depends.
 

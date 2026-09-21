@@ -8,6 +8,7 @@ faction :shear_compact do
   reviewed "2026-03-18"
   tags :salvage, :ringglass, :trade, :governance, :subject_shear
   prominence :recognized
+  log "2026-09-21 — Replaced unanimous attitudes and forecasts of institutional failure with the Compact's actual field work, means of influence, and dispute over Deep-Shear protection."
 
   descriptive_identity(
     ideology:
@@ -23,37 +24,41 @@ faction :shear_compact do
       "fines sized to deter casual corner-cutting, which determined " \
       "violators simply pay as a cost of business.",
     presence:
-      "Its people come as inspectors, assessors, and mediators, never as " \
-      "muscle. Where a crew feels the Compact daily is the forecast — " \
-      "debris, tides, drift — which is frequently wrong, the best " \
-      "available, and read aloud with complaint before every crossing.",
+      "Survey crews sound working routes, inspectors test filters and " \
+      "cutters, and mediators hear competing accounts of a find. The " \
+      "forecast turns local sightings into warnings that other crews " \
+      "can compare with the opening ahead of them.",
     attitude:
-      "An uncertified operator is stopped by nobody and pursued by " \
-      "paperwork: the fine follows, and the crew forfeits the mediation " \
-      "that settles disputed finds. Independent crews it would rather " \
-      "license than chase, with uneven success."
+      "It wants independent operators inside shared safety and claim " \
+      "standards. A crew outside them can still launch, but loses " \
+      "Compact help in defending a find and faces fines at ports " \
+      "that enforce its decisions."
   )
 
   prose <<~PROSE
-    The system's regulatory body for #{ref :the_shear, "Shear"} salvage operations. Not an enforcement agency — a standards board. The Compact sets safety requirements, certifies operators, maintains forecasting services, and issues fines when people cut corners. It has no armed enforcement arm. Its authority comes from the fact that most people, at this point, recognize the value of not repeating what happened at #{ref :pyre, "Pyre"}.
+    The Shear Compact sets shared safety and claim standards for work in #{ref :the_shear, "the Shear"}. Its survey crews combine debris sightings, resonance measurements, and missing-return reports into forecasts. Inspectors certify vessels and equipment; mediators hear rival claims before crews fight over a find.
+
+    The Compact keeps no armed service of its own. It depends on operators accepting inspections and on ports honoring its fines and settlements. The destruction at #{ref :pyre, "Pyre"} remains the strongest argument for that cooperation: an extraction failure can pass far beyond the crew that accepted the risk.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Operations"
-    **Certification.** Operators who want to work the Shear legally carry a Compact certification. The process involves equipment inspection, crew competency assessment, and compliance with extraction limits. Certification doesn't guarantee safety — it guarantees minimum standards.
+    **Certification.** Inspectors examine ships, test crews, and set extraction limits. A filter that works in a quiet yard may fail under the field a vessel intends to enter. A cutter may be sound while its shared controls leave the receiving ship exposed. Certification establishes a minimum working condition for the planned operation; crews still face debris below instrument resolution and changes the survey could not predict.
 
-    **Forecasting.** The Compact maintains a Shear weather service: debris tracking, resonance tide prediction, drift event monitoring. The service is frequently wrong. It is also the best available, and everyone uses it while complaining about it.
+    **Forecasting.** The Shear weather service tracks debris, resonance tides, and large drift events. Its charts identify when a survey was made and where later reports disagree. A closing corridor may be visible to a small claim crew before the service can revise the common chart. Pilots send those sightings back so ships behind them can divert while they still have room.
 
-    **Mediation.** Salvage claim disputes go through the Compact's mediation process before escalating to the #{ref :tempered_accord, "Tempered Accord"}. The process is bureaucratic, slow, and universally preferred to the Contested Reach's alternative of settling claims with weapons.
+    **Mediation.** Crews bring competing recovery logs, physical marks, and witnesses when they claim the same salvage. The Compact can recognize a crew's share even when a stronger operator holds the material. A settlement honored at the receiving yard gives the weaker crew a way to sell its interest without retaking the wreck. Cases its members cannot resolve can pass to the #{ref :tempered_accord, "Tempered Accord"}.
 
-    **Fines.** The Compact can fine operators for safety violations. The fines are meaningful enough to deter casual corner-cutting and small enough that determined violators pay them as a cost of business. #{ref :coremark, "Coremark"} doesn't bother with certification at all, operating entirely outside the Compact's framework.
+    **Fines.** Participating ports can collect penalties from a returning operator. Some crews reduce a haul rather than exceed the extraction limit; others expect the extra cargo to cover the fine. #{ref :coremark, "Coremark"} works outside certification and moves its output through fences. Compact inspectors can record its ships and warn neighboring claims, but they depend on other authorities to seize a vessel.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Present Day"
-    The Compact is the Accord's proof of concept. Before the Accord existed, the Compact demonstrated that emergency cooperation could become permanent regulation. Its charter became the legal template for the Accord's governance provisions. Its mediation process became the model for the Accord's dispute resolution.
+    The Accord adopted the Compact's model of mediated claims and shared standards. The older body continues the field work that supplied those rules. Survey teams use #{ref :crowncut_refinery, "Crowncut's"} paired beds to teach how a cut in one place can transfer load to another. Forecast crews track named predators such as #{ref :ironwhistle, "Ironwhistle"} as well as drifting debris.
 
-    It is also, increasingly, tested. Ringglass demand is growing. The Compact's extraction limits slow supply. Someone is always making the argument that safety standards are too conservative — the same argument #{ref :coremark, "Coremark"} made before Pyre, in different words, from different mouths. "That's what they said about Pyre" still works as a response. It won't work forever.
+    Its sharpest dispute with working crews concerns #{ref :deep_shear, "Deep Shear"}. The Pell Freight Assembly and six flotillas asked for separate protections in 2420. The Compact rejected their proposed threshold because clocks and Tuners could disagree about when a vessel had crossed it. Pell crews now keep isolated systems on their own rigs while the ordinary certification remains in force.
+
+    Demand for high-grade ringglass puts buyers at the other end of the argument. An above-limit load can pay enough to replace worn equipment or cover a lost season, drawing crews back to a pocket they have already worked hard. Inspectors see the previous cuts in the same mass. The disagreement concerns the next extraction and the ships beside it, with a failure capable of reaching both certified and uncertified crews.
   PROSE
 
-  gm_note :appears, "Every Shear crossing starts with the Compact's forecast of debris, resonance tides, and drift events, and the forecast is wrong often enough that reading it aloud starts an argument in the cabin. The crew flies on it regardless, because there is nothing else to fly on."
-  gm_note :triggered_by, "Working the Shear uncertified is stopped by nobody, since the Compact keeps no armed arm, but the fine follows and an uncertified crew loses the mediation that settles salvage claims. Their next disputed find belongs to whoever is holding it."
+  gm_note :appears, "A fresh sighting contradicts the charted clearance ahead. The Compact asks nearby vessels for their returns while captains decide whether the remaining opening is wide enough for the loaded ship behind them."
+  gm_note :triggered_by, "A weaker crew can bring its recovery marks and witnesses to the Compact after a rival takes possession of a find. A receiving yard that honors the settlement can hold the sale open while the claims are heard."
   gm_note :complicates, "Ringglass demand outruns what the extraction limits release, so there is always a buyer paying above the certified rate for an over-limit haul. The penalty for taking that work is a fine one profitable run absorbs, which is why determined operators keep taking it."
 end
 

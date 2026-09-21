@@ -13,7 +13,7 @@ geographic_location :istrava do
   prose <<~PROSE
     Istrava lies along #{ref :korvath, "Korvath"}'s warm middle sea. Ports face one another across water crossed by fishing boats, coastal freighters and military vessels. Roads climb through fruit terraces into upland towns and old mining country. Sea winds make the open quays cooler than the walled gardens a street inland. Above them, arriving vessels cross orbital approaches contested by the same forces fighting below.
 
-    The #{ref :istravan_league, "Istravan League"} joined these cities for defense. Their households kept different laws, assemblies and commanders. A harbor could refuse a visiting warship while sending food to its crew; membership never made a neighboring city's ruler its own. The present war tests that distinction across the whole theater, not only inside #{ref :velisar, "Velisar"}.
+    The #{ref :istravan_league, "Istravan League"} joined these cities for defense. Their households kept different laws, assemblies and commanders. A harbor could refuse a visiting warship while sending food to its crew. At #{ref :oskara, "Oskara"}, the city assembly still directs the shore guns. In #{ref :velisar, "Velisar"}, the commander those assemblies appointed has turned their batteries against them.
   PROSE
 
   prose <<~PROSE, section: :culture, heading: "The Orchard Walls"
@@ -24,9 +24,13 @@ geographic_location :istrava do
   prose <<~PROSE, section: :present_day, heading: "A Divided Coast"
     #{ref :aren_talivar, "Aren Talivar"} now holds #{ref :velisar, "Velisar"} and demands permanent command of the league's defenses. Ports beyond his reach are sheltering fugitives, preparing batteries, or receiving his envoys. Some still provision league vessels while refusing orders from their commander. Others are trying to remain outside the fighting.
 
-    The coast is south of Korvath's northern freight yards. #{ref :coremark, "Coremark"} does not administer its towns or supply every force here. Local ships and roads matter as much as arrivals from orbit. An army that takes a quay still has to cross the orchard walls, bridge the upland cuts, and persuade or compel the people who maintain them.
+    The coast lies south of Korvath's northern freight yards. Coastal households own the fishing boats and small freighters that work between its towns; shipwright families maintain workshops ashore and at #{ref :theskar, "Theskar"}. Orchard roads bring fruit, fuel and people down to their quays. Troops moving inland must leave the cover of a ship's guns to cross narrow cuts whose bridges can be lifted from the far bank.
 
-    The theater also includes the routes above those towns. A blockade can delay reinforcements without closing every harbor; a threatened bombardment can force a city to move people and valuable equipment before a shot is fired. The high routes connect Istrava to the wider system, but the war does not place every world under attack. Most people elsewhere meet it through delayed cargo, arguments over intervention and occasional reports from the orbital approaches.
+    Above the towns, armed ships wait for craft climbing out of the atmosphere. #{ref :vardesh, "Vardesh"} threatens Oskara's paired harbor towers while its officers seek a replacement for the ship's cracked beam optic. Residents have begun moving valuable tools out of the exposed quarry workshops. Some put them in relatives' houses above the harbor, bringing apprentices and unfinished commissions into rooms already occupied by fugitives.
+  PROSE
+
+  prose <<~PROSE, section: :present_day, heading: "News Beyond the Coast"
+    Beyond the fronts, most of Korvath continues ordinary work. On #{ref :kaleidos}, reports of intercepted vessels appear beside local news. Residents with Istravan relatives raise passage money and press their neighbors to support intervention; supporters of Aren repeat his promises to unite the ports. Other listeners argue over a broadcast and return to their own concerns. They expect the peace of the Bitter Reach to hold where they live.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Refuge and Return"
@@ -36,7 +40,7 @@ geographic_location :istrava do
   prose <<~PROSE, section: :geography, heading: "The Wider Theater"
     #{ref :velisar, "Velisar"} is the strongest city in the theater: a fortified port, repair center and command site whose batteries overlook the approaches. Around it lie independent ports, upland communities, shipyards, agricultural roads and orbital infrastructure with their own authorities. Control of one does not settle the others.
 
-    The war's material stakes are correspondingly broad. Food, ship plate, ceramic insulation, precision components and high-output arrays move through different hands and along different routes. Some sites matter because they sustain a population; others matter because they allow a vessel, battery or orbital station to function. Their value does not grant the party holding them the right to rule the people who work there.
+    Deral's broad crystal can restore Vardesh's beam battery or supply the small instrument windows cut in Oskara. The exposed arms at Theskar hold ships whose opened engines leave them helpless during an interception. Farther inland, Edrath's mass-throwing guns stand above inhabited magazines. Aren's officers claim each of these works for the coast's defense. Miners, mechanics and the families beneath the guns are holding onto the means of choosing what their work will serve.
 
     Coastal warships can threaten a harbor while its upland settlements remain beyond their reach. A city that loses access to orbit can still receive small vessels across the sea. Families move between those dangers, sometimes leaving a fortified port for a country house whose owners supported Aren before his occupation.
 
@@ -60,6 +64,7 @@ geographic_location :istrava do
   gm_note :appears, "A cliffside boat crew offers passage, then recognizes a visitor as someone a former passenger paid them to find."
   gm_note :triggered_by, "Heavy footsteps or gunfire in Deral draw oshrets through connected stone; the suspended platforms offer refuge while young animals climb their cables."
   gm_note :complicates, "A captain willing to carry fugitives also takes paying passengers from Aren's supporters; one passenger recognizes the people hiding aboard."
+  log "2026-09-21 — Replaced scope denials and an unattributed verdict with local ownership, existing military dependencies and visible effects of the orbital threat. Kept the war regional and the cities politically distinct."
 end
 
 moment :deral_detachment_recalled, year: 2435, of: :istrava do

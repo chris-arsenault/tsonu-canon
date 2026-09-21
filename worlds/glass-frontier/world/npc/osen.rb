@@ -15,7 +15,7 @@ npc :osen do
   prose <<~PROSE
     Osen cuts access through #{ref :lithren, "Lithren"}'s buried works and guides crews across ground unsuitable for heavy vehicles. In 2433 he found matching fragments deliberately severed at an outlying #{ref :ithara, "Ithara"} fortification. Their breaks contributed to the evidence for #{ref :sahels_breach, "Sahel's Breach"}: someone had prevented a defense from being returned while people left through its approach.
 
-    He wants to follow the removed pieces. The trail could lead to another settlement, a departure store or a place where the remaining witnesses were destroyed. He will not promise a complete arsenal at its end.
+    He wants to follow the removed pieces. The trail could lead to another settlement, a departure store or a place where the remaining witnesses were destroyed. He asks would-be companions to bring cases for small fragments as well as lifting gear. A cut edge carried out in a pocket can keep him on a route after the broad rooms have been emptied.
 
     In 2435 that search reached #{ref :ivara, "Ivara"} on Damarat's lower loading shelf. With Nereth he matched surviving cargo to the fortification's deliberately broken fittings. One load had arrived there and been partly unloaded. Osen wants the carriage repaired for present work; establishing that destination has not told him where its people went afterward.
   PROSE
@@ -25,7 +25,7 @@ npc :osen do
 
     He helps #{ref :nereth_valis, "Nereth Valis"} because she takes the deliberate breaks seriously. He helps #{ref :eris_talven, "Eris Talven"} when a return can open a safe route. He will oppose either if their working seals the only way his crew can leave.
 
-    Discovering that an absence was intentional has made him careful, not unwilling to recover old works. He has seen useful tools returned and wants his own crew to have them. He asks what a piece completes before letting someone carry it away.
+    Before moving a fitted piece, Osen looks for its mate and the marks around its former seat. At the breached fortification he found cuts made to defeat a return; in working rooms he has seen retained pieces bring useful tools back into people's hands. He wants those tools for his promised crew. He keeps detached fragments in separate soft-faced cases until he can show a restorer where each one lay.
 
     Between those undertakings he guides paying crews, inspects landing approaches and takes shares in recoveries too small to interest a large expedition. He meets prospective companions in Ithara's repair bays and eating rooms. Some want his knowledge of ruins; others want a captain who will bring them home and let them choose the next job.
 

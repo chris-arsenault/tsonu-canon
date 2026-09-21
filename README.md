@@ -131,6 +131,9 @@ and deployment to the Ahara workflow. The production reader is `canon.tsonu.com`
 the local review writer is not deployed. The wiki renderer remains an optional
 export and is not deployed by this repository.
 
+Known unfinished work is in [docs/backlog.md](docs/backlog.md); completed
+checkpoints and local publication state are in [HANDOFF.md](HANDOFF.md).
+
 ## License
 
 [PolyForm Noncommercial 1.0.0](LICENSE.md)

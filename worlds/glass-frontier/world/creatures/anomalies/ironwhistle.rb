@@ -36,7 +36,7 @@ creature :ironwhistle do
   PROSE
 
   prose <<~PROSE, section: :history, heading: "The Named Animal"
-    Compact records first identify Ironwhistle in 2338, when the same scarred dragon appeared in reports from three salvage flotillas. Earlier logs describe iron-colored dragons and descending hull tones without enough detail to prove continuity. The 2338 observers recorded a missing tip on the second left membrane and a pale ring around the rear jaw. Both marks remain visible in current images.
+    The earliest confirmed reports of Ironwhistle come from three salvage flotillas in 2338. The Compact later assembled those logs into its tracking record. Earlier accounts describe iron-colored dragons and descending hull tones without enough detail to prove continuity. The 2338 observers recorded a missing tip on the second left membrane and a pale ring around the rear jaw. Both marks remain visible in current images.
 
     The animal has crossed inhabited traffic for long enough that route offices maintain a separate file for it. Reports include date, field condition, direction, apparent feeding, and whether the whistle changed near a vessel. A sighting with clear marks earns a modest observation payment. A warning submitted after cargo loss receives closer examination.
 
@@ -62,7 +62,7 @@ creature :ironwhistle do
   prose <<~PROSE, section: :present_day, heading: "Near the Branch Routes"
     Ironwhistle returned to the inner branch routes in 2435 after a long interval without a confirmed sighting there. It took an empty cargo frame from a Vantara tug, followed a Prismwell marker string through a shower wake, and passed within instrument range of #{ref :quiet_measure, "*Quiet Measure*"} without turning toward the rescue tender's cold drive.
 
-    Current route notices place the animal between Pell and the branches skirting Karet-3. Carriers are loading iron decoys and arguing over whether the additional mass belongs in corridor fees. The Compact has asked every vessel to submit raw hull recordings before crews edit the whistle into something easier to identify.
+    Current route notices place the animal between Pell and the branches skirting Karet-3. Carriers load iron decoys beside the stern releases so a crew can send one out while keeping the main drive low. The Compact has asked vessels for raw hull recordings: cleaning the sound for human hearing can erase the short rising strokes that place a turn before an attack.
   PROSE
 
   gm_note :appears, "Crews meet Ironwhistle through the hull first: a recorder catches a faint scrape while a hand flat on a bulkhead " \

@@ -25,7 +25,7 @@ If a shell names nothing worth keeping, move any useful fact to the entry that o
 
 ## 2. Explore what makes the subject particular
 
-Choose one situation that needs the whole related set to explain it. Suitable questions concern work, travel, repair, trade, family life, danger, worship, medicine, or contact between communities. For example: *How does an Olven household prepare to host relatives from another climate band?* A question about an old ring system answering a repair crew is also suitable when that is the missing experience.
+Begin with a concrete situation that exposes something missing from the world. Suitable questions concern work, travel, repair, trade, family life, danger, worship, medicine, or contact between communities. For example: *How does an Olven household prepare to host relatives from another climate band?* Follow the different interests and activities the situation reveals. Related entries can lead away from its original participants and conflict.
 
 Use these questions to interrupt the first familiar idea. Follow whichever produces something interesting. Try a question and discard its answer when it adds nothing useful; unanswered questions are not gaps in an entry.
 
@@ -66,13 +66,21 @@ Use it to decide something concrete: the layout of a workplace, wear on a tool, 
 
 Write substantial entries when the subjects support them. A place or institution may need several sections. Do not split a coherent subject to increase the entity count.
 
+Let the subject determine the article's structure and emphasis. A species account can follow its feeding, reproduction and encounters; a tradition can describe what its practitioners value and disagree about. Use whichever subjects the actual material supports. Read adjacent articles together while drafting. When each ends with a caution, introduces the same buyer or teaches the same kind of lesson, revisit the accounts as a group and develop the differences the world already contains.
+
+Name recurring people and particular objects when their identities carry the account. Consolidating a person's biography into a place or institution preserves that person's name and relationships. Put the name in the owning account and use display references to direct readers there. Reserve aliases for alternative names of the entry's actual subject.
+
 The related set should normally span several kinds. Every entry must contribute distinct substance to the situation. Meaningful connections between Atlas subjects receive typed relationships. Encyclopedia subjects connect through concrete uses in prose and appropriate classification; they remain outside the Atlas graph. Shared explanations have one owner; neighboring entries link or embed instead of restating them.
+
+Read a proposed relationship as an assertion about its source and target. A predator depends on its food; its prey may use a device against it. The latter fact does not make the predator depend on the device. Keep references in prose when they establish useful context without supporting a typed relationship. Distinguish a visit from a continuing presence. A new connection should change what someone encounters, values, does or understands at one of its ends.
 
 New entities written to repair the web are usually recognized, marginal, or forgotten. Raise one to renowned only when its fame exists independently of the connection being repaired.
 
 ## 6. Check the result
 
 Ask what makes this particular subject belong in the Glass Frontier. Point to concrete details and what they change about its appearance, use or people's lives. If the result is generic, return to whichever prompt might open it up, or find another source of detail. Judge the discoveries in the finished writing; do not score prompt coverage or require resonance, failure and unusual physics to appear. A prompt left unanswered is never a review finding.
+
+Review whole sections and neighboring accounts before choosing the scale of a revision. Move facts to their proper owner, reorder explanations and rewrite articles when their organizing idea obscures the subject. Preserve substantive facts, images, relationships and deliberate uncertainties. Keep authoring safeguards in guidance; lore establishes its scope through the people, places, observations and actions it describes. A resolved local discovery can coexist with a larger unexplained phenomenon.
 
 Read every changed entry with `page`, then run:
 

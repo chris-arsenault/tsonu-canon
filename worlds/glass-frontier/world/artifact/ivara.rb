@@ -11,7 +11,7 @@ artifact :ivara do
   prose <<~PROSE
     Ivara stands on a lower loading shelf at #{ref :damarat, "Damarat"}, reached around the works' closed passage. #{ref :osen, "Osen"} and #{ref :nereth_valis, "Nereth Valis"} examined it in 2435. Its carriage carries fitted pieces in individually shaped recesses; other recesses are empty. The side cradle can be lowered beside the wheels, allowing a heavy piece to leave the load without lifting it over the frame.
 
-    One surviving piece matches a deliberately broken socket at the fortification involved in #{ref :sahels_breach, "Sahel's Breach"}. The irregular surfaces fit, including a cut that crosses a pre-existing repair. Packing impressions hold the shape of a second piece still visible in the recovered departure scene. The carriage's asymmetrical cradle is visible beneath that load. These comparisons identify one carriage removed from that fortification. They do not identify every object carried out through the breach.
+    One surviving piece matches a deliberately broken socket at the fortification involved in #{ref :sahels_breach, "Sahel's Breach"}. The irregular surfaces fit, including a cut that crosses a pre-existing repair. Packing impressions hold the shape of a second piece still visible in the recovered departure scene. The carriage's asymmetrical cradle is visible beneath that load. These comparisons identify Ivara and two parts of its cargo on the evacuation route. Its empty recesses retain only the shapes of the loads they lost.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Where One Load Went"
@@ -23,7 +23,7 @@ artifact :ivara do
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "A Carriage Worth Repairing"
-    #{ref :tamet, "Tamet"} can make a new brake cheek and cradle braces from modern stock. No great Return is needed. A repaired Ivara could lower a shelter, machine or injured passenger beside a steep ramp where a fixed cargo deck would require an overhead lift. It still needs people or a powered tow to move, firm ground under its wheels and anchors that can take the lowered load.
+    #{ref :tamet, "Tamet"} has measured the split brake cheek for a replacement cut from modern stock. He can make that part and new cradle braces in his bay. Once repaired, Ivara could lower a shelter, machine or injured passenger beside a steep ramp where a fixed cargo deck would require an overhead lift. Its paired bogies rock separately over uneven ground, bringing one side of the cradle close to the ramp while the other wheels remain braced. A hauling crew still needs firm ground, a tow and anchors that can take the lowered load.
 
     Removing the ancient cargo intact requires supports fitted to the fragile packing. Osen wants to bring the carriage into use without scattering that evidence. Damarat's residents could share a working carrier, or sell it to help pay for a ship out. Selven offers transport and skilled hands if his expedition gets the first use. The split cheek remains fitted while they negotiate; merely turning the old handle would put the load on the broken part again.
   PROSE

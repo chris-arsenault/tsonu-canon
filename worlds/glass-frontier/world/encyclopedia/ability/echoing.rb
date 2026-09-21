@@ -24,11 +24,11 @@ encyclopedia :echoing do
     Signal-bearing material keeps the cleanest echoes. Ringglass, old alloys, recording substrates, and surfaces joined to active arrays may retain several breaths. Ordinary stone or cloth keeps less, and repeated handling writes over what came before. The practitioner chooses sight, sound, or pressure before touching the surface and cannot change senses during the replay.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Recent Voices and Light"
-    At #{ref :heskar_dome}, visitors have set a small ringglass plate beside the signaling instrument to catch recent light. Echoing helps compare a disputed flash with the hand-drawn record before later light overwrites it. The plate can preserve what reached that spot without identifying the correspondent or showing a place beyond the telescope. At #{ref :veyr}, performers use the same spell on a prepared stage plate to rehear a final note while its sensation overlaps the next live voice.
+    At #{ref :heskar_dome}, a ringglass plate beside the signaling instrument catches the last light that reaches its face. An observer covers it after a disputed flash and reads the retained pattern while another copies it. A patch of sunlight through the dome can overwrite the signal with the silhouette of the covering hand. At #{ref :veyr}, a performer touching the stage plate hears the last note beneath the next live voice, briefly singing against two different endings.
   PROSE
   prose <<~PROSE, section: :limits, heading: "One Impression"
-    Echoing returns a fragment rather than an account. A hand on a rail may feel a running impact without learning who ran, why they fled, or where they went after letting go. Present sensation continues beneath the replay, making a loud echo dangerous beside moving machinery or an active fight.
+    A touched rail returns the impact that reached that rail. The practitioner feels the blow while their own hand still rests on cold metal. Moving machinery or another strike can arrive during the replay, leaving them to distinguish a current force from the retained one before letting go.
 
-    #{encyclopedia_ref :witnessing, "Witnessing"} follows physical consequences until they yield an event. Echoing neither follows nor joins them; it reports the last impression carried by the surface under the practitioner's hand.
+    Investigators use #{encyclopedia_ref :witnessing, "Witnessing"} to follow consequences between subjects and recover an event. An echo can supply the first local observation for that work; its own reach ends at the touched surface's retained impression.
   PROSE
 end

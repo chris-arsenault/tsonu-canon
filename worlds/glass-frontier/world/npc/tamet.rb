@@ -16,13 +16,14 @@ npc :tamet do
     The #{ref :damarat_opening, "Damarat Opening"} gave him access to the #{ref :damarat_bed, "Damarat Bed"}. He helped make it work, then began #{ref :eveli, "Eveli"}, his own smaller #{encyclopedia_ref :varal, "varal"}. Its exposed handles and replaceable rods are deliberately unlike the concealed drives of the ancient machine. He can make a new handle in his bay. He cannot reproduce everything inside the old bed.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Work With His Name On It"
-    #{ref :ilven_sarith, "Ilven Sarith"} has offered to buy Eveli and commission a more beautiful successor. Tamet wants payment and the chance to build well. He also wants the present machine to keep making ordinary replacement parts for people who cannot charter freight. He has offered Ilven a set of hand-finished curved wall panels instead; Ilven likes them but considers the machine itself the better acquisition.
+    Tamet declined #{ref :ilven_sarith, "Ilven Sarith"}'s offer to buy Eveli and accepted a commission for curved wall panels. Ilven chose a finish that exposes the marks of individual rods. Tamet is using the payment to make matching sets of replacement rods for other makers. He wants their machines to develop beyond his own, and asks them to bring back pieces that Eveli could not have formed.
 
     Tamet returns to #{ref :damarat, "Damarat"} to study the full bed's settings. The #{ref :ithara_comparative_expedition, "comparative expedition"}'s materials investigators measure its stock while he forms it, and their arguments produce a floor full of bent specimens. At the #{ref :ithara_gate, "Ithara Gate"}, he works with #{ref :daret_valis, "Daret Valis"} on the surviving balance frame. They agree about where to place a brace and disagree about who should control the gate afterward.
 
     He is protective of his apprentices' credit and careless with his own exhaustion. A difficult piece can keep him in the bay through an entire meal service. Ressa takes his tools away before serving him; he accepts this from her and would resent it from a patron.
   PROSE
   gm_note :triggered_by, "Bringing Tamet a broken fitting gets a cheap trial copy and an invitation to help test it. If it works, he asks to keep the failed original as a setting pattern for the next person."
+  log "2026-09-21 — Resolved Ilven's offer through a commission for contemporary work. Tamet's current ambitions concern other makers developing the machine, separating Eveli's future from the continuing Damarat removal dispute."
 end
 relate :rel_tamet_at_ithara, :located_in, :tamet, :ithara
 relate :rel_tamet_at_damarat, :operates_in, :tamet, :damarat, since: 2433

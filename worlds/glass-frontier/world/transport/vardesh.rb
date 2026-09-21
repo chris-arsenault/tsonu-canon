@@ -10,7 +10,9 @@ transport :vardesh do
   prose <<~PROSE
     Vardesh entered league service in 2412 as an armed escort and a place for commanders to receive coastal delegations. Its glazed bow gallery was built for people to watch a harbor approach while music played behind them. It brought evacuees out during the Bitter Reach and carried guests home after the settlement. The same rooms now hold captives taken from intercepted ships.
 
-    Aren's willing officers control its bridge. Some crew members obey accepted orders; others serve because their partners and children live in Velisar. The ship takes replacement personnel and targeting observations from #{ref :savren, "Savren"}. Its officers sometimes let relatives visit at a protected berth, with armed escorts standing among the old reception furniture.
+    The bridge officers openly support Aren. They retain the reception music during boardings and light the bow gallery so people on an intercepted ship can see guards moving captives inside. They expect other crews to recognize a league flagship and yield. When a target refuses, the bridge orders another illuminated pass before opening fire; gunners at the damaged lower mount have learned to dread that turn.
+
+    Below, an accepted command keeps guards at the reception doors even while engineers clear the adjoining rooms for repair. A guard can agree that a prisoner needs the infirmary and still hold the door shut when the stretcher arrives. Other sailors remain aboard because their partners and children live in Velisar. At a protected berth, officers let those families visit among the old reception furniture under armed escort. Replacement crew and targeting observations come from #{ref :savren, "Savren"}.
   PROSE
   prose <<~PROSE, section: :operations, heading: "The Lower Battery"
     The lower battery concentrates supplied light through a broad #{encyclopedia_ref :sural, "sural"} optic. It can cut into a ship's exposed machinery or hold a beam on a fixed surface target during a clear approach. Clouds, a changing line of sight and heat in the mount interrupt the shot. After sustained firing, the crew opens cooling panels along the battery ladders.
@@ -26,6 +28,7 @@ transport :vardesh do
   PROSE
   gm_note :appears, "A familiar evacuation song plays from the ship's reception gallery while armed guards bring detained passengers through the doors beneath it."
   gm_note :triggered_by, "Keeping the lower battery firing forces its cooling panels open. Engineers appear on the ladders behind them, close to a stores recess outside the upper guns' sight."
+  log "2026-09-21 — Kept the willing bridge, compelled crew and family ties while giving each a distinct shipboard behavior: ceremonial intimidation, a held prisoner door and supervised family visits. The damaged optic still limits the actual threat."
 end
 relate :rel_league_vardesh, :possesses, :istravan_league, :vardesh, since: 2412
 relate :rel_vardesh_theskar, :operates_in, :vardesh, :theskar, since: 2435

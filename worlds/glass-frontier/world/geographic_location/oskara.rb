@@ -27,7 +27,9 @@ geographic_location :oskara do
     Quarry hosts learned to make the Karet loaves, then began filling them with orchard fruit. Their former guests send back dense plain bread and ask whether the fruit has improved. Oskaran children who have never crossed the system can identify which Outside household sent a loaf by its crust mark.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "People With Somewhere to Go"
-    The #{ref :deral_hunters, "Deral Hunters"} leave their children here and recruit climbers for the workings inland. Members of the #{ref :velisar_resistance, "Velisar resistance"} seek people willing to return to the occupied city. The #{ref :severance, "Severance"} brings prospective mantle claimants in the opposite direction. All three use the same landing tables, where arrivals can hear their offers before choosing a companion.
+    At the landings, hosts call out household names until somebody on an arriving boat answers. People lacking a contact wait under the yellow cloth while residents carry empty bedding down from the quarry galleries. Children of the #{ref :deral_hunters, "Deral Hunters"} know which workshops repair their parents' gear. They bring departing climbers scraps of cloth to tie onto a recognizable pack and bring back from the mine.
+
+    The #{ref :velisar_resistance, "Velisar resistance"} recruits for the return journey in those workshops. A household that has just received a frightened relative can refuse recruiters its doorway. The #{ref :severance, "Severance"} pays for rooms where prospective mantle claimants can stay while deciding whether to travel farther. Some arrivals ask a host to turn away everyone who comes with a reading of Talessar. Others send for the very escorts they escaped on the coast.
 
     #{ref :sereva, "Serevan"} volunteers have taken rooms above a bath pool and help crew the outward escorts. Their commanders want a berth for armed relief vessels. Workshop owners want the boats carrying tools and apprentices protected as well. #{ref :nalis_venn, "Nalis Venn"} has walked the landing with returning residents while considering destinations for her road; the boat departures continue as she prepares.
 
@@ -46,6 +48,7 @@ geographic_location :oskara do
   gm_note :appears, "A projected fish darts through the visitors' window and a second catches it on the opposite wall. Apprentices below ask which workshop made the better one, with a paid commission riding on the answer."
   gm_note :complicates, "A departing escort offers passage to a rescue party and a returning performer. The singer recognizes someone aboard as the officer who broke up their last contest."
   gm_note :triggered_by, "Discussing onward passage draws a quarry host with a household invitation from Outside. A sailor seeking the same berth openly describes the command they still carry, and asks who else will be aboard."
+  log "2026-09-21 — Kept the city's existing refuge connections while locating recruitment in workshops and protected households rather than a shared menu of factions at the landing."
 end
 relate :rel_oskara_istrava, :part_of, :oskara, :istrava
 relate :rel_oskara_korvath, :on_surface_of, :oskara, :korvath

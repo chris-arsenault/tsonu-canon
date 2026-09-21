@@ -14,7 +14,11 @@ encyclopedia :tovan_yield do
 
     Teachers at #{ref :tovanesh} make pupils practice with empty hands before adding padded hooks. Water conceals a planted foot, so the pupil feels the change through the sash and watches the shoulders. Experienced opponents can answer by releasing their end or moving into the slack. A failed yield offers them a close approach to the yielding fighter's unguarded side.
 
-    Shipboard pupils aboard #{ref :steady_return} practice shorter versions between benches. Visitors have carried those turns to #{ref :evran_court}, where a cloth grip can teach the movement before an unaided bout. The technique remains a physical choice. A fighter under a mantle's accepted command can perform it skillfully while continuing to pursue that command after the bout has ended.
+  PROSE
+  prose <<~PROSE, section: :operations, heading: "Close Quarters"
+    Shipboard pupils aboard #{ref :steady_return} shorten the turn between benches, bracing a hand against the wood where a pool fighter would take another step. Visitors have carried it to #{ref :evran_court}. A cloth grip lets two pupils feel the exchanged weight before trying it against an arm.
+
+    The court's teachers have tried the yield against movements retained from #{ref :arev}. A successful physical turn can shift the wearer across the sand while the harness continues drawing their arm into its next hold. Teachers keep an experienced partner close enough to separate the fighters. The grip has become useful for demonstrating exactly when the #{encyclopedia_ref :arev_release} must begin.
   PROSE
   cue "A strained sash suddenly hangs loose while one fighter steps across the other's forward side."
   cue "Pupils repeat a short turn between two benches, stopping whenever a shoulder strikes the wood."

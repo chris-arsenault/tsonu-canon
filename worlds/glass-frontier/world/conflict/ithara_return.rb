@@ -7,7 +7,7 @@ conflict :ithara_return do
   tags :archives, :rebuilding, :military, :mystery, :subject_lithren
 
   prose <<~PROSE
-    #{ref :eris_talven, "Eris Talven"} and #{ref :nereth_valis, "Nereth Valis"} established in 2434 that Ithara's foundations and dispersed witnesses could support a composite return of #{ref :ithara_gate, "its gate complex"}. In 2435 they are preparing that subject and comparing adjoining workshops. No great return has yet been attempted there.
+    #{ref :eris_talven, "Eris Talven"} and #{ref :nereth_valis, "Nereth Valis"} established in 2434 that Ithara's foundations and dispersed witnesses could support a composite return of #{ref :ithara_gate, "its gate complex"}. In 2435 the proposed complex remains a set of broken approaches, occupied shelters and comparison tables. Eris is preparing its first great return while Nereth compares the adjoining workshops.
 
     #{ref :selven_iral, "Selven Iral"} holds fragments from related defenses and wants a stronghold under his control. #{ref :osen, "Osen"} wants to trace removed pieces and secure a vessel for his own crew. Their interests overlap at the excavation without producing agreement about what should follow.
   PROSE
@@ -23,13 +23,13 @@ conflict :ithara_return do
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Before the Working"
-    The complete subject and its preserved loss remain unsettled. A new witness may enlarge the undertaking, force a different state or show that a hoped-for work cannot be returned. Crews are still free to pursue separate sites and the route of the departing inhabitants.
+    The complete subject and its preserved loss remain unsettled. A new witness may enlarge the undertaking, force a different state or show that a hoped-for work cannot be returned. Pieces arrive from separate excavations in different hands. A departing crew can leave a drawing and take the original aboard, putting another voyage between Eris and a part he needs to examine.
 
     Comparisons within #{ref :anaret, "Anaret"} support a freight descent, upper workshops and #{ref :eneth, "Eneth"}'s complete deck. Their return could let loaded equipment cross ground now reachable only through narrow cuts. The #{ref :araket_seizure, "seizure of the lower approach"} obstructs access to witnesses; the immediate plans to free its captives use existing routes and equipment while the larger working remains in preparation.
 
-    Life in Ithara continues around the preparation. Carriers, independent prospectors and researchers undertake work elsewhere, and its inhabitants already have homes and workshops. The gate's return would expand what they can use. Its delay would not close the settlement or prevent expeditions from leaving it.
+    The proposed rooms already have competing uses marked onto their drawings. An occupied shelter crosses the line of an old wall; a workshop doorway would reopen onto the passage where its present workers sleep. Families want to move their bunks together, while makers want the broadest room for stock and working space. Carriers accept loads for other sites while those arguments continue. Someone who leaves to earn a season's wages can return to find their hoped-for room assigned three different uses by the people who stayed.
 
-    Workers from the occupied district have begun visiting the comparison tables themselves. They bring proposed rooms for families, marks where the old barrier would cut across a current passage, and requests to keep the optical bench in independent hands. Their plans do not agree, but none accepts that the person paying for a fragment must own everything it helps return.
+    Workers from the occupied district have begun visiting the comparison tables themselves. The optical bench crew brings its curved concealment piece wrapped in meal cloth. Held beside the model of a room, it hides a small object from one side while leaving it visible from the other. Its makers want to keep using the bench together and sell finished work. Selven wants its defensive products inside his guarded stores. A worker returning to the upper shelter can carry an offer from each expedition and still need Ysil's line to get home.
   PROSE
 
   gm_note :complicates, "A rival arrives with a fragment that would make the return possible but demands the recovered defenses; another witness may support a smaller return without that bargain."

@@ -84,5 +84,5 @@ relate :rel_bloom_zones_manifest_at_xyloathax, :manifests_at, :bloom_zones, :xyl
   prose "A Bloom Zone opened across Xyloathax's sunward service truss without entering the inhabited arc."
 end
 relate :rel_displacement_council_operates_xyloathax, :operates_in, :displacement_council, :xyloathax, since: 2431 do
-  prose "The Council maintains the external cordon and controls the two remaining approach corridors."
+  prose "The Displacement Council maintains #{ref :xyloathax, "Xyloathax"}'s external cordon and controls the two remaining approach corridors."
 end

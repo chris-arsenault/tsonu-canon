@@ -29,11 +29,11 @@ resource :wrong_side_lot do
 end
 
 relate :rel_wrong_side_lot_sourced_from_bloom_zones, :sourced_from, :wrong_side_lot, :bloom_zones do
-  prose "Coremark recovered the lot from a cordoned Bloom deposit."
+  prose "#{ref :coremark, "Coremark"} recovered #{ref :wrong_side_lot, "the Wrong-Side Lot"} from a cordoned Bloom deposit."
 end
 
 relate :rel_coremark_supplies_wrong_side_lot, :supplies, :coremark, :wrong_side_lot do
-  prose "Coremark moves the lot from its cordoned source into black-market trade."
+  prose "#{ref :coremark, "Coremark"} moves #{ref :wrong_side_lot, "the Wrong-Side Lot"} from its cordoned source into black-market trade."
 end
 
 relate :rel_wrong_side_lot_derived_from_the_false_form, :derived_from, :wrong_side_lot, :the_false_form, dm: true do

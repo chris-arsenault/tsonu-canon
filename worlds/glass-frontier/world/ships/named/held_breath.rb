@@ -66,7 +66,7 @@ transport :held_breath do
 end
 
 relate :rel_displacement_council_maintains_held_breath, :maintains, :displacement_council, :held_breath do
-  prose "The Displacement Council built *Held Breath* for work beside active Bloom cordons."
+  prose "The Displacement Council built #{ref :held_breath, "*Held Breath*"} for work beside active Bloom cordons."
 end
 relate :rel_held_breath_operates_karet_three, :operates_in, :held_breath, :karet_three do
   prose "The vessel maintains damping buoys and remote instruments around #{ref :karet_three, "Karet-3"}."

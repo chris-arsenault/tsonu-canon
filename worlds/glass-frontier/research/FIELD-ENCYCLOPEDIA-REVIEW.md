@@ -1,5 +1,8 @@
 # Field Encyclopedia expansion — 2026-09-20
 
+Completed and subsequently committed in `6dfe576`. Counts and verification
+below describe this batch; its original no-publication note is historical.
+
 ## Scope
 
 Added **24 Encyclopedia entries**: 10 lifeforms, seven technologies and seven resources. Each prevalence has eight entries. Extended eight existing Encyclopedia articles and 14 existing Atlas articles. Added one Atlas faction, **the Ilvaren**, and no NPCs.

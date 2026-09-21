@@ -1,5 +1,10 @@
 # Encyclopedia expansion — 2026-09-21
 
+Completed and committed in `3653dc6`. Counts and checks below are the expansion
+checkpoint. The subsequent [quality rewrite](QUALITY-REVIEW-2026-09-21.md)
+accompanies the September 21 documentation publication and renamed Ulren to
+Esken, among other corrections.
+
 ## Result
 
 Added 33 Encyclopedia entries and extended six existing articles. Added local uses to 28 existing Atlas entries. The Encyclopedia grows from 335 to 368 entries; the Atlas remains at 640, with 27 structural entries counted separately.
@@ -40,7 +45,7 @@ The flora and fauna are especially different in how people encounter them: breed
 
 | Place or scope | New reusable material | What changes locally |
 |---|---|---|
-| Lithren: Ithara, Oravel, Anaret and Damarat | Emri, avreth, thavren, ulren, unfolder, ulen walking, nelvar, second supper | Living discoveries acquire descendants, keepers and buyers. Color can record heat or become art. A return includes a meal as well as a sale. Enclosures, platform skills and recognizable pressure releases give distinct physical problems. |
+| Lithren: Ithara, Oravel, Anaret and Damarat | Emri, avreth, thavren, Esken (then Ulren), unfolder, ulen walking, nelvar, second supper | Living discoveries acquire descendants, keepers and buyers. Color can record heat or become art. A return includes a meal as well as a sale. Enclosures, platform skills and recognizable pressure releases give distinct physical problems. |
 | Istrava: Iridess, Kethra, Deral, Tovanesh, Veyr and House Tereval | Thesset, irul, thesset oil, velith reed, suralier, tovan yield, varashi, sural wandering | Orchards feed households and performances. Underwater color becomes a shared pleasure and a collecting interest. Singing, projected light, borrowed faces and physical dueling have techniques and material particulars independent of the war. |
 | Thesali | Velori | Root fruit depends on the leafy crown; the tree holding a passage together is also a valuable crop. |
 | Drail | Drail ribbon, Drail turn; expanded Poise | Equipment can be learned by touch; comfortable orientation and correct timing remain different skills. |

@@ -14,11 +14,13 @@ geographic_location :oravel do
     The surviving #{ref :oravel_hanging, "Hanging"} contains #{encyclopedia_ref :istril, "istril"}. Pipes and clamps connect portions of it to thermal fittings. Tests establish that these surfaces once spread and exchanged heat; they do not establish the purpose of every room served by them. Some lines disappear into masonry beyond the excavation. The hall's lowest floor has not been reached.
   PROSE
   prose <<~PROSE, section: :geography, heading: "Above the Unreached Floor"
-    A broad outer ramp leads to the upper galleries. The narrow route beyond it crosses the repaired span from the #{ref :oravel_crossing, "Oravel Crossing"}. A second approach follows maintenance recesses behind the hanging sheets. Climbers have left marked anchors there for later visitors; #{ref :osen, "Osen"} also guides parties who want someone familiar with its turns. Crews camp at the landing without joining either expedition.
+    A broad outer ramp leads to the upper galleries. The narrow route beyond it crosses the repaired span from the #{ref :oravel_crossing, "Oravel Crossing"}. A second approach follows maintenance recesses behind the hanging sheets. Climbers have left marked anchors there for later visitors; #{ref :osen, "Osen"} also guides parties who want someone familiar with its turns. Independent crews pitch pressure shelters beside their own landing marks, with hired guides eating among the people they brought across.
 
     Several galleries hang from #{encyclopedia_ref :ulen, "ulen frames"}. Their counterweights descend through wells visible from the maintenance route. Removing a valuable fitting can therefore change the balance of the passage used to carry it away. Freshly exposed rub marks and a weight sitting at the end of its travel give riggers something to inspect before a loaded crossing.
 
-    Crews practice #{encyclopedia_ref :ulen_walking} on a low frame beside the landing. On the upper galleries, a companion lowers a weighted bag while the crossing traveller advances. A newly collected load can require another practice before the return journey.
+    Crews practice #{encyclopedia_ref :ulen_walking} on a low frame beside the landing. On the upper galleries, a companion lowers a weighted bag while the crossing traveller advances. A newly collected load changes the timing. People who walked out lightly can spend their return crouched on a tilting section while someone beside the counterweight repacks a bag.
+
+    Climbers returning from #{ref :aldevra, "Aldevra"} have brought a slower cadence learned among its flooding vaults. There they pause while incoming water changes the balance. On Oravel's dry frames that pause leaves the traveller's weight pulling toward the stop. A returner recently held position waiting for a second dip until her companion hauled the compensating bag back by hand. She now teaches both crossings on the low frame, asking learners to point to the mass they expect to move next.
 
     #{ref :daret_valis, "Daret Valis"} maintains the repaired crossing. Her braces are conspicuously modern and can be inspected from both ends. They support the known span, not every continuation beyond it. Pressure shelters stand near the landing; the galleries themselves remain open to Lithren's thin atmosphere.
   PROSE
@@ -55,7 +57,9 @@ geographic_location :oravel do
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "What Leaves the Hall"
-    Materials investigators examine the Hanging's oldest joined edge for the #{ref :ithara_comparative_expedition, "comparative expedition"}. #{ref :ilven_sarith, "Ilven Sarith"} pays for sound sheets and wants a broad uninterrupted surface brought out. Small crews can earn money from damaged offcuts without taking his commission. Other crews descend to examine the pipe connections or reach rooms still concealed behind the folds.
+    The newly reached wells have changed work around the Hanging. A bright face that previously lit an empty gallery may now direct heat toward a sealed collection. Keepers tie strips to the fittings they have moved, and descending crews carry those marks onto their approach drawings. A visitor shifting a sheet for a clearer lamp view can feel a warm pipe through the glove before seeing the well behind it.
+
+    Materials investigators examine the oldest joined edge for the #{ref :ithara_comparative_expedition, "comparative expedition"}. #{ref :ilven_sarith, "Ilven Sarith"} pays for sound sheets and wants a broad uninterrupted surface brought out. Offcut collectors work the loose lower edges, while pipe explorers pass behind them on the maintenance route. A sheet lowered for one crew can uncover a passage for another and leave a third crew's exposed line bearing against sharp metal.
 
     Several crews sell passage from the landing, including #{ref :tovin, "Tovin"} aboard #{ref :ulveth, "Ulveth"}. Each keeps its own camp and makes its own bargains. #{ref :ressa_dorr, "Ressa"}'s provisions are one supply among their stores. Visitors can examine the living specimens with their keepers, descend on their own equipment or buy a share in a newly opened well. Rival collectors have begun buying misleading labels along with genuine cuttings.
 

@@ -58,7 +58,9 @@ geographic_location :bloom_zones do
   prose <<~PROSE, section: :atmosphere, heading: "The Cordon Line"
     From a ship, a cordon edge is nothing to look at: open space, ordinary light, the boundary invisible except near a damping buoy or a #{ref :liras_wall, "Lira's Wall"} anchor. What marks it is the sign every ship's sensors register as the line approaches — the standing broadcast that a boundary is ahead and crossing is regulated.
 
-    The custom is to register the crossing with whichever authority holds the local cordon and receive permission before proceeding. The practice is honored unevenly. Enforcement is thin, the punishments handed out for violations are arbitrary — a warning for one crew, a seizure for the next — and the offices around the cordons carry more corruption than any other institution the Frontier maintains. People who work the boundaries say the zones eat more than space: close to the Bloom, the patience and good faith the rest of the system runs on decay first.
+    The authority holding a cordon records intended crossings and decides which it can support. At #{ref :outside, "Outside"}, evacuated families still seek entry to the home visible beyond their windows while crews test remote recovery. A crossing refused there can mean leaving a relative's remains or a household's only record inside the zone.
+
+    Thin enforcement also permits arbitrary seizures and paid exceptions. Crews report a warning at one boundary and confiscated equipment at another for the same breach. Corrupt officers sell a clear approach or delay a recovery until its owner pays. Families and returning crews carry those complaints to the Displacement Council alongside requests for help from the cordon itself.
   PROSE
   prose <<~PROSE, section: :mechanics, heading: "Growth"
     Bloom Zones grow organically. Frontier researchers have proposed several explanations for where new zones appear: a clear line of resonance sight between two zones, constructive interference patterns, or links through frequency dimensions that conventional maps cannot represent. Each hypothesis fits some appearances and fails to predict others.
@@ -75,7 +77,7 @@ geographic_location :bloom_zones do
 
   gm_note :triggered_by, "Fix one distortion per zone before the party enters and hold it: this zone bends distance, that one misplaces sound, another leaves no surface with a reliable edge. The rule does not carry to the next zone."
   gm_note :complicates, "A #{encyclopedia_ref :gnomes, "gnome"} in the party takes the distortion through their own nervous system while a #{encyclopedia_ref :fae, "fae"} crosses on skills they use daily, so one walk splits a mixed group into casualties and guides."
-  gm_note :appears, "New zones open where nobody has cordoned, as one did beside #{ref :xyloathax} in 2431. Any orbit the party is standing in can become a containment site, which puts them inside a new perimeter rather than outside it."
+  gm_note :appears, "Near an active cordon, a familiar crossing can be closed after the buoys register growth. The boundary crew sends approaching ships toward the last stable berth while it checks which moorings remain outside the zone."
 end
 
 relate :rel_bloom_zones_in_orbit_of_kaleidos, :in_orbit_of, :bloom_zones, :kaleidos do

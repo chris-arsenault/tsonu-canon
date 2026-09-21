@@ -12,9 +12,9 @@ installation :drail do
 
     The central space has weak gravity. Ribbons descend from roof spars, and accomplished partners cross between them without reaching the floor. Above the terraces, the stronger pull returns abruptly enough that dancers practice each approach before attempting it masked. #{ref :the_uncaught} teach on the lower ribbons during the day.
 
-    Their #{encyclopedia_ref :drail_ribbon, "ribbons"} have tactile edges that beginners learn before making a #{encyclopedia_ref :drail_turn}. A repairer has hung several retired bands beside the teaching space for learners to compare with their hands. The most beautiful one once carried a heavy invitation across its gripping edge; its owner now uses it only to hang scenery.
+    Their #{encyclopedia_ref :drail_ribbon, "ribbons"} have raised gripping edges that remain recognizable through a glove. Invitations hang beyond the length used by reaching hands. One admirer embroidered an invitation across both edges of a ribbon, hiding the difference between them. Its owner cut out the decorated length and uses the sound remainder to hang a painted curtain above the musicians. The embroidered invitation hangs beside it.
 
-    Pupils with innate #{encyclopedia_ref :poise} cross the changing pull comfortably, but the Uncaught still teach them the release. One such pupil now practices with a partner who becomes dizzy at the boundary and nevertheless chooses the landing more accurately.
+    A #{encyclopedia_ref :drail_turn} carries a dancer around the ribbon and back toward a waiting partner. Dancers with innate #{encyclopedia_ref :poise} often take the outward passage through the changing pull, then return to someone who has kept the landing clear. Pairs can exchange those places in midair. The spectators below begin clapping when both dancers let go, and stop if the hands pass without catching.
 
     Ensembles arriving from #{ref :fermata_station} play beside local musicians. Drail audiences watch the air above the performers: a held note can last until two hands meet. Some dancers conceal a recognizable face; others spend the voyage making masks too extravagant to mistake for anyone else. Invitations tied to ribbons name a terrace and a time. Their senders sometimes wait there with an entirely different mask.
   PROSE

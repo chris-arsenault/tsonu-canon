@@ -32,7 +32,7 @@ installation :keel do
 
   descriptive_identity(
     setting:
-      "Not a road but a corridor through orbital space: a long " \
+      "A corridor through orbital space: a long " \
       "navigable spine threading between ring habs and through managed " \
       "Shear corridors, with branch routes leaving it like ribs on a " \
       "navigation chart. End to end it runs from Keelward at the " \
@@ -65,7 +65,7 @@ installation :keel do
     The name comes from its shape on a navigation chart — a long central spine with subsidiary routes branching off like ribs. A ship on the Keel is following the spine. A ship heading to a secondary destination peels off at one of the branch points.
   PROSE
   prose <<~PROSE, section: :geography, heading: "Geography"
-    The Keel is not a road. It's a corridor through orbital space — a navigable path through the ring, skirting Shear zones, connecting the major nodes where things are produced, refined, and consumed. The route threads between ring habs, passes through managed Shear corridors where debris has been cleared or stabilized, and includes several transition points between orbital and surface-access zones.
+    The Keel threads between ring habs, passes through managed Shear corridors where debris has been cleared or stabilized, and joins approaches to surface ports. The visible marks change along it: a string of guild beacons, a cleared passage between wrecks, a port's approach lights. Vessels leaving the shared course branch toward their own receiving berths.
 
     Key nodes along the Keel:
     - **Shear production zones** — where #{encyclopedia_ref :ratters, "Ratters"} and industrial operations harvest raw ringglass from the debris field
@@ -91,16 +91,16 @@ installation :keel do
   prose <<~PROSE, section: :dangers, heading: "Dangers"
     The Keel is contested and portions are dangerous.
 
-    **Pirates.** The route's economic importance makes it a target. Independent raiders and organized criminal operations — including #{ref :coremark, "Coremark"} remnants — hit convoys in the gaps between patrolled segments. #{ref :vantara, "Vantara"}'s armed escorts deter casual piracy. Determined or well-equipped pirates are a different matter.
+    **Pirates.** Independent raiders and organized crews, including #{ref :coremark, "Coremark"} units, strike in the gaps between patrolled segments. They watch for separated cargo, a damaged drive, or a convoy stretched around a closing passage. #{ref :vantara, "Vantara"}'s armed escorts stay near their contracted vessels. An attack at one end of the convoy can leave the other exposed if its escort gives chase.
 
     **Bloom Zones.** Several #{ref :bloom_zones, "Bloom Zones"} sit near or intersect with Keel branch routes. Reality distortion from an active zone can disrupt navigation, damage resonance equipment, and — in extreme cases — render a corridor impassable. The #{ref :displacement_council, "Displacement Council"} maintains containment cordons, but the zones are expanding slowly and the Keel's geometry may need to shift.
 
     **The Shear.** Sections of the Keel pass through managed Shear corridors — areas where debris has been cleared but the resonance environment is still distorted. These segments require Shear-rated vessels and careful navigation. Drift events can close a corridor without warning.
 
-    **Lawlessness.** Portions of the Keel are far enough from any settlement or hab to be effectively ungoverned. The #{ref :tempered_accord, "Tempered Accord"}'s jurisdiction is theoretical in these zones. Disputes are settled by the parties involved, which sometimes means negotiation and sometimes means something else.
+    **Lawlessness.** On distant legs, ships can be days from a port willing to enforce an agreement. Crews bargain over a tow, a seized load, or a damaged vessel with only the ships present to back their demands. A captain may surrender cargo to bring people home and later seek its return through a port court or the #{ref :tempered_accord, "Tempered Accord"}.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Tensions"
-    Control of the Keel has been contested since it was established. During the Contested Reach, route segments changed hands three times. The Bitter Reach added new grievances. The Accord era has stabilized most of the route, but "most" is not "all."
+    During the Contested Reach, route segments changed hands three times. The Bitter Reach left further seizures and losses for crews to remember when they met one another after peace. Most of the route now supports dependable passage. At disputed branches, carriers still ask who holds the next berth before committing a loaded ship to the approach.
 
     The fundamental tension is economic: the Keel is too valuable for anyone to control exclusively and too important for anyone to ignore. Vantara maintains a large beacon and station network without controlling the municipal terminals, guild markers, cooperative rescue posts, or independent receiving ports around it. #{ref :sithari, "Sithari"} regulates the financial layer but can't police the corridor. The #{ref :shear_compact, "Shear Compact"} has jurisdiction over Shear segments but not the open-space portions. The result is a patchwork of overlapping authorities, gaps between them, and people who make their living in those gaps.
   PROSE
@@ -108,8 +108,8 @@ installation :keel do
   log "2026-08-20 — Replaced the single-carrier account of Keel services with named municipal, cooperative, guild, and carrier facilities. Vantara keeps a large network but does not own the route's accommodation, rescue, or receiving infrastructure."
   log "2026-08-23 — Added the fixed chart paths for the main spine and its Glasswake, Korvath, Mareth, and Pell branches; route termini now point toward the Keel consistently."
 
-  gm_note :appears, "Beacons, fuel, shelter and rescue on the Keel are kept in sections, and the section changes at every branch point. A tow arranged on one leg is a stranger's favor on the next, with different rates, different paperwork and a different idea of who is liable."
-  gm_note :triggered_by, "Ask who to take a grievance to after something happens in open corridor and you get a list of overlapping authorities rather than an answer. Accord jurisdiction out there is theoretical, and the parties are expected to settle it between themselves."
+  gm_note :appears, "A ship with a damaged drive reaches a branch where its arranged tow turns toward another destination. Reaching the next inhabited berth means finding a vessel with spare thrust and room for the rescued crew."
+  gm_note :triggered_by, "Pursuing a raider away from a convoy leaves the other cargo vessels exposed. An escort captain may recover the stolen load only after another ship agrees to hold the vulnerable end of the crossing."
   gm_note :complicates, "Carrying intact ringglass turns any leg into a convoy problem: the escort premium runs to a serious fraction of the crate's value, and the unpatrolled gaps between segments are exactly where raiders wait for cargo worth that much."
 end
 

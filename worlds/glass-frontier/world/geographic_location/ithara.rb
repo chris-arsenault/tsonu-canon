@@ -16,7 +16,7 @@ geographic_location :ithara do
   prose <<~PROSE
     Ithara is the main place on #{ref :lithren, "Lithren"} to find a crew, buy passage, sell a recovered work or wait for someone overdue. The name covers a modern frontier settlement and the ancient ruin group beside it. Pressure halls, workshops and landed ships occupy cleared ground above an equatorial basin. Beyond their lights, ancient courts and broad ramps descend beneath frost-driven soil.
 
-    The name spread through the #{ref :ithara_survey, "comparative survey"}. *Itharan* also describes the local ancient practice of keeping a work recoverable in several places. It does not identify the builders' species or every civilization that inhabited Lithren. Side chambers retain fitted pieces, tool assemblies and models whose joints reproduce flaws in larger works.
+    The name spread through the #{ref :ithara_survey, "comparative survey"}. *Itharan* also describes the local ancient practice of keeping a work recoverable in several places. Side chambers retain fitted pieces, tool assemblies and models whose joints reproduce flaws in larger works. That usage follows the evidence of the collections; the builders' own name for their people remains unrecovered.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Before the Name Ithara"
@@ -57,7 +57,7 @@ geographic_location :ithara do
   prose <<~PROSE, section: :people, heading: "The Second Supper"
     Returning crews arrange #{encyclopedia_ref :second_supper, "second suppers"} in household rooms and at Ressa's public tables. One recent company passed around a borrowed glove, a painted bowl and an empty specimen case. The glove's owner arrived halfway through and stayed to hear why someone else had been wearing it.
 
-    Several rooms opening onto the growing halls now belong to #{encyclopedia_ref :unfolder, "unfolders"}. Their successful descendants appear for sale beside empty ancient containers. Families keep #{encyclopedia_ref :emri} in warm cases supplied with colorful mineral chips; a child can point out which nest stole a neighbor's blue doorway overnight. These displays share the passages with scarred #{encyclopedia_ref :ulren, "ulrens"} waiting to be borrowed for the next departure.
+    Several rooms opening onto the growing halls now belong to #{encyclopedia_ref :unfolder, "unfolders"}. Their successful descendants appear for sale beside empty ancient containers. Families keep #{encyclopedia_ref :emri} in warm cases supplied with colorful mineral chips; a child can point out which nest stole a neighbor's blue doorway overnight. These displays share the passages with scarred #{encyclopedia_ref :esken, "eskens"} waiting to be borrowed for the next departure.
   PROSE
   prose <<~PROSE, section: :people, heading: "What Money Buys"
     The difference between rich and poor is greater here than in most established settlements. Expedition owners and successful buyers keep private rooms, fresh food, spare suits and berths on ships they can call away from other work. Cutters with little money share bunks by shift and rent equipment whose previous wear they must learn before taking it outside. Across a single passage, one crew debates which vessel to send while another counts what remains after paying for a suit repair.
@@ -72,7 +72,7 @@ geographic_location :ithara do
 
     #{ref :tovin, "Tovin"} finds passengers here when #{ref :ulveth, "Ulveth"} has room. Some people will share a table with him and refuse his ship. Others ask what he is carrying before deciding whether to come. Ressa knows what he owes her, serves him meals and keeps the storeroom locked.
 
-    #{ref :ysil, "Ysil"} recruits companions for difficult crossings at the same tables. A treatment room is nearby; its physician's field journeys bring requests for cradle parts, passage and food that can be carried through narrow cuts. People returning from #{ref :anaret, "Anaret"} bring news of the occupied approach as well as questions about the machines behind it.
+    #{ref :ysil, "Ysil"} recruits companions for difficult crossings at the same tables. #{ref :araket_seizure, "Sira Dhen"} treats patients in a nearby room between her field journeys. People leave cradle parts and food for her next departure beside a chalk outline of its narrowest carrying case. Since the occupation at #{ref :anaret, "Anaret"}, returned climbers bring messages from her treatment shelter; a family may hear its injured companion's voice here before finding anyone able to carry them out.
 
     Copies of the #{ref :vannor_account, "Vannor Account"} pass between tables with conflicting sketches of a route beyond Oravel. A buyer wants another sample from the claimed operating work. Crews argue over which approach to try while arranging food and return passage; several intend to go without joining either established expedition.
   PROSE
@@ -90,7 +90,7 @@ geographic_location :ithara do
 
     A camp may trade with Ithara while keeping its location from all but chosen carriers. Crews can bypass the hub, stay out for repeated journeys or make another camp their home. The settlement's buyers and laboratories hear much of what is found, but no one there holds a complete map.
 
-    #{ref :damarat, "Damarat"}'s occupied workshop makes equipment for these journeys and draws work from Ithara's repair bays. Beyond the basin rim, #{ref :oravel, "Oravel"}'s suspended galleries attract material buyers and crews seeking passages below its hanging metal surfaces. Carriers combine provision runs with paid recoveries. Neither site's visitors need a commission from the gate expedition.
+    #{ref :damarat, "Damarat"}'s occupied workshop makes equipment for these journeys and draws work from Ithara's repair bays. Beyond the basin rim, #{ref :oravel, "Oravel"}'s suspended galleries attract material buyers and crews seeking passages below its hanging metal surfaces. A carrier may leave with Damarat's replacement panels stacked around a collector's empty specimen cases, then return by Oravel with wet cargo and a different set of passengers. Companions who set out together can separate at either landing and meet again at Ressa's tables with incompatible accounts of where the better work lies.
   PROSE
 
   prose <<~PROSE, section: :governance, heading: "Keeping the Peace"
@@ -118,7 +118,7 @@ geographic_location :ithara do
 
     #{ref :selven_iral, "Selven Iral"}'s expedition controls fragments from outlying defenses. He wants a fortified base and exclusive use of recovered military works. #{ref :osen, "Osen"} has found deliberate gaps in one fortification and wants to trace what its departing people carried away. Their crews can cooperate on a return while pursuing incompatible uses for what comes back.
 
-    The inhabited modern settlement already supports expeditions without that return. Eris's work draws attention and patrons, but many departures concern other sites, ordinary salvage or paid field observations. Selven commands his own people and guarded stores. He cannot assign everyone leaving Ithara a destination.
+    Eris's comparison tables draw patrons into rooms already crowded with other departures. A cutter waiting for his measurements can accept a paid field observation and be beyond the basin when the next fragment arrives. Selven keeps his people and equipment close to his guarded stores; independent crews recruit across the passage, sometimes offering his dissatisfied workers a share in a vessel or a place on a small excavation. The promised gate workshops compete with homes and businesses that their prospective occupants already have.
   PROSE
 
   prose <<~PROSE, section: :geography, heading: "The Branch Courts"
@@ -136,7 +136,7 @@ geographic_location :ithara do
     The basin's old channels and layered deposits establish changing conditions without explaining what drove them. Ecological processes, deliberate intervention and consequences of the fighting remain possible in different places. Nothing recovered establishes whether the builders found resonance, altered its distribution or brought the phenomenon into the solar system. Some events may have left no surviving consequence that can answer those questions.
   PROSE
 
-  gm_note :appears, "While the crew eats or waits for repairs, a researcher needs passage to a small ruin, a buyer wants cargo recovered, and someone is recruiting a search for overdue friends. Their routes overlap, but none requires joining the gate return."
+  gm_note :appears, "A meal table fills with route drawings when a returning cutter recognizes the ridge in a family's last message from an overdue crew. A carrier already going that way offers room, provided someone can help unload at the first landing."
   gm_note :triggered_by, "Offering a find for sale attracts a buyer and someone asking where it came from. The second person may offer a useful comparison, propose a joint journey or sell the crew's route to thieves."
   gm_note :complicates, "When a dispute turns violent near the main landings, neighboring crews protect the shared approach. Taking the fight beyond it requires companions willing to follow; the same protection does not extend across the frontier."
 end

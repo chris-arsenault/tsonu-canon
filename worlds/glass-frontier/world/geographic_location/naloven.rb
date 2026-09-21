@@ -33,7 +33,9 @@ geographic_location :naloven do
   prose <<~PROSE, section: :present_day, heading: "Soldiers Above the Baths"
     Following Aren's seizure of Velisar, league officers entered Naloven as guests of their former comrades. They occupied Edrath's upper deck and posted his #{ref :edrath_recall, "recall order"}. The lower families refused to leave. Members of #{ref :the_naloven_rising, "the Naloven Rising"} winched the outer boarding stairs up behind a patrol, leaving soldiers dependent on passages through inhabited rooms.
 
-    The #{ref :struggle_for_edrath, "struggle for the battery"} has divided streets without emptying them. Some households welcome a weapon against Aren if they can remain aboard. Others want every gun thrown into the springs. The occupying party includes soldiers who openly favor his rule, former crew ashamed to face their neighbors and people repeating orders in the doubled voice. Bath attendants still sell them towels. They refuse to carry weapons into the pools.
+    The #{ref :struggle_for_edrath, "struggle for the battery"} runs through rooms whose occupants know the soldiers above them. Former crew came expecting their old bunks and found children's beds against the same walls. Some avoid the supper table where they were welcomed before the recall went up. Officers who favor Aren eat there in uniform and ask former comrades to bring the engines back into service. From the upper deck, a doubled voice sometimes repeats the order to take the whole battery to Velisar, loud enough for the families below to hear.
+
+    Some households welcome a weapon against Aren if they can remain aboard. Others want every gun thrown into the springs. Bath attendants still sell towels to the occupying soldiers and make them leave their weapons outside. An attendant has hung one soldier's childhood swimming board above the rack holding his rifle. He turns it to face the wall each time he comes in.
 
     #{ref :ivena_sar, "Ivena Sar"} treats injuries in a disused bathing room with a cold-water supply. Couriers from the #{ref :velisar_resistance, "Velisar resistance"} meet upland fighters at Tovanesh. The #{ref :veyr_company, "Veyr Company"} brings performances and news when its members can leave the coast. A night of music can end with soldiers sitting beside the people they searched that morning.
   PROSE
@@ -42,6 +44,14 @@ geographic_location :naloven do
 
     Forest paths lead away through Iridess. The tame #{encyclopedia_ref :eshkul, "eshkul"} called #{ref :reth, "Reth"} has followed its handlers into town and learned to enter the battery through the orchard lift. It strips resin from trees planted against the hull. Residents shut their shutters when its yellow back spines rise.
   PROSE
+  prose <<~PROSE, section: :culture, heading: "The Low Bank"
+    The Veyr players brought their modern arrangements of #{ref :sereyat} to a supper beneath Edrath. A retired gunlayer wanted to play the answering part, but the hand left stiff by a recoil injury could hold a beater only against the heel of her palm. Lowering the copied frame put the ribs within reach; striking them from that position still sent the beater skidding across two notes.
+
+    A bath carpenter fitted a shallow cup around the beater's grip and shifted the nearest rib outward. She now plays with her forearm resting along a padded rail, lifting from the elbow. The carpenter left the farther side at standing height. Neighbors take that side while children crouch underneath to hear the sound through the floorboards.
+
+    The frame stays beside the plotting room. During a recent engine trial its lower rail jumped into the player's arm, leaving a bruise; she has moved it away from the leg housing. She wants the promised evening performance to go ahead there, and has told the former gunners arguing over a test firing to come early enough to carry it downstairs if they insist on using the engines.
+  PROSE
+  log "2026-09-21 — Replaced the repeated troop-composition list with former crewmates occupying a home they remember as a weapon. Added a particular local adaptation of Sereyat's copied frame; neither the ancient instrument nor its original player's circumstances are changed."
 end
 
 relate :rel_naloven_istrava, :part_of, :naloven, :istrava
@@ -61,3 +71,4 @@ moment :pell_households_visit_naloven, year: 2429, of: :naloven do
 end
 
 relate :rel_naloven_ressa_households, :cooperates_with, :naloven, :ressa_dorr, since: 2431
+relate :rel_naloven_sereyat_arrangements, :studies, :naloven, :sereyat, since: 2435

@@ -4,14 +4,15 @@ encyclopedia :lacunae do
   subkind :creature
   status :complete
   log "2026-08-31 — Renamed Eaters to Lacunae; the new title names the gaps the animals leave in inscriptions."
+  log "2026-09-21 — Recentered the account on observable animals, buried finds, and loss of physical evidence. Copying remains one response; grazing schedules do not define the lifeform or bound Lithren's unknown ruins."
   topics :"outer-system", :archives, :ecology, :mystery, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:cold, :archive] }
-  summary "Lacunae are slow plate-backed grazers that consume inscriptions from Lithren's frozen ruins and leave the stone smooth. Their mapped home fields and avoidance of archive frost set the copying schedule at the research stations."
-  origin "Native to Lithren's ruin fields, documented since the first landings; the open question of whether the ruins' builders made them is the standing argument of Lithren scholarship"
-  biology "A flat, slow, plate-backed grazer the size of a hearthstone, faring across inscribed surfaces; its underside works the marks out of the stone — inscription in, smooth rock behind — on a metabolism the cold barely slows"
+  summary "Lacunae are slow plate-backed grazers that erase inscriptions from Lithren's frozen ruins. They uncover buried writing as they feed and avoid surfaces carrying archive frost."
+  origin "Documented in Lithren's ruin fields since the first landings; native ancestry and creation by the builders remain competing explanations"
+  biology "A hearthstone-sized, plate-backed animal whose underside removes marks from stone while leaving a smooth surface; active in Lithren's exposed cold"
   lifespan "Beyond the survey record — marked individuals from the first landing generation still graze their same fields"
-  function "The ruins' erasure: lacunae consume inscription at a measured, mappable rate, which makes Lithren scholarship a race and the copying rooms its method"
+  function "Expose buried inscriptions and erase their worked surfaces while grazing"
   resonance_relation "Feeding grounds avoid the frost — a surface carrying cold archive weather's print is left alone until it clears — and the copying rooms exploit the reprieve, frosting threatened faces to buy transcription time"
 
   descriptive_identity(
@@ -26,29 +27,32 @@ encyclopedia :lacunae do
     threat: "Its underside removes an inscription completely while leaving " \
             "the stone smooth. A team that cannot move or frost a threatened " \
             "face has only the grazing interval in which to copy it.",
-    senses: "It finds inscription under snow, ice, and rubble with an " \
-            "accuracy the scholars envy — survey teams locate buried texts by " \
-            "watching where the eaters dig.",
-    risks: "The grazing rate is measured and merciless — each ruin field's " \
-           "remaining corpus is a stock being drawn down — and the frost " \
-           "reprieve is the one lever: faces carrying the archive weather's " \
-           "print are left ungrazed until they clear."
+    senses: "It finds inscribed faces under snow, ice, and rubble. Survey " \
+            "teams follow its digging to structures their surface scans missed.",
+    risks: "An animal can reach the back of a fallen slab while its " \
+           "discoverers are still securing the exposed face. Archive frost " \
+           "turns it aside until the mark clears; the delay can be long " \
+           "enough to expose or move the stone."
   )
 
   prose <<~PROSE
-    An eater is a flat plate-backed grazer about the size of a hearthstone. It settles flush against an inscribed face and works the marks out through its underside, leaving the same stone polished smooth. Individuals keep home fields and follow repeatable circuits between exposed faces, buried inscriptions, and sheltered resting hollows. Marked animals from the first landing generation still graze the same ruins, so no complete lifespan has been recorded.
+    Lacunae lie against ruin walls like loose plates of gray stone. Each animal is about the size of a hearthstone, with a low oval back and an underside that settles flush over inscriptions. As it moves, the worked marks disappear. The surface behind it is smooth enough to catch a lamp as one unbroken patch of light.
 
-    Lacunae locate inscription under snow, ice, and rubble more accurately than surface surveys. Teams follow their digging to find buried faces, then measure the animal's route and pace. Each station's corpus ledger records extant text, known grazing paths, and estimated arrival at threatened faces. The animals' age and their ability to locate writing sustain two origin models: a native grazer exploiting the ruins, or a lifeform made to erase them. Neither model changes the observed feeding cycle.
+    Individuals follow circuits between feeding faces and sheltered hollows. Survey marks placed on animals by the first landing crews remain on living specimens in those same fields. No complete lifespan has been recorded. Their activity continues on exposed stone in cold that forces expedition animals into sealed shelters; how they obtain enough energy and where the removed material goes remain unmeasured.
 
-    Each research station maintains copying benches, trained hands, and checking pairs who compare a fresh transcript with its stone. The available intervention is frost. Lacunae avoid a face carrying #{encyclopedia_ref :print, "Print"} until the mark clears, so crews frost selected inscriptions to extend the copying interval. Copyists sign each completed face with the date and the condition of the source, leaving later readers a record of what survived long enough to be checked.
+    A lacuna digs toward inscription beneath snow, ice, or rubble. Expedition teams follow those excavations to buried walls and the undersides of fallen slabs. Reaching the discovery can take longer than the animal's meal. A crew may see strokes vanish in a space too narrow for a camera, or find an intact machine diagram on the far side of a block that must be shored before anyone can turn it.
 
-    The transcripts preserve strokes whose meanings are mostly unsettled. A grazer can erase a setting group already recognized on a machine or a passage nobody has interpreted. Its own surviving metabolism works on Lithren's exposed stone; ordinary animals brought by the expeditions still require sealed shelters. Teams keep instruments on a feeding animal because neither its energy supply nor the fate of the removed material has been established.
+    Faces carrying #{encyclopedia_ref :print, "Print"} turn the grazers aside. Crews use that archive frost to keep an animal off a threatened inscription while they clear the approach, move a loose piece, or make a copy. The animal returns after the frost clears. In warmer years the frost recedes sooner, exposing inscriptions while teams are still opening the approaches. Field records of a grazer's circuit help crews choose which face to reach first; new excavation can expose a surface outside any recorded route.
+
+    Research stations keep copying benches and pairs of readers who compare transcripts against the stone. A dated copy records the source's condition as well as its strokes. That distinction matters when a grazer has already crossed half a setting group: the remaining marks may resemble a complete instruction even though the missing strokes changed its operation. Some inscriptions describe machinery whose controls expeditions can recognize; others preserve languages for which there is still no secure reading.
+
+    The animals' age and their preference for worked surfaces sustain two competing origins: a local lifeform feeding among the ruins, or something made by the civilization that inscribed them. Excavators studying a newly uncovered animal must choose how long to observe its feeding before protecting the face beneath it.
   PROSE
 
-  cue "The survey team follows the eater's dig line to a face the snow had hidden — new text, unrecorded — and the station's schedule reorganizes around it by lamp-light: frost crew tonight, copy benches at dawn."
-  cue "The copyist signs the transcript's last line with the date and the face's state, checking-pair countersigning — and outside, the grazer that set the deadline fares onto the face at its own unbothered pace."
-  affordance "The eaters find inscription better than any survey — buried texts located by where they dig — and their measured pace plus the frost reprieve makes the loss schedulable: a copying room that reads the grazing charts saves what it chooses to."
-  pressure "Lacunae consume uncopied inscriptions each season, and warm years reduce the archive frost that keeps them from active copying sites."
-  variation "Field populations graze at charted rates that differ enough to set station priorities; the marked first-landing individuals, old past the record, anchor the argument about what the animals are."
-  variation "Copying-room cultures vary by station — priority doctrines, checking customs, the signed finishing lines — and the transcript archives now hold, by accumulation, the working biographies of three generations of copyists beside the texts they raced for."
+  cue "A low gray plate moves across a buried wall, leaving a smooth streak through characters visible only at the edge of a lamp beam."
+  cue "A survey mark from the first landing generation remains legible on an animal whose present meal has already erased half a diagram."
+  affordance "Following a lacuna's excavation can reveal a buried inscription. Archive frost can turn it aside long enough to expose, move, or copy the face."
+  pressure "An inscription lies beneath a fallen slab. The animal can reach it before a person can safely crawl underneath, and lifting the slab will disturb the surrounding ruin."
+  variation "Field populations keep different circuits and grazing rates. A newly exposed face can draw an animal away from the route its observers expected."
+  variation "Stations preserve drawings, casts, and checked transcripts according to the equipment they can bring to a face; each records which parts the grazer had already removed."
 end

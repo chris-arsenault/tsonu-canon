@@ -21,7 +21,7 @@ faction :displacement_council do
       "Funding is voluntary and its influence quiet.",
     presence:
       "A thin, disciplined crew at a boundary walk or a cordon office — " \
-      "buoy stores, instruments, and paperwork about stop conditions. Its " \
+      "buoy stores, instruments, and returning crews with damage to report. Its " \
       "reach is felt more often than seen; most of what the Council does " \
       "happens where nobody else goes.",
     attitude:
@@ -54,48 +54,48 @@ faction :displacement_council do
   prose <<~PROSE, section: :tensions, heading: "Return Requests"
     The Karet families have asked for supervised entry to recover household records, remains, and tools from #{ref :karet_three, "Karet-3"}. The Council still refuses a physical crossing. It now permits remote recovery from a stable boundary: families rank the requested objects, a cutter reaches the site, and the #{ref :karet_spool, "Karet Spool"} holds a return route for equipment that can be brought out without a person entering. The compromise recovers little and does not authorize resettlement, but it gives other displaced communities a procedure they can demand.
 
-    Existing cordons already consume the Council's trained wall crews and stillwater allotment. One new major zone would close humanitarian offices, lengthen rotations, and leave smaller stations on remote watch. A second opening before those crews returned would force the First Threshold to choose between a failing established cordon and the new boundary. Neutrality cannot supply a team that does not exist.
+    Existing cordons already consume the Council's trained wall crews and stillwater allotment. One new major zone would close humanitarian offices, lengthen rotations, and leave smaller stations on remote watch. A second opening before those crews returned would force the First Threshold to choose between a failing established cordon and the new boundary. The station waiting for relief would have to hold its damaged mounts with the people and damping mass already there.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Tensions"
     The Council is stretched thin. The zones are expanding slowly. The stillwater supply for damping buoys depends on the Conclave's willingness to provide it — a willingness that is real but grudging. New zones appear in unpredictable locations. #{ref :the_fracture, "The Fracture"}'s Bloom manifestations are outside the Council's operational range.
 
-    The Council's neutrality is its greatest asset and its greatest constraint. Trusted by everyone, controlled by no one, funded by voluntary contributions from factions that could stop contributing at any time. The Accord's humanitarian provisions support the Council formally, but "formal support" means budgets subject to political negotiation.
+    Factions that fought during the Bitter Reach still lend specialists and ships to the same cordon crews. Council staff receive their people and maintain the shared boundary while their governments argue elsewhere. Contributions remain voluntary. A withheld ship can leave one station without its relief, and an allotment of stillwater sent late can keep a damaged buoy in service longer than its crew intended.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Present Day"
     #{ref :dern_talish, "Dern Talish"} leads. Containment holds. The zones have not contracted. Outside keeps Karet-3 stable, and the closed boundary at Pell remains under observation because its array records still contain fragments of #{ref :pell_answer, "the Pell Answer"}.
   PROSE
 
   gm_note :triggered_by, "Ask the Council for help and the price is a stop condition agreed before launch: a named field operator, an isolated clock, and a stated point at which the crew turns back whether or not the party is finished."
-  gm_note :complicates, "The founding charter forbids taking a side, so the Council will haul, cordon, and mediate for every faction at the table and decline to say which of them is right — including when the party plainly is."
+  gm_note :complicates, "A Council crew receives casualties from opposing factions at the same cordon. Injured people share its treatment rooms while their companions demand separation, protection, or someone else's removal."
   gm_note :appears, "Whenever the party's business would open a second front, the answer costs an existing station its coverage: closed humanitarian offices, longer rotations, smaller cordons left on remote watch. The First Threshold names which."
 end
 
 relate :rel_dc_maintains_bloom_zones, :maintains, :displacement_council, :bloom_zones, since: 2384 do
-  prose "The Council's whole purpose is the #{ref :bloom_zones, "Bloom Zones"}: cordoning them, watching them, and holding the line that keeps the distortion from spreading."
+  prose "The Displacement Council maintains cordons around the #{ref :bloom_zones, "Bloom Zones"} within its reach, watching their boundaries and damping their expansion."
 end
 relate :rel_dc_maintains_liras_wall, :maintains, :displacement_council, :liras_wall, since: 2384 do
-  prose "It maintains #{ref :liras_wall, "Lira's Wall"} — the containment system the cordons are built around — as its single most important piece of infrastructure."
+  prose "The Displacement Council maintains #{ref :liras_wall, "Lira's Wall"}, the containment system used across its cordons."
 end
 relate :rel_dc_maintains_outside, :maintains, :displacement_council, :outside, since: 2427 do
   prose "The Council staffs and maintains #{ref :outside, "Outside"}, the permanent cordon station at Karet-3."
 end
 relate :rel_dc_maintains_karet_three, :maintains, :displacement_council, :karet_three, since: 2426 do
-  prose "Its cordon keeps #{ref :karet_three, "Karet-3"} inside a stable boundary."
+  prose "The Displacement Council's cordon keeps #{ref :karet_three, "Karet-3"} inside a stable boundary."
 end
 relate :rel_dc_studies_pell_answer, :studies, :displacement_council, :pell_answer, since: 2434 do
-  prose "Pell's sealed array records remain under Council study, with each fragment of the Answer stored and played separately."
+  prose "The Displacement Council studies sealed array records of #{ref :pell_answer, "the Pell Answer"}, storing and playing each fragment separately."
 end
 relate :rel_dc_participated_pell_four, :participated_in, :displacement_council, :pell_four do
-  prose "Council teams raised the Pell cordon, separated its four receivers, and closed the new boundary."
+  prose "During #{ref :pell_four, "Pell Four"}, Displacement Council teams raised the cordon, separated the site's four receivers, and closed the new boundary."
 end
 relate :rel_dc_cooperates_pell_assembly, :cooperates_with, :displacement_council, :pell_freight_assembly, since: 2434 do
-  prose "The Assembly supplies crews, haulers, and site access for continued Council work at Pell Cut."
+  prose "The #{ref :pell_freight_assembly, "Pell Freight Assembly"} supplies crews, haulers, and site access for continued Displacement Council work at #{ref :pell_cut, "Pell Cut"}."
 end
 
 # --- history (moments) ---
 moment :displacement_council_formed, year: 2380, of: :displacement_council do
   summary "Bloom refugees formed the neutral Displacement Council in 2380 to secure rights, resources, and recognition for displaced communities."
-  prose "Born from the #{ref :displacement, "Displacement"} — Bloom refugees who first organized for advocacy (settlement rights, resource access, recognition) and turned out to be the people best equipped to contain the thing that had displaced them. Neutrality was written into the founding charter from day one: the founders had just watched the #{ref :bloom_coalition, "Bloom Coalition"} strain as factions pressed their own interests through the crisis, and they prohibited the Council from ever taking sides. You cannot hold cordons if half the system won't talk to you."
+  prose "Refugees from the #{ref :displacement, "Displacement"} formed the Council to secure places to live, resources, and recognition for evacuated communities. Their knowledge of the lost habs also brought them into containment work. The founders saw factions press competing interests through the early #{ref :bloom_coalition, "Bloom Coalition"} response and wrote neutrality into their charter so people on either side could seek Council help."
   effects { set :displacement_council, standing: :active }
 end
 moment :displacement_council_takes_cordons, year: 2384, of: :displacement_council do

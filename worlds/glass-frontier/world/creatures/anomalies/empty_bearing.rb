@@ -7,11 +7,12 @@ creature :empty_bearing do
   status :complete
   tags :orbital, :danger, :resonance, :salvage, :mystery, :subject_shear
   prominence :recognized
+  log "2026-09-21 — Removed the claimed dependency on Third Window: the hood protects a pursuing crew and does not sustain the animal."
 
   prose <<~PROSE
     Claim crews working beyond the Pell routes have reported the same empty bearing across three separate Deep pockets. The direction changes when plotted against ordinary space and remains fixed when plotted against each crew's return course. One ship lost its survey tune. Another abandoned a cutter. The third returned with a strip of clear membrane caught under an exterior line guide.
 
-    The Shear Compact has issued a shared warning without declaring one animal responsible. Deep-runners have begun varying their retreat checks and carrying two decoy resonators. The recovered membrane continues to repeat a weak version of the third ship's drive-start tone when placed near tuned ringglass.
+    The Shear Compact has issued a shared warning without declaring one animal responsible. Deep-runners have begun varying their retreat checks and carrying two decoy resonators. One crew used #{ref :third_window, "Third Window"} to cover its Tuner during retreat; the hood returned with its third stillwater compartment underweight. The recovered membrane continues to repeat a weak version of the third ship's drive-start tone when placed near tuned ringglass.
   PROSE
 
   gm_note :appears, "A clean gap returns on the crew's own retreat bearing rather than at one fixed position in ordinary space. Three claim crews have reported it, and the Compact has not declared whether they met one animal."
@@ -21,7 +22,4 @@ end
 
 relate :rel_empty_bearing_inhabits_deep_shear, :inhabits, :empty_bearing, :deep_shear do
   prose "The Empty Bearing has followed three claim crews through separate pockets of the Deep Shear."
-end
-relate :rel_empty_bearing_depends_hood, :depends_on, :empty_bearing, :third_window do
-  prose "Deep crews use hoods and paired decoy resonators when the Empty Bearing appears on a retreat course."
 end

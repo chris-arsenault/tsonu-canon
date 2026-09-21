@@ -6,7 +6,7 @@ faction :bloom_coalition do
   path "player/npcs/factions/bloom-coalition.md"
   tags :governance, :diplomacy, :resonance, :danger, :rebuilding, :subject_bloom
   prominence :renowned
-  era "2378–2396"
+  era "2380–2396"
   founded 2380
   mandate "Coordinate cross-faction containment of the Silent Bloom"
   dissolved 2396
@@ -14,6 +14,7 @@ faction :bloom_coalition do
   log "2026-08-08 — Legacy said veterans were alive in 2438; present day is 2435. Stale from before the timeline was extended; the year is a #{'#{year :now}'} marker now."
   log "2026-08-09 — dropped `status \"dissolved\"`. `status` is the authoring state (complete/draft/shell/needs_refinement); the Coalition's in-world standing is set by its dissolution moment, which the validator now enforces."
   log "2026-08-08 — prominence :renowned confirmed. Every faction in the system staffed the Coalition, so the entry cannot avoid naming recognized ones; the reach warnings it used to raise were the check's shape, not this entry's."
+  log "2026-09-21 — Distinguished the 2378 emergency from the Coalition's 2380 founding. Retained its command arrangements and peaceful dissolution while replacing narrator verdicts with consequences for crews and successor institutions."
 
   descriptive_identity(
     ideology:
@@ -41,29 +42,29 @@ faction :bloom_coalition do
   )
 
   prose <<~PROSE
-    The unified operational command that contained the #{ref :the_silent_bloom, "Silent Bloom"} during the first #{elapsed 2378, 2396} of its expansion. Not a political body and not a treaty organization — the Coalition was an operational structure that drew personnel directly from every faction with a stake in containment and answered to a single chain of command. It existed for one purpose: keep the #{ref :bloom_zones, "Bloom Zones"} from spreading. It did the job. It dissolved on schedule.
+    The Bloom Coalition commanded the shared containment response from 2380 to 2396. It took over an emergency already underway since the #{ref :the_silent_bloom, "Silent Bloom"} began in 2378. Member factions lent ships, crews, Tuners, and researchers to a single command responsible for holding the expanding #{ref :bloom_zones, "Bloom Zones"}.
 
-    The Coalition is not active in the present day. Its successor for cordon operations is the #{ref :displacement_council, "Displacement Council"}. Its successor for cross-faction emergency coordination is, in spirit if not in name, the #{ref :tempered_accord, "Tempered Accord"}.
+    The #{ref :displacement_council, "Displacement Council"} inherited its cordons, and the #{ref :tempered_accord, "Tempered Accord"} later adopted parts of its cross-faction practice. Veterans still recognize one another by the boundary sections they held, including crews whose home factions subsequently fought on opposite sides of the Bitter Reach.
   PROSE
   prose <<~PROSE, section: :origin, heading: "Formation"
     The Bloom ignited in 2378 at the #{ref :pyre, "Pyre"} refinery. Within weeks the affected zone had expanded past the boundaries that any single faction could contain. Within months the #{ref :displacement, "Displacement"} was underway — tens of thousands of #{encyclopedia_ref :hab_worlder, "Hab-Worlders"} evacuating habs that were structurally failing under uncontrolled resonance amplification.
 
-    The first emergency response was improvised: #{ref :vantara, "Vantara"} was running evacuation logistics, the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} was providing telemetry, the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} was doing on-the-fly resonance analysis, and surviving #{ref :coremark, "Coremark"} crews — the ones who had not been at Pyre and who still had operational ships — were running supply into the cordon zones. The improvisation worked. It also produced contradictory orders, duplicated effort, and the kind of casualties that come from uncoordinated parallel operations in a lethal environment.
+    #{ref :vantara, "Vantara"} carried evacuees, the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} supplied telemetry, and the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} analyzed fields that changed while its researchers measured them. Surviving #{ref :coremark, "Coremark"} crews brought ships and supply into the cordons. Their work saved people, but separate commands sent relief to the same station while another waited, or ordered a crossing after a neighboring crew had withdrawn its instruments. The competing instructions cost lives.
 
-    By 2380 the participating factions had agreed that the response needed a single operational head. The Coalition's founding charter — five pages, written in two weeks, signed at a meeting in #{ref :sithari, "Sithari"} that nobody recorded the minutes of — established the Coalition as a unified command with personnel seconded from member factions for the duration of containment work. The signatories were Sithari, the Synod, the Conclave, #{ref :vantara, "Vantara"}, the #{encyclopedia_ref :resonant_tuner, "Tuners"} (then not yet formalized through the #{ref :clarisant, "Clarisant"}, which lent personnel as individuals), the affected #{encyclopedia_ref :hab_worlder, "Hab-Worlder"} communities, and, conspicuously, the major surviving ringglass operators including what remained of Coremark.
+    By 2380 the participating factions had agreed to a single operational head. A five-page charter, written in two weeks and signed at #{ref :sithari, "Sithari"}, placed their seconded personnel under that command. The signatories included Sithari, the Synod, the Conclave, Vantara, affected #{encyclopedia_ref :hab_worlder, "Hab-Worlder"} communities, and surviving ringglass operators including Coremark. #{encyclopedia_ref :resonant_tuner, "Tuners"} joined as individual practitioners before their participation was formalized through #{ref :clarisant, "Clarisant"}. The signed charter survives; minutes of the founding discussion do not.
 
-    The charter contained one structural feature that proved load-bearing: a dissolution clause. The Coalition existed for as long as the containment mission required a unified command. When the standing institutions of the system had absorbed the operational functions, the Coalition would dissolve. The clause was insisted on by Sithari and the Synod. The smaller member factions accepted it on the understanding that without it the Coalition would not have been ratified.
+    Sithari and the Synod required a dissolution clause. The command would end when permanent institutions could take over its work. Smaller members accepted that limit to obtain the ships and personnel the larger factions would otherwise withhold. The clause later gave member governments a stated end to the emergency authority they had surrendered.
   PROSE
   prose <<~PROSE, section: :structure, heading: "Command"
-    The Coalition's operational structure was deliberately flat and deliberately hard-edged.
+    A cordon commander could order a member faction's vessel to move damping mass or receive evacuees without first returning the request to its home government. That authority let a field crew act while a boundary was still moving.
 
-    A single command council issued orders. The council seated representatives from each member faction, but the operational executive was held by a small standing committee whose authority was, by design, narrower than the council's and faster. The standing committee could issue orders within twelve hours; the council could reverse them within seven days. In practice the council reversed nothing of operational significance during the Coalition's eighteen-year run.
+    A council seated representatives from each member faction. Its standing committee could issue an order within twelve hours, subject to reversal by the full council within seven days. No operationally significant order was reversed during the Coalition's #{elapsed 2380, 2396} in existence. Field commanders therefore treated the committee's instruction as the one they would have to carry out.
 
-    The executive's operational head — the **Hand of the Coalition**, a title that the holders themselves found embarrassing — was #{ref :vesh_marrow, "Vesh Marrow"}. Marrow was a relatively junior cordon operator when the position was created and was selected for it on the strength of three months of competent performance during the early emergency. The Coalition's founders, by their own later admission, had not expected him to be in the role for #{elapsed 2380, 2396}. He was. He ran the operational arm of the Coalition from 2380 until the Council took over cordon work in 2384, and then continued running the Coalition's broader cross-faction coordination until its dissolution in 2396.
+    #{ref :vesh_marrow, "Vesh Marrow"} held the title **Hand of the Coalition**. He was a junior cordon operator selected after three months of field command during the emergency. From 2380 to 2384 he directed its operational arm. After the Council took the cordons, he continued coordinating the member factions' remaining commitments until dissolution in 2396.
 
     Below the executive, the Coalition operated **field commands** keyed to specific containment zones. Each field command drew personnel from member factions according to need — a Conclave archivist for historical resonance analysis, a Synod proxy for telemetry, a Vantara logistics officer for supply, Tuners for direct cordon work, Hab-Worlder representatives for affected-population liaison, and ringglass specialists from whatever operator was nearest. Field commands rotated personnel on quarterly cycles and answered directly to the executive. Their internal structure was task-driven and disposable.
 
-    The unified command was effective. It was also, by the testimony of nearly everyone who served under it, exhausting. The Coalition burned through senior personnel from every member faction. The retention rate among field-command leads was bad in the first year and worse in the third. The Coalition's response to this was to widen the recruitment pool and accept the burnout as the cost of the mission. The Council inherited better practices later.
+    The command kept crews supplied across faction boundaries, but replacement commanders arrived faster than exhausted veterans could teach them a site's history. Retention among field leads fell through the first three years. The Coalition widened recruitment and kept damaged crews at work; the Council later changed rotations and relief practices after inheriting those posts.
   PROSE
   prose <<~PROSE, section: :operations, heading: "The Handover"
     The #{ref :displacement_council, "Displacement Council"} was originally a refugee advocacy body. Through 2382 and 2383 the Council and the Coalition operated in parallel — the Coalition running the cordons, the Council running the resettlement of evacuated Hab-Worlders. The Council's institutional culture (neutral, patient, focused on long-term care for displaced populations) was a mismatch with the Coalition's culture (fast, decisive, willing to absorb casualties), and the early relationship was prickly.
@@ -73,11 +74,9 @@ faction :bloom_coalition do
     This division of labor held for #{elapsed 2384, 2396}. The Council managed the cordons. The Coalition managed the politics of keeping cooperation alive between factions that had returned, by the late 2380s, to fighting each other on every issue that wasn't directly Bloom-related. Those disputes widened after the Coalition dissolved and became the Bitter Reach in 2407. While it remained active, the Coalition kept the cordon mission outside them.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Dissolution"
-    The Coalition dissolved formally in 2396. The dissolution was not bitter. It was not contested. It had been on the calendar, in one form or another, since the charter.
+    By 2396 the Displacement Council had absorbed the remaining operational work. Supply chains had stabilized and cordon logistics had become routine. The Coalition's cross-faction political meetings continued, but member governments increasingly ignored their decisions. Its executive invoked the charter's dissolution clause, and the members agreed. They distributed the equipment among their own services and the Council, preserved the records, and retired the Hand of the Coalition title.
 
-    By 2396 the Council had absorbed the operational functions the Coalition was still nominally coordinating. Supply chains had stabilized. Cordon logistics had become routine. The cross-faction political work had decayed into meetings whose decisions the member factions increasingly ignored. The Coalition's executive recommended dissolution. The council ratified it. The infrastructure was distributed among member factions or absorbed by the Council. The Hand of the Coalition title was retired.
-
-    There were ceremonies. They were small and largely internal. Most of the people who attended had served in the Coalition for at least #{duration 10}. Several of them have said, on the record, that the dissolution felt like the end of something important and the beginning of nothing in particular. The institutional follow-up — the #{ref :tempered_accord, "Tempered Accord"}, ratified #{elapsed 2396, 2423} later in 2423 — would borrow the Coalition's protocols extensively. At the time of the dissolution, this future was not visible.
+    Small ceremonies marked the handover of stations and equipment. Most attendees had served for at least #{duration 10}. Several later described returning to their member factions without work that used the relationships they had built. The #{ref :tempered_accord, "Tempered Accord"}, ratified in 2423, recruited some of those veterans and adopted procedures preserved in the Coalition records.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Legacy"
     The Coalition's institutional inheritance is split.
@@ -86,14 +85,14 @@ faction :bloom_coalition do
 
     **The Tempered Accord** inherited the cross-faction coordination protocols. The Accord's mediation framework, its dispute resolution procedures, and its principle of dissoluble emergency cooperation all trace to Coalition practice. The Accord's architects studied the Coalition carefully before drafting. Several of them had served in it.
 
-    **The cultural memory** is broader and harder to measure. The Coalition's #{elapsed 2378, 2396} of forced cooperation produced a generation of operators who had worked across faction lines on a mission that mattered. Many of them are still alive in #{year :now} CE — old now, retired or near it, scattered across the system. Where they have continued to be active they have been disproportionately involved in the kind of cross-faction work the Accord makes possible. The Coalition is over. The people are not.
+    **Veterans** remain in settlements across the system. Some now teach cordon work or advise Accord delegations. A retired operator can still ask a former rival for a berth or a specialist because they once held neighboring stations. Other veterans remember being kept on a boundary after they asked for relief and oppose giving a new command the same powers.
 
-    The Coalition is sometimes invoked rhetorically in present-day politics: as a model when cooperation is needed, as a warning when emergency powers are being expanded. The invocations are mostly empty. The Coalition was a specific institution for a specific crisis, and the conditions that produced it were not replicable on purpose. It worked because the alternative was worse. It dissolved because the alternative was, eventually, better.
+    Present-day supporters of emergency cooperation cite the Coalition's held cordons. Opponents of expanded command cite its casualty tolerance and the time it took to return work to ordinary institutions. Both use surviving orders and the testimony of people who served. A veteran invited to endorse one argument may answer with a different part of the same history.
   PROSE
 
-  gm_note :appears, "Most cross-faction work under way today has an old Coalition hand somewhere in it, retired or near it, who still runs a briefing to field-command habit and still holds a working relationship across a line current politics does not support. Those relationships move faster than the formal channel."
+  gm_note :appears, "A veteran recognizes the name of a boundary station in a visitor's account and asks after the people who held it. A former counterpart may now have access to a berth, a specialist, or a record the visitor needs."
   gm_note :triggered_by, "Citing the Coalition in an argument works for either side, as the model when cooperation is being asked for and as the warning when emergency powers are. The citation binds nobody: the charter dissolved in 2396 and the Hand of the Coalition title was retired with it."
-  gm_note :complicates, "The founding charter was signed at a #{ref :sithari, "Sithari"} meeting whose minutes nobody kept, so any claim about what a signatory faction agreed to in 2380 rests on the memory of people now very old. Two of them will remember it differently and neither account can be checked."
+  gm_note :complicates, "The signed charter can settle what powers members granted. A claim about promises made around the founding table reaches the limit of that document: surviving participants can disagree about an assurance that was never written into it."
 end
 
 relate :rel_bloom_coalition_caused_the_bitter_reach, :caused, :bloom_coalition, :the_bitter_reach do
@@ -103,15 +102,12 @@ end
 # --- lifecycle (queryable `standing`; the detailed account is in the sections above) ---
 moment :bloom_coalition_formed, year: 2380, of: :bloom_coalition do
   summary "The member factions chartered the Bloom Coalition as a unified command at Sithari in 2380."
-  prose "By 2380 the factions improvising against the Bloom agreed the response needed one head. A five-page charter, signed at an unrecorded meeting in #{ref :sithari, "Sithari"}, stood the Coalition up as a unified command — with a dissolution clause built in from the first day."
   effects { set :bloom_coalition, standing: :active }
 end
 moment :bloom_coalition_hands_off_cordons, year: 2384, of: :bloom_coalition do
   summary "The Bloom Coalition transferred the physical cordons to the Displacement Council in 2384."
-  prose "In 2384 it handed the physical cordons to the new #{ref :displacement_council, "Displacement Council"}, keeping only the cross-faction coordination — the politics of holding cooperation together while the system drifted back toward fighting."
 end
 moment :bloom_coalition_dissolved, year: 2396, of: :bloom_coalition do
   summary "The Bloom Coalition dissolved on schedule in 2396 after the Displacement Council absorbed its remaining work."
-  prose "It dissolved on schedule in 2396 — not bitterly, just spent. The Council had absorbed the work; the coordination role had decayed into formalities. The Hand of the Coalition title was retired, and the protocols waited #{elapsed 2396, 2423} for the #{ref :tempered_accord, "Tempered Accord"} to borrow them."
   effects { set :bloom_coalition, standing: :dissolved }
 end

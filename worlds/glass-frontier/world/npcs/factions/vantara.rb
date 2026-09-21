@@ -10,72 +10,71 @@ faction :vantara do
   reviewed "2026-03-18"
   tags :trade, :transport, :governance, :subject_journeys_trade
   prominence :recognized
+  log "2026-09-21 — Described Vantara's own services and commercial choices without claiming it created all route hospitality or rescue. Named municipal and cooperative alternatives remain part of the Keel."
 
   descriptive_identity(
     ideology:
-      "The product is the experience of travel, not the logistics — the " \
-      "money was never in the cargo but in making the journey tolerable " \
-      "for the people carrying it. Neutrality is a commercial position: " \
-      "taking sides is bad for business, so Vantara takes none.",
+      "Passenger comfort keeps travelers booking the next leg with " \
+      "Vantara. The company sells a familiar berth, a maintained ship, " \
+      "and help at the next stop. Its commercial neutrality keeps " \
+      "customers on opposing sides of a dispute buying those services.",
     methods:
       "It runs the largest civilian kite fleet in the system and " \
-      "maintains the route infrastructure nobody formally owns — beacons, " \
+      "maintains its own network of beacons, " \
       "refueling stations, rescue coverage — funded partly by Accord " \
-      "subsidy and partly by usage fees everyone pays while complaining. " \
+      "subsidy and partly by passage and usage fees. " \
       "Asked to choose a side, it produces a quote; a paying party gets " \
       "escorts and berths, and so does the faction chasing them.",
     presence:
-      "Waystations and hotels that are reliably clean, consistently " \
-      "average, and identical from the Keel to a ring hab, staffed under " \
-      "corporate-smooth branding. Its escort ships carry weapons while " \
-      "the company states, very clearly, that it is not a military.",
+      "The same berth lights, luggage latches, and meal symbols recur " \
+      "in its hotels and passenger ships. Tired arrivals can find water " \
+      "and a bunk before learning a port's language. Armed escorts " \
+      "remain close to the vessels they have been hired to protect.",
     attitude:
       "Everyone with funds is a customer, which is what makes it a " \
       "logistics backbone all sides can work with. Independent operators " \
-      "live off its beacons and rescue coverage while its pricing " \
-      "squeezes their margins, and both parties treat that stable, " \
-      "unhappy arrangement as permanent."
+      "buy passages through its network, join cooperative services, " \
+      "or combine both. Fees on a poorly served branch can leave a " \
+      "small carrier paying Vantara much of a voyage's earnings."
   )
 
   prose <<~PROSE
     *"Every journey, elevated."*
 
-    The system's largest travel and logistics corporation. Vantara operates #{encyclopedia_ref :kite, "KITE"} fleets, manages trade route infrastructure, runs hospitality venues across the ring and major surface settlements, and generally positions itself as the entity that makes moving through the Kaleidos system comfortable, reliable, and — if you pay for the premium tier — pleasant.
+    Vantara carries passengers and freight between the system's principal ports. It operates #{encyclopedia_ref :kite, "kite"} fleets, waystations, hotels, and armed escorts, with its largest surface operation at #{ref :keelward, "Keelward"}. A traveler can book several legs together and arrive at each stop knowing where to leave a bag, find a meal, and sleep.
 
-    The name is corporate-smooth by design.
+    Its vessels and lodgings repeat the same fittings: a recessed water cup beside the berth, a luggage latch large enough to work in gloves, and a dim light that shows the route to the door without waking the next sleeper. Premium cabins buy space, quiet, and a view. The basic berth keeps those familiar fittings even when the room has a dozen occupants.
   PROSE
   prose <<~PROSE, section: :structure, heading: "Structure"
-    Vantara operates under conventional corporate structures. Two details set it apart:
+    Vantara is publicly traded. Its current head, #{ref :davan_koralis, "Davan Koralis"}, uses the title **Chief Experience Officer** and directs substantial spending toward crew training, waystation quality, and passenger comfort. He judges a connected journey by the wait between ships as well as the time in flight. A missed transfer costs the company a bed and meal when it has sold both legs together.
 
-    The CEO carries the title **Chief Experience Officer**, because the current one — #{ref :davan_koralis, "Davan Koralis"} — believes that Vantara's core product is the experience of travel, not the logistics of it. The institutional priority is genuine — Vantara invests in waystation quality, crew training, and passenger comfort.
-
-    Vantara is publicly traded, politically neutral, and genuinely multinational — operations span surface settlements, ring habs, outer-system stations, and #{ref :keel, "the Keel"} trade lane. Their neutrality is economic, not ideological. They don't take sides because taking sides is bad for business. This makes them useful to the #{ref :tempered_accord, "Tempered Accord"} as a logistics backbone that everyone can work with.
+    The company maintains contracts across governments that dispute one another's borders and policies. Its commercial neutrality lets their citizens travel on the same ships. The #{ref :tempered_accord, "Tempered Accord"} relies on that reach when arranging meetings and subsidizing services, while individual ports retain control over who may land.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Operations"
     **Transport.** Vantara operates the largest civilian kite fleet in the system: cargo haulers, passenger vessels, fast couriers, and #{encyclopedia_ref :flitter, "flitters"} assigned to public routes in major settlements. Municipal fleets, cooperatives, employers, guild carriers, and independent pilots operate alongside it.
 
-    **Hospitality.** Waystations along major routes, hotels in settlements, crew rest facilities at ring hab docking ports. The quality is consistent and consistently average — not bad, not memorable, reliably clean and functional. Some people find this comforting. Others call it soulless. Vantara's branding team considers both reactions acceptable.
+    **Hospitality.** Waystations, port hotels, and crew rest rooms follow common layouts. Meal counters display ingredients in the same sequence even when the kitchen uses local crops. Shift workers ask for rooms away from the arrival halls; families favor doors that open between adjoining berths. Regular passengers often know which stop has the quieter baths or a cook who changes the menu before the company does.
 
-    **Route management.** Vantara doesn't own trade routes — nobody does, formally — but they maintain the infrastructure: navigation beacons, refueling stations, emergency rescue coverage. This is expensive public-good work that Vantara performs because it supports their core business and because nobody else was going to do it. The #{ref :tempered_accord, "Tempered Accord"} subsidizes some of it. The rest comes from usage fees that everyone complains about and everyone pays.
+    **Route management.** Company beacons, refueling stations, and rescue tenders serve its scheduled routes. Passage revenue, usage fees, and Accord subsidies pay for different parts of the network. The #{ref :keel, "Keel"} also has municipal terminals, guild markers, and cooperative rescue posts. A Vantara ship approaching #{ref :cold_lantern, "Cold Lantern"} follows the Pell crews' quiet approach; the company has no authority to light the waypoint for its own convenience.
 
-    **Armed escorts.** Piracy on #{ref :keel, "the Keel"} and other routes is an ongoing problem, and Vantara's security division is the largest private armed force operating in civilian space. They are not a military. They are very clear about this. Their ships carry weapons anyway.
+    **Armed escorts.** Vantara fields the largest private armed force in civilian space. Escort captains defend contracted ships and recover passengers from threatened berths. They weigh pursuit against the convoy they would leave exposed. The company continues selling passage to rival factions, including factions whose hired escorts have recently fired on one another.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Tensions"
-    Vantara is a corporation, and it behaves like one. Their services are affordable but not cheap. Their neutrality serves their bottom line. Their hospitality is optimized for consistency, not character — a Vantara waystation on the Keel feels identical to a Vantara waystation in a ring hab, which is either the point or the problem depending on your disposition.
+    Vantara can keep a price low where several carriers compete and raise it on a branch with few alternatives. Independent crews may buy rescue coverage from the company while carrying passengers it has priced out of a direct service. #{encyclopedia_ref :ratters, "Ratter"} flotillas pool their own shelter and recovery arrangements where they have enough ships; on unfamiliar legs they still pay for Vantara's stations.
 
-    The criticism — that Vantara desaturates everything it touches into corporate-average quality — is probably fair. The counterargument — that before Vantara, long-haul trade routes had no rest facilities, no rescue coverage, and no reliable scheduling — is also fair. Both assessments hold weight.
+    Standard fittings have practical costs. A berth comfortable for one body can leave another passenger sleeping across its width, and a fixed meal hour can fall in the middle of a family's home night. Local crews improvise extra screens, change tables, or keep a kitchen open after closing. Passengers remember those departures from company practice and ask for the same crew on their next voyage.
 
-    The #{encyclopedia_ref :ratters, "Ratters"} and independent operators view Vantara with the mix of resentment and grudging reliance that independent operators everywhere feel toward large companies that provide infrastructure they can't build themselves. Vantara's route beacons and rescue coverage keep independents alive. Vantara's pricing squeezes independents' margins. The relationship is stable and unhappy.
+    The company's neutrality is tested most visibly at embarkation. A threatened passenger can buy an escort while a pursuer buys the following departure. Vantara will defend the passenger aboard its ship; the receiving port determines what happens after landing. Travelers who need sanctuary seek a host as well as a ticket.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Present Day"
-    Vantara is secure, profitable, and expanding. The Accord era has been good for them — stability means more trade, more travel, more demand for reliable logistics. Their fleet is growing. Their waystation network is extending into newly contacted far-drift ring habs. Their Chief Experience Officer is on a media tour promoting Vantara's new luxury cruise line through the scenic segments of #{ref :the_shear, "The Shear"}, which is either visionary or reckless depending on your risk tolerance.
+    Vantara is profitable and extending its waystation network toward newly contacted far-drift habs. Those agreements depend on what each community will receive: a landing window, a place to refuel, rooms for strangers, or passage for its own people.
 
-    The company's bland competence is, in its way, a marker of civilization. Reliable infrastructure enables the system's more volatile pursuits.
+    Davan Koralis is promoting a luxury cruise through the charted margins of #{ref :the_shear, "the Shear"}. Observation rooms face the drifting ring fragments; the ships carry Shear filters and armed escorts. Captains can cancel a viewing approach when the forecast changes. Passengers who paid to see a luminous debris stream may spend the evening watching an empty patch of safe space while the crew waits for it to pass.
   PROSE
 
-  gm_note :appears, "A Vantara beacon, refueling stop, waystation bunk or rescue call is reachable from almost anywhere on a major route, and every one of them books a usage fee against whoever used it. Independents pay it and complain about it in the same sentence."
+  gm_note :appears, "A late Vantara transfer sends passengers to a company meal counter and bunks with familiar fittings. A local crew member knows which rooms face the working dock and which will let exhausted travelers sleep."
   gm_note :triggered_by, "Ask Vantara to take a side and receive a quote. Its neutrality is a commercial position, so a party with cargo and funds gets escorts, berths and scheduled space, and so does the faction chasing them."
-  gm_note :complicates, "Vantara's security division is the largest private armed force in civilian space and insists it is not a military. A crew that crosses one of its escorts is answering to a corporation sizing its response to the value of the cargo rather than to the offense."
+  gm_note :complicates, "Vantara's escort defends a threatened passenger aboard the ship, but protection at the destination belongs to the receiving port. A pursuer can book another departure while the traveler searches for someone willing to receive them."
 end
 
 relate :rel_vantara_operates_keelward, :operates_in, :vantara, :keelward, since: 2330 do
@@ -91,10 +90,10 @@ end
 # --- history (moments) ---
 moment :vantara_founded, year: 2320, of: :vantara do
   summary "Vantara was founded in 2320 to operate the schedules, maintenance, crews, and waystations needed by Reconnection trade."
-  prose "Founded during the Rekindling, when the first inter-settlement trade networks needed someone to handle the boring parts — scheduling, maintenance, crew rotation, waystation provisioning. The founders understood the money wasn't in the cargo; it was in making the journey tolerable for the people carrying it."
+  prose "Founded during the Rekindling, Vantara sold passage with a maintained vessel, trained crew, and a place to rest at the next transfer. It expanded by joining services that travelers had previously arranged separately."
   effects { set :vantara, standing: :active }
 end
 moment :vantara_arms_escorts, year: 2360, of: :vantara do
   summary "Vantara began arming convoy escorts in 2360 after attacks on its ships along disputed corridors."
-  prose "During the Contested Reach, after its ships were targeted on disputed corridors, Vantara began arming its convoy escorts. The escorts never stood down — its security division is now the largest private armed force in civilian space, a fact it is very clear does not make it a military."
+  prose "During the Contested Reach, attacks on disputed corridors led Vantara to arm its convoy escorts. It retained those ships after the fighting and expanded their crews into the largest private armed force in civilian space."
 end

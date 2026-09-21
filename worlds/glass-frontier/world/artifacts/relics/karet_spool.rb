@@ -75,7 +75,7 @@ artifact :karet_spool do
 end
 
 relate :rel_displacement_council_possesses_karet_spool, :possesses, :displacement_council, :karet_spool, since: 2426 do
-  prose "The Displacement Council recovered the Karet Spool and controls every deployment."
+  prose "The Displacement Council recovered #{ref :karet_spool, "the Karet Spool"} and controls every deployment."
 end
 relate :rel_karet_spool_located_outside, :located_in, :karet_spool, :outside, since: 2426 do
   prose "The spool is stored and inspected at #{ref :outside, "Outside"} beside the Karet-3 cordon."

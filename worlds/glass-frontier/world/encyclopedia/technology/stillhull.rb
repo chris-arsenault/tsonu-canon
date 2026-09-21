@@ -6,36 +6,41 @@ encyclopedia :stillhull do
   topics :"fluid-reality", :danger, :transport, :navigation, :subject_bloom
   prevalence :rare
   appears_when all: { place: [:bloom_adjacent] }
-  summary "A stillhull is a cordon-service vessel built to work the edge of a Bloom Zone: a hull of layered stillwater cells and damped glass that holds one shape and one set of physical assumptions slightly longer than the space around it. The Displacement Council rates them by the breath."
+  summary "A stillhull is a cordon vessel whose layered stillwater cells and damped glass preserve its interior through brief exposure to Bloom distortion. Its tested exposure limit is painted beside the hatch in breaths."
   function "Carries cordon crews and instruments along Bloom boundaries, holding hull integrity through local rule drift"
   classes "Boundary tenders, the two-crew survey pattern, and the recovery hulls that go closest and carry the least"
   capacity "A tender works a boundary with six crew and staged equipment; recovery hulls run pairs and empty racks"
-  operating_limit "Rated in breaths — the measured interval a hull holds its assumptions past the boundary's — and retired the first time a rating test comes back short"
+  operating_limit "A fixed exposure rating in breaths; a hull that fails to meet its rating after a deployment leaves boundary service"
+  log "2026-09-21 — Described observable protection and cell damage, and kept the established retirement rule consistent with the hatch marking. A failed hull is withdrawn rather than given a lower working rating."
 
   descriptive_identity(
     appearance: "A rounded, seamless-looking hull the gray of overcast water, windowless " \
                 "except for instrument blisters, with the cordon's orange chevrons the only " \
                 "interruption. Up close the surface shows its layered stillwater cells like " \
                 "grain in worked wood.",
-    working: "The layered cells damp incoming rule drift the way a breakwater damps chop — " \
-             "each layer holds the ordinary a little longer — and the crew works inside a " \
-             "bubble of enforced normalcy measured, tested, and certified in breaths.",
-    risks: "The rating is an interval, and the interval is the mission plan: a stillhull " \
-           "does everything by the count, and a crew that overstays its breaths is relying " \
-           "on architecture to argue with a Bloom, which the incident reports describe " \
-           "with unusual brevity."
+    working: "Layers of sealed cells damp the changing field around the vessel. " \
+             "Inside, a measured corridor keeps its length and a hatch continues " \
+             "meeting its frame while external instruments record distortion.",
+    risks: "Protection lasts only through a tested exposure interval. A caller " \
+           "counts from boundary contact, and every task must leave enough time " \
+           "for the loaded return. Damage to the outer cells can spend that " \
+           "margin before the crew notices a change inside."
   )
 
   prose <<~PROSE
-    Work at a Bloom boundary means working where the rules fray, and the Silent Bloom taught the cordon services what to bring. A stillhull is the answer refined since: a rounded, windowless vessel whose hull is layered cells of #{encyclopedia_ref :stillwater, "stillwater"} and damped glass, each layer holding the ordinary — distance behaving, angles summing, water staying water — a little longer than the layer outside it. The hull is a breakwater against rule drift. Inside, the crew works in a bubble of enforced normalcy; outside, the boundary does what boundaries do; and the difference between the two is measured, certified, and painted beside the hatch as the hull's rating in breaths.
+    Stillhulls carry cordon crews along #{ref :bloom_zones, "Bloom boundaries"} and into brief exposures that would disable an ordinary tender. Their rounded shells have instrument blisters in place of windows. Beneath the gray outer coating, sheets of sealed #{encyclopedia_ref :stillwater, "stillwater"} cells alternate with damped glass. The sheets come from #{encyclopedia_ref :stillloom, "stilllooms"}; successive layers absorb distortion as the vessel approaches the zone.
 
-    The breath is the trade's whole arithmetic. A rating states how long the hull holds its assumptions past the boundary's, every mission is planned backward from it, and stillhull crews live by the count with a discipline that makes brace-country tone rules look relaxed: the caller counts aloud from the moment the boundary shimmer crosses the bow blister, the work is staged in count-sized pieces, and the turn is called with margin because the rating is a measurement and the Bloom is under no obligations. Hulls are re-rated after every deployment — the cells age with exposure, honestly and measurably — and the first short test retires the hull to training service, stripped of chevrons, with the cordon services' characteristic mix of ceremony and accounting.
+    A crew measures the protection inside the hull. A fixed length between two marks remains the same, doors meet their frames, and liquid settles in its containers while external readings begin to disagree. As the outer layers fail, deeper cells take the exposure. Protection ends when those layers can no longer maintain the interior. A damaged instrument blister or leaking seam can shorten that interval before the cabin itself changes.
+
+    The tested limit is painted beside the hatch in **breaths**, the steady count used by cordon crews. A caller begins at the first boundary contact. Tools lie in the order they will be needed, and each task has a turn count that leaves time for the return with a casualty or recovered load. If a mount will not release, the crew abandons the tool before spending the breaths reserved for coming home.
+
+    Boundary tenders carry six crew and staged equipment. Smaller survey hulls carry two people sharing the observation and recovery work. Recovery vessels approach closest, also with two people, leaving their racks empty for whatever they bring out. All return for a full exposure test after deployment. A hull that falls short of its painted rating leaves boundary service; its chevrons are stripped and its remaining compartments used for training. Trainees can rehearse a crowded return in the same narrow space that once carried a working crew.
   PROSE
 
   cue "A rounded gray hull with orange chevrons noses along the cordon line, windowless and unhurried, while inside a voice counts breaths aloud over the working chatter."
-  cue "Beside the hatch, the rating is painted fresh over older, higher numbers, and the crew touches it on the way in with the casualness of long habit."
-  affordance "A rated stillhull buys certified minutes of ordinary physics at the edge of a place that has stopped offering any — the margin every boundary survey, instrument placement, and recovery run is planned inside."
-  pressure "The rating is an interval and nothing more, so every job is staged to the count — and the boundary's own variability means the counted margin is spent judgment, breath by breath, with the turn call as the crew's most rehearsed argument."
+  cue "Beside the hatch, a single exposure rating remains plainly visible. On a training hull the orange chevrons have been stripped away and the rating crossed through."
+  affordance "A stillhull can carry people and instruments through brief boundary exposure while its interior retains measured distances, working seals, and stable compartments."
+  pressure "A tool jams as the turn count approaches. Releasing it would recover the equipment but consume breaths reserved for bringing an injured person back."
   variation "Boundary tenders carry six crew and staged equipment on routine cordon rounds; recovery hulls approach more closely with paired crews and empty racks."
   variation "Retired short-test hulls serve as trainers with their orange chevrons stripped, giving new crews a working hull for rehearsing the count."
 end

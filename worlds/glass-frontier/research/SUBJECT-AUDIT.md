@@ -1,5 +1,9 @@
 # Story subject audit — 2026-09-20
 
+Completed classification checkpoint. Counts below precede later authoring;
+they are not the current inventory. Subject classification completes that
+portion of M7, while its reader-path and discovery review remain open.
+
 The Glass Frontier has 906 classified entries: 600 in the Atlas store, including
 27 structural records, and 306 in the Encyclopedia. Every entry has one primary
 subject. Membership is authored on the entry; there is no second membership

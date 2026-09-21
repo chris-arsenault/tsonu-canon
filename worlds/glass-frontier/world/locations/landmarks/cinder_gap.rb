@@ -42,7 +42,7 @@ relate :rel_cinder_gap_located_in_bloom_zones, :located_in, :cinder_gap, :bloom_
 end
 
 relate :rel_displacement_council_maintains_cinder_gap, :maintains, :displacement_council, :cinder_gap, since: 2384 do
-  prose "The Council maintains the modern wall and preserves the original mounts for study."
+  prose "The Displacement Council maintains the modern wall at #{ref :cinder_gap, "Cinder Gap"} and preserves its original mounts for study."
 end
 
 relate :rel_cinder_gap_part_of_pyre, :part_of, :cinder_gap, :pyre do

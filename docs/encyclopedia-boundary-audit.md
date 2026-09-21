@@ -1,14 +1,15 @@
 # Encyclopedia Namespace and Atlas Topology Audit
 
-Status: engine and migrated content repaired through the structural gate;
-sapient and non-sapient lifeform ownership corrected; technology ownership
-corrected; resource is the next unresolved extraction category. New lore is
-limited to the names and concise identity text required to distinguish
-reusable types from their Atlas subjects.
+Historical implementation audit, reconciled 2026-09-21. The Glass Frontier
+extraction is complete across all categories and committed in `26ef4ae`;
+the seven-kind conversion and subsequent authoring also landed. Resource is
+no longer a pending extraction. The measurements and intermediate findings
+below record those migration checkpoints, not the current corpus.
 
-This audit covers the uncommitted Lorecraft Encyclopedia implementation and the
-Glass Frontier entries migrated with it. It records both the repair baseline
-and the later approved removal of generic sapient-species nodes from the Atlas.
+The current engine contract is in [SYSTEM.md](../SYSTEM.md) and CLI help.
+Open semantic rebalancing and the other worlds' transitional-kind migrations
+are tracked in [backlog.md](backlog.md). This audit retains the repair baseline
+and the approved removal of generic sapient-species nodes from the Atlas.
 
 ## Technology category result
 

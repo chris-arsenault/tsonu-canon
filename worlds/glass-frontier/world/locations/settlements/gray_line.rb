@@ -66,5 +66,5 @@ relate :rel_gray_line_located_in_bloom_zones, :located_in, :gray_line, :bloom_zo
 end
 
 relate :rel_displacement_council_maintains_gray_line, :maintains, :displacement_council, :gray_line, since: 2384 do
-  prose "The Displacement Council staffs Gray Line as one of its oldest permanent cordons."
+  prose "The Displacement Council staffs #{ref :gray_line, "Gray Line"} as one of its oldest permanent cordons."
 end

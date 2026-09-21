@@ -1,5 +1,9 @@
 # Side excursions — canon map
 
+Completed and committed in `6dfe576`. Measurements below describe that batch;
+the subsequent [quality rewrite](QUALITY-REVIEW-2026-09-21.md) is included in the
+September 21 quality and documentation publication.
+
 Implementation of the sixteen descriptions in [the scratch proposal](SIDE-EXCURSIONS-SCRATCH.md), 2026-09-21. The scratch text remains a record of the approved proposals; the Ruby entries below now own the canonical facts.
 
 ## Entries and world connections

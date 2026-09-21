@@ -17,9 +17,9 @@ incident :ithara_witnessings do
   prose <<~PROSE, section: :limits, heading: "An Event's Edges"
     The working recovers sensation carried by an event. It does not reveal private intent or continue where all consequence has been erased. Investigators can compare sound, movement and surviving material. A voice heard outside a room is not an identified army, and an order observed in one collection does not establish authority over every settlement.
 
-    Witnessing is reciprocal: the act of looking leaves a consequence that the observed event can register. Investigators record that exposure rather than assuming they are invisible. No recovered scene supplies a living ancient interlocutor who can explain the whole history.
+    Witnessing is reciprocal: the act of looking leaves a consequence that the observed event can register. Investigators record where a face turns toward them, where an object moves after their arrival and where the recovered sequence ends. No recovered scene supplies a living ancient interlocutor who can explain the whole history.
 
-    In one repetition through a polished domestic support, a person in the recovered room turned toward the observer's reflected face. Nereth ended the working when the person approached the reflection. Other investigators can choose a different object or remain longer in that event, but must accept the same exposure. The #{encyclopedia_ref :itharan, "observed bodies and household conduct"} come from these sensory scenes, not from an inferred anatomy assigned to every ruin's builders.
+    In one repetition through a polished domestic support, a person in the recovered room turned toward the observer's reflected face. Nereth ended the working when the person approached the reflection. Other investigators can choose a different object or remain longer in that event, but must accept the same exposure. The #{encyclopedia_ref :itharan, "accounts of bodies and household conduct"} identify the scenes in which each observation occurred, so another investigator can return to the same support or serving vessel and examine it again.
 
     No intact builder's body has been recovered. The #{ref :lithren, "written finds"} can be copied but supply no securely translated narrative against which to check the scenes. Witnessed voices and gestures therefore remain important evidence even when the objects around their speakers carry inscriptions.
   PROSE
@@ -27,7 +27,7 @@ incident :ithara_witnessings do
   prose <<~PROSE, section: :aftermath, heading: "What Remains Unanswered"
     The opposing force that broke the defenses is unidentified. Changes in water and settlement patterns do not distinguish ecological processes from deliberate interference or determine how either related to the fighting. The civilization's ultimate fate and any role in originating resonance in the solar system remain unestablished.
 
-    Further finds may answer a particular route, date or action. Some larger questions may have no surviving evidence capable of deciding them. The discoveries already made remain useful without those answers.
+    The #{ref :ivara, "load aboard Ivara"} has since supplied one destination along the evacuation route: Damarat's lower loading shelf. Its unloading can be witnessed through the damaged cradle. The people move beyond that event's surviving reach when they leave the carriage; the subsequent journey and the larger questions remain open, with no assurance that another consequence has survived to carry them.
   PROSE
 
   gm_note :triggered_by, "Witnessing through a new object reveals a familiar event from a different position, confirming an action while removing an assumption about what lay beyond the first witness's reach."

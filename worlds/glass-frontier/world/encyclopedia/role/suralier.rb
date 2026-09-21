@@ -8,11 +8,19 @@ encyclopedia :suralier do
   prevalence :uncommon
   appears_when all: { place: [:outer_system] }, any: { place: [:urban, :market, :garden] }
   prose <<~PROSE
-    Suraliers perform with #{encyclopedia_ref :sural}, lamps and controlled heat. Their hands remain visible beside the light. An audience can watch a wedge turn while its image slips across a wall, or follow a performer's shadow as it separates into several colored figures. Timing the crystal's cooling is part of the art: the image continues changing after the hand leaves it.
+    A suralier's hands remain visible beside the light. Turning and heating a #{encyclopedia_ref :sural} wedge makes an image slip across a wall; lowering the hands leaves it changing as the crystal cools. Audiences watch for the moment a performer steps into a shadow that has already begun moving. A poor turn puts the figure somewhere the body cannot reach.
 
-    At #{ref :veyr}, singers commission images that answer a verse without covering their faces. Garden performances at #{ref :house_tereval} favor large slow forms cast across water. Small traveling acts carry a folding screen and a single good wedge. They can earn a meal by making a room's ordinary cups and hands appear to float among its rafters.
+    Performers call the image left to cool a released figure. Apprentices begin with one lamp, one wedge and the time it takes a familiar heated corner to return to its resting shape. Later they combine several figures, each cooling at a different rate. Keeping a hand raised can conceal which wedge is still being touched; some audiences admire the deception and others demand a performance with both hands plainly empty.
+  PROSE
+  prose <<~PROSE, section: :culture, heading: "Rooms of Light"
+    At #{ref :veyr}, singers commission figures that enter beside an answering verse and leave the singer's face visible. A suralier can give away the reply by releasing an image too early. Singers rehearse new work beside cooling wedges, arguing over whether the audience should recognize the object before hearing its name.
 
-    The war has brought offers for range-finding work, false silhouettes and dazzling an armed observer. Some performers accept; others lose valuable optics to requisition or hide them among costume fittings. A suralier can recognize the heat damage on a military lens while wanting only to buy an uncracked corner for a new performance. Apprentices first learn to manage ordinary light and hot material. Their title belongs to the developed art, rather than to everyone who operates a crystal window.
+    Garden performances at #{ref :house_tereval} favor large slow forms across water. Wind breaking the reflection becomes part of a performance, and a guest leaning over the pool can put their own silhouette through a figure. Traveling acts pack a folding screen and one good wedge. In a small supper room they cast its cups and hands among the rafters, then invite diners to move the originals.
+  PROSE
+  prose <<~PROSE, section: :present_day, heading: "Damaged Optics"
+    The war has brought commissions for range-finding, false silhouettes and dazzling armed observers. Some performers accept. Others have lost optics to requisition or hidden them among costume fittings. A cracked military lens may still contain an unbroken corner with a shape an artist wants.
+
+    Pelhari instrument makers receive such fragments for grinding. #{ref :house_delven}'s wrights reserve sound offcuts after repairing a lens, and visiting performers try them under a hooded lamp before buying. Heat damage can leave a figure permanently doubled. A performer may pay for that defect, then have the new edge padded so its crack will survive the return voyage.
   PROSE
   cue "A performer lifts both hands away while the figure on the wall slowly changes its stance."
   cue "An open instrument case holds blackened heat pads beside carefully wrapped crystal wedges and painted costumes."

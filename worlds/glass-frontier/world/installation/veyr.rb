@@ -23,6 +23,13 @@ installation :veyr do
   prose <<~PROSE, section: :culture, heading: "Voice and Light"
     Players fit #{encyclopedia_ref :velith_reed, "velith reeds"} between their teeth while trying replies against the suspended boat's motion. A rough old reed belongs to a singer whose audience starts answering before the first words. Visiting #{encyclopedia_ref :suralier, "suraliers"} rehearse below, letting a wedge cool through several images while the singers decide which one belongs with the verse. A military buyer has offered for the clearest wedge; its performer wants enough for a replacement and a season's work.
   PROSE
+  prose <<~PROSE, section: :culture, heading: "The Wet Instrument"
+    A traveling musician has booked a place beneath the boat for an instrument grown from #{encyclopedia_ref :avreth} at #{ref :damarat}. Its little mineral cones stand in a narrow humid case. A foot bellows carries air across their mouths while droplets gather beneath the rims. The musician can sustain the breath, but the changing drops move the notes; when several fall together, part of the chord falls silent.
+
+    The proposed act answers the singers' footsteps as they tilt the boat. The musician has sent a recording from Lithren; at Veyr, a stage worker stamps its rhythm beside an empty case while a rigger marks the sways overhead. The living daughter colony is still growing on Lithren. It must travel in its enclosure, fed through the wet threadwork beneath the cones. The dock has reserved a shaded recess for it beside the fresh-water tap; hot stage lamps would dry it faster than the musician could play.
+
+    The musician wants the first paid performance to end on the audience's stamped reply, with the colony sounding whatever notes remain. Two singers have wagered their fees over who can finish an answering verse when the expected note disappears. Listeners who want to hear the result have begun buying the low seats, close enough to see the drops fall.
+  PROSE
   prose <<~PROSE, section: :culture, heading: "The Held Reply"
     A performer may place a concealed object beneath the boat before a contest. A promised reply can then arrive as a lover's discarded shoe, a damaged military decoration or an instrument taken back from a patron who failed to pay. The audience demands an account it can recognize. An unsupported accusation gives the opponent a chance to turn the whole reveal into a joke.
 
@@ -31,11 +38,14 @@ installation :veyr do
   prose <<~PROSE, section: :present_day, heading: "The Water Gate"
     A narrow wet channel runs beside the dry basin, separated from it by a stone wall. Its low sea gate admits shallow boats to a landing beneath the workshops. The #{ref :velisar_resistance, "resistance"} moves fugitives through this channel during performances. #{ref :ushti, "Ushti"} has carried both paying musicians and people hidden among their instruments. #{ref :ivena_sar, "Ivena Sar"} treats the injured in the emptied paint room; helpers bring their own medicines and take turns keeping the stair clear.
 
-    The #{ref :severance, "Severance"} recruits among listeners who fear another sovereign. Serevan visitors pay for songs about the people sheltered in their home towns. Detha has met former sailors here to ask after prisoners at #{ref :savren, "Savren"}. A singer with a new accusation can find several interested groups before reaching the suspended boat.
+    Severance members argue over the crown image with performers helping a claimant approach Aren. The riggers keep that argument away from the ropes while a person is being lowered: an escort interrupted halfway down has nowhere to put its passenger. In the paint room afterward, people who would stop one another's journeys still hold the same bandages against a wound.
+
+    Serevan visitors pay for songs about the people sheltered in their home towns. Performers ask for the names and find the old verses before agreeing to sing them. Detha has used those evenings to ask former sailors after prisoners at #{ref :savren, "Savren"}. A request for a missing crew member's favorite refrain can bring an answer from the cheap ledges, where soldiers and their relatives sit beyond the wealthy patrons' lamps.
   PROSE
   gm_note :triggered_by, "Accepting a challenge puts the visitors on a boat that tilts with their movement. Their opponent has hidden an object beneath the deck and keeps turning the rhyme toward it."
   gm_note :complicates, "A patron offers to buy the next reply before hearing it. Below the ledge, a familiar soldier waits to learn whether the performer accepts."
   gm_note :appears, "A rehearsal stops at an unfinished ending and a player asks the nearest listeners to choose the reply. Regulars make room on their ledge while arguing for different versions."
+  log "2026-09-21 — Distinguished the dock's performers, treatment room and musical visitors from a general faction meeting place. Added the independent Damarat musician's planned avreth performance; the living colony remains on Lithren while it grows for travel."
 end
 relate :rel_veyr_velisar, :located_in, :veyr, :velisar
 relate :rel_company_maintains_veyr, :maintains, :veyr_company, :veyr

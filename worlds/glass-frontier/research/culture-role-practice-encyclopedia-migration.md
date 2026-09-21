@@ -2,6 +2,11 @@
 
 Date: 2026-08-28
 
+Completed migration checkpoint, committed in `26ef4ae`. The subsequent
+seven-kind conversion merged `practice` into `ability`; later naming work
+changed several ids below. Preserve this as the extraction record, and use
+the current schema and canonical sources for authoring.
+
 Nine reusable subjects now live only in the Encyclopedia:
 
 - Cultures: `hab_worlder`, `sable_riverfolk`, `shearfolk`, `sitharian_culture`

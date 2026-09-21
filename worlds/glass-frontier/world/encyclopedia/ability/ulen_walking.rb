@@ -15,7 +15,11 @@ encyclopedia :ulen_walking do
 
     Climbers at #{ref :oravel} practice on a low modern frame before trying its suspended galleries. A familiar body weight becomes misleading after a person collects a heavy find. Skilled pairs talk about the bag and the runner rather than telling one another to hurry. Some use repeated foot taps when suits or distance make speech difficult.
 
-    Travellers have carried the practice to the counterweighted rooms beneath #{ref :aldevra}. Water entering those chambers changes the balance continuously. There, a second person sometimes works the compensating load from another platform, both waiting for the water to settle before either takes a step. Their method can preserve access long enough to inspect a cradle, move an injured companion or return a treasure that has lifted the floor beneath its taker.
+  PROSE
+  prose <<~PROSE, section: :operations, heading: "Water in the Weights"
+    Travelers have carried the practice to the counterweighted rooms beneath #{ref :aldevra}. Incoming water changes the balance continuously. A companion on another platform watches its rise while working the compensating load. The first dip after a step can be followed by a second as water crosses a low sill into the adjoining chamber. Experienced pairs wait for both before passing a heavy object between them.
+
+    Once a dry frame's existing motion settles, incoming water supplies no delayed change in its load. Waiting for an absent second dip while continuing to pay out a bag can pull it to the end of its runner. Pairs changing from flooded to dry chambers first secure their bags and watch the unloaded platform, then agree on which movement each person will answer.
   PROSE
   cue "One traveller takes a step as another lowers a weighted bag by the same small amount."
   cue "A pair waits motionless, watching a chalk mark move along the runner above them."

@@ -18,12 +18,13 @@ faction :coremark do
     methods:
       "Industrial extraction in uncertified deep-Shear zones and quiet " \
       "movement of restricted salvage, run as a federation of disciplined " \
-      "working units under regional captains. Orders travel so that no one " \
-      "carries a complete route.",
+      "working units under regional captains. Clerks and couriers receive " \
+      "instructions for individual legs; senior route officers hold the " \
+      "routing knowledge and fence contacts that connect them.",
     presence:
-      "None that an ordinary person would recognize. Coremark people carry " \
-      "no marks, wear no colors, and read as any other salvage crew or " \
-      "freight office until the ledger says otherwise.",
+      "Public salvage desks on Korvath and openly identified ships in " \
+      "tolerant ports. Elsewhere, convoy vessels pose as ordinary haulers " \
+      "and smaller freight companies conceal the syndicate's ownership.",
     attitude:
       "Businesslike with anyone useful and hardest on outsiders and on its " \
       "own officers who hide a failure from their crews. It does not seek " \
@@ -33,13 +34,16 @@ faction :coremark do
   log "Settled: a criminal syndicate in the present day. Publicly discredited after the Bloom, went underground, now smuggles Bloom Zone artifacts through black-market channels."
 
   log "2026-08-21 — Expanded the Bloom-relic market beyond collectors and Conclave intermediaries to settlement councils and armed route crews, including the dependencies and violence created by one-off infrastructure fixes."
+  log "2026-09-21 — Located the syndicate's tolerated legal business at Duthrek's established Korvath office and separated its treatment of employees from its violence toward outsiders. No unrelated city was assigned as a criminal haven."
 
   # --- static identity (what Coremark IS; time-varying facts live in moments) ---
   prose <<~PROSE
     A salvage corporation that became a criminal syndicate. Coremark made its name running industrial-scale extraction in the deep #{ref :the_shear, "Shear"} — pulling #{encyclopedia_ref :ringglass, "ringglass"} out of places nobody else would go — and lost its legitimacy when its own negligence helped trigger the #{ref :the_silent_bloom, "Silent Bloom"}. What was a corporation now does the same work underground.
   PROSE
   prose <<~PROSE, section: :culture, heading: "Character"
-    Profit-driven from the start, but not malicious — Coremark took good care of its people, because skilled deep-Shear operators were rare and hard to replace. Compensation was excellent and retention was strategy, but the result was the same: Coremark crews were the best in the system, and they knew it. The "move fast, profit first" culture didn't change when the company went criminal. It just stopped pretending to be legitimate. The name stuck, too — everyone still calls them Coremark, and they don't seem to mind.
+    Coremark pays skilled deep-Shear crews well and replaces their damaged equipment. Its captains expect rescue coverage, and #{ref :duthrek, "Duthrek"} has kept that obligation since taking command. A cell that abandons cargo to bring its people home can receive another ship. Officers who conceal avoidable losses from their crews risk losing their commands.
+
+    Those protections stop at the cell's boundary. Coremark crews drive independent operators away from profitable working zones and have killed rivals who refused to leave. A mechanic can owe the company a rescued partner while a neighboring flotilla remembers a crew it murdered. The same captains enforce both practices.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Field Units"
     The syndicate operates as a tight federation of working units rather than a single unified hierarchy. Two unit types do most of the work that produces Coremark's revenue and Coremark's reputation. Both report up through regional captains to the Korvath leadership, but day-to-day operations are run at the unit level.
@@ -50,7 +54,7 @@ faction :coremark do
 
     A standard cell consists of a primary extraction rig, two support ships handling resonance shielding and salvage transport, and a forward survey vessel scouting working zones ahead of the rig. Crews run twenty to forty people across the cell, with the larger heavy-extraction cells reaching sixty. The cells operate from hidden stations scattered through the Shear's deeper pockets, rotating personnel on quarterly cycles back to Korvath or to fence-friendly surface settlements for rest, payment, and reassignment.
 
-    The cells produce ringglass at industrial volumes. The output is laundered through fence networks before it enters the legitimate market, and a significant fraction of the system's mid-grade ringglass supply originates in Coremark cells whether anyone wants to acknowledge this or not. The fence networks coordinate with the second unit type to move the material.
+    The cells produce ringglass at industrial volumes. Fence networks mix their output into legitimate purchases before it reaches ordinary buyers. A significant fraction of the system's mid-grade stock passes through those sales. A repair yard may know the seller and the measured quality of a cut while having no reliable account of the extraction that supplied it.
 
     Extraction cells will fight other crews that contest their working zones. They will not engage #{ref :shear_compact, "Shear Compact"} inspectors directly — Compact inspectors travel under standing protections that the syndicate's leadership has explicitly chosen not to violate — but cells will jam signals, falsify telemetry, and disappear into the Deep when Compact attention turns their way. The cells are professional. They will also kill an independent #{encyclopedia_ref :ratters, "Ratter"} crew that has stumbled into a Coremark working zone, and have done so often enough that experienced Deep-runners give known Coremark territory wide berth.
 
@@ -60,9 +64,11 @@ faction :coremark do
 
     A convoy unit consists of a route officer, a small fleet of cargo vessels (often disguised as legitimate haulers, sometimes openly Coremark in territory where openness is operationally cheap), and an armed escort element. The route officers are the strategic core; they hold the routing knowledge, the fence contacts at each waypoint, and the patterns of timing that keep convoys from being intercepted. A senior route officer's working knowledge is among the most valuable single assets in the syndicate.
 
-    The cargoes are predictable: laundered ringglass moving from extraction cells to legitimate buyers, #{ref :bloom_zones, "Bloom Zone"} relics moving from Coremark recovery operations to private collectors and the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"}'s gray-market consultants, #{encyclopedia_ref :duskgrain, "duskgrain"} moving from sources nobody on the syndicate side discusses to buyers who pay extraordinary prices and ask no questions. Volume on these last two is smaller than the ringglass flow and produces a disproportionate share of the syndicate's income.
+    Cargo includes laundered ringglass, #{ref :bloom_zones, "Bloom Zone"} relics destined for private collectors and the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"}'s gray-market consultants, and #{encyclopedia_ref :duskgrain}. Route officers separate a grain's source from its delivery instructions so a captured convoy cannot lead a cordon patrol back to the recovery crew. Relics and duskgrain occupy less hold space than ringglass and produce a disproportionate share of the syndicate's income.
 
-    Convoy routes use a network of hidden waystations, sympathetic ports, and fence-friendly surface settlements. The waystations are sometimes shared with extraction cells; the surface ports include several settlements whose civic leadership has, in some unrecorded conversation in the past, accepted that the syndicate's presence is a fact to be managed rather than fought. The #{ref :tempered_accord, "Tempered Accord"} has not formally challenged these arrangements. The Accord's signatories include some of the settlements in question. The conversation, if it ever happens, will be uncomfortable.
+    Convoys use hidden waystations, cooperative fences, and surface berths where local officials tolerate the business. Some waystations also shelter extraction cells between runs. On #{ref :korvath, "Korvath"}, the arrangement is visible at Duthrek's former freight-accounting floor: its public desks buy legal salvage and handle storage leases while the closed rooms assign criminal extraction zones and convoy movements. A carrier can receive payment for a lawful delivery at the same counter used by a syndicate captain.
+
+    Korvathi dock unions refuse suspect cargoes and port insurers have begun denying cover to freight houses that conceal their owners. Coremark responds by dividing work among smaller companies. Municipal officials who leave its public desks open still face demands to pursue the violence directed from the rooms behind them. Some of those municipalities participate in the #{ref :tempered_accord, "Tempered Accord"}; the Accord has not imposed one policy on their differing responses.
 
     The convoy units fight when they have to and avoid fights when they can. Their operational doctrine prioritizes route continuity over individual cargo defense — a lost cargo is a financial setback, a lost route is a structural injury. Convoys will abandon a contested cargo and re-route the next traffic before they will commit to a fight that risks exposing the route's structure.
 
@@ -107,7 +113,7 @@ end
 moment :coremark_disgraced, year: 2378, of: :coremark do
   summary "Coremark lost its legitimacy in 2378 after the overload at its Pyre refinery helped trigger the Silent Bloom."
   prose <<~PROSE
-    #{ref :pyre, "Pyre"} was theirs — a refinery whose overload helped trigger the #{ref :the_silent_bloom, "Silent Bloom"} cascade. One catastrophe they actually caused, and it was enough. The company was publicly disgraced; its operations were seized or boycotted as the scale of the negligence became clear.
+    The overload at Coremark's #{ref :pyre, "Pyre"} refinery helped trigger the #{ref :the_silent_bloom, "Silent Bloom"}. Evidence of accumulated safety failures led to seizures, boycotts, and the company's public disgrace. Its surviving crews and equipment passed into a much smaller network of tolerated and concealed operations.
   PROSE
   effects { set :coremark, standing: :disgraced }
 end
@@ -122,6 +128,6 @@ end
 
 moment :duthrek_takes_coremark, year: 2409, of: :coremark do
   summary "Duthrek took sole control of Coremark from Korvath in 2409."
-  prose "By 2409 the syndicate answered to a single leader — #{ref :duthrek, "Duthrek"} — running it mafia-style out of #{ref :korvath, "Korvath"}."
+  prose "By 2409 #{ref :duthrek, "Duthrek"} held sole command of the syndicate from #{ref :korvath, "Korvath"}, settling conflicts between its extraction captains and convoy officers."
   effects { set :duthrek, leads: :coremark }
 end

@@ -55,7 +55,7 @@ geographic_location :the_shear do
   prose <<~PROSE, section: :atmosphere, heading: "What It's Like"
     Debris. #{encyclopedia_ref :ringglass, "Ringglass"} fragments ranging from dust to structures the size of buildings, tumbling in unpredictable orbits. The resonance environment is distorted — ambient frequencies spike, cancel, and interfere in patterns that #{encyclopedia_ref :resonant_tuner, "Tuners"} describe as painful noise and instruments describe as garbage data. Navigation relies on specialized equipment designed to filter the interference, and on pilots who've learned to read the Shear's moods.
 
-    Ships operating in the Shear are purpose-built or heavily modified. The technology is well-developed at this point — generations of refinement — but "well-developed" means "mature enough to be accessible," not "safe." The technology is mature enough to be standard equipment — ships built for the Shear come ready. The Shear kills the careless and the unlucky, not the unprepared.
+    Ships built for Shear work carry debris tracking, resonance filters, and reinforced pressure shells as standard equipment. Older vessels acquire the same fittings in salvage yards. A crew can buy a capable ship and still lose it to a fragment below the tracker's resolution or a spike that passes through exhausted filters. Pilots learn to leave enough room to turn when an apparently clear gap begins closing.
 
     The deeper you go — pockets of Shear far from any hab, where debris density is highest and the resonance distortion is worst — the stranger it gets. #{ref :deep_shear, "Deep Shear"} is where the environment becomes genuinely alien: spatial relationships bend, distances don't behave, and things live there that don't live anywhere else.
   PROSE
@@ -82,7 +82,7 @@ geographic_location :the_shear do
   prose <<~PROSE, section: :dangers, heading: "Weather"
     The Shear has patterns, though calling them "weather" stretches the term. #{encyclopedia_ref :glassfall_showers, "Glassfall showers"} are periodic cascades of fine debris that increase collision risk across wide areas. Resonance tides are cyclical shifts in the ambient distortion that make some regions navigable on some days and lethal on others. Drift events are large debris masses changing orbit, reshaping the Shear's geography over weeks or months.
 
-    Crews track these the way surface settlers track storms. The #{ref :shear_compact, "Shear Compact"} maintains a forecasting service. It is frequently wrong, which everyone knows, and indispensable, which everyone also knows.
+    Crews track these the way surface settlers track storms. The #{ref :shear_compact, "Shear Compact"} combines sightings into a common forecast. A pilot compares its predicted clearances with the ship's own returns; local drift can close a gap before the next bulletin reaches the branch.
   PROSE
   prose <<~PROSE, section: :people, heading: "Permanent Presence"
     Most people who enter the Shear leave the same day. But some stay.
@@ -99,13 +99,13 @@ geographic_location :the_shear do
     #{ref :bloom_zones, "Bloom Zones"} are reality tears caused by the #{ref :the_silent_bloom, "Silent Bloom"} and require active containment. Spatial distortion alone does not distinguish them from every other orbital condition: distances also behave strangely in Deep Shear. Crews compare a bad reading with the known conditions of the route when deciding whether to change course or alert the Council.
   PROSE
 
-  gm_note :appears, "Any crossing between habs threads gaps in the debris, and what tells a pilot whether this season's gap is still open is the #{ref :shear_compact} forecasting service, which everyone knows to be frequently wrong and carries anyway."
+  gm_note :appears, "A crossing through the Shear begins with a charted gap and a current #{ref :shear_compact} forecast. A debris return inside the predicted clearance makes the pilot slow, sound the opening again, or take a longer branch."
   gm_note :triggered_by, "Investigating a bad reading means comparing it with the route's known behavior. Deep Shear already alters distances; a change beyond the crew's experience leaves them choosing between a detour, further observation and a Council alert."
   gm_note :complicates, "A spike that overwhelms a ship's filters destabilizes its ringglass-integrated components and can carry sympathetic failure into the vessel's own crystal systems, and gnome crew are the most vulnerable aboard."
 end
 
 relate :rel_shear_in_orbit_of_kaleidos, :in_orbit_of, :the_shear, :kaleidos do
-  prose "The Shear hangs in #{ref :kaleidos, "Kaleidos"}'s orbit, a turbulent band of wreckage and distorted resonance riding the same lanes the ring once occupied."
+  prose "The Shear occupies pockets between and around the inhabited ring fragments in #{ref :kaleidos, "Kaleidos"}'s orbit."
 end
 relate :rel_shear_part_of_glass_frontier, :part_of, :the_shear, :the_glass_frontier do
   prose "The Shear fills the debris-laden reaches between the inhabited fragments of #{ref :the_glass_frontier, "the Glass Frontier"}."

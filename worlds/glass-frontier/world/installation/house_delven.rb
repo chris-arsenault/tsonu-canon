@@ -13,7 +13,9 @@ installation :house_delven do
 
     Marked positions now surround the instrument. From some, a second telescope reveals streets between the lights. The wrights copy the signals made from each street on separate sheets because different correspondents sometimes interrupt one another. Ordinary customers bring objects they hope to show through the glass and remain to help shade a lamp.
 
-    The wrights have fitted a low-powered #{encyclopedia_ref :savrel} beside the experiment. Apprentices test its wheels on the workshop wall before directing them through the lens. A customer waiting for a repaired instrument has begun making a new wheel after noticing that two supposedly different signals cast the same shape at one viewing angle.
+    The wrights have fitted a low-powered #{encyclopedia_ref :savrel} beside the experiment. Two correspondents who appeared to be giving different answers cast the same shape when the lamp was viewed from the far end of the bench. Rotating a slotted wheel through that angle produced a reply from both streets. The wrights have kept the wheel beside the lamp, where a waiting customer can try the exchange without learning either correspondent's full sequence of flashes.
+
+    Visiting #{encyclopedia_ref :suralier, "suraliers"} collect flawed glass from the grinding bench for their own instruments. One has stretched a discarded image across the counter so that a figure in the far street can walk beside a full-sized hand. The figure stops at each fingertip. A wright holds the lamp steady while customers put objects between the fingers; the figure has already stepped over a lens cap and walked around a cup's shadow.
 
     Instructions from one correspondent produced a chain of mirrors across the workshop. The #{ref :uncrossed_visitor, "Uncrossed Visitor"} has been seen walking through their reflections without appearing between the benches. The wrights leave the route clear, but the final mirror stands beside the repair counter, where visitors instinctively turn it to see their own faces. A figure behind the reflected doorway has begun gesturing for that mirror to stay uncovered.
   PROSE

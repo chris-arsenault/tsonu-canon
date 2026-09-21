@@ -389,10 +389,10 @@ naming_lexicon do
        use: "Use for the pigment, its cakes and paints, including exhausted decorative stock.",
        examples: ["Thavren", "thavren paint"],
        boundary: "Records crossed thermal thresholds after calibration; it supplies neither dates nor a general history of an object."
-  word :ulren,
+  word :esken,
        meaning: "Ithara's rescue enclosure with overlapping rigid petals, separate pressure support and treatment gloves.",
-       use: "Use for complete enclosures and their fitted petals or caps; ulrens is the plural.",
-       examples: ["Ulren", "ulren petal"],
+       use: "Use for complete enclosures and their fitted petals or caps; eskens is the plural.",
+       examples: ["Esken", "esken petal"],
        boundary: "The enclosing rescue shell, not all stretchers, suits or pressure shelters."
   word :unfolder,
        meaning: "A Lithren keeper who brings dormant recovered organisms into active growth and sustains their descendants.",

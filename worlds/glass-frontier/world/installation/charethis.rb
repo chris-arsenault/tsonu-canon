@@ -8,7 +8,7 @@ installation :charethis do
   tags :surface, :danger, :military, :subject_planetary_life
   descriptive_identity setting: "Glass-floored galleries project above cloud-filled ravines, with captured craft suspended nose-down beneath the terraces.", activity: "A raider household entertains visitors, maintains its trophies and takes favorite vessels out hunting.", access: "Pleasure craft use guarded upper platforms; waterfalls conceal ledges along the shaded cliff.", hazards: "Hunting animals occupy the roof garden, guards see movement through glass floors and released craft fall before they can level out."
   prose <<~PROSE
-    Charethis occupies a mountaintop retreat in the #{ref :kyther_range}. Its #{ref :charethis_household, "household"} has turned the terraces into a display of captured craft. Each vessel hangs beneath a separate gallery. Removed weapons decorate the inner rooms; the engines remain maintained, and favored prizes still leave on raids.
+    Charethis occupies a mountaintop retreat in the #{ref :kyther_range}. #{ref :charethis_household, "Ordan Vesh"}'s household has turned the terraces into a display of captured craft. Each vessel hangs beneath a separate gallery. Removed weapons decorate the inner rooms; the engines remain maintained, and favored prizes still leave on raids.
 
     Pleasure craft bring visitors to closely watched upper platforms. Below, decorative waterfalls descend between terraces and conceal ledges on the shaded cliff. The warmed roof garden contains imported #{encyclopedia_ref :oshret, "oshrets"} among planted rock shelves. Feeding runs pass behind suspended mesh, keeping the household's own servants off the stone the animals hunt across.
 

@@ -7,6 +7,7 @@ installation :cold_lantern do
   status :complete
   tags :orbital, :transport, :salvage, :navigation, :danger, :subject_journeys_trade
   prominence :marginal
+  log "2026-09-21 — Kept the beacon's defenses at the documented species level; no encounter establishes a resonance connection with the particular Empty Bearing."
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.18, angle_offset_deg: -96
 
@@ -51,6 +52,8 @@ installation :cold_lantern do
     The line locker opens from outside. It contains tow loops, hull patches, an iron predator decoy, and a reel long enough to connect the shelter to a disabled craft holding nearby. Every item carries a return tag. Using one places its replacement cost on the next Assembly yard account; no approval is needed during distress.
 
     The beacon sits at the end of a breakaway spar. If its active tone draws a hazard, the shelter can release the whole assembly and let it continue transmitting away from the frame.
+
+    Rescue crews have begun bringing Itharan #{encyclopedia_ref :esken, "esken shells"} on the approach. Their hand pumps, mechanical pressure gauges, and preheated cartridges let a casualty remain enclosed while the rescuing vessel keeps its drive cold. The narrow shell fits through the shelter door with its pump handle folded. A broader workshop model must return to a rescue vessel with a hatch wide enough to admit it; the petals remain closed until the shell is inside a pressurized compartment.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "The Last Common Record"
@@ -77,8 +80,8 @@ installation :cold_lantern do
 
   gm_note :appears, "Outbound crews stop to press a route strip carrying the vessel name, intended branch, people aboard, and reserve. " \
                     "Skipping it keeps a private claim off the shared record and removes the one document that would tell a rescue lead which branch to search."
-  gm_note :triggered_by, "Lighting the beacon calls every Assembly ship on the current rescue watch and tells anything hunting in the Deep where the waypoint is. " \
-                         "It takes breaking a physical starter seal, so the call cannot afterwards be blamed on a fault."
+  gm_note :triggered_by, "Lighting the beacon calls every Assembly ship on the current rescue watch and exposes the waypoint to field-hunting predators. " \
+                         "The starter seal breaks when the caller operates it; if something follows the pulse, occupants can release the transmitting spar away from the shelter."
   gm_note :complicates, "The passive recorder already carries the three-pulse distress pattern from beyond the sealed Pell array, with the answering tone of " \
                         "#{ref :quiet_measure, "*Quiet Measure*"} written beneath it on two strips. Writing a branch onto that strip puts the route on the same record."
 end
@@ -97,7 +100,4 @@ relate :rel_quiet_measure_operates_cold_lantern, :operates_in, :quiet_measure, :
 end
 relate :rel_cold_lantern_resonates_echo_strip, :resonates_with, :cold_lantern, :answering_strips do
   prose "Crews exchange route declarations through echo strips pressed to the passive recorder."
-end
-relate :rel_cold_lantern_resonates_empty_bearing, :resonates_with, :cold_lantern, :empty_bearing do
-  prose "The breakaway beacon varies its call and carries the signal away if a predator follows it."
 end

@@ -1,8 +1,9 @@
 # Technology Atlas and Encyclopedia Review Ledger
 
-Status: technology extraction complete. Resource is the next unresolved
-category. This file records the technology boundary and its measured Atlas
-effect; it is not a queue for new technology authoring.
+Historical migration ledger. Technology and the subsequent resource extraction
+are complete and committed in `26ef4ae`. Counts and focus findings below are
+the technology checkpoint; the later phenomenon ledger records the completed
+extraction's verification. This is not a current authoring queue.
 
 ## Boundary now in force
 
@@ -10,7 +11,7 @@ effect; it is not a queue for new technology authoring.
   in the Encyclopedia.
 - A named machine, vessel, instrument, record set, or historical event lives
   in the Atlas.
-- A named Atlas instance declares its reusable class with `type_of`. Additional
+- A named Atlas instance may declare its reusable class with `type_of`. Additional
   reusable classifications use `belongs_to` or a kind shorthand such as
   `technology`. Neither declaration creates an Atlas graph edge.
 - Ordinary prose names a reusable technology with `encyclopedia_ref`; Atlas

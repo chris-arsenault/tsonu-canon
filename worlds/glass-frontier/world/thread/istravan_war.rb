@@ -1,9 +1,10 @@
 thread :istravan_war do
   tags :subject_istrava
   name "The Istravan War"
-  summary "Istrava's history of chosen protection leads into Aren's pursuit of the Red Sovereign, a regional war and resistance to the tyranny foretold after liberation."
+  summary "Istrava's defense league has become an instrument of occupation under Aren Talivar; resistance divides over a prophecy some read as a second tyranny after liberation."
   subkind :story_thread
   status :complete
+  log "2026-09-21 — Kept the crown's meaning disputed in the thread summary, consistent with Talessar's observed image and prevented earlier casualty. Regional scale follows the active fronts and distant responses rather than a forecast of another system war."
 
   prose <<~PROSE, section: :history, heading: "A Defense People Chose"
     In 2398 #{ref :sava_neraleth, "Sava Neraleth"} joined coastal defenses and refuges into the #{ref :istravan_league, "Istravan League"}. The Bitter Reach tested those commitments. The #{ref :velisar_evacuation, "2418 evacuation"} saved households and made lasting connections with #{ref :sereva, "Sereva"}. #{ref :veska_ral, "Veska Ral"} died when its completed purpose released the cost into her.
@@ -39,9 +40,9 @@ thread :istravan_war do
   PROSE
 
   prose <<~PROSE, section: :implications, heading: "A Regional War After Peace"
-    The Istravan War is large enough to involve a substantial part of Korvath and its orbital approaches, but it is not a second Bitter Reach. Most of the planet continues ordinary work. Most people on Kaleidos hear about the fighting through freight delays, arguments over intervention and occasional reports of a blockade or bombardment threat; they do not expect their own homes to be attacked.
+    The fronts extend from Velisar's coast through the uplands to the ships outside Theskar. Family appeals carry news of the fighting to distant settlements whose residents still expect their own peace to hold.
 
-    The omen has drawn readers and would-be claimants from beyond Korvath. Their arrival has not brought their home worlds' armies with them. Most households elsewhere can follow the disputed pictures without feeling threatened by the guns that enforce Aren's rule.
+    Esvar readers and would-be claimants arrive on ordinary passenger ships. Some bring copies of a crown image changed in a distant household; others have only a conviction that they could bear the office better than Aren. Local rescuers must decide whether to spend a scarce passage on them. The guns at Savren and the captives behind them give those decisions consequences that a distant reading can leave out.
   PROSE
 
 

@@ -1,5 +1,9 @@
 # Connect the three story loci
 
+Complete. The authored result and checkpoint checks are in
+[SHARED-CIVILIZATION-REVIEW.md](SHARED-CIVILIZATION-REVIEW.md); the work is
+committed in `6dfe576`. The scope below records the approved plan.
+
 ## Objective
 
 Make Bloom/Shear, Lithren and Istrava recognizably part of a shared civilization.
@@ -8,8 +12,7 @@ the main connections. Develop three optional adventures through those contacts.
 Each locus must continue to support independent campaigns and ordinary lives.
 
 Sulion plan: `fd31b6ce-7f90-4ca1-8674-be4d91a443f9`.
-Phase status belongs to that plan. The proposals below become canon only through
-the authoring phases.
+All phases are complete; the canonical entries own the resulting facts.
 
 ## Scope
 

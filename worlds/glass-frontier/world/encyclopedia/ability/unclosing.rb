@@ -29,6 +29,6 @@ encyclopedia :unclosing do
   prose <<~PROSE, section: :aftermath, heading: "Where the Working Goes"
     The interrupted effect leaves through its original medium and the practitioner's body. Structural work arrives as pressure in the bones, kinetic work as heat and involuntary motion, and signal work as voices, light, or meaningless data across the senses. Stored charge remains in the source and may discharge according to the device or structure that held it.
 
-    #{encyclopedia_ref :stilling, "Stilling"} suppresses the signal band across a room while a practitioner maintains the hold. #{encyclopedia_ref :unmaking, "Unmaking"} destroys a physical subject's coherence. Unclosing does neither: it interrupts one broad working and leaves its source ready to be repaired or restarted.
+    A stopped device can be repaired and tuned again. A hostile operator still able to reach its controls can restart it while the practitioner is recovering. #{encyclopedia_ref :stilling, "Stilling"} can hold a room's signal band suppressed for as long as its practitioner maintains the work; #{encyclopedia_ref :unmaking, "Unmaking"} instead destroys the physical subject's coherence.
   PROSE
 end
