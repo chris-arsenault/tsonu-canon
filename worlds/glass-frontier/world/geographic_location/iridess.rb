@@ -27,6 +27,9 @@ geographic_location :iridess do
 
     Farther into the old canopy, #{encyclopedia_ref :akhul} crowns hang across several trees. One now draws its roots toward a gap opened by a fallen trunk, slowly withdrawing a crossing used by two shelters. Their occupants have fastened a replacement line and disagree about binding the moving root. #{ref :ilvaren} keepers are tending a returned young crown nearby. Its first ripe #{encyclopedia_ref :ineth} nodules have drawn offers from both a physician and a collector who wants the whole plant moved to Velisar.
   PROSE
+  prose <<~PROSE, section: :biology, heading: "The Fallen Crop"
+    #{encyclopedia_ref :thesset} has climbed through a fallen crown beside one of the cool streams. Unsleeved pods spray the crossing with ripe pulp. Camp residents gather the fruit while hungry gliders wait above them; the strong scent now marks that concealed crossing more clearly than its footprints do.
+  PROSE
   prose <<~PROSE, section: :history, heading: "Under the Canopy"
     During the fighting of 2416, families from Naloven hid beneath the trees while #{ref :edrath, "Edrath"} held the ridge. People scratched the names of missing relatives into trunks beside the cold streams. Swollen bark has almost closed some letters; households recut others on each visit. Members of #{ref :ulaven, "Ulaven"} bring relatives back to them and still search for weapons abandoned during the retreat.
 

@@ -14,6 +14,8 @@ geographic_location :tavresh do
 
     The towers offer cover to smaller craft. Thin partitions separate some halls, allowing cutters to open a way behind a pursuer or leave a noisy decoy on the other side. Transit tunnels restrict the raider's weapons. Downward ridges beneath the ice leave vessels too little room to climb or turn; divers have reached trapped hulls from above while their crews were still reversing.
 
+    #{encyclopedia_ref :uthrel} occupy narrow windows and ducts along the sheltered approaches. Divers look for pale jaw skins before entering. One abandoned lifting hose ends beneath a hunter's recess, its bright coupling visible among the shells; the party that lost it has begun testing another entrance instead of reaching straight for the equipment.
+
     #{ref :prismwell_kite_guild} crews land rescue and survey flights on the firm shore approaches. Armed submersibles arrive beside much poorer expeditions using lifting bags and rented cutting tools. Most promising rooms admit only a diver, however large the vessel waiting above them.
   PROSE
   gm_note :appears, "A lifting bag stops rising between the tower roofs. Beneath it, a damaged drive begins the vibration survivors know from earlier attacks."

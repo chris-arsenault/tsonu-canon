@@ -13,6 +13,9 @@ installation :house_tereval do
 
     Garden dances fill the lower terraces. Performers from the #{ref :veyr_company, "Veyr Company"} compete for invitations, and collectors examine objects offered in the surrounding rooms. Servants roll shutters over each alcove during a musical set, giving bidders time to consider what they have seen while mingling with rival buyers.
   PROSE
+  prose <<~PROSE, section: :culture, heading: "The Borrowed Faces"
+    The household keeps its #{encyclopedia_ref :varashi} wardrobe beside the lower terrace. Repaired screens hang with small pots of wax carrying different #{encyclopedia_ref :thesset_oil} blends. A dancer borrowing an absent guest's screen may be recognized first by its scent. The youngest household members grow #{encyclopedia_ref :thesset} along the balcony supports and sleeve the ripe pods before an evening gathering.
+  PROSE
   prose <<~PROSE, section: :history, heading: "A House That Received People"
     During the #{ref :velisar_evacuation, "evacuation of 2418"}, the owners opened their covered walks to wounded arrivals. Several #{ref :sereva, "Serevan"} families still visit the room where their relatives waited. A family can therefore arrive expecting old hospitality and find officers of the occupying league dining beside its host.
 

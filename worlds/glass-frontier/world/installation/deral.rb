@@ -25,6 +25,9 @@ installation :deral do
 
     Serevan volunteers have brought armor to the ridge and joined the practice crossings. Detha visited to meet recalled soldiers and left them a contact among their former crew in Velisar. They are preparing their own descents while she continues trying to reach the people held in the city.
   PROSE
+  prose <<~PROSE, section: :geography, heading: "Moving Lights"
+    #{encyclopedia_ref :sural_wandering} displaces the refuge's lamps when warm seep water crosses the broad crystal faces. Miners have hung a cord across one direct sightline so arriving rescuers can distinguish the real platform edge from its drifting image. A hunter's apparent shield sometimes crosses that cord before the animal itself reaches it.
+  PROSE
   prose <<~PROSE, section: :resources, heading: "Vath in the Wall"
     The uncut face called #{ref :vath, "Vath"} lies beneath the lowest occupied platform. A partly completed extraction groove gives egg collectors a route toward the nesting shelves. The trapped workers have hung a battered pan over its entrance: striking it draws animals away from a person crossing above.
 

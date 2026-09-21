@@ -23,6 +23,9 @@ encyclopedia :echoing do
 
     Signal-bearing material keeps the cleanest echoes. Ringglass, old alloys, recording substrates, and surfaces joined to active arrays may retain several breaths. Ordinary stone or cloth keeps less, and repeated handling writes over what came before. The practitioner chooses sight, sound, or pressure before touching the surface and cannot change senses during the replay.
   PROSE
+  prose <<~PROSE, section: :present_day, heading: "Recent Voices and Light"
+    At #{ref :heskar_dome}, visitors have set a small ringglass plate beside the signaling instrument to catch recent light. Echoing helps compare a disputed flash with the hand-drawn record before later light overwrites it. The plate can preserve what reached that spot without identifying the correspondent or showing a place beyond the telescope. At #{ref :veyr}, performers use the same spell on a prepared stage plate to rehear a final note while its sensation overlaps the next live voice.
+  PROSE
   prose <<~PROSE, section: :limits, heading: "One Impression"
     Echoing returns a fragment rather than an account. A hand on a rail may feel a running impact without learning who ran, why they fled, or where they went after letting go. Present sensation continues beneath the replay, making a loud echo dangerous beside moving machinery or an active fight.
 

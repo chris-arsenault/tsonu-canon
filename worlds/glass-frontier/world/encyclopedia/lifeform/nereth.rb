@@ -17,6 +17,10 @@ encyclopedia :nereth do
     A nereth pressed closely by a swimmer flattens its feet and rolls toward the disturbance. Keepers examining a stranded animal support the outer growth before touching its skin. Cutting a deeply embedded object free can open living channels inside the back; collectors instead seek loose fragments or follow an animal toward the place where it acquired them.
   PROSE
   cue "A branching shape under the ice rises on spreading feet, trailing weed from a metal fitting."
+  prose <<~PROSE
+    #{encyclopedia_ref :othri} raise young inside some back growth, turning a carried fragment into an occupied nursery. At #{ref :lake_othrel}, fishers distinguish those nurseries by the adults' coordinated rushes. A nereth can tolerate a person near its back while the fish attack the hand reaching into it. Shed branches kept underwater can carry the nursery into a shore pool, where the adult fish continue guarding it after their former host has moved away.
+  PROSE
+  cue "Silver fish rush from a carried handle while the grazer beneath them keeps feeding."
   cue "A worn back branch comes loose against a submerged lintel, exposing wet channels inside the growth."
   affordance "An identifiable fragment carried by a grazer can lead divers toward a submerged building."
   variation "Young animals carry mostly weed, gravel and small shells."

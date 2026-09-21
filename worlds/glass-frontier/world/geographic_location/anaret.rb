@@ -33,6 +33,9 @@ geographic_location :anaret do
 
     The modern shelters are joined by an enclosed heated service sleeve laid behind an older wall. #{ref :twelve, "Twelve"}, an escaped ship-kept hunter, carries food through it between rooms whose occupants cannot safely cross the open court. Its route is narrow and low, with panels that could admit a crawling person. A humming tail warns people to clear its habitual leap across the upper shelter.
   PROSE
+  prose <<~PROSE, section: :people, heading: "The Borrowed Enclosure"
+    The treatment shelter has a shared #{encyclopedia_ref :ulren} with one dented side petal. Its keepers have tested the closure and marked the narrowest turn on the way to Ysil's cut. A person inside can survive the exposed crossing, but the enclosure must be tilted through that turn. Companions practice with ballast while people waiting for treatment watch from the canopy.
+  PROSE
   prose <<~PROSE, section: :present_day, heading: "The Recoverable District"
     #{ref :eris_talven, "Eris Talven"} and #{ref :nereth_valis, "Nereth Valis"} have compared a state in which the freight descent, Eneth's deck and the adjoining workshops stood together. Surviving foundations fix their positions. Retained fittings establish the old worn saddle at Eneth and a cracked optical mount in Lethai. Those flaws belong to the supported state and would return with it.
 

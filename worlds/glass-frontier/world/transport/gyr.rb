@@ -2,6 +2,7 @@ transport :gyr do
   name "Gyr"
   summary "Gyr is the Caldris Titleholders' racing skiff, carrying concealed short-range weapons and a grapple used for boarding rivals."
   subkind :vessel
+  type_of :caldris_skiff
   status :complete
   prominence :marginal
   tags :transport, :danger, :subject_hab_life

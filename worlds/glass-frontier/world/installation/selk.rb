@@ -12,6 +12,8 @@ installation :selk do
 
     Companions sit beside the pool, repeating the pilgrim's words and checking them against instruments above. Their drawings mark watercourses and chambers later reached on foot. Former pilgrims recognize particular animals by movements and favored feeding grounds. Hunger or fear can pull a journey away from the place the pilgrim hoped to find.
 
+    The trained #{encyclopedia_ref :enuli_companion, "enuli companions"} include orchard residents and people who first came as pilgrims. One attendant works regularly with a traveler who describes moving bodies as folds of pressure. Their shared drawings are unusually precise, but a substitute companion mistook the same words for a description of flowing water. The pair now demonstrates the differences beside the visible pool before attempting another descent.
+
     #{ref :seren} exchanges garden stock with Selk and keeps observations supplied by its animal keepers. Accounts of the #{ref :below_selk_messages, "Below-Selk Messages"} now accompany those exchanges. Several pilgrims have sensed the same inhabited chamber beneath the hab, where people approach an animal, feed it and fasten objects to its body. No surveyed passage reaches that room.
   PROSE
   gm_note :triggered_by, "A pilgrim describing the orchard as branching pulses can abruptly fall silent when the animal turns toward a dense moving presence beneath the roots. Their surface companion still sees an empty path."

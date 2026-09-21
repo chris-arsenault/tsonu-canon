@@ -15,6 +15,8 @@ installation :vell do
     Guests invite companions home through passages that ordinarily end in cupboards. Returned companions bring small objects and incompatible accounts of distance. Hosts keep an ensemble playing until everyone expected has returned. Separated objects borrowed together sometimes retain a connection; two households keep the #{ref :vell_pair, "Vell Pair"} on opposite sides of the hab.
 
     The #{ref :osrin_helm, "Osrin Helm"} has appeared on a guest who says it came from elsewhere. No household recognizes it among their offerings.
+
+    Experienced #{encyclopedia_ref :vell_host, "hosts"} help arrivals fit the bodies offered through #{encyclopedia_ref :vell_giving}. One household has set out its late grandmother's chair beside several new instruments. A returning partner wants the chair's familiar back but finds its repaired legs awkward; the relatives have begun offering different supports while keeping the musicians playing.
   PROSE
   gm_note :triggered_by, "When a musician falters while a companion is away, another host begins the same phrase from the adjoining room. The visible passage narrows until the phrases overlap."
   log "2026-09-21 — Encoded proposal 9 with convivial household practice and an unresolved particular helmet. Local destination outside starting-location coverage."

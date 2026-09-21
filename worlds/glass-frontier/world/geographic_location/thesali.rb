@@ -8,7 +8,9 @@ geographic_location :thesali do
   tags :surface, :ecology, :mystery, :subject_planetary_life
   descriptive_identity setting: "Fruit trees lean across warm hollows; harvest ladders descend below the surrounding ground.", activity: "Families gather pale fruit from sunken trees and sound the wells for a sleeping animal's breath.", hazards: "A familiar underground route can close beneath a turning flank."
   prose <<~PROSE
-    Thesali occupies a green hollow between the stone shelves of eastern #{ref :avar}. Orchard families sell its sharp yellow fruit in #{ref :ladderwell}, including a pale underground crop brought up in padded baskets. Trees that sink beside #{ref :ommur} continue bearing below the surface. Their roots hang through older ceilings, thick with fruit that bruises at a touch.
+    Thesali occupies a green hollow between the stone shelves of eastern #{ref :avar}. Orchard families sell its sharp yellow #{encyclopedia_ref :velori} fruit in #{ref :ladderwell}, including a pale underground crop brought up in padded baskets. Trees that sink beside #{ref :ommur} continue bearing below the surface. Their roots hang through older ceilings, thick with fruit that bruises at a touch.
+
+    Pickers protect the leafy crowns still reaching daylight above the hollows. One crowded approach now passes a tree whose exposed fruiting roots hold the ceiling together. Its growers have moved their harvest ladder to leave those roots untouched; people examining the deeper doorway must climb around the waiting baskets.
 
     The families lower ladders beside the animal's resting places. Warm earth and the slow rise and fall of water in the wells reveal where it lies. Its seasonal circuit diverts springs through the orchard, exposing broken rooms, buried doorways and stretches of pavement beneath the roots. Firm walls carry charcoal marks; ropes hang down the steepest passages. A mark can survive after the floor beneath it has gone.
 

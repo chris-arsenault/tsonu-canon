@@ -15,6 +15,8 @@ installation :charethis do
     Glass floors let guards follow movement in the gallery above them. Working weapons hang beside valuable trophies in the inner rooms. Pursuit craft wait on a launch terrace with a clear drop into the clouded ravines.
 
     The newest prize, #{ref :velisse}, remains loaded and fueled in a nose-down berth. Its suspension clamps open from separated balconies. Released there, a vessel drops below the terrace before it has room to level out. The household's pilots practice the maneuver in empty berths; the courier has yet to make it under its captured load.
+
+    Pilots call the maneuver the #{encyclopedia_ref :kyther_drop}. Their practice ballast waits beside the launch terrace, while the captured courier's hold remains packed in a different arrangement. The shaded cliff offers grips for #{encyclopedia_ref :orvek, "orveks"}, though running water has left several promising edges too slick for the household's soft-padded sets.
   PROSE
   gm_note :complicates, "An attack sends pilots toward the prized vessels and guards into their galleries. The shaded cliff receives less attention while engines begin turning beneath the terraces."
   log "2026-09-21 — Encoded proposal 16 through cliff access, sightlines and captured vessels. Local destination outside starting-location coverage."

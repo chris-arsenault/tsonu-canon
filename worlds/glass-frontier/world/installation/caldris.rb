@@ -12,6 +12,10 @@ installation :caldris do
 
     Sprint heats, long circuits and paired races use different wings. A ceremonial staircase cuts across the central course, but its landings leave little room to turn. Two skiffs fit abreast through the conservatory arch only with their kinetic steering vanes retracted. Grapples recover crippled racers and also pull rivals close enough to board.
 
+    Visiting teams rebuild #{encyclopedia_ref :caldris_skiff, "Caldris skiffs"} in the surrounding berths. One crew has turned a wreck's rear seat into room for a rescued passenger, then brought it back to race. Its pilot now practices with a companion moving between the marked ballast positions to learn how that wider opening changed the hull's response.
+
+    Mechanics demonstrate #{encyclopedia_ref :unclosing} on a restrained practice vane, letting newcomers feel the kinetic tremor left by interrupting its broad tuning. Crews interested in using the spell during a race must still reach the working's boundary while both vessels are moving. Losing a steering effect leaves the hull traveling toward whatever was already ahead of it.
+
     The final stretch crosses the palace exterior. A pilot can see the finish through several intervening rooms and may try a weak wall instead of the established opening. Torn edges left by such shortcuts catch the next hull through. Practice crews share recordings, though some omit the turn on which a new route depends.
 
     The next meet offers #{ref :ask_again}, restored with help from #{ref :prismwell_kite_guild} mechanics. The #{ref :caldris_titleholders, "Caldris Titleholders"} have fitted concealed weapons to defend their standing. Rivals examine damaged hulls after every practice run, and several now carry weapons openly.

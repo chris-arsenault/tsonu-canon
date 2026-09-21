@@ -374,15 +374,115 @@ schema do
 end
 
 naming_lexicon do
+  word :emri,
+       meaning: "Lithren's small scavenger that carries mineral grains in transparent cheek pouches and builds cemented egg chambers.",
+       use: "Use for the animal, its nests and cultivated families; emri is also the plural.",
+       examples: ["Emri", "emri nest"],
+       boundary: "Requires a damp pressurized habitat; the name does not cover other mineral-building organisms."
+  word :avreth,
+       meaning: "Lithren's fungal threadwork that builds hollow mineral cones in damp enclosed cavities.",
+       use: "Use for the growth and its cones, beds and cultivated colonies.",
+       examples: ["Avreth", "avreth cones"],
+       boundary: "The living threads and their mineral structures, not every whistling object or ancient fungus."
+  word :thavren,
+       meaning: "Recovered Lithren ceramic pigment whose differently fired grains change color at distinct temperatures.",
+       use: "Use for the pigment, its cakes and paints, including exhausted decorative stock.",
+       examples: ["Thavren", "thavren paint"],
+       boundary: "Records crossed thermal thresholds after calibration; it supplies neither dates nor a general history of an object."
+  word :ulren,
+       meaning: "Ithara's rescue enclosure with overlapping rigid petals, separate pressure support and treatment gloves.",
+       use: "Use for complete enclosures and their fitted petals or caps; ulrens is the plural.",
+       examples: ["Ulren", "ulren petal"],
+       boundary: "The enclosing rescue shell, not all stretchers, suits or pressure shelters."
+  word :unfolder,
+       meaning: "A Lithren keeper who brings dormant recovered organisms into active growth and sustains their descendants.",
+       use: "Use for the profession and its practitioners across independent collections.",
+       examples: ["Unfolder", "field unfolder", "household unfolder"],
+       boundary: "Requires work with recovered living stock; ordinary gardeners and all expedition researchers are not unfolders."
+  word :nelvar,
+       meaning: "A Lithren pressure-pocket eruption that carries gas, frozen brine and loose mineral into the thin atmosphere.",
+       use: "Use for the eruption and its vents or deposits.",
+       examples: ["Nelvar", "nelvar deposit"],
+       boundary: "A pressure release, distinct from hesh's slower lifting covers and from unrelated thermal plumes."
+  word :second_supper,
+       meaning: "Itharan homecoming meals organized around objects brought back by returning travelers.",
+       use: "Use for household and public enactments of this custom.",
+       examples: ["Second Supper", "a crew's second supper"],
+       boundary: "The returner's shared showing and meal, not every late meal or commercial sale."
+  word :thesset,
+       meaning: "Korvath's fruiting climber whose swelling pods release seeds and aromatic pulp through a parted stem.",
+       use: "Use for the plant, its fruit and derived oil; thesset is also the plural.",
+       examples: ["Thesset", "Thesset Oil", "thesset mask wax"],
+       boundary: "This climber and its products, not a general orchard crop or all scented preparations."
+  word :irul,
+       meaning: "Korvathi soft-bodied swimmers with reflective combed fins and dark red stomachs concealing luminous prey.",
+       use: "Use for the animal and its young or adult groups; irul is also the plural.",
+       examples: ["Irul", "irul pool"],
+       boundary: "Its visible colors depend on supplied light; it is distinct from animals that produce their own light."
+  word :varashi,
+       meaning: "Istravan shared wardrobes and dances in which borrowed face screens carry scent, performances and remembered relationships.",
+       use: "Use for the tradition, its wardrobes and its household or estate dances.",
+       examples: ["Varashi", "varashi wardrobe"],
+       boundary: "Not every masked gathering; exchanges of remembered screens and their accompanying performances distinguish it."
+  word :velori,
+       meaning: "Avar orchard trees bearing firm crown fruit and delicate pale fruit on roots exposed to humid air.",
+       use: "Use for the trees and their surface or root crops; velori is also the plural.",
+       examples: ["Velori", "velori root fruit"],
+       boundary: "The underground crop still depends on a living leafy crown; the name does not imply independent dark photosynthesis."
+  word :drail,
+       meaning: "The reservoir hab whose aerial dances developed tactile ribbons and turns across changes in gravity.",
+       use: "Use for the place and practices or equipment demonstrably derived from its dance tradition.",
+       examples: ["Drail", "Drail Ribbon", "Drail Turn"],
+       boundary: "Other acrobatics and hab textiles do not acquire the name merely through resemblance."
+  word :ilath,
+       meaning: "Kyther journeys carrying an unfinished image that acquires additions from people met along the way.",
+       use: "Use for the tradition, drawings and journeys that follow it.",
+       examples: ["Ilath", "ilath drawing"],
+       boundary: "Can accompany a vision search but does not establish that the first image predicts a future."
+  word :orvek,
+       meaning: "An Ashvane-derived articulated climbing brace with short gripping plates joined by flexible links.",
+       use: "Use for the brace and fitted plates; orveks is the plural.",
+       examples: ["Orvek", "orvek plates"],
+       boundary: "The articulated gripping construction, not all climbing anchors or protective equipment."
+  word :issava,
+       meaning: "A cultivated thorned climber whose contact pads tighten around warm scented supports.",
+       use: "Use for the plant, its lines and the learned tending of its grips.",
+       examples: ["Issava", "Issava Tending", "issava cutting"],
+       boundary: "Ordinary responses do not explain every selective movement reported aboard Olenvar."
+  word :savrel,
+       meaning: "A Pelhari optical instrument that projects independently shuttered shapes through a tube.",
+       use: "Use for the instrument and its interchangeable shape wheels; savrels is the plural.",
+       examples: ["Savrel", "savrel wheel"],
+       boundary: "It supplies repeatable signals, not automatic translation or the source of an anomalous correspondent."
+  word :othri,
+       meaning: "Cold-lake fish that guard young within nereth growth, submerged roots and narrow stone recesses.",
+       use: "Use for the fish and their nurseries or preserved food; othri is also the plural.",
+       examples: ["Othri", "othri nursery"],
+       boundary: "A freshwater fish, distinct from the polar-sea hunter uthrel."
+  word :vell,
+       meaning: "The hab whose household guests borrow offered objects as bodies during dances.",
+       use: "Use for the place and its specific offering and hosting traditions.",
+       examples: ["Vell", "Vell Giving", "Vell Host"],
+       boundary: "The custom can travel; the name does not promise the same anomalous arrivals in other places."
+  word :caldris,
+       meaning: "The broken pleasure hab whose confined racing courses developed a narrow skiff class with retractable kinetic vanes.",
+       use: "Use for the place and its derived vessel class, including examples operating elsewhere.",
+       examples: ["Caldris", "Caldris Skiff"],
+       boundary: "Not all racing craft, small kites or Pell salvage skiffs."
+  word :uthrel,
+       meaning: "A Kaleidos polar-sea ambush hunter that wedges into openings and strikes pressure disturbances with a springing jaw.",
+       use: "Use for the animal and its life stages; uthrel is also the plural.",
+       examples: ["Uthrel", "uthrel jaw skin"],
+       boundary: "A saltwater hunter, distinct from cold-lake othri and from every animal occupying a flooded building."
   word :urom,
        meaning: "The Kaleidos marine animal that grows over submerged structures and sheds their hollow impressions.",
        use: "Use for the animal and its cast tissue; urom is also the plural.",
-       examples: ["Urom", "urom cast tissue"],
+       examples: ["Urom", "Urom Leaf", "urom cast tissue"],
        boundary: "A living enveloper with a physical shedding cycle, not an apparition or a general name for wreck growth."
   word :enuli,
        meaning: "Blind hab-water animals whose contact can admit a person to the sensory experience of another member of the species.",
        use: "Use for the animal and its sensory behavior; enuli is also the plural.",
-       examples: ["Enuli", "an enuli pool"],
+       examples: ["Enuli", "Enuli Companion", "an enuli pool"],
        boundary: "The animal perceives living electrical activity, stone stress and moving water; it does not transmit human sight."
   word :nereth,
        meaning: "Kaleidos's lake-bottom grazer whose branching back growth incorporates loose objects and is shed in pieces.",
@@ -511,7 +611,7 @@ naming_lexicon do
   word :sural,
        meaning: "Korvathi refractory crystal used for heat-resistant windows and optical wedges whose refraction changes under controlled heating.",
        use: "Use for the mineral, its clear and clouded grades and lenses cut from it.",
-       examples: ["Sural", "sural windows", "Vath's sural face"],
+       examples: ["Sural", "Suralier", "Sural Wandering", "sural windows", "Vath's sural face"],
        boundary: "The material transmits supplied light; it is not ringglass, an energy source or a name for every optical crystal."
   word :hauloth,
        meaning: "A large filter-feeding animal of Korvath's warm seas whose mineral-bearing fins produce a short kinetic pulse in surrounding water.",

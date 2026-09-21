@@ -2,6 +2,7 @@ transport :ask_again do
   name "Ask Again"
   summary "Ask Again is a restored two-seat racing skiff offered as the prize at the next Caldris meet."
   subkind :vessel
+  type_of :caldris_skiff
   capacity "Two crew in sealed tandem seats"
   status :complete
   prominence :marginal

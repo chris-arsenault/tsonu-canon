@@ -13,6 +13,8 @@ geographic_location :eshrel do
     Scratches on the sheltered faces of the outcrops record sightings of #{ref :uldevan}. Arrows indicate the house's departure, while rows of window shapes help distinguish a sighting from a distant crawler. The #{ref :eshrel_companions, "Eshrel Companions"} compare these marks with notes left aboard. They know a circuit of pauses, although a house seen from one refuge may pass another without stopping.
 
     A clear interval opens routes to exposed stairs and old sealed doorways between the outcrops. Travellers sometimes leave the house to examine one, then hear its arrival bell from a different direction. A sheltered rock can be only a short walk away and entirely invisible beneath the grit.
+
+    Travelers fasten #{encyclopedia_ref :orvek, "orveks"} beneath the refuge roofs while waiting for the grit to clear. A brace left by an earlier party holds a small hanging seat above a buried stair. Its lower plates are jammed with dust, and the sheltered side carries fresh scratches from someone who recently tried to unfold it.
   PROSE
   gm_note :appears, "Warm window light appears above the grit before any ground is visible. Scratches on the nearest rock show steps on the opposite side of the approaching house."
   log "2026-09-21 — Encoded proposal 4 on Ashvane, retaining the existing Sideways Storm's mechanical limits. Local destination outside starting-location coverage."

@@ -15,6 +15,8 @@ geographic_location :iraleth_coast do
     Coastal crews from #{ref :glasswake} exchange ship drawings here and carry news of recognizable hulls. Divers follow the animals through openings beneath the seabed, seeking originals whose interiors they have already explored on land. Fresh tissue can seal a hatch behind them. Shedding loosens handholds and sends whole translucent walls sliding through the water.
 
     The newest large arrival is the #{ref :vannic_cast, "Vannic Cast"}. Its message was cut into living tissue before the cast came ashore.
+
+    Households prepare #{encyclopedia_ref :urom_leaf} beneath sheltered drying frames. A maker has kept one compartment's raised decoration intact while flattening the surrounding tissue for a customer's partition. A diver studying the little framed piece recognizes a concealed fitting that was almost erased with the folds.
   PROSE
   gm_note :appears, "A collapsed layer peels away from a familiar shelter, revealing the impression of lettering on a surface that had faced inward."
   log "2026-09-21 — Encoded proposal 11 around a physical lifecycle and a specific unanswered message. Local destination outside starting-location coverage."

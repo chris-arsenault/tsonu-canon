@@ -12,6 +12,8 @@ geographic_location :lake_othrel do
 
     Shore households bring drawings of lost possessions. Collectors crouch beside passing animals, while divers mark the holes through which they descend. A fitting recognized on a back can point toward a larger object still below. Some streets remain reachable through windows; others have filled with branches, silt and the animals' discarded growth.
 
+    #{encyclopedia_ref :othri} shelter their young within occupied back growth. Fishers can identify a nursery before a collector reaches into it, and keep water-filled baskets ready for loose branches found on the ice. One branch contains both eggs and the handle of a sought-after instrument; its finder has brought it into a cold shore pool while the adults continue guarding the opening.
+
     Shore households send preserved fish to #{ref :ladderwell}; relatives there return when an expected crossing is announced. At the most recent one, the #{ref :avren_bell, "Avren Bell"} sounded among the first animals. People in an inland shelter had heard the same irregular strike the previous evening, although the shore watchers had yet to see that group surface.
   PROSE
   gm_note :appears, "A family moves along the ice beside an animal, matching a sketch to the small part of a possession protruding from its back. The animal continues toward dark water."

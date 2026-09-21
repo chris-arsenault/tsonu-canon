@@ -23,6 +23,9 @@ encyclopedia :unclosing do
 
     The practitioner must identify the band before touching the working. Structural, kinetic, and signal closure open differently, and an attempted unclosing in the wrong band passes through without catching the figure. Focused and narrow workings close too tightly for the broad spell to enter.
   PROSE
+  prose <<~PROSE, section: :present_day, heading: "Practice and Performance"
+    Mechanics at #{ref :caldris} teach the spell on a restrained practice vane with a deliberately broad tuning. Opening that working removes its steering effect; a real skiff would keep its existing momentum. Nearby trainees clear the practitioner's hands when kinetic tremor begins. In #{ref :veyr}, stage workers use Unclosing on accessible broad-band lamps after their shutters jam, then attend to the hot source that remains.
+  PROSE
   prose <<~PROSE, section: :aftermath, heading: "Where the Working Goes"
     The interrupted effect leaves through its original medium and the practitioner's body. Structural work arrives as pressure in the bones, kinetic work as heat and involuntary motion, and signal work as voices, light, or meaningless data across the senses. Stored charge remains in the source and may discharge according to the device or structure that held it.
 

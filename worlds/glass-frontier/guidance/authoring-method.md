@@ -8,6 +8,8 @@ title: Authoring Method — The Glass Frontier
 
 For content expansion, identify an activity, relationship or experience that the existing entries cannot yet sustain. Search for places and people that already support part of it, then read their bodies and connections. Select a related set of three to six entries for one drafting pass. Several passes may be needed to give a major place enough substance and meaningful focus choices.
 
+Consider reusable world knowledge alongside named subjects. Look for life people recognize, materials they value, skills they learn, tools they use and customs they carry elsewhere. Read the relevant Encyclopedia articles before choosing which need expansion and which subjects deserve new entries. A particular place can demonstrate several reusable subjects; a reusable subject can differ meaningfully between places. Let those differences determine the work rather than assigning a fixed number of types to each location.
+
 For graph repair, select isolated entries and smaller groups from `make web WORLD=glass-frontier`. Include written entries that can connect the selected subjects to the larger component. A graph path does not by itself establish a useful story, and a connected place may still need public participants or ordinary activities.
 
 Departs from `craft/connecting-entities.md` §1: use the first `make web WORLD=glass-frontier` result, which removes mythic entities. The current completion condition is one connected component in that result. Renowned entities may carry a path; mythic entities may not.
@@ -64,7 +66,7 @@ Use it to decide something concrete: the layout of a workplace, wear on a tool, 
 
 Write substantial entries when the subjects support them. A place or institution may need several sections. Do not split a coherent subject to increase the entity count.
 
-The related set should normally span several kinds. Every entry must contribute distinct substance to the situation, and every meaningful connection in the prose must have a typed relationship. Shared explanations have one owner; neighboring entries link or embed instead of restating them.
+The related set should normally span several kinds. Every entry must contribute distinct substance to the situation. Meaningful connections between Atlas subjects receive typed relationships. Encyclopedia subjects connect through concrete uses in prose and appropriate classification; they remain outside the Atlas graph. Shared explanations have one owner; neighboring entries link or embed instead of restating them.
 
 New entities written to repair the web are usually recognized, marginal, or forgotten. Raise one to renowned only when its fame exists independently of the connection being repaired.
 
@@ -79,4 +81,6 @@ make check WORLD=glass-frontier
 make web WORLD=glass-frontier
 ```
 
-The pass is complete when every selected entry has a path into the larger component after mythic entities are removed, the selected situation is developed concretely, and each entry contributes information beyond its relationships. For a new starting location, also inspect `focus`: give its choices distinct roles rather than adding links to reach the minimum. Read a possible opening from the authored material and check that the people can pursue its activity without inventing its entire cast. The full web repair is complete when the mythic-removed result reports one component; record unrelated baseline isolates separately.
+For Atlas additions, check that each selected entry has a path into the larger component after mythic entities are removed. For Encyclopedia work, read the material where it occurs: what becomes recognizable, learnable, desirable or consequential, and how does another instance differ? Use those questions to identify worthwhile omissions, not as required fields for every article. A list of references alone does not establish a lived use.
+
+The pass is complete when the selected situation is developed concretely and each entry contributes information beyond its connections. For a new starting location, also inspect `focus`: give its choices distinct roles rather than adding links to reach the minimum. Read a possible opening from the authored material and check that the people can pursue its activity without inventing its entire cast. The full web repair is complete when the mythic-removed result reports one component; record unrelated baseline isolates separately.

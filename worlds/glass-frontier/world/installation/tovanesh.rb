@@ -23,6 +23,9 @@ installation :tovanesh do
 
     Visiting groups sometimes pay for breakfast after practice and invite their opponents. Those aboard #{ref :steady_return, "Steady Return"} sent back a recording of a bout fought between their schoolroom benches. Children here copied the cramped turns onto a chalk rectangle beside the pool. Their elders laughed until somebody used one to win. The winners still have to learn the wet floor, but their teachers now ask to see the latest recording.
   PROSE
+  prose <<~PROSE, section: :culture, heading: "Giving the Pull Away"
+    Teachers demonstrate the #{encyclopedia_ref :tovan_yield} beside the morning pool. Visiting pupils use short turns learned between shipboard benches; local fighters hide a longer crossing step beneath the water. A teacher recently lost the return bout after following the pupil into the slack instead of releasing the sash. The two now teach the exchange together.
+  PROSE
   prose <<~PROSE, section: :history, heading: "The Knives on the Steps"
     During #{ref :the_lowering_of_edrath, "the Lowering"} in 2423, #{ref :edrath, "Edrath"}'s crew carried their gun parts through Tovanesh and laid the paired knives #{ref :kesrith, "Kesrith"} before the bath households. #{ref :ulaven, "Ulaven"} now tends the weapon racks. Veterans sometimes demonstrate a disarm, then surrender the floor to younger people whose footing is better.
 

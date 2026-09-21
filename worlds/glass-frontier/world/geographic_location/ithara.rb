@@ -54,6 +54,11 @@ geographic_location :ithara do
 
     The market sells empty #{encyclopedia_ref :neral, "nerals"}, replacement cells for an #{encyclopedia_ref :istril_fold} and padded cases filled with #{encyclopedia_ref :ovri_scales}. Sellers demonstrate used equipment in front of its prospective owners. A fold with beautiful metal can have exhausted cells, and a working sampler may still contain a specimen belonging to someone else. Independent crews trade sound parts with one another when a shop's price is beyond them.
   PROSE
+  prose <<~PROSE, section: :people, heading: "The Second Supper"
+    Returning crews arrange #{encyclopedia_ref :second_supper, "second suppers"} in household rooms and at Ressa's public tables. One recent company passed around a borrowed glove, a painted bowl and an empty specimen case. The glove's owner arrived halfway through and stayed to hear why someone else had been wearing it.
+
+    Several rooms opening onto the growing halls now belong to #{encyclopedia_ref :unfolder, "unfolders"}. Their successful descendants appear for sale beside empty ancient containers. Families keep #{encyclopedia_ref :emri} in warm cases supplied with colorful mineral chips; a child can point out which nest stole a neighbor's blue doorway overnight. These displays share the passages with scarred #{encyclopedia_ref :ulren, "ulrens"} waiting to be borrowed for the next departure.
+  PROSE
   prose <<~PROSE, section: :people, heading: "What Money Buys"
     The difference between rich and poor is greater here than in most established settlements. Expedition owners and successful buyers keep private rooms, fresh food, spare suits and berths on ships they can call away from other work. Cutters with little money share bunks by shift and rent equipment whose previous wear they must learn before taking it outside. Across a single passage, one crew debates which vessel to send while another counts what remains after paying for a suit repair.
 

@@ -18,6 +18,8 @@ geographic_location :oravel do
 
     Several galleries hang from #{encyclopedia_ref :ulen, "ulen frames"}. Their counterweights descend through wells visible from the maintenance route. Removing a valuable fitting can therefore change the balance of the passage used to carry it away. Freshly exposed rub marks and a weight sitting at the end of its travel give riggers something to inspect before a loaded crossing.
 
+    Crews practice #{encyclopedia_ref :ulen_walking} on a low frame beside the landing. On the upper galleries, a companion lowers a weighted bag while the crossing traveller advances. A newly collected load can require another practice before the return journey.
+
     #{ref :daret_valis, "Daret Valis"} maintains the repaired crossing. Her braces are conspicuously modern and can be inspected from both ends. They support the known span, not every continuation beyond it. Pressure shelters stand near the landing; the galleries themselves remain open to Lithren's thin atmosphere.
   PROSE
   prose <<~PROSE, section: :history, heading: "Rooms Within the Hall"
@@ -35,6 +37,8 @@ geographic_location :oravel do
 
     Nearby frozen covers lift under #{encyclopedia_ref :hesh, "hesh"}, briefly exposing the colony's casing from below. Brine and gas occupy separate pockets. The same low opening can offer a camera a view of buried steps and close on its cable when the cover settles.
 
+    A broken pressure pocket farther west has left a #{encyclopedia_ref :nelvar} deposit across an older approach. Worked fragments lie among the frozen spray. Collectors gather them from the flank while a fresh white crust conceals the vent's unsupported center.
+
     Loose #{encyclopedia_ref :ovri_scales} gather along the dry approaches and leave with ordinary packing loads. In the enclosed brine fissures below, Daret's drawings record #{encyclopedia_ref :ometh} hanging beside the living folds. One recovered adult occupies a deep case at the landing. A buyer wants another caught without damage; its first collectors have offered their sampling hood to anyone who can bring back the tool still caught in the animal's former recess.
   PROSE
 
@@ -46,6 +50,8 @@ geographic_location :oravel do
     A second well held #{encyclopedia_ref :uluri}, small swimmers that began moving when its brine thawed. A cracked cover spilled several into the warm drainage under the party's shelter. Something now taps beneath the shallow floor when the occupants lie down. The keepers have barred that shelter while they try to recover the animals; a collector has offered to buy whatever can be brought out alive. Broad-windowed #{encyclopedia_ref :neral, "nerals"} wait beside the locked door, each borrowed from a different crew.
 
     The wells are independently sealed. Warming a room does not awaken every specimen, and an opened well cannot be made safe merely by switching off a lamp. Cutters who want the valuable wrapping can expose living contents before noticing them. Other visitors seek intact wells for gardens, medicines or private collections. The old tabs distinguish groups, but nobody can yet read enough of them to choose a harmless specimen by its label.
+
+    Several #{encyclopedia_ref :unfolder, "unfolders"} tend independent collections at the landing. Small #{encyclopedia_ref :emri} have built nests in one warm case, incorporating colored fragments supplied by its keeper. A nest containing a worked violet grain has drawn interest from visitors who want to find where its parent collected the older material.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "What Leaves the Hall"

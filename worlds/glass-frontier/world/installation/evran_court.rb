@@ -12,6 +12,8 @@ installation :evran_court do
 
     Visiting members of the #{ref :pell_freight_assembly} bring holds learned aboard other ships. Local fighters test them in daylight before the evening exhibitions. Some want the harness's advantage; others enter unaided and spend the afternoon studying counters to its characteristic turns.
 
+    Teachers practice the #{encyclopedia_ref :arev_release} with slow grips beside the sand. A visiting pupil has offered to exchange a shipboard #{encyclopedia_ref :tovan_yield} for lessons. Former champions disagree about which of Arev's familiar entries the new counter will survive, and several have joined the afternoon practice to find out.
+
     A narrow standing space beside the upper stair draws particular attention from returning wearers. Several recognized someone there while fighting in Arev, then failed to find the person after removing it. Spectators deliberately crowd the space to see what happens. The fighters agree on its position more readily than on the face they remember.
   PROSE
   gm_note :appears, "A returning champion stops at the entrance to search the standing spectators. Someone above offers the unfamiliar salute before the champion has put on the harness."

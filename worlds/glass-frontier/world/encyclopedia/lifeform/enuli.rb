@@ -17,6 +17,9 @@ encyclopedia :enuli do
     A person sharing an animal's senses can encourage movement through remembered sensations and bodily inclinations. An instruction expressed as words supplies little direction. Hunger, familiar feeding places and immediate alarm retain their force. Keepers end a difficult contact by gently separating the resting animal from the pilgrim rather than startling it into flight.
   PROSE
   cue "A blind swimmer rests its broad head against a forearm and follows the pulse beneath the skin."
+  prose <<~PROSE
+    #{encyclopedia_ref :enuli_companion, "Enuli companions"} learn individuals' feeding preferences as well as people's descriptions. A swimmer that repeatedly turns toward a submerged root may be seeking food there while its human partner reports the same approach as an irresistible attraction. Keepers at #{ref :selk} compare journeys before and after ordinary feeding. The differences help them recognize hunger without assuming that every unfamiliar sensation has the same cause.
+  PROSE
   cue "The pilgrim describes a familiar orchard as branching currents, with moving knots where people stand."
   affordance "Shared perception can reveal water and stressed stone behind surfaces that instruments cannot easily reach."
   variation "Individuals favor different feeding grounds and develop recognizable turns through narrow passages."

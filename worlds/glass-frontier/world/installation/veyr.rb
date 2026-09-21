@@ -20,6 +20,9 @@ installation :veyr do
 
     Returning visitors bring recordings of performances they heard elsewhere. The players pause them at the disputed ending, argue, then play their own answer. Someone whose version wins a rehearsal can hear it from the paid seats later without ever having stood before an evening crowd. The workshop keeps a few patched cushions for listeners who return often enough to claim a favorite ledge.
   PROSE
+  prose <<~PROSE, section: :culture, heading: "Voice and Light"
+    Players fit #{encyclopedia_ref :velith_reed, "velith reeds"} between their teeth while trying replies against the suspended boat's motion. A rough old reed belongs to a singer whose audience starts answering before the first words. Visiting #{encyclopedia_ref :suralier, "suraliers"} rehearse below, letting a wedge cool through several images while the singers decide which one belongs with the verse. A military buyer has offered for the clearest wedge; its performer wants enough for a replacement and a season's work.
+  PROSE
   prose <<~PROSE, section: :culture, heading: "The Held Reply"
     A performer may place a concealed object beneath the boat before a contest. A promised reply can then arrive as a lover's discarded shoe, a damaged military decoration or an instrument taken back from a patron who failed to pay. The audience demands an account it can recognize. An unsupported accusation gives the opponent a chance to turn the whole reveal into a joke.
 

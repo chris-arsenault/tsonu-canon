@@ -14,6 +14,8 @@ installation :aldevra do
 
     One entrance lies under a public bathing pool. Its descending door admits water directly onto the stair. Lower passages cross rooms full of suspended counterweights, with worked treasures resting in cradles attached to them. Removing a heavy piece raises one platform and lowers another. Water entering the chambers changes the balance again.
 
+    Some hunters practice #{encyclopedia_ref :ulen_walking} on the lower platforms, moving a bag of stones against a companion's weight. Above them, a borrowed #{encyclopedia_ref :savrel} projects distinct marks onto the exterior carving. The person holding it is secured by two #{encyclopedia_ref :orvek, "orveks"}; one grips a decorative edge the bath household wants preserved.
+
     Some hunters sell sketches of passages they have opened; others conceal their marks beneath dust. The approaching alignment has drawn collectors offering payment for objects pictured on the relief. The Ravess Company watches occupied doors and pool exits, waiting for somebody else to emerge with a valuable load.
   PROSE
   gm_note :triggered_by, "Lifting a heavy object from its cradle raises the floor beneath it and lowers a platform across the room. Water following down the stairs then changes both positions again."

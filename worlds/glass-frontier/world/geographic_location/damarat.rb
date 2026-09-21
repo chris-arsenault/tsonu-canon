@@ -33,6 +33,11 @@ geographic_location :damarat do
     The cargo carriage #{ref :ivara, "Ivara"} now establishes one further event here: selected pieces taken through Sahel's breached fortification reached the lower loading shelf. Its arrival cannot yet be placed against every alteration of the terraces. In 2435 Osen reached it by the exposed outer approach; the slab-blocked interior passage remains closed. The known route proves a local transfer and gives his proposed crew a useful work to repair.
   PROSE
 
+  prose <<~PROSE, section: :resources, heading: "The Cases Beside the Bed"
+    A sample case in the occupied workshop contains living #{encyclopedia_ref :avreth} from a sealed recess below the terraces. Its small cones whistle beneath the case's circulating air. The keepers want to examine a second recess without exposing it to the open cut; a buyer has instead offered to carry away the whole fitted door around it.
+
+    Makers test recovered #{encyclopedia_ref :thavren} beside the forming bed. A painted bowl on the shelf shows the colors left by an uneven firing. Several workers now keep exhausted pigment for household decoration instead of putting every old cake into the buyers' trays.
+  PROSE
   prose <<~PROSE, section: :tensions, heading: "A Machine Worth Taking"
     #{ref :ilven_sarith, "Ilven Sarith"} has offered to buy and remove the bed. The #{ref :damarat_removal, "dispute"} concerns work, money and what it would take to lift the machine. Some residents want the payment and a passage away. Others have brought families or invested in equipment useful only while the bed remains. Armed guards hired for the proposed freight movement are already visiting the approach.
 

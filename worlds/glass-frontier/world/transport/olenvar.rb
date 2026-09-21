@@ -12,6 +12,8 @@ transport :olenvar do
     Particular plants lean toward particular visitors. One bed may turn toward several people in a crowd; another stays motionless through the whole visit. The gardeners sometimes offer a cutting that they say has been waiting for its recipient. Recipients bring such plants back to compare them with siblings, or to return a gift whose growth has become troublesome.
 
     Thorned beds occupy deep enclosures reached by hanging steps. A visitor singled out by a plant may be invited to cross those steps while stems press toward the opening. The gardeners know how to keep a stem from tightening around a wrist. Their accounts of the #{ref :olenvar_recognition, "Olenvar Recognition"} disagree even while their hands perform the same careful release.
+
+    Several thorned beds hold #{encyclopedia_ref :issava}. Gardeners demonstrate #{encyclopedia_ref :issava_tending} on young growth before offering a cutting to a visitor. One returned sibling now flowers a different color from its parent; another grips a warm rod readily while ignoring the person toward whom the parent leans. The owners have kept both aboard for comparison during the next flowering.
   PROSE
   gm_note :appears, "A plant bends past a row of offered hands toward somebody standing behind them. Its neighbors remain still until that person moves along the bed."
 end

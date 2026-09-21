@@ -32,6 +32,9 @@ encyclopedia :poise do
   PROSE
 
   cue "The junction well's weight shifts three grades in ten rungs, the party takes it rail by rail with drilled slowness — and the hollow-walker passes them at conversational pace, carrying the tool bag and the conversation."
+  prose <<~PROSE
+    Dancers at #{ref :drail} value poise while teaching the #{encyclopedia_ref :drail_turn}. A bearer can keep orientation through the approach and still choose the wrong release. Teachers pair an innately comfortable pupil with someone who learned the movement slowly, so each must explain the part the other takes for granted. In the broken interiors of #{ref :caldris}, the same sensitivity helps a crew member move through changing pull after leaving a skiff, while every exposed gap still requires a line or a reliable handhold.
+  PROSE
   cue "The tilted drum spins up at the yard school testing day, the candidates stagger out in the usual order — and one child walks the moving floor like a corridor, and the examiner reaches for the roster forms."
   affordance "A rostered hollow-walker works the between-decks at working speed — junction maintenance, ladderway rigging, spin-machinery rounds, and the damaged sections' dead pockets — where everyone else's pace is set by their inner ear."
   pressure "Hollow-walkers remain comfortable beyond the point where a line or foothold is safe, so between-decks crews enforce rope rules throughout the job."

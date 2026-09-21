@@ -17,6 +17,9 @@ encyclopedia :urom do
     Growing tissue grips differently from cast skin. Living folds tighten when the animal contracts; a shedding layer detaches in broad slippery sheets. Shore workers dry detached tissue on curved frames for screens and weather covers. A fresh cast preserves fine details, but repeated stretching erases shallow lettering and collapses unsupported rooms.
   PROSE
   cue "A transparent film thickens across a hatch while the room beyond remains visible."
+  prose <<~PROSE
+    The detached tissue becomes #{encyclopedia_ref :urom_leaf} when shore workers separate and dry its layers. Households on the #{ref :iraleth_coast, "Iraleth Coast"} leave a living animal's newest growth alone and gather from completed sheds. An early cut can injure the feeding skin and provoke the contraction that moves its enclosing structure. A collector wanting the clearest possible impression therefore gains from knowing when the animal is preparing to leave, rather than stripping a fresh surface at once.
+  PROSE
   cue "A loose wall carries the raised impression of lettering that belonged to the surface beneath it."
   affordance "A stranded cast reveals the arrangement of submerged compartments before a diver reaches the original."
   variation "Animals feeding over open stone shed low tangled sheets."

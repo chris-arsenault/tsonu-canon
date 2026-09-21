@@ -23,6 +23,9 @@ installation :kethra do
 
     The #{ref :ilvaren, "Ilvaren"} borrow a side pool when its owners can spare it. They have offered a #{encyclopedia_ref :hauloth_yoke} for Ilmu and brought an #{encyclopedia_ref :adrel} to inspect the caught drive. The equipment waits above the water while divers prepare an approach. Another keeper seeks room for a young #{encyclopedia_ref :auneth} stranded along the coast. The receiving pool has a safe entrance but little grazing surface. Its owners want the animal's food brought here before they agree to occupy the water with it.
   PROSE
+  prose <<~PROSE, section: :biology, heading: "Color Beneath the Ledges"
+    On calm nights, young #{encyclopedia_ref :irul} gather beneath the outer overhang. Children sweep colored screens across shaded lamps to make the drifting fins flash. Boat crews returning with bright work lights cover them before crossing the little viewing pool; a larger hunter once followed the exposed swimmers almost to the occupied ledge.
+  PROSE
   prose <<~PROSE, section: :dangers, heading: "The Outer Pool"
     #{ref :ilmu, "Ilmu"}'s caught drive has made the familiar hauloth a danger at the entrance. Several boat owners want it killed before a pulse destroys a loaded hull. Others are preparing to free the fin, with a quiet boat waiting to draw the animal away from the divers.
 

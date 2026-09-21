@@ -13,6 +13,8 @@ installation :house_delven do
 
     Marked positions now surround the instrument. From some, a second telescope reveals streets between the lights. The wrights copy the signals made from each street on separate sheets because different correspondents sometimes interrupt one another. Ordinary customers bring objects they hope to show through the glass and remain to help shade a lamp.
 
+    The wrights have fitted a low-powered #{encyclopedia_ref :savrel} beside the experiment. Apprentices test its wheels on the workshop wall before directing them through the lens. A customer waiting for a repaired instrument has begun making a new wheel after noticing that two supposedly different signals cast the same shape at one viewing angle.
+
     Instructions from one correspondent produced a chain of mirrors across the workshop. The #{ref :uncrossed_visitor, "Uncrossed Visitor"} has been seen walking through their reflections without appearing between the benches. The wrights leave the route clear, but the final mirror stands beside the repair counter, where visitors instinctively turn it to see their own faces. A figure behind the reflected doorway has begun gesturing for that mirror to stay uncovered.
   PROSE
   gm_note :triggered_by, "A customer turning the counter mirror makes a distant figure stop and brace against the edge of a reflection. The signal lamp immediately repeats the agreed request to stop."
