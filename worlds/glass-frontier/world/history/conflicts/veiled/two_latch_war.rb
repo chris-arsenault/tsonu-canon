@@ -1,7 +1,7 @@
 conflict :two_latch_war do
   tags :subject_hab_life
   name "The Two-Latch War"
-  summary "The Two-Latch War was a boarding conflict between Mareth and Third Latch that fixed their present docking line."
+  summary "Boarding war between Mareth and Third Latch, the freight gate's third locking cylinder where Latchhouse stands."
   subkind :war
   status :complete
   prominence :marginal

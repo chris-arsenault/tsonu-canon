@@ -1,7 +1,7 @@
 conflict :vitrael_cut_war do
   tags :subject_planetary_life
   name "The Vitrael Cut War"
-  summary "The Vitrael Cut War was fought by Vitrael and Ashenmaw crews over a crystal seam; armed cutting frames remain in the abandoned workings."
+  summary "Seam war between the crystal-cutting crews of Vitrael and those of Ashenmaw's moons."
   subkind :war
   status :complete
   prominence :marginal

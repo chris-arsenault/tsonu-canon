@@ -3,10 +3,14 @@
 timeline do
   era :the_ring_age, starts: 2000, length: 140, title: "The Ring Age (pre-2140 CE)",
       description: <<~MD
-        The before. Mostly mythologized. The elves were the dominant technical
-        civilization for centuries, the orbital ring was the backbone of
-        everything, and other species — including humans — arrived and were
-        integrated into a functioning multi-species society. The details are hazy.
+        The before, known from ring-era records, hab archives and the works
+        still standing. Years are counted in the Common Era, the ring's civil
+        reckoning, which the elven civil service kept and the restored network
+        still uses; far-drift habs that sealed at the Glassfall often count
+        from the Glassfall instead. The elves were the dominant technical civilization for
+        centuries, the orbital ring was the backbone of everything, and other
+        species — including humans — arrived and were integrated into a
+        functioning multi-species society. The record thins in the final decades.
       MD
 
   era :signal_famine, length: 165, title: "The Glassfall & Signal Famine (2140–2305 CE)",

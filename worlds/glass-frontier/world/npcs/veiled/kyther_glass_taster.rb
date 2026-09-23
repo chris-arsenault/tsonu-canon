@@ -1,7 +1,7 @@
 npc :kyther_glass_taster do
   tags :subject_planetary_life
   name "The Kyther Glass Taster"
-  summary "The Kyther Glass Taster distinguishes ringglass grades by the metallic taste left on their breath."
+  summary "Ringglass taster of a Kyther tasting family, grading quarry lots in the Kyther Range and at Miraeth."
   type_of :palate
   subkind :specialist
   status :complete

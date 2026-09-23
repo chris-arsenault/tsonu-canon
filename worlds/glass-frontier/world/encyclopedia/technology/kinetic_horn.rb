@@ -7,6 +7,7 @@ encyclopedia :kinetic_horn do
   status :complete
   topics :resonance, :music, :"kinetic-freq", :training, :transport, :subject_common_life
   prevalence :common
+  log "2026-09-23 — Restated the horn's limits positively and replaced a cue and two variations copied from the prose."
   available_globally
 
   descriptive_identity(
@@ -50,15 +51,15 @@ encyclopedia :kinetic_horn do
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Holding a Load"
-    The player begins below the target response and approaches it in small intervals. The rear bell changes first. The harness tightens as the field catches, and the target begins shedding or redirecting part of its motion. A second person watches the load because the player cannot hear a shouted change clearly through the instrument and their own bones.
+    The player begins below the target response and approaches it in small intervals. The rear bell changes first. The harness tightens as the field catches, and the target begins shedding or redirecting part of its motion. A second person watches the load because the instrument, ringing through the player's own bones, drowns out anything shouted at them.
 
-    The effect continues only while the note holds. A player can soften a swinging cargo case, keep two surfaces apart during a repair, or give a flitter enough lateral correction to reach a berth. They cannot set the horn down and leave the force in place. Long jobs rotate players or transfer the load onto cribbing, lines, or a fixed array.
+    The effect continues only while the note holds. A player can soften a swinging cargo case, keep two surfaces apart during a repair, or give a flitter enough lateral correction to reach a berth. The force stops when the horn comes down from the lips, so long jobs rotate players or transfer the load onto cribbing, lines, or a fixed array.
 
     Ensembles use several horns on separate intervals to move larger masses. The players establish the brace and conductor calls before sounding the target. Two horns meeting on the same frequency can double the useful force or turn each other's braces into the load. Public demonstrations use prepared blocks and marked distances because the mistakes travel farther than the music.
   PROSE
 
   prose <<~PROSE, section: :limits, heading: "Mismatch and Saturation"
-    A kinetic horn cannot supply judgment. It can push the wrong member of a failing frame as readily as the right one. Materials joined under stress may answer together until one part shifts, after which the tone follows whichever response remains strongest.
+    A kinetic horn pushes whatever answers its note. It can push the wrong member of a failing frame as readily as the right one. Materials joined under stress may answer together until one part shifts, after which the tone follows whichever response remains strongest.
 
     The player's breath limits duration, and the returning field limits force. Numb lips, pressure in the teeth, and a harness vibrating after the note stops are early exposure signs. Trained players hand off before those signs blur their pitch. Continuing can produce tremors, false intervals, and enough loss of control to direct the next force into the brace.
 
@@ -72,10 +73,10 @@ encyclopedia :kinetic_horn do
   PROSE
 
   cue "A horn borrowed at a shipyard or quarry has fewer collars and a body rebuilt around one material, so it answers that yard's cargo rail while the unfamiliar load stays still. A full collar set comes from a wright shop or a #{ref :clarisant, "Clarisant"} chapter house."
-  cue "Most horns are built from a broad alloy tube folded around a rigid center bar."
+  cue "On a quarry ledge a woman leans into her waist harness with a folded alloy tube at her shoulder, and a stone block swinging on its chain slows while one low rough note carries across the pit."
   affordance "A player who says they will hold something steady with the horn is committed to the note: the force lasts only while they play, and through the instrument and their own bones they will not hear anything shouted at them. Someone else has to watch the load."
   pressure "In a crowded receiving bay several nearby objects answer the same note and the rear bell starts carrying more than one beat. A player who keeps going pushes whichever response stays strongest, which may be the wall, the wrong member of the frame, or their own brace."
-  variation "Field chapters keep battered horns matched to local rescue frames, while the Pelhari academy maintains a quieter set used to compare player technique."
-  variation "Folk players learn through shipyards, quarry crews, and family workshops."
+  variation "Deck horns lock into a rail socket and need no harness; field horns ride a shoulder stock and waist harness, and rescue teams carry them slung across the back like packs."
+  variation "Ensemble horns are built as matched sets on separate intervals, each body stamped with its interval, and wright shops sell a set whole or refuse to split it."
 
 end

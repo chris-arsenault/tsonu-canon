@@ -1,7 +1,7 @@
 incident :fourth_bell_fall do
   tags :subject_journeys_trade
   name "The Fourth Bell Fall"
-  summary "The Fourth Bell Fall was a Keel vibration that destroyed the house's upper stair and trapped guests inside its bell chamber."
+  summary "Structural accident at Fourth Bell House, the Keelward port hostel above the freight rail."
   subkind :incident
   status :complete
   prominence :marginal

@@ -1,7 +1,7 @@
 era :fracture_candle_years do
   tags :subject_planetary_life
   name "The Fracture-Candle Years"
-  summary "The Fracture-Candle Years were a period around Korvath and Vigil Breach when claim beacons failed faster than crews could replace them."
+  summary "Historical period of claim work on Korvath and at Vigil Breach in the Kyther Range, named for its claim beacons."
   subkind :historical_period
   status :complete
   prominence :marginal

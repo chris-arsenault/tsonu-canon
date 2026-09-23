@@ -66,6 +66,8 @@ faction :lower_routes_cooperative do
     Sithari's transport office maintains a continuous digital model of the city and wants every Cooperative reading entered as soon as it is taken. The Cooperative delays deep-route updates until a second pair has walked them. In the interval, the municipal system may show a route that residents are using but the city has not accepted.
 
     The delay frustrates freight operators and building inspectors. It also prevents a single bad reading from being distributed through navigation services that continue repeating it after a route moves. The dispute recurs whenever a closure holds up a surface project or an unofficial approach becomes stable enough to attract shops before it receives an address.
+
+    The rule that makes a steward's closure final also makes a dishonest steward hard to stop. At #{ref :kettle_shaft, "Kettle Shaft"}, closures that never reopen have emptied workshops whose leases then sold cheap, and one survey member has started walking Kettle's shuttered routes on her own time to find out why.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Present Day"
     #{ref :tavi_soreth, "Tavi Soreth"} currently coordinates the long surveys opened by a change in central transit load. The Cooperative has accepted three approaches as amber and refused city requests to publish them as ordinary streets. One reaches the #{ref :folded_annex, "Folded Annex"}; another ends beneath a residential foundation whose plans show solid ground.

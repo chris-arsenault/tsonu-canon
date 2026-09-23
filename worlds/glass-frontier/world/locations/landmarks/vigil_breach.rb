@@ -1,6 +1,6 @@
 installation :vigil_breach do
   name "Vigil Breach"
-  summary "Vigil Breach is a ring-era doorway behind the central glaciers of the Kyther Range, opening only at three recorded celestial alignments."
+  summary "Vigil Breach is a ring-era doorway behind the central glaciers of the Kyther Range, that has opened during three recorded transits of Threshold Station across the noon sun."
   playable_as :chronicle_location
   context_tags :surface, :cold, :displacement_zone
   subkind :landmark
@@ -17,14 +17,14 @@ installation :vigil_breach do
       "— just a narrow waiting shelf below the doors and glacier on every " \
       "side.",
     activity:
-      "Watch parties camp on the shelf ahead of each forecast alignment: " \
+      "Watch parties camp on the shelf ahead of each forecast transit: " \
       "Synod observers tending instruments, Kyther guides reading the " \
       "slope, traders waiting in the lower shelters with heated cases and " \
       "standing offers for anything brought out.",
     access:
-      "The doors answer no one; they draw inward only at three recorded " \
-      "alignments of Kaleidos, the sun, and Threshold Station, announced " \
-      "by a low tone through the cliff. Getting to the shelf takes Kyther " \
+      "The doors answer no one; they have drawn inward during three " \
+      "recorded transits of Threshold Station across the noon sun, each " \
+      "announced by a low tone through the cliff. Getting to the shelf takes Kyther " \
       "guides, and the valley councils bar any sale until a surveyor logs " \
       "the object and a guide confirms where it was found.",
     hazards:
@@ -38,7 +38,7 @@ installation :vigil_breach do
   prose <<~PROSE
     Vigil Breach is a ring-era doorway cut into a cliff behind the central glaciers of the #{ref :kyther_range, "Kyther Range"}. Two pale leaves meet in a vertical seam four people high. They have no handle, track, writing, or visible control. Glacial ice covers the lower half of the doorway for most of the year.
 
-    The doors open when Kaleidos, the sun, and #{ref :threshold_station, "Threshold Station"} reach one of three recorded alignments. A low signal tone passes through the cliff first. The ice separates along the seam without melting, and the leaves draw inward. Every observed opening has ended before a party could climb from the nearest permanent shelter, so teams wait on a narrow shelf below the doors.
+    The doors open during some transits of #{ref :threshold_station, "Threshold Station"} across the face of the sun, as seen from the doorway. Those transits fall on the days the noon sun stands directly over the range. Three have opened the doors in the Synod's record; the rest passed with the ice undisturbed. A low signal tone passes through the cliff first. The ice separates along the seam without melting, and the leaves draw inward. Every observed opening has ended before a party could climb from the nearest permanent shelter, so teams wait on a narrow shelf below the doors.
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "The First Chamber"
@@ -48,7 +48,7 @@ installation :vigil_breach do
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Present Day"
-    The ice shelf used for the last three opening watches has split from the cliff and moved downslope. Kyther guides have marked a new shelf farther west, beyond a band of snow that fails the sounding-post test. The Synod wants instruments placed there before the next alignment. The guides will carry them only after the unstable slab is cut free, even if that means missing the opening.
+    The ice shelf used for the last three opening watches has split from the cliff and moved downslope. Kyther guides have marked a new shelf farther west, beyond a band of snow that fails the sounding-post test. The Synod wants instruments placed there before the next transit. The guides will carry them only after the unstable slab is cut free, even if that means missing the opening.
 
     Traders remain in the lower shelters with heated cases and offers for anything brought out. The valley councils prohibit sale until a surveyor has logged an object and a guide has confirmed where it was found.
   PROSE

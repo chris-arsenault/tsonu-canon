@@ -1,7 +1,7 @@
 transport :pale_return do
   tags :subject_lithren
   name "Pale Return"
-  summary "Pale Return is an archive-ice carrier serving Lithren, Pelhari, and Vastine. It remains off the dock until every passenger has named their cargo."
+  summary "Bulk kite of the Lithren archive trade, running to Pelhari and the Vastine moons."
   subkind :vessel
   type_of :bulk_kite
   status :complete

@@ -1,7 +1,7 @@
 transport :exchange_c_rattle_tug do
   tags :subject_hab_life
   name "The Exchange C Rattle Tug"
-  summary "The Exchange C Rattle Tug is a market cargo vehicle used around Carom, Exchange C, and Wash Four. It moves containers by locking each frame to the habitat's changing spin."
+  summary "Rattle tug dock mover working the sorting decks of Carom and Wash Four."
   subkind :transport
   type_of :rattle_tug
   status :complete

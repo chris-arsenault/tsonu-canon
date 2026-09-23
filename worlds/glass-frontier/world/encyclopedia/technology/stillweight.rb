@@ -8,6 +8,7 @@ encyclopedia :stillweight do
   status :complete
   topics :resonance, :"structural-freq", :salvage, :danger, :rebuilding, :subject_common_life
   prevalence :common
+  log "2026-09-23 — Restated the strength limit positively and replaced a cue, affordance and variations copied from the prose."
   available_globally
 
   descriptive_identity(
@@ -35,7 +36,7 @@ encyclopedia :stillweight do
   prose <<~PROSE
     A stillweight is a portable structural clamp used to hold a door, brace, vehicle, or broken piece of a building in its present relation to nearby mass. The machine has a squat metal body, three jointed feet, and a ringglass core behind a thick hand wheel. Workers call it a deadweight when it is being used and a stillweight when it is being inspected, sold, or blamed.
 
-    The device does not make the object stronger. It gives an applied load somewhere else to return. A sound placement can hold a shifting wall while people leave. A poor one can keep the clamp still while the wall tears around its feet.
+    The object keeps exactly its own strength. The clamp gives an applied load somewhere else to return, routing the pull through its feet into the chosen mass. A sound placement can hold a shifting wall while people leave. A poor one can keep the clamp still while the wall tears around its feet.
   PROSE
 
   prose <<~PROSE, section: :mechanics, heading: "Taking a Seat"
@@ -55,7 +56,7 @@ encyclopedia :stillweight do
   PROSE
 
   prose <<~PROSE, section: :dangers, heading: "The Wrong Anchor"
-    Stillweights follow structural continuity rather than the operator's intention. A clamp placed on a warehouse floor may take its seat from the buried water line, a neighboring crane foundation, or a resonant seam crossing the whole yard. The first pull then moves or stresses that unmonitored service or neighboring structure.
+    Stillweights follow structural continuity wherever it runs, whatever the operator meant to hold against. A clamp placed on a warehouse floor may take its seat from the buried water line, a neighboring crane foundation, or a resonant seam crossing the whole yard. The first pull then moves or stresses that unmonitored service or neighboring structure.
 
     Standard practice begins with a low test load and observers at every plausible return. Workers chalk the selected tone on the machine and repeat it on the structure. If the two marks disagree after a shift, the area clears before anyone touches the wheel.
 
@@ -63,10 +64,10 @@ encyclopedia :stillweight do
   PROSE
 
   cue "Secondhand buyers open the core before a stillweight sale closes. Blue-backed cores and ground-off lot plates end the inspection, and an owner who refuses it is assumed to be moving recalled stock."
-  cue "The machine has a squat metal body, three jointed feet, and a ringglass core behind a thick hand wheel."
-  affordance "The clamp can pin a Farborn shell, jaw plate, or rigid limb once living tissue has been cleared from the contact. Flesh yields around the feet, clothing tears, and the nearest clear tone usually belongs to the floor."
+  cue "Two workers crouch at a buckled hatch: one turns a heavy wheel a quarter-turn at a time while the other lies flat on the deck, eye level with a row of pins at the machine's feet, calling numbers."
+  affordance "A seated stillweight holds a shifting wall, hatch, bridge panel or hauler still while people leave or cut, and it can pin a Farborn shell, jaw plate, or rigid limb once living tissue has been cleared from the contact."
   pressure "The clamp seats on whatever mass is structurally continuous: a buried water line, the next crane's foundation, or a seam crossing the whole yard. Crews begin with a low test load and station observers at every plausible return."
-  variation "Rescue crews place stillweights across a damaged hatch before cutting away a bent hinge."
-  variation "Road teams anchor a hauler during ground movement or secure a bridge panel after its ordinary seat fails."
+  variation "Rescue stillweights are light enough for one worker to lift onto a hatch and seat on short feet; road and bridge units ride a sled and spread their feet a full stride apart."
+  variation "Cordon crews in Bloom country carry clamps with a second witness dial that shows which mass the core is seated on, since the nearest stable mass can change while the clamp is holding."
 
 end

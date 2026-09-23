@@ -6,6 +6,7 @@ encyclopedia :print do
   status :complete
   log "2026-08-31 — Renamed Cold Archive Weather to Print; the observable reproduction of a tablet's text gives the effect its direct archival working name."
   log "2026-09-19 — Readable means reproducible strokes, not translated language. Linked the tablet trade to Lithren's 2337 exports; partial recovery of damaged strokes follows retained subsurface inscription rather than supplying missing meaning."
+  log "2026-09-23 — Replaced the 'coupling remains unmeasured' close and the discreet-carriage disclaimer with print nights, warm-hull smuggling and Pelhari's quarrel with the cold stations."
   topics :"outer-system", :archives, :mystery, :resonance, :subject_lithren
   prevalence :rare
   appears_when all: { place: [:cold, :archive] }
@@ -22,21 +23,29 @@ encyclopedia :print do
              "hand scale for the minutes before sublimation smooths them; a " \
              "denser wait — a text in a cold hold overnight — prints deeper " \
              "and lasts to morning.",
-    hazards: "The print does not damage a hull, but it exposes the text to " \
+    hazards: "The frost lifts from the plating clean, and it shows the text to " \
              "every bare plate and observer in range; Lithren cargo therefore " \
              "travels on open manifests through the cold stations."
   )
 
   prose <<~PROSE
-    A Lithren tablet in transit prints its inscription in frost on sealed cold hulls nearby. Ordered rows form across bare plating at reading height and reproduce the original script, including cracked or missing strokes. The print lasts only until sublimation smooths it away. Warmed and coated surfaces remain clear; colder surfaces and longer dwell times produce deeper, longer-lived lines. Trials with a tablet and a written transcription established that only the inscribed stone raises the frost. Archive catalogs call the effect resonance printing, although the coupling between stone and freezing vapor remains unmeasured.
+    A Lithren tablet in transit prints its inscription in frost on sealed cold hulls nearby. Ordered rows form across bare plating at reading height and reproduce the original script, including cracked or missing strokes. The print lasts only until sublimation smooths it away. Warmed and coated surfaces remain clear; colder surfaces and longer dwell times produce deeper, longer-lived lines. Trials with a tablet and a written transcription showed that only the inscribed stone raises the frost. Archive catalogs call the effect resonance printing. Cold-station engineers bolt gauges to the plating on courier nights to catch the coupling between stone and freezing vapor, and their logbooks fill with frost depths, dwell times and plate temperatures.
 
     The #{ref :lithren, "tablets carried inward from 2337"} can be read as shapes without being understood as sentences. A few recurring groups identify settings or measures through comparisons with working objects. Frost reproduces the marks without supplying their meaning. A print that crosses a worn gap follows a trace still retained below the stone's surface; it supplies no strokes where the corresponding material has been destroyed.
 
-    Cold stations post the passage times of Lithren couriers. Crews meet them outside with raking lamps and cameras, keeping breath and exhaust away from the plating while the print develops. Pelhari acquisitions receive an overnight cold layover: a dock print can survive until morning and sometimes carries intact strokes from a damaged face of the tablet, giving archivists a second reading surface. The same reach makes discreet carriage impossible. Route rules require every Lithren text on the manifest before it enters cold-station range.
+    Cold stations post the passage times of Lithren couriers. Crews meet them outside with raking lamps and cameras, keeping breath and exhaust away from the plating while the print develops. Pelhari acquisitions receive an overnight cold layover: a dock print can survive until morning and sometimes carries intact strokes from a damaged face of the tablet, giving archivists a second reading surface. The same reach announces every tablet to everyone in range, and route rules require every Lithren text on the manifest before it enters cold-station range.
+  PROSE
+
+  prose <<~PROSE, section: :culture, heading: "Print Nights and Warm Hulls"
+    A posted courier run draws more than archivists. Station families come out onto the gantries in coats, children trace the frost lines with a gloved finger before an adult pulls them back from the plating, and copyists sell hand-drawn prints of the night's lines by the next shift. People who cannot read a stroke of it keep the copies pinned over bunks. On stations that see a courier run every season, a child born on a print night carries a line of that night's frost as a keepsake, copied onto card by whoever stood nearest the plating.
+
+    Stolen tablets travel warm. A smuggler moving a text lifted from a Lithren dig without its sponsors' leave runs the hull heated or coats the plating, because warmed and coated surfaces stay clear, and a cold station's dock hands have learned to read a warm hull in the cold ring as a question. Station masters who want the trade look away for a fee. Those who want the sponsoring factions' goodwill send word inward, and a courier run posted as ordinary sometimes meets a crowd of armed factors at the gantry instead of families.
+
+    Pelhari's archivists and the cold stations quarrel over the dock prints. The stations want tablets through and gone; the archivists want every damaged tablet held overnight in the coldest hold for a second reading surface, and they pay the stations to keep the hold unheated. A station crew that runs warm on a bitter night to save its own fingers has cost Pelhari a reading, and the archivists keep a list of those crews.
   PROSE
 
   cue "The station's board posts the courier run for the third hour, and at the third hour the crews are out on the gantry with lamps as the print arrives — ordered lines crystallizing down the shell at reading height, older than every record, gone in minutes."
-  cue "In the cold hold at Pelhari the scholars work by lamplight at dawn, photographing the night's print — and one plate shows a clean line where the tablet itself carries only the crack."
+  cue "In the cold hold at Pelhari the scholars work by lamplight at dawn, photographing the night's print, and one plate shows a clean line where the tablet itself carries only the crack."
   affordance "Archivists schedule cold layovers to obtain a second reading surface from damaged tablets; deep dock prints can preserve strokes obscured on the stone itself."
   pressure "Every bare cold plate in range receives the print, so route staff clear observation areas and require Lithren cargo on open manifests."
   variation "Passing prints are the routes' brief public occasions; dock prints are the archives' working tool; and the standing halo around Lithren's own ruins frosts the research stations' shells in slow rotation, which the resident scholars treat as both library and weather report."

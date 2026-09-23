@@ -1,7 +1,7 @@
 creature :crowncut_hot_lot_mimic do
   tags :subject_shear
   name "The Crowncut Hot-Lot Mimic"
-  summary "The Crowncut Hot-Lot Mimic is a salvage-yard anomaly ranging around Pyre, Cinder Gap, and Crowncut Refinery. It resembles hot salvage until a cutter reaches for it, then unfolds hooked legs."
+  summary "A khar mimic of the Pyre salvage yards, ranging between Cinder Gap and Crowncut Refinery."
   subkind :anomaly
   type_of :khar_mimic
   status :complete

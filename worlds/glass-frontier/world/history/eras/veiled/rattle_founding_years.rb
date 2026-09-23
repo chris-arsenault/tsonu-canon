@@ -1,7 +1,7 @@
 era :rattle_founding_years do
   tags :subject_hab_life
   name "Rattle Founding Years"
-  summary "The Rattle Founding Years began when Wash workshops moved their weighing benches into Carom's open market."
+  summary "Local era of Rattle, Carom's largest sorting deck, reckoned from the deck's founding and tied to the Thirty-One textile workshop."
   subkind :era
   status :complete
   prominence :marginal

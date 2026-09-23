@@ -6,6 +6,7 @@ encyclopedia :vair do
   status :complete
   topics :materials, :rebuilding, :danger, :subject_lithren
   prevalence :rare
+  log "2026-09-23 — Restated the shell's limits positively and added a pressure from lens scavengers and ambushes."
   appears_when all: { place: [:outer_system] }, any: { place: [:archive, :yard] }
   function "Shapes supplied light to join and cut material or write fine optical paths through prepared layers"
   operating_limit "Useful heating requires sufficient input power; alignment, absorption and clear beam paths govern the result"
@@ -30,11 +31,12 @@ encyclopedia :vair do
   prose <<~PROSE, section: :applications, heading: "The Paths Inside a Surface"
     Fine settings work below the scale visible to an unaided eye. A succession of exposures alters prepared transparent layers, leaving narrow paths along which light travels inside the finished piece. Loose lenses can guide a beam; a complete writing setting can make thousands of guides within the same curved surface. Present workshops can replace a large mirror more readily than reproduce that setting.
 
-    Some recovered shells take light from one edge and release it elsewhere. A person looking into a tested shell sees what stands behind its neighboring inlet instead of the object directly behind its face. Joined shells can conceal a hand or a weapon from a narrow direction. Moving sideways reveals the hidden object at the edge, and dust or a crack breaks the image. The surface does not conceal sound, stop a projectile or remove heat. Larger recovered layouts offer different viewing angles, but each needs a clear path for the light it borrows.
+    Some recovered shells take light from one edge and release it elsewhere. A person looking into a tested shell sees what stands behind its neighboring inlet instead of the object directly behind its face. Joined shells can conceal a hand or a weapon from a narrow direction. Moving sideways reveals the hidden object at the edge, and dust or a crack breaks the image. Sound, heat and projectiles pass the shell as they would any thin wall of its material. Larger recovered layouts offer different viewing angles, but each needs a clear path for the light it borrows.
 
     Other settings make illuminated marks appear at a chosen distance, providing sights that remain visible while the weapon and observer move separately. A ruined wall can therefore carry a convincing open doorway or put a bright aiming figure across a person. The supplied light and surviving optical paths determine what appears. A dark inlet gives a dark image.
   PROSE
 
+  pressure "Scavengers pry lenses out of their cradles to sell singly, destroying the setting that made the array worth far more, and a joined shell set across a narrow ruin approach shows an open doorway where a robber is waiting."
   affordance "A recovered optical shell can hide an object from a watched direction or put a sight across a distant surface; shifting the observer exposes its limited field."
   variation "Joining settings work on broad seams; fine writing settings make optical surfaces whose apparent depth differs from the object behind them."
 end

@@ -1,7 +1,7 @@
 faction :perch_rill_household do
   tags :subject_hab_life
   name "The Perch Rill Household"
-  summary "The Perch Rill Household is one Perch family that times meals and animal work to the settlement's irrigation tones."
+  summary "Rill Household of Perch, one of the pipe-linked families trading seed, water and grazing among Perch, Talven, Orra and Seren."
   type_of :rill_households
   subkind :community
   status :complete

@@ -1,7 +1,7 @@
 rumor :vigil_sleeper do
   tags :subject_planetary_life
   name "The Vigil Sleeper"
-  summary "The Vigil Sleeper is a rescue rumor about a warm human outline recorded beyond the breached wall at Vigil."
+  summary "Survey crews' rumor of Vigil Breach, the ring-era doorway behind the central glaciers of the Kyther Range."
   subkind :rumor
   status :complete
   prominence :marginal

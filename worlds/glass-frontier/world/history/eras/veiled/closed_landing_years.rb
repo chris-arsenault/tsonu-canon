@@ -1,7 +1,7 @@
 era :closed_landing_years do
   tags :subject_journeys_trade
   name "Closed-Landing Years"
-  summary "The Closed-Landing Years were the local period when Fourth Bell housed every traveler turned back by Five Landing."
+  summary "Local era shared by Five Landing, the central deck of Holl, and Fourth Bell House, the Keelward port hostel."
   subkind :era
   status :complete
   prominence :marginal

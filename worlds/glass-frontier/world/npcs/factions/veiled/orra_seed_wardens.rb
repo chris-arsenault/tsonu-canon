@@ -1,7 +1,7 @@
 faction :orra_seed_wardens do
   tags :subject_hab_life
   name "Orra Seed Wardens"
-  summary "The Orra Seed Wardens are a seed-protection faction that escorts revived strains between Orra and Seren."
+  summary "Chartered seed custodians of Orra, keeping revived plant strains in trust under Second Habitat law; active in Orra and Seren."
   subkind :faction
   type_of :second_habitat
   belongs_to :culture, :custodial_standing

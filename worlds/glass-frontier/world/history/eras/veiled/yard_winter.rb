@@ -1,7 +1,7 @@
 era :yard_winter do
   tags :subject_planetary_life
   name "Yard Winter"
-  summary "Yard Winter was a cold cutting season when three surface crews finished one hull beneath a canvas roof."
+  summary "Period of shared hull work linking Glasswake's Three Arms Yard and Dry Net hiring room with Brake's Forty cutting bay."
   subkind :historical_period
   status :complete
   prominence :marginal

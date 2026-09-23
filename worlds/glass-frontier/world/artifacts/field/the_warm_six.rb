@@ -6,17 +6,18 @@ artifact :the_warm_six do
   status :complete
   tags :ecology, :materials, :trade, :subject_hab_life
   prominence :marginal
+  log "2026-09-23 — Wrote Nara Pell's full name where a bare Pell read as Pell Cut or the Pell routes."
 
   descriptive_identity(
     appearance: "Six matched cultures occupying separate warm beds around Seren's axis, each descended from the same sealed reserve.",
-    handling: "Pell keeps the exchange lot closed while resident growers tend matched samples under the same water, temperature, and cultivation conditions.",
+    handling: "Nara Pell keeps the exchange lot closed while resident growers tend matched samples under the same water, temperature, and cultivation conditions.",
     risks: "One form calms damaged nerves and encourages slow regrowth; the other drives rapid sensation through scar tissue and prevents sleep. The two remain identical to the eye and in their recorded ancestry."
   )
 
   prose <<~PROSE
     Blue loam taken from two adjacent beds now produces different medicines. One calms damaged nerves and encourages slow regrowth. The other drives rapid sensation through scar tissue and leaves the patient unable to sleep. Both beds descend from the same sealed reserve and share water, temperature, and cultivation crews.
 
-    Pell has closed the exchange lot and issued matched samples to six resident growers. Their first cultures divide along the same line as the trial beds. The difference travels with the loam.
+    #{ref :nara_pell, "Nara Pell"} has closed the exchange lot and issued matched samples to six resident growers. Their first cultures divide along the same line as the trial beds. The difference travels with the loam.
   PROSE
 
   gm_note :appears, "The six cultures occupy separate rooms around Seren's warm axis while the exchange lot remains closed."

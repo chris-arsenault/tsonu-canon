@@ -1,7 +1,7 @@
 edict :blue_step_weight do
   tags :subject_planetary_life
   name "The Blue-Step Weight"
-  summary "The Blue-Step Weight limits loads on the Avar roads to the mass that two stranded crews can move by hand."
+  summary "Shared Road load limit for the Avar grassland roads, named for Blue Step Works, the road-gear shop on Ladderwell's second bench."
   subkind :edict
   type_of :shared_road
   status :complete

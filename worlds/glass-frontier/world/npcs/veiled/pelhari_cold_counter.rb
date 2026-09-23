@@ -1,7 +1,7 @@
 npc :pelhari_cold_counter do
   tags :subject_journeys_trade
   name "The Pelhari Cold Counter"
-  summary "The Pelhari Cold Counter wakes when a hull loses heat faster than its gauges can register."
+  summary "Hull counter of the cold routes, crewing vessels that run between Pelhari, Vastine and Lithren."
   type_of :creditor
   subkind :specialist
   status :complete

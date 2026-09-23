@@ -1,7 +1,7 @@
 faction :third_latch_challenge_circle do
   tags :subject_hab_life
   name "The Third Latch Challenge Circle"
-  summary "The Third Latch Challenge Circle is one Kesh group whose working names change when a member wins or yields a formal route challenge."
+  summary "Circle of kinetic-trial challengers holding Kesh Challenge Names, active in Kesh and Mareth on the Mareth branch."
   type_of :kesh_challenge_names
   subkind :community
   status :complete

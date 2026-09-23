@@ -1,7 +1,7 @@
 faction :fermata_working_ensemble do
   tags :subject_hab_life
   name "The Fermata Working Ensemble"
-  summary "The Fermata Working Ensemble claims a repeated machine tone as public music once three crews can keep time with it."
+  summary "Working-music ensemble of the Answering Phrase, playing at Fermata Station, Talven, Tanel and the Choir Fragment."
   type_of :answering_phrase
   subkind :community
   status :complete

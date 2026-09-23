@@ -1,7 +1,7 @@
 faction :archive_concord do
   tags :subject_politics_history
   name "Archive Concord"
-  summary "Archive Concord is a research body whose readers compare recovered texts across four separate archive vaults."
+  summary "Record-reading body of the Public Shelf tradition and a chartered custodian, working in the Old Campus, the Folded Annex, Thornvault and Ledgerfall."
   subkind :research_body
   type_of :public_shelf
   belongs_to :culture, :custodial_standing

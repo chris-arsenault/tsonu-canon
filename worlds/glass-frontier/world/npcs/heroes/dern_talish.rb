@@ -18,23 +18,14 @@ npc :dern_talish do
     "between the two, and accepts water rather than meals from parties whose disputes she may judge."
 
   prose <<~PROSE
-    *First Threshold of the Displacement Council.*
+    Dern Talish is First Threshold of the #{ref :displacement_council, "Displacement Council"}: the person who stands at the boundary and decides what crosses it. She answers for every cordon around every Bloom Zone, for the crews who keep them, and for the neutrality that lets factions who trust nothing else trust the Council. She was carried out of #{ref :latch, "Latch"} at four with an evacuee's registration tattoo on her left wrist, spent her working life on the cordons at #{ref :gray_line, "Gray Line"}, and took the office in 2432 without wanting it.
 
-    The title is as unglamorous as the organization. "First Threshold" — the person who stands at the boundary and decides what crosses it. In practice, it means Dern Talish is responsible for every containment cordon around every Bloom Zone in the system, for the welfare of every Council operative maintaining those cordons, and for the political neutrality that keeps the Council trusted by factions that trust nothing else.
-
-    She does not enjoy the job. She is very good at it.
-  PROSE
-  prose <<~PROSE, section: :public_profile, heading: "Public Profile"
-    Talish is the face the Displacement Council shows the system. She appears at Accord mediations, addresses inter-settlement disputes that touch on Bloom Zone policy, and periodically tours the cordon stations to inspect operations and — more importantly — to be seen inspecting them. The Council's authority depends on the perception that it takes its work seriously and plays no favorites. Talish embodies this with a directness that some find reassuring and others find abrasive. She is human, #{elapsed 2374} old, and carries the registration tattoo that all Bloom evacuees received, faded to near-invisibility on her left wrist. She has never had it removed.
+    She is also the one person outside the hidden habs who speaks to the #{encyclopedia_ref :elves, "elves"}, and the one person in the Council who knows what the cordons are holding back.
   PROSE
   prose <<~PROSE, section: :public_profile, heading: "What People See"
-    A quiet, compact woman who listens more than she speaks and whose silences are more informative than most people's sentences. She does not raise her voice. She does not negotiate from a position of ideology. When factions bring their grievances to the Council, Talish asks what they need, asks what they can give, and finds the gap between the two. Her authority comes from reliability rather than charisma — and from a neutrality, tested in the Bitter Reach, that nobody has been able to buy or break since.
-  PROSE
-  prose <<~PROSE, section: :traits, heading: "Notable Traits"
-    - Never eats during meetings. Will accept water. Considers shared meals a form of political intimacy she cannot afford.
-    - Keeps a collection of small objects recovered from Bloom Zone perimeters — not relics, just debris. A child's toy. A door handle. A clock that still ticks at the wrong speed.
-    - Her hand tremor is worse when she's tired. She compensates by keeping her right hand in her pocket or wrapped around a cup. Most people who meet her think she's just reserved. The cordon crews know what it means.
-    - Speaks three languages fluently and understands fragments of two more, including one that linguists cannot identify. She picked it up from Echo River exposure during a containment operation.
+    Talish is the face the Council shows the system. She sits at Accord mediations over Bloom Zone policy and tours the cordon stations so that crews and neighbors see her inspecting them. She is a quiet, compact woman, #{elapsed 2374} old, who listens far more than she speaks and never raises her voice. Asked to settle a dispute, she asks each side what it needs and what it can give, and works the gap between. Her authority rests on a neutrality tested in the Bitter Reach, when three rival convoys tried to stage through her station and she closed the gates on all of them under fire.
+
+    She takes water at meetings and refuses meals, because a shared table is a closeness she cannot give people she may later rule against; she eats privately with her oldest colleague, #{ref :iro_senn, "Iro Senn"}. She keeps her right hand in a pocket or around a cup to hide a tremor from Bloom exposure. She keeps a shelf of small things from the cordon perimeters: a child's toy, a door handle, a clock that ticks at the wrong speed. She speaks three languages and follows fragments of two more, one of which, she says, she picked up from Echo River exposure on a containment job.
   PROSE
 
   gm_note :appears, "A containment question anywhere in the mid-drift reaches Talish within a day. " \
@@ -45,43 +36,19 @@ npc :dern_talish do
   gm_note :complicates, "She answers with figures and gives them freely. Asked how a cordon " \
                         "held, she credits Council procedure and moves on to the next zone."
 
-  # ---- Hidden (DM) truth ----
-  prose <<~PROSE, section: :truth, heading: "The Arrangement", dm: true
-    Talish maintains direct communication with elven operations through the shard — a pre-Glassfall artifact that the elves provided to the first First Threshold during the early Bloom response, when it became clear they needed a human counterpart. The shard cannot be replicated. If it's lost, the contact channel is lost. Talish keeps it on her person at all times, disguised as a personal keepsake.
+  prose <<~PROSE, section: :relationships, heading: "The Arrangement"
+    The keepsake Talish never takes off is the #{ref :communication_shard, "Communication Shard"}, a sliver of ringglass the elves gave the first First Threshold during the early Bloom response. Pressed to her jaw near a cordon, it opens a channel to elven operators in the hidden habs. #{ref :oram_sells, "Oram Sells"} passed it to her in a sealed room at Gray Line three months before he died, together with the rest of the secret: that the elves are alive and hidden, that the #{ref :the_false_form, "False Form"} is real and presses through the Bloom tears, and that the Council's head has worked with them since the cordons began.
 
-    The cooperation is operational, not warm. The elves provide:
-    - Early warning on Adversary activity in the Bloom Zones
-    - Resonance countermeasures that the Council's own technicians couldn't develop
-    - Occasional direct intervention during containment crises (always deniable, always after the fact)
-    - Intelligence on Coremark artifact smuggling routes
+    The elves give her early warning of pressure building in a zone, countermeasures her own technicians could not have built, word of relic-smuggling routes, and, a few times, help during a containment crisis that arrived without explanation and left no trace. She gives them cover and access. Cordon operations mask elven movements around the zones, Council credentials pass their operatives through checkpoints, and when a cordon holds better than it had any right to, her reports credit new equipment.
 
-    Talish provides:
-    - Cover. The Council's cordon operations mask elven movements in and around the zones.
-    - Access. Council credentials get elven operatives past checkpoints without scrutiny.
-    - Misdirection. When containment succeeds "unexpectedly well," Talish writes reports attributing the success to equipment upgrades or favorable conditions.
+    The cooperation is useful and cold. They answer operational questions and refuse every request to explain what the Adversary is, and she has written down each refusal. They also hold a veto over her successor, as they held one over hers. The language she says came from the Echo Rivers is Elvish, learned from the operators; she follows it well and speaks it badly, and they tease her pronunciation, which is the nearest the relationship comes to warmth.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "What She Knows", dm: true
-    Talish knows the Adversary exists and is seeping through the Bloom Zone reality tears. She knows the elves are fighting a hidden war. She knows the Bloom Zones are getting worse — the tears are widening slowly, and containment is a holding action, not a solution. She knows the elves have veto power over her successor, and she understands why.
+  prose <<~PROSE, section: :tensions, heading: "What She Keeps Back"
+    Talish knows more than any other human in the system about what the Bloom Zones are, and she tells the Council none of it. The staff under her believe they are holding resonance damage from an industrial accident. She lets them.
 
-    She does not know what the Adversary is. The elves have not told her. She has asked. They declined. This is the single greatest source of friction in the relationship — Talish is risking everything on an alliance with people who will not fully explain what she's fighting.
+    She keeps back smaller things as well. Several objects on her perimeter shelf behave in ways standard ringglass theory cannot account for, and she studies them at night as her private measure of how fast the zones are changing; she shares the results with the elves and nobody else. Her tremor is real, and she lets it look a little worse than it is, because factions trust a mediator who is visibly paying for the work. Staff have noticed that her hand is steadiest when she is holding the shard or sorting her shelf, and put it down to concentration.
 
-    She has accepted this. She has not forgiven it.
-  PROSE
-  prose <<~PROSE, section: :truth, heading: "The Language", dm: true
-    The "unidentified language" in her public profile is Elvish. She picked up fragments from her elven contacts, not from Echo River exposure — though the Echo River cover story is convenient and technically defensible, since some deep-deposit river fragments do carry elven speech. She understands enough to follow operational communications. She cannot speak it well. The elves find her pronunciation endearing, which she finds patronizing, which they find amusing. It is the closest thing to warmth in the relationship.
-  PROSE
-  prose <<~PROSE, section: :truth, heading: "The Hand", dm: true
-    Her tremor is real — genuine Bloom Zone exposure damage. It is not, however, as bad as she lets people believe. She exaggerates it slightly because a visible frailty makes her seem more human and less threatening to the factions she mediates between. A leader who is clearly paying a physical price for the work earns a specific kind of trust. Talish is not above exploiting this.
-  PROSE
-  prose <<~PROSE, section: :truth, heading: "The Collection", dm: true
-    The objects she keeps from the Bloom Zone perimeters are real and meaningful to her, but not for the sentimental reasons people assume. Several of them are resonance-anomalous — they behave in ways that shouldn't be possible according to standard ringglass theory. She studies them privately. They are her personal evidence that the zones are changing, that reality is degrading faster than the official reports suggest. She shares this analysis with the elves. She does not share it with the Council.
-  PROSE
-  prose <<~PROSE, section: :truth, heading: "The Breach Risk", dm: true
-    The #{ref :communication_shard, "communication shard"} is Talish's only working channel to the hidden elves. She keeps it on her body or inside the sealed command room at #{ref :gray_line, "Gray Line"}. If another person opened the channel, the elves would cut contact and abandon the frequency.
-
-    Her tremor is least visible when she handles the shard or sorts the anomalous objects in her private collection. Council staff have noticed the inconsistency and attribute it to concentration. Talish has not corrected them.
-
-    The elves answer operational questions and refuse every request for a full account of the Adversary. Talish records each refusal. A verifiable source outside their channel would receive her attention because it could test what her contacts omit.
+    A source outside the elves' channel, anything that could test what they are not telling her, would have her full attention.
   PROSE
 end
 
@@ -92,15 +59,15 @@ relate :rel_dern_talish_born_in_latch, :born_in, :dern_talish, :latch do
   prose "She was born on #{ref :latch, "Latch"} and evacuated at four, a Bloom refugee who grew up to run the cordons."
 end
 relate :rel_dern_talish_operates_in_bloom_zones, :operates_in, :dern_talish, :bloom_zones, since: 2412 do
-  prose "Twenty years of cordon work put her inside more #{ref :bloom_zones, "Bloom Zones"} than almost anyone alive — and left her with the tremor to prove it."
+  prose "Her #{elapsed :dern_talish_cordon_career, :dern_talish_becomes_first_threshold, approx: true} of cordon work put her inside more #{ref :bloom_zones, "Bloom Zones"} than almost anyone alive — and left her with the tremor to prove it."
 end
 relate :rel_dern_talish_located_in_gray_line, :located_in, :dern_talish, :gray_line, since: 2412 do
-  prose "She spent twenty years assigned to #{ref :gray_line, "Gray Line"}, from perimeter patrol through regional command, and keeps her permanent quarters there as First Threshold."
+  prose "She spent #{elapsed :dern_talish_cordon_career, :dern_talish_becomes_first_threshold, approx: true} assigned to #{ref :gray_line, "Gray Line"}, from perimeter patrol through regional command, and keeps her permanent quarters there as First Threshold."
 end
 relate :rel_dern_talish_cooperates_iro_senn, :cooperates_with, :dern_talish, :iro_senn, since: 2412 do
   prose "#{ref :iro_senn, "Iro Senn"} is her oldest cordon colleague and still sends her Gray Line's unsoftened reports."
 end
-relate :rel_dern_talish_possesses_communication_shard, :possesses, :dern_talish, :communication_shard, since: 2432, dm: true do
+relate :rel_dern_talish_possesses_communication_shard, :possesses, :dern_talish, :communication_shard, since: 2432 do
   prose "The #{ref :communication_shard, "communication shard"} — a pre-Glassfall artifact keyed to an impossible frequency — is her only channel to them, and irreplaceable if lost."
 end
 
@@ -112,7 +79,7 @@ moment :dern_talish_evacuated, year: 2378, of: :dern_talish do
 end
 moment :dern_talish_cordon_career, year: 2412, of: :dern_talish do
   summary "Dern Talish began her long Gray Line assignment in 2412, rising from perimeter patrol to regional operations lead."
-  prose "She gave twenty years to the Council's #{ref :gray_line, "Gray Line"} cordon, rising from perimeter patrol beside #{ref :iro_senn, "Iro Senn"} to zone-incursion specialist and regional operations lead. The work left her with a tremor in her right hand and an unshakeable conviction that the cordons must hold."
+  prose "She gave #{elapsed :dern_talish_cordon_career, :dern_talish_becomes_first_threshold, approx: true} to the Council's #{ref :gray_line, "Gray Line"} cordon, rising from perimeter patrol beside #{ref :iro_senn, "Iro Senn"} to zone-incursion specialist and regional operations lead. The work left her with a tremor in her right hand and an unshakeable conviction that the cordons must hold."
   effects { set :dern_talish, standing: :regional_operations_lead }
 end
 moment :dern_talish_turns_back_convoys, year: 2415, of: :dern_talish do
@@ -121,10 +88,10 @@ moment :dern_talish_turns_back_convoys, year: 2415, of: :dern_talish do
 end
 moment :dern_talish_becomes_first_threshold, year: 2432, of: :dern_talish do
   summary "The Displacement Council named Dern Talish its fourth First Threshold in 2432."
-  prose "After twenty years on the cordons she was named the fourth First Threshold of the #{ref :displacement_council, "Displacement Council"} — the person who stands at the boundary of every Bloom Zone and decides what crosses it. She did not want the job."
+  prose "After #{elapsed :dern_talish_cordon_career, :dern_talish_becomes_first_threshold, approx: true} on the cordons she was named the fourth First Threshold of the #{ref :displacement_council, "Displacement Council"} — the person who stands at the boundary of every Bloom Zone and decides what crosses it. She did not want the job."
   effects { set :dern_talish, standing: :first_threshold }
 end
-moment :dern_talish_read_in, year: 2432, of: :dern_talish, dm: true do
+moment :dern_talish_read_in, year: 2432, of: :dern_talish do
   summary "Oram Sells disclosed the hidden elven conflict to Dern Talish at Gray Line in 2432, and she confirmed it through the communication shard."
   prose "Three months before he died of Bloom-exposure complications, her predecessor #{ref :oram_sells, "Oram Sells"} read her in — the #{encyclopedia_ref :elves, "elves"}, the Adversary, the reality tears, the hidden war — in a single conversation in a sealed room at #{ref :gray_line, "Cordon Station Nine"}. She did not believe him until he showed her the #{ref :communication_shard, "contact protocol"} and she activated it, and an elf answered. She has not slept a full night since."
 end

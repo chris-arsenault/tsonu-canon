@@ -1,7 +1,7 @@
 artifact :talven_red_index do
   tags :subject_hab_life
   name "Talven Red Index"
-  summary "The Talven Red Index is a glass-failure record shared by Talven and Tanel. It pairs damaged samples with the signals recorded before each fracture."
+  summary "Glass-failure register kept by the quarry galleries of Talven and the tube settlement of Tanel."
   subkind :record
   status :complete
   prominence :marginal

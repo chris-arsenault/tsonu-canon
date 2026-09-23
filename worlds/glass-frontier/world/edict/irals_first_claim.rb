@@ -5,19 +5,20 @@ edict :irals_first_claim do
   status :complete
   prominence :recognized
   tags :military, :trade, :danger, :governance, :subject_lithren
+  log "2026-09-23 — Replaced Daret's wants/also-wants paragraph with what she does under the order, put Selven's motive in his and his critics' mouths, and gave the recovery crews their commander from the expedition entry."
 
   prose <<~PROSE
     #{ref :selven_iral, "Selven Iral"} issued his First Claim in 2435 as work around #{ref :ithara_gate, "Ithara Gate"} made its recoverable defenses more concrete. Crews employed by the #{ref :iral_expedition, "Iral Expedition"} must surrender recovered weapons, their operating pieces and components needed to restore a defense. A promised share is paid after assessment; the finder cannot take a rival offer while the piece remains under the order.
 
-    Selven says that a defense recovered with company equipment must not be sold to somebody who could turn it against the company's workers. He wants an arsenal whose essential parts remain together. That motive also gives him a way to keep a profitable discovery out of a worker's hands while deciding what it is worth. The order applies to his employees and to outsiders who accept it as a condition of using his equipment or freight.
+    Selven's argument is that a defense recovered with company equipment belongs where the company's workers are safe from it, and he means to build an arsenal whose essential parts stay together. His critics in the eating halls point out that the same order holds a profitable find in company stores for as long as his assessors take to price it, and that the finder waits on that price with nothing to sell. The order applies to his employees and to outsiders who accept it as a condition of using his equipment or freight.
   PROSE
 
   prose <<~PROSE, section: :tensions, heading: "A Piece With Two Uses"
     A part can serve a workshop and a defense. The control fittings of the #{ref :ninth_leaf, "Ninth Leaf"} can hold a safe passage open or close it on people crossing. A powered optical branch can join metal or burn through a barrier. Selven's assessors classify such pieces by the military use they can demonstrate. A maker who paid to uncover a civilian assembly may therefore find its working control claimed separately from the rest.
 
-    #{ref :daret_valis, "Daret Valis"} has been told to bring removable gate controls into the expedition's stores when her crew leaves a shift. She wants her companions paid and a defensible base. She also wants the controls where someone can reach them while people are passing underneath the loaded frame. Obeying the order can separate the mechanism from the people who need to stop it.
+    #{ref :daret_valis, "Daret Valis"} has been told to bring removable gate controls into the expedition's stores when her crew leaves a shift. She signed on for the pay and the defensible base Selven promises, and still wants both. Her rigging crew passes beneath the loaded frame at the start of every shift, while the release sits two pressure doors away in a locked rack until someone signs it out. She hands the controls in each evening and argues, in front of her crew and his assessors, for a release that stays within reach of the people underneath.
 
-    Employees who conceal a find can lose their share and place on ordinary freight. Selven sends armed crews to recover pieces he regards as stolen from the expedition. Outside its camps and vessels he must bargain, persuade another carrier or attempt a seizure. Independent excavators have refused the order and continued working with their own equipment. His crews sometimes watch a disputed piece leave in a hold whose captain has refused to open it for them.
+    Employees who conceal a find can lose their share and their place on ordinary freight. Selven sends armed crews under Garro Veit to recover pieces he regards as stolen from the expedition. Beyond its camps and vessels he bargains, leans on another carrier or attempts a seizure. Independent excavators have turned the order down and kept working with their own equipment. His crews sometimes watch a disputed piece leave in a hold whose captain keeps the hatch shut in their faces.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Price of Help"

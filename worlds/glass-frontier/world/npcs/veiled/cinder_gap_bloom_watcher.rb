@@ -1,7 +1,7 @@
 npc :cinder_gap_bloom_watcher do
   tags :subject_bloom
   name "The Cinder Gap Bloom Watcher"
-  summary "The Cinder Gap Bloom Watcher feels pain in their teeth before a dormant zone begins emitting light."
+  summary "Cordon-post sensitive with the ache, keeping watch over the Bloom Zones from Cinder Gap and Latch."
   type_of :ache
   subkind :specialist
   status :complete

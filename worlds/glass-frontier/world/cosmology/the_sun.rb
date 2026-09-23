@@ -48,7 +48,7 @@ geographic_location :the_sun do
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "The Inner Reference"
-    #{ref :span_nine, "Span Nine"} passes through Threshold Station at a stable point between the sun and Kaleidos. The filament's alignment remains exact even when conventional relays drift. No present workshop can reproduce its material or explain every correction it makes under solar load.
+    #{ref :span_nine, "Span Nine"}'s sunward arm ends at Threshold Station, at a stable point between the sun and Kaleidos. The filament's alignment remains exact even when conventional relays drift. No present workshop can reproduce its material or explain every correction it makes under solar load.
 
     Deep-system charts record distance outward from the sun and travel time from Kaleidos. The two measures keep routes comparable without treating the inhabited planet as the physical center of the system.
   PROSE

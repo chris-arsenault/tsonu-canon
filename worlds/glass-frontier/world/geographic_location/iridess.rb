@@ -13,14 +13,14 @@ geographic_location :iridess do
   prose <<~PROSE
     Iridess fills a shallow basin beneath #{ref :naloven, "Naloven"}. Springs emerge among red-barked #{encyclopedia_ref :ulessa} whose roots braid over warm pools. Steam hangs below the canopy in still weather. The coolest water supports bathing places and narrow cultivated clearings; farther in, pale crust reaches over pools hot enough to strip skin.
 
-    Spring gases gather in hollows while the air above remains breathable. A traveler on a high root can see a companion collapse several steps below without smelling a change. Local guides carry gas meters and turn back when the breeze dies. Rain cools the surface of a pool without making its thin roof bear weight.
+    Spring gases gather in hollows while the air above remains breathable. A traveler on a high root can see a companion collapse several steps below while the air at their own face smells only of resin. Local guides carry gas meters and turn back when the breeze dies. Pirro Harrowen, the oldest of them, hangs a caged taluri from his pack pole instead; he trusts the animal's drooping fringe over a meter reading and charges bathing parties double for the privilege of laughing at it. Rain cools the surface of a pool without making its thin roof bear weight.
   PROSE
   prose <<~PROSE, section: :biology, heading: "The Yellow Spines"
     #{encyclopedia_ref :eshkul, "Eshkuls"} live in the upper branches. Their long tails brace them while they strip bark resin and comb it onto their back spines. A disturbed adult whips those spines against a branch, scattering droplets below. Clusters of yellow needles embedded in bark mark places where hunters or other animals crowded one.
 
     #{ref :reth, "Reth"} was raised by Naloven keepers and moves between their camps and the baths. Wild animals tolerate its approach better than they tolerate its handlers. People seeking a path through a feeding group sometimes follow it; a fight between adults can then leave those people directly below the resin spray.
 
-    Resin gatherers work from slings above the springs. Artists use the cleaned resin as a tough varnish; fresh sap burns skin and catches fire easily. The #{ref :deral_hunters, "Deral Hunters"} have bought oil and brushes here to clean rescued animals and borrowed climbing nets for the mine. They distinguish an eshkul's abandoned sleeping fork from one that still smells of fresh resin.
+    Resin gatherers work from slings above the springs. Ebbe Soral and her three sons hold the richest stand by the upper streams and cut anyone else's sling rope who works it without paying her a share. Artists use the cleaned resin as a tough varnish; fresh sap burns skin and catches fire easily. The #{ref :deral_hunters, "Deral Hunters"} have bought oil and brushes here to clean rescued animals and borrowed climbing nets for the mine. They distinguish an eshkul's abandoned sleeping fork from one that still smells of fresh resin.
   PROSE
   prose <<~PROSE, section: :geography, heading: "Rooms Above the Vapor"
     #{encyclopedia_ref :taluri} fill the hollow boughs above the bathing clearings. Returning gliders sometimes carry scraps from an occupied shelter deeper into the grove, leaving a trail of bright fibers where no ground path is visible. Keepers leave the animals' second exits clear and use neighboring empty boughs to store dry blankets.
@@ -38,10 +38,13 @@ geographic_location :iridess do
   prose <<~PROSE, section: :present_day, heading: "The Lower Approaches"
     #{ref :the_naloven_rising, "The Naloven Rising"} ambushes recovery parties along the cool watercourses. League troops are entering from below with heat viewers and elevated firing platforms. The warm ground complicates a distant search, but a person moving across a pale pool remains conspicuous. Shots into resin-coated bark can start a fire above people standing in water.
 
-    #{ref :ivena_sar, "Ivena Sar"} teaches both guides and fighters to raise a fallen person's head out of a gas hollow before trying to carry them. #{ref :ushti, "Ushti"} lands in a cleared orchard at the basin's upper rim. The #{ref :severance, "Severance"} uses the shelters to receive volunteers who decide against traveling on to confront Aren.
+    #{ref :ivena_sar, "Ivena Sar"} comes down from Naloven to treat resin burns and teaches guides and fighters alike to raise a fallen person's head out of a gas hollow before trying to carry them. #{ref :ushti, "Ushti"} lands in a cleared orchard at the basin's upper rim. The #{ref :severance, "Severance"} uses the shelters to receive volunteers who decide against traveling on to confront Aren.
 
-    Recent tremors from #{ref :edraths_answer, "Edrath's Answer"} have shaken the upper pool rims. A root crossing used during the last rescue now hangs above a broken crust. Ulaven's crews and the Rising both want access to the foot responsible, while the soldiers above it keep their weapons trained on the ladders.
+    Pirro Harrowen has been guiding league search parties by day and the Rising by night, and both sides have begun to suspect it. He walks the soldiers along the safe margins and leads them past the Rising's camps at a distance he judges exactly; so far his reputation with each side has survived, and his fee has doubled. Ebbe Soral knows what he is doing and has named a price for her silence in resin shares.
+
+    Recent tremors from #{ref :edraths_answer, "Edrath's Answer"} have shaken the upper pool rims. A root crossing used during the last rescue now hangs above a broken crust, and Ebbe's best stand has cracked open and bled half a season's resin into the stream. She blames Ulaven for the engine trial and has sent her sons up to Naloven to collect. Ulaven's crews and the Rising are each trying to reach the battery foot that caused the tremor, one to inspect it and one to disable it, and the soldiers on the hull keep their rifles on the ladders both would have to climb.
   PROSE
+  log "2026-09-23 — Named a local guide and resin family whose trades and grudges carry the present situation; placed Ivena Sar's visits with her resin-burn work."
 end
 
 relate :rel_iridess_istrava, :part_of, :iridess, :istrava

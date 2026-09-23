@@ -57,11 +57,11 @@ encyclopedia :shearwurm do
     Live capture pays more and succeeds rarely. A contained shearwurm needs a changing stock of rubble, isolated structural mass, and room to extend. Research pens that hold the animal against a fixed wall eventually become part of its tunnel.
   PROSE
 
-  cue "A large specimen bores through a bulkhead, receiver wall, or anchored cutter because worked structure gives a cleaner path than rubble, so it enters an occupied room through the floor. It rarely touches the people there; the breach behind it is the emergency."
-  cue "A live tunnel has fine dust moving along one wall even in still air."
+  cue "Rows of steel pins stand across the mouth of a smooth round passage in a debris mass, each with a strip of bright cloth on its head, and a surveyor crouches beside them with a slate, sketching the angle of every pin."
+  cue "In a toolmaker's stall, flat crescent plates lie in a padded tray, clear as ice at the edge and dark at the root, and when the owner presses one against a whetstone its edge visibly turns."
   affordance "Sustained sounding, a repeated hammer, or a scan run twice near a shearwurm-held fragment is a structural note the animal follows. It comes back along a tunnel it already cut, so it arrives through ground the crew has walked and cleared."
   pressure "A burrow leaves ribs of untouched material between its openings, and those ribs hold load until the animal returns to feed on the glass inside them. Shoring, a braced floor, or a survey done last week can stop being true with nothing visible changing."
-  variation "Small specimens retreat from pressure and bright heat."
-  variation "Old shearwurms carry enough glass to answer a sounder from across a fragment."
+  variation "Young shearwurms a few segments long work loose aggregate near a fragment's surface, back away from pressure and bright heat, and leave narrow twisting tunnels a crew can empty of them with a bright lamp held at the mouth."
+  variation "Old shearwurms, grown too long to turn in their own tunnels and heavy with sorted glass, keep to the deep seams of one fragment for years; a sounder pulse from across the mass comes back from their bodies as a second, brighter structure."
 
 end

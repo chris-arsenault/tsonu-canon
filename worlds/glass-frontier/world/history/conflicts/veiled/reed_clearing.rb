@@ -1,7 +1,7 @@
 conflict :reed_clearing do
   tags :subject_planetary_life
   name "The Reed Clearing"
-  summary "The Reed Clearing is a Lowbank ferry campaign against the dense growth choking Dovra's old channels."
+  summary "Water Standing campaign in the tidal channels of Dovra on Korvath, worked out of the port city of Lowbank."
   subkind :campaign
   type_of :water_standing
   status :complete

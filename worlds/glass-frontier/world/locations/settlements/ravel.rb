@@ -32,7 +32,7 @@ installation :ravel do
       "reaches the one sheltered dock behind the fragment.",
     hazards:
       "A damaged net can drag a boom out of alignment, so when strain " \
-      "crosses the red mark the crews release the whole panel — and " \
+      "crosses the red mark the crews release the whole panel, and " \
       "with it somebody's inherited share, drifting in the plume until " \
       "a tender brings it back."
   )
@@ -42,7 +42,9 @@ installation :ravel do
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "Webs Beyond the Hull"
-    Twelve main booms extend from the fragment like narrow bridge arms. Each carries reels, tension frames, and guide lights. Fine mesh spans the spaces between them during a catch. Larger salvage nets trail beyond the main frame and collect ice clumps after their speed has been reduced by the forward cloth. Rekindling crews found the fragment wrapped in loose Ring Age collector line; their manifests called the site the ravel, and the traffic name remained after new mesh replaced it.
+    Twelve main booms extend from the fragment like narrow bridge arms. Each carries reels, tension frames, and guide lights. Fine mesh spans the spaces between them during a catch. Larger salvage nets trail beyond the main frame and collect ice clumps after their speed has been reduced by the forward cloth.
+
+    The first Rekindling crew to come alongside saw loose Ring Age collector line wound around the whole fragment in snarls, and wrote "the ravel" in their manifest. New mesh replaced the old line long ago. Traffic controllers still use the name, and the residents have kept it.
 
     Habitation sits behind a thick central shield. The dock, processing rooms, and water tanks occupy the sheltered face. Crew quarters line the boom roots, close enough that a worker can reach a reel after a pressure alarm. Windows face sideways across the web and show the plume arriving as a pale band against the stars.
 
@@ -54,14 +56,20 @@ installation :ravel do
 
     Families and work crews hold shares in particular panels. A strong catch pays by weight after common water and maintenance portions. Repair marks preserve the history of a panel through sale and inheritance. Experienced buyers inspect the stitching before reading the last ten yields.
 
+    When the last inner panel folds, the dock opens the first melt tank to everyone. Crews drink the plume water hot with salt from the same catch, and the panel families who did well that passage buy the fried dough. Arguments over whose net sagged and whose cabin called the release too early start at the tank and run until the inspection days.
+
     Tender crews spend the open days recovering released mesh, testing anchors, and guiding visiting carriers. #{ref :nera_doss, "*Nera Doss*"} works the outermost lines and carries the joined household names of the crew that established Ravel's first safe spread.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Warm Catch"
-    The last three passages deposited clear droplets at the center of two outer panels. They remained liquid inside cold processing rooms and formed a thin moving film across ceramic trays. Signal sounders record brief clustered tones whenever two films meet.
+    For the last three passages two outer panels have come in with clear droplets at their centers. The droplets stay liquid in the cold processing rooms and spread into a thin film that creeps across ceramic trays, and when two films meet the signal sounders chatter. Ravel keeps the catch in separate pressure cells, the two panels hang open on their booms for inspection, and three buyers have already come out on the Keel branch to look at it.
 
-    Ravel has placed the catch in separate pressure cells and opened the affected panels for direct inspection. Nera Doss is carrying one sealed tray through the next plume passage while hull instruments compare its response with the material still on the web.
+    One panel belongs to the Harrow family, who have held it for four generations and who owe money on its last restitching. Wen Harrow wants to sell the droplets as mineral catch, which pays the panel's holders by weight. The common hall says anything that melts and flows is water and goes into the common portion first, and Oska Lume, who keeps the hall's tally, has locked the pressure cells until the passage-day meeting. Lume's own crew holds the second affected panel, and the Harrows point this out to anyone who will listen.
+
+    #{ref :nera_doss, "*Nera Doss*"} is carrying one sealed tray through the next plume passage while hull instruments compare it with the material still on the web. Both sides have asked the tender crew to report to them first.
   PROSE
+
+  log "2026-09-23 — Turned the warm-catch signal into a dispute between the Harrow family and the common hall over whether the droplets are mineral or water, added the melt-tank night, and rewrote the name origin as the first crew's sighting."
 
   gm_note :appears, "The nine-day plume cycle decides what anyone can get out of Ravel. In the two days before a passage every hand is on line inspection and mesh repair, " \
                     "and during the open days the tender crews are out among the released panels rather than at the dock."

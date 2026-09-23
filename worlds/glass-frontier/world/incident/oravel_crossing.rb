@@ -6,21 +6,23 @@ incident :oravel_crossing do
   status :complete
   prominence :recognized
   tags :danger, :transport, :subject_lithren
+  log "2026-09-23 — Named Tovin's injured companion and Ressa's carrier, and replaced the closing verdict on the rescuers' partnership with what each still does and disputes."
+  log "2026-09-23 — Renamed Hadd Merrow to Hadd Rhule to separate them from Vesh Marrow and the Marrow name elsewhere in the corpus."
 
   prose <<~PROSE
     In 2434 a loaded sledge entered a suspended gallery at #{ref :oravel, "Oravel"}. The gallery moved far enough to bring its counterweight against a fractured stop. The stop broke, the weight dropped farther into its well, and one end of the gallery rose away from the adjoining passage. Workers caught beyond the gap had suits and limited air. Their pressure shelter stood near the landing.
 
-    #{ref :daret_valis, "Daret Valis"} was there with lifting equipment from an Iral retrieval party. #{ref :tovin, "Tovin"} had brought #{ref :ulveth, "Ulveth"} for cargo. One of his companions was trapped on the gallery with a damaged leg; a carrier working for #{ref :ressa_dorr, "Ressa Dorr"} stood on its farther end. Tovin had previously stolen provisions carried for Ressa.
+    #{ref :daret_valis, "Daret Valis"} was there with lifting equipment from an Iral retrieval party. #{ref :tovin, "Tovin"} had brought #{ref :ulveth, "Ulveth"} for cargo. His companion Hadd Rhule was trapped on the gallery with a leg crushed under a sledge runner. At its farther end stood Imme Tarro, a carrier working for #{ref :ressa_dorr, "Ressa Dorr"}. Tovin had stolen two of Ressa's loads some time before, and Imme had been hauling one of them.
 
-    Daret anchored a line to fixed masonry instead of the moving gallery. Tovin's crew brought a portable pressure shelter as close as the sound approach allowed. They ferried spare air across the gap, then brought people back along the line. Tovin gave up the load he had come for to carry the injured and their equipment. No one charged the rescued workers for the crossing.
+    Daret anchored a line to the fixed masonry and left the moving gallery out of it. Tovin's crew brought a portable pressure shelter as close as the sound approach allowed. They ferried spare air across the gap, then brought people back along the line, Hadd last because he had to be lashed to a frame. Tovin gave up the load he had come for to carry the injured and their equipment. The rescued workers paid nothing for the crossing.
   PROSE
 
   prose <<~PROSE, section: :aftermath, heading: "The Span That Remains"
     Daret returned to brace the gallery and laid a narrow crossing over the gap. She maintains that work when she comes to Oravel. The old weight and broken stop remain visible from the service route, below the marks where rescuers braced their feet.
 
-    Moving the gallery exposed a fold in the #{ref :oravel_hanging, "Oravel Hanging"} that had lain against stone. Its joined edge became accessible to examination. The sledge's heavier cargo still lies beyond the repaired crossing, which cannot safely carry it. Reaching the load from below would require opening another route.
+    Moving the gallery exposed a fold in the #{ref :oravel_hanging, "Oravel Hanging"} that had lain against stone. Its joined edge became accessible to examination. The sledge's heavier cargo still lies beyond the repaired crossing, which was built for people and light equipment. Reaching the load from below would mean opening another route.
 
-    Ressa fed Tovin and his crew on their return. She still required repayment for her stolen provisions and kept him out of the storeroom. Daret has since accepted his passage and argued with him about other cargo. Their willingness to work together dates from acts each saw the other perform, and survives disagreements neither has withdrawn.
+    Ressa fed Tovin and his crew on their return. She still wants payment for her stolen provisions and keeps him out of the storeroom. Imme sits at the other end of the common table from him and has told Ressa she will share a route with anyone but Ulveth's crew. Hadd walks with a brace and argues with Tovin about his share of the abandoned load. Daret has since taken passage on Ulveth and fought with Tovin over other cargo, and when his ship is overdue at Oravel she is the one who goes to look.
   PROSE
 
   gm_note :appears, "An overdue cargo request names the load abandoned during the Crossing. Its owner will pay for recovery, but the repaired span was built for people and light equipment; Daret can show where another approach might meet the gallery."

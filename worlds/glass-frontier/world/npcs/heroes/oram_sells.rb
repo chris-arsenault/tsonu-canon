@@ -14,8 +14,8 @@ npc :oram_sells do
     The third First Threshold of the #{ref :displacement_council, "Displacement Council"}, in office from 2421 until his death in 2432. Oram Sells inherited a mature cordon service with exhausted crews, uneven records, and more boundaries than its founders had planned to hold. He standardized handoffs between stations and required each cordon to maintain a recovery ledger for the families outside it.
   PROSE
 
-  prose <<~PROSE, section: :truth, heading: "The Last Briefing", dm: true
-    Sells disclosed the hidden elven cooperation to #{ref :dern_talish, "Dern Talish"} at #{ref :gray_line, "Gray Line"} and gave her the contact protocol. She confirmed his account through the communication shard. His public transfer of command did not disclose that arrangement to the Council.
+  prose <<~PROSE, section: :history, heading: "The Last Briefing"
+    Sells held the Council's private channel to the hidden #{encyclopedia_ref :elves, "elves"} for his whole term. Three months before he died he disclosed it to #{ref :dern_talish, "Dern Talish"} in the sealed registry room at #{ref :gray_line, "Gray Line"}, passed her the #{ref :communication_shard, "Communication Shard"}, and watched her open it. His public transfer of command said nothing of it to the Council.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Succession"

@@ -3,6 +3,7 @@ encyclopedia :tuning_compass do
   kind :technology
   subkind :instrument
   status :complete
+  log "2026-09-23 — Replaced cues, affordance and variations that repeated the prose with fresh observations and genuine differences between compasses."
   summary "A tuning compass is a portable instrument that shows the dominant resonance band, gradient, and stability around it. Mechanics, pilots, surveyors, and households use pocket, survey, and hull-mounted versions."
   function "Shows the direction, band, and stability of a local resonance gradient"
   classes "Pocket, survey, and hull-mounted"
@@ -12,12 +13,12 @@ encyclopedia :tuning_compass do
   prevalence :common
   available_globally
 
-  cue "The pocket model has three paired reeds around a clear ringglass bead in a housing that rotates without moving the bead."
-  cue "A steady lean marks a gradient, a widening shiver marks drift, and reeds hanging together without motion usually mean the field has gone quiet."
-  affordance "A sudden turn toward a vessel's hull can reveal a live conduit behind the panels before heat or sound gives it away."
-  pressure "The compass reads gradients rather than causes, so reflected fields and drawdown can point a repair crew away from the failed equipment."
-  variation "Survey compasses use longer reeds, interchangeable housings, and a base fixed directly to stone or ring structure."
-  variation "Hull-mounted models sacrifice sensitivity for a reading that remains legible through engine vibration."
+  cue "A mechanic kneels at an open array with a brass case in her palm, turning it slowly while she watches three hair-thin reeds shiver around a bead of glass."
+  cue "A worn pocket compass hangs on a nail beside a kitchen concentrator, its case rubbed bright where generations of thumbs have turned it."
+  affordance "The compass lets anyone who can read its reeds find which band dominates a room, follow a gradient to its source, and see a live conduit behind a hull panel before heat or sound gives it away."
+  pressure "The compass reads gradients rather than causes, so a repair crew that trusts one reading during drawdown pulls apart the working neighbor of the failed array, and a Tuner whose hands disagree with the reeds is asked by an impatient foreman to pick one."
+  variation "Clarisant-tested compasses carry the house's reference tone and a test mark on the case; independent makers' compasses keep their own reed alloys and local scales, and a crew that mixes the two argues over every reading."
+  variation "A household compass is read by eye against the engraved marks and trusted for gross changes; a Tuner's compass is read by the interval of the beat, and Tuners guard their own like a musician guards an instrument."
 
   descriptive_identity(
     appearance:

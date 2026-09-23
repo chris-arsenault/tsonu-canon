@@ -1,7 +1,7 @@
 incident :kesh_mareth_recoil do
   tags :subject_hab_life
   name "Kesh Mareth Recoil"
-  summary "Kesh Mareth Recoil is a brief reversal of corridor pull after a heavy vessel leaves Mareth under load."
+  summary "Mareth Recoil as felt at Kesh, the shifting-gravity settlement on the Mareth branch."
   type_of :mareth_recoil
   subkind :incident
   status :complete

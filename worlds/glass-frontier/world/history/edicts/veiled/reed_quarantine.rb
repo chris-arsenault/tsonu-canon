@@ -1,7 +1,7 @@
 edict :reed_quarantine do
   tags :subject_planetary_life
   name "The Reed Quarantine"
-  summary "The Reed Quarantine holds boats carrying red-root growth outside inhabited channels until every cutting remains silent."
+  summary "Second Habitat quarantine on Dovra's river traffic, enforced around Lowbank, Ninth Kiln and the Reed Door."
   subkind :edict
   type_of :second_habitat
   status :complete

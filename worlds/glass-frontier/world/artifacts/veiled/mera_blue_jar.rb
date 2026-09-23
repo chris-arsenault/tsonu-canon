@@ -1,7 +1,7 @@
 artifact :mera_blue_jar do
   tags :subject_hab_life
   name "Mera Blue Jar"
-  summary "The Mera Blue Jar is an agricultural vessel used among Mera, Olven, and Seren. It feeds stored root heat to keep one graft alive through a failed harvest."
+  summary "Graft-keeping jar used by the growers of Mera, Olven and Seren."
   subkind :artifact
   status :complete
   prominence :marginal

@@ -1,7 +1,7 @@
 edict :outside_open_hand_order do
   tags :subject_bloom
   name "The Outside Open-Hand Order"
-  summary "The Outside Open-Hand Order requires anyone entering a displaced room to show an empty glove first."
+  summary "Threshold law of Outside, the Karet-3 cordon settlement, also observed at Xyloathax, governing entry into displaced rooms."
   type_of :thresholds
   subkind :edict
   status :complete

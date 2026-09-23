@@ -4,8 +4,9 @@ npc :teren_voss do
   subkind :specialist
   occupation "Retired signal-array engineer"
   specialty "Narrow-band conduit alignment"
-  type_of :humans
+  type_of :gnomes
   belongs_to :culture, :hab_worlder
+  born 2320
   descriptive_identity disposition:
     "Voss will inspect any conduit design brought to him and mark the " \
     "coupled loads it overlooks. When a plan amounts to another Span, he " \
@@ -13,11 +14,13 @@ npc :teren_voss do
   tags :resonance, :ringglass, :"signal-freq", :subject_bloom
   prominence :marginal
   status :complete
-  question "What birth year and late-life history connect Teren's engineering leadership in 2356 with his present work in 2435?", raised: "2026-09-15"
   log "2026-09-15 — Retained the attested human identity and career. A birth year and late-life account remain to establish before expanding his biography; no lifespan limit or replacement identity has been invented."
+  log "2026-09-23 — Resolved the 2356-to-2435 career span by making Voss a gnome born in 2320; human lifespans could not carry a trial lead into present-day bench work, and a gnome's lattice sense suits narrow-band alignment."
 
   prose <<~PROSE
     The engineer who led #{ref :coremark, "Coremark"}'s #{ref :second_span_trial, "Second Span trial"}. Voss aligned the trial's relay chain, signed the order that abandoned it, and kept copies of the anomalous readings after Coremark closed the project.
+
+    He is a #{encyclopedia_ref :gnomes, "gnome"}, and he felt the anchor chain the way gnomes feel any strong field: as a pressure behind the teeth that did not fade when the test equipment went quiet. He has spent the decades since on regular lattice care, which is why he is still working at an age most of his contemporaries did not reach.
 
     He now repairs municipal signal gear in #{ref :keelward, "Keelward"}. Researchers still bring him conduit proposals. He will inspect them, mark the coupled loads they have overlooked, and refuse any work intended to make a second Span.
   PROSE

@@ -89,7 +89,7 @@ Lore prose does not acknowledge the wiki, a game, an author, or an outside reade
 
 Use `voice-review-prompt.md` with the world's `guidance/voice-referents.md` for setting-specific checks.
 
-State uncertainty through its evidence boundary. Name what records omit, what surveys can measure, where witnesses disagree, or which models fail. Phrases such as “nobody understands” and rhetorical questions often conceal the useful fact: what people have tried and where their knowledge ends.
+State uncertainty through what people have found. Name what surveys measure, what a device reliably does, where witnesses disagree, and who is arguing for which explanation. Phrases such as “nobody understands” and rhetorical questions often conceal the useful fact: what people have tried and what they learned. A list of what the evidence fails to show is the same concealment in a longer form.
 
 ## 7. Give Named Artifacts A Reason To Be Named
 

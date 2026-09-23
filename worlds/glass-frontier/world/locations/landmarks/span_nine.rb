@@ -70,10 +70,10 @@ relate :rel_span_nine_in_whitefoot, :located_in, :span_nine, :whitefoot, since: 
   prose "Span Nine grounds at #{ref :whitefoot, "Whitefoot"}, where a modern signal yard surrounds the surviving surface terminus."
 end
 relate :rel_span_nine_in_pelhari, :located_in, :span_nine, :pelhari, since: 2305 do
-  prose "Its midpoint passes through #{ref :pelhari, "Pelhari"}, the relay that keeps the old conduit's signal coherent across the gap."
+  prose "Its outer arm ends at #{ref :pelhari, "Pelhari"} on a moon of Vastine."
 end
 relate :rel_span_nine_in_threshold_station, :located_in, :span_nine, :threshold_station, since: 2305 do
-  prose "Its far end terminates at #{ref :threshold_station, "Threshold Station"}, completing the only intact length of ring-era hardline anyone has managed to bring back into service."
+  prose "Its sunward arm ends at #{ref :threshold_station, "Threshold Station"}. Together the two arms are the only intact ring-era hardline anyone has brought back into service."
 end
 
 # --- history (moment) ---

@@ -31,6 +31,9 @@ moment :first_repeatable_kite_tuning_recorded, year: 2235, of: :first_repeatable
   prose "A freight crew recorded the first kite tuning another workshop could reproduce in 2235."
 end
 
+relate :rel_prismwell_commemorates_first_tuning, :commemorates, :prismwell_kite_guild, :first_repeatable_kite_tuning do
+  prose "The #{ref :prismwell_kite_guild, "Prismwell Kite Guild"} keeps a copy of the 2235 maintenance record in its Glasswake hall, and apprentices tune their first array from it."
+end
 relate :rel_kite_created_during_signal_famine, :active_during, :first_repeatable_kite_tuning, :signal_famine do
   prose "The first repeatable tuning was recorded while surface crews rebuilt trade during the Signal Famine."
 end

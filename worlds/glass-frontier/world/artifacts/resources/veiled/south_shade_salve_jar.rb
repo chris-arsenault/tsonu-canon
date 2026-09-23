@@ -1,7 +1,7 @@
 artifact :south_shade_salve_jar do
   tags :subject_planetary_life
   name "The South Shade Salve Jar"
-  summary "The South Shade Salve Jar holds shade-burn salve sourced from Crucible and South Shade. It draws charged grit from flesh and becomes rigid when the last grain leaves."
+  summary "Sealed pot of cast grit dressing from a hot-country kit, supplied through Crucible and South Shade."
   subkind :artifact
   type_of :cast
   status :complete

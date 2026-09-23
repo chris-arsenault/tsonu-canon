@@ -1,7 +1,7 @@
 npc :perch_rill_caller do
   tags :subject_hab_life
   name "The Perch Rill Caller"
-  summary "The Perch Rill Caller guides herd animals through Perch by tapping a pitch that carries along irrigation pipes."
+  summary "Rill caller of the terraced water towns, herding between pastures and gates in Perch, Talven and Seren."
   type_of :rill_calling
   subkind :specialist
   status :complete

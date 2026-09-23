@@ -1,7 +1,7 @@
 faction :reed_exchange do
   tags :subject_planetary_life
   name "The Reed Exchange"
-  summary "The Reed Exchange is a trade network for kilnware, medicine, and living cuttings along Dovra's maintained channels."
+  summary "Reedwater families' trade network on Korvath, operating through Dovra, the port of Lowbank, the Reed Door and Ninth Kiln."
   subkind :trade_network
   type_of :reedwater_people
   status :complete

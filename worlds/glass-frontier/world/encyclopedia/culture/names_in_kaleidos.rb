@@ -38,6 +38,12 @@ encyclopedia :names_in_kaleidos do
     *Dern Talish*, *Sable Korr*, and *Dez Morrn* carry the clipped rhythm common to many habs, but there is no single Hab-Worlder system. One settlement uses deck names, another family tools, another the last functioning lock. What they share is a preference for a name that survives a shouted warning, a crowded channel, and repeated daily use. #{encyclopedia_ref :kesh_challenge_names, "Kesh Challenge Names"} and #{encyclopedia_ref :span_names, "Span Names"} are two local traditions that add earned work to that compact base.
   PROSE
 
+  prose <<~PROSE, section: :naming, heading: "Avar Well Names"
+    In the settled well towns of the #{ref :avar, "Avar"} steppe, a well defines a community, and people carry their well as a second name. A short, heavy given name comes first, followed by the well's name clipped to one word: *Ruda Semmet*, *Tollek Semmet*, *Gunna Ladder* from Ladderwell. Siblings, cousins and neighbors share the second name, so steppe people tell one another apart by the given name and by household.
+
+    Moving to another well does not change the second name. A family that leaves one well for another is known by the old well for a generation, and their grandchildren take the new one. Hearing a Semmet name on Ladderwell's lower benches tells a listener where the family came from and, often, what it left owing.
+  PROSE
+
   prose <<~PROSE, section: :naming, heading: "Orc Names"
     Orc households preserve a mononym tradition alongside the names supplied by the surrounding culture. Parents give a child a short birth-sound. The bearer chooses the lasting name after deciding what they are prepared to be called by others. That chosen name stands alone among orcs.
 

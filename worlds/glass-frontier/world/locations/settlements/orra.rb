@@ -46,7 +46,7 @@ installation :orra do
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "The Body in the Cradle"
-    Ring Age service plans call the nursery Orivar, shortened to Orra in Famine speech. The carrier's forward plates meet the old nursery docks, while its long body curves through a cradle of ceramic spars and structural ringglass. Early residents opened the dry upper cavities first. Later crews reached the marrow channels, fermentation chambers, and fluid reservoirs held deeper inside.
+    Raised Ring Age letters over each nursery lock spell Orivar. Famine survivors calling to one another through the dark halls used only its first half, and Orra is what the settlement has called itself since. The carrier's forward plates meet the old nursery docks, while its long body curves through a cradle of ceramic spars and structural ringglass. Early residents opened the dry upper cavities first. Later crews reached the marrow channels, fermentation chambers, and fluid reservoirs held deeper inside.
 
     Each layer has its own air and working hazards. The outer hide sheds hard scales that crews cut into pressure patches. Fungal districts stay warm and wet. Marrow galleries carry pockets of sweet gas that ignite under a kinetic spark. Old service passages run beside the body and give rescue crews a clean route around most inhabited chambers.
 
@@ -61,11 +61,15 @@ installation :orra do
     #{ref :orra_marrower_colonies, "Marrower colonies"} move through channels too narrow for a person. Their feeding exposes warm tissue and blocked fluid pockets. Deep crews follow their tracks during surveys and seal them away from cultivated chambers.
   PROSE
 
-  prose <<~PROSE, section: :present_day, heading: "Heat Under the Sternum"
-    Three probes beneath the central sternum now record a slow pulse of heat and ion exchange. The cycle repeats every eleven hours and travels along living nerve bundles before fading at the third rib. Samples taken from the same tissue close shallow cuts within a day.
+  prose <<~PROSE, section: :present_day, heading: "The Sternum Apartments"
+    Forty households lived in the apartments over the central sternum until this year, when the tissue beneath their floors turned warm. The warmth comes in a slow wave every eleven hours, runs along living nerve bundles and fades at the third rib, and tissue cut from that stretch closes a shallow wound within a day. Orra emptied the apartments and opened the old nursery service gallery beneath them.
 
-    Orra has cleared the overlying apartments and opened the old nursery service gallery for study. Growers want the warm tissue isolated for propagation. Cutters have found pressure marks indicating movement against the cradle. Deep readers are placing a fourth probe at the point where the signal enters the spine.
+    Mab Ostrey, who raised four children in the end apartment, leads the evicted households. They sleep in the grower halls and want their rooms back or a share of whatever the tissue earns, and they still hold keys to the stairwells that lead most directly down to the gallery. Ilse Vorran and the growers want the warm tissue isolated for propagation. Several cutters have stopped working under the sternum since finding pressure marks where the body has shifted against its cradle. Jory Pask's deep readers already have three probes in the tissue and are seating a fourth where the warmth enters the spine.
+
+    Meanwhile small wet parcels of sternum tissue have started leaving on the Seren carriers in personal luggage. Someone with a gallery key is cutting at night, and the growers and Mab's households each suspect the other.
   PROSE
+
+  log "2026-09-23 — Rebuilt the present-day section around the evicted sternum households and a night trade in healing tissue, keeping the heat cycle and probes as facts; rephrased the Orivar etymology."
 
   gm_note :appears, "An ordinary walk across Orra passes through dry hide, a warm wet fungal district, and a marrow gallery within a few streets. The galleries hold pockets of sweet gas that a kinetic spark will light, so tuned tools are carried dead through them or left at the boundary."
   gm_note :triggered_by, "Removing anything from a chamber puts the cutters above and the growers below into the same argument: the plate has come free of a mapped fracture and is ready to lift, and the beds under it want another season of its shade."

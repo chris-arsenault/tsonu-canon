@@ -41,15 +41,15 @@ installation :issel do
   )
 
   prose <<~PROSE
-    A third of Issel's receiver dish survived the Glassfall along with most of the galleries behind it. Ceramic, water, and packed salvage felt shield the inhabited rooms. Speaking tubes connect neighboring galleries; written boards carry work orders farther. Arriving ships follow a physical guide cable and shut down signal equipment before entering the listening field.
+    A third of Issel's receiver dish survived the Glassfall along with most of the galleries behind it. The inner rim still carries its Ring Age name, Issen-Lareth, cut in letters a hand wide; Rekindling navigators restoring the passive arrays needed something short enough to sign across a silent gallery, and Issel is the form they wore it down to. Ceramic, water, and packed salvage felt shield the inhabited rooms. Speaking tubes connect neighboring galleries; written boards carry work orders farther. Arriving ships follow a physical guide cable and shut down signal equipment before entering the listening field.
 
     The restored arrays record navigation beacons, drive wakes, stellar weather, ringglass discharges, and signal impressions carried through large fragments. Residents sell timed tracks with the receiver state fixed alongside each observation. A pilot can compare a route against the dish's record and locate the point where traffic, debris, or resonance changed it.
   PROSE
 
   prose <<~PROSE, section: :people, heading: "Quiet Households"
-    Each household keeps one receiver room and one public duty. Some tend cable lights or dock carts. Others copy boards, inspect shielding, cook for night watches, or carry sealed observations to transmitting ships beyond the field. The name Issel is the worn form of Issen-Lareth, still cut into the dish's inner rim; Rekindling navigators used the shorter form while restoring the passive arrays.
+    Each household keeps one receiver room and one public duty. Some tend cable lights or dock carts. Others copy boards, inspect shielding, cook for night watches, or carry sealed observations to transmitting ships beyond the field. The night-watch cooks are the best known: their barley and dried-fish porridge goes round the galleries in insulated pails at the second shift change, and a household that cooks badly hears about it on every slate in the dish.
 
-    Children learn the gallery routes by touch and the shift changes by floor vibration. Adults speak freely in screened common rooms. Work chambers use hand signs and slate because a voice can cross an active receiver as a thin signal trace.
+    Children learn the gallery routes by touch and the shift changes by floor vibration. Work chambers use hand signs and slate because a voice can cross an active receiver as a thin signal trace, and Issel's sign language has grown rich enough for jokes, insults and courtship. The screened common rooms are loud by comparison. People who have spent a shift silent come off watch shouting, singing and arguing, and visitors who expect a hushed observatory find the common rooms noisier than a dock bar.
 
     #{ref :sen_ket, "Sen'ket"} tends the longest remaining Ring-era baseline. Their repairs have kept its different sections on one timing standard through eight thermal cycles.
   PROSE
@@ -60,7 +60,11 @@ installation :issel do
     The observatory fixed the three traces into #{ref :long_note, "the Long Note"}. Sen'ket has extended the guide cable with isolated listening beads to determine whether the signal moves through open space, the dish structure, or arriving ships.
 
     Brief matches now appear at the edge of drive wakes on the Prismwell surface leg. The guild has withdrawn that route from passenger boards until Issel can separate a real wake from the added note. Two loaded survey kites wait behind the dish for the next clean track, paying for berth and provisions with each delayed departure.
+
+    The two captains spend the wait differently. Mirro Vance has posted a reward on the dock boards for any crew that brings back raw watch boards with a clean wake and a matching note on the same leg, which has sent three small carriers out to fly it empty. Kel Adraste has sold six passenger berths on her kite at three times the posted fare to travelers who will sign that they flew outside the guild's board. Sen'ket has heard about the berths and has asked Adraste to carry a disconnected listening bead in her hold, and Adraste is weighing what the bead would cost her in hold space against what it would cost her with Sen'ket.
   PROSE
+
+  log "2026-09-23 — Kept the Long Note as Issel's open signal and gave the waiting kite captains their own responses to it; added the night-watch cooks and the loud common rooms, and moved the Issen-Lareth etymology into the opening."
 
   gm_note :appears, "Every vessel arriving at Issel shuts down its signal equipment and follows a physical guide cable to the shielded dock, so a party lands with no instruments and no way to call ahead. " \
                     "In the work chambers they get slate and hand signs, because a voice crosses an active receiver as a thin trace."

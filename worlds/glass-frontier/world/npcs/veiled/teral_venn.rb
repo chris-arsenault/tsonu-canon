@@ -1,7 +1,7 @@
 npc :teral_venn do
   tags :subject_politics_history
   name "Teral Venn"
-  summary "Teral Venn is a Trellin testimony courier heard at the Sable Crescent, Verathi, Hab Meridian, and the Underlayers."
+  summary "Trellin testimony courier carrying recorded voices among the Sable Crescent, Verathi, Hab Meridian and the Underlayers."
   subkind :npc
   status :complete
   prominence :marginal

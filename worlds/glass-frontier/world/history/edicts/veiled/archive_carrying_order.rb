@@ -1,7 +1,7 @@
 edict :archive_carrying_order do
   tags :subject_politics_history
   name "The Archive-Carrying Order"
-  summary "The Archive-Carrying Order requires each recovered record to pass through three separate vaults before a public reading."
+  summary "Public Shelf custody law of the Service for recovered records, observed at the Old Campus, the Folded Annex, Thornvault and Ledgerfall."
   subkind :edict
   type_of :public_shelf
   belongs_to :culture, :service

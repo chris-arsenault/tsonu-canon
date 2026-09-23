@@ -18,6 +18,8 @@ installation :caldris do
 
     The final stretch crosses the palace exterior. A pilot can see the finish through several intervening rooms and may try a weak wall instead of the established opening. Torn edges left by such shortcuts catch the next hull through. Practice crews share recordings, though some omit the turn on which a new route depends.
 
+    Relay crews carry recordings of every meet to hab screens across the frontier, where supporters of the #{encyclopedia_ref :caldris_colours, "Ochre and Slate colours"} watch in their own halls and bet on the outcome. Money from those halls reaches the spectator moorings, and so do the people who want a heat to end a particular way.
+
     The next meet offers #{ref :ask_again}, restored with help from #{ref :prismwell_kite_guild} mechanics. The #{ref :caldris_titleholders, "Caldris Titleholders"} have fitted concealed weapons to defend their standing. Rivals examine damaged hulls after every practice run, and several now carry weapons openly.
   PROSE
   gm_note :complicates, "A skiff punching through a partition leaves a tempting line toward the finish and a torn spar swinging across the opening. Following craft see the finish before they see the spar."

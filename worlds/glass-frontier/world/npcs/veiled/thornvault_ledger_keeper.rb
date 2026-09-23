@@ -1,7 +1,7 @@
 npc :thornvault_ledger_keeper do
   tags :subject_politics_history
   name "The Thornvault Ledger Keeper"
-  summary "The Thornvault Ledger Keeper preserves a long spoken account by tying each passage to a different pulse in the wrist."
+  summary "Trained binding holder who recites contracts and testimony under witness at Ledgerfall, Old Campus and Accord Shore."
   type_of :binding
   subkind :specialist
   status :complete

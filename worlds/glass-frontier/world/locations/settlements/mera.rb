@@ -47,16 +47,18 @@ installation :mera do
 
     Each column belongs to a water ward. The first melt fills drinking tanks. Later flow reaches gardens and process lines. Public columns carry stairs, cold rooms, and market platforms while they stand. Smaller household columns keep food and release water into local cisterns.
 
-    Mera closes the outer spray court when light reaches the first red depth line. Crews recover nozzle frames from within the ice and open spill channels toward the bright-season reservoirs. Ring Age tanks call the fragment Merath-Ilyen; seasonal manifests shortened the working name to Mera.
+    Mera closes the outer spray court when light reaches the first red depth line. Crews recover nozzle frames from within the ice and open spill channels toward the bright-season reservoirs.
   PROSE
 
   prose <<~PROSE, section: :culture, heading: "What the Thaw Reveals"
-    Residents carve murals, family marks, and short promises into the clear outer layers. Meltwater blurs them from the bottom upward. Permanent records stay on ceramic panels fixed to the court walls; the ice carries messages intended for one season.
+    Residents carve murals, family marks, and short promises into the clear outer layers. Meltwater blurs them from the bottom upward. Permanent records stay on ceramic panels fixed to the court walls; the ice carries messages intended for one season. The oldest words anywhere in Mera are stamped on the Ring Age tanks beneath the courts, Merath-Ilyen, and the seasonal freight crews who first loaded water here clipped them to the name the fragment uses now.
 
     Rooms buried inside a public column open as doors melt free. Winter stores become spring stalls. Musicians use the narrowing chambers for performances whose tone changes every day. Children race leaf-sized floats through the first open channels.
 
     #{embed :room_before_the_ice}
   PROSE
+
+  log "2026-09-23 — Moved the Merath-Ilyen etymology from the column-building section to the passage on permanent and seasonal inscriptions."
 
   gm_note :appears, "An address in Mera sits on a frozen terrace through the cold season and on an open court floor after the melt. " \
                     "Painted depth lines and the permanent ceramic stairs hold through both phases; a visitor navigating by anything else arrives on the wrong level."

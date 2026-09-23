@@ -18,15 +18,16 @@ npc :detha do
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Crew Inside"
-    Detha now guides people through the coastal approaches and prepares to recover her crew. She knows which officers willingly supported Aren before his first command, but cannot tell what has happened to each since. She keeps their names rather than labeling whole units loyal or compelled.
+    Detha now guides people through the coastal approaches and prepares to recover her crew. She knows which officers willingly supported Aren before his first command. For the rest she keeps a name and a guess beside each post on her crew list, and revises the guesses whenever a deserter or a prisoner's letter reaches her. Her gunner Brakka sends word through the families at the battery gate: short notes about the food and the weather, with the watch rota written into the weather. Her loader Narro Oralis has sent nothing since the night she escaped.
 
-    #{ref :ivena_sar, "Ivena Sar"}'s patients include people Detha detained before the occupation. Some will work with her only after hearing an account of those arrests. She gives it even when doing so costs her a guide or a berth. Escaping Aren did not erase what she did while her decisions were her own.
+    #{ref :ivena_sar, "Ivena Sar"}'s patients include people Detha detained before the occupation. Some will work with her only after hearing an account of those arrests. She gives it even when doing so costs her a guide or a berth. She made those arrests on her own judgment as a league captain, and she tells it that way.
 
-    Reaching him could open succession. She considers the route whenever she studies the batteries and fears what she might justify if the second voice became hers. Recovering one crew, disabling a gun and keeping a neighborhood free remain undertakings she can complete without taking the mantle.
+    Reaching him could open succession. She considers the route whenever she studies the batteries and fears what she might justify if the mantle's voice became hers. Aren has told his guards to take her alive; she has heard that from three separate deserters and believes it. Recovering one crew, disabling a gun and keeping a neighborhood free are jobs she can finish with her own hands, and she keeps choosing them.
 
-    Copies of #{ref :talessar, "Talessar"} now circulate with her face painted beneath the crown. She asks their sellers to show the original figure and rejects invitations to promise that she will become sovereign. She has agreed to neither a coronation nor permanent exile from the city to prevent one. Her crew remain inside while people argue over what she might become.
+    Copies of #{ref :talessar, "Talessar"} now circulate with her face painted beneath the crown. She asks their sellers to show the original figure and turns away anyone who wants her promise to become sovereign. People offering her a coronation and people asking her to leave the coast for good to prevent one get the same answer from her: they can ask again when Brakka and Narro are out.
   PROSE
 
+  log "2026-09-23 — Named two of Detha's crew and gave her present-day paragraphs concrete acts in place of disclaimer closers."
   gm_note :appears, "Detha offers a route through a battery passage, then recognizes someone she once arrested among the people being rescued."
   gm_note :triggered_by, "A plan to reach Aren makes Detha ask who will recover her crew if she stays to attempt succession."
 end

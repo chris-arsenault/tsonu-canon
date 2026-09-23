@@ -10,9 +10,17 @@ The setting-specific half of `craft/authoring-principles.md`. The craft file say
 
 The world remains hopeful through dark events and takes itself seriously. A hab governed by jazz is an ordinary political fact to its residents. Humor comes from the situation and from people's concrete reactions to it; the narrator does not supply the punchline.
 
-Hope appears in ordinary life as well as responses to danger: a good meal, a friendship maintained across worlds, a performance worth hearing, work someone takes pride in. People can achieve these things without first suffering a catastrophe. Conflict can come from affection, incompatible ambitions, artistic judgment, political choice or curiosity. Let a local problem have a local resolution when the people and circumstances support it.
+Hope appears in ordinary life as well as responses to danger: a good meal, a friendship maintained across worlds, a performance worth hearing, work someone takes pride in. People can achieve these things without first suffering a catastrophe. Conflict can come from affection, incompatible ambitions, artistic judgment, political choice, curiosity, greed or grudge. A local problem can end locally: by a deal, a fight, a friendship, a departure, or people learning to live with it.
 
-Environmental danger, sentient enemies and monsters remain real threats where the subject calls for them. Neither danger nor institutional repair is a required opening or conclusion. Existing threads describe particular histories and pressures; they do not prescribe every community's future.
+## Ordinary Wrongdoing
+
+Wherever people have something worth taking, some of them take it. Gangs hold wells and mountain passes, pirates work the outer belts, officials sell what their offices control, rival crews sabotage each other, and families carry feuds for generations. Write these as ordinary parts of the places they occur. They need no connection to a larger plot and no single mastermind.
+
+Hope governs how such people are written, not whether they exist. Give them families, loyalties, reasons and limits. A gang can be the same neighbors who dig out the well after a storm; a corrupt clerk can keep a ward fed; a pirate crew can answer a distress call. None of that softens what they do, and none of it requires them to be redeemed or defeated. Some win and keep winning.
+
+Most trouble is met first by the people it touches. They bargain, fight, flee, hide, pay, trade favors, or ask someone they trust. Institutions are one response among these, suited to the places that maintain them.
+
+Environmental danger, sentient enemies and monsters remain real threats where the subject calls for them. Existing threads describe particular histories and pressures; they do not prescribe every community's future.
 
 Hope also appears in liberation, dangerous exploration, defiance of overwhelming force, and alliances that win. Enemies can conquer, enslave, and destroy; heroes can defeat them and keep what they have gained. Give antagonists concrete motives and capabilities without requiring their aims to be morally equivalent to those of the people resisting them. A major story can change the fate of worlds. Personal loyalties, humor, and lives worth returning to belong within that scale.
 
@@ -50,11 +58,11 @@ Different communities have different provisions for unusual conditions. Codes, i
 
 ## The Elves Are Known History
 
-The elves existed, built the ring, were integrated into society, and vanished during the Signal Famine. This is common knowledge. "Elven engineering" is a common expression.
+The elves existed, built the ring, were integrated into society, and vanished from the public record during the Signal Famine. This is common knowledge. "Elven engineering" is a common expression.
 
-Their disappearance is the mystery. Their existence and work are documented history. The Redaction — systematic historical tampering — remains a fringe academic position.
+Canon states why: they withdrew into hidden ring habs to prepare against the False Form, and a few live among everyone else in human guise. Inside the world almost nobody knows this. Public scholarship treats the disappearance as unexplained and the Redaction, systematic historical tampering, as a fringe position. Write each entry from what its people know, and state plainly who knows more.
 
-DM material keeps the reason for their disappearance secret while public lore treats the civilization itself as known.
+Canon has no separate hidden layer. A secret is a fact plus the people who keep it.
 
 ## Sanderson Applied Here
 
@@ -62,6 +70,6 @@ The resonance system has defined bands and bandwidths. Ringglass has a supply ch
 
 ## Mystery Through Evidence
 
-State what an instrument measures, what a survey repeats, what an archive lacks, or where two accounts conflict. Let the unexplained remainder carry the mystery. “Nobody knows,” a string of questions, or a closing warning gives the narrator knowledge and attitude that should belong to an observer inside the world.
+Show a mystery through what people have found: what an instrument measures, what a survey repeats, what a device reliably does, where two accounts conflict. Give the unexplained part to the people who argue about it, exploit it or work around it. State findings as things observed and done. “Nobody knows,” a string of questions, a list of what the evidence fails to show, or a closing warning gives the narrator knowledge and attitude that should belong to an observer inside the world.
 
 Long entries suit this setting when each section develops a real facet of the subject. Do not trade cultural texture, working detail, or useful uncertainty for brevity.

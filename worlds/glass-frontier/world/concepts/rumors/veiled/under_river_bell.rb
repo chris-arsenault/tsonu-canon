@@ -1,7 +1,7 @@
 rumor :under_river_bell do
   tags :subject_planetary_life
   name "The Under-River Bell"
-  summary "The Under-River Bell is a Korvath ferrymen's rumor linking a submerged bell to cargo exposed from lost crossings."
+  summary "River ferrymen's rumor of Korvath, told on the crossings of its river plains."
   subkind :rumor
   status :complete
   prominence :marginal

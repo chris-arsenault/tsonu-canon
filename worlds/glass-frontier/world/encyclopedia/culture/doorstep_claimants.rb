@@ -1,33 +1,51 @@
 encyclopedia :doorstep_claimants do
   name "Doorstep Claimants"
-  summary "Doorstep Claimants are displaced households who carry floor tiles from lost homes and place them beneath each temporary bed. The tile is the house, held in law and feeling both — a claim kept warm underfoot until the displacement courts rule, and a hearth carried meanwhile."
+  summary "Doorstep Claimants are households displaced by Bloom boundary shifts who carry floor tiles from their lost homes and sleep above them in every temporary room while the displacement courts decide whether they can go back."
   kind :culture
   subkind :social_order
   status :complete
   topics :"fluid-reality", :household, :"social-structure", :governance, :subject_bloom
   prevalence :uncommon
   appears_when all: { place: [:displacement_zone] }
+  log "2026-09-23 — Rewrote the entry around the claimants' waiting years, the fights and trade over tiles and the two ways a claim ends, keeping every fact of the custom and the court standard."
 
   descriptive_identity(
-    manner: "Claimant households speak of the lost rooms in the present tense and the " \
-            "temporary ones in the conditional — 'the kitchen faces the well' but 'we " \
-            "would put the loom there' — a grammar the displacement courts' clerks " \
-            "learn to read for what a family still holds.",
-    hospitality: "A guest in a claimant household is shown the tiles first, each with " \
-                 "its room named — the parlor stone, the kitchen's worn square — and " \
-                 "the showing is the household introducing its real house."
+    manner: "Claimants speak of the lost rooms in the present tense and the temporary " \
+            "ones in the conditional: 'the kitchen faces the well', but 'we would put " \
+            "the loom there'. Displacement court clerks listen to that grammar to hear " \
+            "which rooms a family still counts as theirs.",
+    hospitality: "A guest is taken round the beds and shown each tile by its room: the " \
+                 "parlor stone, the kitchen's worn square. After that the family talks " \
+                 "about the lost house as though the guest has been inside it."
   )
 
   prose <<~PROSE
-    When the displacement country takes a home — the room arrived-upon, the quarter swallowed by a boundary shift, the building whose strata traded away the family floor — the households that lose it take up the tile custom. A floor tile is pried from the lost home, one per surviving room where the family can manage it, and carried to wherever the household lands; there the tiles go beneath the beds, the parlor stone under the eldest's, the kitchen square under the hearth-side cot, and the temporary room becomes, in the custom's exact grammar, a place the house is staying rather than a place the family lives. The tile is the claim. #{encyclopedia_ref :thresholds, "Threshold law"} recognizes carried floor as evidence of standing — the courts' phrase, tile-and-testimony, names the standard package a claimant family files — and the custom holds the legal and the felt claim in one object with a thoroughness the law's drafters admit they inherited rather than designed.
+    The displacement country takes homes in several ways. A room arrives on top of another room. A boundary shift swallows a quarter. A building's strata trade away the floor a family lived on. The household that loses its home pries up one floor tile for each room it can reach, and carries them to wherever it lands. There the tiles go under the beds: the parlor stone under the eldest's, the kitchen square beside the cot nearest the hearth. In claimant speech the temporary room is where the house is staying. The family itself lives in the lost one.
 
-    Claimant culture is the culture of the meanwhile. Households may wait years on the courts — boundary rulings queue behind surveys, surveys behind events — and the customs that fill the wait all orbit the tiles: the tile-warming when a household lands somewhere new, each stone set beneath its bed with the room's name spoken; the walking of children across the tiles on naming days, so the house knows its own; the settlement of a ruling, when it comes, marked by carrying the tiles home — or, in the losses the courts cannot repair, by setting them into the floor of the new permanent room, the old house adopted into the new one's bones. Claimant neighborhoods knit dense and fast, on the empty-berth pattern with deeper roots, and their standing joke receives every new arrival: the house is under the bed; everything else is furniture.
+    The tile is also the claim. #{encyclopedia_ref :thresholds, "Threshold law"} accepts carried floor as evidence, and the displacement courts' standard filing is called tile-and-testimony: each stone photographed and named, with the household's account braided onto a spool. The law's drafters took the practice from the claimants who were already doing it.
+  PROSE
+  prose <<~PROSE, section: :culture, heading: "The Meanwhile"
+    Rulings queue behind surveys and surveys behind new events, so a family may wait years. Claimant quarters fill quickly and knit tight. Neighbors mind one another's children through court days, share cooking fires in rooms built for fewer people, and greet each new arrival with the same joke: the house is under the bed; everything else is furniture.
+
+    A tile-warming marks each landing. The family sets every stone under its bed and says the room's name aloud. The kitchen square goes onto the new hearth for one night, and the first pot cooked in the new room stands on it, usually whatever the old kitchen was known for. Neighbors come with bowls. On naming days, parents walk a child barefoot across the tiles so that the house knows its own.
+
+    Children born in the meanwhile know the lost rooms by their stones. Some grow up homesick for a kitchen they never saw; others want the temporary rooms and resent the tile under the cot. Teenagers in the larger quarters court by asking to see someone's tiles, which means asking to be told about the house.
+  PROSE
+  prose <<~PROSE, section: :tensions, heading: "Stones Worth Stealing"
+    A tile carries a family's case in court, so tiles are worth money. Dealers pry stones from lost quarters nobody has reclaimed and sell them to people filing for rooms they never occupied. Clerks learn to read wear patterns: a kitchen square scuffed in the wrong place, a parlor stone with no furniture marks. Some clerks take a share.
+
+    Families quarrel over tiles too. A household that splits by marriage or feud must divide its stones, and the sibling left without the parlor stone has lost a vote in the house's future. Landlords dislike claimants because a tile under the bed means a tenant who expects to leave and will not pay for improvements. Claimants answer that the landlord's rooms are furniture.
+  PROSE
+  prose <<~PROSE, section: :aftermath, heading: "Carrying the Tiles Home"
+    A favorable ruling ends in a homecoming. The family carries its tiles back through the reopened quarter, sets each into the floor of its own room, and cooks the first meal on the kitchen square where it was pried up. The whole claimant street often follows them to the door.
+
+    Other losses cannot be repaired. When the court rules the house gone, the family sets its tiles into the floor of a permanent new room, and the old house becomes part of the new one's bones. People do this at night, with the family alone, and hold the tile-warming feast the next day.
   PROSE
 
   cue "Beneath each bed in the temporary room lies a single worn floor tile, and the youngest child, asked where home is, points down."
-  cue "At the displacement court's counter, the family's filing sits in the standard form the clerks call tile-and-testimony — the pried stones photographed and named, the household's account braided on a spool."
-  affordance "The tiles hold the claim in both registers at once — evidence of standing the displacement courts accept, and a portable hearth that keeps a household a household through years of meanwhile."
-  pressure "A pending claim keeps the tiles in their room-by-room places through each move; a court settlement sends them home or releases them to be laid into a permanent new floor."
-  variation "Xyloathax's claimant quarters run tile-warmings as street festivals and their courts move fastest; the scattered claimants of smaller events carry one tile and file thin, and the courts weigh the testimony harder."
-  variation "Settled rulings end in homecomings or adoptions: tiles are carried back to the recovered rooms or set into the floor of a permanent new home."
+  cue "At the displacement court's counter, a family's tile-and-testimony filing lies open: photographs of pried stones, each labeled with a room, beside a braided spool of their account."
+  affordance "Carried tiles give a displaced household evidence the displacement courts accept and a way to keep its rooms, meals and quarrels together through years of waiting."
+  pressure "A tile dealer sells stones from an unclaimed lost quarter to families who never lived there, and the clerk who spotted the wrong wear on a kitchen square has been offered a share."
+  variation "Xyloathax's claimant quarters hold tile-warmings as street festivals and their courts move fastest; scattered claimants of smaller events often carry one tile and file thin, and the courts weigh their testimony harder."
+  variation "A settled ruling ends either in a homecoming, with the tiles carried back to the recovered rooms, or in an adoption, with the tiles laid into a permanent new floor."
 end

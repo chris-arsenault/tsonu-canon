@@ -1,7 +1,7 @@
 incident :avar_water_order do
   tags :subject_planetary_life
   name "The Avar Water Order"
-  summary "The Avar Water Order was Avar's emergency diversion of two road cisterns to Marker House Twelve after its buried well began ringing."
+  summary "Emergency Water Standing ruling of the Avar grasslands, made for Marker House Twelve, the stone wayhouse on the eastern road."
   subkind :policy_action
   type_of :water_standing
   status :complete

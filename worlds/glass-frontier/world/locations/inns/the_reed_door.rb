@@ -7,6 +7,7 @@ installation :the_reed_door do
   status :complete
   tags :"outer-system", :trade, :transport, :household, :ecology, :subject_planetary_life
   prominence :marginal
+  log "2026-09-23 — Replaced the old name pole-thief with tolven in narration."
 
   descriptive_identity(
     setting:
@@ -36,7 +37,7 @@ installation :the_reed_door do
       "empties the ground hall in a fixed order with the front panel " \
       "lifted last. The eastern approach is rising, one hinged walk is " \
       "gone, and three poles have come back with identical fresh " \
-      "pole-thief strikes from three separate channels."
+      "tolven strikes from three separate channels."
   )
 
   prose <<~PROSE
@@ -46,7 +47,7 @@ installation :the_reed_door do
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "Landing, Hall, and Flood Floor"
-    The landing floats on linked reed bundles around a ceramic frame. Two hinged walks connect it to the mound. Ferries use the downstream side, channel barges the long outer face, and family boats any open ring whose paint matches their depth class.
+    The landing floats on linked reed bundles around a ceramic frame. Two hinged walks connect it to the mound. Ferries use the downstream side, dovrans the long outer face, and family boats any open ring whose paint matches their depth class.
 
     The ground hall has a stone kitchen core surrounded by timber shutters that can be removed before high water. Tables, benches, and cook stands carry flood marks from previous seasons. Sleeping rooms occupy the middle floor. The upper hall remains mostly empty, with rolled mats, water jars, and lock rings set into the beams for emergency lodging.
 
@@ -72,7 +73,7 @@ installation :the_reed_door do
   prose <<~PROSE, section: :present_day, heading: "Water in the Eastern Cut"
     The eastern approach is rising after an upstream gate release. Lowbank has removed one hinged walk and moved the public ferry to the house's outer face. Travelers from two closed mound lodgings now occupy the flood floor.
 
-    Three sounding poles returned with identical fresh strikes from pole-thieves, though the boats used separate channels. The route crews want to close all three approaches. Freight captains waiting at the Reed Door want another sounding before the water reaches the next mark on the hall posts.
+    Three sounding poles returned with identical fresh strikes from tolven, though the boats used separate channels. The route crews want to close all three approaches. Freight captains waiting at the Reed Door want another sounding before the water reaches the next mark on the hall posts.
   PROSE
 
   gm_note :appears, "Registering here begins with tying your route pole beside the landing, which tells the desk which channel you came in by and whether your boat can leave the same way. A party that arrived overland has no pole to tie and gets asked how they intend to leave."
@@ -87,7 +88,7 @@ relate :rel_lowbank_maintains_reed_door, :maintains, :lowbank, :the_reed_door do
   prose "The mound council maintains the detachable landing, flood stores, and upper lodging floor."
 end
 relate :rel_reed_door_resonates_channel_barge, :resonates_with, :the_reed_door, :low_lamp do
-  prose "Channel barges use the long landing face and leave their route poles beside the house board."
+  prose "#{ref :low_lamp, "Low Lamp"} ties up at the long landing face with the other dovrans and leaves its route poles beside the house board."
 end
 relate :rel_reed_door_resonates_lowbank_pole_thief_colonies, :resonates_with, :the_reed_door, :lowbank_pole_thief_colonies do
   prose "Freshly struck sounding poles are displayed here until their channels have been checked again."

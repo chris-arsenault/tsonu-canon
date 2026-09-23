@@ -1,7 +1,7 @@
 artifact :gray_line_door_brace do
   tags :subject_bloom
   name "The Gray-Line Door Brace"
-  summary "The Gray-Line Door Brace is temporary passage infrastructure sourced around Xyloathax and Gray Line. It holds incompatible room edges apart while people and furniture move between them."
+  summary "A splint door frame staged by the cordon services at Gray Line and Xyloathax."
   subkind :artifact
   type_of :splint
   status :complete

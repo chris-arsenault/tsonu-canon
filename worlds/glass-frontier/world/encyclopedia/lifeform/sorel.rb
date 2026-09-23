@@ -32,11 +32,12 @@ encyclopedia :sorel do
     Away from the reef, a sorel's plate loses alignment within a few hours. Transport cradles carry a living shell pad under each animal and one tuned brace against its belly. A failed pad leaves the animal disoriented and turns the cradle toward the strongest structural tone aboard the carrier.
   PROSE
 
-  cue "A feeding herd holds one tone line, then crosses to the next band together when the note shifts. Whatever door, rail, or person stands across that line takes the combined weight of every animal in the herd."
-  cue "Four gripping feet hold them against steep shell."
+  cue "Painted sorel graze a Rib passage in stripes of ochre and blue, one household's colors to each small group, and the rasp of their mouths fills the passage like rain on a roof."
+  cue "When the reef's note shifts, a whole herd lifts off the wall at once and crosses the passage, and residents flatten themselves against the far side until it has passed."
   affordance "Watching where the herd feeds gives cutters a shell survey: cropped soft mineral marks new growth, untouched ridges carry load, and a herd that settles has found warm water behind the wall."
-  pressure "Off the reef the belly plate loses alignment within a few hours, and a cradle whose living shell pad has failed swings the disoriented animal toward the strongest structural tone aboard, which on most carriers is its own arrays."
-  variation "Rib households paint their sorel with food-safe mineral stains and recognize individual animals by plate rhythm."
-  variation "Cutters bring a calm herd into a new chamber before opening it to habitation."
+  pressure "A carrier's master wants a sorel shipment loaded before the departure window closes; the Rib herder wants every shell pad checked, because a failed pad swings the animal toward the strongest structural tone aboard, which on most carriers is the carrier's own arrays."
+  variation "Some Rib families breed heavy, slow sorel for new chambers thick with soft growth; others keep small, light animals that fit the narrow old passages."
+  variation "Herds raised on the warm lower reef settle often and move slowly; upper-reef herds cross more frequently and fight a transport cradle harder."
+  log "2026-09-23 — Replaced cue and variation lines that repeated the prose with fresh observations and real differences between herds; gave the pressure a herder and a carrier master."
 
 end

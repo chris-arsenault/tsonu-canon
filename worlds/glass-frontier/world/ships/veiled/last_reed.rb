@@ -1,7 +1,7 @@
 transport :last_reed do
   tags :subject_journeys_trade
   name "Last Reed"
-  summary "Last Reed is a wetland-stock vessel serving Dovra, Lowbank, and Ninth Kiln. Its flooded holds also carry emergency water."
+  summary "Flood-hold dovran running wetland stock through Dovra to Lowbank and its Ninth Kiln yard."
   subkind :vessel
   type_of :dovran
   status :complete

@@ -1,7 +1,7 @@
 edict :cinder_entry_rule do
   tags :subject_bloom
   name "The Cinder Entry Rule"
-  summary "The Cinder Entry Rule admits a crew to Pyre only after its tools maintain a stable temperature for one watch."
+  summary "Halt-Call entry rule for crews bound into the Pyre Bloom Zone, enforced at the Cinder Gap cordon section."
   subkind :edict
   type_of :halt_call
   status :complete

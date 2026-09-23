@@ -1,7 +1,7 @@
 faction :hinge_six_route_household do
   tags :subject_journeys_trade
   name "The Hinge Six Route Household"
-  summary "The Hinge Six Route Household is one family that measures kinship through maintained routes and the shared repair of Keel stations."
+  summary "Keel Route Kin family of tug and waystation crews, working the Keel between Hinge Six, Cold Lantern and Mareth's Latchhouse."
   type_of :keel_route_kin
   subkind :community
   status :complete

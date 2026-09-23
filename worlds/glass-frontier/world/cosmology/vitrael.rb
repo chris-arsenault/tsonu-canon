@@ -6,8 +6,12 @@ geographic_location :vitrael do
   subkind :celestial_body
   status :complete
   tags :cosmology, :materials, :trade, :danger, :"outer-system", :subject_planetary_life
-  prominence :recognized
+  prominence :renowned
   position frame: :kaleidos_system_chart, radius: 4, angle_deg: 202
+  world_type "Hot high-pressure planet"
+  environment "Deep hot atmosphere with metal-bearing upper clouds over a dark lower deck"
+  habitation "Aerostats travelling in loose groups and the orbital stations that refine and ship their harvest"
+  log "2026-09-23 — Added a culture section on paired return calling, naming the aerostat Hollai and the wedding of its caller Ihla Hollai to the Wenlai pilot Sowen Wenlai."
 
   descriptive_identity(
     setting:
@@ -46,6 +50,12 @@ geographic_location :vitrael do
     Orbital platforms handle heavy refining and interplanetary cargo. Aerostats hold homes, clinics, light workshops, and the equipment that controls altitude. Families move between the two by scheduled shuttle, with emergency berths reserved on both sides.
 
     An aerostat identifies itself by pressure band as well as name. Two communities can pass within sight while occupying layers whose winds carry them in opposite directions. Meetings planned by distance often fail; meetings planned by the next shared band usually occur.
+  PROSE
+
+  prose <<~PROSE, section: :culture, heading: "Calling Each Other Home"
+    Aerostats in a group pair off to call one another's skiffs home, so every launch has a caller on another deck. #{ref :hollai, "Hollai"}, a town of about six hundred on three decks, travels with Wenlai, Imwe, Olwe and Talhai, and has called Wenlai's skiffs home for generations while Wenlai calls home Hollai's. People born aboard take their aerostat's name as a family name, and so many Hollai and Wenlai families have married across that a marriage between the two is called *calling each other home*. When two aerostats of a group drift into one band, lines go across and both towns visit until the winds part them.
+
+    Hollai's senior return caller, the trellin #{ref :ihla_hollai, "Ihla Hollai"}, is marrying #{ref :sowen_wenlai, "Sowen Wenlai"}, a nacre skiff pilot whose forearm plates carry the grooves of every storm-edge run he has flown. The wedding will be held on the lines at the next band the two aerostats share. The couple mean to keep a home on each deck so that she can go on calling him home, and both towns have opinions about it.
   PROSE
 
   gm_note :triggered_by, "Homing on your own signal wake over Vitrael follows a transmission the clouds held onto, and after lightning that bearing is false. " \

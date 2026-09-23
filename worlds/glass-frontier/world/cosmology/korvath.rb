@@ -6,8 +6,13 @@ geographic_location :korvath do
   subkind :celestial_body
   status :complete
   tags :"outer-system", :resonance, :trade, :governance, :ecology, :subject_planetary_life
-  prominence :recognized
+  prominence :renowned
+  log "2026-09-23 — Added a western-continent geography section naming Harrek, Kaddren and Vellane as Korvath's own northern port, interior tableland and southern coast town."
   position frame: :kaleidos_system_chart, radius: 3, angle_deg: 126
+  world_type "Temperate terrestrial planet"
+  environment "Three continents divided by deep oceans, with river plains, old forests and dry red tablelands"
+  habitation "Long-settled port cities, river towns and upland communities, busiest around the warm middle sea"
+  resonance_environment "Iron-rich strata carry resonance weakly but broadly; little native material concentrates it"
 
   descriptive_identity(
     setting:
@@ -46,6 +51,13 @@ geographic_location :korvath do
     #{ref :dovra, "Dovra"} occupies one of the broadest river plains. Its channels divide and rejoin across tidal islands before reaching the middle sea. Towns there move levees, gates, ferries, and sometimes whole workshops as the water chooses new ground.
 
     Northern industrial ports work iron, ceramics, ship plate, and heavy machinery. Their hinterlands contain mines and quarry towns rather than empty company territory. Southern coasts are warmer and more agricultural, with orchard belts, salt works, and fishing fleets. Long inland roads remain important because many towns lie beyond economical kite service.
+  PROSE
+  prose <<~PROSE, section: :geography, heading: "The Western Continent"
+    The westernmost of the three continents holds the northern and southern ways of life in one landmass. #{ref :harrek, "Harrek"} stands at the head of a cold sound on its north coast, rolling ship plate and firing isolation block on both banks of a tide race, with iron-mining towns in the valleys behind it. Two feuding shipyard families, a plate-rollers' union and a port league hold the city between them, and in 2435 all four are caught up in a strike over reground block.
+
+    South of the iron hills lies #{ref :kaddren, "Kaddren"}, a tableland of red stone cut by deep breaks, where kyrri households have lived on bare rock since before the Glassfall. Flocks walk its wide roads between the high pastures and the southern tables twice a year, salt carts roll north beside them, and trellin relay keepers pass news from rim to rim within a day.
+
+    On the south coast, #{ref :vellane, "Vellane"} nets the ammel shoals that follow the red water each summer, salts them in cellars cut into the harbour rock, and presses their oil for lamps. Thesset terraces climb the hills above the town and salt pans cover the river flats to the west. Its seine companies quarrel over fishing stations, and the whole town runs to the harbour wall when the headland horn sounds.
   PROSE
   prose <<~PROSE, section: :resonance, heading: "A Low, Broad Field"
     Korvath's native stone carries resonance weakly across long distances. Iron-rich strata produce broad structural responses that surveyors can follow from ridge to ridge, but there is little natural material capable of concentrating those fields. Imported ringglass works well and remains localized around the arrays built from it.

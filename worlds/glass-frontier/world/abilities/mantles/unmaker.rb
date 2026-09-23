@@ -19,7 +19,7 @@ ability :unmaker do
   question "Who is the present or most recently attested Unmaker, and what coherent whole could they name after the former bearer lost it?", raised: "2026-08-31"
 
   prose <<~PROSE
-    The Unmaker breaks the agreement that lets a great subject's parts continue together. A vessel separates into plates, rooms, atmosphere, cargo, and occupants; a marching host becomes individuals; a phenomenon ends when its distant manifestations still share one coherent pattern. The separation itself adds no heat or impact.
+    The Unmaker breaks the agreement that lets a great subject's parts continue together. A vessel separates into plates, rooms, atmosphere, cargo, and occupants; a marching host becomes individuals; a phenomenon ends when its distant manifestations still share one coherent pattern.
 
     The separation itself is cold and impactless. Existing forces continue on their own: atmosphere escapes the opened hull, falling parts keep their momentum, charged glass stays charged, and poison leaves the vessel that contained it. Unmaking can end an immediate threat and release everything that threat had organized or restrained.
   PROSE

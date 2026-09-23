@@ -1,7 +1,7 @@
 incident :pelhari_cold_archive_weather do
   tags :subject_lithren
   name "Pelhari Cold Archive Weather"
-  summary "Pelhari Cold Archive Weather is a resonance phenomenon that lays readable frost on sealed hulls near the passage of a Lithren text."
+  summary "Print from Lithren tablets, seen on hulls around Pelhari, Vastine's crater city of learning, and along routes from Lithren and Vitrael."
   type_of :print
   subkind :incident
   status :complete

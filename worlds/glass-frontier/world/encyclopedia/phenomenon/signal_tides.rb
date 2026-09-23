@@ -6,6 +6,7 @@ encyclopedia :signal_tides do
   status :complete
   topics :resonance, :"signal-freq", :navigation, :trade, :subject_resonance
   prevalence :common
+  log "2026-09-23 — Placed the tides' dust as one of the Glassfall's many causes of the Signal Famine, matching the era entry."
   available_globally
   medium "The signal band throughout the Kaleidos system"
   nature "Periodic band swells tracked to overlapping cycles; the almanac offices publish tide tables against the largest components"
@@ -27,6 +28,10 @@ encyclopedia :signal_tides do
     The signal band has weather, and its weather has tides. On cycles the almanac offices chart to the hour, the band swells: relay speech furs and thickens, fine instruments lift and swamp, and transmission shortens to the strong and the near. Hours later the tide ebbs and the band runs clear — the deep-night clear of a good ebb is when the far stations speak, Pelhari reading Sithari direct, the outer relays passing their accumulated traffic inward like boats refloated off a bar. Every settlement with a relay posts its tide table beside the boards, and 'on the ebb' is a promise of delivery in every signal trade.
 
     The cycles overlap. The great components track the orbits of the system's large bodies and repeat with astronomical patience; beneath them run shorter local cycles each region charts for itself, and the interference of the two is the table's fine print. When the components stack — spring tides, in the operators' borrowed word — the flood runs high enough to silence fine signal work across whole routes for a shift, and the trades run their standing drills: traffic pre-cleared, kites out for what must move, the duty watch settling in with the patience of people whose profession includes scheduled speechlessness.
+  PROSE
+
+  prose <<~PROSE, section: :origin, heading: "Dust in the Band"
+    The tides come from ringglass dust the Glassfall left circling Kaleidos in the #{encyclopedia_ref :wreaths, "wreaths"}. The dust takes signal and gives it back as noise. When the orbits of the great bodies bunch it, the band floods; when they spread it, the band clears. During the #{ref :signal_famine, "Signal Famine"} the dust was thicker, and it was one of the many failures that kept communities apart. Relay crews of the late 2200s were the first to chart the clears, and the earliest tide tables were built from their listening logs.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Living on the Table"

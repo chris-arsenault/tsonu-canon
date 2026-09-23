@@ -5,6 +5,7 @@ encyclopedia :dovran do
   subkind :vessel
   status :complete
   log "2026-08-31 — Renamed Channel Barge to Dovran; the Dovra-derived vessel name grounds the type in Korvath's waterways instead of a generic hull description."
+  log "2026-09-23 — Replaced cues, affordance, pressure and variations that repeated the prose with fresh observations and genuine differences between vessels."
   capacity "A family or village crew, a shallow cargo deck, and removable passenger or living shelters"
   topics :transport, :trade, :"outer-system", :resonance, :ecology, :subject_planetary_life
   prevalence :common
@@ -63,11 +64,11 @@ encyclopedia :dovran do
     Pilots preserve their local routes because those routes are their livelihood and their towns' emergency access. They share depths and closures freely when life is at risk. Ownership, cargo, and the quiet way around a port gate receive a different answer.
   PROSE
 
-  cue "Local travel in #{ref :dovra, "Dovra"} means asking a household Dovran for deck space, and the fare is as often return carriage, repair tile, or a share of the load as it is coin."
-  cue "At night, small lamps hang low over both sides of the hull so another pilot can read its loaded draft."
-  affordance "A passenger in a hurry does not get a shortcut; the pilot sounds the approach even holding a posted closure, because silt rises after a notice leaves and a Dovran ahead may have cut a new passage."
-  pressure "During flood work a water board can call any suitable vessel into service with its cargo aboard, recording the lost work beside the labor supplied from shore; its chartered work waits until the board releases it."
-  variation "Deck houses lift away."
-  variation "A grain vessel becomes a passenger boat for a gate-closing market and a flood ferry when the outer note changes."
+  cue "A Dovran slides past a landing stair with washing strung between the deck house and the cargo rail, a grandmother shelling beans on the roof, and a boy at the bow pushing off the bank with his foot."
+  cue "The pilot leans on the sounding pole, head tilted toward the water, and the whole family on deck goes still until she lifts it and nods."
+  affordance "A Dovran carries a village's fruit, clay, passengers, and flood timber through channels too shallow and shifting for any deeper hull, and settles on the mud to wait out a closure."
+  pressure "A water board can call any suitable vessel into flood service with its cargo aboard, so a household whose fruit rots on deck during a flood call wants the lost work paid, and a pilot hiding a forged-tally crate wants to be anywhere but a board channel full of inspectors."
+  variation "Household Dovrans carry three generations and run a route the family has held for decades; board Dovrans are flat decks of gate timber and earth baskets, crewed by whoever the board has on shift."
+  variation "Orchard districts load their Dovrans to the rails at harvest and leave them tied up half the year; kiln settlements keep theirs moving clay inward and ceramic outward every month."
 
 end

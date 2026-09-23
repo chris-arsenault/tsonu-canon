@@ -1,7 +1,7 @@
 phenomenon :quiet do
   tags :subject_bloom
   name "The Quiet"
-  summary "The Quiet is Latch's full withdrawal from public rooms when its cordon bells sound the town's remembered danger sequence."
+  summary "The hush of the Latch cordon, observed at Latch and at the Gray Line station that encloses its Bloom Zone."
   type_of :hush
   subkind :social_condition
   status :complete

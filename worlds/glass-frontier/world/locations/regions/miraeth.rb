@@ -60,6 +60,8 @@ geographic_location :miraeth do
     The #{ref :lumenshard_conservatory, "Lumenshard Conservatory"} joins those local practices across basins. It maintains common measurements, studies failed growth, and sends workers to Bloom cordons. It does not own the groves or govern their water. Conservatory staff must negotiate access with the same assemblies that deal with every mill, orchard, and instrument shop.
 
     Residents distinguish a grove rested by season from one deprived by extraction. The first has even night light, active insects, and new clear growth. The second shows empty young veins and a hard bright response around whichever machine took the field. That distinction drives the region's long dispute with pilots who collect shower glass before it reaches the canopy.
+
+    A darker trade runs under the groves. A clear-veined tree pours crystal into a wounded root, and the knot it grows, #{encyclopedia_ref :tolm, "tolm"}, sells for more than a season of graftwood. Tappers saw roots in other families' stands at night and sell the knots in Lumenshard with a story about a storm. Every basin assembly treats it as theft of the grove, and in #{ref :tennan, "Tennan"} someone has been doing it for three seasons.
   PROSE
   prose <<~PROSE, section: :atmosphere, heading: "Fall Seasons"
     Mountain rain carries ordinary mineral silt. Glassfall showers bring crystal. The two falls seldom arrive together, and growers plan for both. Catch cloth protects drinking water and tender leaves from coarse debris while open strips guide fine dust toward prepared beds. When rain follows soon after, channels spread the new grain across the root mat. In a dry season, workers wash it from roofs by hand.

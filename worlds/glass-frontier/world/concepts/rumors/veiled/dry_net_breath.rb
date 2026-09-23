@@ -1,7 +1,7 @@
 rumor :dry_net_breath do
   tags :subject_shear
   name "The Dry Net Breath"
-  summary "The Dry Net Breath is a salvager's rumor that warm breath leaves an open vent when someone reads from an unrecovered roll."
+  summary "Salvagers' rumor of the Dry Net, the lodging house and hiring room on Glasswake's dock fringe."
   subkind :rumor
   status :complete
   prominence :marginal

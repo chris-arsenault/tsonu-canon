@@ -60,11 +60,11 @@ encyclopedia :bolsters do
     Small bolsters appear in remote cutter wakes, usually closed tight around a returned fragment. Process crews isolate the whole piece and wait for it to open. An animal given aggregate and a quiet surface can be walked toward an external hatch without weapons, provided no other machine in the room offers a stronger meal.
   PROSE
 
-  cue "Small ones ride home in a remote cutter return, shut tight around the fragment and indistinguishable from fused wreck until a process crew waits one out. Given aggregate and a quiet surface it can be walked to an external hatch, provided no machine in the room offers a stronger meal."
-  cue "Fine eyes occupy the seams between plates."
+  cue "A patch of hull plating on a drifting spar ripples along one seam, then another, as a dust plume crosses it, and a moment later the whole patch shifts a hand's width toward the brighter side of the wreck."
+  cue "In a Ratter port market, a bin of curved grey-green plates is sold by the scoop, each one striped in bands of different clarity, and the instrument maker buying them taps every piece against a tuning fork before it goes in her sack."
   affordance "A strip of charged aggregate laid on firmer debris draws a grazing bolster across a work line without forcing it to retract. Cast plates left behind can be collected and mapped for stable ringglass bands."
   pressure "Cutting near a settled adult makes it retract and draw the structural response of the surrounding debris into its shell, and the mass then reads sound while the animal is what holds it. Getting the bolster off afterwards means bracing first and losing the shift."
-  variation "New shell grows at the plate edges."
-  variation "Small bolsters appear in remote cutter wakes, usually closed tight around a returned fragment."
+  variation "Refinery-debris bolsters grow thick, dark shells heavy with metal dust and live for decades on one mass; those on clean ring fragments stay thin and pale, shed often, and cast the clearest plate."
+  variation "Juveniles no wider than a palm ride inside cutter returns clamped around a single fragment, and a process crew can set one on aggregate and walk it out through an external hatch."
 
 end

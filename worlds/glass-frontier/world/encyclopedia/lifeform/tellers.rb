@@ -4,14 +4,15 @@ encyclopedia :tellers do
   subkind :anomaly
   status :complete
   topics :"signal-freq", :mystery, :legend, :ecology, :subject_journeys_trade
+  log "2026-09-23 — Restated the evidence-limit passage as what receivers and the 2391 dissection found and what surveyors and postmasters do about the open question."
   prevalence :rare
   appears_when all: { place: [:damaged_signal] }
   summary "Tellers are cat-sized relay-post anomalies that speak short fragments of signal traffic hours before it arrives through a dead band. Each animal holds a mast territory, accepts food from its post, and announces from the mast top in the future sender's voice."
   origin "Documented only in the damaged-signal country, always near relay posts and lines; the survey literature notes what every postmaster already had — that the animals arrived with the dead bands, and keep to them"
   biology "A cat-sized soft-gray climber with four white feet; from a mast top it reproduces short voice-true fragments of signal traffic that remains hours away along the line"
-  lifespan "Unestablished; posts inherit their tellers, and Whitefoot's civic teller has been announcing, by the town's records, through four postmasters"
+  lifespan "Long enough that posts inherit their tellers with the building; Whitefoot's civic teller has been announcing, by the town's records, through four postmasters"
   function "An anticipatory relay of strict limits: tellings are fragments — a name, a figure, a phrase — logged against the traffic that later matches them at published rates, and a post with a teller reads tomorrow's mail in pieces today"
-  resonance_relation "Tellings reproduce traffic still hours away along a dead band. Timing logs confirm the correspondence, while anatomical and instrument surveys have not found the path by which the animal receives it"
+  resonance_relation "Tellings reproduce traffic still hours away along a dead band. Timing logs confirm the correspondence; instrument crews who have camped at masts with receivers tuned across every band record a quiet line during each telling, and the question of how the animal hears draws surveyors to posts that would rather keep their animal to themselves"
 
   descriptive_identity(
     appearance: "A cat-sized soft-gray climber with four bright white feet " \
@@ -27,8 +28,8 @@ encyclopedia :tellers do
             "the duration of a telling. Post crews lower tools and keep the " \
             "route clear until it descends.",
     senses: "The spoken fragments match traffic still hours away along a dead " \
-            "band. Timing logs establish the interval, but instruments have " \
-            "not detected a receiving signal at the post.",
+            "band. Timing logs establish the interval, and receivers set " \
+            "beside the mast read a quiet line while the animal speaks.",
     risks: "Tellings arrive as partial fragments — a name can reach the mast " \
            "without its sentence — and dead-band custom answers with the " \
            "telling rules: fragments logged, matched against arrival, and " \
@@ -39,9 +40,9 @@ encyclopedia :tellers do
   prose <<~PROSE
     A teller is a cat-sized soft-gray climber with four bright feet. Each animal holds a relay mast or short line stretch as territory. It sleeps in mast housings, accepts food at the post, climbs cables and braces as part of its round, and at irregular hours takes the mast top. There it speaks a name, figure, or part of a phrase in the voice of traffic that will arrive hours later.
 
-    Posts write each fragment down at once and compare it with subsequent mail. The published match rates remain stable across posts and generations. Timing records show that the corresponding message was still in transit through a dead band when the telling occurred. Instruments at the mast detect no receiving signal, and anatomical surveys have identified no separate organ for the behavior. Those are the present evidence limits; the match itself is repeatable enough for post procedure.
+    Posts write each fragment down at once and compare it with subsequent mail. The published match rates remain stable across posts and generations. Timing records show that the corresponding message was still in transit through a dead band when the telling occurred. Receivers set beside the mast read a quiet line while the animal speaks, and the one dissected teller in the survey literature, found dead under a mast in 2391, showed an ordinary climber's throat and ear. Surveyors still arrive at teller posts with instruments and offers of money for a young animal. Most postmasters feed them, let them watch one telling, and send them on down the line; a few have sold, and the tellers carried to posts outside the dead bands climbed their new masts and stayed silent.
 
-    Telling rules permit early action only for a short ratified list led by storm warnings. A fragmentary name receives no interpretation before its sentence arrives. Posts budget food, keep the mast approach clear during announcements, and transfer care of a resident animal with the post. The town of #{ref :whitefoot, "Whitefoot"} took its name from the teller at its founding relay; the present animal has announced through four postmasters.
+    Telling rules permit early action only for a short ratified list led by storm warnings. Posts act on a fragmentary name only after its sentence arrives, which is where most of the trouble at a teller post starts: a family that hears its son's name told at dusk and has to wait for the coach to learn what follows it. Posts budget food, keep the mast approach clear during announcements, and transfer care of a resident animal with the post. The town of #{ref :whitefoot, "Whitefoot"} took its name from the teller at its founding relay; the present animal has announced through four postmasters.
   PROSE
 
   cue "The teller climbs at dusk, head back at the mast-top, and speaks three fragments to the line — a name, a figure, half a phrase — and the night clerk logs them in the telling book against a mail coach still two stations out."

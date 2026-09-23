@@ -6,8 +6,12 @@ geographic_location :ashenmaw do
   subkind :celestial_body
   status :complete
   tags :cosmology, :"outer-system", :navigation, :danger, :subject_planetary_life
-  prominence :recognized
+  prominence :renowned
   position frame: :kaleidos_system_chart, radius: 5, angle_deg: 278
+  world_type "Banded gas giant"
+  environment "Dark belts and pale storms whose tides keep its moons' interiors warm"
+  habitation "Inhabited moons, Ashvane the largest, and stations watching tidal strain and the radiation bands"
+  log "2026-09-23 — Added a section naming Ilsane, the ice moon whose fissure camp studies vent life and logs tidal strain."
 
   descriptive_identity(
     setting:
@@ -47,6 +51,10 @@ geographic_location :ashenmaw do
     Several inner moons carry microbial life around warm vents beneath ice or salt crust. Their protection rules prohibit untreated ballast discharge and require sample tools to remain on the moon where they were used.
 
     Ashvane holds the largest permanent population. Smaller stations monitor tidal strain, harvest trace gases, and maintain warning beacons around the inner radiation bands.
+  PROSE
+
+  prose <<~PROSE, section: :geography, heading: "Ilsane"
+    Among the inner vent moons, #{ref :ilsane, "Ilsane"} holds the largest camp. About three hundred people live in chambers cut into its crust beside a warm brine fissure, where they study the mats through sealed ports, log the strain each circuit puts through the ice, and keep a beacon on the edge of the inner radiation band. Every sampling tool used there hangs on a gallery wall when its owner leaves the moon. Ilsane's thinner crust registers a strong tidal period before Ashvane's does, and its strain log reaches Ashvane's lowland camps ahead of their shifting vents.
   PROSE
 
   gm_note :triggered_by, "A crew steering by a named storm face is using a mark that shears and reforms between circuits. " \

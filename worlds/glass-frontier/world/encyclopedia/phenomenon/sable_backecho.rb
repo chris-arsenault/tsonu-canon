@@ -4,12 +4,13 @@ encyclopedia :sable_backecho do
   kind :phenomenon
   subkind :phenomenon
   status :complete
+  log "2026-09-23 — Replaced the concordance's stock 'consistent with several mechanisms' close with the sitters who try to enter old recordings, the registrars' quarrel over them, and forgery."
   topics :archives, :mystery, :"signal-freq", :resonance, :subject_planetary_life
   prevalence :rare
   appears_when any: { place: [:archive, :waterway] }
   medium "Echo-water recordings and crystal stock stored in the Sable Crescent"
   nature "Insertion of a contemporary voice into older recorded material; documented only where recordings and living speakers share a room"
-  hazard "A backechoed record loses evidentiary standing, and the person whose voice appears acquires a season of unwanted fame"
+  hazard "A backechoed record is struck from evidence, and the person whose voice appears acquires a season of unwanted fame"
 
   descriptive_identity(
     signs: "A recording plays true until a voice enters that the ledger says was born too late — " \
@@ -23,15 +24,23 @@ encyclopedia :sable_backecho do
   )
 
   prose <<~PROSE
-    In the Sable Crescent, where the #{encyclopedia_ref :echo_rivers, "Echo Rivers"} soak the whole country's stock in remembered signal, the recordings sometimes answer back. A backecho is specific and always the same shape: a living voice — a real person, nearby, verifiable — appears inside material recorded before that person was born. The voice belongs to the scene it enters. It calls prices in a market the ledgers closed in the Famine years, gives one side of a bargain in period idiom, answers a hail across water in a boat song three generations out of use. The pitch and accent are the living speaker's beyond argument; the words are at home in the old scene and, in every documented case, unremarkable inside it.
+    In the Sable Crescent, where the #{encyclopedia_ref :echo_rivers, "Echo Rivers"} soak the whole country's stock in remembered signal, the recordings sometimes answer back. A backecho is specific and always the same shape: the voice of a real, living person who can be found nearby appears inside material recorded before that person was born. The voice belongs to the scene it enters. It calls prices in a market the ledgers closed in the Famine years, gives one side of a bargain in period idiom, answers a hail across water in a boat song three generations out of use. The pitch and accent are the living speaker's beyond argument; the words are at home in the old scene and, in every documented case, unremarkable inside it.
 
-    The archives learned the phenomenon's one firm rule by accident: copies cut before the insertion play clean. A backecho has a date — the ledgers can bracket it between the last clean copy and the first echoed one — and backecho scholarship is therefore a science of copy dates, worked in the registries with the patience of orbit calculation. The Thornvault concordance lists every documented case with its bracket, its speaker, and its material; the brackets cluster in flood years and high signal tides, and the concordance's introduction has stated the same conclusion through four editions: the record is consistent with several mechanisms and establishes none.
+    The archives learned the phenomenon's one firm rule by accident: copies cut before the insertion play clean. A backecho therefore has a date, bracketed between the last clean copy and the first echoed one, and backecho scholarship is a science of copy dates worked in the registries with the patience of orbit calculation. The Thornvault concordance lists every documented case with its bracket, its speaker, and its material. The brackets cluster in flood years and high signal tides, and the concordance has gone through four editions arguing over what that clustering means.
+  PROSE
+
+  prose <<~PROSE, section: :culture, heading: "Sitters"
+    The clustering brings hopefuls to the Crescent in flood season. A sitter pays an archivist for a night beside old market stock and spends it talking, singing boat songs, calling prices in the old idiom, in the hope of turning up in a scene recorded before their grandparents met. Ledgerfall's smaller registries rent sitting rooms by the night through the flood months and do better from it than from their reading fees. Some sitters want the fame, some want a place in a vanished market their family lost in the Famine years, and a few want the collectors' price on whatever record they enter.
+
+    The Thornvault registrars keep every sitter's name and night on a separate roll and check it against each new bracket. Two names appear on both lists. The registrars have spent two editions quarreling in print over whether those two count, and the Ledgerfall sitting rooms print both names on their doors.
+
+    Forgery follows the money. A skilled mimic can lay a voice into a copy and date it plausibly, and the concordance keeps a page of exposed forgeries, each caught by an archive holding an earlier clean copy that disagreed with the forger's story. Dealers pay those archives for verification before any echoed lot reaches the large type.
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "Damaged Evidence, Loved Stock"
-    Law and the market pull opposite ways. Registry law strikes backechoed stock from evidence — a record that admits late voices has surrendered its testimony — and the striking is mechanical, indifferent to how small the inserted part. The collectors arrive at the same ledger from the other side: an echoed record is the Crescent's characteristic treasure, priced by the fame of the voice and the age of the scene, and estate sales in Ledgerfall announce a backecho in the catalog's largest type.
+    Law and the market pull opposite ways. Registry law strikes backechoed stock from evidence on the principle that a record admitting late voices has surrendered its testimony, and the striking is mechanical, indifferent to how small the inserted part. The collectors arrive at the same ledger from the other side: an echoed record is the Crescent's characteristic treasure, priced by the fame of the voice and the age of the scene, and estate sales in Ledgerfall announce a backecho in the catalog's largest type.
 
-    The living speakers carry the strangest share. A backechoed person is ordinary in every respect the surveys can measure, and spends a season as a local event — played their own voice trading in a dead market, asked by every acquaintance what it is like, expected to have an answer. The Crescent's custom has settled into a courteous script: the speaker hears the record once, in private, before anyone else; declines or accepts the fame as they choose; and is bought a drink either way.
+    The living speakers carry the strangest share. A backechoed person is ordinary in every respect the surveys can measure, and spends a season as a local event: played their own voice trading in a dead market, asked by every acquaintance what it is like, expected to have an answer. The Crescent's custom has settled into a courteous script: the speaker hears the record once, in private, before anyone else; declines or accepts the fame as they choose; and is bought a drink either way.
   PROSE
 
   cue "The old market recording plays its familiar crowd until one vendor's call comes through in a voice half the room knows personally, selling in period idiom, and the archivist stops the crystal and reaches for the copy ledger."

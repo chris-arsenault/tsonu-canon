@@ -1,7 +1,7 @@
 incident :five_landing_empty_berth_fever do
   tags :subject_hab_life
   name "Five Landing Empty-Berth Fever"
-  summary "Five Landing Empty-Berth Fever is a social condition among stranded passengers who occupy unused rooms and defend them as inherited homes."
+  summary "Empty-Berth Fever of Holl's Five Landing deck, also recorded at Fourth Bell House in Keelward and in Eleven."
   type_of :empty_berth_fever
   subkind :incident
   status :complete

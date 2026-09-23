@@ -5,6 +5,7 @@ encyclopedia :ashvane_dray do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Heat-road Hauler to Ashvane Dray; the regional working name locates the vehicle's road tradition and replaces a generic transport compound."
+  log "2026-09-23 — Replaced cues, affordance, pressure and variations that repeated the prose with fresh observations and genuine differences between drays."
   topics :transport, :trade, :resonance, :"kinetic-freq", :"outer-system", :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:hot, :road] }
@@ -62,11 +63,11 @@ encyclopedia :ashvane_dray do
     Strong tidal periods close some low roads by schedule. Others close after a scout finds new steam, a changing marker tone, or salt crust too thin to carry a loaded wheel. The cargo then waits, transfers to smaller vehicles, or pays for a kite. Basalt temperature sets the delay.
   PROSE
 
-  cue "Freight houses seal each bay by temperature and handling need, so the crew can name every owner on the manifest and none of the buyers. At small towns the same vehicle brings mail, legal notices, apprentices changing workshops, and patients well enough for a slow journey."
-  cue "They are long, low surface vehicles with broad wheel sets, reflective cargo covers, and radiator frames that rise above the body when stopped."
-  affordance "Asking a crew to shed heat before dark means raising the radiator frames in daylight, visible to every temperature sensor along the road, and their cooling stop will not match the one they published. Carriers running concealed cargo already accept the hotter load rather than do it."
-  pressure "At bad crossings the dray pulses a buried ringglass cut and reads what returns: slow and even is solid basalt, a divided answer means a hot cavity or a fracture opening below. Crews turn back on that reading, and a stranded dray gives shade and water long after it gives motion."
-  variation "Long combinations add a rear cab so one operator can see a wheel set or trailer that has begun to settle before the pull reaches the front."
-  variation "Mobile lowland camps use the same chassis beneath their houses and workshops."
+  cue "At a rest bay after dusk the radiator frames stand raised above the body like stripped masts, the stars wavering behind them, while the crew eats cross-legged in the trailer's shadow."
+  cue "When a dray pulls into a small town, children run out for the mailbag and an apprentice climbs down from the rear rack with a tool roll and a nervous face."
+  affordance "A dray moves a town's salt, pumps, and medicine across ground no landing field serves, and keeps rolling on its wheels after a ringglass fault has grounded the kites."
+  pressure "Carriers hiding cargo skip the published radiator stops and ride hot, road houses shut their gates on crews who drink the water and report nothing, and a driver who pushes past the first combination of faults to make a delivery date can strand a trailer of medicine on a road that is closing under it."
+  variation "Association drays run posted schedules and stop at every road house; family drays leave when the load is full and know which houses will give water on credit."
+  variation "Short-haul drays run a single cab and one trailer through the ridge shadows; combinations of five and six trailers need a rear cab and keep to the widest cooled flows."
 
 end

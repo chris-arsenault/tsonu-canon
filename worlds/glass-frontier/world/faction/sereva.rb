@@ -16,7 +16,7 @@ faction :sereva do
   prose <<~PROSE, section: :present_day, heading: "The Expedition"
     #{ref :hareth, "Hareth"} now commands Sereva's expedition to #{ref :istrava, "Istrava"}. Its first undertakings are to recover captives and secure a route by which civilians can leave #{ref :velisar, "Velisar"}. Field mechanics, surface vehicles and military volunteers are arriving together. The expedition can fight and repair what it needs to keep moving.
 
-    The towns have not promised an indefinite occupation of Korvath. Hareth must return crews whose absence leaves their own homes exposed. Some volunteers want to liberate all Istrava; others have come for one imprisoned relative. Their differences remain even when they agree on the next landing.
+    The towns committed their crews to the rescues and the evacuation route, for as long as each town can spare them. Hareth must return crews whose absence leaves their own homes exposed. Some volunteers want to liberate all Istrava; others have come for one imprisoned relative. Their differences remain even when they agree on the next landing.
   PROSE
 
   gm_note :complicates, "A Serevan crew assigned to hold a captured position learns that its home town needs its mechanics back; Hareth needs a replacement before he will extend the deployment."

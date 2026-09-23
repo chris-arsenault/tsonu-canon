@@ -6,6 +6,7 @@ encyclopedia :ulen do
   status :complete
   topics :materials, :transport, :danger, :subject_lithren
   prevalence :uncommon
+  log "2026-09-23 — Restated the frame's limit on lightening loads as what a removed panel weighs."
   appears_when all: { place: [:outer_system] }, any: { place: [:yard, :archive] }
   function "Transfers a load through nested lever arms so it can be balanced across a curved or changing path"
   operating_limit "Weights must have travel left; added loads, broken restraints or a moved fulcrum upset the balance"
@@ -17,7 +18,7 @@ encyclopedia :ulen do
   prose <<~PROSE
     Ulen is a modern recovery name for the nested balancing frames found in several Lithren works. A load hangs from a rocker whose support is itself another rocker. Separate counterweights move on constrained tracks. Changing leverage lets a curved door or an uneven platform remain nearly balanced as its center of weight moves.
 
-    Operators move astonishing masses by hand when the weights are correctly set. They are steering an exchange of weight and height: a descending panel raises something elsewhere. Raising it again requires those weights to descend, or a drive to restore the energy. An ulen does not alter gravity or lighten a load removed from its frame.
+    Operators move astonishing masses by hand when the weights are correctly set. They are steering an exchange of weight and height: a descending panel raises something elsewhere. Raising it again requires those weights to descend, or a drive to restore the energy. A panel unbolted from its frame weighs exactly what its metal weighs, and salvagers who planned to carry one out of a ruin by hand usually leave it at the first stair.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Following the Weights"
     The working path can extend behind walls and beneath a floor that seems unrelated to the object being moved. Counterweight inspection passages are therefore useful routes through old buildings. A blocked passage can also explain why a door has stopped partway. Pulling harder may break the last member still carrying its share.

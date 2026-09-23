@@ -1,6 +1,6 @@
 npc :nalis_venn do
   name "Nalis Venn"
-  summary "Nalis Venn is the current Waybearer, preparing an evacuation road from Velisar while refusing to place her crossings permanently at an army's disposal."
+  summary "Nalis Venn is the current Waybearer, an evacuation guide preparing a road out of occupied Velisar who offers her crossings one rescue at a time and keeps them out of any army's standing command."
   subkind :specialist
   type_of :humans
   born 2382
@@ -9,21 +9,23 @@ npc :nalis_venn do
   status :complete
   prominence :recognized
   tags :navigation, :transport, :resonance, :subject_istrava
+  descriptive_identity appearance: "Square-shouldered and weathered, her eyes dropping to her left foot every few steps.", attire: "Soft-soled boots with the left toe cap painted white so she can find it at a glance.", tools: "A short weighted staff for stairs, carried tucked under one arm whenever anyone is watching.", manner: "Questions a traveler about home like a neighbor trading gossip: who lives across the landing, which step creaks, what is usually on the stove.", disposition: "Wants people out of Velisar alive and back in rooms they know; too proud to lean on anyone except the few people she picks to walk beside her."
+  log "2026-09-23 — Rewrote the disclaimers about coordinates and armed escorts as what Nalis asks for and agrees to, and gave her a walking companion and a cook's habit of collecting addresses."
 
   prose <<~PROSE
-    Nalis Venn bears the #{ref :waybearer, "Waybearer"}. She first qualified by trusting a passenger's remembered home strongly enough to open a way to a place she had never seen. In 2430, during #{ref :somas_last_road, "Soma's Last Road"}, #{ref :soma_irel, "Soma Irel"} yielded an occupied crossing to her and stayed at the other end until its pursuit was resolved.
+    Nalis Venn bears the #{ref :waybearer, "Waybearer"}, the mantle that opens a road between two distant places so that people and ships can walk from one into the other. She qualified before she ever held it, by opening a way to a passenger's home she had never seen and trusting the passenger's memory of the place to carry her there. In 2430, during #{ref :somas_last_road, "Soma's Last Road"}, #{ref :soma_irel, "Soma Irel"} handed her a crossing already full of people and stayed at the far end until the pursuers on it were caught.
 
-    She asks a traveler to describe how they enter a place, what they pass and who expects them there. Coordinates alone cannot give her an address. Old service with Soma does not make every destination he knew available to her.
+    Her roads run on addresses, and an address is what someone who lives in a place knows about it. She asks how a traveler comes in the door, what they pass on the stair, who looks up when they arrive and what the landing smells like at supper. Kitchens give her the most. A traveler who can describe the pot on a neighbor's stove hands her a better anchor than any surveyor's figures, and she has copied dozens of dishes from these conversations to cook, badly, for her friends. Soma's old destinations live in Soma's memory. She builds her own from the people who belong in them.
 
-    Since completing that first occupied road, she has needed to look down to judge the position of her left heel. She feels pressure and pain normally, but cannot reliably place the foot from bodily sensation alone. She practices on uneven ground with a companion beside her. Larger crossings threaten the remaining sense that lets her stand and move without watching each limb.
+    The first occupied road took from her the sense of where her left heel is. She feels pressure and pain as clearly as ever and looks down to set the foot. She practices on broken ground with Arvo Teshen, a former quay porter from Velisar who walks at her left side and catches her elbow without comment. Each larger crossing threatens more of the sense that lets her stand and walk without watching her limbs. In company she walks stiffly and keeps the staff under her arm.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "A Road Out of Velisar"
-    Nalis wants to bring people out of #{ref :velisar, "Velisar"}. Former residents offer memories of shore houses and workshops. She needs to know which of those places still exist and whether their occupants can receive a road without exposing everyone inside.
+    The road Nalis is building now leads out of #{ref :velisar, "Velisar"}. Former residents crowd her with memories of shore houses and hillside workshops, each hoping their own street becomes the road. One family offered her the keys to their house and a year's rent to choose their stairwell. She needs to know which of those rooms still stand and who lives in them now, because a road opened into an occupied house exposes everyone inside to whatever follows the travelers through.
 
-    A pursuer can use the same crossing. Once someone is on it, she cannot close it to make the danger disappear. She insists that a rescue include people capable of holding both approaches and attending to anyone stranded between them.
+    Anyone can walk an open road, pursuers included, and once people are on it she holds it until the last of them reaches one end. She plans every rescue around that. She wants fighters at both approaches and someone ready to go back for a traveler who freezes halfway across.
 
-    #{ref :hareth, "Hareth"} would gain an extraordinary military route by securing her permanent service. She refuses that arrangement. She will discuss a particular rescue and its dangers, including whether his soldiers should cross first. Her refusal does not mean every road must remain free of armed help.
+    #{ref :hareth, "Hareth"} wants her permanent service; a road that could put Serevan soldiers anywhere on the coast overnight would change his war. She has told him no to that and yes to particular rescues. She talks each one through with him, including whether his soldiers should cross first, and she has asked for armed escorts on roads she judged to need them. They argue better over a meal than across a map, and she has started bringing the meal.
   PROSE
 
   gm_note :triggered_by, "Offering Nalis a remembered destination brings questions about its current occupants and a demand for someone to protect the far approach before travelers enter."

@@ -1,7 +1,7 @@
 edict :eighth_clearance_rule do
   tags :subject_journeys_trade
   name "The Eighth Clearance Rule"
-  summary "The Eighth Clearance Rule gives disabled vessels the center line at Clearance Eight and Mareth and requires powered craft to yield outward."
+  summary "Empty Mouth traffic rule of the Clearance Eight capture frame and the Mareth freight gate."
   subkind :edict
   type_of :empty_mouth
   status :complete

@@ -1,6 +1,6 @@
 artifact :the_seed_tray do
   name "The Seed Tray"
-  summary "The Seed Tray is a standardized rack of Shear-grade microcavity fuel carried aboard Steady Return."
+  summary "The Seed Tray is a standardized rack of Shear-grade Seed fuel carried aboard Steady Return."
   subkind :artifact
   type_of :seed
   resource :ringglass
@@ -15,7 +15,7 @@ artifact :the_seed_tray do
   )
 
   prose <<~PROSE
-    The Seed Tray is a standardized rack of microcavities aboard #{ref :steady_return, "*Steady Return*"}. Its cells are thumbnail-sized or smaller and look like tiny glass seeds, each one humming faintly if held close enough to feel.
+    The Seed Tray is a standardized rack of #{encyclopedia_ref :seed, "Seed"} cells aboard #{ref :steady_return, "*Steady Return*"}. Its cells are thumbnail-sized or smaller and look like tiny glass seeds, each one humming faintly if held close enough to feel.
 
     The tray carries the grade that holds charge best, brought out of #{ref :the_shear, "the Shear"}. Cracking one seal releases the whole stored charge as kinetic-band output, enough to restart a dead array or supply emergency thrust.
   PROSE

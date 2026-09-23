@@ -1,7 +1,7 @@
 creature :cold_lantern_fisher do
   tags :subject_journeys_trade
   name "The Cold Lantern Fisher"
-  summary "The Cold Lantern Fisher is a light-casting anomaly ranging between Cold Lantern, Far Bell, and Outside. It stretches threads of cold light across docking mouths to collect charged dust."
+  summary "A lantern, the long-limbed debris-field anomaly, holding fishing grounds around Cold Lantern, Far Bell and Outside."
   subkind :anomaly
   type_of :lanterns
   status :complete

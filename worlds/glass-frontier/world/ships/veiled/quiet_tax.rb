@@ -1,7 +1,7 @@
 transport :quiet_tax do
   tags :subject_bloom
   name "Quiet Tax"
-  summary "Quiet Tax is a salvage vessel operating around Karet-3, Far Bell, and Gray Line. It charges one usable component from every recovered machine it hauls out."
+  summary "Pell skiff salvage vessel working between Karet-3, its Far Bell traffic marker, and the Gray Line cordon."
   subkind :vessel
   type_of :pell_skiff
   status :complete

@@ -1,7 +1,7 @@
 edict :two_breath_decree do
   tags :subject_hab_life
   name "The Two-Breath Decree"
-  summary "The Two-Breath Decree shuts Vey workshops whenever Lung Three misses two pressure pulses."
+  summary "Halt-Call safety rule of Vey, the porous ring fragment, tied to the Lung Three airflow chamber that serves its wards."
   subkind :edict
   type_of :halt_call
   status :complete

@@ -5,13 +5,14 @@ thread :paths_taken_away do
   subkind :story_thread
   status :complete
   log "2026-09-15 — Extended present-day journeys across a dispersed frontier. Ancient departure trails are one reason to travel; independent work and threats do not require Selven or the gate return."
+  log "2026-09-23 — Gave the rival readings of the ancient departures to the people who hold them and recast the Damarat and Anaret paragraphs as present actions instead of a list of wants."
 
   prose <<~PROSE
-    The people who crossed #{ref :sahels_breach, "Sahel's Breach"} carried some fitted pieces away and destroyed others. Elsewhere on #{ref :lithren, "Lithren"}, collections were dismantled while useful works remained. These finds can describe different departures. They do not establish a single evacuation or an off-world destination.
+    The people who crossed #{ref :sahels_breach, "Sahel's Breach"} carried some fitted pieces away and destroyed others. Elsewhere on #{ref :lithren, "Lithren"}, collections were dismantled while useful works stayed behind. Some readers of these finds see one great evacuation, perhaps off the planet; others see many small departures on different schedules, and each side has sites it points to.
 
-    #{ref :osen, "Osen"} wants a vessel and an independent crew to follow the removed witnesses. #{ref :nereth_valis, "Nereth Valis"} wants comparisons that can connect one departure to another place. #{ref :selven_iral, "Selven Iral"} seeks parts capable of completing defensible works. Each has a reason to leave Ithara and to return with something more than an account of the journey.
+    Three people have made the removed pieces their business. #{ref :osen, "Osen"} wants a vessel and an independent crew so he can follow them wherever they went. #{ref :nereth_valis, "Nereth Valis"} is after the comparisons that would tie one departure to one destination. #{ref :selven_iral, "Selven Iral"} buys any carried-off part that might complete a defensible work. All three need to leave Ithara and come back with something more than a story of the trip.
 
-    A destination requires evidence: matching parts, a witnessed transfer, or a route with surviving termini. In 2435 #{ref :ivara, "Ivara"}'s cargo identified one removed load at Damarat. Its carriage can serve new travelers after repair. That arrival does not establish the departing people's final destination or explain the civilization's end.
+    A destination takes proof: matching parts, a witnessed transfer, or a route with both ends surviving. In 2435 #{ref :ivara, "Ivara"}'s cargo put one removed load at Damarat, the first such end anyone has reached. Its carriage can serve new travelers after repair. Osen treats Damarat as a waypoint and is looking for the next one.
 
     The present expeditions also create departures. Crew members can leave Selven for Osen, remain to use a recovered workshop or carry a useful tool home. Those decisions change who knows a route and who will welcome its next travelers.
   PROSE
@@ -23,7 +24,7 @@ thread :paths_taken_away do
 
     Some journeys follow ancient transfers. Others begin with an exposed wall, a promising sample, a buyer's offer or friends who want to settle beyond a company's reach. Known satellites have traffic of their own. A crew may return to Ithara with nothing to sell and still bring an observation for which a scientist will fund the next visit.
 
-    Visitors copy the #{ref :vannor_account, "Vannor Account"} at a public table and trade observations with crews already beyond its rejected cut. At #{ref :oravel, "Oravel"}, independently opened wells offer living specimens whose effects are still being tested. People choose their companions and destinations without receiving a commission from the comparative expedition.
+    Visitors copy the #{ref :vannor_account, "Vannor Account"} at a public table and trade observations with crews already beyond its rejected cut. At #{ref :oravel, "Oravel"}, independently opened wells offer living specimens whose effects are still being tested. People choose their own companions and destinations and pay their own way.
 
     Traffic also gives thieves people to follow. A robber may want only a cargo or a ship. An expedition may seize a cut to monopolize its recoveries. Crews defend themselves, hire escorts or seek neighbors willing to help, and the resulting loyalties can outlast the disputed find. People who share a meal in Ithara can depart together for different reasons.
 
@@ -33,9 +34,9 @@ thread :paths_taken_away do
 
     The #{ref :oravel_crossing, "Oravel Crossing"} brought #{ref :daret_valis, "Daret Valis"} and #{ref :tovin, "Tovin"} back with people each had reason to avoid. At #{ref :damarat, "Damarat"}, a functioning workshop now gives residents reasons to remain while #{ref :ilven_sarith, "Ilven Sarith"}'s removal offer could pay for their departure. Materials investigators follow manufacturing marks between sites; #{ref :tamet, "Tamet"} brings that knowledge into present work. Their journeys can intersect the removed ancient patterns without depending on that search.
 
-    Damarat's missing setting bars have begun another search. A worker admits selling one to pay for a child's departure; that admission does not account for the stolen case or the injured operator. Some neighbors want the bars recovered before a carrier leaves. Others want to hide a friend from the visiting guards. The workshop continues running while its occupants act on those different loyalties. A separate purchase aboard #{ref :steady_return, "Steady Return"} gives the search an inward destination and a household with its own account to hear.
+    Damarat's missing setting bars have begun another search. A worker admits selling one to pay for a child's departure, and says the buyer's companions took the rest of the case and struck the operator. Some neighbors want the bars back before the next carrier lifts. Others are hiding a friend from the visiting guards. The bed keeps running simpler settings through all of it. A separate purchase aboard #{ref :steady_return, "Steady Return"} gives the search an inward destination and a household with its own account to hear.
 
-    At #{ref :anaret, "Anaret"}, #{ref :ysil, "Ysil"} seeks a route past the crew she left. The physician tending the captives needs that route to carry people who cannot climb it themselves. The #{ref :araket_seizure, "occupiers"} want a profitable departure; Selven offers help that could leave his own people holding the approach. Clearing one route changes who can leave and what the next expedition can bring in.
+    At #{ref :anaret, "Anaret"} the question of departure is literal. #{ref :ysil, "Ysil"} is rigging a way around the crew she once traveled with, and the physician tending the captives has marked the width of a loaded cradle on her shelter's doorway as the size that route must reach. The #{ref :araket_seizure, "occupiers"} are waiting for a load that pays for their own escape. Selven's offer of shields and rigging comes with guards who would stay.
   PROSE
   prose <<~PROSE, section: :culture, heading: "People Known Inward"
     Some departures leave a second home to visit. Ressa's former lodgers send pictures from Steady Return; players at her hall answer arrangements carried back by the #{ref :veyr_company, "Veyr Company"}. Friends can recommend a table, a teacher or a bed without asking anyone to join an expedition. Distance and the price of passage keep many of those friendships in correspondence.

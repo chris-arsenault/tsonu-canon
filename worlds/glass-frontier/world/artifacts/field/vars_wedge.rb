@@ -1,6 +1,6 @@
 artifact :vars_wedge do
   name "Var's Wedge"
-  summary "Var's Wedge is a hand instrument for separating thin ringglass plates without destroying the signals recorded in them. Renn Var made it at Talven, which keeps the shortening original for mapped archive cuts."
+  summary "Var's Wedge is a hand instrument for separating thin ringglass plates without destroying the signals recorded in them. Cael Var made it at Talven, which keeps the shortening original for mapped archive cuts."
   subkind :instrument
   function "Separates thin ringglass plates while preserving their signal impressions"
   status :complete
@@ -28,7 +28,7 @@ artifact :vars_wedge do
   )
 
   prose <<~PROSE
-    Twelve intact plates came from the first archive face cut with Var's Wedge. Talven cutter #{ref :renn_var, "Renn Var"} made the tool from a clear offcut, a ceramic heel, and a grip wrapped in lift cable after every metal edge broke the recorded signal. The archive manifest attached her name to the successful instrument.
+    Twelve intact plates came from the first archive face cut with Var's Wedge. Talven cutter #{ref :cael_var, "Cael Var"} made the tool from a clear offcut, a ceramic heel, and a grip wrapped in lift cable after every metal edge broke the recorded signal. The archive manifest attached her name to the successful instrument.
 
     A user seats the clear edge along the crystal grain and taps the ceramic heel. The wedge answers the signal held in the layer and carries the same vibration through its grip. Pressure applied during that return opens a flat fracture behind the recording and leaves the signal-bearing face whole.
 
@@ -36,6 +36,7 @@ artifact :vars_wedge do
   PROSE
 
   log "2026-08-21 — Renamed Tess Wedge to Var's Wedge after its maker's personal name changed."
+  log "2026-09-23 — Renamed Renn Var to Cael Var to separate them from Renn Duvasi elsewhere in the corpus."
 
   gm_note :appears, "Whoever taps the ceramic heel feels the recording come back up through the wrapped grip, so the player holding the wedge hears the layer a moment before the crew at the listening points does."
   gm_note :triggered_by, "Several workshops will cut a copy of the wedge within a day. The copy splits the glass just as cleanly and scatters the recording across both new faces, so what it lifts grades as instrument stock rather than as an archive plate."
@@ -46,6 +47,6 @@ relate :rel_talven_possesses_tess_wedge, :possesses, :talven, :vars_wedge, since
 end
 
 
-relate :rel_tess_var_designed_tess_wedge, :designed, :renn_var, :vars_wedge do
-  prose "Renn Var shaped the wedge for a damaged archive face that broke under metal tools."
+relate :rel_tess_var_designed_tess_wedge, :designed, :cael_var, :vars_wedge do
+  prose "Cael Var shaped the wedge for a damaged archive face that broke under metal tools."
 end

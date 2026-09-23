@@ -1,7 +1,7 @@
 edict :ashenmaw_first_crossing_claim do
   tags :subject_journeys_trade
   name "The Ashenmaw First-Crossing Claim"
-  summary "The Ashenmaw First-Crossing Claim grants the first safe claim on newly charted debris to the crew that charted its motion for a full crossing."
+  summary "Ratter salvage law for new debris, honored across the Fracture belt and around Ashenmaw, Vitrael and Vastine."
   type_of :ratter_order
   belongs_to :culture, :ratters
   subkind :edict

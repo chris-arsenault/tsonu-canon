@@ -5,6 +5,7 @@ encyclopedia :pell_skiff do
   subkind :vessel
   status :complete
   log "2026-08-31 — Renamed Claim Rig to Pell Skiff; Pell names the route and yard tradition that standardized the isolated-receiver design, and skiff is the crews' own vessel word."
+  log "2026-09-23 — Replaced cues and variations that repeated the prose with fresh observations and genuine differences between skiffs."
   capacity "Three to twelve crew, one to four remote cutters, and isolated receiving rooms"
   topics :transport, :salvage, :resonance, :orbital, :danger, :trade, :subject_shear
   prevalence :common
@@ -61,14 +62,14 @@ encyclopedia :pell_skiff do
 
     The crew lives close to the work. Cabins occupy the clean end of the hull beyond the bridge, with the galley and air plant between habitation and processing. Boots, tools, and outer clothing remain on the processing side until they have been washed and sounded, and the crossing rule is painted on the clean-end door.
 
-    Independent crews own many Pell skiffs outright or owe on them through a broker, yard, or flotilla debt. The #{ref :pell_freight_assembly, "Pell Freight Assembly"} maintains shared receivers and finances rebuilds for its members. A skiff remains its crew's vessel under those arrangements. The Assembly can deny a berth to unsafe work; it does not take the helm.
+    Independent crews own many Pell skiffs outright or owe on them through a broker, yard, or flotilla debt. The #{ref :pell_freight_assembly, "Pell Freight Assembly"} maintains shared receivers and finances rebuilds for its members. A skiff remains its crew's vessel under those arrangements. The Assembly can deny a berth to unsafe work, and the helm stays with the crew.
   PROSE
 
-  cue "Buyers, hirers, and berth masters read a Pell skiff's history off its repairs. Scrape marks around a shutter, mismatched wall plates, and a breaker moved within easier reach carry more about what the vessel has survived than its sales record does."
-  cue "The repeated features are visible inside: short passages, heavy shutters, cleanable walls, exposed manual breakers, and instrument runs that do not share a clock."
+  cue "A prospective buyer walks the receiving side with a lamp, running a thumb along the gouges beside each shutter and counting the wall plates that don't match."
+  cue "The clean-end door carries a painted rule and a row of boots beneath it, and a process hand in wet socks is sounding her tool belt before she steps through."
   affordance "The hand wheel and physical tally let a deck lead verify pressure, heat, field response, and last entry at the opening before releasing a room whose powered system has reported safe."
   pressure "Jobs overlap freely on a small Pell skiff until the first live return, and then pilot, cutter operator, Tuner, deck lead, and process hands are each fixed to one station. Anything needing a spare pair of hands while the tone runs costs whichever station is left empty."
-  variation "Converted cargo craft, survey hulls, and passenger kites keep their old outer silhouettes while gaining heavy shutters, exposed breakers, and isolated receiving bays inside."
-  variation "Purpose-built Pell skiffs give every cutter its own receiver and clock, with the cabins past the bridge at the clean end of the vessel."
+  variation "Assembly members share the Pell Freight Assembly's receivers and rebuild money and berth where its inspectors can see them; independent crews owing a broker cut corners on receiving-room plates to make payments, and the berth masters know which ones."
+  variation "A one-cutter skiff with four crew works small claims close to port and runs home at the first wake; four-cutter skiffs with a dozen aboard stay out for weeks and keep a repair hand on every watch."
 
 end

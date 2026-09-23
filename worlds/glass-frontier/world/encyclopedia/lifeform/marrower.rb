@@ -32,10 +32,11 @@ encyclopedia :marrower do
   PROSE
 
   cue "A survey inside the carrier opens with a padded case at the port and a pair of trained animals let loose into channels no person fits through. The pair that comes back for its paste has found nothing; the one that stays has found a warm pocket worth cutting toward."
-  cue "The plate answers the surrounding tissue with a quick tapping pulse, and nearby marrowers repeat it."
+  cue "Down a service passage at Orra, a quick tapping comes back through the walls from three directions at once, and the crew stops talking to count it."
   affordance "Striking tissue, tapping a tool, or working metal anywhere near a channel gets repeated back by every marrower in earshot, and an untrained colony will follow the sound into the room that made it."
-  pressure "A rhythm that accelerates means the animals are trapped and the tissue around them is closing, which can drive sweet gas into whichever service passage the crew is standing in. Flame and kinetic tools go out before anyone moves."
-  variation "Orra crews keep trained pairs in padded cases and release them at survey ports."
-  variation "Untrained colonies defend those pockets and will follow a tapping tool into occupied fungal beds."
+  pressure "A crew boss behind on a contract wants to cut straight toward the warm pocket a marrower has found; the handler wants the parallel passage opened first, because the pocket may be sweet gas and her animal is still inside it."
+  variation "Handlers who work one old, experienced animal read its single return closely; others release pairs and read the difference between the two."
+  variation "Marrowers bred for generations in Orra's cases answer a strange tap slowly and come to their handler's voice; wild colonies repeat any sound at once and swarm the source."
+  log "2026-09-23 — Replaced cue and variation lines that repeated the prose with a fresh observation and real differences in handling and stock; gave the pressure a crew boss and a handler."
 
 end

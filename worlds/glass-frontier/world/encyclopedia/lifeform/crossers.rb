@@ -11,47 +11,59 @@ encyclopedia :crossers do
   biology "An ecological group spanning unrelated lineages whose established populations nest in stable thresholds, follow pre-shift air movement, or travel with a room's displacement"
   lifespan "Varies by lineage; the most specialized populations are small animals that have bred through many generations since the Silent Bloom"
   function "Nest density, coordinated departures, and repeated travel routes give residents observable evidence of how a zone is moving"
-  resonance_relation "Pressure and airflow account for the departures of draft-followers; the repeated nonadjacent routes kept by shift-riding populations fall outside those measurements"
+  resonance_relation "Pressure and airflow account for the departures of draft-followers; shift-riders keep repeated routes through nonadjacent rooms that survey instruments have yet to predict"
+  log "2026-09-23 — Put the animals themselves into the entry, with bodies, habits and one famous marked runner, and gave the households, wardens and couriers who live beside them their own stakes."
 
   descriptive_identity(
-    appearance: "Several unrelated bodies recur in the wardens' lists: small " \
-                "wall-nesters packed into door frames, long-bodied runners in " \
-                "service gaps, and light gliders moving on between-room drafts.",
+    appearance: "Three bodies recur in the wardens' lists: fist-sized, blunt-faced " \
+                "wall-nesters with grey felted fur, packed into door frames; " \
+                "long, low runners with oily brown coats in the service gaps; " \
+                "and light membrane-winged gliders that hang in doorways and " \
+                "ride between-room drafts.",
     behavior: "Threshold-nesters return to the same seams after each shift. " \
               "Draft-followers leave a chamber together before it moves. " \
               "Shift-riders keep circuits through nonadjacent rooms and may " \
-              "vanish from one settlement before appearing in another.",
-    threat: "Dense colonies strip stores, nest in wiring, and foul door seals. " \
-            "Households protect food and live circuits while leaving the " \
-            "animals access to the thresholds they monitor.",
+              "leave one settlement and turn up in another.",
+    threat: "Dense colonies strip stores, nest in wiring and foul door seals. " \
+            "Households protect food and live circuits and leave the animals " \
+            "the thresholds they watch.",
     senses: "Pressure and airflow explain the departure of documented " \
             "draft-followers. Marked shift-riders keep repeatable routes " \
-            "outside what survey crews can predict from those readings.",
-    risks: "A colony carries seeds, parasites, and scavengers along its route, " \
+            "that survey crews can plot after the fact and have yet to " \
+            "predict from those readings.",
+    risks: "A colony carries seeds, parasites and scavengers along its route, " \
            "so a newly occupied threshold can join two local ecologies before " \
            "the adjoining rooms meet."
   )
 
   prose <<~PROSE
-    Zone wardens call animal populations whose ordinary lives cross moving rooms *crossers*. The category covers descendants of stock caught inside the first Bloom Zones and later animals carried in through new shifts. It joins unrelated lineages through a shared ecological history and observable behaviors: a wall-nester, service-gap runner, and draft glider may share no ancestry and still enter the same survey ledger.
+    Zone wardens call animals whose ordinary lives cross moving rooms *crossers*. Some descend from stock caught inside the first Bloom Zones in 2378; others arrived later through new shifts. The word joins unrelated lineages by the way they live. A wall-nester, a service-gap runner and a doorway glider may share no ancestry and still fill the same page of a warden's survey.
 
-    Wardens recognize three field groups:
+    The wall-nesters are the ones residents know best. They are fist-sized and blunt-faced, with grey felted fur, and they pack door frames, wall junctions and old seams with chewed insulation, hair and seed husk. A seam that has held its position through several shifts collects nests year after year, and a dense old nest marks a doorway residents trust. Children in zone settlements learn to put an ear to a frame and listen for the colony's chirring before going through.
 
-    - **Threshold-nesters** build in door frames, wall junctions, and other seams that have held their position through several shifts. A dense old nest records stability at the seam itself.
-    - **Draft-followers** move with the changing pressure between incompatible interiors. Several species will leave the same chamber within minutes of one another and settle on the side from which the stable air is entering.
-    - **Shift-riders** keep routes through displacement. Marked animals disappear through one room and recur through a sequence of nonadjacent interiors, sometimes in another settlement. Surveyors can plot the circuit after the animals travel it and cannot reproduce the crossing themselves.
+    The gliders follow drafts. They hang upside down in doorways on membrane wings, and when the pressure between two incompatible interiors begins to change they drop and go, several species leaving the same chamber within minutes and settling on the side where stable air is coming in. A household that sees the gliders go picks up its cases and follows.
+
+    The runners are long and low, with oily brown coats, and they keep circuits through displacement itself. A marked runner can vanish into one room and turn up in a string of interiors that never adjoin, sometimes in another settlement. Surveyors plot the circuit after the animals travel it. Crews who try to walk the same sequence arrive wherever the rooms put them.
   PROSE
 
-  prose <<~PROSE, section: :operations, heading: "In the Warden Ledgers"
-    A survey walk records nests beside gauge readings. An occupied threshold stays on the map; a seam abandoned by several species goes on the watch list that morning. Coordinated departures carry more weight than one startled animal, and households learn the distinction by repetition. They keep food in sealed bins, mesh live wiring, and leave known nest pockets undisturbed.
+  prose <<~PROSE, section: :present_day, heading: "Living With Them"
+    Households in displacement country tolerate the wall-nesters and fight them constantly. Colonies strip grain bins, nest in live wiring and foul the soft seals of doors. Residents keep food in sealed bins, mesh their wiring and leave known nest pockets alone, because the nesters abandon a frame before it moves. Exterminators who clear a doorway of nests to please a landlord are cursed on every deck they work.
 
-    Air pressure explains the draft-followers and gives residents minutes of warning. A shift-rider's circuit through rooms that never adjoin falls outside those readings. Warden ledgers preserve the circuits as animal movements, with dates and identifying marks, and bar crews from attempting them as routes. The same paths also move seeds, parasites, and scavengers between local ecologies before the adjoining rooms meet.
+    Wardens walk their surveys with gauges in one hand and a nest count in the other. An occupied threshold stays on the map. A seam abandoned by several species at once goes on the watch list that morning, and coordinated departures count for more than one startled animal. Residents learn the difference by repetition, and newcomers learn it from the neighbor who grabs her cases first.
+  PROSE
+
+  prose <<~PROSE, section: :tensions, heading: "Blue Thread and the Couriers"
+    The most famous runner in the wardens' surveys is an old male called Blue Thread, for the tag of blue cord worked into his coat by the first warden to catch him. He has been recorded in more than a dozen habitats, in an order the wardens can recite and the surveyors still argue over. Some settlements put out scraps for him and keep count of his visits.
+
+    Couriers have noticed. A small trade has grown up in tying message tubes and light parcels to marked runners and betting on where they surface. Most parcels are lost, eaten or chewed open. Enough arrive, sooner than any crew could carry them, that a letter-writer with patience and nothing urgent to send will pay for a runner's collar. Wardens bar crews from attempting runner circuits as routes and confiscate collars when they find them; some wardens also sell the next stop on a famous runner's circuit to the couriers who ask.
+
+    The runners carry more than parcels. Seeds, parasites and small scavengers ride the same routes and join two local ecologies before their rooms ever meet. Gardeners in zone settlements pull strange seedlings from their beds each season and trace them, with varying success, to the last runner seen in the lane.
   PROSE
 
   cue "Wall-nesters leave three door frames at once and collect along the corridor's inward seam; the household moves its cases before the gauge completes its rise."
-  cue "A marked runner appears in a service room two habitats away with the same blue thread still caught in its coat, adding another stop to a route no survey crew can follow."
+  cue "A marked runner appears in a service room two habitats away with the same blue thread still caught in its coat, and the hab's children run to tell the warden."
   affordance "Nest maps show which thresholds have remained stable, coordinated departures warn of an approaching room shift, and marked animals reveal recurring links between nonadjacent interiors."
-  pressure "A displaced population carries its food web with it. New arrivals bring seed, parasites, and small predators through the same threshold, joining two local ecologies before their rooms meet."
+  pressure "A landlord pays an exterminator to clear the nests from a lodging-house doorway; the tenants want the colony back, and when the frame shifts the next month the landlord blames the wardens."
   variation "Threshold-nesters may remain within one building for generations, returning to the same door frames after each movement."
-  variation "Shift-riding populations range across several habitats and keep a repeatable sequence of rooms whose order appears only in the wardens' animal ledgers."
+  variation "Shift-riding runners range across several habitats and keep a repeatable sequence of rooms, which wardens record with dates and identifying marks and couriers buy when a warden will sell it."
 end

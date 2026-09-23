@@ -1,7 +1,7 @@
 incident :orra_root_sleep do
   tags :subject_hab_life
   name "Orra Root Sleep"
-  summary "Orra Root Sleep is a whole-deck plant dormancy that ends when water from another habitat reaches the garden's oldest graft."
+  summary "A garden Sleep centered on Orra's sealed hab, touching the ring-hab gardens of Olven, Noll and Rib."
   type_of :sleep
   subkind :incident
   status :complete

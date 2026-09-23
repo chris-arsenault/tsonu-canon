@@ -1,7 +1,7 @@
 edict :black_ice_writ do
   tags :subject_lithren
   name "The Black-Ice Writ"
-  summary "The Black-Ice Writ bars the melting of Lithren archive slabs until a second reader has copied their visible text."
+  summary "Public Shelf writ of Sithari's Service covering Lithren archive ice, applied on Lithren and in Pelhari."
   subkind :edict
   type_of :public_shelf
   belongs_to :culture, :service

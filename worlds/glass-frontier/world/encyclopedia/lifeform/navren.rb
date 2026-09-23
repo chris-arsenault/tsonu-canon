@@ -9,12 +9,13 @@ encyclopedia :navren do
   prevalence :common
   appears_when all: { place: [:garden] }
 
-  cue "Navren trees grow copper-green bark over pale wood and are coppiced from named root stools at Noll."
-  cue "A worked piece answers strain with a low audible hum, so a frame taking a load it was not built for says so aloud."
+  cue "In the Noll coppice, young stems grow bent under sling bags of stone, each bag tagged with the name of the shipyard that ordered the curve."
+  cue "A navren doorframe hums when a loaded cart rolls over the sill, and Noll children stamp through doorways in pairs to make the old ones sing."
   affordance "Growers shape each stem while it lives so the harvested wood keeps its imposed curve through drying."
-  pressure "Once dry, the grain holds its imposed curve and ceases to answer a new growth field."
-  variation "Weights set a stem's broad curve while it grows."
-  variation "Grafts redirect individual fibers while water-borne resonance settles the grain around the intended load."
+  pressure "A yard with a cracked hull brace wants the reserved stem another yard ordered years ago; growers who sell a reserved stem to the higher bidder keep the money and lose the first customer for good."
+  variation "Weight-bent stems give broad, cheap curves that builders buy for doorframes; grafted stems with a load path set fiber by fiber cost several times as much and carry waiting lists measured in cutting cycles."
+  variation "Wood from the oldest root stools is dense and dark and goes to instrument makers; young stools grow fast pale timber for common braces."
+  log "2026-09-23 — Replaced cue, pressure and variation lines that repeated the prose with fresh observations, a buyer's conflict and real differences between stocks."
 
   descriptive_identity(
     appearance:

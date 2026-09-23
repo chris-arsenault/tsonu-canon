@@ -6,6 +6,7 @@ encyclopedia :varal do
   status :complete
   topics :materials, :trade, :rebuilding, :subject_lithren
   prevalence :uncommon
+  log "2026-09-23 — Restated the unread builders' name and the rods' limits as positive statements."
   appears_when all: { place: [:outer_system] }, any: { place: [:yard, :archive] }
   function "Forms supplied sheet stock against an adjustable bed of ceramic rods"
   operating_limit "Rod travel, press force and the stock's ductility bound the shape; undercuts require separate parts"
@@ -15,9 +16,9 @@ encyclopedia :varal do
   variation "Small beds adjust each rod by hand; larger ones link rows through interchangeable shaped bars."
   variation "Fine rods make close-fitting shells, while broad rods leave a visible dimpled finish on heavy panels."
   prose <<~PROSE
-    Lithren's recovery crews call a bed of separately adjustable forming rods a varal. The word belongs to the modern trade; the builders' name has not been read. A close-packed bed of ceramic rods stands beneath a press, each rounded end supporting a small area of the work. Screws or shaped bars set their heights. Together they make a surface that can be changed for the next job without cutting a new solid die.
+    Lithren's recovery crews call a bed of separately adjustable forming rods a varal. The word is the recovery crews' own; whatever the builders called the machine sits in inscriptions still waiting for a reader. A close-packed bed of ceramic rods stands beneath a press, each rounded end supporting a small area of the work. Screws or shaped bars set their heights. Together they make a surface that can be changed for the next job without cutting a new solid die.
 
-    A worker warms or softens suitable stock, lays it over the rods and brings down a padded platen. The stock takes the bed's contour. The force comes from the press and its supply; changing the rods supplies neither heat nor material. Deep draws need successive settings. A folded return, enclosed cavity or overhanging lip must be made in pieces or finished with other tools.
+    A worker warms or softens suitable stock, lays it over the rods and brings down a padded platen. The stock takes the bed's contour. The force comes from the press and its supply, the heat from the workshop's furnace and the metal from the stock; the rods supply the shape. Deep draws need successive settings. A folded return, enclosed cavity or overhanging lip must be made in pieces or finished with other tools.
   PROSE
   prose <<~PROSE, section: :operations, heading: "The Shape Under the Hands"
     With the press isolated, a worker can read the bed by laying a broad hand across the rod ends. A short rod leaves a hollow; a proud rod can print a hard spot into every piece. Patterns taken from worn parts repeat their wear unless the setter changes them. A measured correction is new manufacture, while #{encyclopedia_ref :return, "Return"} restores a surviving earlier state.

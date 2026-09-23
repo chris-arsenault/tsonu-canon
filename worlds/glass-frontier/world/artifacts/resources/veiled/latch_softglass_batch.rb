@@ -1,7 +1,7 @@
 resource :latch_softglass_batch do
   tags :subject_bloom
   name "The Latch Softglass Batch"
-  summary "The Latch Softglass Batch is Pyre softglass sourced from Pyre and Latch. It bends around a damaged seal while hot and retains the fitted shape after cooling."
+  summary "Batch of softglass repair stock, recovered and re-fired from the Pyre and Latch wrecks."
   subkind :material
   type_of :softglass
   status :complete

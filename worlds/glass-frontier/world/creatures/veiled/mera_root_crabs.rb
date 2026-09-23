@@ -1,12 +1,13 @@
 creature :mera_root_crabs do
   tags :subject_hab_life
-  name "The Mera Root Crabs"
-  summary "The Mera Root Crabs are an agricultural colony ranging among Mera, Noll, and Rib. They prune sick root mats and carry the severed fibres into warm wall cavities."
+  name "The Mera Nurseries"
+  summary "Nursery colony, shell-gardening terrace crabs, living among the root mats of Mera, Noll and Rib."
   subkind :animal
   type_of :nurseries
   status :complete
+  log "2026-09-23 — Renamed The Mera Root Crabs to The Mera Nurseries so the instance carries its class word."
   prominence :marginal
-  veiled "The Mera Root Crabs prune sick mats and carry the severed fibres into warm wall cavities."
+  veiled "The Mera Nurseries prune sick mats and carry the severed fibres into warm wall cavities."
 end
 
 relate :rel_root_crab_in_mera, :inhabits, :mera_root_crabs, :mera

@@ -20,7 +20,7 @@ encyclopedia :mane do
                 "on the crust.",
     working: "The driver runs the heat ledger: drive effort makes heat, the ground donates " \
              "more, the mane sheds what the budget allows, and the day's route is planned " \
-             "between passings and shade the way a captain plans between tides.",
+             "between shade windows the way a captain plans between tides.",
     risks: "Thin crust is the trade's void — ground that carries the lead skids and opens " \
            "under the convoy — and mane crews sound doubtful crust ahead with weighted " \
            "strikes, reading the ring the way spider crews read their sounding feet."
@@ -29,7 +29,7 @@ encyclopedia :mane do
   prose <<~PROSE
     The hot roads of Ashvane and Crucible cross cinder fields — crusted, heat-glazed, patient ground that eats wheels, cooks axles, and shrugs at walkers — and the mane is the freight answer the hot settlements built when the Glassfall left them hauling their own ore. It is a broad low runner sled skinned in ceramic heat-tile, riding polished skids that sing on the crust, with its drive's exhaust rising through the row of spine stacks that gave the vehicle its name. The design's whole logic is the heat ledger: drive effort makes heat, the ground donates more, the stacks shed what they can, and everything about a run — load, pace, route, and rest — is the driver keeping that ledger in the black.
 
-    The ledger is read at a glance from outside, which shapes the culture of the roads. A mane running cool trails thin pale smoke; one running toward its limit manes dark and low, and every crew that sights it knows the driver's afternoon. Mane convoys plan their days between #{encyclopedia_ref :passings, "passings"} like coastal traffic between tides — heavy legs run in the shade windows, the long midday passing is the trunk roads' rush hour, and a convoy caught fat and dark-maned in full light makes for the marked cool-stands, the crust hollows every route maintains, with the whole road's sympathy and full attention.
+    The ledger is read at a glance from outside, which shapes the culture of the roads. A mane running cool trails thin pale smoke; one running toward its limit manes dark and low, and every crew that sights it knows the driver's afternoon. Mane convoys plan their days between shade windows like coastal traffic between tides. On Ashvane the long giant-shade, when #{ref :ashenmaw, "Ashenmaw"} covers the sun, is the trunk roads' rush hour; on Crucible the ore convoys run by crater and ridge shadow. A convoy caught fat and dark-maned in full light makes for the marked cool-stands, the crust hollows every route maintains, with the whole road's sympathy and full attention.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Crust Craft and Convoys"
@@ -42,6 +42,6 @@ encyclopedia :mane do
   cue "Ahead of the stopped convoy, the mate walks the crust swinging a weighted striker, and the whole crew turns at one dull ring."
   affordance "Linked manes move bulk freight across ground that ends every other carrier, and their smoke publishes each convoy's heat ledger to the whole road so crews can stage help before it is requested."
   pressure "Heat and crust share the route's arithmetic: the shade windows are everyone's rush hour, the cool-stands are finite, and a dark-maned convoy on thin crust is spending two budgets at once."
-  variation "Ashvane road manes run high racks between towns on the passing schedule; Crucible's linked ore convoys crew like ships and rank their drivers by career ledger figures."
+  variation "Ashvane road manes run high racks between towns on the giant-shade schedule; Crucible's linked ore convoys crew like ships and rank their drivers by career ledger figures."
   variation "Crews chalk the shift's peak heat figure on the lead stack for the next crew, and the roads compare their lowest season ledgers at the last cool-stand gathering of the year."
 end

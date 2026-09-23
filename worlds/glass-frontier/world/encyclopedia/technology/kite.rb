@@ -36,7 +36,7 @@ encyclopedia :kite do
       "same engine runs a surface route, lifts to orbit, and holds in " \
       "the Shear. Arrays are tuned at manufacture; anyone who can read " \
       "a resonance gauge keeps one flying, on ambient resonance for " \
-      "light duty and microcavity charge for heavy work.",
+      "light duty and Seed charge for heavy work.",
     risks:
       "The field needs continuous resonance input, and in dead space a " \
       "ship that exhausts its stored charge does not slow — it keeps " \

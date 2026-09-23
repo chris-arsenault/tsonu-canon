@@ -1,7 +1,7 @@
 incident :blue_root_discovery do
   tags :subject_planetary_life
   name "The Blue-Root Discovery"
-  summary "The Blue-Root Discovery was the recovery of living roots beneath a dry Sable recording vault and their transfer to Ledgerfall."
+  summary "Botanical find by surveyors from Lumenshard in Miraeth, which brought new root stock to Ledgerfall on the Sable Crescent."
   subkind :discovery
   status :complete
   prominence :marginal

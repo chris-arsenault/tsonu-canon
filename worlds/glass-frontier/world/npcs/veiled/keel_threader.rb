@@ -1,7 +1,7 @@
 npc :keel_threader do
   tags :subject_journeys_trade
   name "The Keel Threader"
-  summary "The Keel Threader passes loaded hulls through changing force by balancing four moving weights by hand."
+  summary "Rigger of the Keel berths, threading loaded hulls in at Hinge Six, Cold Lantern and Latchhouse."
   type_of :keel_threading
   subkind :specialist
   status :complete

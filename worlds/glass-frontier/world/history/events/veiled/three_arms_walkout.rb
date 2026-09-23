@@ -1,7 +1,7 @@
 incident :three_arms_walkout do
   tags :subject_planetary_life
   name "The Three Arms Walkout"
-  summary "The Three Arms Walkout was a riggers' campaign that moved unfinished frames to Blue Step until both yards adopted the same injury pay."
+  summary "Labor campaign by the riggers of Glasswake's Three Arms Yard, carried to Blue Step Works on Ladderwell's second bench."
   subkind :campaign
   status :complete
   prominence :marginal

@@ -5,6 +5,7 @@ encyclopedia :sheareel do
   subkind :anomaly
   status :complete
   log "2026-08-31 — Renamed Drift-eel to Sheareel; the title ties the animal to the Shear it inhabits."
+  log "2026-09-23 — Settled the breeding question (glassfall-stream spawning plus regrowth from severed filament) and replaced cues and variations that repeated prose sentences."
   topics :danger, :orbital, :resonance, :ecology, :salvage, :subject_shear
   prevalence :common
   appears_when all: { place: [:debris_field] }
@@ -27,7 +28,7 @@ encyclopedia :sheareel do
   )
 
   prose <<~PROSE
-    Sheareels are long Shear predators that follow electrical discharge and active resonance arrays. Small adults can wrap around a flitter. The oldest recorded bodies extend for several kilometres, though most of that length is thin feeding filament rather than muscle. Working crews encounter the smaller animals often enough to treat them as a route hazard rather than a rare beast.
+    Sheareels are long Shear predators that follow electrical discharge and active resonance arrays. Small adults can wrap around a flitter. The oldest recorded bodies extend for several kilometres, though most of that length is thin feeding filament rather than muscle. Working crews meet the smaller animals often enough to plan for them the way they plan for loose debris, as an ordinary route hazard.
 
     An eel approaches along the weakest gradient its prey produces. A badly shielded cable, a cycling receiver, and a Tuner sounding repeatedly on one band can each draw it. When it reaches a vessel, it anchors several mouths to the hull and begins taking current, heat, and field response through different parts of its body.
   PROSE
@@ -59,14 +60,14 @@ encyclopedia :sheareel do
   prose <<~PROSE, section: :geography, heading: "Following the Working Shear"
     Sheareels gather where active machinery makes dependable gradients: managed corridors, extraction yards, old habs whose systems still pulse, and the approaches to busy Ratter ports. They also follow glassfall streams through the debris, feeding on charge released by impacts and leaving when the field settles.
 
-    Young sheareels have been found inside cutter wakes, short enough to coil beneath a receiving grate. Whether they crossed as whole animals or grew from severed filaments remains unresolved. Ratter records contain both observations and no controlled specimen has survived long enough in a quiet field to distinguish them.
+    Sheareels breed in glassfall streams. Adults gather where impact charge runs strongest and release strings of coiled young that ride the debris outward, and young sheareels short enough to coil beneath a receiving grate turn up inside cutter wakes after a stream has passed. A severed filament lodged near a steady current can also grow a blunt head plate within a season and begin feeding. That second path is why Ratter port masters fine crews who cut an eel loose near a corridor and leave the pieces drifting, and why a crew that cradles a severed section and sells it on as conductive salvage sometimes delivers a live animal to the buyer's yard.
   PROSE
 
-  cue "A tuning compass usually registers a sheareel before anything visual does, its reeds leaning toward a point that moves against the surrounding debris while hull current drops in small separate steps. It is following the weakest gradient the vessel makes, often a badly shielded cable rather than the drive."
-  cue "The central body is a chain of dark flexible plates joined by pale tissue."
+  cue "The cabin lights of a flitter dip, recover, and dip again in small even steps, and the pilot's eyes go to the brass tuning compass on the console, where every reed is leaning slowly aft."
+  cue "Racked outside a Ratter port lock hang a dozen battered wire frames with scorched battery housings, each stencilled with the name of the eel it drew off and the date it came back."
   affordance "The instinct once mouths fix to the hull is to shut everything down. Abrupt silence sends the animal searching across the surface instead, so the sources come down one at a time while a lure is raised, walking the mouths off habitation, pressure seals, and control lines."
   pressure "Answering an attached eel with more drive power pulls it harder against the hull, because the body tightens around the field it is feeding on. A severed plate keeps gripping for hours afterward and leaks a conductive fluid carrying the ship's own signal."
-  variation "Small eels steal current and leave scorched fittings."
-  variation "The largest eels are route events."
+  variation "Port eels, long enough to wrap a flitter twice and mostly muscle, live off the leakage of busy Ratter approaches and strip current from small craft in passing, leaving a ring of scorched fittings."
+  variation "Named eels run several kilometres, mostly trailing filament, and move along whole glassfall streams; when one crosses a corridor the beacons go quiet and traffic waits, and hunters take one only after repeated attacks."
 
 end

@@ -1,7 +1,7 @@
 edict :warm_cargo_order do
   tags :subject_journeys_trade
   name "The Warm-Cargo Order"
-  summary "The Warm-Cargo Order requires Crucible ore to carry an open heat gauge from the mine lift to its Ashvane workshop."
+  summary "Shared Road carrier rule for Crucible ore bound for Ashvane, kept from Shadewell's port to the Coldside Bench repair hall."
   subkind :edict
   type_of :shared_road
   belongs_to :culture, :halt_call

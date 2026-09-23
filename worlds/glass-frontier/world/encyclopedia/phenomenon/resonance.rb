@@ -44,7 +44,9 @@ encyclopedia :resonance do
 
     **Mid bandwidth** requires quality arrays or trained #{encyclopedia_ref :resonant_tuner, "Tuners"}. Kite drives, refineries, long-range communication, and #{ref :clarisant, "Clarisant"}-grade attunement work use this range. Mid kinetic arrays generate sustained thrust, while mid signal arrays carry speech across a continent.
 
-    **Narrow bandwidth** concentrates the field tightly enough to produce effects outside ordinary workshop practice. Structural examples alter local physical behavior, kinetic examples produce translocation, and signal examples transfer information directly into consciousness.
+    **Narrow bandwidth** concentrates the field tightly enough to act across distance and at the scale of whole structures. Structural examples change how an entire hull or building behaves, kinetic examples carry objects between distant places without crossing the space between, and signal examples place information directly into a mind at range.
+
+    Reach sets the tier as much as kind does. A broad casting can work a strange effect if it stays small and close: #{encyclopedia_ref :step, "Step"} carries one body a few paces to a point in sight, #{encyclopedia_ref :stay, "Stay"} holds one small process for a few breaths, and #{encyclopedia_ref :outside_will, "Outside Will"} imposes one immediate command on one subject in earshot. Carrying a traveler to a remembered destination beyond sight takes focused work (#{encyclopedia_ref :waybearing, "Waybearing"}); doing the same for a crowd or a cargo belongs to narrow practice and to the mantles.
 
     #{ref :bloom_zones, "Bloom Zone"} relics, pre-Glassfall artifacts, and deep #{ref :the_shear, "Shear"} anomalies exhibit narrow-band characteristics. The custodians of the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} appear to process information in narrow signal frequencies, which makes their communication difficult to receive or answer with contemporary equipment.
 

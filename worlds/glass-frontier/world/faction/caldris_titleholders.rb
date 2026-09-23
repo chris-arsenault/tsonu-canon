@@ -7,7 +7,7 @@ faction :caldris_titleholders do
   tags :danger, :transport, :subject_hab_life
   descriptive_identity ideology: "The title remains theirs until another crew takes it on the course.", methods: "Practice paired turns, conceal short-range weapons beneath repainting and board a rival when a grapple closes the distance.", presence: "A heavily striped skiff surrounded by mechanics who examine every new gouge before cleaning it.", attitude: "Lavish hosts after a win and increasingly reckless when a rival threatens the next one."
   prose <<~PROSE
-    The Titleholders keep #{ref :gyr} in a workshop aboard a vessel moored outside #{ref :caldris}. Their practiced exchanges between pilot, gunner and grappler make them formidable even before their concealed equipment enters a race. Gyr's short weapon under the steering fairing has left matching scars in two rival hulls.
+    The Titleholders race under the slate registry, and every Slate colour hall in the habs has money on them. They keep #{ref :gyr} in a workshop aboard a vessel moored outside #{ref :caldris}. Their practiced exchanges between pilot, gunner and grappler make them formidable even before their concealed equipment enters a race. Gyr's short weapon under the steering fairing has left matching scars in two rival hulls.
 
     They intend to win #{ref :ask_again}. Practice runs now include attacks beside the conservatory arch, where a rival must retract its steering vanes or fall behind. The crew's grappler can leave their own skiff on a short line and land on a hull pulled alongside, but depends on the pilot holding both craft clear of the next doorway.
 

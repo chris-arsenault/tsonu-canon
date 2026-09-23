@@ -39,7 +39,7 @@ encyclopedia :echo_strip do
   PROSE
 
   prose <<~PROSE, section: :mechanics, heading: "One Strong Pattern"
-    The foil contains powdered ringglass held in stillwater resin. Bending the start line brings the grains into loose contact. They shift under the first coherent pattern strong enough to organize them and continue following that pattern until the stop fold locks the resin.
+    The foil contains powdered ringglass held in a resin cooked from spent #{encyclopedia_ref :stillwater, "stillwater"}: water whose lattice has broken too far for archive storage but can still hold loose grains in one pattern. Archives and cordon crews sell off their exhausted stock by the barrel, which is why a strip costs little. Bending the start line brings the grains into loose contact. They shift under the first coherent pattern strong enough to organize them and continue following that pattern until the stop fold locks the resin.
 
     Competing signals do not become separate tracks. The stronger pattern occupies more of the strip and pushes the weaker one toward the edges. A machine record may contain a voice as a thin change along one margin. A spoken deposition taken beside an active lift may preserve the lift beautifully and the witness poorly.
 

@@ -7,6 +7,8 @@ installation :pelhari do
   path "player/locations/settlements/pelhari.md"
   tags :"outer-system", :training, :resonance, :trade, :"ring-era", :subject_planetary_life
   prominence :recognized
+  log "2026-09-23 — Added the Dunmar Hold library and Yesh Dunmar to the dock houses."
+  log "2026-09-23 — Added the Nuvari deep-tissue mounts to the wright shops' instrument trade."
 
   descriptive_identity(
     setting:
@@ -21,7 +23,7 @@ installation :pelhari do
       "wright shops turn out tuned ringglass instruments, miners work " \
       "ice veins that reach kilometers into the moon, and the dock " \
       "houses handle Span Nine's traffic. Weddings, commissions, and " \
-      "exams are all scheduled by the gas giant's storm-faces.",
+      "exams are all scheduled by Vastine's storm-faces.",
     access:
       "Span Nine's terminus lands on the outer-rim dock complex with its " \
       "customs and signal bureaucracy, and public lifts connect every " \
@@ -35,7 +37,7 @@ installation :pelhari do
   )
 
   prose <<~PROSE
-    A moon of the seventh planet, the outer-system #{ref :kaleidos_system, "water giant"}. Pelhari is a single vertical city carved down the wall of a kilometers-deep crater — terraces stacked on terraces, gas-giant-facing terraces brightest, shadow-side terraces densest. The crater opens to a sky dominated by the banded face of the parent planet, which fills a fifth of the upper hemisphere and turns slowly through colors that the locals know by name.
+    A moon of the seventh planet, the water giant #{ref :vastine, "Vastine"}. Pelhari is a single vertical city carved down the wall of a kilometers-deep crater — terraces stacked on terraces, Vastine-facing terraces brightest, shadow-side terraces densest. The crater opens to a sky dominated by the banded face of the parent planet, which fills a fifth of the upper hemisphere and turns slowly through colors that the locals know by name.
 
     The #{ref :clarisant, "Clarisant"} holds the upper terraces and built its academy here. The rest of the crater belongs to people who were doing other things first, or who have come since to do something else.
   PROSE
@@ -66,22 +68,22 @@ installation :pelhari do
   prose <<~PROSE, section: :economy, heading: "Economy"
     The Academy is the largest single employer and the city's defining institution among several independent industries:
 
-    **Span Nine terminus.** One of #{ref :span_nine, "Span Nine"}'s three known termini lands on Pelhari's outer-rim dock complex. The port handles the only Span-bandwidth comms traffic in the outer system. Customs, freight, signal-traffic management, and the small dense bureaucracy that surrounds the terminus together employ thousands. The dock houses are a city within a city, with their own dialect and their own grudges.
+    **Span Nine terminus.** One of #{ref :span_nine, "Span Nine"}'s three known termini lands on Pelhari's outer-rim dock complex. The port handles the only Span-bandwidth comms traffic in the outer system. Customs, freight, signal-traffic management, and the small dense bureaucracy that surrounds the terminus together employ thousands. The dock houses are a city within a city, with their own dialect and their own grudges. Among them stands the library of the #{future "Dunmar Hold"}, whose rack of plates from #{ref :yesh_dunmar, "Yesh Dunmar"}'s 2389 crossing of the Fracture draws pilots from every outer port, and whose librarian argues with his aunt most mornings in front of the visitors.
 
     **Ice mining and water export.** The crater's lower terraces meet veins of clean ice that run kilometers into the moon. Water is extracted, refined, and shipped throughout the outer system. The miners are the city's largest working population and the foundation of the Pelharin middle class. Mining families have worked the veins for generations and treat Tuners as one profession among others.
 
-    **Resonance instrumentation.** The city's wright shops produce some of the system's best resonance instruments: tuned ringglass measurement rigs, training arrays, calibrated reference tools. The wrights work in close contact with the Academy but operate independently, and several wright houses are older than the guild itself. A Pelharin instrument carries a maker's mark that means quality across the system.
+    **Resonance instrumentation.** The city's wright shops produce some of the system's best resonance instruments: tuned ringglass measurement rigs, training arrays, calibrated reference tools. The wrights work in close contact with the Academy but operate independently, and several wright houses are older than the guild itself. A Pelharin instrument carries a maker's mark that means quality across the system. The best rigs sit on mounts cut from deep-animal tissue that hook-chain crews bring from #{ref :nuvari, "Nuvari"}, which keep an instrument from hearing its own housing.
 
     **The retreat economy.** People come to Pelhari to recover, to study, to retire, to disappear. The resonance-quiet environment is restorative. The Academy's libraries are open to credentialed scholars from any institution. Long-stay residences along the middle terraces serve pilgrims, sabbatical academics, recovering Tuners, and the occasional well-funded eccentric. The quiet trade in long-stay hospitality is unglamorous and reliable.
 
     The Academy, mines, docks, and wright shops have separate employers and institutions. Their independence gives Pelhari several centers of civic and economic power, an uncommon arrangement among habs and surface settlements.
   PROSE
   prose <<~PROSE, section: :culture, heading: "Sky-Watcher Culture"
-    The parent planet rules the sky. The gas giant's banded face fills a fifth of the upper hemisphere at any time, turning through a slow procession of colors that the Pelharin read like weather. The bands have names. The standing storms have names. The seasonal shifts in the banding pattern — local effects that recur in roughly the same form year after year — have names. A Pelharin child learns the names of the storm-faces before they learn to read.
+    The parent planet rules the sky. Vastine's banded face fills a fifth of the upper hemisphere at any time, turning through a slow procession of colors that the Pelharin read like weather. The bands have names. The standing storms have names. The seasonal shifts in the banding pattern — local effects that recur in roughly the same form year after year — have names. A Pelharin child learns the names of the storm-faces before they learn to read.
 
-    The local calendar is keyed to the gas giant's appearance. **Storm-face** mornings are bright and turbulent. **Hush-face** mornings are still and gray. **Dark-face** spans are the rare intervals when the parent planet's bands all darken simultaneously and the city's mood follows. Outsiders often find dark-face days unsettling; locals treat that reaction as a newcomer's habit.
+    The local calendar is keyed to Vastine's appearance. **Storm-face** mornings are bright and turbulent. **Hush-face** mornings are still and gray. **Dark-face** spans are the rare intervals when the parent planet's bands all darken simultaneously and the city's mood follows. Outsiders often find dark-face days unsettling; locals treat that reaction as a newcomer's habit.
 
-    Festivals follow the gas giant. The major civic celebrations align with banding events that recur on multi-year cycles, and the planning of a wedding or a major commission is routinely scheduled around the next favorable storm-face. The Academy schedules examinations by the same pattern while downplaying the calendar's influence in its public teaching.
+    Festivals follow Vastine. The major civic celebrations align with banding events that recur on multi-year cycles, and the planning of a wedding or a major commission is routinely scheduled around the next favorable storm-face. The Academy schedules examinations by the same pattern while downplaying the calendar's influence in its public teaching.
 
     Outsiders are visible for years. A Tuner who comes to Pelhari for mastery training and stays after may live there for a decade before they stop being read as new. A Pelharin who leaves the moon and returns can pick up local conversation within a day.
   PROSE
@@ -100,7 +102,7 @@ relate :rel_pelhari_orbits_vastine, :orbits, :pelhari, :vastine do
   prose "Pelhari orbits #{ref :vastine, "Vastine"}, far enough out that its independence was never really in question."
 end
 relate :rel_pelhari_terminus_span_nine, :terminus_of, :pelhari, :span_nine do
-  prose "It holds the midpoint of #{ref :span_nine, "Span Nine"}, the relay that keeps the old conduit's signal coherent across the gap."
+  prose "It holds the outer terminus of #{ref :span_nine, "Span Nine"}, the only point beyond Kaleidos where the conduit's traffic can be sent or received."
 end
 
 # --- history (moment) ---

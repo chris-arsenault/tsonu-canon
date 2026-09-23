@@ -1,7 +1,7 @@
 incident :glasswake_drain_migration do
   tags :subject_planetary_life
   name "Glasswake Drain Migration"
-  summary "Glasswake Drain Migration is the seasonal departure of metal-feeding life from Glasswake's drains when surface yards begin cutting ringglass."
+  summary "Silver Run of Glasswake's metal-feeders, felt from the Dry Net's dock fringe to Three Arms Yard and Blue Step Works."
   type_of :silver_run
   subkind :incident
   status :complete

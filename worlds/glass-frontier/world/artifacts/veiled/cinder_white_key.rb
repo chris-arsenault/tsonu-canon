@@ -1,7 +1,7 @@
 artifact :cinder_white_key do
   tags :subject_bloom
   name "Cinder White Key"
-  summary "The Cinder White Key is a cordon-door relic associated with Cinder Gap and the Bloom Zones. It opens Bloom-era doors only while its bearer carries fresh ash."
+  summary "Relic key of the Bloom Zone cordons, associated with the Cinder Gap wall at Pyre."
   subkind :relic
   status :complete
   prominence :marginal

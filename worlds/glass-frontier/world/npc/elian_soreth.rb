@@ -9,21 +9,22 @@ npc :elian_soreth do
   status :complete
   prominence :recognized
   tags :archives, :navigation, :"outer-system", :subject_lithren
+  log "2026-09-23 — Replaced the lines listing what his prediction and images failed to show with what he did, what he had in hand and how crews use his blank charts now."
 
   prose <<~PROSE
-    Born on #{ref :pelhari, "Pelhari"}, Elian Soreth worked above its illuminated terraces, using an optical telescope on an exposed mounting outside the old observatory. In 2272 he proposed a planet beyond Vastine. The apparent positions of several tracked outer bodies repeatedly departed from calculations made with the known masses. A further mass could explain part of the discrepancy; errors in inherited positions could explain part as well.
+    Born on #{ref :pelhari, "Pelhari"}, Elian Soreth worked above its illuminated terraces, using an optical telescope on an exposed mounting outside the old observatory. In 2272 he proposed a planet beyond Vastine. The apparent positions of several tracked outer bodies repeatedly departed from calculations made with the known masses. A further mass could explain part of the discrepancy; errors in inherited positions could explain part as well, and his critics on the terraces said so loudly.
 
-    He paid apprentices to repeat measurements on different instruments and retained the observations that disagreed with him. The damaged charts available on Pelhari contained outer marks without enough surviving information to identify their subjects. Elian used them to choose fields worth examining, but his prediction required new measurements. It did not recover the original purpose of Pelhari's observatory.
+    He paid apprentices to repeat measurements on different instruments and kept the observations that disagreed with him in the same books as the ones that helped. The damaged charts available on Pelhari carried outer marks whose labels had rotted away. Elian used them to choose fields worth searching and built his case on new measurements. What the old observatory had been built to watch stayed a separate argument, one he enjoyed at dinner and left out of his papers.
 
-    Repeated images in 2286 placed a faint moving body along the predicted arc. That established a target for further observation. It did not reveal a habitable surface, buildings or a safe approach. During the #{ref :signal_famine, "Signal Famine"}, his proposed expeditions remained drawings and arguments over equipment that could not be assembled for a reliable voyage.
+    Repeated images in 2286 placed a faint moving body along the predicted arc. Elian had a target: a point of light that moved where he had said it would. Its surface, and whether anyone could stand on it, waited for a ship. During the #{ref :signal_famine, "Signal Famine"}, his proposed expeditions stayed on paper, redrawn each time a promised hull or engine failed to reach the yard, and argued over by backers who wanted a crew guaranteed home.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "A Planet Within Reach"
-    Renewed travel let Elian buy passage for instruments and support #{ref :vedra, "Vedra"}'s voyages from 2307. He taught her to compare a measured position with its uncertainty; she made him separate that uncertainty from the stores required to bring a crew back. When her first approach turned back, he supported another attempt instead of claiming that reaching the predicted orbit had completed the expedition.
+    Renewed travel let Elian buy passage for instruments and support #{ref :vedra, "Vedra"}'s voyages from 2307. He taught her to compare a measured position with its uncertainty; she made him separate that uncertainty from the stores required to bring a crew back. When her first approach turned back in 2307, he paid for a second and told his backers that reaching the predicted orbit was half an expedition. The other half was landing and coming home.
 
     The #{ref :lithren_landfall, "landfall of 2311"} brought back images of open courts and non-elven joints. Elian displayed a rough paving fragment beside his observing apparatus and let visitors handle it. Vedra objected to the grinding away of its edges. He replied that people who had paid to look for a point of light ought to be allowed to touch the ground.
 
-    He died in 2319. His notebooks distinguish observed positions, rejected calculations and proposed routes. One rejected approach passes a dark ridge absent from the landfall party's close images. Copies can still help identify what an early crew actually visited. Empty areas on those charts reflect the limits of the observations, not a surveyed absence of ruins.
+    He died in 2319. His notebooks keep observed positions, rejected calculations and proposed routes in separate columns. One rejected approach passes a dark ridge that appears nowhere in the landfall party's close images. Crews use copies to work out where early parties actually walked. The blank areas mark where his telescope could resolve nothing, and prospectors who landed inside them have come back with worked stone.
   PROSE
 
   gm_note :triggered_by, "Researching an old route turns up Elian's rejected approach beside the successful one. The earlier course passes a surface feature the landing crew never examined; checking it means leaving the familiar route."

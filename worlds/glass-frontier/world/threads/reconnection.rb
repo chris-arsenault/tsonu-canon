@@ -4,7 +4,6 @@ thread :reconnection do
   subkind :story_thread
   path "dm/threads/reconnection.md"
   reviewed "2026-03-19"
-  contains_dm true
   log "2026-09-15 — Bounded Famine memory and communication taboos to participating communities, preserved refusal and local variation, and corrected the Accord framework's start to 2423."
 
   prose <<~PROSE
@@ -136,9 +135,9 @@ thread :reconnection do
     ---
 
     ### Beat 10: The Unfinished Edge
-    **Era:** Present–future | **Unfilled**
+    **Era:** Present–future | **Filled by:** #{ref :qalu, "Qalu"}, #{ref :the_qalu_landing, "The Qalu Landing"}
 
-    Far-drift habs are being discovered. Some communities did not participate in the restored networks, the Contested Reach or the Bloom Coalition. Their experience of isolation differs, and their residents may welcome visitors, limit exchange or decline contact. Arriving crews cannot assume shared memories or a wish to join their institutions.
+    Far-drift habs are being discovered. In 2434 a salvage crew found Qalu, thirty thousand people sealed since the Glassfall, and brought it salt that halved the value of its savings and a cough that killed hundreds. Some communities did not participate in the restored networks, the Contested Reach or the Bloom Coalition. Their experience of isolation differs, and their residents may welcome visitors, limit exchange or decline contact. Arriving crews cannot assume shared memories or a wish to join their institutions.
 
     **The open question:** What happens when the system contacts a community that doesn't value communication the way the reconnected world does? What happens when "the Famine was terrible" doesn't resonate because they never experienced it?
 
@@ -167,3 +166,4 @@ relate :rel_rc_fills_shardfall, :fills_beat, :reconnection, :shardfall do prose 
 relate :rel_rc_fills_coriolis, :fills_beat, :reconnection, :coriolis_breach do prose "The #{ref :coriolis_breach, "Coriolis Breach"} fills the Constrained-Conflict beat: a forced-entry incident that became a sovereignty rallying point." end
 relate :rel_rc_fills_hinge_six_occupation, :fills_beat, :reconnection, :hinge_six_occupation do prose "The #{ref :hinge_six_occupation, "Hinge Six Occupation"} established that armed factions could not filter civilian relay traffic without losing the route itself." end
 relate :rel_rc_fills_tempered_accord, :fills_beat, :reconnection, :tempered_accord do prose "The #{ref :tempered_accord, "Tempered Accord"} fills the Framework beat: the mediation structure born of Bloom cooperation and Famine memory." end
+relate :rel_rc_fills_qalu, :fills_beat, :reconnection, :qalu do prose "#{ref :qalu, "Qalu"} fills the Unfinished Edge beat: a far-drift hab sealed since the Glassfall, contacted in 2434." end

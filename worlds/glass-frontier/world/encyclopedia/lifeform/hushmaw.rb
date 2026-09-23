@@ -34,7 +34,7 @@ encyclopedia :hushmaw do
   prose <<~PROSE, section: :biology, heading: "A Body Around an Absence"
     A typical hushmaw has a broad central membrane folded around a cord of muscle and clear cartilage. Lines of sealed eyes run across the outer surface. When the animal finds an active field, those eyes open from the center outward and its membrane spreads into a shallow dish facing the source.
 
-    Feeding mouths line the inner fold. They do not remove visible material from a drive array or living nervous tissue. Contact drains the organized resonance pattern running through the target. A ringglass assembly loses its tune. A Tuner loses the ability to separate signal from ordinary sensation and may continue feeling the hushmaw's empty direction after physical contact ends.
+    Feeding mouths line the inner fold. A drive array or a living nervous system comes away from them physically whole. Contact drains the organized resonance pattern running through the target. A ringglass assembly loses its tune. A Tuner loses the ability to separate signal from ordinary sensation and may continue feeling the hushmaw's empty direction after physical contact ends.
 
     A well-fed animal closes its eyes, folds its membrane, and drifts until another coherent signal reaches it. Injured specimens produce short false returns around themselves. A searching Tuner may read those returns as nearby surfaces and steer directly toward the animal.
   PROSE
@@ -55,11 +55,11 @@ encyclopedia :hushmaw do
     Rescue craft treat a hushmaw strike as a contaminated approach. A tender sends a passive line and receives people with all tuned equipment cold. Bringing the damaged ship's active array alongside can transfer the animal or its false returns into the rescue vessel.
   PROSE
 
-  cue "Rescue after a strike is run as a contaminated approach: a passive line, every tuned thing cold, people taken off before anything is powered up. A tender that brings its own active array alongside can carry the animal or its false returns home with the survivors."
-  cue "The first sign is a clean gap in the Deep's already weak background."
+  cue "On a Deep-runner's bridge the Tuner's hood hangs from a hook beside the seat, and a coil of weighted line and a sack of throwing dust are lashed under every viewport."
+  cue "A dockside dealer holds out a stoppered vial of cold, clear fluid; a Tuner who cups it near her ear hears, faintly and over and over, the call sign of a beacon that went dark years ago."
   affordance "Repetition draws it, and repetition is what a worried crew produces. A Tuner rechecking one bearing, an array sweeping on a single cadence, and a beacon transmitting an unchanged call each give it a path, and it settles on the most regular of them until that pattern breaks."
   pressure "Feeding takes organized pattern rather than material, so gauges stay lit while their calibration tones flatten and tuned ringglass loses its tune. The person who could name what is wrong is the Tuner, who by then is giving uncertain answers about signals they have known for years."
-  variation "A well-fed animal closes its eyes, folds its membrane, and drifts until another coherent signal reaches it."
-  variation "Injured specimens produce short false returns around themselves."
+  variation "Deep-runners separate narrow, long-corded animals that shadow a single ship's Tuner from broad-dished ones that settle on survey arrays and fixed beacons; preserved tissue from the two differs enough that researchers argue over whether they are one species."
+  variation "Some hang for years beside a derelict beacon still sending its unchanged call, fed and folded, and pilots route wide of any old beacon whose background has gone clean on one side."
 
 end

@@ -1,7 +1,7 @@
 rumor :missing_chair do
   tags :subject_politics_history
   name "The Missing Chair"
-  summary "The Missing Chair is a Verathi clerks' rumor about sealed documents appearing overnight on an extra chair set for difficult exchanges."
+  summary "Clerks' rumor of Verathi, the outer-arc ring habitat known for its complete civil registry."
   subkind :rumor
   status :complete
   prominence :marginal

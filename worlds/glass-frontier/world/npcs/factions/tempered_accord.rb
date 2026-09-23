@@ -1,6 +1,6 @@
 faction :tempered_accord do
   name "Tempered Accord"
-  summary "The Tempered Accord is the system's mediation framework and set of shared standards, ratified by member settlements in 2423."
+  summary "The Tempered Accord is the mediation framework and set of shared standards of the restored trade network, ratified by its member settlements in 2423."
   subkind :government
   type_of :compacts
   path "player/npcs/factions/tempered-accord.md"
@@ -35,7 +35,9 @@ faction :tempered_accord do
   )
 
   prose <<~PROSE
-    The system's governance framework is a mediation structure and a set of shared norms that most settlements have agreed to honor most of the time. The memory of the Bitter Reach gives its members a common reason to preserve it.
+    The Accord is the mediation structure and shared norms of the restored trade network: several thousand member towns, habs, ports and carriers along the Keel, Span Nine and the main orbital routes, who have agreed to honor it most of the time. The memory of the Bitter Reach gives its members a common reason to preserve it.
+
+    Its reach is the network's reach. Millions of smaller habs trade through members without joining. Korvath's port leagues settle most of their own quarrels among themselves, the outer moons keep circles of their own, and many communities in the far drift have never had dealings with the Accord at all.
 
     The #{ref :velisar_occupation, "occupation of Velisar"} in 2435 is its first armed crisis on this scale since ratification. Member governments face a commander who intends to keep what mediation asks him to surrender.
   PROSE
@@ -47,7 +49,7 @@ faction :tempered_accord do
     The Accord relies on member organizations for enforcement. Expulsion withdraws its mediation and the guarantees members extend to one another. Participating ports can close berths, carriers can suspend services covered by the agreement, and a settlement can lose recognition of its claims in member courts. Local contracts and trade with nonmembers continue under their own terms, but losing several established destinations can strand ships and deprive a town of buyers it depends on.
   PROSE
   prose <<~PROSE, section: :operations, heading: "Operations"
-    **Mediation.** Settlements, fabs, and factions bring disputes they have failed to resolve directly. The parties choose a mediator, present their accounts, and seek an agreement their own institutions can carry out. A settlement may reopen a dock, return detained travelers, or let two communities resume using the same waterworks. Delay has a cost to whoever remains outside the gate while the hearing continues.
+    **Mediation.** Settlements, habs, and factions bring disputes they have failed to resolve directly. The parties choose a mediator, present their accounts, and seek an agreement their own institutions can carry out. A settlement may reopen a dock, return detained travelers, or let two communities resume using the same waterworks. Delay has a cost to whoever remains outside the gate while the hearing continues.
 
     **Standards.** Members share standards for resonance safety, trade documents, salvage certification through the Compact, and communication. Much of the wording comes from Sitharian law. A delegation fluent in that law can frame its claim quickly; representatives from a hab that keeps decisions in performances or oral accounts must first establish how its evidence will be heard. Members dispute the expense and authority of making that translation.
 

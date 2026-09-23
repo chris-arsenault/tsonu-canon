@@ -1,6 +1,6 @@
 creature :pell_stockpile_colony do
   name "The Pell Stockpile Colony"
-  summary "The Pell Stockpile Colony is a juvenile glasswurm colony inside the rejected-material stack outside Pell Cut. Its tunnels have produced saleable plate while advancing toward an occupied sorting shed."
+  summary "The Pell Stockpile Colony is a juvenile shearwurm colony inside the rejected-material stack outside Pell Cut. Its tunnels have produced saleable plate while advancing toward an occupied sorting shed."
   subkind :anomaly
   type_of :shearwurm
   belongs_to :lifeform, :farborn
@@ -20,7 +20,7 @@ creature :pell_stockpile_colony do
 end
 
 relate :rel_pell_stockpile_colony_inhabits_shear, :inhabits, :pell_stockpile_colony, :the_shear do
-  prose "The colony reached Pell Cut through glasswurm-held debris from the Shear."
+  prose "The colony reached Pell Cut through shearwurm-held debris from the Shear."
 end
 relate :rel_pell_stockpile_colony_manifests_pell_cut, :manifests_at, :pell_stockpile_colony, :pell_cut do
   prose "The colony occupies the rejected-material stack outside Pell Cut's receiving yards."

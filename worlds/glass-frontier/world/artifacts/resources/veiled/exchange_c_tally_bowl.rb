@@ -1,7 +1,7 @@
 artifact :exchange_c_tally_bowl do
   tags :subject_hab_life
   name "The Exchange C Tally Bowl"
-  summary "The Exchange C Tally Bowl holds Rattle tally dust sourced from Bay Thirty-One and Exchange C. It settles into the last registered weight of any container opened above it."
+  summary "Bowl of tally dust harvested at Carom's Rattle deck and the Thirty-One workshop on Wash Four."
   subkind :artifact
   type_of :tally_dust
   status :complete

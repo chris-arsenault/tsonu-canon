@@ -1,7 +1,7 @@
 faction :fourth_bell_hosts do
   tags :subject_journeys_trade
   name "The Fourth Bell Hosts"
-  summary "The Fourth Bell Hosts are the participating houses that reserve one bed for travelers carrying news between Sithari and the Keel."
+  summary "Bellward host households of Sithari, lodging letter-carrying travellers from Fourth Bell House in Keelward to Accord Shore."
   type_of :bellward_guests
   subkind :community
   status :complete

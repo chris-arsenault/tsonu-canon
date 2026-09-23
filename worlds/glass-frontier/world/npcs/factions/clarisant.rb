@@ -1,9 +1,9 @@
 faction :clarisant do
   name "Clarisant"
-  summary "The Clarisant is the Pelhari-based professional guild that trains, certifies, and disciplines Tuners across the system."
+  summary "The Clarisant is the Pelhari-based professional guild that trains, certifies, and disciplines Tuners along the restored routes."
   playable_as :allegiance
   origin_blurb "A dispersed guild of trained Tuners whose credential carries trust across most of the system."
-  subkind :religious_order
+  subkind :guild
   type_of :portable_standing
   path "player/npcs/factions/clarisant.md"
   tags :resonance, :training, :governance, :"social-structure", :subject_resonance
@@ -32,16 +32,16 @@ faction :clarisant do
   )
 
   prose <<~PROSE
-    The professional guild of #{encyclopedia_ref :resonant_tuner, "Tuners"}. The Clarisant trains, certifies, and disciplines the practitioners who shape the system's working relationship with #{encyclopedia_ref :resonance, "resonance"}. It is not a government, religion, or order. Its examinations and inspections serve public safety, its fees preserve its independence, and its credential carries only as far as settlements agree to recognize it.
+    The professional guild of #{encyclopedia_ref :resonant_tuner, "Tuners"}. The Clarisant trains, certifies, and disciplines the practitioners who shape the system's working relationship with #{encyclopedia_ref :resonance, "resonance"}. It is a working guild: its examinations and inspections serve public safety, its fees preserve its independence, and its credential carries only as far as settlements agree to recognize it.
 
-    Headquartered on #{ref :pelhari, "Pelhari"}, the guild operates a network of chapter houses across the system. A Clarisant credential means something in any settlement that recognizes it, which is most of them.
+    Headquartered on #{ref :pelhari, "Pelhari"}, the guild operates chapter houses in the ports and larger settlements of the restored routes. A Clarisant credential means something wherever a settlement recognizes it, which covers most of the reconnected network and very little of the far drift, where Tuners learn from local teachers and nobody asks for a certificate.
   PROSE
   prose <<~PROSE, section: :structure, heading: "Chapter Houses"
     The Clarisant is decentralized by design. Each region runs its own **chapter house** — a satellite office staffed by a small permanent roster and headed by a senior Tuner answerable to Pelhari only on matters of accreditation and serious malpractice. The chapter is the operational unit. Field commissions are assembled bespoke per job from the chapter's roster: a survey Tuner here, a containment specialist there, an instrument wright when the work needs one, a runner who can keep notes when nobody else has the time.
 
     There is no standing field team. There is a chapter, and a job, and the people the chapter sent.
 
-    This produces reputations at chapter scale rather than crew scale. "The Sithari chapter is good for installations." "The Glasswake chapter takes Bloom work nobody else will." "Don't hire the Fermata chapter on a deadline." Mara, the broker, the hab council booking a survey — they're hiring the chapter, and the chapter sends who it sends.
+    This produces reputations at chapter scale rather than crew scale. "The Sithari chapter is good for installations." "The Glasswake chapter takes Bloom work nobody else will." "Don't hire the Fermata chapter on a deadline." A broker placing a crew or a hab council booking a survey is hiring the chapter, and the chapter sends who it sends.
 
     Chapter houses range from the Pelhari academy itself (hundreds of resident Tuners and a teaching program) down to single-Tuner outposts on outer-system stations that operate alone for months at a time. The smallest chapters are a desk, a casebook, and someone who answers the door.
   PROSE

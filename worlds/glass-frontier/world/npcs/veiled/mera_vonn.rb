@@ -1,7 +1,7 @@
 npc :mera_vonn do
   tags :subject_journeys_trade
   name "Mera Vonn"
-  summary "Mera Vonn is an Oruun freight mediator working at Bay Thirty-One, Exchange C, Five Landing, and Holl."
+  summary "Oruun freight mediator settling cargo disputes at Thirty-One, Rattle, Five Landing and Holl."
   subkind :npc
   status :complete
   prominence :marginal

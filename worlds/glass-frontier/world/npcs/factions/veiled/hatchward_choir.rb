@@ -1,7 +1,7 @@
 faction :hatchward_choir do
   tags :subject_journeys_trade
   name "Hatchward Choir"
-  summary "Hatchward Choir is a religious order whose singers guide damaged vessels through Keel docking joints."
+  summary "Religious order of Keel singers keeping the Answering Phrase at Hinge Six, Cold Lantern and Mareth's Latchhouse."
   subkind :religious_order
   type_of :answering_phrase
   status :complete

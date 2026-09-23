@@ -1,7 +1,7 @@
 artifact :lithren_pilgrim_bead do
   tags :subject_lithren
   name "Lithren Pilgrim Bead"
-  summary "The Lithren Pilgrim Bead is an archive-finding relic used from Lithren to Vastine and Pelhari. It warms beside fragments that share a missing line of text."
+  summary "Pilgrim's relic bead carried on the archive routes between Lithren, Vastine and Pelhari."
   subkind :relic
   status :complete
   prominence :marginal

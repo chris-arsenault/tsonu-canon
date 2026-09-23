@@ -46,10 +46,12 @@ installation :talven do
     Clear bands in the glass preserve signal-frequency impressions. A hammer blow may release a few syllables from a work shift recorded centuries earlier. Broad cuts produce crowd noise, machine tones, or music spread across an entire wall. Talven sells structural glass, finished instruments, and carefully lifted recordings from strata whose date can be established.
 
     The settlement fills descending quarries cut through unusually thick ringglass. Homes and markets occupy each gallery after the working face moves deeper, leaving the active benches below a layered record of previous work.
+
+    Quarry crews drink, bet and find work through the #{encyclopedia_ref :caldris_colours, "Caldris colours"}. The Ochre and Slate halls face each other across the upper dock corridor and split the dock hiring between them; #{ref :hask_morrow, "Hask Morrow"} runs the Ochre side. At the end of the corridor a scorched pressure door, painted half in each colour, marks #{ref :talven_burning, "the night in 2431"} when both halls burned out a bookmaker who had fixed a race.
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "Quarry Courts"
-    Each quarry begins as a narrow test cut. Crews sound the exposed band, map structural stress, and open a stepped working face when the layer carries usable material. Finished galleries remain tall and shallow, with thick ribs left between them. Old lift shafts become light wells and air returns. Ring Age extraction marks call the fragment Tal-Venari; Famine crews shortened it to Talven on hand pumps and shelter doors.
+    Each quarry begins as a narrow test cut. Crews sound the exposed band, map structural stress, and open a stepped working face when the layer carries usable material. Finished galleries remain tall and shallow, with thick ribs left between them. Old lift shafts become light wells and air returns.
 
     Residential courts occupy stable faces near the outer shell. Instrument shops prefer the middle galleries, where small offcuts remain plentiful. The deepest active benches carry cutters, brace crews, archive readers, and freight sleds. Dust locks separate every level because clear fragments can carry signal patterns into other cuts.
 
@@ -67,8 +69,17 @@ installation :talven do
   prose <<~PROSE, section: :present_day, heading: "The Sixth Bench"
     The newest working face on the Sixth Bench returns a coordinated set of voices across forty meters of glass. The speakers count pressure changes, call lift positions, and repeat a place name absent from surviving ring maps. Their work rhythm matches the last decades of the Ring Age.
 
-    Freight cutters need the same band opened to reach high-grade structural stock behind it. Archive readers are lifting the outer recordings with #{ref :vars_wedge, "Var's Wedge"}, one plate at a time. The first complete plate has drawn two independent translators to Talven, and both hear a different division between the words.
+    Freight cutters need the same band opened to reach high-grade structural stock behind it. Archive readers are lifting the outer recordings with #{ref :vars_wedge, "Var's Wedge"}, one plate at a time. The first complete plate has drawn two independent translators to Talven, and each hears a different division between the words, which gives the place name two different spellings and two different sets of chart-sellers in the First Court market.
+
+    The freight foreman on the Sixth Bench, Corrin Brask, has run out of patience with the pace of the plates. He has booked an Ochre night crew through the dock hiring and means to open the band's lower edge while the archive readers sleep, taking the stock and leaving whatever voices it carries as instrument glass.
   PROSE
+
+  prose <<~PROSE, section: :naming, heading: "Tal-Venari"
+    The oldest extraction marks on the fragment read Tal-Venari. Famine crews painted a shorter Talven on hand pumps and shelter doors, several of which still work in the upper courts, and the long form survives mainly as the name quarry families give a first-born who goes down to the benches.
+  PROSE
+
+  log "2026-09-23 — Kept the Sixth Bench voices as Talven's open signal and gave the freight side a foreman who acts on it; moved the Tal-Venari etymology into its own naming section."
+  log "2026-09-23 — Renamed Renn Var to Cael Var to separate them from Renn Duvasi elsewhere in the corpus."
 
   gm_note :triggered_by, "A blow against a gallery wall releases a few syllables of whoever worked that layer, so a brawl, a fall, or a dropped crate answers back in centuries-old voices and brings an archive reader asking exactly what was struck and where."
   gm_note :complicates, "Dust locks stand between every level because clear fragments carry signal patterns down into other cuts; a party moving glass, an instrument, or a lifted plate between galleries is logged at each lock, and unprovenanced material is held there."
@@ -87,6 +98,6 @@ relate :rel_echo_ledger_studies_talven, :studies, :echo_ledger_conclave, :talven
   prose "Conclave listeners compare Talven's plate-lifting methods with recordings recovered elsewhere in the system."
 end
 
-relate :rel_echo_ledger_studies_tess_var, :studies, :echo_ledger_conclave, :renn_var, since: 2435 do
-  prose "Conclave listeners document Renn Var's grain mapping and the signal loss produced by each rejected cut."
+relate :rel_echo_ledger_studies_tess_var, :studies, :echo_ledger_conclave, :cael_var, since: 2435 do
+  prose "Conclave listeners document Cael Var's grain mapping and the signal loss produced by each rejected cut."
 end

@@ -37,9 +37,9 @@ geographic_location :kaleidos_system do
   )
 
   prose <<~PROSE
-    Eight planets orbiting a star the elves named in their own language. Everyone else just calls it the sun. The system is compact by cosmic standards — the outermost planet's orbit would fit inside the inner reaches of a larger star's domain — which makes interplanetary travel practical. One planet to the next is a day's transit at minimum, a week for the farther runs. Fast scout ships cut that. Cargo haulers add to it.
+    Eight planets orbit a star the elves named in their own language and everyone else calls the sun. The system is compact, its outermost orbit small enough that a fast ship can cross from one world to the next in a day and reach the farthest in a week. Cargo haulers take longer.
 
-    Population centers are not exclusively planet-bound. Ring habs, orbital stations, deep-space facilities, and #{ref :span_nine, "Threshold Station"} at the Kaleidos-sun Lagrange point all host significant communities. But the big population centers are planetary or lunar.
+    Most of the system's people live in orbit. The ring's millions of habs hold billions between them, far more than any planet. Kaleidos's surface holds several hundred million, Korvath perhaps half as many, and the inhabited moons of Ashenmaw and Vastine tens of millions each. Orbital stations, deep-space facilities and #{ref :threshold_station, "Threshold Station"} at the Kaleidos-sun Lagrange point add their own communities.
   PROSE
   prose <<~PROSE, section: :description, heading: "The Planets"
     ### 1. #{ref :crucible, "Crucible"}
@@ -48,9 +48,9 @@ geographic_location :kaleidos_system do
 
     ### 2. Kaleidos
 
-    The homeworld. The ring. #{ref :sithari, "Sithari"}. The world at the center of this account. See #{ref :the_glass_frontier, "The Glass Frontier"}.
+    The world of oceans and old continents where the elves arose, circled by the broken ring called #{ref :the_glass_frontier, "the Glass Frontier"}, where most of the system's people live. Its largest surface city is #{ref :sithari, "Sithari"}.
 
-    **#{ref :span_nine, "Threshold Station"}** sits at the L1 Lagrange point between Kaleidos and the sun — the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"}'s home, a pre-Glassfall station housing ring-era AI custodians.
+    **#{ref :threshold_station, "Threshold Station"}** sits at the L1 Lagrange point between Kaleidos and the sun — the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"}'s home, a pre-Glassfall station housing ring-era AI custodians.
 
     ### 3. #{ref :korvath, "Korvath"}
 
@@ -77,23 +77,15 @@ geographic_location :kaleidos_system do
     The cold outermost world. Research stations study open-air ruins built before the oldest surviving system records by people unrelated to the elves.
   PROSE
   prose <<~PROSE, section: :mechanics, heading: "Deep Space"
-    The spaces between planets are not empty. Deep-space stations, military outposts, research facilities, and less legitimate operations dot the interplanetary void. A space casino here. A military listening post there. A smuggler's cache. A #{ref :clarisant, "Clarisant"} retreat for advanced resonance training far from any planetary resonance field.
-
-    Population centers are not exclusively planetary. The system is a network, not a set of isolated worlds.
+    Stations are scattered through the spaces between the planets: listening posts kept by port leagues and old Bitter Reach navies, research platforms, a casino station in a slow orbit beyond Korvath that pilots visit and deny visiting, smugglers' caches in dark rock, and a #{ref :clarisant, "Clarisant"} retreat far from any planet, where advanced Tuners train away from every world's field. Crews crossing between worlds pass near all of them, and some of them notice.
   PROSE
   prose <<~PROSE, section: :applications, heading: "Transit"
-    Interplanetary travel uses #{encyclopedia_ref :kite, "KITE"} technology. Transit times planet-to-planet:
+    Ships cross between worlds on #{encyclopedia_ref :kite, "kite"} drives. A fast ship reaches an adjacent planet in about a day, where a cargo hauler takes two or three. Kaleidos to Ashenmaw is about three days, to Vastine five or six, and to Lithren a week by fast ship and longer for heavy transport. Fast scouts do better than any of these.
 
-    - Adjacent planets: ~1 day (fast ship), 2-3 days (cargo hauler)
-    - Kaleidos to Ashenmaw (planet 5): ~3 days
-    - Kaleidos to Vastine (planet 7): ~5-6 days
-    - Kaleidos to Lithren (planet 8): ~7 days (fast ship), longer for heavy transport
-    - Fast scout ships can cut these significantly
-
-    These times describe crossings between worlds. Reaching a particular community also depends on routes, supplies and permission to land. Lithren is about a week's journey by fast ship, but an expedition still needs a place to put down and equipment for work beyond its station.
+    The crossing is the easy part. Reaching a particular community depends on routes, supplies and permission to land, and an expedition to Lithren still needs a place to put down and equipment for work beyond its station.
   PROSE
 
   gm_note :appears, "An invitation from another world can fit into an ordinary journey: an adjacent planet is about a day away by fast ship and #{ref :lithren, "Lithren"} about a week from Kaleidos. Finding passage and arranging a welcome matter as much as the crossing time."
-  gm_note :triggered_by, "Asked where someone in the system lives, the answer is often not a planet: ring habs, orbital stations, and #{ref :span_nine, "Threshold Station"} at the Kaleidos-sun point all hold real populations. A search that works down the list of eight worlds misses where people actually are."
+  gm_note :triggered_by, "Asked where someone in the system lives, the answer is often not a planet: ring habs, orbital stations, and #{ref :threshold_station, "Threshold Station"} at the Kaleidos-sun point all hold real populations. A search that works down the list of eight worlds misses where people actually are."
   gm_note :complicates, "A multi-day crossing passes within reach of things that are not on a planet: listening posts, a #{ref :clarisant, "Clarisant"} retreat sited away from any planetary field, caches whose owners notice traffic. A crew running a straight line is still passing someone's doorstep."
 end

@@ -46,7 +46,7 @@ encyclopedia :gnomes do
 
     At rest, gnomish bones produce a harmonic hum below the gnome's conscious threshold. Other species hear it in quiet rooms and shared beds, especially in the moment before sleep; gnomes themselves do not.
 
-    Gnomish lifespan has unusually high variance. A gnome with good maintenance — regular lattice realignment, controlled resonance exposure, access to stillwater baths — can live #{duration 150}, longer than any other species in the system. A gnome without maintenance, or one with chronic exposure to bad resonance harmonics, might not see fifty. The crystalline components accumulate microfractures over decades that the body can't fully repair, and the rate of accumulation depends almost entirely on environment and care.
+    Gnomish lifespan has unusually high variance. A gnome with good maintenance — regular lattice realignment, controlled resonance exposure, access to stillwater baths — can live #{duration 150}, nearly as long as the oldest nacre. A gnome without maintenance, or one with chronic exposure to bad resonance harmonics, might not see fifty. The crystalline components accumulate microfractures over decades that the body can't fully repair, and the rate of accumulation depends almost entirely on environment and care.
 
     This makes gnomish longevity a class issue. Gnomes in well-funded technical positions — the ones with institutional backing and access to proper maintenance — live long, productive lives. Gnomes in unregulated Shear operations, frontier settlements, or poverty age fast. The difference between a gnome who's 90 and thriving and a gnome who's 90 and dying is usually money.
 

@@ -4,6 +4,7 @@ encyclopedia :transplant do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Root Cart to Transplant; the familiar garden action now names transport that keeps its living cargo rooted throughout the journey."
+  log "2026-09-23 — Rebuilt around drivers, growers and stock thieves; the signed tending log and warranty kept to one passage."
   topics :ecology, :trade, :transport, :"ring-hab", :subject_journeys_trade
   prevalence :uncommon
   appears_when all: { place: [:garden] }
@@ -24,27 +25,33 @@ encyclopedia :transplant do
              "warmth, the covers worked with the weather — and lifted out at " \
              "the far end already growing, the journey a transplant with " \
              "wheels under it.",
-    risks: "Water, heat, cover, and bed condition require tending on schedule; " \
-           "the signed log identifies missed care and determines warranties " \
-           "when living stock arrives in poor condition."
+    risks: "Water, heat, cover, and bed condition require tending on schedule, " \
+           "and a driver who skips a stop to make time can deliver a bed of " \
+           "dead grafts that looked green when it left."
   )
 
   prose <<~PROSE
-    Elven transfer beds moved planting stock around the ring while it remained rooted, watered, and warm. Postfall gardeners rebuilt the pattern as the transplant. Its shallow bed carries dark growing medium under low hoops, with a water cask and heat store built into the frame. Stock is planted several days before departure so its roots take hold. At the destination, gardeners lift grafts, seedling beds, and #{encyclopedia_ref :graft, "symbiote"} lines already growing in the travel medium.
+    A transplant is a garden on wheels, and its driver is half teamster and half gardener. The shallow bed carries dark growing medium under low hoops, with a water cask and heat store built into the frame, and green shows at the rim when it rolls into a yard. Stock is planted several days before departure so its roots take hold, and at the destination gardeners lift grafts, seedling beds, and #{encyclopedia_ref :graft, "symbiote"} lines already growing in the travel medium. Elven transfer beds moved planting stock around the ring the same way; postfall gardeners rebuilt the pattern from salvaged frames and remembered practice.
 
-    Each transplant carries a tending plan with watering intervals, heat-store changes, and cover settings for the expected weather. A signed log stays in a sleeve on the tailboard and determines the trade warranty at delivery. Hand transplants move household stock around terraces, covered road transplants carry cooperative exchanges between settlements, and larger root boxes are built into river vessels for season fairs. Drivers are hired for both road work and garden care. A receiving gardener reads the log before opening the bed and checks root condition against each recorded stop.
+    Drivers are hired for both skills. They water on a plan, change the heat store at night, work the covers with the weather, and sleep beside the box in cold country with a hand on the hoops. Good ones talk to the stock, and growers pick drivers by reputation the way families pick nurses. Hand transplants move household stock around terraces. Covered road transplants carry cooperative exchanges between settlements. The river boxes are larger beds built into vessels for the season fairs, and rootward children sometimes ride with their family's grafts, trailing their hands in the water and dozing among the seedlings.
+  PROSE
+
+  prose <<~PROSE, section: :trade, heading: "Drivers, Growers, and Thieves"
+    The receiving gardener reads the signed tending log in its tailboard sleeve before opening the bed, checks root condition against each recorded stop, and settles the warranty on what she finds. That log is where drivers and growers fight. A driver who skipped a watering to beat a storm fills in the stop anyway, and the grower who lifts a bed of wilted grafts reads the lie in the root tips. Growers blacklist drivers whose logs run too neat. Drivers blacklist growers who blame the road for stock that was failing before it left.
+
+    Pedigree stock is worth stealing, and a transplant is a bed full of it moving slowly down an open road. Thieves lift a few grafts at a night halt and replace them with cheap stock of the same leaf, and the substitution shows only at fruiting, a season later and too far away to chase. Cooperatives paint their pedigree marks on the tailboard and ride their own people along on valuable runs. Kept over years, a driver's log becomes a route's horticultural almanac, which stretches chill, which wells run sweet, which halts have thieves, and drivers trade them like charts.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Beds That Cross Between Worlds"
     #{ref :naloven}'s growers move young #{encyclopedia_ref :ulessa} in deep transplants whose braces leave the soft trunk free to swell. At #{ref :seren}, #{ref :nara_pell} keeps arriving stock rooted while she compares it with established beds. The same cargo can remain in its traveling medium through several changes of carrier.
 
-    Transplants bound for #{ref :ithara} ride inside a vessel's heated pressure space and pass between buildings in enclosed carriers. The bed itself supplies no pressure protection. Rooted #{encyclopedia_ref :nethri} cuttings can travel inward after cultivation, while an organism lifted directly from a sealed wet cavity needs a pressure-preserving sampler such as a #{encyclopedia_ref :neral}. Gardeners decide what can share a bed by its growing needs and accompanying life, not simply by the destination on the case.
+    Transplants bound for #{ref :ithara} ride inside a vessel's heated pressure space and pass between buildings in enclosed carriers, because the bed itself holds only garden air. Rooted #{encyclopedia_ref :nethri} cuttings can travel inward after cultivation, while an organism lifted directly from a sealed wet cavity needs a pressure-preserving sampler such as a #{encyclopedia_ref :neral}. Gardeners decide what can share a bed by its growing needs and accompanying life, whatever destination is chalked on the case.
   PROSE
 
-  cue "The road transplant comes into the yard with green showing under the hoops, the driver hands over the tending log before the manifest, and the receiving gardener reads the signatures stop by stop before lifting the first graft."
-  cue "Days before the journey the stock is planted into the box to take hold — and on the morning the wheels turn, the transplant rolls out already growing, water cask full, covers set to the sky."
-  affordance "The live bed carries grafts, young beds, and symbiote lines that bare-root packing kills, while the signed tending log makes their care auditable."
-  pressure "Journey length and delays are limited by the watering, heat, and rebedding plan; missed care damages the cargo and transfers liability through the log."
-  variation "Hand transplants work the terrace rounds; covered road transplants run the settlement exchanges with drivers hired as gardener-teamsters; river boxes carry the fairs' whole young beds and dock green."
-  variation "Cooperative transplants carry their pedigree marks on the tailboard, and a transplant's log book, kept over years, becomes a route's horticultural almanac — which stretches chill, which wells run sweet — traded between drivers like charts."
+  cue "A road transplant rolls into the yard with green showing under the hoops, and the driver climbs down stiff, muddy to the knee, a watering can still hooked on his belt."
+  cue "At a night halt a driver sleeps on a bedroll beside the box, one arm across the hoops, the heat store ticking as it cools."
+  affordance "The live bed carries grafts, young beds, and symbiote lines that bare-root packing kills, and lets a cooperative trade stock with settlements a season's travel away."
+  pressure "Drivers skip waterings to beat weather and fill in the log anyway, night thieves swap pedigree grafts for cheap stock of the same leaf, and the grower learns which happened a season later when the fruit comes wrong."
+  variation "Terrace hand transplants are pushed by children on errands; road transplants cross open country with a paid driver; river boxes dock green at the fairs with a family living aboard."
+  variation "Poorer growers share one road transplant among several households, each bed section marked with a family sign, and the driver answers to all of them at once."
 end

@@ -6,9 +6,13 @@ geographic_location :ashvane do
   subkind :celestial_body
   status :complete
   tags :"outer-system", :resonance, :trade, :danger, :ecology, :subject_planetary_life
-  prominence :recognized
+  prominence :renowned
   position frame: :kaleidos_system_chart, relative_to: :ashenmaw,
            radial_offset: 0.08, angle_offset_deg: 5
+  world_type "Tidally heated moon of Ashenmaw"
+  environment "Dark volcanic plains, salt basins and folded highlands under a sky the giant fills"
+  habitation "Towns on crater walls, high plateaus and shaded ridges; Shadewell handles most Keel traffic"
+  log "2026-09-23 — Added the lowland camps' use of Ilsane's strain log."
 
   descriptive_identity(
     setting:
@@ -58,7 +62,7 @@ geographic_location :ashvane do
 
     Highland settlements grow food in shaded terraces and roofed courtyards. Farms use salt-tolerant grains, trailing vegetables, fungi beds, and herd animals kept in cut-stone shelters during the hottest hours. Volcanic soil is fertile after salts are washed from it; water and cooling limit cultivation more than land.
 
-    Lowland camps quarry basalt, collect salts, maintain heat wells, and move when fractures change. Some become permanent towns around a stable resource. Others remain rows of modular houses and radiator masts that can be lifted onto crawlers within days. Their workers know the surface beyond the maintained roads and provide most rescue crews during vent storms.
+    Lowland camps quarry basalt, collect salts, maintain heat wells, and move when fractures change. Some become permanent towns around a stable resource. Others remain rows of modular houses and radiator masts that can be lifted onto crawlers within days. Their workers know the surface beyond the maintained roads and provide most rescue crews during vent storms. They move crawlers off unstable ground when the strain log from #{ref :ilsane, "Ilsane"} reports a hard squeeze.
   PROSE
   prose <<~PROSE, section: :people, heading: "Ashvane Life"
     Ashvane schedules follow shade, not a single clock. Schools, courts, and workshops publish hours by direct light, giant-shade, and the cooler span after sunset. Keel traffic uses system time, so port districts maintain both schedules and employ callers who translate between them.

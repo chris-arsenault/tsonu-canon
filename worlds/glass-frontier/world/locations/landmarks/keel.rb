@@ -40,7 +40,7 @@ installation :keel do
       "courier, weeks for a heavy hauler.",
     activity:
       "Bulk ringglass moves in heavy haulers, refined product under " \
-      "escort, intact pieces under heavy escort; microcavity fuel " \
+      "escort, intact pieces under heavy escort; Seed fuel " \
       "cells and hab-made goods flow the other way, and passenger " \
       "traffic rides everything from Vantara's scheduled service to " \
       "family carriers feeding the main departures.",
@@ -67,33 +67,23 @@ installation :keel do
   prose <<~PROSE, section: :geography, heading: "Geography"
     The Keel threads between ring habs, passes through managed Shear corridors where debris has been cleared or stabilized, and joins approaches to surface ports. The visible marks change along it: a string of guild beacons, a cleared passage between wrecks, a port's approach lights. Vessels leaving the shared course branch toward their own receiving berths.
 
-    Key nodes along the Keel:
-    - **Shear production zones** — where #{encyclopedia_ref :ratters, "Ratters"} and industrial operations harvest raw ringglass from the debris field
-    - **Refinement habs** — ring habs that specialize in cutting, tuning, and processing ringglass from aggregate to refined grade
-    - **#{ref :keelward, "Keelward"}** — Sithari's surface terminal, where freight enters the financial and regulatory center
-    - **#{ref :ashvane, "Ashvane"}** — the far terminus; an inhabited moon whose Shadewell port anchors the route's other end
+    From the inner end, the route runs out of the Shear production zones, where #{encyclopedia_ref :ratters, "Ratters"} and industrial crews cut raw ringglass from the debris, through the refinement habs that grade and tune it, and down to #{ref :keelward, "Keelward"}, Sithari's surface terminal. Its long outer leg leaves Kaleidos orbit for #{ref :ashvane, "Ashvane"}, the moon of Ashenmaw whose port at Shadewell anchors the far end.
 
     Transit time end-to-end depends on the vessel. A fast courier makes it in days. A heavy cargo hauler takes weeks. Navigation, shelter, rescue, and fuel are maintained in sections by carriers, ports, guilds, cooperatives, and public route services. No organization keeps the whole corridor.
 
     #{ref :hinge_six, "Hinge Six"} joins the inner and outer route records where traffic turns toward Korvath and Ashvane. The #{ref :pell_freight_assembly, "Pell Freight Assembly"} keeps #{ref :cold_lantern, "Cold Lantern"} on its claim approaches. At the surface terminals, #{ref :fourth_bell_house, "Fourth Bell House"} receives stranded passengers in Keelward and #{ref :south_shade, "South Shade"} fits road crews into Shadewell's port schedule. Other waystops belong to hab councils, family carriers, rescue pools, and settlements whose names matter chiefly on the branch they keep.
   PROSE
   prose <<~PROSE, section: :economy, heading: "Economy"
-    What moves on the Keel:
+    Ringglass is the Keel's reason for being: raw aggregate in heavy haulers, refined stock under escort, and intact pieces under escort heavy enough that the guard costs a real share of the cargo. Behind it come the manufactures of the ring habs, from household lanterns to kite components, bound for surface buyers; #{encyclopedia_ref :seed, "Seed"} cells from the refineries, the steady fuel trade everything else runs on; and people. Workers, traders, migrants and tourists fill the passenger decks. #{ref :vantara, "Vantara"} runs scheduled service end to end, and hab carriers, port cooperatives, independent crews and local lines work the shorter legs.
 
-    **Ringglass** — raw, refined, and intact. The Keel exists because ringglass needs to get from where it's mined to where it's used, and every settlement in the system uses it. Bulk aggregate moves in heavy haulers. Refined product moves under escort. Intact pieces move under heavy escort, and the security premium is a significant fraction of the cargo's value.
-
-    **Manufactured goods.** Resonance-integrated technology manufactured in ring habs — everything from household lanterns to kite components. The ring habs have the skilled labor and the ringglass access. The surface has the population and the demand.
-
-    **Microcavities.** Sealed ringglass fuel cells flowing from processing facilities to consumption points. A steady, unglamorous trade that underpins everything else.
-
-    **People.** Passenger traffic on the Keel is substantial. Workers, merchants, migrants, tourists. #{ref :vantara, "Vantara"} runs scheduled service along the full route. Hab carriers, port cooperatives, independent vessels, and local lines carry shorter legs and feed the main departures.
+    The route has its own people too. #{encyclopedia_ref :keel_route_kin, "Keel route families"} have crewed its tugs and waystations for generations, marry across its sections, and keep a galley bell in every waystation that rings when a ship calls for help on the beacon channel. Waystation cooks are famous along the route for what they can make from a mismatched cargo.
   PROSE
   prose <<~PROSE, section: :dangers, heading: "Dangers"
-    The Keel is contested and portions are dangerous.
+    Parts of the Keel are dangerous.
 
     **Pirates.** Independent raiders and organized crews, including #{ref :coremark, "Coremark"} units, strike in the gaps between patrolled segments. They watch for separated cargo, a damaged drive, or a convoy stretched around a closing passage. #{ref :vantara, "Vantara"}'s armed escorts stay near their contracted vessels. An attack at one end of the convoy can leave the other exposed if its escort gives chase.
 
-    **Bloom Zones.** Several #{ref :bloom_zones, "Bloom Zones"} sit near or intersect with Keel branch routes. Reality distortion from an active zone can disrupt navigation, damage resonance equipment, and — in extreme cases — render a corridor impassable. The #{ref :displacement_council, "Displacement Council"} maintains containment cordons, but the zones are expanding slowly and the Keel's geometry may need to shift.
+    **Bloom Zones.** Several #{ref :bloom_zones, "Bloom Zones"} sit near or intersect with Keel branch routes. Reality distortion from an active zone can disrupt navigation, damage resonance equipment, and — in extreme cases — render a corridor impassable. The #{ref :displacement_council, "Displacement Council"} keeps cordons around them, and as their edges creep the Keel's branches have had to bend away more than once.
 
     **The Shear.** Sections of the Keel pass through managed Shear corridors — areas where debris has been cleared but the resonance environment is still distorted. These segments require Shear-rated vessels and careful navigation. Drift events can close a corridor without warning.
 
@@ -102,7 +92,7 @@ installation :keel do
   prose <<~PROSE, section: :tensions, heading: "Tensions"
     During the Contested Reach, route segments changed hands three times. The Bitter Reach left further seizures and losses for crews to remember when they met one another after peace. Most of the route now supports dependable passage. At disputed branches, carriers still ask who holds the next berth before committing a loaded ship to the approach.
 
-    The fundamental tension is economic: the Keel is too valuable for anyone to control exclusively and too important for anyone to ignore. Vantara maintains a large beacon and station network without controlling the municipal terminals, guild markers, cooperative rescue posts, or independent receiving ports around it. #{ref :sithari, "Sithari"} regulates the financial layer but can't police the corridor. The #{ref :shear_compact, "Shear Compact"} has jurisdiction over Shear segments but not the open-space portions. The result is a patchwork of overlapping authorities, gaps between them, and people who make their living in those gaps.
+    The Keel is held in many hands. Vantara maintains a large beacon and station network without controlling the municipal terminals, guild markers, cooperative rescue posts, or independent receiving ports around it. #{ref :sithari, "Sithari"} regulates the financial layer but can't police the corridor. The #{ref :shear_compact, "Shear Compact"} has jurisdiction over Shear segments but not the open-space portions. The result is a patchwork of overlapping authorities, gaps between them, and people who make their living in those gaps.
   PROSE
 
   log "2026-08-20 — Replaced the single-carrier account of Keel services with named municipal, cooperative, guild, and carrier facilities. Vantara keeps a large network but does not own the route's accommodation, rescue, or receiving infrastructure."

@@ -1,7 +1,7 @@
 faction :root_commons do
   tags :subject_hab_life
   name "The Root Commons"
-  summary "The Root Commons is a mutual-aid network that moves food and air workers among Noll, Rib, Vey, and Lung Three."
+  summary "Member-run mutual of the garden habs, operating across Noll, Rib, Vey and Vey's Lung Three airflow chamber."
   subkind :mutual_aid
   type_of :mutuals
   status :complete

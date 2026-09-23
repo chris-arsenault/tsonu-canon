@@ -1,7 +1,7 @@
 encyclopedia :watch do
   name "Watch"
   aka "salts"
-  summary "Watch is the sharp-smelling wake-up standard of the system's kits: a pressed mineral tablet crushed under the nose to cut through cold, exhaustion, and lender's shakes for one clear hour. Every watch post, route chest, and midwife's bag carries the tablets, mixed to the old evacuation formula."
+  summary "Watch is the sharp-smelling wake-up standard of working kits on the restored routes: a pressed mineral tablet crushed under the nose to cut through cold, exhaustion, and lender's shakes for one clear hour. Every watch post, route chest, and midwife's bag carries the tablets, mixed to the old evacuation formula."
   kind :resource
   subkind :medicine
   status :complete
@@ -26,7 +26,7 @@ encyclopedia :watch do
   )
 
   prose <<~PROSE
-    The kit that held the #{encyclopedia_ref :ration_lamp, "ration lamp"} held a flat tin beside it, and the tin's descendants are in every working pocket in the system. Watch comes as a pressed mineral tablet, thumbnail-sized and scored for halving: crushed between the fingers and held under the nose, the smell cuts through cold-watch drowse, the third shift of a flood emergency, or a lender's post-lend shakes, and buys one level, wakeful hour. The formula rode in the ring's evacuation stores and passed into the public pharmacopoeia during the Rekindling — a deliberate act, recorded with its reasoning, by custodians who wanted the wake-up standard everywhere and cheap forever — and apothecaries everywhere mix to it, stamping their tins with a mixer's mark the way roperies mark line.
+    The kit that held the #{encyclopedia_ref :ration_lamp, "ration lamp"} held a flat tin beside it, and the tin's descendants ride in working pockets from Keel docks to cordon posts. Watch comes as a pressed mineral tablet, thumbnail-sized and scored for halving: crushed between the fingers and held under the nose, the smell cuts through cold-watch drowse, the third shift of a flood emergency, or a lender's post-lend shakes, and buys one level, wakeful hour. The formula rode in the ring's evacuation stores and passed into the public pharmacopoeia during the Rekindling — a deliberate act, recorded with its reasoning, by custodians who wanted the wake-up standard everywhere and cheap forever — and apothecaries everywhere mix to it, stamping their tins with a mixer's mark the way roperies mark line.
 
     The trades built their rotation customs around the hour. Cordon watches run half-cut tablets on the turn, cold-route crews issue tins with the manifest, midwives and lenders keep full-cut for the long nights, and the phrase 'a two-salt night' does duty across the system for any stretch of work that earned its exhaustion honestly. The tablet's limits are as standardized as its virtues: the hour ends on schedule, the spent rest stands as debt, and watch discipline everywhere caps the run at two before sleep stops being a suggestion.
   PROSE

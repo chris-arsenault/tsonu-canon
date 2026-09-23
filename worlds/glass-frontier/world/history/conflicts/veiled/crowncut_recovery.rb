@@ -1,7 +1,7 @@
 conflict :crowncut_recovery do
   tags :subject_shear
   name "Crowncut Recovery"
-  summary "Crowncut Recovery is a campaign by rival crews to stabilize drifting refinery sections before their salvage claims expire."
+  summary "Salvage campaign at Crowncut Refinery, the abandoned ringglass works in the Deep Shear, worked from Brake's Forty cutting bay."
   subkind :campaign
   status :complete
   prominence :marginal

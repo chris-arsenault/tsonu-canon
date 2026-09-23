@@ -1,7 +1,7 @@
 artifact :lowbank_reed_roll do
   tags :subject_planetary_life
   name "Lowbank Reed Roll"
-  summary "The Lowbank Reed Roll is a ferry-debt record used around Dovra and the Reed Door. Its cuts swell shut when the account they mark is paid."
+  summary "Ferry account roll of Lowbank's Reed Door and the Dovra river crossings."
   subkind :record
   status :complete
   prominence :marginal

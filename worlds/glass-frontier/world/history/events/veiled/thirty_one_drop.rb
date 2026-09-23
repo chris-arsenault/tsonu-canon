@@ -1,7 +1,7 @@
 incident :thirty_one_drop do
   tags :subject_hab_life
   name "The Thirty-One Drop"
-  summary "The Thirty-One Drop was a cargo-handling failure that sent a tuned rack through Wash Four's lower wall."
+  summary "Rigging accident at Thirty-One, the sealed textile workshop on Wash Four's dirty route."
   subkind :operational_failure
   status :complete
   prominence :marginal

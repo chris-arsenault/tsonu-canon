@@ -1,7 +1,7 @@
 artifact :blue_step_book do
   tags :subject_planetary_life
   name "The Blue Step Book"
-  summary "The Blue Step Book is an Avar road record kept between Blue Step Works and Ladderwell. It lists every foundation stone that rang before a recorded road failure."
+  summary "Avar road-repair record held at Blue Step Works on Ladderwell's second bench."
   subkind :record
   status :complete
   prominence :marginal

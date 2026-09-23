@@ -6,8 +6,12 @@ geographic_location :vastine do
   subkind :celestial_body
   status :complete
   tags :cosmology, :"outer-system", :ecology, :trade, :religion, :subject_planetary_life
-  prominence :recognized
+  prominence :renowned
   position frame: :kaleidos_system_chart, radius: 7, angle_deg: 46
+  world_type "Water giant"
+  environment "Deep atmosphere over a global ocean with no known solid surface"
+  habitation "Inhabited moons, with the largest port at Pelhari"
+  log "2026-09-23 — Added a section naming Nuvari, the rift moon that keeps its calendar by returns named for the dead and drops both funeral and hook chains."
 
   descriptive_identity(
     setting:
@@ -51,9 +55,13 @@ geographic_location :vastine do
   PROSE
 
   prose <<~PROSE, section: :trade, heading: "A System of Moons"
-    The moons exchange ice, instruments, food cultures, and refined atmospheric material. Pelhari handles the largest port and the outer terminus of Span Nine, but smaller settlements maintain independent routes and civic calendars.
+    The moons exchange ice, instruments, food cultures, and refined atmospheric material. Pelhari handles the largest port and one of Span Nine's three termini, but smaller settlements maintain independent routes and civic calendars.
 
     Travel between moons is routine when Vastine's radiation and storm fields are quiet. During a strong disturbance, a nearby moon can become harder to reach than Kaleidos because safe transfer windows close before a delayed ship can arrive.
+  PROSE
+
+  prose <<~PROSE, section: :geography, heading: "Nuvari"
+    #{ref :nuvari, "Nuvari"}, a rift moon a day's routine transfer from Pelhari, grows more marrow-root than any other moon in the system under the glazed roofs of its rift bogs. Its reckoners name each newly seen band pattern after the most recent person dropped into Vastine, and the town keeps its civic days by those returns. Trellin keepers there sing the last words of the dead into funeral chains released over the giant. The same council licenses hook-chain crews who cut tissue from the deep animals for Pelhari's wright shops, and the two kinds of chain often ride out in the same kite.
   PROSE
 
   gm_note :appears, "Each of Vastine's moons names its own band faces and sets civic dates by them; #{ref :pelhari, "Pelhari"} counts storm-face, hush-face, and dark-face, and its neighbors divide the cycle differently. " \

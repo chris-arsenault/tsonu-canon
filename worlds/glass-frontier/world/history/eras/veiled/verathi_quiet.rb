@@ -1,7 +1,7 @@
 era :verathi_quiet do
   tags :subject_hab_life
   name "The Verathi Quiet"
-  summary "The Verathi Quiet was the interval when every Verathi exchange message arrived through Sable recordings instead of live speech."
+  summary "Period in the civil life of Verathi, the outer-arc ring habitat, when its exchange depended on recordings from the Sable Crescent."
   subkind :historical_period
   status :complete
   prominence :marginal

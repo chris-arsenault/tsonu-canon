@@ -3,18 +3,18 @@ artifact :first_clean_plate do
   summary "The First Clean Plate is a Pell-maintained wurm-bit built around the first intact mouth plate shed by the Stockpile Colony. Ratters use its marked yoke to grade later plates and train remote-cutter operators."
   subkind :machine
   type_of :wurm_bit
-  function "Follows curved mineral and ringglass seams with a mounted glasswurm mouth plate"
+  function "Follows curved mineral and ringglass seams with a mounted shearwurm mouth plate"
   status :complete
   tags :salvage, :ringglass, :resonance, :trade, :danger, :subject_shear
   prominence :recognized
 
   descriptive_identity(
-    appearance: "A small clean glasswurm mouth plate in a forked yoke, with witness wires and Pell response marks " \
+    appearance: "A small clean shearwurm mouth plate in a forked yoke, with witness wires and Pell response marks " \
                 "cut along both arms.",
     handling: "The operator opens a shallow notch and follows the witness wires as the plate turns toward the " \
               "clearest material boundary. The Assembly opens and cleans it after every demonstration.",
     risks: "Locking the yoke sends every change in the seam into the plate. Its repeated bite can also draw a living " \
-           "glasswurm through connected debris."
+           "shearwurm through connected debris."
   )
 
   prose <<~PROSE
@@ -24,7 +24,7 @@ artifact :first_clean_plate do
   PROSE
 
   gm_note :appears, "The First Clean Plate is brought out when a disputed bit must be compared with the marked Pell response."
-  gm_note :triggered_by, "Locking its yoke for a straight cut turns the reference tool into the clearest repeated feeding signal a glasswurm can follow."
+  gm_note :triggered_by, "Locking its yoke for a straight cut turns the reference tool into the clearest repeated feeding signal a shearwurm can follow."
   gm_note :complicates, "Every demonstration consumes wear on the one plate used to authenticate the growing market in replacements."
 end
 

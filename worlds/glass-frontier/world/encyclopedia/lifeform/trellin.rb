@@ -13,6 +13,7 @@ encyclopedia :trellin do
   biology "Cartilaginous throat fans that receive and produce signal-band emission alongside ordinary speech; trained trellin hold received transmissions in tonal memory and reproduce them voice-true as layered chords"
   lifespan "About 70–120 years"
   resonance_relation "Native to the signal band — trellin hear traffic the way sighted peoples see light, and their fans both receive and transmit at short range, which the relay trades use where lines fail"
+  log "2026-09-23 — Added Othal Wenn as the best-known trellin singer and the keeper schools' quarrel with his Hearings."
 
   descriptive_identity(
     appearance: "Human-scaled, slender-necked, with the folded throat fans " \
@@ -41,5 +42,7 @@ encyclopedia :trellin do
     Tonal memory is trainable. A practiced trellin can receive a transmission, hold its cadence, hesitation, and timbre, and reproduce it as layered chords. Relay guilds employed trellin keepers throughout the ring era and maintained drills for line failure. During the Glassfall and Famine, trained couriers carried #{encyclopedia_ref :fold, "Fold"} across dead bands; surviving route schools preserve records and chord forms from those walks.
 
     Present-day keeper schools teach exact delivery, witness handling, and the limits of voice-true recall. Courts distinguish a record read from a record heard and require witnesses when a keeper fixes testimony into tonal memory. Relay schools train shorter retention and repeated handoff along broken lines. Related chord forms also carry music and history in #{encyclopedia_ref :answering_phrase, "the Answering Phrase"}. These institutions are prominent trellin traditions, but the sensory anatomy does not assign a person to them.
+
+    The best-known trellin voice in Kaleidos belongs to a singer. #{ref :othal_wenn, "Othal Wenn"} holds public transmissions voice-true and sings them back in chord at his monthly Hearings in Sithari's Underlayers, and recordings of the nights play in ports across the system. Keeper schools resent the Hearings, and advocates in Sitharian courts now ask a keeper on the stand whether her delivery was arranged.
   PROSE
 end

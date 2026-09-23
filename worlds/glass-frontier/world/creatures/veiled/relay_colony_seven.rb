@@ -1,7 +1,7 @@
 creature :relay_colony_seven do
   tags :subject_resonance
   name "Relay Colony Seven"
-  summary "Relay Colony Seven is a named signal-fed growth recorded at Span Nine, Issel, Far Bell, and Karet Three."
+  summary "A loop-feeding signal-fed colony on the relay faults of Span Nine, Issel, Far Bell and Karet-3."
   subkind :creature
   status :complete
   prominence :marginal

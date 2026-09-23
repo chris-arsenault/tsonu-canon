@@ -1,7 +1,7 @@
 artifact :the_hanging_kiln do
   tags :subject_planetary_life
   name "The Hanging Kiln"
-  summary "The Hanging Kiln is a river-clay kiln suspended from a Korvath barge so ground tremors cannot crack its firing load."
+  summary "A kavra barge kiln associated with Ninth Kiln, Lowbank's municipal ceramic yard."
   type_of :kavra
   subkind :machine
   status :complete

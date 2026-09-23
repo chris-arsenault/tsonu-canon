@@ -1,7 +1,7 @@
 faction :four_span_mutual do
   tags :subject_journeys_trade
   name "Four-Span Mutual"
-  summary "Four-Span Mutual is a route-aid society that caches food, cable, and relay glass at four surviving stations."
+  summary "Member-run mutual of the Span Nine signal route, operating from Whitefoot to Threshold Station and the Choir Fragment."
   subkind :mutual_aid
   type_of :mutuals
   status :complete

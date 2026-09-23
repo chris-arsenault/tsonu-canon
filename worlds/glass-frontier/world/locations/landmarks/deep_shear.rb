@@ -72,7 +72,7 @@ geographic_location :deep_shear do
   prose <<~PROSE, section: :people, heading: "Traffic"
     Crews enter Deep pockets from the surrounding Shear. A ship's range, equipment, and knowledge of the approach determine which claims it can reach.
 
-    #{ref :coremark, "Coremark"} operates industrial Deep extraction with the resources to absorb the failure rate. Their crews use heavy purpose-built ships, redundant Tuner crews, and procedures that prioritize survival of the rig over survival of any individual run. They lose ships at rates that no independent operator could absorb and accept the losses as a cost of business. They are the Deep's largest single operator by tonnage.
+    #{ref :coremark, "Coremark"}'s extraction cells work Deep pockets the #{ref :shear_compact, "Shear Compact"} has never certified, with the resources to absorb the failure rate. Their crews use heavy purpose-built ships, redundant Tuner crews, and procedures that prioritize survival of the rig over survival of any individual run. They lose ships at rates that no independent operator could absorb and accept the losses as a cost of business. By tonnage the syndicate outworks every lawful operator in the Deep, and its output reaches ordinary buyers through fences.
 
     The #{ref :pell_freight_assembly, "Pell Freight Assembly"} occupies the space between corporate rigs and single-crew claims. Its members share receiving yards, rescue coverage, and hauler capacity while retaining their vessels and claims. The pooled loss fund lets them work at industrial scale, but a failure is still charged to people who vote in the same yard where the damaged ship returns.
 

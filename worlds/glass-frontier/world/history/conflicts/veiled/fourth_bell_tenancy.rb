@@ -1,7 +1,7 @@
 conflict :fourth_bell_tenancy do
   tags :subject_journeys_trade
   name "The Fourth Bell Tenancy"
-  summary "The Fourth Bell Tenancy is a conflict between Keelward families and route crews over occupancy of Fourth Bell House during dock closures."
+  summary "Occupancy dispute over Fourth Bell House, the municipal port hostel above the freight rail in Sithari's Keelward district."
   subkind :conflict
   status :complete
   prominence :marginal

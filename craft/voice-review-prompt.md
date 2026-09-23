@@ -29,7 +29,7 @@ Encyclopedia entries can acknowledge gaps in knowledge — "the cause remains un
 Content that was clearly a note from the author to themselves (or to a collaborator) that ended up in the published text. Things like explaining what a concept is *for* in the setting rather than what it *is* in the world. Descriptions of narrative function rather than in-world reality.
 
 ### 4. Coy uncertainty
-Claims such as “nobody knows,” “nobody understands,” or rhetorical questions that announce mystery without identifying the evidence boundary. The replacement should preserve the unknown while stating what records omit, what instruments show, what witnesses disagree about, or where an accepted model fails.
+Claims such as “nobody knows,” “nobody understands,” or rhetorical questions that announce mystery without identifying the evidence boundary. The replacement should preserve the unknown while stating what instruments show, what witnesses disagree about, and who holds which explanation. Flag a run of "does not establish" or "records omit" sentences under this heading too.
 
 ### 5. Narrator's verdict
 A quip, moral, interpretation, or forecast added after the facts: “neither sees the irony,” “that is what makes it dangerous,” “the argument will continue,” or “whether it holds remains to be seen.” Attribute a judgment to people in the world, replace it with an observable consequence, or remove it when it adds no information.

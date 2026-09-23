@@ -54,7 +54,7 @@ Use the existing entries, guidance, and graph to develop the ideas worth keeping
 
 Ask for direction only when the sources support incompatible answers that would change the setting beyond the selected entries. Do not stop over a new person's trade, an object's workings, a local custom, or another choice that can be made consistently from nearby canon.
 
-Choose an observer for each entry. Decide what that person can inspect, what their work makes them notice, and where their evidence ends. Keep the prose encyclopedic; the observer controls the available evidence and does not need to narrate the entry.
+Choose an observer for each entry. Decide what that person can inspect and what their work makes them notice. Keep the prose encyclopedic; the observer controls the available evidence and does not need to narrate the entry.
 
 ## 4. Introduce an unrelated source of detail
 

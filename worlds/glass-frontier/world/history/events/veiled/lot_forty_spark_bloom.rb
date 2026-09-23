@@ -1,7 +1,7 @@
 incident :lot_forty_spark_bloom do
   tags :subject_shear
   name "Lot Forty Spark Bloom"
-  summary "Lot Forty Spark Bloom is a scrap-bed life cycle in which warm-rooted growths release metallic spores as Lot Forty cutters approach."
+  summary "Tithe growth cycle in the scrap beds of Forty, Brake's largest cutting bay, and of Crowncut Refinery in the Deep Shear."
   type_of :tithe
   subkind :incident
   status :complete

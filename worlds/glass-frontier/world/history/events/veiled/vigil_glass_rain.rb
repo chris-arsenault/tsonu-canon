@@ -1,7 +1,7 @@
 incident :vigil_glass_rain do
   tags :subject_planetary_life
   name "Vigil Glass Rain"
-  summary "Vigil Glass Rain is a mountain storm that lifts old crystal splinters from the slopes and drives them sideways through marked shelters."
+  summary "Kyther Scour storm of the slopes near Vigil Breach, reaching down to Avar's road shelters at Marker House Twelve."
   type_of :kyther_scour
   subkind :incident
   status :complete

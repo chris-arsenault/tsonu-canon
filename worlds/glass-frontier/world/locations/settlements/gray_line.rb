@@ -41,8 +41,8 @@ installation :gray_line do
     Dern Talish served most of her field career at Gray Line. #{ref :iro_senn, "Iro Senn"}, who worked the same watches, now leads the station.
   PROSE
 
-  prose <<~PROSE, section: :truth, heading: "The Handover Room", dm: true
-    Oram Sells used the registry room to brief Dern Talish on the hidden elven contact before his death. The families who inspect the public records do not know that history.
+  prose <<~PROSE, section: :history, heading: "The Handover Room"
+    The same room is where #{ref :oram_sells, "Oram Sells"} told #{ref :dern_talish, "Dern Talish"} about the Council's hidden contact with the elves before he died. The families who come to read the Latch registry sit at the table where it happened and know nothing of it.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Registry Room"

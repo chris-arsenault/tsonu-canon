@@ -1,7 +1,7 @@
 transport :eleven_scrap_lift do
   tags :subject_hab_life
   name "The Eleven Scrap Lift"
-  summary "The Eleven Scrap Lift is a spoke vehicle serving Eleven, Holl, and Five Landing. It travels on counterweights filled with household scrap."
+  summary "Balance lift running the spoke shafts between Eleven and the Five Landing deck in Holl."
   subkind :transport
   type_of :balance
   status :complete

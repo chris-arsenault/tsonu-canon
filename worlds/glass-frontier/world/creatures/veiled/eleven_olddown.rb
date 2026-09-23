@@ -1,7 +1,7 @@
 creature :eleven_olddown do
   tags :subject_hab_life
   name "The Eleven Olddown"
-  summary "The Eleven Olddown is a gravity-following anomaly ranging among Holl, Eleven, and Five Landing. It runs across ceilings when a habitat's gravity changes and drags loose cargo behind it."
+  summary "An olddown, a dog-shaped gravity anomaly, roaming the restored sections of Holl, Eleven and Five Landing."
   subkind :anomaly
   type_of :olddowns
   status :complete

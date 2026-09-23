@@ -56,7 +56,7 @@ Read the repo-root `CLAUDE.md` first — it carries the DSL conventions, the ent
 
 ## Prose For This World
 
-Build an entry around the practical question its subject raises for people in Kaleidos. Choose who can observe it, state what their records or instruments establish, and mark the point where explanations fail. Mystery comes from that evidence boundary, not from rhetorical questions or claims that “nobody understands.”
+Build an entry around what its subject is and does, and what people in Kaleidos do with it, about it or because of it: how it looks and sounds, who lives with it, and what they value, fear, fight over and enjoy. Write strangeness through what people have seen, built, measured and learned to use. Where an explanation is unsettled, let observers and rivals carry the open question; state what they have found rather than what their evidence lacks.
 
 Glass Frontier entries may be long. Use substantial sections for different facets of one place, institution, or concept. Move a section only when its facts belong to another entity; do not thin an entry to meet a word count.
 

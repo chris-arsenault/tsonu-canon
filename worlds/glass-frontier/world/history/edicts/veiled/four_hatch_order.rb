@@ -1,7 +1,7 @@
 edict :four_hatch_order do
   tags :subject_journeys_trade
   name "The Four-Hatch Order"
-  summary "The Four-Hatch Order keeps one docking mouth clear at every Keel stop for unpowered rescue craft."
+  summary "Empty Mouth docking rule of the Keel trade route, kept at Hinge Six, Cold Lantern and Mareth's Latchhouse."
   subkind :edict
   type_of :empty_mouth
   status :complete

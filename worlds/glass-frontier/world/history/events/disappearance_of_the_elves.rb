@@ -1,6 +1,6 @@
 incident :disappearance_of_the_elves do
   name "Disappearance of the Elves"
-  summary "The Disappearance of the Elves is the recognized absence of every elven community and individual when sustained communication returned in 2305."
+  summary "The Disappearance of the Elves is the absence of every elven community and individual from the public record when sustained communication returned in 2305; the elves had withdrawn into hidden ring habs."
   subkind :migration
   tags :mystery, :archives, :isolation, :"ring-era", :subject_resonance
   prominence :recognized
@@ -42,15 +42,15 @@ incident :disappearance_of_the_elves do
     The #{ref :kaleidos_echo_rivers, "Echo Rivers"} carry similar damage. Conversations cut to silence and voice signatures flatten into harmonic hum. Deep deposits preserve fragments the alteration did not reach. The #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} catalogs those remnants and has not settled whether the pattern records deliberate removal or an unknown failure concentrated around elven signals.
   PROSE
 
-  prose <<~PROSE, section: :truth, heading: "The Withdrawal", dm: true
-    The withdrawal was deliberate. Elven leadership concluded that the #{ref :the_false_form, "False Form"} had destroyed the ring and would return. A visible population would expose the preparations intended to resist it.
+  prose <<~PROSE, section: :cause, heading: "The Withdrawal"
+    The withdrawal was deliberate, and almost nobody outside the elves' own communities knows it. Elven leadership concluded that the #{ref :the_false_form, "False Form"} had destroyed the ring and would return. A visible population would expose the preparations intended to resist it.
 
     Communities moved into ring fragments running dark, masked their resonance signatures, and removed their routes from surviving navigation systems. Other elves remained in the wider population to move supplies, watch the archives, and prevent later discoveries from revealing the hidden habs.
 
     The decision was collective and bitterly contested. The preparations were expected to take centuries, and the communities that withdrew understood that they were abandoning public lives, institutions, and relationships that most of them had helped build.
   PROSE
 
-  prose <<~PROSE, section: :implications, heading: "The Scrubbing", dm: true
+  prose <<~PROSE, section: :implications, heading: "The Scrubbing"
     The Redaction removed trails rather than history. Elven agents used their existing access to alter written archives, removing names, addresses, family records, and the locations of elven departments while leaving the ring's broad history intact. Resonance specialists overwrote voice signatures in the Echo Rivers with harmonic noise. The work was slow, imprecise, and unable to reach the deepest deposits.
 
     Time handled living memory. Public figures did not return when signals resumed. People who had known them died while the elves who planned the withdrawal remained alive in hiding. The operation left enough evidence to prove that elves had shaped the system and too little to follow any one of them home.
@@ -65,7 +65,7 @@ relate :rel_disappearance_active_during_signal_famine, :active_during, :disappea
   prose "The withdrawal and Redaction took place under the cover of the Signal Famine."
 end
 
-relate :rel_signal_famine_caused_disappearance, :caused, :signal_famine, :disappearance_of_the_elves, dm: true do
+relate :rel_signal_famine_caused_disappearance, :caused, :signal_famine, :disappearance_of_the_elves do
   prose "The Famine did not motivate the withdrawal, but its broken records and communications made the operation possible."
 end
 

@@ -34,7 +34,7 @@ encyclopedia :flower do
   PROSE
 
   cue "At the still hour the skimmers move down the beds with their flat louses, taking the flower off band by band — and the visitor is hushed on the walkway, because the quiet is a tool and the crust spoils for jarring."
-  cue "The instrument maker taps one grain of stamped flower into the new farglass frame, and the frequency seats — the vial's label naming the bed, the band, and the day the note was noise in a cutting yard."
+  cue "The instrument maker taps one grain of stamped flower into the new mount for a surviving farglass pane, and the frequency seats — the vial's label naming the bed, the band, and the day the note was noise in a cutting yard."
   affordance "Damper beds convert a yard's residue into band-specific tuning stock that instrument houses can buy by stamped source and date."
   pressure "Fresh flower re-emits when jarred and mixed bands tune unreliably, so the trade depends on quiet collection, padded transport, and trustworthy bed stamps."
   variation "Yard beds harvest the cutting trades' broad bands; the instrument houses' own test-floor beds yield small and exquisitely pure; and the wild crusts scraped from old ring dampers assay strange bands the catalogs mark collector's grade."

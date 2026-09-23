@@ -1,7 +1,7 @@
 creature :lowbank_reedjaw do
   tags :subject_planetary_life
   name "The Lowbank Reedjaw"
-  summary "The Lowbank Reedjaw is a Dovra animal ranging around Lowbank and the Reed Door. It strips waterweed from barges and bites through poles used to drive it off."
+  summary "Reed-bed ambush predator of the quiets, holding territory on the Dovra around Lowbank and the Reed Door."
   subkind :animal
   type_of :quiets
   status :complete

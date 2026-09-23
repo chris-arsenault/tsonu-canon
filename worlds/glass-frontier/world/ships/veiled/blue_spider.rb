@@ -1,7 +1,7 @@
 transport :blue_spider do
   tags :subject_planetary_life
   name "Blue Spider"
-  summary "Blue Spider is a six-legged freight vehicle used on broken Avar roads. Independently weighted legs carry loads between Blue Step Works and Marker House Twelve."
+  summary "Walking freight spider of Avar, working the road from Blue Step Works to Marker House Twelve."
   subkind :transport
   type_of :spiders
   status :complete

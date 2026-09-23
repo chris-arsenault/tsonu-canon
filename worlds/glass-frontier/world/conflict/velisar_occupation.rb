@@ -1,28 +1,41 @@
 conflict :velisar_occupation do
   name "The Occupation of Velisar"
-  summary "The occupation of Velisar is the armed struggle begun by Aren Talivar's seizure of the city's defenses in 2435, now drawing resistance and Serevan forces into Istrava."
+  summary "The occupation of Velisar is Aren Talivar's armed hold on the port city itself since his seizure of its batteries in 2435: its streets, quays and households under league guns, and the resistance working inside them."
   subkind :campaign
   status :complete
   prominence :recognized
   tags :military, :governance, :diplomacy, :subject_istrava
+  log "2026-09-23 — Scoped the entry to the city under occupation (the seizure, the council, street life, the forces inside Velisar) and left the wider fronts to the Korvath Theater War; gave the city named residents and turned the closing cast list into scenes."
   descriptive_identity cause: "Aren retained league units after their agreed withdrawal and seized the defenses when the city council removed him.", intensity: "Armed occupation, coastal interdiction, local escapes and an arriving allied expedition.", conduct: "Standing commands bind some crews; willing officers direct others, while resistance works through households and yards."
 
   prose <<~PROSE
-    The occupation began when #{ref :velisar, "Velisar"}'s council tried to remove #{ref :aren_talivar, "Aren Talivar"} from command. He had used the #{ref :red_sovereign, "Red Sovereign"} to keep units at their posts beyond an agreed withdrawal. He then held the batteries against the council, closed the approaches and demanded permanent control of the #{ref :istravan_league, "Istravan League"}'s defenses.
+    The occupation began when #{ref :velisar, "Velisar"}'s council tried to remove #{ref :aren_talivar, "Aren Talivar"} from command. He had used the #{ref :red_sovereign, "Red Sovereign"} to keep units at their posts beyond an agreed withdrawal. He then held the batteries against the council, closed the approaches and demanded permanent control of the #{ref :istravan_league, "Istravan League"}'s defenses. The occupation is the part of the #{ref :korvath_theater_war, "Korvath Theater War"} fought street by street inside one city.
 
-    The struggle extends beyond the occupied city. Independent ports are choosing whether to receive his officers, shelter fugitives or unite their forces. Aren needs crews, provisions and places from which to operate. The mantle does not supply these without subjects capable of obtaining them.
+    Velisar eats from outside its walls. Grain, lamp oil and powder come in through independent ports, and each of those ports is choosing whether to receive Aren's officers, shelter fugitives from the city or unite its forces against him. Every crew he fields and every sack of flour his soldiers eat comes from people who are willing, paid, frightened or commanded into supplying it.
+  PROSE
+
+  prose <<~PROSE, section: :history, heading: "The Council Night"
+    Oswen Selvarre, the council's speaker, read the removal aloud in the harbor hall with the league's officers standing along the back wall. Aren thanked him, left, and was on the terrace at #{ref :savren, "Savren"} before the hall emptied. By midnight the signal rooms answered to him. Council members woke to find soldiers at the ends of their streets, courteous and immovable.
+
+    Oswen lives under guard in his own house on the garden terraces. Aren visits him for supper most weeks, brings good wine from the league stores and asks his advice on the harbor dues. The speaker gives it. His neighbors are divided over whether that keeps the dues low or keeps Aren informed.
+  PROSE
+
+  prose <<~PROSE, section: :present_day, heading: "Living Under the Guns"
+    Savren's bell marks curfew at dusk. Fishing boats leave on passes stamped at the quay office and return to soldiers who count the catch and the crew. Fish, thesset pods and lamp oil cost more every month. A league clerk named Dulan Marran sells departure passes from a sail loft behind the office; his prices rise after each escape, and he has so far sold to both refugees and the officers hunting them.
+
+    Life keeps its shape where it can. #{encyclopedia_ref :velith, "Velith"} contests move from dry dock to dry dock ahead of patrols. Soldiers' spouses buy bread at the same stalls as the families of people the soldiers arrested. Garden houses still hold dances, and officers still attend them. Children in the lower streets play a game called the batteries, in which one child calls orders and the others must repeat each word before obeying or be out.
   PROSE
 
   prose <<~PROSE, section: :course, heading: "Forces and Households"
-    The #{ref :velisar_resistance, "Velisar resistance"} frees captives, conceals departures and attacks the occupation's control of the city. #{ref :sereva, "Sereva"} is sending an expedition to secure a relief route. Neither commands all Aren's opponents. Some independent cities resist him while refusing Serevan garrisons.
+    The #{ref :velisar_resistance, "Velisar resistance"} frees captives, conceals departures and attacks the occupation's control of the city. #{ref :sereva, "Sereva"} is sending an expedition to secure a relief route out of the harbor. The two work side by side and argue over every locked stair. Some independent cities fight Aren and refuse Serevan garrisons on principle.
 
-    Command can arrive over a live channel. Opponents stop relaying Aren's voice and separate units before he can address them together. Such precautions do not erase a command already received. A uniform can identify a former affiliation without establishing whether its wearer now obeys freely.
+    Command can arrive over a live channel. Opponents stop relaying Aren's voice and separate units before he can address them together. A command already received stays with its hearer after the channel is cut. Neighbors read a league coat as a history, and they watch a soldier's hands, habits and answers to learn whose orders he follows now.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "Unfinished Undertakings"
-    #{ref :detha, "Detha"} is outside the city after resisting an absolute command. #{ref :ivena_sar, "Ivena Sar"} maintains a route for wounded people, and #{ref :hareth, "Hareth"} is preparing protected access for the expedition. #{ref :nalis_venn, "Nalis Venn"} needs an anchor and defended approaches for an evacuation road.
+    #{ref :detha, "Detha"} watches the city from outside after resisting an absolute command, and sends in routes her former crew would recognize. #{ref :ivena_sar, "Ivena Sar"} carries the wounded along the shore through yards that open for her. #{ref :hareth, "Hareth"} wants a protected landing for the Serevan expedition and argues with the shipwrights over which yard to risk. #{ref :nalis_venn, "Nalis Venn"} needs an anchor inside the city and defended approaches for an evacuation road.
 
-    A neighborhood can be freed while the batteries remain occupied. A rescued crew can help another city hold out. Reaching Aren may open succession, but control of the mantle would not settle the league's competing claims or the culpability of its officers. No side yet controls enough of the coast to dictate the peace.
+    A neighborhood can be freed while the batteries remain occupied. A rescued crew can slip out to help another city hold. Reaching Aren may open succession; the league's competing claims and the guilt of its officers would then fall to whoever holds the city afterward. Oswen Selvarre has let it be known that he intends to be the one presiding.
   PROSE
 
   gm_note :complicates, "A captured position contains willing officers, compelled crew and their households; deciding whom to release changes whether neighboring units consider defection."

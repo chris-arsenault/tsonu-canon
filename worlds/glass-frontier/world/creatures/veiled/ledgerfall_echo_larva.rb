@@ -1,7 +1,7 @@
 creature :ledgerfall_echo_larva do
   tags :subject_resonance
   name "The Ledgerfall Echo Larva"
-  summary "The Ledgerfall Echo Larva is a recording-borne anomaly ranging between Ledgerfall, the Choir Fragment, and Tanel. It hatched inside an old record and consumes the loudest word from each repeated passage."
+  summary "Echo-spinner larva, a feeder on remembered signal, recorded at Ledgerfall, the Choir Fragment and Tanel."
   subkind :anomaly
   type_of :echo_spinner
   status :complete

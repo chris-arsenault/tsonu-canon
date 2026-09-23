@@ -4,49 +4,56 @@ encyclopedia :musters do
   subkind :animal
   status :complete
   log "2026-08-31 — Renamed Vault Moth to Musters; the new title names the archive colonies' gathering behavior."
+  log "2026-09-23 — Rebuilt around the moths' night flights, swarm night, scale-dust and stack cough, and starter theft, reducing the pedigree and petition material to one mention."
   topics :archives, :"ring-era", :ecology, :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:archive] }
-  summary "Musters are pale, silent moths bred by the elves to graze mold from stored records. Great archives keep working colonies and read clustering, feeding, and the dawn return count as signs of stack conditions."
-  origin "Elven-bred archive stock; the ring's registries list Muster colonies among vault equipment"
-  biology "A slow, silent moth with brush-tipped legs and a diet of paper molds, binding pastes gone sour, and the fungal blooms of damp storage"
-  function "Grazes mold and bloom from stored records; a working Muster colony patrols its vault's stacks nightly"
-  principal_accommodation "Colony houses — slotted cabinets warmed to vault temperature — maintained by the archives on the old registry pattern"
+  summary "Musters are palm-width, dust-pale moths the elves bred to graze mold from stored paper. Archives house their colonies in warmed cabinets, and archive families grow up among the silent night flights and the silver dust the moths shed."
+  origin "Elven-bred archive stock; the ring's registries list muster colonies among vault equipment"
+  biology "A slow, silent moth with brush-tipped legs and a diet of paper molds, soured binding pastes and the fungal blooms of damp storage; sheds a fine silver scale-dust and mates in a single swarming flight each year"
+  function "Grazes mold and bloom from stored records; a colony flies its vault's stacks each night"
+  principal_accommodation "Colony houses: slotted cabinets warmed to vault temperature and built on the old registry pattern"
 
   descriptive_identity(
-    appearance: "A palm-width moth, dust-pale with darker fringing, that flies in silence and " \
+    appearance: "A palm-width moth, dust-pale with darker fringing, that flies without a sound and " \
                 "folds flat as a pressed leaf on a page. Brush-tipped legs sweep as it walks, " \
-            "and a grazing Muster leaves a clean stripe through the bloom behind it.",
-    behavior: "Colonies patrol their stacks in the dark hours, settling on affected volumes " \
-              "and grazing the mold to the paper's face. They favor the same rounds nightly " \
-              "and return to their houses at the vault's dawn bell.",
-    threat: "The breeding keeps the Musters on the bloom and off the ink. Starving colonies are the recorded " \
-            "exception: they begin testing binding " \
-            "pastes and teach the archives to keep the houses provisioned in clean years.",
-    senses: "A colony finds damp before the instruments do: Musters clustering on one shelf " \
-            "run is the vault's oldest humidity alarm, and stack crews open the wall behind " \
-            "a cluster with real confidence.",
-    risks: "The stock breeds true only in colony houses on the old pattern, and a vault that " \
-           "loses its colony buys, begs, or borrows a starter from another archive — the " \
-           "great houses trade Muster starters with the ceremony of proof lines."
+                "and a grazing muster leaves a clean stripe through gray bloom.",
+    behavior: "Colonies fly their stacks in the dark hours, settle on moldy volumes and graze the " \
+              "bloom down to the paper. Each moth keeps much the same round each night and comes " \
+              "home to the colony house at the vault's dawn bell. Once a year the colony rises " \
+              "in a mating swarm that fills the stairwells.",
+    threat: "Silver scale-dust coats hands, sleeves and lamp glass, and staff who work the stacks " \
+            "for years develop a dry cough the trade calls stack cough. A starving colony turns " \
+            "from the bloom to the binding pastes and can strip the spine off a volume in a night.",
+    senses: "A colony finds damp by smell. Musters gathered along one shelf run mark a wet wall " \
+            "behind it, and stack crews open the wall on that sign.",
+    risks: "The stock breeds true only in colony houses on the old pattern. A vault that loses " \
+           "its colony must beg, buy or steal a starter from another archive."
   )
 
   prose <<~PROSE
-    The #{encyclopedia_ref :elves, "elves"} bred Musters to clear mold from archive stores. The palm-width animals are dust-pale and silent in flight, with brush-tipped legs and a diet of paper molds, soured binding pastes, and fungal blooms from damp storage. A grazing Muster crosses an affected page and leaves the ink untouched in a clean stripe through the bloom. Ring registries list colony houses and provisioning schedules among vault equipment, and present archives retain that pattern.
+    Musters are the moths of the archives. The #{encyclopedia_ref :elves, "elves"} bred them to clear mold from stored records, and ring registries list their colony houses among vault equipment. A muster is as wide as a palm, dust-pale with darker fringes, and flies without a sound. It walks on brush-tipped legs, sweeping as it goes, and eats paper molds, soured binding pastes and the gray bloom of damp storage. A muster crossing a moldy page leaves the ink behind it in a clean stripe.
 
-    Muster colonies patrol their stacks in the dark hours and favor the same rounds each night. Clean stripes mark where bloom was found, and Musters clustered along one shelf run indicate damp in the wall behind it. Stack crews inspect the wall on that sign. At the dawn bell, archivists count the returning Musters; a low count sends staff through the stacks to find the remaining grazers.
+    At night the colony leaves its house and flies the stacks. Each moth keeps much the same round, and a reader who stays late in a vault that lets them range feels them land on a sleeve, fold flat and walk off again. Where several dozen settle along one shelf run, stack crews open the wall behind it and usually find water. At the dawn bell the musters come home and a junior archivist counts them at the slots. A short count sends staff into the stacks with lamps to find the stragglers, which are often asleep on a volume with damp in it.
   PROSE
 
-  prose <<~PROSE, section: :operations, heading: "Houses, Starters, and Lean Years"
-    The stock breeds true in colony houses — slotted cabinets warmed to vault temperature, built to the registry drawing — and the houses are provisioned deliberately in clean years, because the recorded failures are starving colonies that began testing binding pastes. A well-run vault feeds its Musters in good times and reads the feeding ledger as a mold history: lean rations mean clean stacks, and a colony eating well is itself a finding about the vault.
+  prose <<~PROSE, section: :biology, heading: "Swarm Night"
+    Once a year, when the warmed colony house reaches the height of its season, the musters rise together in a mating swarm. For one night the stacks, stairwells and reading rooms fill with pale silent wings, and the lamplight glitters with shed dust. Archive families keep swarm night as a holiday. Children stay up to stand in the stairwells with their arms held out for the moths to land on. Older staff close the reading rooms, set out bowls of warm sugared paste to keep the moths off the bindings, and drink in the galleries until the swarm settles. By morning every surface carries a film of silver, and the vault spends the next day wiping lamp glass.
 
-    Muster starters trade between archives with the ceremony of proof lines. A vault that loses its colony — cold snap, a sealed-section accident, the slow dwindling the trade calls going quiet — petitions a sister house, and the starter travels with an escort, a pedigree, and a debt. Thornvault's registry colony, documented back to a ring-era house number, has seeded archives across the system; its keepers record each granting in the colony book beside the recipient and repayment.
+    The dust stays on archivists all year. It works into the grain of the hands and the seams of clothes, and in archive towns a silver sheen at the knuckles marks someone who works the stacks. Long service brings stack cough, a dry persistent hack. Older archivists carry it as a sign of their years, and younger ones tie wet cloths over their mouths on swarm night.
   PROSE
 
-  cue "In the lamplight a dust-pale Muster sits folded flat on an open ledger, working its way across a gray bloom and leaving a stripe of clean legible page behind it."
-  cue "The night count comes home to the colony house at the dawn bell, and the junior archivist tallies Musters at the slots like a harbor clerk counting boats."
-  affordance "A working colony is mold control, humidity alarm, and stack survey in one silent staff — clusters mark damp walls before instruments do, and the feeding ledger doubles as the vault's condition history."
-  pressure "Archive staff provision colony houses during clean years and track feeding beside the dawn count. A lost colony requires a documented starter from another archive and a new house established on the registry pattern."
-  variation "Thornvault's registry colony carries a pedigree older than the Glassfall and seeds sister houses with escort and ceremony; frontier archives keep hardier, plainer stock and trade Muster starters over a handshake."
-  variation "Some vaults let the Musters range the reading rooms by night and post the fact for visitors; others confine them to the deep stacks, and the two schools cite the same incident at each other."
+  prose <<~PROSE, section: :operations, heading: "Lean Years and Starters"
+    The stock breeds true only inside colony houses built to the old registry drawing. In clean years the stacks give the musters little to eat, so archives provision the houses with cultured bloom on trays. A starving colony turns on the binding pastes and can strip the spines from a shelf of volumes in one night, and every old archive has a story about the year someone cut the feeding budget.
+
+    A vault whose colony dies of cold, of a sealed-section accident or of the slow dwindling the trade calls going quiet needs a starter from another house. Thornvault's colony, traced to a ring-era house number, has seeded archives across the system, and its keepers charge accordingly. Frontier archives keep hardier, plainer stock and trade it for a meal and a favor. Starters are also stolen: a single gravid female carried out in a snuffbox can found a colony, and Thornvault's keepers turn out departing visitors' pockets on swarm night.
+  PROSE
+
+  cue "In the lamplight a dust-pale muster sits folded flat on an open ledger, working across a gray bloom and leaving a stripe of legible page behind it."
+  cue "The morning after swarm night an archivist wipes a film of silver from the lamp glass, coughing into her sleeve."
+  cue "At the dawn bell the junior archivist tallies moths at the colony-house slots, then goes back into the stacks with a lamp for three that have not come in."
+  affordance "A working colony keeps stored paper clear of mold, gathers on damp walls where stack crews can see it, and gives an archive family its swarm-night holiday."
+  pressure "An archive board cuts the feeding budget in a clean year, the hungry colony strips the spines off a shelf of old bindings in one night, and the archivists who warned the board want someone to pay."
+  variation "Thornvault's colony descends from a ring-era house and seeds sister archives at a price; frontier archives keep hardier, plainer stock and trade starters for a meal."
+  variation "Some vaults let the musters range the reading rooms at night and warn visitors at the door; others confine them to the deep stacks, and the two camps cite the same ruined bindery at each other."
 end

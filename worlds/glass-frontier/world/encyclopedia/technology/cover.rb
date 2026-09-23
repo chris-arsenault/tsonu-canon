@@ -10,7 +10,7 @@ encyclopedia :cover do
   summary "Covers are long, low freight vehicles used on hot-country shade routes. Pilots follow seasonal tables from crater rims through canyon and spire shadows, sprint across short lit gaps, and park beneath rated shelter until the next connection opens. Each hull survives only a measured number of minutes in direct sun."
   function "Moves freight and passengers across hot-country surface the direct sun forbids — hull and range built for shadow, the route network built of it"
   classes "The freight cover, slow and deep-holded, that works the trunk shade roads; the fast courier pattern that sprints the brief connections; and the survey cover, hardened for provisional shade, that charts new lines after the ground or the calendar changes them"
-  operating_environments "The hot moons' and Crucible-margin surface roads — shade-line networks across crater country, canyon systems, and the spire fields whose shadows the routes are braided from"
+  operating_environments "Crucible's margin roads outside the shielded high-latitude settlements — shade-line networks across crater country, canyon systems, and the spire fields whose shadows the routes are braided from"
   operating_limit "The hull has a certified allowance of direct-sun minutes; route range is set by the day's connected shadows, and a missed opening leaves the vehicle under its last rated cover until the line returns"
   capacity "Freight covers haul in caravan tonnage on the trunk lines; couriers carry mail, medicine, and the passengers whose business justifies sprint scheduling"
 

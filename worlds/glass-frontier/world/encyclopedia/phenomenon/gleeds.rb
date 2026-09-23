@@ -1,9 +1,10 @@
 encyclopedia :gleeds do
   name "Gleeds"
-  summary "Gleeds are drifting lights that gather in the air over concentrated ringglass, shading from amber toward blue as the local resonance gradient steepens. People read their color the way sailors read weather, and following one is walking onto the slope it is announcing."
+  summary "Gleeds are drifting lights that gather in the air over concentrated ringglass, shading from amber toward blue as the local resonance gradient steepens. People read their color the way herders read cloud, and following one is walking onto the slope it is announcing."
   kind :phenomenon
   subkind :physical_phenomenon
   status :complete
+  log "2026-09-23 — Gave the Lumenshard emission-or-reflection dispute to the Kyther prospectors who buy both programs' tables, so the open question ends in a use."
   topics :resonance, :ringglass, :navigation, :danger, :mystery, :subject_planetary_life
   prevalence :common
   appears_when all: { place: [:ringglass_rich] }
@@ -28,7 +29,7 @@ encyclopedia :gleeds do
 
     The reading is the color. A settled field shows dull amber, an even, unimpressive light that sits still for hours. As the field starts to move the amber takes a green cast, and where the gradient steepens hard the light goes blue-white and small, like a struck spark held at the top of its arc. The sequence is reliable enough that Avar route crews cover ordinary runs on the rule alone, and children can recite it: amber sit, green stand, blue go.
 
-    What the light actually is remains a working dispute. Every instrument pointed at a gleed reads it cold, and the standing survey at Lumenshard holds #{duration 12} of paired readings in which gleed brightness and measured field strength agree in trend and disagree in scale. One survey program holds that gleeds emit; another that they reflect a component of the field the instruments blend together; the paired readings fit both programs, and each publishes the same twelve columns under its own conclusion.
+    Every instrument pointed at a gleed reads it cold. The standing survey at Lumenshard keeps #{duration 12} of paired readings in which gleed brightness and field strength rise and fall together on different scales, and two survey programs there publish the same twelve columns under opposite titles: one says the light is emitted, the other that it reflects a part of the field the instruments blend together. Kyther prospectors buy both reports every season. Each program's scale table gives its own estimate of how far below a bright gleed the vein lies, and the prospector who trusts the better table that year stakes the better claim.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Reading and Misreading"

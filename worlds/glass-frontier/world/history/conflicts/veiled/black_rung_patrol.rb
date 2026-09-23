@@ -1,7 +1,7 @@
 conflict :black_rung_patrol do
   tags :subject_planetary_life
   name "The Black-Rung Patrol"
-  summary "The Black-Rung Patrol is a recurring Kyther campaign to clear armed prospectors from shelters after resonance storms."
+  summary "Recurring armed patrol of the Kyther Range shelters, reaching up to Vigil Breach behind the central glaciers."
   subkind :campaign
   status :complete
   prominence :marginal

@@ -3,7 +3,7 @@ geographic_location :ithara do
   summary "Ithara is Lithren's principal expedition hub, a frontier settlement beside ancient ruins where crews trade finds, recruit companions and depart for scattered outlying sites."
   subkind :region
   status :complete
-  prominence :recognized
+  prominence :renowned
   playable_as :chronicle_location
   context_tags :outer_system, :surface, :cold, :archive, :dock, :market, :garden
   tags :archives, :mystery, :rebuilding, :danger, :trade, :transport, :subject_lithren
@@ -12,11 +12,13 @@ geographic_location :ithara do
   log "2026-09-15 — Ithara is the principal inhabited expedition hub among dispersed ruins. Its gate return is one undertaking within a frontier whose independent crews, trade, science and predation do not depend on that project."
   log "2026-09-15 — Sharpened wealth inequality and faction-dependent passage. Freight is fairly frequent, but no general post line serves Ithara. Shared environmental danger can make outlaws necessary allies without removing their capacity for harm."
   log "2026-09-16 — Established continuous modern habitation from Sevrin's 2322 grounding. Tavia's 2408 survey supplied the later shared name and comparison method. Settlement growth, contraction, the 2372 defense and inherited property explain present conditions without a single founding faction."
+  log "2026-09-23 — Added Ithara's carrier traffic to Umarel, Belthry, Idravat and Callet, and the trade in Dorsk Survey shares at Ressa's tables."
+  log "2026-09-23 — Replaced negative-evidence and disclaimer phrasing with findings and the people who argue over them; the builder questions now point to Lithren instead of being listed again, and the composite return is defined where the gate undertaking introduces it."
 
   prose <<~PROSE
     Ithara is the main place on #{ref :lithren, "Lithren"} to find a crew, buy passage, sell a recovered work or wait for someone overdue. The name covers a modern frontier settlement and the ancient ruin group beside it. Pressure halls, workshops and landed ships occupy cleared ground above an equatorial basin. Beyond their lights, ancient courts and broad ramps descend beneath frost-driven soil.
 
-    The name spread through the #{ref :ithara_survey, "comparative survey"}. *Itharan* also describes the local ancient practice of keeping a work recoverable in several places. Side chambers retain fitted pieces, tool assemblies and models whose joints reproduce flaws in larger works. That usage follows the evidence of the collections; the builders' own name for their people remains unrecovered.
+    The name spread through the #{ref :ithara_survey, "comparative survey"}. *Itharan* also describes the local ancient practice of keeping a work recoverable in several places. Side chambers retain fitted pieces, tool assemblies and models whose joints reproduce flaws in larger works. The word is the settlers'. Tablet readers keep rival lists of name-groups that might be what the builders called themselves, and each reader defends a different favorite.
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Before the Name Ithara"
@@ -34,9 +36,9 @@ geographic_location :ithara do
   PROSE
 
   prose <<~PROSE, section: :history, heading: "Staying After the Voyages"
-    The #{ref :sevrin_stand, "Sevrin Stand"} in 2372 defeated an armed attempt to clear the grounded ship's households. Its defenders preserved their homes without taking command of every store and landing. Later neighbors invoked that victory when protecting shared approaches, while the same families continued disagreeing over rent and freight prices.
+    The #{ref :sevrin_stand, "Sevrin Stand"} in 2372 defeated an armed attempt to clear the grounded ship's households. Its defenders kept their homes and went back to their own doors afterward, leaving the stores and landings in the separate hands that held them before. Later neighbors invoked that victory when protecting shared approaches, while the same families continued disagreeing over rent and freight prices.
 
-    In 2383 the grandmother of #{ref :ressa_dorr, "Ressa Dorr"} joined two rooms into the eating hall Ressa now owns. Smaller provision loads made independent journeys possible between the larger paid departures. From 2396, repeat commissions for samples kept cold and in place rewarded careful field work as well as conspicuous objects. These customers supported some crews steadily, but did not replace the lost rush or buy passage for everyone.
+    In 2383 the grandmother of #{ref :ressa_dorr, "Ressa Dorr"} joined two rooms into the eating hall Ressa now owns. Smaller provision loads made independent journeys possible between the larger paid departures. From 2396, repeat commissions for samples kept cold and in place rewarded careful field work as well as conspicuous objects. These customers kept some crews in steady work. The rest went on borrowing against the next find, and the rush money stayed gone.
 
     The comparative expedition arrived among residents who already knew the old cuts, recent additions and paths across the basin. Its comparisons made pieces left in cheap specimen boxes worth examining again. Later returns and Witnessings brought more patrons. Some residents joined its crews; others charged them for rooms, sold them meals or continued journeys the researchers had no reason to fund.
   PROSE
@@ -80,17 +82,19 @@ geographic_location :ithara do
   prose <<~PROSE, section: :present_day, heading: "Ships and Messages"
     Trade ships arrive fairly often. Most serve expedition companies, research bodies and other factions that have already paid for the hold space. Stores come ashore while a passenger without a sponsor still searches for a berth. Independent carriers sell spare capacity, combine small commissions or offer passage in exchange for work; the next departure depends on their principal cargo and destination.
 
-    No general post line serves Ithara. Letters and parcels travel with a captain or crew willing to take them, and onward delivery must be arranged separately. Someone may leave a sealed packet with a workshop for a familiar carrier while urgent expedition freight passes through on a reserved ship. Having several vessels on the ground does not mean any will carry a stranger's belongings home.
+    Letters and parcels travel only with a captain or crew willing to take them, and whoever sends one arranges its onward delivery separately. Someone may leave a sealed packet with a workshop for a familiar carrier while urgent expedition freight passes through on a reserved ship. Four vessels can stand on the ground at once while a stranger's crate sits in a workshop corner, refused by every one of them.
   PROSE
 
   prose <<~PROSE, section: :geography, heading: "Outlying Sites"
     Crews use Ithara as their point of departure for satellite excavations, isolated buildings, exposed machinery and half-buried stretches of road. Some are visited regularly. Others appear on a few private charts, or are known by a landing mark and the person who first found them. Small finds often receive no lasting name.
 
-    The known routes cover a small part of the country. A wind-scoured ridge may expose a worked edge where an earlier crew saw only frost; a broken road can lead beyond every current survey. Some ruins belong to traditions different from Ithara's. Their proximity does not prove a shared ruler, purpose or cause of abandonment.
+    The known routes cover a small part of the country. A wind-scoured ridge may expose a worked edge where an earlier crew saw only frost; a broken road can lead beyond every current survey. Some ruins belong to traditions different from Ithara's. Nereth's comparers treat each such site as its own sequence until a matching piece ties it to a neighbor, while prospectors happily sell two nearby ruins as one lost city.
 
-    A camp may trade with Ithara while keeping its location from all but chosen carriers. Crews can bypass the hub, stay out for repeated journeys or make another camp their home. The settlement's buyers and laboratories hear much of what is found, but no one there holds a complete map.
+    A camp may trade with Ithara while keeping its location from all but chosen carriers. Crews can bypass the hub, stay out for repeated journeys or make another camp their home. The settlement's buyers and laboratories hear much of what is found. Their maps have holes in them, and the camps that keep those holes open pay carriers well for silence.
 
     #{ref :damarat, "Damarat"}'s occupied workshop makes equipment for these journeys and draws work from Ithara's repair bays. Beyond the basin rim, #{ref :oravel, "Oravel"}'s suspended galleries attract material buyers and crews seeking passages below its hanging metal surfaces. A carrier may leave with Damarat's replacement panels stacked around a collector's empty specimen cases, then return by Oravel with wet cargo and a different set of passengers. Companions who set out together can separate at either landing and meet again at Ressa's tables with incompatible accounts of where the better work lies.
+
+    Traffic to the other two major concentrations leaves from the same landings. Carriers run east up the basin to #{ref :umarel, "Umarel"} and come back with Ithara's drinking ice, cut by the kyrri households of #{ref :belthry, "Belthry"}, and with greens for the private rooms. Southbound runs to #{ref :idravat, "Idravat"} carry freight and bones for the pot at #{ref :callet, "Callet"} and return with pooled lots of inscribed flakes for the comparative tables and the readers' agents. Shares in the #{ref :dorsk_survey, "Dorsk Survey"} change hands at Ressa's tables whenever a new sounding strip goes up on the wall.
   PROSE
 
   prose <<~PROSE, section: :governance, heading: "Keeping the Peace"
@@ -98,7 +102,7 @@ geographic_location :ithara do
 
     The #{ref :sevrin_pledge, "Sevrin Pledge"} protects disarmed people facing exposure at the doors whose occupants uphold it. A pursued thief can be fed under guard while the owner negotiates a safe departure. Ressa's hall and several carriers participate; another captain can refuse. The promise gives an injured outlaw somewhere to ask for shelter without cancelling the injury they did to somebody else.
 
-    Protection thins beyond the traveled ground. A crew robbed at a distant cut must find people willing to pursue the thieves. Off-world judgments carry weight where a captain or employer agrees to act on them. There is no patrol that can promise an answer across Lithren, and a powerful expedition can hold ground that its neighbors cannot easily take back.
+    Protection thins beyond the traveled ground. A crew robbed at a distant cut must find people willing to pursue the thieves. Off-world judgments carry weight where a captain or employer agrees to act on them. Pursuit across Lithren comes from whoever agrees to go, and a powerful expedition can hold ground that its neighbors cannot easily take back.
 
     Robbers sometimes follow a successful crew homeward and demand its cargo at a narrow landing. Others pose as buyers, sell the same find to several parties or hire themselves aboard a ship they intend to steal. Some want nothing beyond valuables and an easy victim; they sell stolen pieces without learning what the excavators found in them.
 
@@ -108,15 +112,15 @@ geographic_location :ithara do
   PROSE
 
   prose <<~PROSE, section: :history, heading: "What Has Been Recovered"
-    The #{ref :ithara_tool_return, "tool return of 2416"} demonstrated that the retained pieces could preserve a complete working pattern. The #{ref :ithara_witnessings, "Ithara Witnessings"} established further acts: rebuilding damaged homes, moving pattern collections under armed guard, restoring a defense after it had been broken, and deliberately destroying parts before an evacuation.
+    The #{ref :ithara_tool_return, "tool return of 2416"} brought a complete working tool back out of the retained pieces. The #{ref :ithara_witnessings, "Ithara Witnessings"} then showed the builders at work: rebuilding damaged homes, moving pattern collections under armed guard, restoring a defense after it had been broken, and smashing parts of it before an evacuation so it would stay broken.
 
-    The conventional names #{ref :othes, "Othes"} and #{ref :sahel, "Sahel"} distinguish recurring people in those witnessed events. The #{ref :lithren, "tablet collections"} preserve writing without a securely translated history. Witnessings recover lived activity, with intervals between them that no surviving object bridges.
+    The conventional names #{ref :othes, "Othes"} and #{ref :sahel, "Sahel"} distinguish recurring people in those witnessed events. Each Witnessing is a scene, vivid and short, and the stretches between scenes belong to the #{ref :lithren, "tablet readers"}, who fill them with competing stories.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Gate Undertaking"
-    #{ref :eris_talven, "Eris Talven"} and #{ref :nereth_valis, "Nereth Valis"} are preparing #{ref :ithara_gate, "the gate complex"} for a composite return. Existing foundations and scattered witnesses may support adjoining streets and workshops as part of that subject. They do not support restoring the whole city, its inhabitants or its former climate.
+    #{ref :eris_talven, "Eris Talven"} and #{ref :nereth_valis, "Nereth Valis"} are preparing #{ref :ithara_gate, "the gate complex"} for a composite return, the Great Restorer's working that gathers a structure's scattered surviving pieces and makes one moment of its past whole again. Their comparison tables cover the gate, its court and possibly the nearest streets and workshops, the ground where foundations and scattered pieces agree. Residents who once talked about the whole city rising, warm and full of its builders, now talk about the gate and argue over who gets its workshops.
 
-    #{ref :selven_iral, "Selven Iral"}'s expedition controls fragments from outlying defenses. He wants a fortified base and exclusive use of recovered military works. #{ref :osen, "Osen"} has found deliberate gaps in one fortification and wants to trace what its departing people carried away. Their crews can cooperate on a return while pursuing incompatible uses for what comes back.
+    #{ref :selven_iral, "Selven Iral"}'s expedition controls fragments from outlying defenses, and he means the returned gate to become his fortified base, its military works his alone. #{ref :osen, "Osen"} cares less about the gate than about the deliberate gaps he found in one fortification, which point toward whatever its departing people carried off. The two men's crews share a comparison table and trade fragments across it, each planning a different use for what comes back.
 
     Eris's comparison tables draw patrons into rooms already crowded with other departures. A cutter waiting for his measurements can accept a paid field observation and be beyond the basin when the next fragment arrives. Selven keeps his people and equipment close to his guarded stores; independent crews recruit across the passage, sometimes offering his dissatisfied workers a share in a vessel or a place on a small excavation. The promised gate workshops compete with homes and businesses that their prospective occupants already have.
   PROSE
@@ -124,21 +128,21 @@ geographic_location :ithara do
   prose <<~PROSE, section: :geography, heading: "The Branch Courts"
     Several courts preserve stone sleeves arranged around empty planting beds. Branch impressions meet inside the sleeves and separate above them into repeated arches. Different courts preserve different stages of the joins. A surviving tool scene shows a worker opening a sleeve around a thickened living junction.
 
-    These finds establish tended growth among the stone works without identifying the plants. Restoring a sleeve could recover a useful fitting. It would not supply the missing living pattern of the branches it once held, or decide whether ecological change killed them.
+    The builders grew living branches through their stonework and shaped the joins. Specimen buyers pay well for any residue scraped from the beds, each hoping to be first to name the plants. A returned sleeve would come back as fitted stone around an empty space, since the branches left no surviving pieces for a restorer to gather. Researchers arguing over what changed the basin come to these courts more than anywhere else, and every side cites the dead beds.
 
-    In one court, a later paved path crosses an emptied planting bed. Its edge turns around two sleeves that were left standing, with the branch impressions facing the walkway. Repairs to the adjacent threshold continue above the new paving. People kept using that entrance after changing how the court was planted; the sequence does not establish why the bed was emptied.
+    In one court, a later paved path crosses an emptied planting bed. Its edge turns around two sleeves that were left standing, with the branch impressions facing the walkway. Repairs to the adjacent threshold continue above the new paving. People kept using that entrance after changing how the court was planted. Guides who bring visitors here each tell their own story of why the bed was emptied, and the best-paid guide tells whichever one the visitor seems to want.
 
-    Sereyat came from a side room here. Its altered playing frame preserves another kind of change made while a work remained in use. The court's paving and the instrument's alterations supply separate local sequences; neither dates the other or ties it to Othes's collections and the fighting.
+    Sereyat came from a side room here. Its altered playing frame preserves another kind of change made while a work remained in use. The court's paving and the instrument's alterations are dated separately, each against its own room, and stand apart from Othes's collections and the fighting until a matching piece connects them.
   PROSE
   prose <<~PROSE, section: :limits, heading: "Beyond the Witnesses"
-    The defenses were broken by an opposing force whose identity has not been recovered. Armed guards in the surviving events establish a military presence; they do not identify every attacker or explain why the fighting began. Evacuation followed deliberate destruction at one fort, but other settlements contracted along a different sequence.
+    The Witnessings show armed guards on the walls and defenses broken and rebuilt, and the attackers stay out of frame in every scene. At one fort, deliberate destruction preceded an evacuation. Other settlements around the basin emptied on their own schedules, by a slower sequence of closed rooms and moved collections.
 
-    The basin's old channels and layered deposits establish changing conditions without explaining what drove them. Ecological processes, deliberate intervention and consequences of the fighting remain possible in different places. Nothing recovered establishes whether the builders found resonance, altered its distribution or brought the phenomenon into the solar system. Some events may have left no surviving consequence that can answer those questions.
+    The basin's old channels and layered deposits record conditions that changed while people lived here. Ithara's residents live beside the questions those findings raise: who fought the builders, what changed the basin, where the builders went and what they had to do with resonance. Crews set out from here to chase each one across #{ref :lithren, "Lithren"}. At Ressa's tables the questions mostly come up when someone has a sample to sell.
   PROSE
 
   gm_note :appears, "A meal table fills with route drawings when a returning cutter recognizes the ridge in a family's last message from an overdue crew. A carrier already going that way offers room, provided someone can help unload at the first landing."
   gm_note :triggered_by, "Offering a find for sale attracts a buyer and someone asking where it came from. The second person may offer a useful comparison, propose a joint journey or sell the crew's route to thieves."
-  gm_note :complicates, "When a dispute turns violent near the main landings, neighboring crews protect the shared approach. Taking the fight beyond it requires companions willing to follow; the same protection does not extend across the frontier."
+  gm_note :complicates, "When a dispute turns violent near the main landings, neighboring crews protect the shared approach. Taking the fight beyond it requires companions willing to follow, because the neighbors' protection ends at the last lit landing."
 end
 
 relate :rel_ithara_part_of_lithren, :part_of, :ithara, :lithren

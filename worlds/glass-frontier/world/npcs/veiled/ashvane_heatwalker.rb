@@ -1,7 +1,7 @@
 npc :ashvane_heatwalker do
   tags :subject_planetary_life
   name "The Ashvane Heatwalker"
-  summary "The Ashvane Heatwalker crosses work yards by reading pressure shimmer through the soles of insulated boots."
+  summary "Certified heatwalker of the Ashvane hot trades, crossing yards at Shadewell, Coldside Bench and South Shade."
   type_of :heatwalking
   subkind :specialist
   status :complete

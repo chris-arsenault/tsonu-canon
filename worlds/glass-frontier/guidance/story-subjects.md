@@ -62,10 +62,10 @@ make subjects WORLD=glass-frontier SUBJECT_ARGS='--json'
 make check WORLD=glass-frontier
 ```
 
-The report loads the canonical DSL. It separates public Atlas articles, short
-veiled hooks, DM-only entries, shells, Encyclopedia entries, and structural
-records. Eras, threads, loops and themes occupy the structural column; the kind
-table distinguishes them. Public articles can contain separate DM blocks.
+The report loads the canonical DSL. It separates Atlas articles, short veiled
+hooks, shells, Encyclopedia entries, and structural records. Eras, threads,
+loops and themes occupy the structural column; the kind table distinguishes
+them. This world keeps no DM-only entries or blocks.
 
 Use the inventory and kinds to locate thin coverage. Counts alone do not measure
 article depth, campaign usefulness or how often a game selects something. A

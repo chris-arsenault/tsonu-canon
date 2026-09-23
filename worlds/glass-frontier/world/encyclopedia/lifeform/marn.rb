@@ -27,7 +27,7 @@ encyclopedia :marn do
   prose <<~PROSE
     Marn are broad-footed grazing animals kept across #{ref :avar, "Avar"} for wool, milk, hides, and meat. A mature animal stands chest-high on a human and carries a deep body under a coat that grows dense along the spine and sparse around the legs. Herding families move them between ridge shelter and open grass as water and road conditions change.
 
-    The animals are patient on firm stone and reluctant on glass-bearing clay. They feel low vibration through the outer pads of each foot and often refuse ground beginning to slip beneath a repeated load. Herders watch that response. Route keepers do not accept it as a survey.
+    The animals are patient on firm stone and reluctant on glass-bearing clay. They feel low vibration through the outer pads of each foot and often refuse ground beginning to slip beneath a repeated load. Herders watch that response. Route keepers treat it as a reason to send a sounding crew and change a road's status only on the crew's report.
   PROSE
 
   prose <<~PROSE, section: :biology, heading: "Feet, Coat, and Senses"
@@ -62,11 +62,11 @@ encyclopedia :marn do
     Market towns process more marn goods than they raise. #{ref :ladderwell, "Ladderwell"} is the eastern steppe's largest wool and machinery exchange, where highland carriers meet lowland herds and repair shops produce pumps sturdy enough for both routes.
   PROSE
 
-  cue "Herds share the steppe roads. A flitter settling nearby sends a kinetic correction through the ground and can make a tethered group pull at once, so small markets post a landing interval away from the livestock yards."
-  cue "In wet clay the pad spreads and releases at an angle, leaving a shallow crescent print instead of a deep hole."
+  cue "A steppe market's landing pad has a painted board beside it giving the hours flitters may come down, and when a craft settles early every tethered marn in the yard below jerks its head up at once and leans back against its rope."
+  cue "After rain the road into a herding camp is stamped with thousands of shallow crescents, and children sit by the pen gate sorting a basket of shed horn sheaths by the notches cut into them."
   affordance "Herders read one refusal as temperament and a whole herd facing the same empty ground as reason to move the caravan. Route keepers record the behavior and inspect the section before changing its status."
   pressure "Animals kept beside a settlement learn the rhythm of the machine they live next to, and a changed bearing unsettles the entire pen. Work on a mill or pump reaches the livestock before anyone else notices, and the handlers arrive wanting to know what was altered."
-  variation "A family herd ranges from a few animals kept beside a farm to several hundred moving between seasonal camps."
-  variation "Pack marn carry light loads across highland paths too narrow for a cargo vehicle."
+  variation "Farm marn kept in threes and fours beside a homestead are milked daily, grow heavy soft wool, and learn the one pump they live beside; camp herds of several hundred are leaner, rougher-coated, and follow lead animals who know every well on the seasonal round."
+  variation "Highland pack marn are bred for short legs and wide pads, carry a light load in felt-padded panniers along paths no hauler can use, and keep their coarse weather coat long at shearing so it pads the load."
 
 end

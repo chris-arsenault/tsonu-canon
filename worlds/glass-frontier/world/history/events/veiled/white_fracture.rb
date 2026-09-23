@@ -1,7 +1,7 @@
 incident :white_fracture do
   tags :subject_planetary_life
   name "The White Fracture"
-  summary "The White Fracture was a cutting-face collapse at Vitrael that drove crystal debris across Ashenmaw's nearest route."
+  summary "Crystal-cutting disaster on Vitrael, the hot fourth planet, whose effects reached the traffic of Ashenmaw."
   subkind :disaster
   status :complete
   prominence :marginal

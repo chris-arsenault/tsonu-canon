@@ -34,7 +34,7 @@ encyclopedia :farborn do
 
     **Distributed eyes.** Documented specimens carry eyes along surfaces that perform no common visual role: the full ventral length of a worm-like body, the inside of a translucent bell, or points that surface and submerge through an ooze. Some track nearby movement. Others hold a fixed focus or turn toward points with no visible or instrumented target.
 
-    **Independent mouths.** Mouths occur along flanks and tentacles and inside larger feeding apertures. Observed functions include feeding, vocalization, and sustained opening with no measured exchange. Larger beasts can process different material through several mouths at once; a drift-eel may feed at three points along its body independently.
+    **Independent mouths.** Mouths occur along flanks and tentacles and inside larger feeding apertures. Observed functions include feeding, vocalization, and sustained opening with no measured exchange. Larger beasts can process different material through several mouths at once; a #{encyclopedia_ref :sheareel, "sheareel"} may feed at three points along its body independently.
 
     **Displaced resonance presence.** Tuners in contact with a Farborn report its presence offset from the body an instrument records. Containment Tuners compare the sensation to a lower-amplitude #{ref :bloom_zones, "Bloom Zone"} reading. Instruments have not reproduced the offset, and the Echo Ledger Conclave lists the comparison as practitioner testimony rather than a measured trait.
   PROSE

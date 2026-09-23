@@ -7,6 +7,7 @@ geographic_location :kyther_range do
   status :complete
   tags :surface, :resonance, :navigation, :materials, :danger, :subject_planetary_life
   prominence :recognized
+  log "2026-09-23 — Added Tobra Oreth and her quarrel with the Ulleth quarry valley to the valley communities."
   position frame: :kaleidos_surface, latitude_deg: 10, longitude_deg: -58,
            size_class: :region
 
@@ -60,6 +61,10 @@ geographic_location :kyther_range do
     Kyther people farm, herd, quarry, guide, carry, and maintain waterworks. The same household may keep animals in summer, cut stone in autumn, and provide a pass worker during winter. Highland towns trade wool, hard cheese, preserved fruit, building stone, and instrument crystal for steppe grain and manufactured parts.
 
     Local Tuners train first on water and snow. They learn which spring has moved, whether a retaining wall has taken the field from the slope behind it, and how far a quarry strike will carry through a seam. Clarisant methods are respected for unfamiliar instruments. A new graduate still follows the pass keeper who has sounded the same ridge since childhood.
+
+    Pass keeping runs in families, and a family that keeps a pass nobody else can keep can charge for it. The #{ref :gethry_house, "Gethry House"} holds the one central pass that stays open all winter and sells its crossings by the note. Everyone in the central range believes the house has let unpaid parties walk onto the upper bowl on quiet posts; no valley council has managed to prove it.
+
+    The range's best-known builder, #{ref :tobra_oreth, "Tobra Oreth"}, keeps her workshop in a valley north of the Gethry saddle and floors housing courts across the system with dark slate from the Ulleth quarry nearby. In 2434 she bought the rest of that quarry's dark bed for her own courts. The quarry crews lost their other buyers with it, and the valley has taken their side.
 
     Valley speech changes quickly across the range. Long closures during the Signal Famine strengthened those differences, as did the habit of marrying and trading along watersheds rather than across high passes. Shared work remains legible: warning colors, bridge counts, and the right to close a route carry from one valley to the next even when everyday words do not.
   PROSE

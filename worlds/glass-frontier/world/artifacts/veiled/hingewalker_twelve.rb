@@ -1,7 +1,7 @@
 artifact :hingewalker_twelve do
   tags :subject_journeys_trade
   name "Hingewalker Twelve"
-  summary "Hingewalker Twelve is a joint-maintenance machine used along the Keel. It crawls across loaded docking joints and replaces one bearing without stopping traffic."
+  summary "Keel maintenance crawler working the docking joints at Hinge Six and Mareth's Latchhouse."
   subkind :machine
   status :complete
   prominence :marginal

@@ -58,6 +58,8 @@ geographic_location :sable_crescent do
     The #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} brings money and skilled work into the basin. Its archivists employ boat crews, builders, paper makers, cooks, guides, and instrument repairers in addition to listeners. Thornvault remains the institutional center, while Ledgerfall and smaller listening houses handle much of the public traffic. Water boards and settlement councils govern the places around them.
 
     Crescent households learn which voices belong to living neighbors. People face one another when they speak near a loud channel. Door signals use light or touch as well as sound. A clear old voice can still halt a room, but most river speech passes through daily work without receiving an answer.
+
+    In the southern marsh, families such as those of #{ref :oore, "Oore"} make a living from the voices instead. They practise #{encyclopedia_ref :branch_holding, "branch holding"}, sitting small secret surfacing points at night and selling any clean ring-era phrase they catch. Their water is worth fighting for, and they fight for it.
   PROSE
   prose <<~PROSE, section: :access, heading: "Across the Basin"
     Shallow boats carry most freight below the cliffs. Hulls have broad bottoms, protected propellers, and sounding poles for crystal sediment. Pilots read reed direction, current color, and the pitch returned through the pole. A channel with a strong new signal may also contain a fresh deposit or an undercut bank.

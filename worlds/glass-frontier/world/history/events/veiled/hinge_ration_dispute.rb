@@ -1,7 +1,7 @@
 incident :hinge_ration_dispute do
   tags :subject_journeys_trade
   name "The Hinge Ration Dispute"
-  summary "The Hinge Ration Dispute was a blockade of Hinge Six by Fourth Bell residents after dock crews claimed the house's emergency stores."
+  summary "Supply dispute between Fourth Bell House, the Keelward port hostel, and the dock crews of Hinge Six, a small Keel waystation."
   subkind :dispute
   status :complete
   prominence :marginal

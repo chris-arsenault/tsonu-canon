@@ -1,7 +1,7 @@
 incident :far_bell_ravel_tides do
   tags :subject_journeys_trade
   name "Far Bell Ravel Tides"
-  summary "Far Bell Ravel Tides are periodic force shifts that draw loose objects toward the next active signal relay before releasing them together."
+  summary "Ravel Tides felt beyond Ravel itself, at Tanel, Issel and the Far Bell traffic marker off Karet-3."
   type_of :ravel_tides
   subkind :incident
   status :complete

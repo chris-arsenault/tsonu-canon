@@ -12,6 +12,7 @@ installation :ladderwell do
   access "Steppe road, regional kite field, and highland pack routes"
   tags :surface, :resonance, :trade, :"structural-freq", :"kinetic-freq", :subject_planetary_life
   prominence :recognized
+  log "2026-09-23 — Put named chain-house, route-keeper, mill and lower-bench people into Ladderwell, added its market food and fighting court, and turned the second-tone section into the quarrel over the half-closed pump court at wool week."
 
   descriptive_identity(
     setting:
@@ -26,19 +27,20 @@ installation :ladderwell do
       "tanks, where workers skim the crystal sediment and sound it " \
       "before it reaches a pipe. Millers, smiths, and riggers rebuild " \
       "machinery for the smaller steppe towns, and market week fills " \
-      "the stairs with pack frames and handcarts.",
+      "the stairs with pack frames, handcarts, wool bales and the " \
+      "smell of fried fish.",
     access:
       "The steppe road, a regional kite field, and highland pack routes " \
       "converge on the lower yards; during market week the central " \
       "stair flights belong to uphill traffic and residents take the " \
       "narrower house stairs down.",
     hazards:
-      "Everyone reads the chain — a click is a dry bearing, a changed " \
-      "beat a stretched link — and anyone on the chain-house roster, " \
-      "down to a first-season apprentice, can close a public line on an " \
-      "unsafe reading. The western third of the old pump court is roped " \
-      "off while route keepers chase a second tone under its north " \
-      "corner."
+      "Everyone reads the chain: a click is a dry bearing, a changed " \
+      "beat a stretched link. Anyone on the chain-house roster, down to " \
+      "a first-season apprentice, can close a public line on an unsafe " \
+      "reading. The western third of the old pump court is roped off " \
+      "while route keepers chase a second tone under its north corner, " \
+      "and the town's gatherings are crowding onto what is left."
   )
 
   prose <<~PROSE
@@ -46,38 +48,50 @@ installation :ladderwell do
 
     The deep well allowed the first settlement to remain. Its pump supported the larger town that followed. A continuous chain lifts water from the shaft to settling tanks above the middle bench, then gravity carries it to public taps, wash troughs, fire tanks, workshops, and irrigation lines. The machinery is plain enough to repair locally and large enough that no second town on the steppe keeps a full replacement.
   PROSE
-  prose <<~PROSE, section: :operations, heading: "The Chain House"
-    The chain house is a long stone building wrapped around the pump head. Two kinetic drives turn a linked chain of cups through the shaft. One drive can carry drinking water and the fire tanks. Both are required for mills and field irrigation. Ladderwell keeps them on separate ringglass cuts so a fault in one does not pull the other out of tune.
 
-    Water enters a row of open settling tanks before it reaches the reservoir. Fine crystal carried up from the aquifer falls out there. Workers skim each tank, sound the sediment, and divert any load that holds a strong signal response. Most becomes aggregate. Some carries blurred speech from deeper channels and is sealed for the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} rather than sent through the town's pipes.
+  prose <<~PROSE, section: :people, heading: "A Town Built Around Water"
+    Pump maintenance is civic work. Households owe a small water levy and one labor call each year. Most calls involve clearing channels or repairing stair drains, and a household that sends a hired hand in its place is talked about at the taps. The chain-house roster requires training and pays wages. Anyone on that roster can close a public line when a reading turns unsafe, including an apprentice working their first season.
+
+    The middle benches support millers, smiths, riggers, leather workers, and shops that rebuild machinery for smaller steppe towns. #{ref :blue_step_works, "Blue Step Works"} tests heavy structural gear on isolated load pads. Farmers bring grain and oilseed to the lower yards. Highland carriers bring wool, stone, preserved food, and instrument ore down from the Kyther valleys, and Ladderwell is the eastern steppe's biggest exchange for #{encyclopedia_ref :marn, "marn"} wool. Market week fills the exterior stairs with pack frames and handcarts; residents leave the central flights to uphill traffic and descend by the narrower house stairs. The yards smell of oilseed presses and of preserved #{encyclopedia_ref :othri, "othri"} fried on skillets for anyone with a coin, and orchard families sell sharp yellow #{encyclopedia_ref :velori, "velori"} fruit by the basket from the bottom step of every flight.
+
+    The lowest bench, below the market yards, is where people land who arrived with nothing. Dozens of households there came from #{ref :semmet, "Semmet"} owing the winch, and keep the Semmet name. Most haul for the mills or rig for the chain house, and sing their families' counting songs at weddings. A few are pricing air pumps and a winch head of their own, and talk about going back down the Semmet ramp on a rig no one else owns; Esk Semmet, a former hauler with a loud laugh and a ledger of pledges in her apron, collects the money. When a collector from #{ref :semmet_winch, "the Semmet Winch"} came to the pump house with a copied slate, the chain-house roster refused him water, and the lower bench walked him to the kite field.
+
+    The same bench holds #{ref :evran_court, "Evran Court"}, a sunken sand ring where anyone can call an open bout. Evening fights there draw mill hands, highland carriers and off-shift riggers, and more money changes hands on its benches than in the wool yards on a slow day.
+  PROSE
+
+  prose <<~PROSE, section: :operations, heading: "The Chain House"
+    The chain house is a long stone building wrapped around the pump head. Two kinetic drives turn a linked chain of cups through the shaft. One drive can carry drinking water and the fire tanks. Both are required for mills and field irrigation. Ladderwell keeps them on separate ringglass cuts so a fault in one stays out of the other's tuning.
+
+    Hild Ladder has been master of the chain house since 2427. She sleeps in the house during market week, when the mills run both drives from dawn to dark, and her voice carries down two benches when she calls a line closed. The mill owners on the middle bench send her beer at the new year and complain about her the rest of it.
+
+    Water enters a row of open settling tanks before it reaches the reservoir. Fine crystal carried up from the aquifer falls out there. Workers skim each tank, sound the sediment, and divert any load that holds a strong signal response. Most becomes aggregate. Some carries blurred speech from deeper channels and is sealed for the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"}. Speaking sediment sells well to private buyers, and in 2433 Hild caught one of her own skimmers carrying sealed jars down to a Glasswake buyer at the kite field. She had him walked off the roster in front of the whole tank crew and paid the Conclave for the missing jars out of her own wages.
 
     The chain gives advance warning of trouble. A dry bearing clicks. A stretched link changes the beat against the guide. Crystal accumulating in a cup adds a high answer that returns once per circuit. People living near the upper bench hear those changes from bed. A steady chain is part of Ladderwell's night sound.
   PROSE
+
   prose <<~PROSE, section: :history, heading: "The Move Uphill"
     In 2434 the western wall of the chain house began to settle. The pumps' repeated load had aligned a shallow layer of glass-bearing clay beneath the foundation. Survey stakes showed the slip extending toward the intake; shutting down and rebuilding in place would have left the town on stored water while crews worked above an unstable shaft.
 
     #{ref :counterweight, "The Counterweight"} proposed moving the whole chain house to firm stone on the next bench. Ladderwell supplied quarry crews, pipe fitters, teamsters, cooks, and every jack the surrounding towns could spare. The #{ref :counterweight_road_rig, "road rig"} carried the building across a temporary steel-and-timber path while a second drive and flexible intake kept water moving.
 
-    The route changed twice. One crib sank at the lower turn. Later, a local hand heard a warning shackle answer between the called counts and stopped the move. Both times the load was settled before anyone argued about the reading. The chain slowed but did not stop. Five days after the first lift, the house stood on the upper bench and the reservoir remained above the fire mark.
+    The route changed twice. One crib sank at the lower turn. Later, Brun Ladder, a mill hand working his first labor call, heard a warning shackle answer between the called counts and stopped the move. Both times the load was settled before anyone argued about the reading. Brun joined the chain-house roster that winter, and people still buy him drinks for it. The chain slowed and kept turning. Five days after the first lift, the house stood on the upper bench and the reservoir remained above the fire mark.
   PROSE
-  prose <<~PROSE, section: :people, heading: "A Town Built Around Water"
-    Pump maintenance is civic work rather than a private trade. Households owe a small water levy and one labor call each year. Most calls involve clearing channels or repairing stair drains. The chain-house roster requires training and pays wages. Anyone on that roster can close a public line when a reading turns unsafe, including an apprentice working their first season.
 
-    The middle benches support millers, smiths, riggers, leather workers, and shops that rebuild machinery for smaller steppe towns. #{ref :blue_step_works, "Blue Step Works"} tests heavy structural gear on isolated load pads. Farmers bring grain and oilseed to the lower yards. Highland carriers bring wool, stone, preserved food, and instrument ore down from the Kyther valleys. Market week fills the exterior stairs with pack frames and handcarts; residents leave the central flights to uphill traffic and descend by the narrower house stairs.
-
-    Large gatherings take place on the old pump foundation, now a paved court crossed by the exposed outline of its former walls. The western edge still moves a little after heavy rain. Surveyors paint the measured shift directly on the paving. Musicians and step dancers use the stable eastern half, and nobody objects when a route keeper interrupts a performance to test the floor.
-  PROSE
-  prose <<~PROSE, section: :present_day, heading: "Present Day"
+  prose <<~PROSE, section: :present_day, heading: "Wool Week on Half a Court"
     The moved chain house is working at full capacity. Its temporary intake pipe was replaced with a permanent jointed line designed to tolerate small changes in the lower bench. The town retained copies of the bridge box, pressure sleds, and numbered warning shackles used in the move. They hang in the municipal rigging store and leave only for work that threatens a water line, bridge, mill, or occupied building.
 
-    The abandoned foundation has not settled evenly. Its north corner now returns a clear second tone below the known clay layer. Ladderwell's route keepers have closed one drain and the western third of the court while they determine whether the sound comes from stone, water, or buried construction.
+    Large gatherings take place on the old pump foundation, now a paved court crossed by the exposed outline of its former walls. The western edge still moves a little after heavy rain. Surveyors paint the measured shift directly on the paving. Musicians and step dancers use the stable eastern half, and they stop without complaint when a route keeper walks onto the floor to test it.
+
+    The abandoned foundation has settled unevenly. Its north corner now returns a clear second tone below the known clay layer. Tosk Ladder, who leads the route keepers, has closed one drain and the western third of the court while his crew works out whether the sound comes from stone, water, or buried construction, and he means to keep it closed until they know.
+
+    Wool week has arrived on top of him. The marn buyers need the court's full width for their bale lines, and Gerd Ladder, who owns the largest mill on the middle bench, has offered to pay for carts of rubble to fill the north corner and end the matter. Two nights ago someone tipped three of those carts into the roped section; Tosk's crew dug them out by lamplight. Esk Semmet's son is marrying a Ladder mill girl on the court at the end of the week, and the lower bench has announced that the dancing will use the rope as its outer line whatever the route keepers say.
   PROSE
 
   gm_note :appears, "The chain runs all night and the upper benches hear it from bed, so a night scene here is set against a steady beat that the whole town can read. " \
                     "A click is a dry bearing, a changed beat is a stretched link, and a high answer once per circuit is crystal riding up in a cup."
-  gm_note :triggered_by, "Anyone curious about the town's water is taken up to the settling tanks and shown the skimming. Sediment that answers strongly is kept out of the pipes: most becomes aggregate, and the fraction carrying blurred speech is sealed for the #{ref :echo_ledger_conclave, "Conclave"}."
+  gm_note :triggered_by, "Anyone curious about the town's water is taken up to the settling tanks and shown the skimming. Sediment that answers strongly is kept out of the pipes: most becomes aggregate, and the fraction carrying blurred speech is sealed for the #{ref :echo_ledger_conclave, "Conclave"}, which Glasswake buyers at the kite field will pay a skimmer to forget."
   gm_note :complicates, "The old pump court is Ladderwell's gathering ground and a third of it is roped off. " \
-                        "Until the route keepers name the second tone under the north corner, a market, a meeting, or a dance happens on the stable eastern half, and a keeper may interrupt any of them to test the floor."
+                        "Wool buyers, a Semmet wedding and a mill owner who has already dumped rubble into the closed section all want that third back, and Tosk Ladder's route keepers will stop any of them to test the floor."
 end
 
 relate :rel_ladderwell_in_avar, :located_in, :ladderwell, :avar, since: 2176 do

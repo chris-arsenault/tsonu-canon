@@ -6,7 +6,6 @@ artifact :communication_shard do
   tags :resonance, :"signal-freq", :"ring-era", :mystery, :subject_bloom
   prominence :forgotten
   function "Open a private signal channel to a hidden elven relay"
-  dm!(public_entry: :dern_talish)
 
   descriptive_identity(
     appearance:
@@ -43,12 +42,16 @@ artifact :communication_shard do
     The shard opens only near an active Bloom cordon or a pre-Glassfall signal lattice. Away from either field, the central line remains single and cold. Strong damping can prevent contact; ordinary jamming cannot.
 
     Its frequency lies outside every closure used in current resonance notation. A Tuner can observe the first interval and cannot follow it to a repeatable tone. The elves built that controlled discontinuity into the glass. A fractured shard would leave Talish without a channel and expose a piece of their signal practice to whoever recovered it.
+
+    Council staff know that Talish carries a personal keepsake from the cordons and never takes it off. Nobody outside the hidden habs besides Talish knows what it does.
   PROSE
+
+  gm_note :appears, "Near an active cordon, anyone watching Talish closely sees her press something small against her jaw and go still, as if listening."
 end
 
-relate :rel_oram_sells_possessed_communication_shard, :possesses, :oram_sells, :communication_shard, since: 2421, till: 2432, dm: true do
+relate :rel_oram_sells_possessed_communication_shard, :possesses, :oram_sells, :communication_shard, since: 2421, till: 2432 do
   prose "Oram Sells held the shard as First Threshold and transferred its contact sequence to Dern Talish before his death."
 end
-relate :rel_communication_shard_resonates_false_form, :resonates_with, :communication_shard, :the_false_form, dm: true do
+relate :rel_communication_shard_resonates_false_form, :resonates_with, :communication_shard, :the_false_form do
   prose "Its opening interval uses the same failure of closure by which the False Form presses into ordinary geometry."
 end

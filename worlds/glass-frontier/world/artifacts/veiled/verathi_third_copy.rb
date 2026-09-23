@@ -1,7 +1,7 @@
 artifact :verathi_third_copy do
   tags :subject_politics_history
   name "The Verathi Third Copy"
-  summary "The Verathi Third Copy is an exchange-compact record held between Verathi and Accord Shore. It preserves concessions omitted from both public versions."
+  summary "Third written copy of the exchange compact, associated with Verathi and Sithari's Accord Shore."
   subkind :record
   status :complete
   prominence :marginal

@@ -7,6 +7,7 @@ installation :hinge_six do
   status :complete
   tags :orbital, :transport, :trade, :navigation, :resonance, :subject_journeys_trade
   prominence :marginal
+  log "2026-09-23 — Named the five keepers and gave the galley, the drum at night and the held collar their people; route strips, collars and freight frame kept as working background."
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: 0.55, angle_offset_deg: 18
 
@@ -23,8 +24,8 @@ installation :hinge_six do
       "receiving port, while five keepers and mechanics run overlapping " \
       "watches and passing crews cook, clean, and shift cargo to earn " \
       "water or bunk space. News crosses the station faster than " \
-      "freight — port conditions, prices, and ships seen beyond the " \
-      "last common beacon.",
+      "freight: port conditions, prices, and ships seen beyond the last " \
+      "common beacon, traded over a pot of four-collar stew.",
     access:
       "The route room prints a joined strip reconciling inner-corridor " \
       "marks with the outer branch; a pilot may refuse it and keep their " \
@@ -34,16 +35,32 @@ installation :hinge_six do
     hazards:
       "Since Ironwhistle returned to the branch routes, outer strips " \
       "carry a disputed predator surcharge, and one collar is held by a " \
-      "tug refusing release until the fee comes off — two passenger " \
-      "craft stacked behind it. When an outer port closes late, the " \
-      "drum overfills and stranded passengers sleep in the route room " \
-      "behind privacy cloth."
+      "tug refusing release until the fee comes off, with two passenger " \
+      "craft stacked behind it. When an outer port closes late, the drum " \
+      "overfills and stranded passengers sleep in the route room behind " \
+      "privacy cloth."
   )
 
   prose <<~PROSE
     Hinge Six is a small waystation on the branch of #{ref :keel, "the Keel"} where traffic from Kaleidos turns outward toward Korvath and Ashvane. It consists of a beacon house, one rotating habitation drum, four docking collars, and a freight frame that can hold six separated loads. Most vessels stop only long enough to exchange route records and confirm the next receiving port.
 
-    The station's name predates the present hull. It was the sixth marked change in direction on the first reopened outer route. Later surveys moved the corridor and rebuilt the station twice. The name stayed with the job rather than the structure.
+    The station's name predates the present hull. It was the sixth marked change in direction on the first reopened outer route. Later surveys moved the corridor and rebuilt the station twice, once after the #{ref :hinge_six_occupation, "occupation of 2362"}. The name stayed with the job.
+  PROSE
+
+  prose <<~PROSE, section: :people, heading: "Five Hands"
+    Five route keepers and mechanics staff the station under overlapping watches, and every passing crew learns their names by the second meal.
+
+    Dassa Tesk is the head keeper. She introduces herself as "Third Bell, Hinge Six" in the #{encyclopedia_ref :keel_route_kin, "Route Kin"} way, and her family has kept watch on this section since her grandfather was one of the keepers who shut the relay during the occupation. Tesk is tall, deliberate and funny in a flat voice, and she settles most disputes at the station by asking both parties to help her with something heavy.
+
+    #{ref :bell_var, "Bell Var"} holds the berths. Var closes a collar when its docking echoes fall outside the day's safe count and will not reopen it for a captain's schedule, a carrier's contract or a bribe, which captains have tested. Tug crews call Var the bolt. Var has a collection of the objects captains have offered, labeled with the ship's name, and keeps it on a shelf in the beacon house.
+
+    Sella Mune keeps the route room and prints the joined strips. Mune is the station's news: she reads every mark on every strip, remembers which ship was seen where, and trades that knowledge for gossip from the far end of the branch. Ketter Oume, the older of the two mechanics, lost a thumb to a collar ring and plays tiles with passing crews for reductions in their route charge, which Vantara has told him to stop. Pim Loor, the younger, is the best cook on the station and would rather be cooking than fixing anything.
+  PROSE
+
+  prose <<~PROSE, section: :culture, heading: "Four-Collar Stew"
+    Passing crews cook, clean, and help with cargo because the permanent hands cannot service four collars alone. Work earns water, bunk space, or a reduction in the route charge. Most crews choose the galley.
+
+    The galley's standing dish is four-collar stew. Every docked ship adds something from its stores, and Loor builds the pot from whatever arrives: thesset pods and dried irul from a Korvathi hauler, Sithari flatbread torn in at the end, preserved fish from an outer moon, a spoon of Ashvane salt. A full station makes a thick stew with four accents. A quiet week makes a thin one, and crews measure how busy the branch has been by the color of the pot. A ship that eats from the pot and adds nothing is remembered on the route, and Mune writes its name in the margin of the next strip she prints for it.
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "Four Collars and a Drum"
@@ -51,36 +68,34 @@ installation :hinge_six do
 
     The habitation drum contains twelve bunks, a galley, a route room, a clinic cabinet, and one wash space shared by crew and stranded passengers. Its slow rotation provides enough weight for sleep and cooking. The beacon house remains still, connected through a joint passage whose floor gradually becomes a wall.
 
-    Water and pressure reserve sit near the center. A visiting ship can buy both. Drive mass and specialized parts depend on what the last freight tender left behind.
+    Water and pressure reserve sit near the center. A visiting ship can buy both. Drive mass and specialized parts depend on what the last freight tender left behind, and Oume keeps a list of what the tender forgot pinned above his bench.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Turning Outward"
     A ship approaching from Kaleidos carries a route record shaped by the inner corridor's beacons. Hinge Six compares it with the outer branch, where receiving windows, rescue coverage, and field conditions follow different keepers. The route room prints one joined strip with the authority and expiry of every mark left visible.
 
-    Pilots can decline the joined strip and continue under their own records. They must still declare which receiving port expects them. A vessel without an answer remains at the station or departs as unreceived traffic, outside the ordinary rescue pools.
+    Pilots can decline the joined strip and continue under their own records. They must still declare which receiving port expects them. A vessel without an answer remains at the station or departs as unreceived traffic, outside the ordinary rescue pools. Tesk has towed unreceived ships home anyway, as Route Kin do, and paid for it out of her pool share.
 
     Mixed cargo uses the freight frame while its next leg is settled. Each of the six positions has separate ceramic breaks and a manual release. A load whose response changes can be left without holding every docked ship.
   PROSE
 
-  prose <<~PROSE, section: :people, heading: "A Short Stop That Becomes Long"
-    Five route keepers and mechanics staff the station under overlapping watches. Passing crews cook, clean, and help with cargo because the permanent hands cannot service four collars alone. Work earns water, bunk space, or a reduction in the route charge.
+  prose <<~PROSE, section: :atmosphere, heading: "When the Drum Fills"
+    The drum fills when an outer port closes after a ship has already left the inner system. Stranded passengers sleep in the bunks first, then in the route room and joint passage. Privacy cloth hangs from hooks installed after the first such closure. On a full night the drum smells of stew, wet laundry and too many people, and the passage sleepers lie with their heads toward the drum, since a body laid the other way wakes up with its feet on the wall.
 
-    The drum fills when an outer port closes after a ship has already left the inner system. Stranded passengers sleep in the bunks first, then in the route room and joint passage. Privacy cloth hangs from hooks installed after the first such closure.
-
-    News moves through Hinge Six faster than freight. Crews arriving from opposite directions exchange port conditions, price changes, and the names of ships seen beyond the last common beacon.
+    News moves through Hinge Six faster than freight. Crews arriving from opposite directions exchange port conditions, price changes, and the names of ships seen beyond the last common beacon, usually at the galley table after the stew is gone and Oume has brought out the tiles. The drum lights are dimmed at the end of Tesk's watch and nobody obeys them.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Added Fee"
-    Vantara has added a predator surcharge to Hinge Six's outer strips after Ironwhistle returned to the branch routes. The charge covers iron decoys and longer rescue standby. Independent carriers accept the decoys and contest a fee calculated by cargo mass when the dragon follows drive output.
+    Vantara has added a predator surcharge to Hinge Six's outer strips after #{ref :ironwhistle, "Ironwhistle"} returned to the branch routes. The charge covers iron decoys and longer rescue standby. Independent carriers accept the decoys and contest a fee calculated by cargo mass when the dragon follows drive output. Mune prints the strips with the surcharge on them and tells every independent captain, unasked, that she thinks the fee is stupid.
 
-    One collar is occupied by a tug refusing release until the charge is removed from its strip. Two passenger craft are waiting behind it. The station can move the tug only by cutting the soft ring or persuading its crew to bring the drive cold.
+    One collar is occupied by a tug, the *Anno's Tally*, whose captain, Imrie Vosh, refuses release until the charge is removed from her strip. Two passenger craft are waiting behind it, and their passengers are sleeping in the joint passage. The station can move the tug only by cutting the soft ring or persuading its crew to bring the drive cold. Var will not cut a ring. Tesk has been trying persuasion, which so far has meant feeding Vosh's crew at the galley while the passengers watch. The passengers want the ring cut. Vosh's crew has added nothing to the stew.
   PROSE
 
-  gm_note :appears, "Turning outward from Kaleidos means stopping for a joined route strip, and the route room asks which receiving port " \
+  gm_note :appears, "Turning outward from Kaleidos means stopping for a joined route strip, and Sella Mune in the route room asks which receiving port " \
                     "expects the ship; a vessel with no answer stays at the collars or leaves as unreceived traffic, outside the " \
                     "rescue pools."
   gm_note :triggered_by, "Crews short of money work the station: cooking, cleaning, and cargo handling alongside the five permanent " \
-                         "hands buys water, bunk space, or a cut in the route charge."
+                         "hands buys water, bunk space, or a cut in the route charge, and Pim Loor expects something for the pot."
   gm_note :complicates, "One of four collars is held by a tug that will not release until the predator surcharge comes off its strip, " \
                         "with two passenger craft waiting behind it; freeing the berth means cutting the soft ring or talking its " \
                         "crew into a cold drive."

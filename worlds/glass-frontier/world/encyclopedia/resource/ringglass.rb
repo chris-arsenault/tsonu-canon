@@ -46,7 +46,7 @@ encyclopedia :ringglass do
   )
 
   prose <<~PROSE
-    Ringglass is the crystalline material the orbital rings were built from. It is the primary medium through which ambient #{encyclopedia_ref :resonance, "resonance"} is concentrated and channeled into practical applications.
+    Ringglass is the crystalline material the orbital ring was built from. It is the primary medium through which ambient #{encyclopedia_ref :resonance, "resonance"} is concentrated and channeled into practical applications.
   PROSE
   prose <<~PROSE, section: :sources, heading: "Sources"
     Three sources feed the ringglass trade.

@@ -6,11 +6,11 @@ theme :what_survives do
   status :complete
 
   prose <<~PROSE
-    The #{ref :ithara_tool_return, "Ithara tool return"} recovered useful work. The guarded collections associated with #{ref :othes, "Othes"} preserved domestic patterns and military power together. #{ref :sahel, "Sahel"} restored homes and later destroyed the recoverability of a defense. The surviving sequence establishes both kinds of action without making one the meaning of an entire civilization.
+    The #{ref :ithara_tool_return, "Ithara tool return"} recovered useful work. The guarded collections associated with #{ref :othes, "Othes"} preserved domestic patterns and military power together. #{ref :sahel, "Sahel"} restored homes and later smashed the pieces that would have let a defense be restored behind the departing people. Both acts belong to the same builder, and Itharan storytellers pick whichever suits the evening.
 
-    The #{ref :ruvian_return, "return of Ruvian"} permanently cost its restorer depth perception. Its crew continues to alter the ship. Preservation did not require its users to stop living. #{ref :eris_talven, "Eris Talven"} now chooses what evidence is sufficient for a larger return, while #{ref :selven_iral, "Selven Iral"} intends to control the recovered defenses.
+    The #{ref :ruvian_return, "return of Ruvian"} permanently cost its restorer depth perception. Its crew went on refitting the ship afterward, the way any crew does. #{ref :eris_talven, "Eris Talven"} now decides how many matching pieces are enough for a larger return, while #{ref :selven_iral, "Selven Iral"} intends to control the recovered defenses.
 
-    A complete recovered work can be valuable. A deliberately incomplete one can record an escape. An unanswered historical question can remain unanswered while people act on what the surviving evidence does establish.
+    A complete recovered work can earn a living for the people who hold it. A deliberately broken one can record an escape. Crews act on what they have dug up and leave the larger questions to the people who argue about them at #{ref :ithara, "Ithara"}'s tables.
   PROSE
 
 

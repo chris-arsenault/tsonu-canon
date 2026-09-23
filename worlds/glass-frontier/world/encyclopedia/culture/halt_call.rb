@@ -5,35 +5,49 @@ encyclopedia :halt_call do
   subkind :work_tradition
   status :complete
   log "2026-08-31 — Renamed Workshop Authority to Halt-Call; the name centers the spoken stop that carries across ownership and trade boundaries."
+  log "2026-09-23 — Rewrote around the floor workers, watch-holders and owners who live with the stop, replacing the ordered greeting in manner and hospitality with plain behavior."
   topics :governance, :danger, :trade, :training, :subject_politics_history
   prevalence :common
   available_globally
 
   descriptive_identity(
-    manner: "Workers under this custom name their standing before their diagnosis — 'I hold the " \
-            "air watch, stop the line' — and owners answer the standing first. The argument about " \
-            "what the gauge meant happens after the drives are quiet.",
-    hospitality: "A visiting crew is shown the shop's stop signals with the wash room and the " \
-                 "water, in that order, and a shop that skips the tour is telling the visitors " \
-                 "what it thinks of them."
+    appearance: "Watch-holders wear a brass plug on a thong at the collar, stamped with the watch " \
+                "they hold, and hand it to the next holder at the shift bell.",
+    manner: "A worker calling the halt shouts it once, names the watch they hold, and points at " \
+            "the gauge or wall that alarmed them; the argument about what it meant waits until " \
+            "the drives are quiet.",
+    hospitality: "A shop shows visiting crews its stop signals on the same walk that shows them " \
+                 "the wash room and the water barrel, and a shop that skips the stop signals has " \
+                 "told its visitors how little it values them."
   )
 
   prose <<~PROSE
-    A workshop may belong to one owner while drawing air, heat, power, and structural support from an inhabited place. Resonance deepens the entanglement: a cutting floor's kinetic work travels through the ground into the neighbor's foundations, a mistuned drive hums in every connected wall, and a shop can poison a district's shared bands as surely as its water. Halt-Call is the answer worked out across the system: command over the job belongs to the owner, and authority to stop it belongs to everyone responsible for what the job touches. A worker who hears a missed pressure pulse, a cordon keeper watching unstable tools, or a receiver reading dangerous cargo can call the halt before a supervisor accepts the diagnosis.
+    The shout is one word, "Halt," and it carries across a cutting floor over the drives. Whoever shouts it names the watch they hold and points: at a gauge, a wall, a crate. The drives spool down. For a few minutes the shop is full of workers standing in their aprons, listening to the building settle.
 
-    Stopping early is expected to produce false alarms, and the custom prices them in. The burden falls on the person who wants to resume: show a complete air cycle, a stable instrument watch, a readable cargo history, or another local proof that the shared system can carry the load. Owners retain control of schedules and methods. The atmosphere, the road, the wall, and the neighboring shop stay common property of everyone a bad decision would take with them, and the halt-call is those neighbors' standing vote.
+    Workshops share their bodies with everyone around them. A shop may belong to one owner while drawing air, heat, power and structural support from an inhabited place. Resonance deepens the entanglement: a cutting floor's kinetic work travels through the ground into the neighbor's foundations, a mistuned drive hums in every connected wall, and a careless shop can foul a district's shared bands as surely as its water. Halt-Call settles who may stop the work. The owner commands the job. Everyone responsible for what the job touches can halt it: a worker who hears a missed pressure pulse, a cordon keeper watching an unstable tool, a receiver reading a dangerous cargo.
+
+    Early stops produce false alarms, and the custom expects them. Whoever wants to resume carries the burden: two people witnessing a complete air cycle, an instrument watch held stable through a full shift, a cargo history read against the manifest, or another local proof that the shared system can take the load. Owners keep their schedules and methods. The air, the road, the walls and the shop next door belong to everyone a bad decision would take along with it.
   PROSE
 
-  prose <<~PROSE, section: :structure, heading: "Watches and Proofs"
-    The custom runs on named watches. A shop posts who holds the air watch, the ground watch, the cargo watch — pooled across small crews the way small herds pool under one drover — and the watch-holder's call carries the full weight of the custom whoever their employer is. Watches rotate on schedules the whole floor can recite, and taking a watch drunk or distracted is the offense the trades punish hardest, above theft.
+  prose <<~PROSE, section: :structure, heading: "Holding the Watch"
+    Each shop posts its watches in chalk by the door: the air watch, the ground watch, the cargo watch. Small crews pool a watch across several benches, and the holder's call carries the full weight of the custom whoever employs them. Watches rotate on a schedule the whole floor can recite. The holder wears the watch's brass plug at the collar and passes it on at the shift bell.
 
-    Resumption proofs are local and concrete: a complete air cycle witnessed by two, an instrument watch held stable through a full shift, a cargo history read aloud against the manifest. Large shops encode stop authority in automatic circuits and argue with their own machinery; small crews preserve it through witnessed readings and argue with each other. Both keep the same ledger habit — every halt logged with its watch, its reading, and its resolution — and a shop's halt ledger is the first thing a careful insurer or a careful bride's family asks to read.
+    Floors punish drunk or distracted watch-keeping harder than theft. A holder found asleep with the plug on loses it for a season, and some shops nail the offender's plug above the door until it is earned back. Large shops wire the stop into automatic circuits and spend their tempers arguing with their own machinery. Small crews rely on witnessed readings and argue with each other.
+
+    Every halt goes into the shop's halt book with its watch, its reading and how it ended. Insurers ask to read that book before they write a policy. So does a family weighing a marriage into a shop: a book full of clean halts shows people who stop the line, while a thin one from a busy shop suggests a floor where nobody dares.
   PROSE
 
-  cue "Heavy drives fall silent while workers point to the shared gauge or pulse that gave them standing to stop the line."
-  cue "By the door, a posted board names the day's air, ground, and cargo watches in chalk, and the names rotate on a schedule the floor recites from memory."
-  affordance "Anyone responsible for the affected system can halt work on their own standing, and a visiting crew that learns the shop's stop signals in the door-tour can work under them the same day."
-  pressure "Cooling or interruption may destroy valuable material, giving every owner a reason to call the warning an instrument fault — and the resumption proof takes exactly as long as it takes."
+  prose <<~PROSE, section: :tensions, heading: "Who Pays for Silence"
+    Cooling or interruption can ruin a valuable pour, and every owner who loses one has reason to blame the instrument. Owners have bribed air watches, put their own nephews on the plug, and stopped hiring the journeyman who called three halts in one winter. Floors answer with nicknames, go-slows and, now and then, a broken window. A halt caller who turned out to be right gets drinks bought for a month. One who was wrong twice in a week gets a nickname that follows them between towns.
+
+    In #{ref :vey, "Vey"}, the shops shut whenever #{ref :lung_three, "Lung Three"} misses two pressure pulses, and the airwrights' readings decide when they open again. Districts elsewhere differ on who pays for a false alarm. Some split the loss across the whole trade; others leave it with the owner or the caller. Journeymen choose their towns by the answer, and owners in towns that make the caller pay struggle to find experienced hands.
+  PROSE
+
+  cue "Heavy drives fall silent while a worker points to the shared gauge or pulse that alarmed them, and the floor stands listening."
+  cue "By the door, a posted board names the day's air, ground, and cargo watches in chalk, and a brass plug hangs nailed above the frame."
+  affordance "Anyone responsible for the affected system can halt work on the authority of their watch, and a visiting crew that learns the shop's stop signals on its first walk through can work under them the same day."
+  affordance "A shop's halt book lets insurers, buyers and marrying families judge how the floor behaves under pressure."
+  pressure "An owner facing a ruined pour offers the air watch a month's wages to call the missed pulse an instrument fault, and the resumption proof will take a full shift either way."
   variation "Large shops encode stop authority in automatic circuits; small crews preserve it through named watches and witnessed readings."
-  variation "Districts differ on who pays for a false alarm — some split the loss across the trade, some let it lie where it falls — and journeymen pick their towns accordingly."
+  variation "Districts differ on who pays for a false alarm, some splitting the loss across the trade and some leaving it where it falls, and journeymen pick their towns accordingly."
 end

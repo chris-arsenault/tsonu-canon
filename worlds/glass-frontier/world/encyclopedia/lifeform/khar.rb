@@ -18,7 +18,7 @@ encyclopedia :khar do
               "growth, and seep-line plants during giant-shade and after sunset. Heat-sensitive rear pads let " \
               "it trace a buried warm line through basalt and tell flowing water from a dry pipe; herds gather " \
               "behind parked haulers for shade and stay put as the drive warms.",
-    threat: "It does not attack — it digs. A frightened khar goes toward cooler ground even when that " \
+    threat: "Fear sends it digging. A frightened khar goes toward cooler ground even when that " \
             "ground lies beneath a house floor, and its claws defeat ceramic joints, old sealant, and cooling " \
             "cloth, though intact metal usually stops it. A herd standing in shade with every back plate " \
             "lifted is the warning: a warm pulse underground, often a leaking return no instrument has " \
@@ -55,11 +55,11 @@ encyclopedia :khar do
     Meat enters local markets after herd culls and utility removals. Hunters approach from the cool side of a group and avoid driving animals across active lines. A stampede over buried cooling cloth can turn a routine cull into a town repair.
   PROSE
 
-  cue "Khars collect behind a parked vehicle for its shade and stay put once the drive begins warming. Ashvane drivers walk the whole chassis before departure; skipping the walk starts the run with animals under the machinery."
-  cue "Adults carry overlapping black plates across the spine and a fringe of pale insulating fibers around the belly."
+  cue "At dusk a heat-road stop fills with low black shapes easing out of the culverts, and before the drivers eat they walk slowly around every hauler, crouching to look under each axle with a hand lamp."
+  cue "Town doorways in the highlands are framed on the sunward side with curved black scales, and the utility pipes running past them are streaked chalky white where the bitter wash was last brushed on."
   affordance "A herd standing in shade with every back plate lifted is reading a warm pulse below the ground. Radiator crews take it as a leaking return that pressure instruments have not registered yet and dig from the first disturbed soil."
   pressure "A frightened khar digs toward cooler ground instead of running, even when the cool ground lies under a house floor. Its claws go through ceramic joints, old sealant, and cooling cloth, so a herd scattered by noise ends as a floor repair."
-  variation "Highland households keep half-domesticated groups near fungi beds."
-  variation "A marked animal that follows a wild herd may return after the hot season or join another household's shade yard."
+  variation "Shade-yard khars kept by highland households beside their fungi beds are smaller and slower to dig, wear bells, and come to a shaken salt pouch; wild herds range the seep lines in groups of forty or more and scatter at a stranger's smell."
+  variation "Drain khars, tolerated for generations along the outer drains of town cooling works, lift their plates at the faintest warm pulse, and yard crews trade young from a sharp-sensing line the way other towns trade good dogs."
 
 end

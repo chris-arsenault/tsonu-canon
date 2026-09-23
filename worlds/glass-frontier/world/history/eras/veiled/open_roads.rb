@@ -1,7 +1,7 @@
 era :open_roads do
   tags :subject_journeys_trade
   name "The Open Roads"
-  summary "The Open Roads were the period when independent crews restored regular passage between the outer ports and surface archives."
+  summary "Historical period of restored passage connecting Korvath, the Sable Crescent, and the ring habitats Verathi and Hab Meridian."
   subkind :historical_period
   status :complete
   prominence :marginal

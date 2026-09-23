@@ -46,18 +46,16 @@ encyclopedia :duskgrain do
   PROSE
 
   # ---- Hidden (DM) truth ----
-  prose <<~PROSE, section: :truth, heading: "The Corruption", dm: true
-    Duskgrain is the physical residue of the #{ref :the_false_form, "Adversary"}'s influence bleeding through reality tears.
+  prose <<~PROSE, section: :origin, heading: "What the Grain Is"
+    Duskgrain is residue of #{ref :the_false_form, "the False Form"}. Where its pressure crosses into ordinary space, in Bloom Zones, in deep Shear pockets and in other places where narrow-band resonance has worn the boundary thin, it leaves fragments of its non-closing geometry crystallized into matter. The grains carry that geometry with them.
 
-    Where the Adversary's presence crosses into the world — in Bloom Zones, deep Shear pockets, and other places where narrow-band resonance has weakened the boundary — it leaves crystallized fragments of itself. Duskgrain is solidified alien intent or, in the language of #{ref :the_false_form, "The False Form"}, a non-closing figure frozen into matter.
+    That is why exposure changes people. A handler first gains sharper resonance sensitivity and a lift of euphoria, then a narrowing of attention, and with long use begins to perceive space as the grain's geometry does, with edges that do not meet. The black-market honey made by insects hived near duskgrain deposits carries a trace: at low doses it gives vivid dreams and keener resonance hearing, and in sustained use it produces the same slide, ending in a body that cannot hold a stable sense of its own outline, much like advanced fae dislocation.
 
-    The residue contains concentrated resonance contaminated by the Adversary's dimensional framework. Prolonged exposure produces heightened resonance sensitivity, euphoria, and gradually narrowing perception. Continued use aligns the user's perception more closely with that framework.
-
-    The psychedelic honey that circulates on the black market is produced by insects whose hives are located near duskgrain deposits. The honey carries trace amounts of the corruption. The effects are mild at low doses (heightened perception, vivid dreams, enhanced resonance sensitivity) and severe at sustained use (reality perception disorders, dimensional bleeding, eventually a complete inability to maintain coherent spatial identity — a condition that resembles advanced fae dislocation).
+    Almost nobody who handles duskgrain knows this. Dealers and users treat it as a strange, valuable, somewhat dangerous crystal.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "The Elven Finding", dm: true
-    Elven records from the early Signal Famine identify duskgrain as Adversary residue. Its appearance throughout the resonance infrastructure was one of the primary reasons the elves retreated.
+  prose <<~PROSE, section: :history, heading: "The Elven Finding"
+    Elven records from the early Signal Famine identify duskgrain as residue of the Adversary, and its appearance in the ring's resonance works was one of the reasons the elves withdrew.
 
-    The Displacement Council's containment of Bloom Zones serves a dual purpose that the #{ref :dern_talish, "Dern Talish"} (First Threshold) understands: containing the resonance anomaly, and limiting the spread of duskgrain into the broader economy. The Council's official position on duskgrain — "dangerous but legal" — is a compromise that Talish privately considers inadequate and publicly defends because the alternative is explaining why it needs to be banned.
+    #{ref :dern_talish, "Dern Talish"}, who knows this through the Council's hidden contact with the elves, understands the cordons as limiting two things: the reach of the Bloom and the spread of duskgrain into the economy. The Council's public position, "dangerous but legal," is a compromise she privately considers inadequate and publicly defends, because banning it would mean explaining why.
   PROSE
 end

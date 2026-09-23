@@ -68,6 +68,8 @@ installation :accord_shore do
     Accord business supports translators, legal copyists, mediators, security staff, cooks, couriers, and landlords. The work follows hearings rather than ordinary office hours. A late settlement can fill the south-bank kitchens after midnight, while an adjournment empties reserved rooms and leaves suppliers holding food ordered for a week of negotiations.
 
     Delegations bring their own customs into a district built to host them. Hab-world kitchens rent space beside Sitharian restaurants. Freight agents keep samples and contract copies near the records hall. Tailors specialize in formal clothing that remains comfortable across the temperature and pressure changes of orbital travel. Many businesses survive on repeat staff rather than the officials whose names appear in the proceedings.
+
+    Information sells as well as food. Copyists, translators and room clerks hear what delegations say to one another, and several delegations pay other delegations' staff to remember it. The south-bank kitchens where they eat after a late session are the best places in Sithari to buy a rumor and the worst places to repeat one.
   PROSE
   prose <<~PROSE, section: :tensions, heading: "Inside Sithari"
     Other settlements accepted Sithari because no neutral site could match its transit, records, and staff. The location still shapes the institution. Hearings use Sitharian legal forms, most permanent employees live under Continuity government, and a delegation that needs an urgent repair hires from the city around it.
@@ -75,7 +77,7 @@ installation :accord_shore do
     Accord Shore makes that influence visible without putting the compound inside #{ref :the_continuity, "the Continuity"}'s grounds. Delegations can walk to the #{ref :old_campus, "Old Campus"} in minutes, while the lake and public causeway maintain a clear boundary. Disputes over security, demonstrations, and access to city records repeatedly test where that boundary lies.
   PROSE
   prose <<~PROSE, section: :present_day, heading: "Present Day"
-    One pair of quiet rooms has remained closed after clerks found matching edits on their control sheets during separate hearings. The submerged circuit tests within tolerance. Accord staff are now inventorying every object brought into the rooms while city crews inspect the old return channel beneath the north bank.
+    One pair of quiet rooms has stayed closed since clerks found matching marks on their control sheets during separate hearings. The submerged circuit tests within tolerance, which leaves the explanation everyone on the shore has already reached: somebody built the coupling on purpose. One of the rooms was booked for the appeals of the occupied Istravan cities. Two delegations have accused each other in the south-bank kitchens, the clerks are inventorying every object that entered either room, and a translator who worked both hearings has not come to work since.
   PROSE
 
   gm_note :triggered_by, "Carry a recorder or a personal instrument into a hearing room and the clerks' sheet test finds the coupling before " \

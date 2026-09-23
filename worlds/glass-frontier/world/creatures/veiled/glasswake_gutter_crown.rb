@@ -1,7 +1,7 @@
 creature :glasswake_gutter_crown do
   tags :subject_planetary_life
   name "The Glasswake Gutter Crown"
-  summary "The Glasswake Gutter Crown is a single many-mouthed colony spread through the runoff channels between Glasswake and the Dry Net."
+  summary "Crown colony, a rooted drain filter-feeder, ringing the runoff channels of Glasswake and the Dry Net."
   subkind :creature
   type_of :crowns
   status :complete

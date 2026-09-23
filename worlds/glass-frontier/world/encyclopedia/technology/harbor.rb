@@ -5,6 +5,7 @@ encyclopedia :harbor do
   subkind :infrastructure
   status :complete
   log "2026-08-31 — Renamed Bellhouse Air Frame to Harbor; dock-country hostels use the port word for the frame that turns any sealed room into temporary refuge."
+  log "2026-09-23 — Replaced flourish endings with the people who overcrowd, skimp on and fake frames, keeping the hostel origin, capacity and panel colors."
   topics :"ring-hab", :danger, :household, :rebuilding, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:sealed_hab, :dock] }
@@ -12,32 +13,39 @@ encyclopedia :harbor do
   function "Sustains a sealed room's occupants through closures, pressure events, and air faults — twelve sleepers, one frame, a full closure's duration"
   classes "The hostel standard, the household half-frame, and the dock-office long-duration pattern with doubled stores"
   capacity "A standard frame carries twelve through a closure at rest; the drill card on every frame states the arithmetic for more people, less time"
-  operating_limit "The frame buys duration at rest — its numbers assume sleepers, and a room that spends the closure pacing and arguing is spending the margin"
+  operating_limit "The frame's numbers assume sleepers; a room that spends the closure pacing and arguing uses its air faster"
 
   descriptive_identity(
     appearance: "A waist-high accordion cabinet in hostel livery that unfolds wall to wall " \
                 "into a lattice of scrubber panels, air cells, and hanging lamps, with the " \
                 "drill card and the last inspection's wax seal riveted at eye height.",
-    working: "Two people unfold a frame in the drilled minute — walls, seal checks, the " \
-             "scrubber panels wetted from their own store — and the room becomes its own " \
-             "small hab: air worked by the panels, warmth pooled, the frame's soft " \
-             "clicking the sound of the margin being spent slowly.",
-    risks: "The frame keeps a room alive and keeps its own books — the panels' color " \
-           "shows the margin plainly — and the pattern's one demand is the drill, since " \
-           "a frame unfolded badly in the event's first panic protects exactly as well " \
-           "as it was practiced."
+    working: "Two people unfold a frame in about a minute: walls out, seals checked, the " \
+             "scrubber panels wetted from their own store. The panels work the air, the " \
+             "stored cells top up the pressure, warmth pools under the lamps, and the frame " \
+             "clicks softly as it runs.",
+    risks: "The panels change color as their margin goes, dusk-blue toward gray. A frame " \
+           "unfolded badly in the first panic leaks at the seams, and a frame whose " \
+           "wetting store has gone stale starts gray."
   )
 
   prose <<~PROSE
-    The great port hostels — Fourth Bell House first — answered an old dock-country nightmare with furniture. They call the frame a *harbor* because it turns any sealable room into refuge when a closure seals the district. The cabinet unfolds wall to wall in a drilled minute and makes the room its own small hab: scrubber panels working the air, stored cells topping the pressure, hanging lamps in the lattice, and the drill card's plain arithmetic riveted at eye height — twelve sleepers, a full closure, the numbers assuming rest. The hostels drill their staff on the frames the way ships drill boats, and the pattern's philosophy is stated in Fourth Bell House's original standing order, still posted: the guests survive whatever the port does.
+    A harbor is a cabinet that turns a sealable room into a small hab when a closure seals the district. #{ref :fourth_bell_house, "Fourth Bell House"} built the first ones for its dormitories, and dock-country hostels named the frame for what it made of a room full of stranded strangers. Unfolded, it runs wall to wall: scrubber panels working the air, stored cells topping up the pressure, lamps hanging in the lattice, and a drill card riveted at eye height that gives the arithmetic. Twelve sleepers, one full closure. Fourth Bell House's original standing order is still posted in its entrance hall and still reads, in full, that the guests survive whatever the port does.
 
-    The frames spread from the hostels to everywhere sealed rooms hold sleeping strangers — the dock offices, the waiting halls, the household half-frames that ride under family bunks — and their maintenance culture is the pattern's second invention: every frame carries its inspection seal in wax, the wetting stores are cycled on a posted calendar, and hostel guests in dock country learn to glance at the seal date on check-in with the same reflex that reads a lifeboat's davits. The scrubber panels grade their own remaining margin by color as they work, dusk-blue fading toward gray, and closure veterans describe the long waits by the palette — a one-panel night, a night that went to gray — in the dock districts' understated idiom for how close whatever it was came.
+    Hostel staff drill unfolding until two people can do it in the dark in a minute. They also learn the harder skill of keeping twelve frightened guests lying down. The numbers assume rest, and a room that spends a closure pacing, arguing and playing cards under the lamps burns through its panels hours early. Night porters at the old bell houses are known for their closure voices, a low steady patter of dock gossip that has put whole dormitories to sleep.
+
+    The frames spread from the hostels to dock offices, waiting halls and family bunks, where a half-frame rides folded underneath. Each carries a wax inspection seal with a date, and travelers in dock country glance at it when they check in. The scrubber panels shade from dusk-blue toward gray as they spend their margin, and closure veterans measure the long waits by color. A one-panel night was a nuisance. A night that went to gray is one people still talk about.
   PROSE
 
-  cue "The cabinet unfolds wall to wall in a practiced minute — panels, cells, hanging lamps — and twelve strangers' berths become one small hab with its own soft clicking heartbeat."
-  cue "Checking in, the traveler's eye goes to the wax inspection seal on the folded frame by the wall, and the clerk watches them look with professional approval."
-  affordance "A maintained frame turns any sealable room into twelve survivable berths for a closure's full duration — which is why dock-country hostels post their inspection seals like licenses and closures in frame country are waits rather than emergencies."
-  pressure "The margin assumes sleepers and honest maintenance, so the frame's enemies are panic and neglect — the badly unfolded frame and the stale wetting store are the incident reports — and the drill calendar is the whole difference."
+  prose <<~PROSE, section: :dangers, heading: "Thirteen in the Room"
+    When a closure falls, a frame rated for twelve rarely holds twelve. Hostel keepers take in the family from the corridor, the porter's cousin, the dockhand who banged on the door as the seals came down. The drill card states the trade plainly, more people for less time, and a keeper who packs twenty into a twelve-frame is betting that the port reopens early. Most of the time it does.
+
+    Cheaper hostels cut the maintenance instead. They cycle the wetting stores late, or never, and some buy inspection seals from wax-and-date sellers who will stamp a frame they have never opened. A stale store shows at once: the panels wet unevenly and start the night already gray. Guests who have been through one closure learn to ask the clerk to unfold a corner of the frame, and a clerk who refuses has told them what they need to know.
+  PROSE
+
+  cue "The cabinet unfolds wall to wall in under a minute, hanging lamps swinging into place, and twelve strangers' bunks become one room with a soft clicking in the walls."
+  cue "At check-in the traveler leans over to read the date pressed into the wax seal on the folded frame, and the clerk slides the register across without comment."
+  affordance "A maintained frame turns any sealable room into twelve survivable berths for a closure's full duration, so in frame country a closure is a long boring night in a stuffy room."
+  pressure "Keepers pack extra people into a twelve-frame on the bet that the port reopens early, cheap hostels buy inspection seals for frames nobody has opened, and a stale wetting store turns the panels gray before the closure has properly begun."
   variation "Hostels run the full standard with staff drills; households rack half-frames under the bunks; and the dock offices' long-duration pattern doubles the stores for the closures that arrive unscheduled."
-  variation "Closure veterans measure their nights in panel colors — a one-panel night, a night that went to gray — and the dock districts hear the difference exactly."
+  variation "Old bell houses paint their frames in the house livery and hang the lamps at bunk height; dock offices use bare gray cabinets with lamps set high over the desks and a second drill card for the clerks."
 end

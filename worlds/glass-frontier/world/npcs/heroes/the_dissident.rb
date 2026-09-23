@@ -9,7 +9,6 @@ npc :the_dissident do
   omit_facts :based_in
   type_of :elves
   belongs_to :role, :resonant_tuner
-  dm!(public_entry: :resonant_tuner)
 
   prose <<~PROSE
     The Dissident was an elf who rejected the collective disappearance after the Glassfall. They judged that leaving isolated communities without resonance knowledge would kill people more certainly than one concealed teacher would expose the hidden habs.
@@ -27,18 +26,22 @@ npc :the_dissident do
     The Dissident stopped teaching in 2180. Their room had been cleared, the borrowed instruments remained, and no student reported a farewell. Elven records available to the hidden leadership do not state whether an operative recalled them, killed them, or helped them move beyond the search.
 
     The leadership still classifies the teaching as a breach of concealment. Elves who learned resonance through descendants of that school preserve copies of the prohibited exercises alongside the order condemning them.
+
+    Outside the hidden habs, the Dissident is a gap in the record. Clarisant historians can trace their oldest exercises back to a handful of Famine-era surface teachers who all learned the same method from someone they never named.
   PROSE
+
+  gm_note :triggered_by, "Tracing any Tuner's teaching line back far enough reaches the same handful of Famine-era surface teachers and the same unnamed source behind them."
 end
 
-relate :rel_clarisant_derived_from_dissident, :derived_from, :clarisant, :the_dissident, dm: true do
+relate :rel_clarisant_derived_from_dissident, :derived_from, :clarisant, :the_dissident do
   prose "The Clarisant's oldest practical exercises descend from the Dissident's concealed teaching line."
 end
 
-moment :dissident_begins_teaching, year: 2160, of: :the_dissident, dm: true do
+moment :dissident_begins_teaching, year: 2160, of: :the_dissident do
   summary "The Dissident adopted a human identity and began teaching practical elven resonance work in 2160."
   prose "The Dissident settled under a human identity and began teaching a practical subset of elven resonance work."
 end
-moment :dissident_vanishes, year: 2180, of: :the_dissident, dm: true do
+moment :dissident_vanishes, year: 2180, of: :the_dissident do
   summary "The Dissident cleared their room and disappeared in 2180, leaving the Tuner teaching line without its source."
   prose "The Dissident cleared their room and disappeared, leaving the teaching line without its source."
 end

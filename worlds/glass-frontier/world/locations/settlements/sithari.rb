@@ -1,6 +1,6 @@
 installation :sithari do
   name "Sithari"
-  summary "Sithari is the largest city in the Kaleidos system, an equatorial surface capital built in layers above a surviving ring-era research campus."
+  summary "Sithari is the largest city on the surface of Kaleidos and the financial capital of the restored network, an equatorial city built in layers above a surviving ring-era research campus."
   playable_as :chronicle_location, :homeland
   context_tags :surface, :urban, :market, :archive
   origin_blurb "A surface capital where law, trade, and old institutions shape daily life."
@@ -47,7 +47,7 @@ installation :sithari do
   )
 
   prose <<~PROSE
-    Sithari is the largest city in the Kaleidos system, with a few million people inside the city proper and more in the eastern sprawl. It stands at the equator above the ring-era research campus that survived the Glassfall with power, walls, and much of its service infrastructure intact. The settlement that formed around that complex became the system's financial and administrative center during the Rekindling.
+    Sithari is the largest city on Kaleidos's surface, with a few million people inside the city proper and more in the eastern sprawl; only the greatest cities of the ring match it. It stands at the equator above the ring-era research campus that survived the Glassfall with power, walls, and much of its service infrastructure intact. The settlement that formed around that complex became the system's financial and administrative center during the Rekindling.
 
     The city's name is commonly translated as "the place that kept going." Its old campus remains in use beneath the government halls, colleges, apartments, and transit lines of the present city. Orbital traffic descends at its eastern fields, while the Tempered Accord meets within walking distance of the offices that govern Sithari itself.
   PROSE
@@ -86,6 +86,8 @@ installation :sithari do
     The surface city is dense, vertical, and bright. Engineered crystal facades stand beside ring-era walls too useful to remove. Plazas open around transit stations and government buildings, while older residential streets narrow around foundations that have not moved since the Glassfall. Below grade, ceilings drop, corridors thicken with pipes and signs, and a public stair can pass through several centuries of construction before reaching its last stop.
 
     Equatorial light reaches the city through drifting ring debris. Passing fragments split the daylight across facades and leave moving bands of color on the streets. Residents read the approach of a dense drift from those bands before public weather notices update. Dawn and dusk stretch across repeated reflections from orbit.
+
+    The city eats on its stairs. Vessin stalls on the Underlayers landings sell layered griddle bread hot to people climbing to work, clerks stand at counters over thumb-sized cups of black sethra, and in the dry season families carry supper up to the roofs at dusk to watch the debris bands cross the facades. The ward court galleries fill with neighbors who come to watch a good inheritance fight the way other towns watch a play, and the illegal hearing books take their bets. Under the bright surface, route stewards sell closures, port graders shade independent glass, and the ward offices of #{ref :the_continuity, "the Continuity"} feed the poor wards and count their votes.
 
     Sitharian is the language of government, contracts, schools, and most street life. Port districts carry many other registers, but anyone dealing with city institutions learns its measured phrasing and precise forms. In conversation, that precision can communicate care, authority, impatience, or all three at once.
   PROSE

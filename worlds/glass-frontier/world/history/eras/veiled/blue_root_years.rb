@@ -1,7 +1,7 @@
 era :blue_root_years do
   tags :subject_hab_life
   name "Blue-Root Years"
-  summary "The Blue-Root Years were the local period that began when Lumenshard cuttings restored gardens on Rib's cold decks."
+  summary "Local era of Rib, the pressure-reef settlement, tied to its garden exchange with Lumenshard in Miraeth."
   subkind :era
   status :complete
   prominence :marginal

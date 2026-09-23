@@ -1,32 +1,45 @@
 encyclopedia :crowncut_shifts do
   name "Crowncut Shifts"
-  summary "Crowncut Shifts are refinery work-families who keep contaminated clothing outside their homes and take meals together at the work boundary. The boundary meal is the institution: half wash-line, half family table, held where the work ends and the household begins."
+  summary "Crowncut Shifts are salvage-refinery work-families who leave contaminated clothing in a boundary house at the edge of refinery ground and eat together there, between the shift and home."
   kind :culture
   subkind :work_tradition
   status :complete
   topics :salvage, :household, :"social-structure", :danger, :subject_shear
   prevalence :uncommon
   appears_when all: { place: [:yard] }
+  log "2026-09-23 — Rewrote the entry around the boundary meal's food, courtship, disputes and cheating, keeping the wash order, badge wall and seating variants."
 
   descriptive_identity(
-    manner: "Shift families record closeness in boundary meals shared; 'we eat at their " \
-            "line' means that two families share tables, wash rooms, and responsibility " \
-            "for the clean-side and work-side boundary.",
-    attire: "Work-side dress is communal property that stays at the line, washed and " \
-            "reissued by the boundary house; clean-side dress is personal, and clothing " \
-            "crosses only through the boundary house's wash rooms."
+    manner: "Shift families measure closeness by meals: 'we eat at their line' means " \
+            "two families share tables, wash rooms and the job of keeping the boundary " \
+            "clean. Anything said on the work side stays at the line.",
+    attire: "Work-side dress belongs to the boundary house, which washes and reissues " \
+            "it; nobody owns a particular set. Clean-side dress is personal. Clothing " \
+            "crosses between the two only through the wash rooms."
   )
 
   prose <<~PROSE
-    The families that work the great salvage refineries — Crowncut's crews first, and the pattern spread with the trade — solved contamination with architecture and made the architecture a culture. The boundary house stands at the line where refinery ground ends: wash rooms, clothing stores, and the long tables where every shift eats. Work-side clothing stays work-side, communal, washed and reissued at the line; bodies cross the boundary scrubbed and re-dressed; and the meal taken at the tables between shift and home is the institution the culture is named for — the place where the work is talked out, the crews mix across families, and the day's grime is left with the day's clothes before either can walk home to the children.
+    The families who work the great salvage refineries eat supper in the same place every day: the boundary house at the line where refinery ground ends. The custom began with the crews of #{ref :crowncut_refinery, "Crowncut"} and spread with the trade. A worker coming off shift strips at the line, hangs the work clothes in the communal stores, scrubs in the wash rooms and dresses in clean-side clothes. Then the worker sits down at a long table with the next shift, the retired and whatever children have come to meet them.
 
-    The boundary meal became the shift families' common table. Marriages start there and are announced there. Crew disputes are settled under the rule that work-side speech stays at the line. Retired workers keep their places at the head of each table, with dosimetry badges framed on the boundary-house wall behind them. The early refinery generations carried contamination home in their clothing; the badge wall names the workers lost before the wash rooms, communal stores, and boundary meal became standard. New hires learn that history with the wash order.
+    The earliest refinery generations carried contamination home in their clothing. The boundary house wall remembers them: framed dosimetry badges hang behind the head seats, one for each worker lost before the wash rooms, communal stores and shared meal became standard. New hires learn the wash order and the names in the same first week.
+  PROSE
+  prose <<~PROSE, section: :culture, heading: "At the Long Tables"
+    The boundary house kitchens bake flatbread in ovens fed by refinery waste heat, and the tables run to heavy food: bean stews, salted fish, fried dough in syrup on the day wages are paid. Families take turns at the cooking. A household known for a good stew draws other families to its end of the table, and that is how most alliances between shift families start.
+
+    Marriages begin at the boundary. A worker who hands someone their clean-side shirt through the wash room hatch is making an offer, and the whole shift knows it by supper. Engagements are announced from the benches. Weddings are held at the tables, with the couple in clean-side finery and the badge wall hung with ribbon.
+
+    Crew disputes are settled here as well. Anything said on the work side stays at the line, so a foreman and a crew who spent the shift shouting can eat together afterward. Retired workers keep their places at the head of each table for life. They decide which quarrels are finished and tell new hires the stories behind the badges.
+  PROSE
+  prose <<~PROSE, section: :tensions, heading: "Skipping the Wash"
+    The wash order costs time and the refineries pay by output. Foremen pushing for a quota send crews straight from one section to another in work-side dress, and young workers late for a date walk out through the stores with a scrub that missed their hair. Salvage goes out the same way: a small bright part rolled into a clean-side sleeve walks past the wash room hatch if the hatch keeper is a friend.
+
+    Children of workers who married outside the shift families grow up without a place at the tables, and some of them resent it. Refinery owners pay for the boundary houses and would close several if the shift families let them.
   PROSE
 
-  cue "At the refinery line, a long table fills for the boundary meal — scrubbed workers in clean-side dress, the work clothes already hung back in the communal stores — and three families' children run between the benches."
-  cue "The boundary-house wall carries framed dosimetry badges going back generations, hung where every meal can see them, in the place other cultures hang portraits."
-  affordance "The boundary house keeps contaminated clothing out of homes and gives every refinery a common place for wash rooms, clothing stores, shift meals, announcements, and crew settlements."
-  pressure "Every crossing runs through the wash rooms and clothing stores; bypassing them is entered in the boundary-house record beside the dosimetry reading and the worker's shift."
-  variation "Crowncut's original tables seat by shift regardless of family; younger refineries seat by family regardless of shift, and crews visiting between them follow the host table's order."
-  variation "Retired workers keep their table places for life, and the framed badge wall behind the head seats is read to new hires on their first boundary meal, name by name."
+  cue "At the refinery line a long table fills for supper with scrubbed workers in clean-side dress, their work clothes already hung in the communal stores, while children from three families run between the benches."
+  cue "Framed dosimetry badges cover the boundary house wall behind the head seats, and an old woman at the head of the table points to one while a new hire eats."
+  affordance "The boundary house keeps contaminated clothing out of homes and gives a refinery a common hall for washing, supper, weddings, announcements and settling crew quarrels."
+  pressure "A foreman behind on quota tells his crew to skip the wash between sections, and the hatch keeper who stops them is the foreman's daughter."
+  variation "Crowncut's original tables seat by shift regardless of family; younger refineries seat by family regardless of shift, and visiting crews follow the host table's order."
+  variation "Retired workers keep their table places for life, and on a new hire's first supper they tell the stories of the badges on the wall behind them, name by name."
 end

@@ -35,9 +35,9 @@ geographic_location :naloven do
 
     The #{ref :struggle_for_edrath, "struggle for the battery"} runs through rooms whose occupants know the soldiers above them. Former crew came expecting their old bunks and found children's beds against the same walls. Some avoid the supper table where they were welcomed before the recall went up. Officers who favor Aren eat there in uniform and ask former comrades to bring the engines back into service. From the upper deck, a doubled voice sometimes repeats the order to take the whole battery to Velisar, loud enough for the families below to hear.
 
-    Some households welcome a weapon against Aren if they can remain aboard. Others want every gun thrown into the springs. Bath attendants still sell towels to the occupying soldiers and make them leave their weapons outside. An attendant has hung one soldier's childhood swimming board above the rack holding his rifle. He turns it to face the wall each time he comes in.
+    Some households welcome a weapon against Aren if they can remain aboard. Others want every gun thrown into the springs. Bath attendants still sell towels to the occupying soldiers and make them leave their weapons outside. Sabeth Orn, who has kept the hottest pool since before the Lowering, has hung one soldier's childhood swimming board above the rack holding his rifle. He turns it to face the wall each time he comes in.
 
-    #{ref :ivena_sar, "Ivena Sar"} treats injuries in a disused bathing room with a cold-water supply. Couriers from the #{ref :velisar_resistance, "Velisar resistance"} meet upland fighters at Tovanesh. The #{ref :veyr_company, "Veyr Company"} brings performances and news when its members can leave the coast. A night of music can end with soldiers sitting beside the people they searched that morning.
+    Harro Stellet, the town's bonesetter, has taken over a disused bathing room with a cold-water supply and sets soldiers' fractures on the same bench as the Rising's. He sends for #{ref :ivena_sar, "Ivena Sar"} when a wound is past his skill, and she climbs up from the coast with ineth packed in spring water. Couriers from the #{ref :velisar_resistance, "Velisar resistance"} meet upland fighters at Tovanesh. When the #{ref :veyr_company, "Veyr Company"} can leave the coast, its news reaches the baths a day before any letter, and its evening shows fill the gun deck with soldiers and the households they searched that morning.
   PROSE
   prose <<~PROSE, section: :dangers, heading: "When the Cups Move"
     A recent engine trial sent #{ref :edraths_answer, "Edrath's Answer"} through the terraces. Cups jumped on the bath shelves; a suspended stair struck its neighboring wall. People beneath the hull felt the floor move before the warning reached the upper deck. Ulaven has stopped further trials while its own members argue over restarting the guns.
@@ -45,13 +45,23 @@ geographic_location :naloven do
     Forest paths lead away through Iridess. The tame #{encyclopedia_ref :eshkul, "eshkul"} called #{ref :reth, "Reth"} has followed its handlers into town and learned to enter the battery through the orchard lift. It strips resin from trees planted against the hull. Residents shut their shutters when its yellow back spines rise.
   PROSE
   prose <<~PROSE, section: :culture, heading: "The Low Bank"
-    The Veyr players brought their modern arrangements of #{ref :sereyat} to a supper beneath Edrath. A retired gunlayer wanted to play the answering part, but the hand left stiff by a recoil injury could hold a beater only against the heel of her palm. Lowering the copied frame put the ribs within reach; striking them from that position still sent the beater skidding across two notes.
+    The Veyr players brought their modern arrangements of #{ref :sereyat} to a supper beneath Edrath. Joss Keddis, a retired gunlayer, wanted to play the answering part, but the hand left stiff by a recoil injury could hold a beater only against the heel of her palm. Lowering the copied frame put the ribs within reach; striking them from that position still sent the beater skidding across two notes.
 
     A bath carpenter fitted a shallow cup around the beater's grip and shifted the nearest rib outward. She now plays with her forearm resting along a padded rail, lifting from the elbow. The carpenter left the farther side at standing height. Neighbors take that side while children crouch underneath to hear the sound through the floorboards.
 
     The frame stays beside the plotting room. During a recent engine trial its lower rail jumped into the player's arm, leaving a bruise; she has moved it away from the leg housing. She wants the promised evening performance to go ahead there, and has told the former gunners arguing over a test firing to come early enough to carry it downstairs if they insist on using the engines.
   PROSE
+  prose <<~PROSE, section: :tensions, heading: "Requisitioned Terraces"
+    League requisition parties followed the officers up the orchard roads in 2435. They took fruit, carts and press screws from the upper terraces against stamped receipts, and households learned quickly which quartermasters could be talked down and which sold part of each load privately. Some of the requisitioned crates have since turned up in warehouses at Corvera, on the far side of the middle sea.
+
+    Neighbors also learned that a requisition party would take advice. #{ref :gessa_brell, "Gessa Brell"}, a dwarf grafter whose family has shared an arch of pod trees with the Durran household for four generations, met the quartermaster at her gate and pointed him at the Durran terraces. The Durrans lost their crop and, for three days, a nephew. Their grandchildren now pick the shared arch whenever they please. Gessa has taken to leaving a basket of her own fruit on the wall top on baking days.
+
+    The Olvane pool-house on the lower terraces keeps its shutters closed to the street. Its kyrri household still sweeps the slab of range rock in the kitchen floor each morning, and relatives of #{ref :venna_olvane, "Venna Olvane"} answer every visitor's first question, about when she is coming home, before it is asked.
+  PROSE
   log "2026-09-21 — Replaced the repeated troop-composition list with former crewmates occupying a home they remember as a weapon. Added a particular local adaptation of Sereyat's copied frame; neither the ancient instrument nor its original player's circumstances are changed."
+  log "2026-09-23 — Gave the treatment room to a local bonesetter who sends for Ivena Sar, and named the bath keeper and the gunlayer already in the entry."
+  log "2026-09-23 — Added the league's orchard requisitions, Gessa Brell's feud with the Durran household and the Olvane family's shuttered pool-house."
+  log "2026-09-23 — Renamed the Sevra household to the Durran household to separate them from the Ashvane association Sereva."
 end
 
 relate :rel_naloven_istrava, :part_of, :naloven, :istrava

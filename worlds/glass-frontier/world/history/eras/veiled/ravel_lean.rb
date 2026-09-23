@@ -1,7 +1,7 @@
 era :ravel_lean do
   tags :subject_hab_life
   name "Ravel Lean"
-  summary "Ravel Lean was the season when Noll root cable held Ravel together through repeated spin loss."
+  summary "Local era of Ravel's small plume-harvesting ring fragment, remembered through its ties to the timber growers of Noll."
   subkind :era
   status :complete
   prominence :marginal

@@ -13,6 +13,7 @@ encyclopedia :heshari do
   biology "Replaceable vitreous teeth shed and regrown through life; lung linings that capture and expel airborne glass fines; bite and breath sensitive to glass grade, cure, and stress"
   lifespan "Comparable to human — about 60–110 years, the yards' hazards allowed for"
   resonance_relation "Learned, as with humans — though a heshari's teeth ring faintly to close resonance work, and the yards' folk practice of testing a cut by biting a coin of it is older than the registry that frowns on it"
+  log "2026-09-23 — Added the grader's bite as a mark, with Innik Vosk's bitten lots as the best-known example."
 
   descriptive_identity(
     appearance: "Human-framed, with translucent vitreous teeth that grow in " \
@@ -38,6 +39,8 @@ encyclopedia :heshari do
     Heshari teeth grow in successive vitreous sets throughout life. Fresh teeth are nearly clear; use leaves color, chips, and polish that record diet and work. Their lined lungs capture airborne glass fines and expel them in mucus before the splinters reach deeper tissue. These adaptations make the glass country's ambient dust tolerable, although heavy cutting air still irritates the mouth and lungs.
 
     A careful bite on an offcut carries additional information. Trained tasters distinguish glass grade, cure, and some stress lines through the teeth and lined mouth, then confirm the reading against the piece's behavior in cold or under tone. This capacity supported long heshari participation in the ring's fabrication decks and the postfall cutting yards. The reading remains a learned trade open to individual choice.
+
+    A worn set of teeth leaves a bite as individual as a signature. #{ref :innik_vosk, "Innik Vosk"}, a grader on Glasswake's sorting terraces, presses his bite into a coin of offcut and seals it to each lot he grades, and lenders and buyers across the system accept a bitten lot at his grade. Each new set a taster grows bites a new impression and has to be learned again, a problem every heshari grader knows and his fame has made a matter for the whole ringglass trade.
 
     Cutting-yard households have built customs around the teeth. Some keep a child's first shed tooth, grade worn working sets beside tools, or place the teeth of the dead in a family glass jar. Apprentices learn safe bite surfaces and rinsing practice before assay. Heshari families outside the yards may keep those objects as ancestry, adapt the custom to another craft, or take no part in it. Present-day heshari work throughout Kaleidos; the cutting communities remain prominent because their bodies and training meet the glass country's material conditions unusually well.
   PROSE

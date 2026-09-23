@@ -1,7 +1,7 @@
 npc :choir_fragment_span_listener do
   tags :subject_journeys_trade
   name "The Choir Fragment Span Listener"
-  summary "The Choir Fragment Span Listener hears load changes in old ring beams before the metal begins to walk."
+  summary "Load listener walking the old ring spans of the Choir Fragment, Span Nine, Threshold Station and Issel."
   type_of :load_listening
   subkind :specialist
   status :complete

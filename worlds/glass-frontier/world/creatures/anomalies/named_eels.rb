@@ -1,6 +1,6 @@
 creature :named_eels do
   name "The Named Eels"
-  summary "The Named Eels are the largest drift-eels tracked individually in Ratter route records across the working and Deep Shear. Each can close traffic lanes when it crosses active machinery."
+  summary "The Named Eels are the largest sheareels tracked individually in Ratter route records across the working and Deep Shear. Each can close traffic lanes when it crosses active machinery."
   subkind :anomaly
   type_of :sheareel
   belongs_to :lifeform, :farborn
@@ -20,8 +20,8 @@ creature :named_eels do
 end
 
 relate :rel_named_drift_eels_inhabit_shear, :inhabits, :named_eels, :the_shear do
-  prose "Ratter route records track named drift-eels through the working Shear."
+  prose "Ratter route records track named sheareels through the working Shear."
 end
 relate :rel_named_drift_eels_inhabit_deep_shear, :inhabits, :named_eels, :deep_shear do
-  prose "The largest named drift-eels cross the Deep Shear."
+  prose "The largest named sheareels cross the Deep Shear."
 end

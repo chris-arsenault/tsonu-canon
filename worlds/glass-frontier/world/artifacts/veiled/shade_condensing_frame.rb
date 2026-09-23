@@ -1,7 +1,7 @@
 artifact :shade_condensing_frame do
   tags :subject_planetary_life
   name "Shade Condensing Frame"
-  summary "The Shade Condensing Frame is a water machine used around Shadewell, South Shade, and Coldside Bench. It draws clean water from Ashvane pressure exhaust and cracks when the wind reverses."
+  summary "Condenser frame supplying water along Ashvane's shaded roads at Shadewell, South Shade and Coldside Bench."
   subkind :machine
   status :complete
   prominence :marginal

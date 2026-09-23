@@ -1,12 +1,13 @@
 creature :hinge_six_cable_fox do
   tags :subject_hab_life
-  name "The Hinge Six Cable Fox"
-  summary "The Hinge Six Cable Fox is an animal nesting in idle counterweight housings along the Keel. It steals only wire carrying a live signal."
+  name "The Hinge Six Latchling"
+  summary "Latchling cable-runner hunting the cableways of the Keel at Hinge Six and Cold Lantern."
   subkind :animal
   type_of :latchling
   status :complete
+  log "2026-09-23 — Renamed The Hinge Six Cable Fox to The Hinge Six Latchling so the instance carries its class word."
   prominence :marginal
-  veiled "The Hinge Six Cable Fox nests inside idle counterweight housings and steals only wire carrying a live signal."
+  veiled "The Hinge Six Latchling nests inside idle counterweight housings and steals only wire carrying a live signal."
 end
 
 relate :rel_cable_fox_in_keel, :inhabits, :hinge_six_cable_fox, :keel

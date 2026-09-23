@@ -9,6 +9,7 @@ installation :threshold_station do
   prominence :recognized
   position frame: :kaleidos_system_chart, relative_to: :kaleidos,
            radial_offset: -0.12, angle_offset_deg: 0
+  log "2026-09-23 — Rewrote the prose around the station's people and its sealed interior: the terminus families, the envoys, the Wardens, and the child who came back from an unlisted door. Removed an in-prose link and a pointer to another entry; kept every established fact."
 
   descriptive_identity(
     setting:
@@ -26,8 +27,8 @@ installation :threshold_station do
       "the active station and the sealed sectors.",
     access:
       "Visiting traffic enters at the Kaleidos-facing end, beside the " \
-      "Span Nine terminus. There is no pilgrim trade and no scholar " \
-      "class, so anyone without stated business is conspicuous within a " \
+      "Span Nine terminus. Everyone aboard has work or business with the " \
+      "Synod, so anyone without stated business is conspicuous within a " \
       "shift.",
     hazards:
       "A list of hard-sealed sectors — welded bulkheads, life support " \
@@ -38,56 +39,36 @@ installation :threshold_station do
   )
 
   prose <<~PROSE
-    A pre-Glassfall station at the inner Lagrange point between #{ref :kaleidos_system, "Kaleidos"} and the system's sun. Threshold is a vast spindle aligned along the sun-line — kilometers long, narrow at the ends, broader through the middle — and has held station at the L1 point since before any living memory begins. The #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} operates from the spindle's central band. #{ref :span_nine, "Span Nine"} terminates at the Kaleidos-facing end. The sun-facing end is sealed and has been for as long as the Synod has occupied the station.
+    Threshold Station hangs at the inner balance point between #{ref :kaleidos, "Kaleidos"} and the sun: a white spindle kilometers long, narrow at the ends and broad through the middle, aligned along the sun-line since before anyone's memory. The #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} works in its central band. #{ref :span_nine, "Span Nine"}'s sunward arm ends at its Kaleidos-facing tip. The sun-facing end is sealed.
 
-    The name is the Synod's. It refers to what crossing the station means: the threshold of mind, the door between human cognition and the elven AI custodians who still run, in some form, inside the spindle's core.
+    Inside the spindle's core, ring-era custodian minds built by the elves still run. The Synod named the station for what it believes crossing into it means, a threshold between human thought and theirs, and has spent #{elapsed :lattice_proxy_synod, approx: true} learning to speak with them through trained proxies.
   PROSE
-  prose <<~PROSE, section: :atmosphere, heading: "Shape and Reach"
-    The spindle's outer hull is white and seamless from a distance. Closer inspection finds the seams — the station is segmented, with each segment serving a different function, and the seams are tight enough that no surviving record can identify them at long range. The Synod's working sections cluster in the central band: the proxy halls, the resident quarters, the dock complex, the envoys' quarter. The Kaleidos-facing end holds the Span terminus and the Synod's primary entrance for visiting traffic. The sun-facing end is the deep station, sealed by sectors and patrolled by [Threshold Wardens](#threshold-wardens).
+  prose <<~PROSE, section: :atmosphere, heading: "Shape and Light"
+    From a distance the hull looks seamless. Up close it is segmented, each section doing different work behind seams tight enough that long-range survey never resolves them. The Synod's working rooms fill the central band: proxy halls, resident quarters, the dock and the envoys' quarter. Visiting traffic enters at the Kaleidos-facing end beside the Span terminus. The deep station toward the sun is sealed by sectors and patrolled by the Threshold Wardens.
 
-    The light is strange. The sun-facing end is bathed in unfiltered Kaleidos-sun light at intensities that would burn an unshielded ship; the Kaleidos-facing end sees the home planet as a small steady disc and the sky as deep stars. Walking the spindle's length passes through gradients of light that the station's interior architecture modulates with old, unexplained efficiency. The proxy halls in the central band hold a soft pale steadiness regardless of which way the station is facing. The Synod considers this a comfort. Visitors are more divided.
+    Light changes along the spindle's length. The sun-facing end takes unfiltered sunlight fierce enough to burn an unshielded ship; the Kaleidos-facing end looks out on deep stars and the small, steady disc of home. The interior carries those gradients inward and softens them by some ring-era means the Synod has never traced, so the proxy halls sit in a pale, even light whichever way the station faces. The Synod finds it restful. Many visitors find it eerie.
 
-    A spinal corridor runs the spindle's accessible length. Auxiliary lifts and side passages branch off at intervals. The corridor is wide enough for cargo and crowded only during shift changes and Synod observances. Most of the time it is quiet in a way that is hard to describe to people who have not walked it.
+    A spinal corridor runs the accessible length, wide enough for cargo and busy at shift changes and Synod observances. The rest of the time it is so quiet that terminus children dare each other to shout in it, and then do not.
   PROSE
-  prose <<~PROSE, section: :people, heading: "Population"
-    The station holds three resident populations besides the Synod's proxies and their apprentices.
+  prose <<~PROSE, section: :people, heading: "Three Peoples"
+    **The terminus crew** keeps the dock, the Span relay and the comms room, and has done so across generations. They are station people and dock people before they are anything to do with the Synod, with their own slang, their own mess, and a family tree so tangled that terminus weddings need a crew elder to say who may marry whom. They regard the Synod's observances with fond skepticism and the Span traffic as the only reason anyone outside cares about the station.
 
-    **The terminus crew.** A small permanent staff manages the Span Nine terminus, the dock complex, and the comms relay. The terminus crew is not Synod; some of them are not even particularly religious about Synod matters. They have served the post across generations and have their own subculture, their own dialect, and their own quietly held opinion that the Synod's rituals are interesting but the dock's work is what keeps the station relevant to the rest of the system. The terminus crew lives in the Kaleidos-facing quarter, eats at the terminus mess, and intermarries among itself more than is statistically reasonable.
+    **The envoys' quarter** holds permanent missions from #{ref :sithari, "Sithari"}, the #{ref :tempered_accord, "Tempered Accord"}, the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} and #{ref :the_continuity, "the Continuity"}, because Synod outputs are worth too much to receive only by relay. A diplomat there can be in the proxy halls within the hour. Four small missions eating together year after year have grown a dense, gossiping little culture of their own, with feuds a decade old and a card game whose stakes are rumored to include favors between governments.
 
-    **The envoys' quarter.** #{ref :sithari, "Sithari"}, the #{ref :tempered_accord, "Tempered Accord"}, the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"}, and #{ref :the_continuity, "the Continuity"} each maintain small permanent missions on-station. The envoys exist because Synod outputs are valuable enough that no major faction is willing to receive them only by Span relay. A diplomat in the envoys' quarter can be in the proxy halls within an hour. They eat together more than they would like, argue with each other in patterns the Synod finds soothing, and have built up a small dense diplomatic culture entirely their own. The envoys' quarter is the only place on the station where political business is the dominant activity.
-
-    **The Threshold Wardens.** See below.
-
-    There is no scholar class. There is no pilgrim economy. People who come to Threshold come to work or to talk to the Synod, and people who finish their business leave. The station is many things; a destination for the curious is not one of them.
+    **The Threshold Wardens** hold the boundary between the active station and its sealed sectors. They are paid by the Synod, sworn to the station, and built to refuse any Synod order that would breach a seal, an arrangement that dates from the second lost expedition. They weld and inspect the seals, patrol the seam, and answer incursions, which come rarely and badly. Only a Warden may open a sealed sector, and the permit comes from the Wardens themselves; the Synod has tried three times to make the process simpler and failed each time. Every patrol carries shielding, damping gear, weapons kept clean against a need that comes once in years, and a Clarisant Tuner trained on the #{ref :pelhari, "Pelhari"} chapter's Warden track. Recruits come from the terminus families, from outside, now and then from the Synod. The corps is small, old, proud and reputed the most disciplined boundary unit anyone employs.
   PROSE
-  prose <<~PROSE, section: :operations, heading: "Threshold Wardens"
-    The Wardens are the corps responsible for the boundary between the active station and the sealed sectors. They are semi-independent of the Synod: paid by the Synod, sworn to the station rather than to the proxies, and structured to refuse Synod orders that would compromise the seals. The arrangement has held since the second lost expedition. The Synod does not love it. The station does not run without it.
+  prose <<~PROSE, section: :tensions, heading: "The Sealed List"
+    The Wardens and the Synod keep a list of sealed sectors, and the boundary is that list. Every sector on it has its bulkheads welded, life support cut and monitors running. The list covers the old ring-era command spine, three deep equipment vaults whose purpose is lost, the whole sun-facing terminus, and sectors named for the expeditions that proved them dangerous. It is reviewed every year and has grown more often than it has shrunk.
 
-    What the Wardens actually do is straightforward and difficult. They maintain the physical seals on the named dangerous sectors — welded bulkheads, monitored hatches, periodic inspection of the resonance state at the boundary. They patrol the seam between active and sealed Threshold and respond to incursion events, which happen rarely and consequentially. They are the only people on the station permitted to open a sealed sector, and the permits required to do so are obtained from the Wardens themselves through a process that the Synod has tried and failed to streamline three separate times.
-
-    A Warden's working kit is heavy: shielding rig, dampening kit, a Clarisant-credentialed Tuner on every patrol team (the Clarisant's #{ref :pelhari, "Pelhari"} chapter trains a small specialist track for Warden work), and weapons that have not been needed in some years and are maintained anyway. Warden recruits come from the dock crews, from outside, occasionally from the Synod itself. They are trained slowly. The corps is small and old and proud and has a reputation across the system as the most disciplined boundary unit anyone employs.
+    The Telleran Sector, sealed at the boundary the Telleran expedition crossed in 2367 and never returned from, is the largest. The Lower Vault, where a Warden died in 2381 in a position the corps has never explained, was resealed deeper than the incident required. The Synod's own records of what Telleran found before it vanished are extensive, deliberately incomplete and unpublished, and every envoy on the station would like a copy.
   PROSE
-  prose <<~PROSE, section: :tensions, heading: "Sealed Sectors"
-    The boundary is not a wall. It is a list.
+  prose <<~PROSE, section: :present_day, heading: "The Unlisted Door"
+    This spring a terminus-crew girl of nine went missing for three days. Crews searched every open section. On the fourth morning she walked out of a service door in the central band that everyone had passed a hundred times, and said she had been gone about an hour, playing in a lit room with a boy who asked her questions about the sky.
 
-    Specific identified-dangerous sectors of the station are hard-sealed: bulkheads welded, life support cut, monitoring installed, traffic prohibited. The rest of the station is accessible to anyone with reason to be there. The list is not short. It includes the original ring-era command spine, three deep equipment vaults whose function was once known and is no longer, the sun-facing terminus complex in its entirety, and several smaller sectors named after the lost expeditions that proved them sealed-worthy.
-
-    **The Telleran Sector**, named for the lost expedition, is the largest single sealed area. The seal is maintained at the original boundary. The Wardens patrol it.
-
-    **The Lower Vault Sector** is smaller and more strictly controlled, sealed at a boundary deeper than the original incursion required.
-
-    The other sectors are sealed by policy rather than by incident. The Synod and the Wardens together maintain the list, which is reviewed annually and grows more often than it shrinks.
-  PROSE
-  prose <<~PROSE, section: :operations, heading: "What the Synod Actually Does"
-    The technical detail of the Synod's proxy work — the rituals, the AI custodians, the navigation outputs, the governance consultations, the resonance telemetry — is in the #{ref :lattice_proxy_synod, "Lattice Proxy Synod"} entry. Threshold is where it happens. The proxy halls are the Synod's deepest working space; the envoys come for outputs; the Wardens keep the unspoken parts of the station from waking up unprepared.
-  PROSE
-  prose <<~PROSE, section: :present_day, heading: "Present Day"
-    The station has been at L1 for as long as anyone remembers and shows no sign of moving. The Synod has been in residence for #{elapsed :lattice_proxy_synod, approx: true}. The Wardens have held the seals for almost as long. The terminus has carried Span traffic continuously since rediscovery. The envoys cycle through.
-
-    Threshold is not a peaceful place. It is a calm one. The work is steady; the seals hold; the proxies keep talking to whatever they talk to; the corridors stay quiet in their particular way. The arrangement is older than the people running it. Most weeks, nothing happens that the station's residents would describe as interesting. They prefer it that way, and so does everyone else.
+    The Wardens sealed the sector behind that door the same day and added it to the list. The girl's family want it opened: she insists the boy is still in there and wants to come out. The Synod's proxies say the custodians have been using a new word in their outputs since the day she returned. The envoys have all written home about it.
   PROSE
 
-  gm_note :appears, "There is no pilgrim trade and no scholar class here, so a visitor without stated business is conspicuous inside a shift. The terminus crew know each other by family and the envoys know each other by mission; there is nobody to be mistaken for."
+  gm_note :appears, "Everyone aboard came to work or to speak with the Synod, so a visitor without stated business is conspicuous inside a shift. The terminus crew know each other by family and the envoys know each other by mission; there is nobody to be mistaken for."
   gm_note :triggered_by, "Any request to pass a seal goes to the Wardens, who write the permits, patrol the seam, and are sworn to the station rather than to the proxies. Synod backing does not move them — the Synod has tried three times to simplify the process and failed each time."
   gm_note :complicates, "Four permanent missions share the envoys' quarter, eat together more than they would like, and argue in front of each other by habit, so business a party does anywhere on the station reaches all four before it concludes. Hiring one acquires three interested rivals."
 end
@@ -96,7 +77,7 @@ relate :rel_threshold_in_orbit_of_kaleidos, :in_orbit_of, :threshold_station, :k
   prose "Threshold Station holds an orbit of #{ref :kaleidos, "Kaleidos"}, a ring-era installation that outlived its builders and most of their intentions."
 end
 relate :rel_threshold_terminus_span_nine, :terminus_of, :threshold_station, :span_nine do
-  prose "It anchors the far end of #{ref :span_nine, "Span Nine"}, the one length of pre-Glassfall hardline still carrying signal."
+  prose "It anchors the sunward end of #{ref :span_nine, "Span Nine"}, the one length of pre-Glassfall hardline still carrying signal."
 end
 
 # --- history (moments) ---

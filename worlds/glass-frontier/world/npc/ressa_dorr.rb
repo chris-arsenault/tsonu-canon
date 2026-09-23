@@ -18,14 +18,14 @@ npc :ressa_dorr do
   prose <<~PROSE, section: :history, heading: "The Rooms She Inherited"
     Her grandmother opened the hall in 2383, buying two adjoining pressure rooms with savings from carrying and provisioning. She cooked in one and served meals in the other until she could enclose a kitchen. She had learned the trade from #{ref :vedra, "Vedra"}, and divided large provision orders into loads independent crews could afford. Lodgers tolerated the clatter because she let them pay after a voyage. Some debts were settled with surrendered tools; those families remembered her prosperity differently from the customers she helped establish.
 
-    Ressa grew up among the lodgers and learned to provision journeys before managing the stores herself. In 2426 she inherited the rooms, stock and debts. She has expanded the business, but arrived at ownership with shelter and customers already in place. Cutters who begin with a rented suit notice the difference. Utensil hooks still follow her grandmother's reach; Ressa has moved the heavy pots lower and refuses to put them back for the sake of appearances.
+    Ressa grew up among the lodgers and learned to provision journeys before managing the stores herself. In 2426 she inherited the rooms, stock and debts. She has expanded the business from a start that came with shelter and customers already in place. Cutters who begin with a rented suit notice the difference. Utensil hooks still follow her grandmother's reach; Ressa has moved the heavy pots lower and leaves them there when old lodgers say the kitchen looked better before.
 
-    The inherited #{ref :sereyat, "Sereyat"} draws musicians and listeners. Its sale could bring her garden within reach; keeping it brings people into the hall and preserves a pleasure she shares with them. She pays for careful performances and objects when a patron treats a player's hands as less valuable than the old ceramic ribs.
+    The inherited #{ref :sereyat, "Sereyat"} draws musicians and listeners. Its sale could bring her garden within reach; keeping it brings people into the hall and preserves a pleasure she shares with them. She pays players well and objects when a patron treats a player's hands as less valuable than the old ceramic ribs.
   PROSE
   prose <<~PROSE, section: :culture, heading: "After the Bowls Are Cleared"
     Between sittings, lodgers push two tables aside for #{encyclopedia_ref :tovan, "tovan"}. The padded hooks stay on a high shelf; the sash is patched with apron cloth. Ressa keeps the contest away from Sereyat and charges a broken bowl to the person who fell on it. A newcomer who teaches a good counter can find the same opponents waiting after the next meal. The best players seldom agree to use the longer sash a visiting bath fighter expects.
 
-    Family recordings from her former lodgers aboard #{ref :steady_return, "Steady Return"} draw the children around the hall's viewing screen. Ressa sends #{encyclopedia_ref :old_proof, "proof bread"} back for comparison and lets them add pictures to her replies. The ship works the Keel; these gifts pass between willing travelers on separate voyages. Lithren's irregular berths can leave a reply waiting long after its sender has news to add.
+    Family recordings from her former lodgers aboard #{ref :steady_return, "Steady Return"} draw the children around the hall's viewing screen. Ressa sends #{encyclopedia_ref :old_proof, "proof bread"} back for comparison and lets them add pictures to her replies. The ship works the Keel, so each parcel rides outward with whichever traveler is headed that way and willing to carry it. A reply can sit in a Lithren berth long enough for its sender to record two more.
 
     A box of #{encyclopedia_ref :salt_eggs, "salt-eggs"} from the ship goes into the common meals, shaved over the pots until everyone has tasted it. The children have asked for pictures of fresh fruit from #{ref :naloven, "Naloven"}, where their former neighbors once took leave. Ressa keeps one showing a bowl floating beside a bather. She wants a garden badly enough to recognize each new leaf in the background.
   PROSE
@@ -34,11 +34,12 @@ npc :ressa_dorr do
 
     #{ref :tovin, "Tovin"} stole two loads from her carriers before the #{ref :oravel_crossing, "Oravel Crossing"}. He later brought one of those carriers home alive. Ressa feeds him at the common tables and still refuses him the storeroom keys. She will buy honest carrying from him, deducting an agreed part against the stolen goods. He disputes how much she says they were worth.
 
-    Her private ambition is a room with a real garden where a meal can be picked rather than unpacked. She has saved for it and resents being treated as an inexhaustible rescue fund. She will lend to a crew she trusts, refuse one she does not, and quietly put food aside for the children of either.
+    Her private ambition is a room with a real garden where a meal can be picked off the stem. She has saved for it and resents being treated as an inexhaustible rescue fund. She lends to crews she trusts and turns the others away at the hatch. The children of both kinds eat from the same pot she sets aside behind the serving counter.
   PROSE
   gm_note :appears, "Over a meal, Ressa offers space in a provision load to Damarat if someone will bring Tamet's finished bowls back undented. A waiting crew wants the same spare space for a passenger."
   gm_note :triggered_by, "Staying after the meal means helping clear a floor for the lodgers' bouts. Ressa hands a willing newcomer the patched sash and tells the regulars to show them the short-floor turn slowly."
   log "2026-09-20 — Prosperous Innkeeper suggested a host whose prosperity and pleasure both grow through returning guests. Used shared food, family pictures and recreation at Ressa's existing hall: https://mtg.wtf/card/afr/200/Prosperous-Innkeeper."
+  log "2026-09-23 — Restated the carrying disclaimer and the lending closer as concrete behavior; facts unchanged."
 end
 relate :rel_ressa_at_ithara, :located_in, :ressa_dorr, :ithara
 relate :rel_ressa_supplies_damarat, :supplies, :ressa_dorr, :damarat, since: 2433

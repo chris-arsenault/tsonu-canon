@@ -1,9 +1,9 @@
 faction :span_nine_white_operators do
   tags :subject_journeys_trade
   name "The Span Nine White Operators"
-  summary "The Span Nine White Operators repeat damaged messages through three different materials before accepting a word as stable."
+  summary "Relay operators' guild of the Span Nine conduit, keeping posts at Whitefoot, Threshold Station and Issel."
   type_of :pipe_glass_cloth
-  subkind :community
+  subkind :guild
   status :complete
   prominence :marginal
   veiled "The Span Nine White Operators repeat damaged messages through three different materials before accepting a word as stable."

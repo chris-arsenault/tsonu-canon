@@ -2,20 +2,20 @@ geographic_location :kaleidos do
   name "Kaleidos"
   summary "Kaleidos is the inhabited world beneath the Glass Frontier, with oceans, old continents, and ringglass scattered through its soil, water, and foundations."
   log "2026-08-22 — Excluded as a chronicle location because the whole world is too broad to anchor a starting focus."
+  log "2026-09-23 — Added a Settled Belts paragraph naming Casmurd and Lenua as the regions beside Sithari and placing the western regions far beyond Lenua's far shore."
   subkind :celestial_body
   status :complete
   tags :surface, :resonance, :ringglass, :cosmology, :subject_planetary_life
   prominence :mythic
   position frame: :kaleidos_system_chart, radius: 2, angle_deg: 64
   registry true
-  custom_fact :surface_character, "Oceans, continental stone, settled river plains, grassland, grove basins and high mountains",
-              label: "Surface"
-  custom_fact :largest_city, "Sithari",
+  world_type "Inhabited terrestrial planet beneath the shattered ring"
+  environment "Oceans, continental stone, settled river plains, grassland, grove basins and high mountains"
+  custom_fact :largest_city, "Sithari (largest surface city)",
               label: "Largest City"
   custom_fact :orbital_feature, "The shattered ring known as the Glass Frontier",
               label: "Orbital Feature"
-  custom_fact :resonance_environment, "Uneven ringglass deposits through soil, water and old foundations",
-              label: "Resonance Environment"
+  resonance_environment "Uneven ringglass deposits through soil, water and old foundations"
 
   descriptive_identity(
     setting:
@@ -27,7 +27,7 @@ geographic_location :kaleidos do
       "that carries voices, a grove that hums through its roots, two " \
       "buildings a street apart standing in different fields.",
     activity:
-      "Most people live and work on the surface — coastal towns, river " \
+      "Several hundred million people live and work on the surface — coastal towns, river " \
       "settlements, steppe farms, grove basins, mountain communities — " \
       "moving goods by road, rail, river, and coastal vessel, with " \
       "kites for the long crossings. Builders sound a site before " \
@@ -43,12 +43,14 @@ geographic_location :kaleidos do
   )
 
   prose <<~PROSE
-    Kaleidos is an inhabited world of oceans, old continental stone, and a sky crossed by the remains of its ring. Most of its people live on the surface. #{ref :sithari, "Sithari"} is the largest city, but it does not contain the planet's population or set every local custom. Coastal towns, river settlements, upland farms, grove basins, and high mountain communities survived the #{ref :signal_famine, "Signal Famine"} with little contact between them. Reconnection made travel easier without making those places alike.
+    Kaleidos is an inhabited world of oceans, old continental stone, and a sky crossed by the remains of its ring. Several hundred million people live on its surface, fewer than live in the ring above it. #{ref :sithari, "Sithari"} is the largest surface city, but it holds a small share of the planet's people and sets few of their local customs. Coastal towns, river settlements, upland farms, grove basins, and high mountain communities survived the #{ref :signal_famine, "Signal Famine"} with little contact between them. Reconnection made travel easier without making those places alike.
 
     The broken ring remains visible in daylight. Large fragments pass as hard-edged slivers; fine debris brightens broad reaches of sky and casts moving colors across the ground. #{encyclopedia_ref :glassfall_showers, "Glassfall showers"} still bring dust and occasional larger pieces into the atmosphere. A farmer covers a cistern, a pilot folds a sail, and a child lays out catch cloth for the same approaching front.
   PROSE
   prose <<~PROSE, section: :geography, heading: "The Settled Belts"
     Sithari stands on an equatorial tableland above a ring-era campus. The city's eastern port fields open toward long, dry ridges where surface roads and freight lines spread into the interior. Westward, older roads descend through farm country to a warm inland sea. The capital's reach follows those routes, thinning from municipal rail to hired carriers and then to weekly carts and kites.
+
+    The eastern ridges are #{ref :casmurd, "Casmurd"}, quarry country whose faces cut the pale stone the capital builds with and whose towns send workers into its port on rotation. The western farm country and its sea are #{ref :lenua, "Lenua"}, whose terraces feed the city by a single night's train. Both lie close enough for Sithari's markets to set their prices. Beyond Lenua's far shore the land runs on westward for weeks of overland travel, through salt pans, cattle country and settlements that answer to their own boards, before the coastal hills of the western regions rise. Sitharians who speak of the west mean Glasswake and the country behind it, and a traveler reaches it from the capital by kite in a day or two or by ferry and road in most of a season.
 
     #{ref :glasswake, "Glasswake"} holds a western coast where a fallen hab fragment forms a ridge above the town. Inland lies #{ref :avar, "Avar"}, a broad grassland cut into terraces by glass-bearing scarps. Its wells are deep, its roads move when shallow crystal beds settle, and its market towns depend on pumps and bridges that cannot be replaced quickly.
 

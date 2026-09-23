@@ -1,7 +1,7 @@
 conflict :lithren_ice_access do
   tags :subject_lithren
   name "Lithren Ice Access"
-  summary "Lithren Ice Access is a dispute between Lithren cutters and Pelhari scholars over which archive ice may be melted during water shortages."
+  summary "Standing water-and-archive dispute on Lithren, joined by the scholars of Pelhari on Vastine's moon."
   subkind :dispute
   status :complete
   prominence :marginal

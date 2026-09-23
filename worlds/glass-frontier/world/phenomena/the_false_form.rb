@@ -48,11 +48,12 @@ phenomenon :the_false_form do
     The trades answer the evidence directly. Crews erase an open rhombus drawn on a hull, leave the old caption unsounded in a depleted field, and retune glass that starts to *shimmer wrong* before connected work resumes. Scholars classify the cases as closure failures. Communion houses continue their older argument about whether a force stands behind them.
   PROSE
 
-  # ---- Hidden (DM) truth ----
-  prose <<~PROSE, section: :truth, heading: "The Adversary", dm: true
-    The False Form is the Adversary: a real non-closing geometry with will. The #{encyclopedia_ref :elves, "elves"} identified it in their records of the ring's destruction and preserved *falsehood is not* as public doctrine while they prepared against its return.
+  prose <<~PROSE, section: :significance, heading: "The Adversary"
+    The panel is accurate. The False Form is real: a non-closing geometry that acts with will, which the #{encyclopedia_ref :elves, "elves"} recorded as the force that broke the orbital ring and which they call the Adversary. They preserved *falsehood is not* as public doctrine while they withdrew to prepare against its return.
+
+    For almost everyone in Kaleidos this changes nothing. The Adversary lives at the edges of the world, and its trace shows up only there: at Bloom Zone cordons, in Deep Shear crystal, in duskgrain, in the bench faults above. The people who know what stands behind those traces are the hidden elves, the head of the #{ref :displacement_council, "Displacement Council"}, and a handful of scholars and Communion keepers whose reading of the third panel their colleagues regard as eccentric.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "Non-Closing Geometry", dm: true
+  prose <<~PROSE, section: :mechanics, heading: "Non-Closing Geometry"
     The #{encyclopedia_ref :the_three_forms, "Three Forms"} records the actual geometry of resonance. Coherence closes into figures. The Tetrahedron and Triangulum are the lawful shapes of held form and applied force. The third path returns to its origin with an edge still open, forcing a figure that cannot stably exist to persist against ordinary space. The Adversary is that geometry acting with intent.
 
     Where it presses into normal space, local reality cannot resolve a coherent figure. The caption *it is, and is not, all at once* describes this forced persistence. Elven records connect that geometry to four established effects:
@@ -62,12 +63,12 @@ phenomenon :the_false_form do
     - **Spatial-identity collapse** tunes a person toward that framework until their coherent bodily boundary fails. Advanced #{encyclopedia_ref :fae, "fae"} dislocation resembles the same failure at its edge; duskgrain exposure drives a body through it.
     - The **#{ref :communication_shard, "Communication Shard"}** held by #{ref :dern_talish, "Dern Talish"} uses a controlled discontinuity on the same side of closure. The elves made that narrow contact path into an instrument.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "Recorded Agency", dm: true
-    Elven records attribute the location and timing of the #{ref :the_glassfall, "Glassfall"} to the Adversary. They describe selection, preparation, and pressure applied at a ring-breaking scale. Their reading of *one conflict* is a continuing war against that active opponent, and their preparations assume it will return.
+  prose <<~PROSE, section: :history, heading: "Recorded Agency"
+    Elven records attribute the location and timing of the #{ref :the_glassfall, "Glassfall"} to the Adversary. They describe it choosing the ring as a target, testing the structure for weeks beforehand with pressures the ring's engineers logged as unexplained resonance faults, and then applying force at a ring-breaking scale along the seams those tests had found. Their reading of *one conflict* is a continuing war against that opponent.
 
-    The records do not identify the kind of mind involved. A single intelligence, a swarm, or a law of another cosmos capable of choice all fit part of the evidence. What the records establish is narrower: it comes from outside the Kaleidos system, destroys ring-scale coherent structures, acts with apparent intent, and left #{encyclopedia_ref :duskgrain, "duskgrain"} where its geometry crossed into matter.
+    The records describe what it does and leave its inner nature to argument among the elves themselves. It comes from outside the Kaleidos system. It seeks out large coherent structures and breaks them. It presses wherever a figure fails to close, and it leaves #{encyclopedia_ref :duskgrain, "duskgrain"} where its geometry crosses into matter. Small coherent things beneath its notice, a house, a hab, a person, it has never been recorded troubling.
   PROSE
-  prose <<~PROSE, section: :implications, heading: "The Redaction", dm: true
+  prose <<~PROSE, section: :implications, heading: "The Redaction"
     The elven #{encyclopedia_ref :elves, "Redaction"} preserved the third panel and its caption while stripping records that tied the figure to particular events, locations, and procedures. The resulting public tradition retained a symbol of false closure and lost the operational history that identified an opponent. *Falsehood is not* became the dominant reading because it directed study toward doctrine and bench discipline rather than Adversary traces.
 
     The doctrine preserves one useful property: the Adversary's figure cannot close. Its persistence against reality carries a cost and requires an open edge through which to press. The One Truth — perfect single-wavelength coherence — is the elven countermeasure: a figure closed so completely that the False Form has no unresolved edge to enter. Their centuries of single-wavelength work aim to construct that close at the scale of the coming conflict.
@@ -78,15 +79,15 @@ phenomenon :the_false_form do
   gm_note :complicates, "A non-closing trace stops connected work: the crew erases any open figure on the hull, leaves the old caption unsounded, and retunes every glass path that shimmers before machinery starts again."
 end
 
-relate :rel_the_false_form_destroyed_the_glass_frontier, :destroyed, :the_false_form, :the_glass_frontier, dm: true do
+relate :rel_the_false_form_destroyed_the_glass_frontier, :destroyed, :the_false_form, :the_glass_frontier do
   prose "The False Form forced non-closing geometry through the ring and shattered it into the #{ref :the_glass_frontier, "Glass Frontier"}."
 end
-relate :rel_the_false_form_caused_the_glassfall, :caused, :the_false_form, :the_glassfall, dm: true do
+relate :rel_the_false_form_caused_the_glassfall, :caused, :the_false_form, :the_glassfall do
   prose "The #{ref :the_glassfall, "Glassfall"} began when the False Form pressed its open geometry into the ring at a scale the structure could not close against."
 end
-relate :rel_the_false_form_caused_disappearance_of_the_elves, :caused, :the_false_form, :disappearance_of_the_elves, dm: true do
+relate :rel_the_false_form_caused_disappearance_of_the_elves, :caused, :the_false_form, :disappearance_of_the_elves do
   prose "The elves answered the expected return by withdrawing their communities, masking their resonance signatures, and removing the routes that led to them."
 end
-relate :rel_the_false_form_seeping_through_bloom_zones, :seeping_through, :the_false_form, :bloom_zones, dm: true do
+relate :rel_the_false_form_seeping_through_bloom_zones, :seeping_through, :the_false_form, :bloom_zones do
   prose "The #{ref :bloom_zones, "Bloom Zones"} are openings where the False Form's non-closing geometry prevents local space from resolving a stable boundary."
 end

@@ -1,7 +1,7 @@
 resource :four_yard_pitch_batch do
   tags :subject_shear
   name "The Four-Yard Pitch Batch"
-  summary "The Four-Yard Pitch Batch is Blue Yard Pitch sourced from the Dry Net, Three Arms Yard, Blue Step Works, and Lot Forty. It hardens around moving ringglass and peels away cleanly when the vibration stops."
+  summary "Batch of ringglass pitch drawn from Glasswake's Dry Net and Three Arms Yard, Ladderwell's Blue Step Works, and Forty at Brake."
   subkind :material
   type_of :ringglass_pitch
   status :complete

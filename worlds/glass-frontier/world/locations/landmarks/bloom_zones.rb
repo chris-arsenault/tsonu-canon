@@ -1,6 +1,6 @@
 geographic_location :bloom_zones do
   name "Bloom Zones"
-  summary "Bloom Zones are expanding reality tears in Kaleidos orbit and the Fracture, where physical rules and distance become inconsistent."
+  summary "Bloom Zones are cordoned reality tears in Kaleidos orbit and the Fracture, where physical rules and distance become inconsistent and the edges slowly creep outward."
   playable_as :chronicle_location
   context_tags :orbital, :bloom_adjacent, :displacement_zone
   subkind :hazardous_zone
@@ -10,7 +10,7 @@ geographic_location :bloom_zones do
   tags :orbital, :danger, :resonance, :subject_bloom
   prominence :renowned
   prominence_xrefs ["coremark", "displacement-council", "pyre", "tuners"]
-  nature "Expanding tears where physical rules and distance become inconsistent"
+  nature "Slowly creeping tears where physical rules and distance become inconsistent"
   first_recorded 2378
   containment_status "Permanent cordons maintained around active zones"
 
@@ -44,16 +44,14 @@ geographic_location :bloom_zones do
   )
 
   prose <<~PROSE
-    Man-made reality tears. Places where the #{encyclopedia_ref :resonance, "resonance"} environment has broken so thoroughly that physics stops behaving consistently. They exist in Kaleidos orbit — in the #{ref :the_shear, "Shear"}, adjacent to ring habs, and in otherwise clean orbital space — as well as in #{ref :the_fracture, "the Fracture"}'s asteroid belt. No accepted model accounts for the full distribution.
+    Bloom Zones are reality tears, places where the #{encyclopedia_ref :resonance, "resonance"} environment broke so thoroughly that physics stopped behaving consistently. The first were opened by an industrial accident, the #{ref :the_silent_bloom, "Silent Bloom"} of 2378. They lie in Kaleidos orbit, in the #{ref :the_shear, "Shear"}, beside ring habs and in otherwise clean space, and in #{ref :the_fracture, "the Fracture"}'s belt. Surveyors argue over why they fall where they do. The hidden elves know that the #{ref :the_false_form, "False Form"} presses against ordinary space through them, and that this is what keeps them open.
 
-    They are expanding slowly and require constant containment by the #{ref :displacement_council, "Displacement Council"}. They are the system's most dangerous ongoing crisis and its most productive source of new artifacts. Each artifact's properties and risks have to be established separately because no general theory predicts what a zone will produce.
+    Their edges creep outward, and the #{ref :displacement_council, "Displacement Council"} keeps permanent cordons around them. Cordon work settled into routine after the cascade years. The zones remain deadly to cross and are the system's most productive source of new artifacts. Each artifact's properties and risks have to be established separately because no general theory predicts what a zone will produce.
   PROSE
   prose <<~PROSE, section: :atmosphere, heading: "What They're Like"
-    No two zones manifest the same way. The distortion varies with the local resonance state and the frequencies active within it.
+    Every zone breaks space in its own way, according to its local resonance and the frequencies running through it. In one, walls let light through and still cannot be seen through, and their surfaces lose any reliable edge. In another, sound arrives from the wrong direction. Elsewhere a corridor ten meters long becomes thirty, or three. In the worst, direction itself comes loose.
 
-    In some zones, walls admit light while remaining impossible to see through, and their surfaces lose a reliable boundary. In others, sound arrives from the wrong direction. Elsewhere, spatial relationships fail: a corridor that was ten meters long becomes thirty, or three. In the worst zones, even "direction" loses a stable meaning.
-
-    #{encyclopedia_ref :resonant_tuner, "Tuners"} describe the resonance landscape inside a zone as saturated — so dense with information that signal-to-noise collapses. #{encyclopedia_ref :gnomes, "Gnomes"} are hit worst — their crystal-laced nervous systems pick up the distortion directly. #{encyclopedia_ref :fae, "Fae"} have an unexpected advantage — the spatial dislocation they manage daily is exactly the skill set the zones demand.
+    #{encyclopedia_ref :resonant_tuner, "Tuners"} say a zone's field is saturated, so dense with signal that every reading drowns. #{encyclopedia_ref :gnomes, "Gnomes"}, with ringglass in their nerves, take the distortion straight into their bodies and suffer worst. #{encyclopedia_ref :fae, "Fae"} do best: the dislocation they manage every day of their lives is exactly the skill a zone demands, and cordon crews pay fae guides well.
   PROSE
   prose <<~PROSE, section: :atmosphere, heading: "The Cordon Line"
     From a ship, a cordon edge is nothing to look at: open space, ordinary light, the boundary invisible except near a damping buoy or a #{ref :liras_wall, "Lira's Wall"} anchor. What marks it is the sign every ship's sensors register as the line approaches — the standing broadcast that a boundary is ahead and crossing is regulated.
@@ -70,9 +68,9 @@ geographic_location :bloom_zones do
     #{ref :karet_three, "Karet-3"} opened around an inhabited freight hab in the outer Shear in 2426, long after the first cascade. Its permanent station at #{ref :outside, "Outside"} is evidence that new zones can become towns as well as emergencies: contractors rotate through the cordon while evacuated families build their lives beside it.
   PROSE
   prose <<~PROSE, section: :significance, heading: "Why the Fracture"
-    The Bloom Zones near Kaleidos have known causes — #{ref :coremark, "Coremark"}'s overload at #{ref :pyre, "Pyre"} and the conductive guide left by the #{ref :second_span_trial, "Second Span trial"}. But Bloom-identical reality tears have manifested in #{ref :the_fracture, "the Fracture"}'s asteroid belt, thousands of kilometers from Kaleidos. The Fracture has its own ancient history of destruction — a shattered planet, cosmically older than the ring's collapse.
+    The zones around Kaleidos began with #{ref :coremark, "Coremark"}'s overload at #{ref :pyre, "Pyre"} and the conductive guide left by the #{ref :second_span_trial, "Second Span trial"}. Tears identical to them have opened in #{ref :the_fracture, "the Fracture"}'s belt, across the outer system, among the fragments of a planet that broke apart long before the ring did.
 
-    Frontier researchers have found no shared cause that explains both groups of tears. Some argue that the two sites are connected through resonance geometry; others treat their apparent similarity as incomplete evidence. The dispute has drawn sustained concern within containment and research circles and little attention outside them.
+    Frontier researchers argue over the link. One school holds that the two sites are joined through resonance geometry; the other treats the likeness as coincidence awaiting better measurement. The argument absorbs containment and research circles and barely registers anywhere else. The hidden elves have their own answer: they believe the sixth planet was broken by the same force that broke the ring, and that its tears are the old wound showing through.
   PROSE
 
   gm_note :triggered_by, "Fix one distortion per zone before the party enters and hold it: this zone bends distance, that one misplaces sound, another leaves no surface with a reliable edge. The rule does not carry to the next zone."
@@ -90,5 +88,5 @@ end
 # --- history (moment) ---
 moment :bloom_zones_created, year: 2378, of: :bloom_zones do
   summary "The Silent Bloom opened the first reality fractures across the mid-drift in 2378, creating the Bloom Zones."
-  prose "The Bloom Zones were born in the #{ref :the_silent_bloom, "Silent Bloom"} cascade — the resonance disaster that tore the first reality fractures open across the mid-drift and left a crisis that has only spread since."
+  prose "The Bloom Zones were born in the #{ref :the_silent_bloom, "Silent Bloom"} cascade — the resonance disaster that tore the first reality fractures open across the mid-drift. Their edges have crept outward ever since."
 end

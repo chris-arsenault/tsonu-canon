@@ -65,7 +65,7 @@ installation :far_bell do
   prose <<~PROSE, section: :people, heading: "Waiting Outside"
     Supply crews waiting on a closed approach occupy the shelter rooms in order of medical and pressure need. Everyone else remains aboard. The station has no galley and little privacy. Its walls carry cargo tallies, family names from Karet, and warnings left by contractors rotating home.
 
-    Permanent Vestige residents use the hand-reset trip as ordinary outside work. New contractors often volunteer because it is their first clear view of Karet-3 from beyond the platform. Fewer volunteer after their first boundary shift.
+    Permanent residents of #{ref :outside, "Outside"} use the hand-reset trip as ordinary outside work. New contractors often volunteer because it is their first clear view of Karet-3 from beyond the platform. Fewer volunteer after their first boundary shift.
 
     Visitors sometimes ask to remain at Far Bell rather than enter the town. The Council permits it only while a vessel keeps them supplied and accepts responsibility for immediate departure during a closure.
   PROSE

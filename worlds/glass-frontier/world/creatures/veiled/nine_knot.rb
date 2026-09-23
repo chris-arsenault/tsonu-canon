@@ -1,7 +1,7 @@
 creature :nine_knot do
   tags :subject_hab_life
   name "Nine-Knot"
-  summary "Nine-Knot is a marked Ravel knot found in pressure lines at Ravel and Perch."
+  summary "A marked knot, the gray water-main animal, tracked through the water systems of Ravel and Perch."
   subkind :creature
   status :complete
   prominence :marginal

@@ -1,7 +1,7 @@
 faction :gray_line_doorstep_household do
   tags :subject_bloom
   name "The Gray Line Doorstep Household"
-  summary "The Gray Line Doorstep Household is one displaced family that carries floor tiles from a lost home and places them beneath each temporary bed."
+  summary "Doorstep Claimant household displaced by a Bloom boundary shift, living between Xyloathax and the cordon settlement Outside while its claim awaits the courts."
   type_of :doorstep_claimants
   subkind :community
   status :complete

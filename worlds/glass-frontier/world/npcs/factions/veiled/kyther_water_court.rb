@@ -1,7 +1,7 @@
 faction :kyther_water_court do
   tags :subject_planetary_life
   name "Kyther Water Court"
-  summary "Kyther Water Court is the local government that assigns melt channels across Kyther Range from records at Marker House Twelve."
+  summary "Water board governing the Kyther Range's melt water, operating from Marker House Twelve on the eastern Avar road."
   subkind :government
   type_of :water_standing
   status :complete

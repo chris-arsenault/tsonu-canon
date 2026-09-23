@@ -1,7 +1,7 @@
 era :bloom_edge_years do
   tags :subject_bloom
   name "Bloom-Edge Years"
-  summary "The Bloom-Edge Years were the period when Karet shelters and displaced rooms first shared cordon crews."
+  summary "Local era of cordon life at Karet-3 in the outer Shear and at Xyloathax in Kaleidos orbit."
   subkind :era
   status :complete
   prominence :marginal

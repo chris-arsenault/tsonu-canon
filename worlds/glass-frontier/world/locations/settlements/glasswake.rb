@@ -10,6 +10,7 @@ installation :glasswake do
   reviewed "2026-03-18"
   tags :surface, :trade, :"ring-era", :subject_planetary_life
   prominence :recognized
+  log "2026-09-23 — Added Innik Vosk's grading bench on the sorting terraces to the economy."
   position frame: :kaleidos_surface, latitude_deg: 11, longitude_deg: -75,
            size_class: :site
 
@@ -24,7 +25,7 @@ installation :glasswake do
     activity:
       "Sorting terraces start early in the cool part of the day while " \
       "harbor crews work the tides and repair yards bridge both " \
-      "schedules. Tourists hike the first-signal trail past Span Nine; " \
+      "schedules. Tourists climb the first-signal trail to the old mast; " \
       "at the dock fringe, Ratter crews and independent kites unload " \
       "beside an open hiring wall.",
     access:
@@ -60,7 +61,9 @@ installation :glasswake do
 
     The town also sorts shower glass brought down by the #{ref :prismwell_kite_guild, "Prismwell Kite Guild"} and handles freight for western #{ref :avar, "Avar"}. Repair yards build mine fittings, kite catch frames, pumps, and road gear; #{ref :three_arms_yard, "Three Arms Yard"} handles the flexible frames used by shower scouts. The #{ref :pell_freight_assembly, "Pell Freight Assembly"} pools cargo work among independent crews based here.
 
-    Reconnection history brings visitors. The old transmitter building is a museum, and the first-signal trail leads from town to #{ref :span_nine, "Span Nine"}. Inns, guides, food stalls, and shops selling stamped ringglass support a modest tourist trade. Museum fees pay for preservation of the transmitter rooms and the public path through the upper wreck.
+    Glasswake's sorting terraces also hold the most trusted grading bench in the system. #{ref :innik_vosk, "Innik Vosk"}, a heshari grader from a ridge cutting-yard family, bites a coin of offcut from each lot and seals it to the load, and Shear crews ship lots down the Keel spur for his bite before selling at Keelward. His waiting list runs about a season, and Keelward finance clerks meet crews at the spur to buy their glass before it reaches him.
+
+    Reconnection history brings visitors. The old transmitter building is a museum, and the first-signal trail climbs from town through the upper wreck to the hab's surviving transmitter mast. Inns, guides, food stalls, and shops selling stamped ringglass support a modest tourist trade. Museum fees pay for preservation of the transmitter rooms and the public path through the upper wreck.
   PROSE
   prose <<~PROSE, section: :people, heading: "Mine Town and Port"
     Glasswake shifts follow mine lifts, harbor tides, and kite arrivals. Sorting terraces begin early to use the cooler part of the day. Harbor crews work the water. Repair yards and shops bridge both schedules. Schools post their calendar beside the mine closure board because a major survey or shower front changes which adults are available for pickup.
@@ -72,7 +75,7 @@ installation :glasswake do
   prose <<~PROSE, section: :atmosphere, heading: "Atmosphere"
     Mine dust reaches every street near the ridge. Buildings use ringglass-reinforced stone, deep awnings, and grated entries where workers can leave boots and outer clothes. The fallen hab dominates the skyline, weathered into a dark slope until an old room or structural rib emerges from it.
 
-    #{ref :span_nine, "Span Nine"} — the relay that carried the first signal — is a landmark on the ridge between Glasswake and #{ref :sithari, "Sithari"}. Tourists hike to it. Locals use it as a reference point for directions. "Past Span Nine, take the left fork."
+    The transmitter mast that sent the first signal still stands on the crest of the ridge, bent where the fall twisted it and braced with cable the town replaces every few winters. Tourists climb to it. Locals give directions by it: "Past the mast, take the left fork."
 
     A surface-access spur connects Glasswake to #{ref :keel, "the Keel"}, the system's primary orbital trade lane. Kites descending from the Keel use the town as a minor waypoint and resupply stop.
   PROSE
@@ -93,7 +96,7 @@ relate :rel_glasswake_adjacent_avar, :adjacent_to, :glasswake, :avar,
   prose "Avar begins inland of Glasswake's coastal hills."
 end
 relate :rel_glasswake_terminus_keel, :terminus_of, :glasswake, :keel do
-  prose "Glasswake's surface-access spur forms one of the Keel's principal termini."
+  prose "Glasswake's surface-access spur is a minor branch of the Keel, used by kites stopping to resupply."
 end
 relate :rel_shear_compact_operates_in_glasswake, :operates_in, :shear_compact, :glasswake, since: 2383 do
   prose "The #{ref :shear_compact, "Shear Compact"} keeps inspection offices in Glasswake for claims and mineral lots entering the certified trade."

@@ -1,7 +1,7 @@
 phenomenon :knock do
   tags :subject_hab_life
   name "The Knock"
-  summary "The Knock is the live freight-grid repetition between workshops in Bay Thirty-One and the former receiving deck beneath Rattle's market."
+  summary "A Thirty-One Echo on the surviving freight grid between the Thirty-One workshop on Wash Four and Rattle, Carom's sorting deck."
   type_of :thirty_one_echo
   subkind :physical_phenomenon
   status :complete

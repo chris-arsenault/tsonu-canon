@@ -5,6 +5,7 @@ encyclopedia :tally_dust do
   status :complete
   log "2026-08-31 — Renamed Rattle Tally Dust to Tally; the freight medium's original bookkeeping office supplies a concise shifted meaning instead of a three-part material description."
   log "2026-08-31 — Renamed Tally to Tally Dust. The bare title collided with the named ship Tally; freight culture already uses tally for attestations, bowls, route records, and that ship, while dust identifies this medium within the family."
+  log "2026-09-23 — Rebuilt around the dockside people who read, fake and fight over the pans; licensing and grading kept to one sentence each."
   topics :trade, :"ring-era", :archives, :mystery, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:dock, :market] }
@@ -15,30 +16,37 @@ encyclopedia :tally_dust do
 
   descriptive_identity(
     appearance: "A fine gray-bright metallic dust, kept in shallow sealed pans; at " \
-                "rest it lies featureless, and under an opened container it stirs — " \
-                "with a dry rattle and settles into raised elven " \
-                "figures like frost forming numerals.",
+                "rest it lies featureless, and under an opened container it stirs " \
+                "with a dry rattle and settles into raised elven figures like frost " \
+                "forming numerals.",
     working: "The pan goes under the container, the lid comes off the container " \
              "above it, the dust rattles and settles into the last registered " \
              "weight; the reader checks the figures against the conversion card " \
-             "and the manifest, and a mismatch is a finding.",
+             "and the manifest.",
     risks: "The dust reports the last weight registered by the system it once " \
-           "served — a figure that predates every postfall repack — so its " \
-           "verdicts need dockside interpretation, and the trade's running " \
-           "education is learning which mismatches mean fraud and which mean " \
-           "history."
+           "served, a figure older than every postfall repack, so a reading " \
+           "means whatever the person holding the card can persuade the dock " \
+           "it means."
   )
 
   prose <<~PROSE
-    The ring's freight system kept its own books, and part of the ledger was dust. The #{encyclopedia_ref :elves, "elves"} seeded their cargo installations with a registering medium — a fine metallic dust, laid in hold floors and weigh frames, that took each container's registered weight into itself and could render the figure back on demand, the working surface of an inventory system that spanned the ring and reconciled itself continuously. Had the ring held, the dust would have stayed what it was built to be: infrastructure, invisible as good bookkeeping. The Glassfall reduced the system to two surviving reservoirs — the holds of #{ref :thirty_one, "Bay Thirty-One"} and #{ref :rattle, "Exchange C"} — and turned their floors into mines. Harvested under registry license and sold by the sealed pan, the dust keeps performing its single office out of context: set a pan beneath a container, open the container, and the dust rattles and settles into raised elven figures — the container's last registered weight, rendered like frost forming numerals.
+    A tallier with a good pan can end a dockside fight in the time it takes to lift a lid. The pan goes under the container, the lid comes off, the dust gives a dry rattle and settles into raised elven figures, and both parties lean in to watch the numerals form like frost. If the dust figure and the manifest agree, the argument is over. If they differ, a new argument starts, and the tallier is paid to be in the middle of it.
 
-    Dockside trade has built a modest institution on the trick. Assay houses grade pans by settling speed and figure sharpness, conversion cards turn elven figures into working units, and the tally pan is the settlement of choice for disputes about tampering in transit: a container's dust figure and manifest figure agreeing closes an argument. The instrument's subtlety is time. The dust reports the last weight registered by the system it served, so its figure predates every postfall repack, and the trade's craft is telling the mismatches apart — fraud reads one way, a container honestly repacked twelve owners ago reads another, and a figure in a weight class matching a cargo the manifest never listed is a third thing that the registries pay attention to. The pans wear out slowly, their figures softening over years toward smudge, and worn pans retire into the curiosity trade — where collectors, buying an exhausted pan, still set it under an opened box first, on the chance the old bookkeeping has one figure left.
+    The #{encyclopedia_ref :elves, "elves"} laid the dust in the hold floors and weigh frames of their cargo installations as the working surface of an inventory system that spanned the ring. It took each container's registered weight into itself and could render the figure back on demand. The Glassfall left two surviving deposits, the holds of #{ref :thirty_one, "Bay Thirty-One"} and #{ref :rattle, "Exchange C"}, and their floors became mines worked under registry license and sold by the sealed pan through dock assay houses. Bay Thirty-One dust settles crisp in a breath. Exchange C dust runs slower and softer and does the workaday checks.
   PROSE
 
-  cue "The lid comes off, the pan under it gives its dry rattle, and the dust settles into raised elven figures that the tallier reads against the conversion card while both parties watch the settling."
-  cue "The manifest says forty-one, the dust says a figure that converts to fifty-three, and the argument on the dock changes subject from whether to open the container to when it was last honestly packed."
-  affordance "A good pan turns any dockside dispute about weight and tampering into a reading — figures both parties watch form, checked against manifest and card, with the assay houses' grading behind the pan itself."
-  pressure "The dust answers with the system's last registered figure, so every reading needs interpretation — fraud, honest repacking, and older histories all wear the same numerals, and the trade's expertise is exactly the telling apart."
+  prose <<~PROSE, section: :trade, heading: "Readings and Their Readers"
+    The dust reports the last weight the old system registered, so every figure predates every postfall repack. A container honestly repacked twelve owners ago reads wrong, and so does one that was lightened last night between the kite and the warehouse. Telling them apart is the tallier's whole trade. Good talliers know which houses repack, which cargo settles, which shippers round their manifests, and they read the scuffs on a container's corners as closely as the pan. Bad ones say whatever the party paying them wants, and a tallier known to read for one side finds the other side walking off the dock.
+
+    The frauds grow up around the pans. Smugglers carry a light cargo inside a container whose old registered weight matches the manifest they wrote, and the dust confirms their lie. Some pay loaders to swap a crisp pan for a softened one, so the figures smudge into a reading anyone can argue. A few talliers carry two pans, a sharp one for strangers and a tired one for friends. A figure in a weight class matching a cargo the manifest never listed is a third kind of reading, and the registries pay well for a tallier who brings it to them before bringing it to the shipper.
+
+    The registries keep license pans of the highest grade for hearings and train their talliers on containers of known history, a set of arranged mismatches that the dock schools copy. Pans wear slowly, their figures softening over years toward smudge, and worn pans retire into the curiosity trade. Collectors who buy an exhausted pan still set it under an opened box, on the chance the old bookkeeping has one figure left.
+  PROSE
+
+  cue "Two shippers and a loader crowd a squatting tallier as a lid comes up, and the pan under it gives a dry rattle like seed in a gourd."
+  cue "A dockside stall sells conversion cards in three sizes, the smallest printed to fit inside a tallier's cuff."
+  affordance "A good pan turns a dockside dispute about weight and tampering into a reading both parties watch form, checked against manifest and card."
+  pressure "Every reading needs a reader, and readers can be bought: shippers pay talliers to see an honest repack, smugglers choose containers whose old weight fits their lie, and loaders swap sharp pans for tired ones."
   variation "Bay Thirty-One dust settles crisp in a breath and serves the arbitration tables; Exchange C's slower, softer dust does workaday dock checks; exhausted pans retire into the curiosity trade with one figure left in them, or the hope of one."
-  variation "The registries keep license pans of the highest grade for hearings, and their talliers train on containers of known history — a curriculum of arranged mismatches that the dock schools borrow."
+  variation "Registry talliers train on containers of known history; dock talliers learn on the job from an older reader and inherit that reader's pans, feuds, and customers."
 end

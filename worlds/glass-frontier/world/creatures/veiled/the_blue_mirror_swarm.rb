@@ -1,7 +1,7 @@
 creature :the_blue_mirror_swarm do
   tags :subject_planetary_life
   name "The Blue Mirror Swarm"
-  summary "The Blue Mirror Swarm is a marked mirror-bee colony moving between the blue-loam beds of Lumenshard and Miraeth."
+  summary "Marked swarm of irides, the glass-scaled pollinators, foraging the blue-loam beds of Lumenshard and Miraeth."
   subkind :creature
   status :complete
   prominence :marginal

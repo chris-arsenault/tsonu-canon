@@ -1,7 +1,7 @@
 encyclopedia :ration_lamp do
   name "Ration Lamp"
   aka "lamp", "stub lamp"
-  summary "The ration lamp is the common household and working lamp of the system: a wick-and-shutter light descended from ring evacuation kits, built so every part can be replaced by hand. The name outlived the rationing."
+  summary "The ration lamp is the common household and working lamp of the ring habs and the Kaleidos surface: a wick-and-shutter light descended from ring evacuation kits, built so every part can be replaced by hand. The name outlived the rationing."
   kind :technology
   subkind :device
   status :complete
@@ -39,7 +39,7 @@ encyclopedia :ration_lamp do
 
   cue "The lamp on the table is visibly three ages of metal — a worn old body, a newer collar, a fresh wick — and its shutter slides shut with the sound of a thing done ten thousand times."
   cue "New arrivals are met at the door by someone holding a lit lamp out to them before anyone has said a word about beds or terms."
-  affordance "A ration lamp burns whatever the region has and opens with bare fingers, so light is always ten minutes and local materials away, and a lamp handed lit is an unambiguous welcome in any settlement in the system."
+  affordance "A ration lamp burns whatever the region has and opens with bare fingers, so light is always ten minutes and local materials away, and a lamp handed lit is an unambiguous welcome in any hab that kept the evacuation kits."
   pressure "It is an open flame in sealed rooms and old air — hab codes are strict about stone shelves and distance from bedding, and a flame that picks up a blue edge is reporting leaked volatiles with very little patience for discussion."
   variation "Avar builds squat double-wick cart lamps for seed oil; hab builds gimbal against unreliable spin; cold-route builds carry a sprung shelf that warms the next feeding of fat over the flame."
   variation "Households retire a dead lamp by pouring its last oil into its replacement, and a few trades — keeps, couriers, cordon watches — are fussy about retiring theirs to the same maker's bench that built the new one."

@@ -27,7 +27,7 @@ installation :seren do
       "tending the first growth themselves in trial beds matched to the " \
       "declared source while Seren workers record every intervention. A " \
       "deposit that survives earns a vault number and enters exchange, " \
-      "paid in stock rather than coin.",
+      "paid in stock.",
     access:
       "The clean-stock circuit from Orra and Olven serves one freight " \
       "lock and two passenger locks on the shaded end.",
@@ -44,13 +44,15 @@ installation :seren do
 
     Every deposit has three parts: a sealed reserve, a living sample, and a cultivation account written by somebody who has grown it. Seren residents value the account as highly as the stock. A viable seed with poor instructions can consume a habitat's water or crowd its local food plants before the error becomes visible.
 
-    The Ring-era installation stored seeds, spores, tissue cultures, and the small organisms needed to restart closed habitats after a systems failure. Rekindling crews recovered the cold rooms intact and built their settlement around the deposit locks.
+    The Ring-era installation stored seeds, spores, tissue cultures, and the small organisms needed to restart closed habitats after a systems failure. Rekindling crews recovered the cold rooms intact and built their settlement around the deposit locks. Every original vault door carries the full name Seren-ith; residents drop the ending in speech and add it back when they want to sound official, so a clerk saying "Seren-ith requires" is about to refuse something.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "The Deposit Season"
-    Visiting crews arrive with cultures from surface farms, ship gardens, old vaults, and isolated habs. #{ref :nara_pell, "Nara Pell"} assigns each one a trial bed whose light, gravity, soil, and resident microbes match the declared source. Depositors tend the first growth themselves while Seren workers record each intervention. Seren is the working form of Seren-ith, still cut into the original vault doors.
+    Visiting crews arrive with cultures from surface farms, ship gardens, old vaults, and isolated habs. #{ref :nara_pell, "Nara Pell"} assigns each one a trial bed whose light, gravity, soil, and resident microbes match the declared source. Depositors tend the first growth themselves while Seren workers record each intervention.
 
     Successful stocks receive a vault number and enter exchange. The depositor can take equivalent cultures from the public catalog or reserve shares of later propagation. Samples that change under Seren's conditions remain in the trial beds until their new traits breed consistently.
+
+    The season fills the sunward half with several hundred strangers. Depositors sleep in hammocks strung between the growth rooms, cook on shared plates in the warm corridor, and trade cuttings, gossip and bottles of whatever their home habs ferment. Rivalries form over neighboring beds. Sorrel Keddar, who brings root stock from a surface farm every second year, accused a ship-garden crew of watering her bed at night with their own runoff in 2433, and the two crews still take opposite ends of the corridor at supper. Romances form too, and Seren has a steady small population of people who came to deposit a seed and stayed for a gardener.
 
     #{ref :the_warm_six, "The Warm Six"} occupy six beds nearest the warm axis. Their blue loam carries a mold used in nerve medicine and has become Seren's most requested export.
   PROSE
@@ -58,6 +60,8 @@ installation :seren do
   prose <<~PROSE, section: :present_day, heading: "The Dividing Mold"
     #{embed :the_warm_six}
   PROSE
+
+  log "2026-09-23 — Added the deposit-season crowd, its rivalries and Sorrel Keddar, and moved the Seren-ith etymology into the opening as a clerk's formal usage."
 
   gm_note :appears, "A crew carrying anything alive can deposit it here, but a deposit is three parts and the third is a written account of growing it. Depositors tend the first growth themselves, which keeps a party on the spindle for a season instead of an afternoon."
   gm_note :triggered_by, "Seren pays in stock rather than coin. A deposit that survives its trial bed draws equivalent cultures from the public catalog or shares of later propagation, which is how a party with no money leaves with medicine."

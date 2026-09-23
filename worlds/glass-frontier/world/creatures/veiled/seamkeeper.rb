@@ -1,7 +1,7 @@
 creature :seamkeeper do
   tags :subject_hab_life
   name "Seamkeeper"
-  summary "Seamkeeper is a named Ravel clampweed growth traced through hull seams at Ravel and Tanel."
+  summary "A named growth of signal mat, the seam-caulking hull plant, rooted in the joints of Ravel and Tanel."
   subkind :creature
   status :complete
   prominence :marginal

@@ -48,7 +48,7 @@ installation :eleven do
   PROSE
 
   prose <<~PROSE, section: :structure, heading: "A Settlement in Profile"
-    The shafts appear as eleven round courts descending to the water tunnel. Living quarters occupy the upper rings. Workshops and lift machinery fill the middle. At the bottom, a stone-lined gallery gives access to the main channel and the valves feeding each local cistern. Ring plans call the fragment Service Habitat Eleven; Famine crews dropped the first two words from daily speech.
+    The shafts appear as eleven round courts descending to the water tunnel. Living quarters occupy the upper rings. Workshops and lift machinery fill the middle. At the bottom, a stone-lined gallery gives access to the main channel and the valves feeding each local cistern.
 
     A maintenance walk follows the water from source to outlet. Workers travel it in narrow skiffs where the channel is deep and on raised ledges through the shallow reaches. Regular cross-passages lead to pressure shelters and vertical escape tubes. Painted marks show the expected waterline at every bend.
 
@@ -58,9 +58,13 @@ installation :eleven do
   prose <<~PROSE, section: :people, heading: "Minutes of Flow"
     Each shaft holds a schedule for lifting water from the main line. The schedule follows households, gardens, workshops, and public tanks through the day. A share is measured in minutes at a stated valve opening. Heat-intensive workshops receive colder hours near the start of the cycle; kitchens and wash rooms use the warmer return.
 
-    Shares pass through families and businesses. They also change through ordinary bargaining. A baker trades early water for delivery work. A machine shop lends three night minutes to a new bathhouse in exchange for repair space. Public cisterns hold a fixed portion at every shaft.
+    Shares pass through families and businesses. They also change through ordinary bargaining. Hobb Callo, the baker at Shaft Six, trades his early water for delivery work. A machine shop lends three night minutes to Juna Scarr's new bathhouse in exchange for repair space, and the bathhouse has become the place where the lower shafts go to argue about the upper ones. Public cisterns hold a fixed portion at every shaft.
 
-    #{ref :orr_senn, "Orr Senn"} reads the source line and coordinates changes when pressure drifts. His wall charts show how one adjustment travels through all eleven communities.
+    Minutes are also stolen. A valve left a hand's width wider than its stated opening takes water from everyone downstream, and valve tenders can be paid to look away. Each shaft remembers its own scandals; Shaft Eight still calls one family "the wide valve" two generations after it was caught.
+
+    #{ref :orr_senn, "Orr Senn"} reads the source line and coordinates changes when pressure drifts. His wall charts show how one adjustment travels through all eleven communities, and they are the first thing anyone brings to a theft accusation.
+
+    Residents name themselves by shaft, Twos and Nines and Elevens, and the whole settlement took its name the same way. Ring plans call the fragment Service Habitat Eleven. The Famine crews who kept its water moving dropped the first two words and kept the number, which the lowest shaft shares, so an outsider asking for Eleven is sometimes sent to the bottom of the line.
   PROSE
 
   prose <<~PROSE, section: :present_day, heading: "The Second Lift"
@@ -68,6 +72,8 @@ installation :eleven do
 
     The lower shafts have proposed new gardens and cooling work for those hours. Source crews want a season of operation before changing the schedule. #{ref :merren, "Merren"} has offered Eleven the second machine at cost in exchange for a permanent service bay beside the channel and first claim on repairs throughout the eleven shafts.
   PROSE
+
+  log "2026-09-23 — Named the baker and bathhouse keeper, added water-minute theft, and moved the Service Habitat Eleven etymology into the people section as shaft naming."
 
   gm_note :appears, "Freight crosses the shafts on the exterior cable and passengers ride the parallel bore, but with either one down the water walk is the road, and a party travels by skiff through the deep reaches and by ledge past the painted waterline marks."
   gm_note :triggered_by, "Water here is bought in minutes at a stated valve opening rather than by volume, and the minutes belong to households and workshops that bargain with them. A crew wanting a bath, a coolant fill, or a wash-down negotiates with a neighbor and usually pays in labor."

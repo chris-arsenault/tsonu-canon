@@ -1,6 +1,6 @@
 encyclopedia :sweeps do
   name "Sweeps"
-  summary "Sweeps are translucent, slow-moving cultivated organisms that graze spills, refuse, and loose sealant along fixed corridor routes in sealed habitats. They are the surviving sanitation stock of the intact ring, keeping their own three-century circuits, and habs build around them."
+  summary "Sweeps are translucent, slow-moving cultivated organisms that graze spills, refuse, and loose sealant along fixed corridor routes in sealed habitats. They are the surviving sanitation stock of the intact ring, keeping the circuits they followed when the ring was whole, and habs build around them."
   kind :lifeform
   subkind :animal
   status :complete
@@ -41,7 +41,7 @@ encyclopedia :sweeps do
     A stopped sweep prompts an air and temperature check. They stall where the air runs wrong and thin or slow when a hab grows cold. A dead sweep is cut from its route and the circuit posted as unswept until a neighboring hab can spare a young one, carried over in a lined crate with its feeding schedule written on the lid.
   PROSE
 
-  cue "A translucent mass the height of a child's knee pours itself along the corridor wall at an unhurried pace, and foot traffic parts around it with every head bent to its own business."
+  cue "A translucent mass the height of a child's knee pours itself along the corridor wall a little slower than a stroll, and foot traffic parts around it with every head bent to its own business."
   cue "Refuse stands in open pans along one edge of the gallery, set out to a schedule everyone seems to know, and the pans nearest the junction are already empty and clean."
   affordance "A sweep's route is reliable disposal — anything organic left on the line is gone by shift-end — and a stopped or thinning sweep is an early warning about the hab's air or heat that runs ahead of the instruments."
   pressure "The route treats a sleeper as refuse, and a sweep drawn off its circuit by careless feeding re-walks the original line through whatever has been built across it since."

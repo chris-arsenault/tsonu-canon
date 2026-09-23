@@ -1,7 +1,7 @@
 incident :cinder_gap_afterheat do
   tags :subject_bloom
   name "Cinder Gap Afterheat"
-  summary "Cinder Gap Afterheat is a recurring flameless heat surge that softens exposed seals along the Cinder Gap cordon."
+  summary "Afterheat at Pyre, the ruined Coremark refinery, recurring along the Cinder Gap section of its Bloom Zone cordon."
   type_of :afterheat
   subkind :incident
   status :complete

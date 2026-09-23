@@ -1,7 +1,7 @@
 edict :lot_forty_open_warrant do
   tags :subject_shear
   name "The Lot Forty Open Warrant"
-  summary "The Lot Forty Open Warrant is an emergency authorization allowing any equipped crew to cut a dangerous hull in return for its first stable component."
+  summary "Emergency salvage claim issued at Brake's Forty cutting bay and honored at Pell Cut and Crowncut Refinery in the Deep Shear."
   type_of :claims
   subkind :edict
   status :complete

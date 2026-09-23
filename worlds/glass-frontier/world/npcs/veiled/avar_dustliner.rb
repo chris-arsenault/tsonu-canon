@@ -1,7 +1,7 @@
 npc :avar_dustliner do
   tags :subject_planetary_life
   name "The Avar Dustliner"
-  summary "The Avar Dustliner reads buried roads from the angle of grit caught against low stones."
+  summary "Route reader of the Avar dust roads, guiding crossings between Ladderwell, Marker House Twelve and the Kyther Range."
   type_of :dustlining
   subkind :specialist
   status :complete

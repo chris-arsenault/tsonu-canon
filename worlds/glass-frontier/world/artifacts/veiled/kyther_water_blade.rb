@@ -1,7 +1,7 @@
 artifact :kyther_water_blade do
   tags :subject_planetary_life
   name "Kyther Water Blade"
-  summary "The Kyther Water Blade is a prospecting relic used in the Kyther Range and Avar. It beads with clean water against stone that carries a buried resonance seam."
+  summary "Prospector's relic blade of the Kyther Range and the stone shelves of Avar."
   subkind :relic
   status :complete
   prominence :marginal

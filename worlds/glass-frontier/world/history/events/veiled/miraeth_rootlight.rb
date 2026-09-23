@@ -1,7 +1,7 @@
 incident :miraeth_rootlight do
   tags :subject_planetary_life
   name "Miraeth Rootlight"
-  summary "Miraeth Rootlight is a blue pulse that travels through Miraeth soil and gathers beneath plants carrying damaged ringglass."
+  summary "Miraeth blue in the wooded basins around Lumenshard, the region's largest terraced settlement."
   type_of :miraeth_blue
   subkind :incident
   status :complete

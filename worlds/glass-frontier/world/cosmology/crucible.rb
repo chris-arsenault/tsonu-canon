@@ -6,8 +6,13 @@ geographic_location :crucible do
   subkind :celestial_body
   status :complete
   tags :cosmology, :materials, :trade, :danger, :subject_planetary_life
-  prominence :recognized
+  prominence :renowned
   position frame: :kaleidos_system_chart, radius: 1, angle_deg: 18
+  world_type "Hot rocky innermost planet"
+  environment "Heat-fused uplands of iron, nickel, ceramic salts and dense clear crystal"
+  habitation "Mining settlements under reflective roofs at high latitude, supplied through orbital yards"
+  resonance_environment "Local clear crystal cuts like ringglass but holds no stable tuning"
+  log "2026-09-23 — Added a people section naming the roof-named settlement Tumaal, its board keeper Kettan Raal and clear-crystal grader Tavva Luun, and the quarrel over its new roof."
 
   descriptive_identity(
     setting:
@@ -49,6 +54,12 @@ geographic_location :crucible do
     Crucible exports refractory ceramics, conductive metals, and crystal abrasive. Its foundries can maintain temperatures that are expensive to produce elsewhere and refine alloys for Ashvane cooling systems, orbital hulls, and ringglass tools.
 
     Imported food, medicines, and delicate instruments arrive through orbital yards rather than surface ports. A missed lift window delays delivery until the next safe descent and can leave cargo circling above the settlement that ordered it.
+  PROSE
+
+  prose <<~PROSE, section: :people, heading: "Living Under the Roofs"
+    Crucible's settlements take their names from their roofs. In local speech *tu* means under, and a settlement is called for the first roof its founders lived beneath; each later roof carries its own name, and the households below it take that name as their own. #{ref :tumaal, "Tumaal"}, on a high northern ridge, grew up under a roof called Maal and now lives under eleven. Its faces are let to crews four times a year at an auction called the setting, and its spoil banks belong to the pickers who sieve them for clear crystal.
+
+    #{ref :kettan_raal, "Kettan Raal"}, a dwarf, keeps Tumaal's board, chalking the sunward rock temperature at the lift head and sounding the horns that open and close each shift. #{ref :tavva_luun, "Tavva Luun"}, a heshari picker, grades the settlement's clear crystal by bite and seals every lot as clear, so that it travels as instrument substrate and cannot be sold on as ringglass. Tumaal is raising its first new roof since 2419, and the two of them want it for different households: Kettan for his daughter's marriage, Tavva for the pickers of the old first galleries.
   PROSE
 
   gm_note :triggered_by, "Rescue rules on Crucible forbid sending a second crew after workers who crossed a closure line. " \

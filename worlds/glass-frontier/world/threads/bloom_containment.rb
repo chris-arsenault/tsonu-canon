@@ -5,7 +5,6 @@ thread :bloom_containment do
   subkind :story_thread
   path "dm/threads/bloom-containment.md"
   reviewed "2026-03-18"
-  contains_dm true
 
   prose <<~PROSE
     *We weren't paying attention, and now we can't look away.*
@@ -88,7 +87,7 @@ thread :bloom_containment do
     ### Beat 6: The Coalition
     **Era:** 2378–2384 | **Filled by:** #{ref :bloom_coalition, "Bloom Coalition"}
 
-    The response takes days to a week. The people who push for it: faction leaders fed up with the Contested Reach who see an opportunity to unify, neutrals who recognize the danger's scale, and — invisibly — elven operatives leaking the right message transcript to the right desk, a trader (elf in disguise) offering free transport to the Bloom zones, small nudges that put the right people in the right places. [DM]
+    The first joint cordons form within days of the cascade; the chartered Coalition follows in 2380. The people who push for it: faction leaders fed up with the Contested Reach who see an opportunity to unify, neutrals who recognize the danger's scale, and — invisibly — elven operatives leaking the right message transcript to the right desk, a trader (elf in disguise) offering free transport to the Bloom zones, small nudges that put the right people in the right places.
 
     The #{ref :lumenshard_conservatory, "Lumenshard Conservatory"} is the last major faction to join. They initially argue that containment is impossible and the resonance ecology should be allowed to find its own balance. They join when the Bloom reaches their territory and they realize there is no "natural balance" when reality is coming apart.
 
@@ -96,12 +95,12 @@ thread :bloom_containment do
 
     **Downstream → Beat 9:** The Lumenshard's late entry becomes a political liability. "You didn't show up until it was at your door."
 
-    **Unfilled beats:** Named individuals who called for the Coalition. Specific elven nudge moments. [DM]
+    **Unfilled beats:** Named individuals who called for the Coalition. Specific elven nudge moments.
 
     ---
 
     ### Beat 7: The Turning Point
-    **Era:** 2380 | **Filled by:** #{ref :lira_vashtenri, "Lira Vashtenri"}, #{ref :liras_wall, "Lira's Wall"}, #{ref :cinder_gap, "Cinder Gap"}
+    **Era:** 2382 | **Filled by:** #{ref :lira_vashtenri, "Lira Vashtenri"}, #{ref :liras_wall, "Lira's Wall"}, #{ref :cinder_gap, "Cinder Gap"}
 
     Lira Vashtenri is a former Coremark mechanic from #{ref :crowncut_refinery, "Crowncut Refinery"}. Its service books show years of small array corrections that kept the local resonance stable. Foreman #{ref :pera_soll, "Pera Soll"} preserved those records.
 
@@ -118,7 +117,7 @@ thread :bloom_containment do
 
     Emergency measures become permanent. The Shear Compact formalizes salvage regulation — its founding charter includes a neutrality provision and a structured mediation process that everyone hates and everyone uses because it's better than fighting. This becomes the legal template the Accord architects adapt.
 
-    The Displacement Council writes neutrality into its founding charter from day one — a direct lesson from watching the Coalition fracture. Taking sides destroys the trust you need for containment. Lira Vashtenri founds the Council's containment operations, scaling her instinctive approach into a training program.
+    The Displacement Council writes neutrality into its founding charter from day one — a direct lesson from watching factions press competing interests through the early Coalition response. Taking sides destroys the trust you need for containment. Lira Vashtenri founds the Council's containment operations, scaling her instinctive approach into a training program.
 
     **Callback → Reconnection:** The Compact's dispute resolution mechanism is the specific thing that makes people say "we should do that for everything." Its charter provides the Accord's legal template.
 
@@ -138,13 +137,13 @@ thread :bloom_containment do
     ### Beat 10: The Ongoing
     **Era:** 2423–present | **Filled by:** #{ref :displacement_council, "Displacement Council"}, #{ref :bloom_zones, "Bloom Zones"}, #{ref :dern_talish, "Dern Talish"}
 
-    Containment holds but the Bloom Zones are expanding slowly. The Displacement Council is stretched thin. Dern Talish leads containment and secretly cooperates with elven operatives. [DM] Coremark smuggles Bloom Zone relics — including duskgrain — through the black market.
+    Containment holds but the Bloom Zones are expanding slowly. The Displacement Council is stretched thin. Dern Talish leads containment and cooperates in private with elven operatives. Coremark smuggles Bloom Zone relics — including duskgrain — through the black market.
 
     **Callback ← Beat 4:** Dern Talish's hand tremor is from prolonged exposure. Her collection of anomalous objects is evidence the zones are getting stranger, not stabilizing.
 
     **Callback ← Beat 1 / Knowledge Decay Loop:** Someone is making Coremark's old arguments. Ringglass demand is growing. The Compact's regulations slow supply. The same logic, different speakers. "That's what they said about Pyre" is losing its weight with people who weren't alive when Pyre burned.
 
-    **Forward pressure:** Expanding zones place further demands on the Council's people and equipment. Duskgrain enters the economy. The Adversary seeps through. [DM] Recruitment, new containment work and decisions about supply can change how the Council meets those pressures; neither the loss of containment nor the withdrawal of support is settled.
+    **Forward pressure:** Expanding zones place further demands on the Council's people and equipment. Duskgrain enters the economy. The Adversary presses through the tears. Recruitment, new containment work and decisions about supply can change how the Council meets those pressures; neither the loss of containment nor the withdrawal of support is settled.
 
     ---
   PROSE

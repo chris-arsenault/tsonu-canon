@@ -1,7 +1,7 @@
 conflict :xyloathax_salvage_quarrel do
   tags :subject_bloom
   name "The Xyloathax Salvage Quarrel"
-  summary "The Xyloathax Salvage Quarrel is a conflict over Threshold crews removing objects still claimed by displaced rooms."
+  summary "Salvage conflict between the residents of Xyloathax and crews out of Threshold Station."
   subkind :conflict
   status :complete
   prominence :marginal

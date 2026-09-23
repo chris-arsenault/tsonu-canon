@@ -1,7 +1,7 @@
 # Schema — the Glass Frontier's additions to craft/schema/base.rb, which
 # already declares the entity kinds, effect verbs and the shared relation
 # taxonomy. What lives here is what only means something in the Kaleidos
-# system: resonance relations, the Adversary's DM edges, the tag vocabulary,
+# system: resonance relations, the Adversary's edges, the tag vocabulary,
 # and the section headings the base does not carry.
 schema do
   # This world was drafted in assisted sessions, so a block that does not say
@@ -21,6 +21,9 @@ schema do
                                thesali drail ildara eshrel evran_court heskar_dome lake_othrel
                                vell house_delven iraleth_coast vannic_cast selk
                                caldris tavresh aldevra charethis avren_landing
+                               semmet gethry_pass_house oore tennan iddri kettle_shaft loriend qalu
+                               tumaal hollai ebbra ukkel allun ilsane nuvari
+                               casmurd lenua almurd sadua
                              ],
                              exclusive: true
   require_context_tags! for_playable: :chronicle_location
@@ -163,9 +166,9 @@ schema do
                   range: :ability,
                   description: "A person who currently or formerly bears a named mantle"
 
-  # DM-only. Where the False Form reaches through, and who is avoiding whom.
-  relation :hiding_from, category: :dm, temporal: false
-  relation :seeping_through, category: :dm, temporal: false
+  # Where the False Form presses through, and who is avoiding whom.
+  relation :hiding_from, category: :social, temporal: false
+  relation :seeping_through, category: :causal, temporal: false
 
   extend_subkind :faction, :government do
     field :mandate, type: :text, expected: false
@@ -181,6 +184,13 @@ schema do
   extend_subkind :geographic_location, :star_system do
     field :planet_count, type: :integer, label: "Planets", expected: false
     field :inner_to_outer_transit, type: :text, label: "Inner-to-Outer Transit", expected: false
+  end
+
+  extend_subkind :geographic_location, :celestial_body do
+    field :world_type, type: :text, label: "Type", expected: false
+    field :environment, type: :text, label: "Environment", expected: false
+    field :habitation, type: :text, label: "Inhabited", expected: false
+    field :resonance_environment, type: :text, label: "Resonance Environment", expected: false
   end
 
   extend_subkind :geographic_location, :world_region do
@@ -257,6 +267,8 @@ schema do
     identity_key :methods
     identity_key :presence
     identity_key :attitude
+
+    subkind :guild
   end
 
   extend_kind :transport do
@@ -326,6 +338,7 @@ schema do
   tag :archives, "Record-keeping, history preservation, memory"
   tag :catastrophe, "Destructive events"
   tag :cosmology, "The fundamental order of reality; metaphysics of resonance, the Three Forms, the wider cosmic order"
+  tag :crime, "Theft, smuggling, piracy, extortion, bribery, and the people who live by them"
   tag :danger, "High-risk environment or situation"
   tag :diplomacy, "Inter-faction or inter-settlement negotiation"
   tag :divergence, "Cultural drift between isolated communities"
@@ -414,6 +427,11 @@ naming_lexicon do
        use: "Use for the plant, its fruit and derived oil; thesset is also the plural.",
        examples: ["Thesset", "Thesset Oil", "thesset mask wax"],
        boundary: "This climber and its products, not a general orchard crop or all scented preparations."
+  word :ammel,
+       meaning: "Korvath's small oily summer shoaling fish, which follows the red plankton water along the southern coasts.",
+       use: "Use for the fish, its salted catch and its pressed lamp oil; ammel is also the plural.",
+       examples: ["ammel shoals", "salted ammel", "ammel oil"],
+       boundary: "This one fish and its products, not every Korvathi catch or every lamp oil."
   word :irul,
        meaning: "Korvathi soft-bodied swimmers with reflective combed fins and dark red stomachs concealing luminous prey.",
        use: "Use for the animal and its young or adult groups; irul is also the plural.",
@@ -429,6 +447,16 @@ naming_lexicon do
        use: "Use for the trees and their surface or root crops; velori is also the plural.",
        examples: ["Velori", "velori root fruit"],
        boundary: "The underground crop still depends on a living leafy crown; the name does not imply independent dark photosynthesis."
+  word :downliner,
+       meaning: "A diver who works flooded ring wreckage under the Avar steppe on an air hose bundled with a singing line.",
+       use: "Use for the divers and, with downline, for the hose-and-line bundle itself.",
+       examples: ["downliner", "downline"],
+       boundary: "Steppe wreck divers on a surface-fed line; still divers, Korvath river divers and suited vacuum crews are not downliners."
+  word :tolm,
+       meaning: "The dense clear crystal a Miraeth clear-veined tree pours into a wound in its root, swelling into a lit knot.",
+       use: "Use for the knot and the material cut from it; storm tolm grows in naturally broken roots, cut tolm in deliberately sawn ones.",
+       examples: ["Tolm", "storm tolm", "cut tolm"],
+       boundary: "Grows only in living clear-veined roots; ringglass cut from debris seams and ordinary graftwood are not tolm."
   word :drail,
        meaning: "The reservoir hab whose aerial dances developed tactile ribbons and turns across changes in gravity.",
        use: "Use for the place and practices or equipment demonstrably derived from its dance tradition.",
@@ -883,6 +911,10 @@ naming_lexicon do
           "Short names and clipped second elements survive shouted warnings and crowded channels.",
           examples: ["Dern Talish", "Sable Korr", "Dez Morrn"],
           boundary: "Each hab develops its own family; these examples do not define one universal Hab-Worlder generator."
+  pattern :avar_well_names,
+          "Settled Avar steppe people pair a short, heavy given name with the clipped name of the well that raised them.",
+          examples: ["Ruda Semmet", "Tollek Semmet", "Odda Semmet", "Gunna Ladder"],
+          boundary: "Applies to settled well towns of the Avar steppe; the Avar Road People greet with road news first and keep their own household chest-marks."
   pattern :gnomish_names,
           "Apostrophes mark audible harmonic turns rather than visual ornament.",
           examples: ["T'vekis", "Chel'sten", "Zar'vel'eki"],
@@ -899,6 +931,62 @@ naming_lexicon do
           "Clarisant registries favor a short ordinary word shifted into the technical name of one reproducible casting; trade-kept and Tessellan-derived spells retain the language of their owners.",
           examples: ["Step", "Echoing", "Mending", "Seaming", "Stay", "Unclosing", "Signal Folding", "Crucible Veiling", "Outside Will"],
           boundary: "The word must name the spell's particular operation in established use. This pattern does not justify a generic verb chosen before the casting has a bounded identity, and it does not turn every stronger use of that operation into another spell."
+  pattern :korvathi_names,
+          "Korvathi given names are short and stressed on the first syllable, two syllables ending in -e, -a or -el or one closed syllable; family names turn on a doubled consonant or a long vowel. Northern iron towns favor hard closes (-kk, -rr, -dd, -k); the southern coasts favor open vowels and liquids.",
+          examples: ["Hanne Vitt", "Oskel Draam", "Runa Hallik", "Brenne Skarre", "Mella Varra"],
+          boundary: "Korvath outside Istrava. Kyrri households in the Kaddren keep their own forms, and Istravan names follow their own pattern."
+  pattern :istravan_names,
+          "Istravan given names have two syllables, often with a doubled middle consonant or a soft close (-a, -o, -en, -eth); family names are one closed syllable or a liquid-heavy form ending in -ar, -al, -eth, -an, -ane or -en.",
+          examples: ["Harro Stellet", "Brisa Oddane", "Aren Talivar", "Venna Olvane"],
+          boundary: "People raised in Istrava, whatever their people. Istravan places share the sounds with their own closes (-ess, -esh, -ra, -en, -ar): Iridess, Tovanesh, Kethra, Corvera. Orc households keep their own single names, as Detha and Hareth do."
+  pattern :kyther_names,
+          "Kyther valley households pair a two-syllable given name, heavy on the first beat and often turning on r, l or n, with a house name closing in -sk, -sh or -th.",
+          examples: ["Senra Veth", "Tobra Oreth", "Corla Lesk", "Marrit Hesk"],
+          boundary: "Kyther valley households, kyrri and others, including the Belthry households descended from them. Kyrri raised elsewhere take the local form."
+  pattern :trellin_names,
+          "Trellin households give a two-syllable given name closing on a liquid and a one-syllable family name closing on a doubled sonorant.",
+          examples: ["Othal Wenn", "Vasel Rimm", "Teral Venn"],
+          boundary: "Trellin households only; trellin raised among other peoples take the local form. Do not attach a doubled -nn or -mm to an unrelated name to make it sound trellin."
+  pattern :nacre_route_names,
+          "Route-hold nacre families pair a one-syllable given name closing in -sh, -sk or -th with a two-syllable family name closing in -ar, which is also the name of the route hold that keeps the family's plates.",
+          examples: ["Vesh Talar", "Yesh Dunmar", "Tesh Dunmar", "the Dunmar Hold"],
+          boundary: "Families of the outer route holds. Nacre born elsewhere use the local forms of where they were raised."
+  pattern :heshari_yard_names,
+          "Heshari cutting-yard households give a given name built on a doubled consonant and a one-syllable family name closing hard in -k, -sk or -th.",
+          examples: ["Irra Keth", "Innik Vosk", "Otti Vosk"],
+          boundary: "Glass-country cutting-yard households; heshari raised elsewhere take the local form."
+  pattern :lithren_survey_names,
+          "Survey names for Lithren's ancient sites run to three open syllables closing in -a, -el, -at or -et.",
+          examples: ["Ithara", "Oravel", "Damarat", "Anaret", "Umarel", "Idravat"],
+          boundary: "Modern survey names for ruin sites only; stations, camps and people take their own names, and none of these is what the builders called anything."
+  pattern :crucible_roof_names,
+          "People raised in Crucible's roofed settlements pair a two-syllable given name opening on a stop with a one-syllable roof name, a long vowel closing on l or n, which is also the roof their household lives under. A settlement is named tu-, under, plus its founding roof.",
+          examples: ["Kettan Raal", "Tavva Luun", "the Voon roof", "Tumaal"],
+          boundary: "Crucible's roofed settlements, whatever the people. Orbital-yard staff keep the forms of where they were raised."
+  pattern :vitrael_aerostat_names,
+          "People born aboard a Vitrael aerostat pair a two-syllable given name carrying h or w with the aerostat's name as a family name; aerostat names are two soft syllables closing in -ai or -we.",
+          examples: ["Ihla Hollai", "Sowen Wenlai", "Hollai", "Talhai", "Imwe"],
+          boundary: "Aerostat-born people of any people. Orbital platform staff keep their own forms."
+  pattern :fracture_chart_names,
+          "Fracture stations, camps, anchorages and the bodies they sit on take a two-syllable call-word from the first herd chart that logged them: it opens on a vowel, doubles a consonant across the break and closes open or on a liquid.",
+          examples: ["Iddri", "Ebbra", "Ukkel", "Allun"],
+          boundary: "Fracture sites and bodies only. People and ships there use their own peoples' names."
+  pattern :vastine_moon_names,
+          "Vastine's moon places close in -ri or -ari; Pelhari-born family names run to three syllables closing in -asi or -ari, after a one- or two-syllable given name.",
+          examples: ["Pelhari", "Nuvari", "Tamlin Assary", "Gorra Telvasi"],
+          boundary: "Vastine's moons. Trellin families on Nuvari keep the trellin pattern."
+  pattern :ashvane_names,
+          "People raised on Ashvane and its moons give a two-syllable given name closing on a vowel or -n and a two- or three-syllable family name carrying l or r and closing in -el, -is, -en or -ow.",
+          examples: ["Soma Irel", "Emun Tallis", "Odra Velmis", "Ilka Mondel"],
+          boundary: "Ashvane and its moons, whatever the people; orc households keep single names."
+  pattern :lenua_shore_names,
+          "Lenua shore households pair a light two-syllable given name closing in -u or -i with a family name closing in -oa or -ua, taken from the landing they pole from; shore places share the endings.",
+          examples: ["Nesu Varoa", "Rilu Karoa", "Ondu Temoa", "Sadua", "Lenua"],
+          boundary: "Households raised on Lenua's shore and terraces. Sitharians living there keep Sitharian names."
+  pattern :casmurd_face_names,
+          "Casmurd ridge households pair a one-syllable given name closing on n, l or m with a family name closing in -urd, which is also the quarry face the family holds; ridge places share -urd.",
+          examples: ["Garn Dovurd", "Bren Kelurd", "Almurd", "Casmurd"],
+          boundary: "Casmurd quarry households of any people. Ridge workers born in Keelward take Sitharian forms."
   avoid "Do not name a creature, role, tool, practice, or phenomenon by attaching one relevant ordinary word to its generic category: Root Crab, Cable Fox, and Cold Count are descriptions shaped like names."
   avoid "Do not treat root, cable, cold, glass, ash, signal, white, shade, or another recurring image as a naming prefix. A word belongs in a name only when its declared setting meaning governs the subject."
   avoid "Do not keep a weak construction because the article can supply an origin story, and do not repair it by stripping it to Crab, Fox, Count, or another bare category. Find the setting term or name family the subject should contribute to."

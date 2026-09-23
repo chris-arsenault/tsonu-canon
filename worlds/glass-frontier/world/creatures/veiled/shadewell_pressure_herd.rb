@@ -1,7 +1,7 @@
 creature :shadewell_pressure_herd do
   tags :subject_planetary_life
   name "The Shadewell Pressure Herd"
-  summary "The Shadewell Pressure Herd feeds on hot mineral film outside Shadewell and nearby Ashvane settlements. Before storms, it runs toward sealed workshops."
+  summary "Herd of slab-bodied sealers grazing around Shadewell, Coldside Bench and South Shade."
   subkind :animal
   type_of :sealers
   status :complete

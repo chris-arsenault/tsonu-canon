@@ -1,7 +1,7 @@
 npc :hinge_six_stepper do
   tags :subject_hab_life
   name "The Hinge Six Stepper"
-  summary "The Hinge Six Stepper crosses a moving docking joint during its brief unloaded beat."
+  summary "Dock stepper working the moving joints of Hinge Six and the Keel."
   type_of :slack
   subkind :specialist
   status :complete

@@ -1,7 +1,7 @@
 faction :cinder_breakers do
   tags :subject_bloom
   name "Cinder Breakers"
-  summary "The Cinder Breakers are a resistance network that opens unofficial paths through Pyre cordons for returning Latch families."
+  summary "Resistance network of Bloom-displaced households, operating around the ruined Pyre refinery and the lost habitat of Latch."
   subkind :resistance_network
   type_of :doorstep_claimants
   status :complete

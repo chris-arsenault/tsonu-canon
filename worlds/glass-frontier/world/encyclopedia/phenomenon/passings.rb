@@ -19,14 +19,14 @@ encyclopedia :passings do
              "for rest and hot-work, the pair of short morning ones the markets open between, " \
              "the deep seasonal crossings the growers plant against.",
     hazards: "A passing drops surface temperature and light together, and hot-country work " \
-             "planned into a passing must finish with it. Ashvane road records document severe " \
+             "planned into a passing must finish with it. Avar road records document severe " \
              "heat injuries when crews remained mid-pour after full light returned."
   )
 
   prose <<~PROSE
     The intact ring cast one shadow, a steady band the old surface almanacs call the ribbon, and the surface lived under its single daily crossing. The broken ring casts many. The larger surviving fragments — the inhabited arcs, the great dead spans — cross Kaleidos's star on their orbits and send their shadows over the land as passings: minutes of moving dusk that arrive on schedule, to the breath, generation after generation. Light softens, heat eases, the #{encyclopedia_ref :gleeds, "gleeds"} brighten on glassy ground, and then full day slides back from the west edge of the shade.
 
-    Surface life is built to the passing tables. The long midday passing is the rest in hot country and the working window for heat-shy trades — glazing, wax work, the pouring of road surface on Ashvane's cousin-climates of the Avar summer. Markets open between the paired short passings of morning, and "first shade" and "second shade" are hours in every surface town's mouth. Growers plant to the deep seasonal crossings, when a great fragment's shadow returns day after day for a span of weeks and the fields under its track get a cooler season inside the season. A settlement's passing table is its first civic document; the almanac offices of Sithari print them for every registered town, and a town's copy, posted at the well or the market bell, is annotated in local hands until the next printing.
+    Surface life is built to the passing tables. The long midday passing is the rest in hot country and the working window for heat-shy trades — glazing, wax work, the pouring of road surface in the Avar summer. Markets open between the paired short passings of morning, and "first shade" and "second shade" are hours in every surface town's mouth. Growers plant to the deep seasonal crossings, when a great fragment's shadow returns day after day for a span of weeks and the fields under its track get a cooler season inside the season. A settlement's passing table is its first civic document; the almanac offices of Sithari print them for every registered town, and a town's copy, posted at the well or the market bell, is annotated in local hands until the next printing.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Shade Work and Shade Custom"

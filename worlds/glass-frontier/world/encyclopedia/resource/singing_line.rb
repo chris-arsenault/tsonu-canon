@@ -1,7 +1,7 @@
 encyclopedia :singing_line do
   name "Singing Line"
   aka "line", "strung line"
-  summary "Singing line is the working rope of the system, woven around a single ringglass listening thread that carries the load's voice to a rigger's hand or ear. Line is graded by how true the thread sings, and every serious trade runs on it."
+  summary "Singing line is the working rope of the ring yards and Keel docks, woven around a single ringglass listening thread that carries the load's voice to a rigger's hand or ear. Line is graded by how true the thread sings, and the rigging trades there run on it."
   kind :resource
   subkind :material
   status :complete

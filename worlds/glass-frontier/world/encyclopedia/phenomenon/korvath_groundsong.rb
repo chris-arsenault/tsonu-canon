@@ -7,8 +7,8 @@ encyclopedia :korvath_groundsong do
   topics :resonance, :"structural-freq", :navigation, :ecology, :subject_planetary_life
   prevalence :uncommon
   appears_when all: { place: [:waterway] }
-  medium "River mud — the settled ringglass silt of the Korvath beds carries the vibration; open water and dry bank both drop it"
-  nature "A structural-band resonance moving through glass-silt beds; instruments record it as a slow standing tone that strengthens with silt depth and season"
+  medium "River mud — the iron-rich silt of the Korvath beds carries the vibration; open water and dry bank both drop it"
+  nature "A structural-band resonance moving through iron-silt beds; instruments record it as a slow standing tone that strengthens with silt depth and season"
   known_forms "The steady seasonal song, the doubled tone before bed shifts, and the traveling knock that runs a channel ahead of grounded debris"
 
   descriptive_identity(
@@ -25,7 +25,7 @@ encyclopedia :korvath_groundsong do
   )
 
   prose <<~PROSE
-    The Korvath beds are ringglass silt — #{duration 300} of glass dust settled into river mud — and the silt sings. A structural-band vibration travels the beds in slow seasonal tones, and everything freely suspended above them answers: a kiln barge's hanging load drifts on its cable and settles pointing upstream toward the source, moored booms swing to the same bearing, and the mud along the waterline shivers in fine standing rings that comb the silt into ridges along the tone's grain. The song strengthens where the silt runs deep and fades over scoured rock, so a load on a crane is a depth gauge of a kind: barge crews read the swing of their own cargo the way pilots read a kite line, and a channel's seasonal song is charted in the waterway registers alongside its depths.
+    The Korvath beds are iron silt, washed down from the same strata that carry structural resonance from ridge to ridge across the planet, and the silt sings. A structural-band vibration travels the beds in slow seasonal tones, and everything freely suspended above them answers: a kiln barge's hanging load drifts on its cable and settles pointing upstream toward the source, moored booms swing to the same bearing, and the mud along the waterline shivers in fine standing rings that comb the silt into ridges along the tone's grain. The song strengthens where the silt runs deep and fades over scoured rock, so a load on a crane is a depth gauge of a kind: barge crews read the swing of their own cargo the way pilots read a kite line, and a channel's seasonal song is charted in the waterway registers alongside its depths.
 
     The reading tradition is the phenomenon's working half. River families teach the tones the way diving families teach water — hand flat on a grounded hull, the season's song named before a child names the current — and the vocabulary is short and load-bearing: the steady song is the bed at rest; the doubled tone runs ahead of bed shifts, and a doubled channel is cleared and waited out; the traveling knock runs a channel ahead of grounded debris and sends the salvage launches out to meet whatever the river has taken. The source of the great seasonal tones is charted upstream to the Korvath headwater gorges and there the charts stop — the survey barges' instruments agree on the bearing, agree on the season, and return readings from the gorge mouths that the registry files print with the surveyors' margins shown wide.
   PROSE

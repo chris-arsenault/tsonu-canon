@@ -1,7 +1,7 @@
 npc :karet_three_reckoner do
   tags :subject_bloom
   name "The Karet Three Reckoner"
-  summary "The Karet Three Reckoner holds a route by counting the silences between damaged navigation beacons."
+  summary "Dead reckoner piloting the beacon routes that link Karet-3 with Far Bell, Outside and the Gray Line."
   type_of :dead_reckoning
   subkind :specialist
   status :complete

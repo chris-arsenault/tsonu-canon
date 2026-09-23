@@ -10,7 +10,7 @@ encyclopedia :old_proof do
   available_globally
   function "Raises long-keeping bread; a live culture maintained by scheduled feeding"
   grades "Counted in falls — the recorded generations since registry stock — and by temper, young proof baking harsh and strong, settled proof mild"
-  availability "Nearly universal in households; established lines pass by gift and reseeding"
+  availability "Common in ring and Kaleidos households; established lines pass by gift and reseeding"
 
   descriptive_identity(
     appearance: "A glazed crock set into the warm side of a wall or stove-bench, its surface culture " \
@@ -25,7 +25,7 @@ encyclopedia :old_proof do
   )
 
   prose <<~PROSE
-    Nearly every household in the system keeps a proof: a glazed crock in the warm side of a wall, holding a living culture that raises the bread. Fed on schedule it lives indefinitely; bread raised on an established line stays soft and sound for a season in a road chest, which is why the loaf in every hauler's rack and every cordon post's shelf is proof bread. The keeping quality is real and measured — provisioning trials rerun in Sithari every few years confirm it — and the mechanism is attributed to the culture itself, since the same flour raised on young culture keeps a month.
+    Most households on the ring and the Kaleidos surface keep a proof: a glazed crock in the warm side of a wall, holding a living culture that raises the bread. Fed on schedule it lives indefinitely; bread raised on an established line stays soft and sound for a season in a road chest, which is why the loaf in every hauler's rack and every cordon post's shelf is proof bread. The keeping quality is real and measured — provisioning trials rerun in Sithari every few years confirm it — and the mechanism is attributed to the culture itself, since the same flour raised on young culture keeps a month.
 
     The lines are old, and their age is the point. The parent cultures were provisioning stock of the intact ring, formulated by #{encyclopedia_ref :elves, "elven"} provisioners and issued by registry number, and the issue registers survive in enough archives that an established household line can often be traced to its number. Some households still recite theirs. During the Famine years a live proof was the difference between a larder and a countdown, and the crocks that crossed those years came out of them as heirlooms: a line is inherited, gifted at weddings, carried in evacuations before the bedding, and reseeded outright to a neighbor whose crock has died.
   PROSE
@@ -44,7 +44,7 @@ encyclopedia :old_proof do
 
   cue "A glazed crock sits recessed in the warm wall by the stove, and the first thing anyone does on entering the kitchen — before greeting the visitor — is glance at the bloom on its surface."
   cue "The bread in the road chest is dense, faintly gray-crumbed, and dated in pencil on the crust, and it is plainly weeks old and plainly fine."
-  affordance "Proof bread is the traveling food of the system — a season's keeping in a loaf — and a household's willingness to reseed a stranger's dead crock is a fast, honest signal of local standing."
+  affordance "Proof bread is the traveling food of ring and surface haulers — a season's keeping in a loaf — and a household's willingness to reseed a stranger's dead crock is a fast, honest signal of local standing."
   pressure "A proof line dies in a day of cold or neglect, and young replacement culture bakes harsh for the following year. Evacuation lists place the crock ahead of bedding."
   variation "Garden habs run communal crocks the size of barrels with posted feeding rosters; surface households keep small lines and guard their falls-count jealously."
   variation "A few archive-traced lines with low falls-counts from famous registry numbers are treated as civic property — Ledgerfall's oldest line has a keeper, a deputy, and a succession dispute."

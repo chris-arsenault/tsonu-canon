@@ -1,7 +1,7 @@
 npc :noll_warmliner do
   tags :subject_planetary_life
   name "The Noll Warmliner"
-  summary "The Noll Warmliner follows buried ring conduits by touching each wall where the stone stays warm."
+  summary "Survey warmliner chalking live conduit courses for excavation crews in the Underlayers, the Folded Annex and Old Campus."
   type_of :warmlining
   subkind :specialist
   status :complete

@@ -1,7 +1,7 @@
 era :last_bell_season do
   tags :subject_journeys_trade
   name "Last Bell Season"
-  summary "Last Bell Season was a long dock closure when five route households survived on one working air line."
+  summary "Hard period for the route households of Holl's Five Landing and Keelward's Fourth Bell House, bound up with Vey's Lung Three airflow chamber."
   subkind :historical_period
   status :complete
   prominence :marginal

@@ -7,6 +7,7 @@ geographic_location :dovra do
   status :complete
   tags :"outer-system", :ecology, :trade, :resonance, :transport, :subject_planetary_life
   prominence :recognized
+  log "2026-09-23 — Replaced the old name pole-thief with tolven in narration."
 
   descriptive_identity(
     setting:
@@ -17,7 +18,7 @@ geographic_location :dovra do
       "on rises, old levees, and driven piles, facing water in " \
       "several directions.",
     activity:
-      "Family channel barges collect rice, fruit, reeds, and fish " \
+      "Family dovrans collect rice, fruit, reeds, and fish " \
       "from landing stairs and run them to Lowbank, piloted by people " \
       "who read current color, reed direction, and the tone a pole " \
       "returns off buried iron sand. Water boards keep thousands of " \
@@ -27,7 +28,7 @@ geographic_location :dovra do
       "A chart a few seasons old routes through channels that are now " \
       "orchard boundaries. During flood, two gates tuned too closely " \
       "can answer each other through saturated ground and release " \
-      "together, a pole-thief near the reed banks can fake a " \
+      "together, a tolven near the reed banks can fake a " \
       "convincing bottom strike, and the maze of channels draws " \
       "smuggled cargo that brings inspections down on honest pilots."
   )
@@ -62,6 +63,8 @@ geographic_location :dovra do
     The number of channels makes Dovra useful to smugglers. A small cargo can leave a sea vessel, pass through three barges, and reach an inland road without entering a major port. Freight agents buy that movement one pilot and warehouse at a time, leaving little evidence that any two legs belonged to the same shipment.
 
     Local pilots resist scrutiny that would place every household route in an off-world registry. They also lose business when criminal traffic brings inspections and insurer refusals. Several boards now issue sealed transit tallies that prove a cargo's route without publishing the channel details. Ports accept the tallies unevenly, and forged versions appeared within a season of the first issue.
+
+    The gate intervals that keep neighboring boards from flooding together can also be turned against a neighbor. In #{ref :siss_retuning, "the Siss Retuning"} of 2433, the Siss gate answered on its downstream neighbor's note and sent a storm surge through the Tarrel orchards instead of through Siss. Every board resounded its gate the next season, and several found cuts closer to their neighbors' than they should have been. The same channels now carry people as well as cargo: Istravan families on the coast pay passage runners such as #{ref :anse_tarrel, "Anse Tarrel"} to bring relatives out across the middle sea.
   PROSE
 
   gm_note :appears, "Every water board sounds its own registered gate interval at the start of the wet season, so crossing districts " \

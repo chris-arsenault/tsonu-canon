@@ -1,7 +1,7 @@
 transport :vigil_layer_runner do
   tags :subject_planetary_life
   name "The Vigil Layer-Runner"
-  summary "The Vigil Layer-Runner is a slope vehicle used in the Kyther Range and Vigil Breach. Its broad feet shed one layer after every slide across resonance-charged ground."
+  summary "Sarev scree sled working the Kyther Range slopes around Vigil Breach."
   subkind :transport
   type_of :sarev
   status :complete

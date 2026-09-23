@@ -5,6 +5,7 @@ encyclopedia :render do
   subkind :material
   status :complete
   log "2026-08-31 — Renamed Graft Wax to Render; the production word becomes the garden habs' stable name for the cap-bloom sealant across its graft, storehouse, and registry uses."
+  log "2026-09-23 — Rebuilt around growers, render kitchens, household jars and thumb forgers; the registry ledger kept to one sentence."
   topics :ecology, :materials, :trade, :"ring-era", :subject_common_life
   prevalence :uncommon
   appears_when all: { place: [:garden] }
@@ -25,21 +26,21 @@ encyclopedia :render do
   )
 
   prose <<~PROSE
-    The provisioning cultivars the #{encyclopedia_ref :elves, "elves"} bred for the ring's gardens crown their stems each season with cap-bloom, a waxy collar the plants shed as they set fruit. The gardens have rendered the sheddings since the ring was whole. Render is pale, faintly green, smells of cut stems, and sets breathable-tight. A waxed graft union holds its moisture and passes gas, which is the difference between a join that takes and a join that rots. Garden stewards use green-render by the block in grafting season, warming beads between their palms and working the collar of every union on the bench.
+    In grafting season the garden habs smell of render. Stewards sit at the benches with a block of green-render warming on a stone beside them, roll a bead between their palms, and work it round the collar of each graft union, and children sent to help come home with green thumbs and the smell of cut stems in their hair. The wax comes from the provisioning cultivars the #{encyclopedia_ref :elves, "elves"} bred for the ring's gardens, which crown their stems each season with cap-bloom, a waxy collar the plants shed as they set fruit. The gardens have rendered the sheddings since the ring was whole. Render sets breathable-tight: a waxed union holds its moisture and passes gas, and a join that breathes takes where a sealed one rots.
 
-    Kettle-white, the refined grade, does the storehouse work — jar seals, join beds, the weatherproofing collar on anything a garden hab sends traveling — and lifts clean at a warmed blade. The third trade left the gardens generations ago: the wax's matte skin takes an impression down to thumb-whorls and keeps it for decades, and pressed seal-stock became the registries' witness wax. A document closed in render carries its sealer's thumb as testimony, and courts read wax impressions against the registries' thumb ledgers.
+    Rendering happens in kettle kitchens at the edge of every garden, where the cap-bloom gathered at shed is melted down by house recipes that families guard like soup stock. The render master presses a test thumb into each batch's skin and reads the crispness of the whorls. Green-render keeps the growers. Kettle-white, the refined grade, does the storehouse work, jar seals, join beds, and the weatherproofing collar on anything a garden hab sends traveling, and lifts clean at a warmed blade. Seal-stock, the tight-grained pressing that holds an impression crisp for decades, sells to registries at prices that make the pruning heap a line in every garden's accounts, and registries name the render houses they buy from.
   PROSE
 
-  prose <<~PROSE, section: :trade, heading: "Renders, Seals, and the Thumb Ledger"
-    Rendering is kettle craft on the pitch-house pattern: cap-bloom gathered at shed, kettled by house recipes, graded by impression — the render master presses a test thumb into each batch's skin and reads the crispness of the whorls. Green-render keeps the growers; kettle-white keeps the stores; and seal-stock, the tight-grained pressing that holds an impression crisp for decades, sells to registries at prices that make the pruning heap a line item in every garden's accounts.
+  prose <<~PROSE, section: :culture, heading: "Jars and Thumbs"
+    Households seal with their own thumbs. A grandmother closes the season's preserves in kettle-white and presses her thumb into each lid, and the jars go on a high shelf with the year scratched beside the print. By a custom at least four regions insist began with them, one jar is kept back unopened until the naming of her namesake, and it is opened at the table with the whole family watching whether the fruit held. Lovers exchange small wax tokens pressed with both thumbs, and a returned token, set on a doorstep with one print scraped away, ends an engagement without anyone having to speak.
 
-    Seal custom carries the wax's weight. A thumb in wax is a person present at a closing — the registries keep thumb ledgers against their sealed stock, and disputing a wax seal means disputing a recorded thumb, which the courts treat as a serious allegation with a short list of outcomes. Households run the same custom at household scale: the preserves sealed by a grandmother's thumb, kept and dated, and opened, by the custom several regions claim to have invented, at the naming of her namesake.
+    Registries took up the same property for documents: a document closed in render carries its sealer's thumb, and registries keep thumb ledgers against which a disputed seal is read. That makes a thumb worth stealing. Forgers lift prints from drinking cups and door plates, cast them in fine clay, and press counterfeit seals; the best can fool a clerk under lamplight and fail under a render master's glass, which reads the drag of a live thumb in the wax. A forged seal on a deed has started feuds that outlived the forger. Households that fear for a parent's thumb keep the old woman's cup washed.
   PROSE
 
-  cue "At the grafting bench a steward warms a green bead between both palms and works it around the union's collar with the absent skill of long seasons."
-  cue "The registry clerk tilts the sealed document to the lamp, reads the thumb-whorls in the wax against the ledger, and files it with the seal outward."
-  affordance "One material carries the gardens' grafts, the stores' seals, and the registries' witness custom — breathable-tight for living joins, impression-true for legal ones, and clean-lifting for everything meant to open again."
-  pressure "The wax softens under sustained warmth, so sealed stores audit their racking against heat leaks. Registries protect the thumb ledgers that authenticate witness seals as closely as the sealed documents themselves."
+  cue "At the grafting bench a steward warms a green bead between both palms and works it around the union's collar without looking down."
+  cue "A high kitchen shelf of preserve jars, each lid carrying the same thumbprint and a scratched year, the oldest jar pushed to the back."
+  affordance "One material carries the gardens' grafts, the stores' seals, and the witness thumbs of households and registries — breathable-tight for living joins, impression-true for promises, and clean-lifting for everything meant to open again."
+  pressure "A thumb in wax is proof of presence, so forgers lift prints from cups and doorplates and sell seals on deeds and debts, and a family that finds its dead father's thumb on a stranger's claim goes looking for the forger."
   variation "Green-render stays in the gardens and moves by the block at grafting season; seal-stock travels system-wide, and registries specify their suppliers' render houses by name."
-  variation "Household seal custom runs deep — preserves closed under a family thumb, dated and kept — and regional tradition opens the grandmother's jar at her namesake's naming, a custom at least four regions insist began with them."
+  variation "In some regions the grandmother's jar opens at her namesake's naming; in others it opens at her funeral, and the fruit is eaten by whoever she named in her last season."
 end

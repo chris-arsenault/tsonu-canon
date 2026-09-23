@@ -4,6 +4,7 @@ encyclopedia :hook do
   subkind :transport
   status :complete
   log "2026-08-31 — Renamed Keel Hook-Car to Hook. Keel crews already use hook for the cars, freight, traffic, and crews, and the Third Latch Hook continues the class word in a named vehicle."
+  log "2026-09-23 — Explained standing drift as the rail's surviving kinetic current and moved the hook-head trade from papers and licences to the crews, thieves and pattern shops who fight over the castings."
   topics :transport, :"ring-era", :trade, :orbital, :subject_journeys_trade
   prevalence :uncommon
   appears_when any: { place: [:road, :dock] }
@@ -19,31 +20,34 @@ encyclopedia :hook do
                 "cars are painted in route colors below and left bare metal above, where the " \
                 "arms do their slow deliberate walking.",
     working: "The arms hook, release, and re-hook along the rail in overlapping sequence, so " \
-             "the car is always held twice while it walks — and once hooked into a drift " \
-             "section, the route itself draws the car along while the crew rides and watches " \
-             "the junctions.",
-    risks: "The hooks were made for the rail and the rail for the hooks, and the pairing is " \
-           "the safety case: a worn hook-head re-cut by a local shop grips a shade " \
-           "differently, and the trade's accident ledger is largely a ledger of shade " \
-           "differences."
+             "the car is always held twice while it walks. On a drift section the crew locks " \
+             "the heads down and the rail's own current carries the car while they ride and " \
+             "watch the junctions.",
+    risks: "Original heads and original rail were cut to each other. A worn head re-cut by " \
+           "a local shop grips a shade differently, and most hook accidents begin with a " \
+           "re-cut head letting go on a drift section at full glide."
   )
 
   prose <<~PROSE
-    The #{ref :keel, "Keel"} is the system's trunk route, and its elven structure carries more than berths and moorings: the trunk rails — rolled-lip guideways running the route's length — were built for traffic, and hooks are the traffic that still rides them. A hook is a slab-sided freight carrier slung under articulated arms, each ending in a polished hook-head shaped to the rail's lip. The arms walk: hook, release, re-hook in overlapping sequence, the car always held twice, and where the route carries standing drift the crew hooks in and lets the Keel itself draw the load along while they ride and mind the junctions.
+    The #{ref :keel, "Keel"}'s elven structure carries trunk rails, rolled-lip guideways built for traffic, and hooks are the traffic that still rides them. A hook is a slab-sided freight car slung under articulated arms, each ending in a polished hook-head shaped to the rail's lip. On most of the route the arms walk: hook, release, re-hook in overlapping sequence, the car always held twice, a pace a person could keep up with.
 
-    Hook freight is the steady stratum of Keel trade — slower than a kite, cheaper than anything else per pallet, and running in weather and band conditions that ground the fast traffic. The cars queue at junction holds by signal, walk the dead sections arm over arm, and make the drift sections in long silent glides that crews describe with the affection reserved elsewhere for a following current. Route colors mark each car's circuit, married pairs swing the heavy loads between them on shared arms, and the great terminal at #{ref :keelward, "Keelward"} sorts arriving hook traffic into the surface yards on a board the freight clerks read like tide tables.
+    Along the drift sections the car stops walking. The builders laid a slow kinetic current into those lengths of rail, running one way along each track, and it still flows. Crews call it standing drift. A hook-head clamped down on a drift section is pulled along at the rail's pace with no effort from the car, and the crew rides in long silent glides, outbound on one rail, homebound on its twin. Nobody aboard can speed the drift or slow it. Where a section has gone dead, the arms walk again until the current picks up.
+
+    Hook freight is the steady trade of the Keel: slower than a kite, cheaper per pallet than anything else, and running in weather and band conditions that ground the fast traffic. Cars queue at junction holds for the signal, cross the dead sections arm over arm, and glide the drift. Route colors mark each car's circuit. Married pairs swing the heavy loads between them on shared arms. At #{ref :keelward, "Keelward"} the great terminal sorts arriving hooks into the surface yards on a board the freight clerks read like tide tables.
   PROSE
 
   prose <<~PROSE, section: :operations, heading: "Hook-Heads and the Pattern Shops"
-    The hook-head is the trade's crown jewel and its whole risk concentrated in one casting. Original elven heads grip the rail with a surety the crews trust at any load; worn heads must be re-cut, and a re-cut head grips a shade differently — the accident ledger's recurring phrase — so the pattern shops that re-cut heads to the old gauges hold licenses, references, and reputations of jeweler's-shop delicacy. A car's head provenance rides in its papers, junction inspectors read heads the way farriers read hooves, and an unpapered head parks the car at the next hold with freight law's full sympathy.
+    Everything in the trade comes back to the hook-head. An original elven head grips the rail at any load, and crews trust it the way they trust the rail. Worn heads have to be re-cut, and a re-cut head grips a shade differently. The pattern shops that re-cut to the old gauges have reputations like jewelers', and crews rank them with the same fierce loyalty the rigging trades give their ropery marks. A car's head history rides in its papers, and junction inspectors read heads the way farriers read hooves, thumbing the polish for a lip that has started to round.
 
-    Crews ride in threes: the leader on the signals, the arm hand on the walking gear, the third on load and papers. The trade's culture is the Keel's own — patient, schedule-proud, contemptuous of hurry — and its settled ambition is the clean run: a full circuit with every junction taken on signal, every hook on the count, logged in the book with the small mark that other hook crews notice and outsiders miss.
+    Original heads are worth more than most cargoes. Thieves work the junction holds at night, unbolting heads from parked cars and leaving the car hanging on its remaining arms. Stolen heads turn up re-stamped on another route. Cheap shops cut new heads from worn patterns and sell them with an original's history attached, and the difference shows only on a drift section at full glide, when a head that looked right lets go of the lip.
+
+    Crews ride in threes: the leader on the signals, the arm hand on the walking gear, the third on the load. They are schedule-proud and contemptuous of hurry. Their ambition is the clean run, a full circuit with every junction taken on signal and every head holding on the count, marked in the car's book with a small sign that other hook crews notice and outsiders miss. A crew that loses a head to a thief mid-circuit loses the clean run with it, and the grudge against whichever hold it happened at can last years.
   PROSE
 
-  cue "Overhead, a slab-sided car walks the trunk rail arm over arm with unhurried double grips, then reaches a drift section, hooks in, and slides away in a long silent glide."
+  cue "Overhead, a slab-sided car walks the trunk rail arm over arm with double grips, reaches the start of a drift section, clamps its heads down, and slides away without a sound."
   cue "At the junction hold the inspector runs a thumb over each polished hook-head like a farrier checking hooves, and waves the car through with a chalk mark on the lead arm."
-  affordance "Hook freight moves pallet loads the length of the Keel in any weather the route itself survives, at prices that set the floor for the whole corridor — and a hooked-in car rides the drift with its crew resting."
-  pressure "The whole safety case lives in the hook-and-rail pairing, so a worn or re-cut head is a papered, inspected, argued-over object — and a car with doubtful heads sits at the hold while its cargo's schedule burns."
+  affordance "Hook freight moves pallet loads the length of the Keel in any weather the route itself survives, at prices that set the floor for the whole corridor, and a car clamped onto a drift section rides with its crew resting."
+  pressure "Original heads are worth more than most cargoes, so thieves strip parked cars at the junction holds, cheap shops sell re-cut heads under forged histories, and a doubtful head lets go on a drift section at full glide."
   variation "Single-hook couriers run light and fast between near junctions; married pairs swing the heavy loads on shared arms and crew like one vessel with two hulls."
-  variation "Pattern shops re-cut heads to the old gauges under license, and crews rank the shops in a connoisseurship exactly as fierce as the ropery-mark loyalties of the rigging trades."
+  variation "Cars on long dead stretches carry spare walking gear and an extra arm hand; drift-route cars carry almost none and change crews at the terminals."
 end

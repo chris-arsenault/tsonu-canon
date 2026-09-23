@@ -1,7 +1,7 @@
 artifact :kesh_salt_egg_jar do
   tags :subject_hab_life
   name "The Kesh Salt-Egg Jar"
-  summary "The Kesh Salt-Egg Jar holds Perch salt-eggs sourced from Perch and Kesh. They keep for a season and crack open when held beside a working kinetic line."
+  summary "Crock of mineral-cured salt-eggs from Perch and Kesh."
   subkind :artifact
   type_of :salt_eggs
   status :complete

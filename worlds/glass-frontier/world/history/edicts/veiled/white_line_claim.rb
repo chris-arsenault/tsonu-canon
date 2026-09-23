@@ -1,7 +1,7 @@
 edict :white_line_claim do
   tags :subject_politics_history
   name "The White-Line Claim"
-  summary "The White-Line Claim reserves a newly exposed ring conduit for the first four settlements that restore its signal."
+  summary "Conduit claim ruling for recovered signal lines, applied along Span Nine from Whitefoot to Threshold Station and at the Choir Fragment."
   subkind :edict
   type_of :claims
   status :complete

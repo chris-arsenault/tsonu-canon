@@ -1,6 +1,6 @@
 encyclopedia :elves do
   name "Elves"
-  summary "Elves are a long-lived sapient species native to Kaleidos, marked by tall frames, fine bone, elongated ears, and direct resonance attunement. Elven design houses built the orbital ring's core architecture; every publicly known elven population disappeared during the Signal Famine."
+  summary "Elves are a long-lived sapient species native to Kaleidos, marked by tall frames, fine bone, elongated ears, and direct resonance attunement. Elven design houses built the orbital ring's core architecture; during the Signal Famine the elves withdrew into hidden ring habs, and public records show them as vanished."
   kind :lifeform
   subkind :sapient_species
   status :complete
@@ -58,38 +58,25 @@ encyclopedia :elves do
     Searches for uncharted habs have produced disputed signals and folklore rather than a confirmed settlement. Public scholarship therefore records the disappearance, the pattern of alteration, and #{elapsed :elves_vanish, approx: true} without a verified account of where the population went.
   PROSE
 
-  prose <<~PROSE, section: :truth, heading: "Where They Are Now", dm: true
-    Most elves live in hidden ring habs with masked resonance signatures and omitted chart positions. These habs support weapons development, strategic planning, training, and resource stockpiles accumulated across #{elapsed :elves_vanish, approx: true}.
+  prose <<~PROSE, section: :present_day, heading: "The Hidden Habs"
+    The elves are still in the system. Most withdrew into ring fragments they had kept dark through the Famine, with their resonance signatures masked and their positions struck from every surviving chart. Those hidden habs still exist. Their people train, study, and stockpile against the return of the enemy they believe broke the ring, and have done so for #{elapsed :elves_vanish, approx: true}.
 
-    A smaller number live among the general population in human guise. They work as intelligence operatives, supply-chain facilitators, and residents who retained ties outside the hidden habs. Redaction operations monitor archives, intercept discoveries, and divert productive investigations. The Echo Ledger Conclave has recorded two unresolved thefts of its most sensitive elf-related material.
+    A smaller number live among everyone else, passing as human. Some move supplies between the hidden habs and the public markets. Some watch the archives and quietly remove or redirect any line of research that points toward their people; the #{ref :echo_ledger_conclave, "Echo Ledger Conclave"} has recorded two unresolved thefts of its most sensitive elven material. Some simply kept a life outside and never went back.
 
-    The #{ref :the_dissident, "Dissident"} broke concealment in 2160 to teach practical Tuning to an isolated surface settlement. Descendants of that teaching line still use the exercises, and hidden-hab schools preserve copies beside the order condemning them.
+    Almost nobody outside the hidden habs knows any of this. Public scholarship has not found them, and the few people who do know, such as the head of the #{ref :displacement_council, "Displacement Council"}, have reasons of their own to keep quiet. The #{ref :the_dissident, "Dissident"}, an elf who broke concealment in 2160 to teach practical Tuning to a surface settlement, left a teaching line that still uses the exercises; the hidden-hab schools keep copies of the same lessons beside the order that condemned their author.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "The Adversary", dm: true
-    The #{ref :the_false_form, "False Form"} destroyed the orbital ring. Elven records identify it as the figure that will not close, given will. Public accounts of #{encyclopedia_ref :the_three_forms, "The Three Forms"} preserve it as the impossible third panel while treating it as an abstraction.
+  prose <<~PROSE, section: :significance, heading: "Why They Hid"
+    Elven operational records name the #{ref :the_false_form, "False Form"} as the force that broke the orbital ring: the impossible third panel of #{encyclopedia_ref :the_three_forms, "The Three Forms"}, which public teaching treats as a diagram of false closure, recorded by the elves as an opponent from outside the Kaleidos system with the will to act. Elven councils concluded that it would return and that a visible civilization would draw it. They chose to disappear and prepare.
 
-    Elven operational records place the False Form outside the Kaleidos system and attribute the ring's destruction to it. Hidden councils expect it to return, classify the coming conflict as existential, and have prepared for it across #{elapsed :elves_vanish, approx: true}.
+    The decision was collective and bitterly contested. It cost them their public lives, the institutions they had built and the neighbors they had lived among. Their children learn about the civilization their grandparents built, and study resonance techniques still taught in public schools whose students have no idea there is a living source.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "The Bloom Zones", dm: true
-    Coremark's industrial accident caused the Silent Bloom and tore local reality across mid-drift ring habs. The resulting openings are the elves' primary operational concern.
+  prose <<~PROSE, section: :operations, heading: "Around the Bloom"
+    The #{ref :the_silent_bloom, "Silent Bloom"} gave the hidden habs their most urgent work. The reality tears it opened are places where the False Form presses against ordinary space, and elven teams now concentrate around the #{ref :bloom_zones, "Bloom Zones"}, measuring that pressure, studying the tears and building countermeasures meant to keep the pressure from widening into something worse. Several unexplained successes along the cordons were theirs.
 
-    The Adversary's influence enters through the Bloom Zone tears as pressure. Recorded contacts remain at that stage, destabilizing the zones and producing the new relic-magnitude artifacts found there.
-
-    Hidden teams now concentrate around the Bloom Zones. They monitor the pressure, study the tears, and prepare countermeasures intended to keep that influence from widening into an incursion.
+    Their contact with the public world runs through one office. Since the early Bloom response, the head of the Displacement Council has held a private channel to elven operators, receiving warnings, countermeasures and occasional deniable help in return for access to the zones. Each outgoing head briefs the successor in person; the elves have vetoed at least one choice. The rest of the Council works from the accurate but incomplete understanding that it is containing resonance damage from an industrial accident.
   PROSE
-  prose <<~PROSE, section: :truth, heading: "The Council Contact", dm: true
-    The Displacement Council's top leadership office cooperates directly with the elves and serves as their contact with the Council.
-
-    Council cordons control access to the Bloom Zones; elven operations supply intelligence, resources, and interventions concealed from the public service. The Council leader knows that containment also obstructs an external incursion and that several unexplained successes were elven operations.
-
-    Other Council personnel receive the accurate but incomplete brief that they are containing resonance anomalies caused by the industrial accident.
-
-    The outgoing Council leader personally briefs a successor on the arrangement. Elven representatives hold veto power over the choice and have exercised it at least once.
-  PROSE
-  prose <<~PROSE, section: :implications, heading: "The Cultural Sacrifice", dm: true
-    The Redaction left the broad public history and removed personal connections, community ties, and individual contributions. Elven children in the hidden habs learn about the civilization their grandparents built and left. They study ancestral resonance techniques that continue in public schools without knowledge of the living source.
-
-    Elven leadership chose secrecy and preparation because it considers a visible civilization vulnerable to the Adversary. Hidden-hab councils continue to enforce that policy while some residents and the Dissident's sympathizers oppose it.
+  prose <<~PROSE, section: :tensions, heading: "Inside the Concealment"
+    Hidden-hab councils still enforce concealment. Not every elf agrees. Some regard the Dissident's teaching as proof that hiding was wrong, some keep ties to families and friends outside, and a few would end the concealment tomorrow if they could persuade anyone to follow. Their leaders answer that a visible civilization is exactly what the False Form destroys.
   PROSE
 
   cue "A seller calls the machine elven engineering and adds the claim to the asking price; the buyer looks for a ring-era maker's mark or an archive line that would support it."

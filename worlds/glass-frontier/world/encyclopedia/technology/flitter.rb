@@ -7,6 +7,7 @@ encyclopedia :flitter do
   capacity "One to six passengers, or an equivalent light cargo load"
   topics :transport, :resonance, :"kinetic-freq", :surface, :orbital, :household, :subject_journeys_trade
   prevalence :common
+  log "2026-09-23 — Restated the in-flight weight limit positively and replaced a cue and two variations copied from the prose."
   available_globally
 
   descriptive_identity(
@@ -33,7 +34,7 @@ encyclopedia :flitter do
   prose <<~PROSE, section: :mechanics, heading: "Cabin and Cradle"
     The smallest flitters are a seat, weather shell, luggage box, and kinetic array held in a rigid cradle. Larger models have paired benches, a separate cargo compartment, pressure seals, and enough independent air for a surface-to-orbit climb. The cradle keeps the array, landing feet, and passenger mass in a known relationship so the control system can redirect motion without twisting the hull around its occupants.
 
-    A flitter does not remain weightless in flight. Its array reduces or redirects selected opposing forces while the cradle carries every force the operator chooses to leave alone. Passengers still feel turns, climbs, and a poor landing. Cargo is strapped against those expected loads, and changing seats after departure can move the balance beyond what an older craft corrects cleanly.
+    Passengers keep their full weight in flight. The array reduces or redirects selected opposing forces while the cradle carries every force the operator chooses to leave alone. Passengers still feel turns, climbs, and a poor landing. Cargo is strapped against those expected loads, and changing seats after departure can move the balance beyond what an older craft corrects cleanly.
 
     Most models can fly themselves along registered routes. They read local beacons, compare their field with a hull-mounted tuning compass, and refuse a leg when the two disagree beyond the maker's tolerance. Manual controls allow a pilot to leave the route or bring a damaged craft down. Fleet operators still require human inspection because an obedient craft can repeat a bad reading all day.
   PROSE
@@ -55,10 +56,10 @@ encyclopedia :flitter do
   PROSE
 
   cue "In a depleted field a flitter descends on stored charge and then waits for the local gradient to recover. Passengers end up beside an undamaged craft whose pilot cannot name a departure time, and the only way onward is another system."
-  cue "Most carry two to six people in a compact cabin beneath a ringglass drive frame."
+  cue "A cabin no bigger than a garden shed drops into its berth frame at the market pad, and four passengers stand holding their bags while the ring of pad lights flickers down to a single color."
   affordance "Order a flitter onto a leg where the local beacons and its hull #{encyclopedia_ref :tuning_compass, "tuning compass"} disagree beyond tolerance and it refuses to fly. Someone has to take manual control and own the departure from the registered route, or the trip waits for a better reading."
   pressure "A flitter that has just landed sits in its berth frame until the pad lights fall together and the residual kinetic pull has drained into it. Reaching into the cabin before that transfers the last correction into whatever is touched: a case, a loading arm, or the person holding it."
-  variation "Steppe craft carry broad feet and detachable skids for routes whose marked ground has moved."
-  variation "Shower-route flitters fold pale catch cloth over vulnerable joints."
+  variation "Municipal fleets fly identical plain cabins with a department number stenciled on the shell; family carriers fit cushions, cup racks and the family name painted across the door."
+  variation "Freight shells swap the cabin for a locking box and fly the night slots when the pads are quiet; hospital pools keep a stretcher-width cabin with its own air and a standing claim on the first free berth."
 
 end

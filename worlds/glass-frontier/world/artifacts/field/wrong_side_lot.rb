@@ -19,8 +19,8 @@ resource :wrong_side_lot do
     Each grain stores concentrated resonance across an unstable range of frequencies. Controlled release requires narrow-bandwidth skill. An uncontrolled release is disruptive at minimum and catastrophic at small scale.
   PROSE
 
-  prose <<~PROSE, section: :truth, heading: "The Lot's Source", dm: true
-    The lot is physical residue of the #{ref :the_false_form, "False Form"}'s influence: fragments of a geometry that cannot close, crystallized into matter that nonetheless persists.
+  prose <<~PROSE, section: :origin, heading: "The Lot's Source"
+    Like all duskgrain, the lot is physical residue of the #{ref :the_false_form, "False Form"}'s pressure: fragments of a geometry that cannot close, crystallized into matter that nonetheless persists. The dealers who move it know only that it came from behind a cordon.
   PROSE
 
   gm_note :appears, "The lot's legality turns on where it was dug rather than on the grain itself: the Accord permits the substance and cordons the ground it came from."
@@ -36,10 +36,10 @@ relate :rel_coremark_supplies_wrong_side_lot, :supplies, :coremark, :wrong_side_
   prose "#{ref :coremark, "Coremark"} moves #{ref :wrong_side_lot, "the Wrong-Side Lot"} from its cordoned source into black-market trade."
 end
 
-relate :rel_wrong_side_lot_derived_from_the_false_form, :derived_from, :wrong_side_lot, :the_false_form, dm: true do
+relate :rel_wrong_side_lot_derived_from_the_false_form, :derived_from, :wrong_side_lot, :the_false_form do
   prose "The lot is frozen #{ref :the_false_form, "False Form"} — fragments of a geometry that cannot close, crystallized into matter that nonetheless persists."
 end
 
-relate :rel_the_false_form_caused_wrong_side_lot, :caused, :the_false_form, :wrong_side_lot, dm: true do
+relate :rel_the_false_form_caused_wrong_side_lot, :caused, :the_false_form, :wrong_side_lot do
   prose "The Wrong-Side Lot is the False Form made matter: crystallized fragments of the figure that will not close."
 end
