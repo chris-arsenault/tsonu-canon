@@ -1,11 +1,12 @@
 artifact :mera_blue_jar do
   tags :subject_hab_life
-  name "Mera Blue Jar"
+  name "Mera Render Jar"
   summary "Graft-keeping jar used by the growers of Mera, Olven and Seren."
   subkind :artifact
   status :complete
+  log "2026-09-23 — Renamed Mera Blue Jar to Mera Render Jar, after the garden habs' graft wax, in place of a colour word."
   prominence :marginal
-  veiled "The Mera Blue Jar keeps one graft alive through a failed harvest by feeding it stored root heat."
+  veiled "The Mera Render Jar keeps one graft alive through a failed harvest by feeding it stored root heat."
 end
 
 relate :rel_mera_blue_jar_at_mera, :operates_in, :mera_blue_jar, :mera

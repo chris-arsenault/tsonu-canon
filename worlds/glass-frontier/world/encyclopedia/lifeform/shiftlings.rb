@@ -1,6 +1,6 @@
-encyclopedia :crossers do
-  name "Crossers"
-  summary "Crossers are the animal populations whose nests, feeding grounds, or travel routes pass through rooms moved by displacement. Threshold-nesters hold to stable seams, draft-followers leave before a chamber shifts, and shift-riders reappear through sequences of rooms that surveyors cannot reproduce."
+encyclopedia :shiftlings do
+  name "Shiftlings"
+  summary "Shiftlings are the animal populations whose nests, feeding grounds, or travel routes pass through rooms moved by displacement. Threshold-nesters hold to stable seams, draft-followers leave before a chamber shifts, and shift-riders reappear through sequences of rooms that surveyors plot only after the animals have travelled them."
   kind :lifeform
   subkind :ecological_group
   status :complete
@@ -13,6 +13,7 @@ encyclopedia :crossers do
   function "Nest density, coordinated departures, and repeated travel routes give residents observable evidence of how a zone is moving"
   resonance_relation "Pressure and airflow account for the departures of draft-followers; shift-riders keep repeated routes through nonadjacent rooms that survey instruments have yet to predict"
   log "2026-09-23 — Put the animals themselves into the entry, with bodies, habits and one famous marked runner, and gave the households, wardens and couriers who live beside them their own stakes."
+  log "2026-09-23 — Renamed Crossers to Shiftlings; the wardens' word joins the room shift these animals live by to the -ling of the cableways' latchlings."
 
   descriptive_identity(
     appearance: "Three bodies recur in the wardens' lists: fist-sized, blunt-faced " \
@@ -37,7 +38,7 @@ encyclopedia :crossers do
   )
 
   prose <<~PROSE
-    Zone wardens call animals whose ordinary lives cross moving rooms *crossers*. Some descend from stock caught inside the first Bloom Zones in 2378; others arrived later through new shifts. The word joins unrelated lineages by the way they live. A wall-nester, a service-gap runner and a doorway glider may share no ancestry and still fill the same page of a warden's survey.
+    Zone wardens call animals whose ordinary lives cross moving rooms *shiftlings*, after the room shifts they live by, the way cable crews call their rigging animals latchlings. Some descend from stock caught inside the first Bloom Zones in 2378; others arrived later through new shifts. The word joins unrelated lineages by the way they live. A wall-nester, a service-gap runner and a doorway glider may share no ancestry and still fill the same page of a warden's survey.
 
     The wall-nesters are the ones residents know best. They are fist-sized and blunt-faced, with grey felted fur, and they pack door frames, wall junctions and old seams with chewed insulation, hair and seed husk. A seam that has held its position through several shifts collects nests year after year, and a dense old nest marks a doorway residents trust. Children in zone settlements learn to put an ear to a frame and listen for the colony's chirring before going through.
 

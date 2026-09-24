@@ -1,11 +1,12 @@
 creature :the_threshold_brood do
   tags :subject_hab_life
   name "The Threshold Brood"
-  summary "Shift-riding crosser population with nests at Xyloathax, Eleven, Lung Three and Latchhouse."
+  summary "Shift-riding shiftling population with nests at Xyloathax, Eleven, Lung Three and Latchhouse."
   subkind :creature
   status :complete
+  log "2026-09-23 — Followed the rename of Crossers to Shiftlings."
   prominence :marginal
-  type_of :crossers
+  type_of :shiftlings
   veiled "The Threshold Brood nests across Xyloathax, Eleven, Lung Three, and Third Latch, reaching each through room shifts surveyors cannot repeat."
 end
 

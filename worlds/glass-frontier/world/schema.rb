@@ -432,6 +432,16 @@ naming_lexicon do
        use: "Use for the fish, its salted catch and its pressed lamp oil; ammel is also the plural.",
        examples: ["ammel shoals", "salted ammel", "ammel oil"],
        boundary: "This one fish and its products, not every Korvathi catch or every lamp oil."
+  word :aulm,
+       meaning: "The ring's surviving cultivated sanitation animals, which graze refuse and sealant along marker-painted corridor circuits; hab speech kept the first syllable of the elven register word.",
+       use: "Use for the animal, singular and plural, and for the circuit it walks; a circuit without living stock is posted as bare.",
+       examples: ["an aulm", "the aulm of Carom", "aulm route"],
+       boundary: "These ring-era sanitation animals only, not vent crawlers, other service organisms, or any cleaning crew."
+  word :shiftling,
+       meaning: "Any animal whose nest, feeding ground or travel route passes through rooms moved by displacement; zone wardens' word, formed on the pattern of latchling.",
+       use: "Use for the ecological group and its members: threshold-nesters, draft-followers and shift-riders.",
+       examples: ["Shiftlings", "a shift-riding shiftling", "shiftling nests"],
+       boundary: "Animals living with displacement shifts; not every animal in a Bloom Zone, and not people."
   word :irul,
        meaning: "Korvathi soft-bodied swimmers with reflective combed fins and dark red stomachs concealing luminous prey.",
        use: "Use for the animal and its young or adult groups; irul is also the plural.",
